@@ -1,0 +1,24 @@
+.idea/*
+.DS_Store
+.jekyll-metadata
+npm-debug.log
+nbproject/*
+node_modules/*
+.ruby-version
+.vscode/*
+.vendor/*
+vendor/*
+
+### General ###
+*.lock
+
+### Jekyll ###
+_site/*
+
+### Sass ###
+.sass-cache/*
+
+### Windows ###
+# Windows image file caches
+Thumbs.db
+ehthumbs.db

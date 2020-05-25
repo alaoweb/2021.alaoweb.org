@@ -1,0 +1,345 @@
+#--- Base Config ---#
+#baseurl: "/conf" # LOCAL DEVELOPMENT
+baseurl: "https://alaoweb.github.io/2020.alaoweb.org/" # GITHUB DEPLOYMENT
+#baseurl: "https://2020.alaoweb.org" # PRODUCTION DEPLOYMENT
+#---------------------------------------------------------------------------
+
+#Build-Settings
+markdown: kramdown
+permalink: pretty
+exclude: ['README.md', 'README.md.orig', 'LICENSE.txt', 'CNAME']
+url: "https://alaoweb.github.io/2020.alaoweb.org/"
+gems:
+- jekyll-sitemap
+safe: false
+
+#Google-Analytics
+googleAnalyticsTrackingId: "UA-**********"
+googleAnalyticsSiteUrl: "2020.alaoweb.org"
+siteVerification: ""
+
+#Head
+metaKeywords: "event, alao, academic, libraries, ohio"
+twitterAccount: "@ALAOorg"
+socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
+socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
+
+#Organizer-Info
+organizerName: "ALAO"
+organizerAlternateName: "Academic Library Association of Ohio"
+organizerDescription: "ALAO of the Ohio chapter of ACRL"
+organizerEmail: "2020-cpc@alaoweb.org"
+organizerLogo: "/img/seo/organizer-logo.svg"
+organizerLink: "https://www.alaoweb.org/"
+
+#Site-Settings
+title: "ALAO Virtual Conference 2020"
+email: "2020-cpc@alaoweb.org"
+description: "Virtual Conference"
+permalink: "/posters/:title"
+#############################################################################
+
+
+# -------------------------------------------------------------
+# About Block
+# -------------------------------------------------------------
+aboutTitle: "ALAO Virtual Conference"
+aboutBlock:
+ - {title: "Sessions", image: "sessions.jpg", text: "Conference Description!" }
+ - {title: "Pre-Conference", image: "preconference.jpg", text: "Pre-Conference Description!" }
+ - {title: "Posters", image: "posters.jpg", text: "Posters Description!" }
+
+# -------------------------------------------------------------
+# Call For Proposals
+# -------------------------------------------------------------
+#c4pUrl: ""
+#c4sponsorsUrl: "/assets/prospectus.pdf"
+
+# -------------------------------------------------------------
+# Code of Conduct - Contact Info
+# -------------------------------------------------------------
+codContactName: Derek C. Zoladz
+codContactEmail: derekz@ohionet.org
+
+# -------------------------------------------------------------
+# Footer
+# -------------------------------------------------------------
+conferenceYear: 2020
+
+socialLinks:
+ - {link: "https://twitter.com/ALAOorg", icon: "twitter"}
+ - {link: "https://www.facebook.com/ALAOorg", icon: "facebook"}
+
+footerBlocks:
+ -
+  title: "Links"
+  links:
+   - {link: "https://www.alaoweb.org", text: "ALAO Website"}
+ -
+  title: "Contacts"
+  links:
+   - {link: "mailto:2020-cpc@alaoweb.org", text: "2020-cpc@alaoweb.org"}
+ -
+  title: "Code of Conduct"
+  links:
+   - {permalink: "/cod/", text: "Code of Conduct"}
+
+# -------------------------------------------------------------
+# Hero Block - Main Section
+# -------------------------------------------------------------
+heroImage: "field.jpg"
+heroTitle: "ALAO <typeout> 2020"
+eventDate: "Virtual Conference: Oct 26 - Oct 30, 2020"
+typeoutEnable: false
+typeoutTextValues: '"", "Resilient"'
+typeoutFallback: "Resilience"
+#heroButtons:
+# - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+# - {permalink: "/#tickets", text: "Buy tickets"}
+
+# -------------------------------------------------------------
+# Latest News Block
+# -------------------------------------------------------------
+latestNewsEnable: false
+latestNewsTitle: "Latest news"
+
+# -------------------------------------------------------------
+# Location Block
+# -------------------------------------------------------------
+locationBlockEnable: false
+locationBlockTitle: "Location"
+eventLocationName: "Nationwide Hotel and Conference Center"
+eventLocationLink: "https://www.nwhotelandconferencecenter.com/"
+eventStreetAddress: "100 Green Meadows Drive"
+eventAddressLocality: "Columbus"
+eventAddressLocalityRegion: "Ohio"
+eventPostalCode: "43035"
+eventAddressCountry: "United States"
+eventStartTime: "2020-10-26T10:00" # 2020-10-26T10:00
+eventDoorTime: "09:00"
+eventEndTime: "2020-10-28T17:00"
+eventPlaceCoordinates: "40.154830, -83.016290"
+mapCenterCoordinates: "40.154830, -83.016290"
+mapMobileCenterCoordinates: "40.154830, -83.016290"
+
+# -------------------------------------------------------------
+# Logistics Find Way Block
+# -------------------------------------------------------------
+findWayTitle: "Find your way here"
+findWayDistance: "Distance"
+findWayDriving: "DRIVING"
+findWayWalking: "WALKING"
+findWayBicycling: "BICYCLING"
+findWayTransit: "TRANSIT"
+findWayFindFlight: "Find Flight"
+logisticsMapCenterCoordinates: "40.154830, -83.016290"
+logisticsMapMobileCenterCoordinates: "40.154830, -83.016290"
+logisticsMapAutoDirections: false
+
+# Logistics Direction Details Block
+directionDetailsImage: "columbus-skyline.jpg"
+directionDetailsTitle: "Get around Columbus"
+directionDetailsCards:
+ - {title: "From the Airport", information: 'Airport is just outside of the city center. The conference center is easily reachable by a 20 minute car ride. More information is available at <a href="https://flycolumbus.com/">airport website</a>.'}
+ - {title: "Public Transit", information: 'Bus route 102 travels from city center to Nationwide Hotel & Conference Center in about 1 hour. More information on the <a href="https://www.cota.com/">COTA website</a>'}
+ - {title: "Hotels", information: 'Columbus has lots of great accommodations. Nationwide also has an <a href="https://www.nwhotelandconferencecenter.com/">on-site hotel</a> with five-star luxury and the business-class services.'}
+directionDetailsWideCards:
+ -
+  title: "THINGS TO DO IN AND AROUND COLUMBUS"
+  subCards:
+   -
+    title: "Neighborhoods"
+    links:
+     - {link: "https://shortnorth.org/", text: "Short North"}
+     - {link: "https://germanvillage.com/", text: "German Village"}
+   -
+    title: "Art & Culture"
+    links:
+     - {link: "https://wexarts.org/", text: "Wexner Center for the Arts"}
+     - {link: "https://www.columbusmuseum.org/", text: "Columbus Museum of Art"}
+     - {link: "http://www.thurberhouse.org/", text: "Thurber House"}
+   -
+    title: "Entertainment & Shopping"
+    links:
+     - {link: "https://polarisfashionplace.com/", text: "Polaris Fashion Place"}
+     - {link: "https://www.starlanespolaris.com/", text: "Star Lanes Bowling"}
+
+# -------------------------------------------------------------
+# Navigation
+# -------------------------------------------------------------
+navigationLinks:
+ - {permalink: "/", text: "Home"}
+ - {permalink: "/schedule/", text: "Schedule"}
+ - {permalink: "/speakers/", text: "Speakers"}
+ - {permalink: "/posters/", text: "Posters"}
+ - {permalink: "/preconference/", text: "Preconference"}
+ - {permalink: "/team/", text: "Team"}
+# - {permalink: "/lodging/", text: "Lodging"}
+
+#bottomNavigationLinks:
+# - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+#rightNavigationButtons:
+# - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+
+# -------------------------------------------------------------
+# Partners Block
+# -------------------------------------------------------------
+partnersEnable: true
+organizersTitle: "Organizers"
+partnersTitle: "Partners"
+partnersC4sponsorsButton: "Become a sponsor"
+
+# -------------------------------------------------------------
+# Posters
+# -------------------------------------------------------------
+blogTitle: "POSTER SESSIONS"
+blogCommentsEnabled: false
+discusShortName: ""
+
+# -------------------------------------------------------------
+# Preconference
+# -------------------------------------------------------------
+preconferenceTitle: "Preconference"
+enablePreconference: true
+
+# Preconference About Block
+aboutPreconferenceTitle: "Meet our Speakers"
+preconferenceRows:
+ - {title: "Preconference #1", image: "no-photo-available.jpg", details: "Summary/Description"}
+ - {title: "Preconference #2", image: "no-photo-available.jpg", details: "Summary/Description"}
+
+# Preconference Location Block
+preconferenceLocationBlockTitle: "Location"
+preconferenceLocationName: "Nationwide Hotel & Conference Center"
+preconferenceLocationLink: "https://www.nwhotelandconferencecenter.com/"
+preconferenceStreetAddress: "100 Green Meadows Drive"
+preconferenceAddressLocality: "Lewis Center"
+preconferenceAddressLocalityRegion: "Ohio"
+preconferencePostalCode: "43035"
+preconferenceAddressCountry: "United States"
+preconferenceTimeTitle: "Preconference through"
+preconferenceStartTime: "2020-01-01T10:00"
+preconferenceDoorTime: "09:00"
+preconferenceEndTime: "2020-10-30T00:00"
+viewOnMap: "View on Google Maps"
+preconferencePlaceCoordinates: "40.154830, -83.016290"
+preconferenceMapCenterCoordinates: "40.154830, -83.016290"
+preconferenceMapMobileCenterCoordinates: "40.154830, -83.016290"
+
+# -------------------------------------------------------------
+# Rockstar Speakers Block
+# -------------------------------------------------------------
+rockstarSpeakersEnable: true
+rockstarSpeakersImage: "featured-speakers.jpg"
+rockstarSpeakersCount: 4
+rockstarSpeakersTitle: "Featured Speakers"
+rockstarSpeakersButtonText: "See all speakers"
+
+# -------------------------------------------------------------
+# Speakers List Block
+# -------------------------------------------------------------
+showSessions: true
+
+# -------------------------------------------------------------
+# Statistic Block
+# -------------------------------------------------------------
+statisticBlockEnable: false
+statisticBlockImage: "data.jpg"
+statisticBlock:
+ - {count: "200", specialCharacter: "+", info: "attendees", detail: "on average"}
+ - {count: "20", specialCharacter: "+", info: "hours", detail: "of high-quality content"}
+ - {count: "20", specialCharacter: "+", info: "speakers", detail: "from ohio and beyond"}
+ - {count: "2", specialCharacter: "", info: "parallel tracks", detail: "plus two pre-conferences"}
+
+# -------------------------------------------------------------
+# Subscribe Block
+# -------------------------------------------------------------
+subscribeEnable: true
+subscribeImage: "speak-up.jpg"
+subscribeTitle: "Subscribe to ALAO Mailing List"
+subscribeAction: ""
+subscribeInfo: "Stay Informed of ALAO Events!"
+
+# -------------------------------------------------------------
+# Team Block
+# -------------------------------------------------------------
+teamBlockTitle: "About us"
+aboutUs: "The Academic Library Association of Ohio (ALAO) is a chapter of the Association of College and Research Libraries (ACRL). ALAO exists to develop, promote, and improve library and information services in Ohio’s higher education community, to advance the interests of academic librarianship and the personnel of academic libraries, and to provide leadership and advocacy for the educational and policy concerns of the academic library community in Ohio."
+
+# -------------------------------------------------------------
+# Tickets Block
+# -------------------------------------------------------------
+ticketsHorizontalEnable: false
+ticketsVerticalEnable: true
+ticketsTitle: "Registration"
+ticketsInfo: "Conference registration provides access to all keynotes, pre-recorded sessions, and posters. Pre-conference sessions are ticketed separately during registration"
+ticketsOffers:
+ -
+  name: "Early Bird"
+  price: "50"
+  priceCurrency: "USD"
+  ticketsNumber: "100"
+  ribbon: "-25%"
+  featured: true
+  buyButtonLink: ""
+  buyButtonText: "Buy Now"
+  additionalInfo: ""
+  ticketContentList: ["Keynotes", "Pre-recorded Sessions", "Posters"]
+  validFrom: "2020-01-01T10:00"
+  validThrough: "2020-10-30T23:59"
+  disabled: false
+  soldOut: false
+  soldOutText: "Sold Out"
+ -
+  name: "Regular"
+  price: "50"
+  priceCurrency: "USD"
+  ticketsNumber: "100"
+  ribbon:
+  featured:
+  buyButtonLink: ""
+  buyButtonText: "Buy Now"
+  additionalInfo: ""
+  ticketContentList: ["Keynotes", "Pre-recorded Sessions", "Posters"]
+  validFrom: "2020-01-01T00:00"
+  validThrough: "2020-10-30T23:59"
+  disabled: true
+  soldOut: false
+  soldOutText: "Sold Out"
+ -
+  name: "Student"
+  price: "30"
+  priceCurrency: "USD"
+  ticketsNumber: "50"
+  ribbon:
+  featured:
+  buyButtonLink: ""
+  buyButtonText: "Buy Now"
+  additionalInfo: "Requires a valid student ID."
+  ticketContentList: ["Keynotes", "Pre-recorded Sessions", "Posters"]
+  validFrom: "2020-01-01T10:00"
+  validThrough: "2020-10-30T23:59"
+  disabled: true
+  soldOut: false
+  soldOutText: "Sold Out"
+
+# -------------------------------------------------------------
+# Tweets Feed Block
+# -------------------------------------------------------------
+tweetsFeedEnable: true
+tweetsFeedImage: "katy.jpg"
+tweetsFeedTitle: "What's Up?"
+twitterHashTag: "alao2020"
+twitterFeed: "https://twitter.com/ALAOorg"
+
+# -------------------------------------------------------------
+# Venue Block
+# -------------------------------------------------------------
+venueBlockEnable: false
+venueBlockTitle: "Venue"
+venueBigImage: "venue_0.jpg"
+venueSmallImage1: "venue_1.jpg"
+venueSmallImage2: "venue_2.jpg"
+venueSmallImage3: "venue_3.jpg"
+venueTitle: "Nationwide Hotel & Conference Center"
+venueFeatures: ["Free Parking", "Wi-Fi Accessible Property-wide"]

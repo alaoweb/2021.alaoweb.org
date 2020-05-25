@@ -1,0 +1,31 @@
+$preconference-map-height: 450px;
+.preconference-location {
+	padding: 20px 50px;
+	height: $preconference-map-height;
+	.canvas-map {
+		height: $preconference-map-height + 30px;
+	}
+	.location-description {
+		font-size: 15px;
+	    padding: 18px 16px 22px;
+	    overflow: hidden;
+		box-shadow: 1px 1px 2px rgba(0, 0, 0, .2);
+	}
+	.location-name {
+		margin-top: 0;
+		font-size: 18px;
+		font-weight: $bold;
+	}
+	.location-address {
+		margin: 0;
+	}
+	.preconference-time {
+		time {
+			color: $main-color;
+		}
+	}
+	.view-on-map {
+		margin-top: 8px;
+		display: block;
+	}
+}

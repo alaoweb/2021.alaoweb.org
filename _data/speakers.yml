@@ -1,0 +1,28 @@
+- 
+  id: 1
+  name: "Derek"
+  surname: "Zoladz"
+  company: "OhioNET"
+  title: "Library Systems Analyst"
+  bio: "Strong advocate for the use of open source technologies in day-to-day library operations. Heavily involved with ILS system management, data (and metadata) wrangling, server administration, process automation, and a host of other technical odds-and-ends for the Consortium of Ohio Libraries (COOL), Ohio Private Academic Libraries (OPAL), and the Private Academic Library Network of Indiana (PALNI)."
+  thumbnailUrl: derek_zoladz.jpg
+  rockstar: true
+  ribbon:
+    - {abbr: "TEDSIG", title: "TEDSIG Co-Chair", url: "https://www.alaoweb.org/igs/tedsig/index.html"}
+  social:
+    - {name: "twitter", link: "https://twitter.com/derek_zoladz"}
+    - {name: "github", link: "https://github.com/dzoladz"}
+    - {name: "site", link: "https://www.derekzoladz.com/"}
+
+-
+  id: 2
+  name: "Nancy S."
+  surname: "Kirkpatrick"
+  company: "OhioNET"
+  title: "Executive Director/CEO"
+  bio: ""
+  thumbnailUrl: no-photo-available.jpg
+  rockstar: true
+  social:
+    - {name: "twitter", link: "https://twitter.com/ohionet"}
+    - {name: "site", link: "https://www.ohionet.org/"}

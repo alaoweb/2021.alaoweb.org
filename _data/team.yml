@@ -1,0 +1,26 @@
+- 
+  id: 0
+  name: "Derek"
+  surname: "Zoladz"
+  title: "Lead - Conference Website"
+  thumbnailUrl: no-photo-available.jpg
+  team: true
+  ribbon: 
+    - {abbr: "OhioNET", title: "Library Systems Analyst"}
+  social:
+    - {name: "twitter", link: "https://twitter.com/derek_zoladz"}
+    - {name: "github", link: "https://github.com/dzoladz"}
+    - {name: "site", link: "https://www.derekzoladz.com/"}
+- 
+  id: 1
+  name: ""
+  surname: ""
+  title: ""
+  thumbnailUrl: no-photo-available.jpg
+  team: true
+  ribbon:
+    - {abbr: "", title: ""}
+  social:
+    - {name: "", link: ""}
+    - {name: "", link: ""}
+    - {name: "", link: ""}
