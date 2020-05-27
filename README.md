@@ -39,10 +39,10 @@ The following example uses "issue#3" as a subject. That's the branch name and is
   * ```git pull origin master```
 3. Start up jekyll
   * ```bundle exec jekyll serve```
-  * open [http://localhost:4000/conf](http://localhost:4000/conf) in your browser
+  * open [http://localhost:4000](http://localhost:4000) in your browser
 4. Create a new branch for your changes
   * ```git checkout -b issue#3```
-5. Make changes, check [http://localhost:4000/conf](http://localhost:4000/conf) to see your changes live
+5. Make changes, check [http://localhost:4000](http://localhost:4000) to see your changes live
   * We strongly recommend performing an accessibility audit (e.g. [with Chrome](https://developers.google.com/web/tools/chrome-devtools/accessibility/reference)) if you've made structural or stylistic changes (not adding text content or additional posts)
 6. Add your changed files
   * ```git add {changed-files}```
@@ -65,5 +65,5 @@ The following example uses "issue#3" as a subject. That's the branch name and is
 3. Switch to the branch in question
   * ```git checkout BRANCHNAME```
 4. ```bundle exec jekyll serve```
-5. Check [http://localhost:4000/conf](http://localhost:4000/conf) that nothing is broken
+5. Check [http://localhost:4000](http://localhost:4000) that nothing is broken
 6. Merge that branch into master (easiest to manage on the GitHub site)
