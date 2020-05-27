@@ -16,7 +16,7 @@ vendor/*
 _site/*
 
 ### Sass ###
-.sass-cache/*
+_sass/.sass-cache/*
 
 ### Windows ###
 # Windows image file caches
