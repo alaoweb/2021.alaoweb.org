@@ -1,15 +1,9 @@
-#--- Base Config ---#
-#baseurl: "/conf" # LOCAL DEVELOPMENT
-baseurl: "https://alaoweb.github.io/2020.alaoweb.org/" # GITHUB DEPLOYMENT
-#baseurl: "https://2020.alaoweb.org" # PRODUCTION DEPLOYMENT
-#---------------------------------------------------------------------------
-
 #Build-Settings
 markdown: kramdown
 permalink: pretty
 exclude: ['README.md', 'README.md.orig', 'LICENSE.txt', 'CNAME']
 url: "https://alaoweb.github.io/2020.alaoweb.org/"
-gems:
+plugins:
 - jekyll-sitemap
 safe: false
 
