@@ -203,6 +203,7 @@ preconferenceRows:
  - {title: "Preconference #2", image: "no-photo-available.jpg", details: "Summary/Description"}
 
 # Preconference Location Block
+preconferenceLocationEnable: True
 preconferenceLocationBlockTitle: "Location"
 preconferenceLocationName: "Nationwide Hotel & Conference Center"
 preconferenceLocationLink: "https://www.nwhotelandconferencecenter.com/"
