@@ -198,9 +198,13 @@ enablePreconference: true
 
 # Preconference About Block
 aboutPreconferenceTitle: "Meet our Speakers"
+aboutPreconferenceTitleShow: False
 preconferenceRows:
- - {title: "Preconference #1", image: "no-photo-available.jpg", details: "Summary/Description"}
- - {title: "Preconference #2", image: "no-photo-available.jpg", details: "Summary/Description"}
+ - {title: "Renewal: Promoting Civility and Self-Care in (Academic) Libraries", image: "kaetrena_kendrick.jpg", details: "The Renewal Seminar offers a pathway for individuals to increase their awareness of the associated
+frameworks, development, outcomes, and emerging countermeasures of low morale, which is defined
+as repeated and protracted exposure to workplace abuse and neglect (Kendrick, 2017). Learning more
+about these concerns can help promote authentic civility and collegiality in North American libraries and
+reduce the factors that can cause employee mistreatment and misconduct in library workplaces."}
 
 # Preconference Location Block
 preconferenceLocationEnable: True
