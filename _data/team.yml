@@ -13,14 +13,10 @@
     - {name: "site", link: "https://www.derekzoladz.com/"}
 - 
   id: 1
-  name: ""
-  surname: ""
-  title: ""
-  thumbnailUrl: no-photo-available.jpg
+  name: "Zach"
+  surname: "Walton"
+  title: "Reference & Instruction Librarian"
+  thumbnailUrl: zach_walton.jpg
   team: true
   ribbon:
-    - {abbr: "", title: ""}
-  social:
-    - {name: "", link: ""}
-    - {name: "", link: ""}
-    - {name: "", link: ""}
+    - {abbr: "The Ohio State University at Lima", title: "Reference & Instruction Librarian"}
