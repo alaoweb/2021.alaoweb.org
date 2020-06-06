@@ -29,11 +29,14 @@
   outline: 0;
 
   // When fading in the modal, animate it to slide down
+  &.fade { opacity:(1); }
   &.fade .modal-dialog {
     @include translate(0, -25%);
     @include transition-transform(0.3s ease-out);
   }
-  &.in .modal-dialog { @include translate(0, 0) }
+  &.show .modal-dialog {
+    @include translate(0, 0);
+  }
 }
 .modal-open .modal {
   overflow-x: hidden;
@@ -69,7 +72,7 @@
   background-color: $modal-backdrop-bg;
   // Fade for backdrop
   &.fade { @include opacity(0); }
-  &.in { @include opacity($modal-backdrop-opacity); }
+  &.show { @include opacity($modal-backdrop-opacity); }
 }
 
 // Modal header
