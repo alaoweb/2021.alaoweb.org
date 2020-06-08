@@ -1,4 +1,4 @@
-<!-- Begin Post-->
+<!-- Begin Poster-->
 <section id="post-section" class="post-section">
     <div class="content-wrapper text-left">
         <div class="col-md-10 col-sm-10 col-lg-offset-2 col-md-offset-2 col-sm-offset-1">
@@ -38,8 +38,17 @@
                         </div>
                     </div>
                     {% endif %}
-                    
-                    <div class="post-body">{{ content }}</div>
+
+                    <div class="post-body">
+                        <div class="poster-title">{{ page.title }}</div>
+                        <div class="poster-presenter"><span class="label">Presenter:</span> <br/>{{ page.presenter }}</div>
+                        <div class="poster-description"><span class="label">Poster Description:</span> <br/>{{ page.description }}</div>
+                        <div class="poster-video"><span class="label">Poster:</span></div>
+                        <div class="theme-video embed-responsive embed-responsive-16by9">
+						    <iframe class="embed-responsive-item" src="{{ page.video }}"></iframe>
+						</div>
+                        <div class="poster-presenter-about"><span class="label">About the Presenter:</span> <br/>{{ page.presenter_bio }}</div>
+                    </div>
 
                     <div id="page-navigation" class="page-navigation">
                         <div class="next col-xs-6">
@@ -56,7 +65,7 @@
 
                     {% if include.isStaticPost == false %}
                         <div class="comments">
-                            {% if site.blogCommentsEnabled %} {% include disqus-comments.html %} {% endif %}
+                            {% if site.postersCommentsEnabled %} {% include disqus-comments.html %} {% endif %}
                         </div>
                     {% endif %}
 
@@ -66,4 +75,4 @@
         </div>
     </div>
 </section>
-<!-- End Post -->
+<!-- End Poster -->
