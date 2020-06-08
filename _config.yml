@@ -178,7 +178,7 @@ navigationLinks:
 # -------------------------------------------------------------
 # Partners Block
 # -------------------------------------------------------------
-partnersEnable: true
+partnersEnable: True
 organizersTitle: "Organizers"
 partnersTitle: "Partners"
 partnersC4sponsorsButton: "Become a sponsor"
@@ -186,15 +186,15 @@ partnersC4sponsorsButton: "Become a sponsor"
 # -------------------------------------------------------------
 # Posters
 # -------------------------------------------------------------
-blogTitle: "POSTER SESSIONS"
-blogCommentsEnabled: false
-discusShortName: ""
+postersTitle: "POSTER SESSIONS"
+postersCommentsEnabled: false
+discusShortName: "derekz"
 
 # -------------------------------------------------------------
 # Preconference
 # -------------------------------------------------------------
 preconferenceTitle: "Preconference"
-enablePreconference: true
+enablePreconference: True
 
 # Preconference About Block
 aboutPreconferenceTitle: "Meet our Speakers"

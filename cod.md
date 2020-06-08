@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: cod
 title: ALAO Code of Conduct
 permalink: /cod/
-isStaticPost: true
+image: cod.png
 ---
 
 __Conduct Statement__
@@ -16,5 +16,3 @@ __Contact__
 If at any point during the event you feel uncomfortable or harassed, or if you witness any violations of these policies, please reach out to:
 
 - __{{ site.codContactName }}__, _{{ site.codContactEmail }}_
-
-<img class="img-responsive feature-image" src="{{ site.baseurl }}/img/posts/test3.jpg" style="display:none">
