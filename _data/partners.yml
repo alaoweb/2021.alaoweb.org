@@ -5,7 +5,8 @@
 - 
   group: "With support from"
   elements: 
-    - {name: "EBSCO", description: "Improving research around the world", link: "https://www.ebsco.com", imageUrl: "ebsco.png", width: "120px"}
+    - {name: "Emery Pratt", description: "The nicest people in the book business", link: "https://emery-pratt.com/", imageUrl: "emery_pratt.png"}
+    #- {name: "EBSCO", description: "Improving research around the world", link: "https://www.ebsco.com", imageUrl: "ebsco.png", width: "120px"}
 - 
   group: "Information partners"
   elements: 
