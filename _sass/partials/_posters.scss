@@ -48,6 +48,39 @@
         margin: 16px 0;
     }
 }
+.poster-title {
+    display: block;
+    font-weight: $bold;
+    font-size: $h5-font-size;
+    margin: 15px 0 15px;
+}
+.poster-presenter {
+    margin: 15px 0 15px;
+    .label {
+        font-weight: $bold;
+        font-size: $h6-font-size;
+    }
+}
+.poster-video {
+    .label {
+        font-weight: $bold;
+        font-size: $h6-font-size;
+    }
+}
+.poster-description {
+    margin: 15px 0 15px;
+    .label {
+        font-weight: $bold;
+        font-size: $h6-font-size;
+    }
+}
+.poster-presenter-about {
+    margin: 15px 0 15px;
+    .label {
+        font-weight: $bold;
+        font-size: $h6-font-size;
+    }
+}
 .page-navigation {
     margin-bottom: 40px;
     font-weight: $bold;
