@@ -112,3 +112,16 @@ $modal-highlight-color: #212121;
         font-size: 14px;
     }
 }
+.qa-row {
+    height: 40px;
+}
+.qa-info {
+    .qa-button {
+        float: right;
+    }
+    .qa-time {
+        float: right;
+        padding-left: 10px;
+        transform: translateY(50%);
+    }
+}
