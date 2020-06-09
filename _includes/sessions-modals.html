@@ -32,9 +32,9 @@
 							</div>
 							<div class="col-md-4"></div>
 							<div class="col-md-4">
-								{% if session.question-time %}
+								{% if session.question-time and session.question-link %}
 								<div class="qa-info">
-									<div class="btn btn-danger qa-button">Launch Q&A</div>
+									<a href="{{ session.question-link }}" class="btn btn-danger qa-button">Launch Q&A</a>
 									<div class="qa-time">Q&A starts: {{ session.question-time | date: "%b %d %I:%M %p" }}</div>
 								</div>
 								{% endif %}
