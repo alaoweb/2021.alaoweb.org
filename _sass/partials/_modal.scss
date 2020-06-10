@@ -113,7 +113,18 @@ $modal-highlight-color: #212121;
     }
 }
 .qa-row {
-    height: 40px;
+    height: auto; // 40px
+    .theme-handouts {
+        text-transform: uppercase;
+        font-size: 17px;
+        font-weight: $bold;
+        color: $modal-highlight-color;
+    }
+    & .handouts-list {
+        padding: 0;
+        list-style: none;
+        font-size: 14px;
+    }
 }
 .qa-info {
     .qa-button {
