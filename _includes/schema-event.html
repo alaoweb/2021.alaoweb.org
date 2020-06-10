@@ -40,30 +40,30 @@
         // },
         "subEvent" : {
             "@type" : "Event",
-            "name" : "{{ site.hackathonTitle }}",
-            "description": "{{ site.hackathonRows[0].details }}",
+            "name" : "{{ site.preconferenceTitle }}",
+            "description": "{{ site.preconferenceRows[0].details }}",
             "image" : "{{ site.socialImageSrcGooglePlus | prepend: site.baseurl | prepend: site.url }}",
-            "url" : "{{ site.url | append: site.baseurl }}/hackathon/",
-            "startDate" : "{{ site.hackathonStartTime }}",
-            "doorTime" : "{{ site.hackathonDoorTime }}",
-            "endDate" : "{{ site.hackathonEndTime }}",
+            "url" : "{{ site.url | append: site.baseurl }}/preconference/",
+            "startDate" : "{{ site.preconferenceStartTime }}",
+            "doorTime" : "{{ site.preconferenceDoorTime }}",
+            "endDate" : "{{ site.preconferenceEndTime }}",
             "location" : {
                 "@type" : "Place",
-                "name" : "{{ site.hackathonLocationName }}",
-                "sameAs" : "{{ site.hackathonLocationLink }}",
+                "name" : "{{ site.preconferenceLocationName }}",
+                "sameAs" : "{{ site.preconferenceLocationLink }}",
                 "address" : {
                     "@type" : "PostalAddress",
-                    "streetAddress" : "{{ site.hackathonStreetAddress }}",
-                    "addressLocality" : "{{ site.hackathonAddressLocality }}",
-                    "addressRegion" : "{{ site.hackathonAddressLocalityRegion }}",
-                    "postalCode" : "{{ site.hackathonPostalCode }}",
-                    "addressCountry" : "{{ site.hackathonAddressCountry }}"
+                    "streetAddress" : "{{ site.preconferenceStreetAddress }}",
+                    "addressLocality" : "{{ site.preconferenceAddressLocality }}",
+                    "addressRegion" : "{{ site.preconferenceAddressLocalityRegion }}",
+                    "postalCode" : "{{ site.preconferencePostalCode }}",
+                    "addressCountry" : "{{ site.preconferenceAddressCountry }}"
                 },
                 "geo" : {
                     "@type" : "GeoCoordinates",
-                    {% assign hackathonCoordinates = site.hackathonPlaceCoordinates | split:"," %}
-                    "latitude" : "{{ hackathonCoordinates[0] }}",
-                    "longitude" : "{{ hackathonCoordinates[1] }}"
+                    {% assign preconferenceCoordinates = site.preconferencePlaceCoordinates | split:"," %}
+                    "latitude" : "{{ preconferenceCoordinates[0] }}",
+                    "longitude" : "{{ preconferenceCoordinates[1] }}"
                 }
             }
         },
@@ -78,9 +78,9 @@
             "validFrom" : "{{ ticketsOffer.validFrom }}",
             "validThrough" : "{{ ticketsOffer.validThrough }}"
         }{% if forloop.index != forloop.length %},{% endif %}
-        {% endfor %} 
+        {% endfor %}
         ],
-        "performer" : [ 
+        "performer" : [
         {% for speaker in site.data.speakers %}
         {
             "@type" : "Person",
@@ -93,7 +93,7 @@
             },
             "sameAs" : "{{ speaker.social[0].link }}"
         }{% if forloop.index != forloop.length %},{% endif %}
-        {% endfor %}  
+        {% endfor %}
         ],
         "eventStatus" : "EventScheduled",
         "typicalAgeRange" : "16+"
