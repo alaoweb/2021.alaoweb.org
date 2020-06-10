@@ -28,7 +28,7 @@
 							<div class="col-md-4">
 								{% if session.handouts %}
 									<div class="theme-handouts">Session Handouts</div>
-									<ul>
+									<ul class="handouts-list">
 									{% for doc in session.handouts %}
 										<li><a href="/handouts/{{doc.filename}}">{{ doc.title }}</a></li>
 									{% endfor %}
