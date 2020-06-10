@@ -6,6 +6,8 @@
   language: en
   complexity: 'Beginner'
   presentation: 'https://www.example.com'
+  handouts:
+    - { title: Sample Budget, filename: biz-mtg-budget.pdf }
   video: '//www.youtube.com/embed/{replace_with_video_id}'
   question-time: '2020-10-26 10:20:00'
   question-link: 'https://us04web.zoom.us/j/76893733256?pwd=WHFqUkdJSnhBVEtmWE95RGhFSUpadz09'
