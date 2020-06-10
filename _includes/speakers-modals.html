@@ -53,7 +53,7 @@
 			                            {% endfor %}
 			                        </div>
 			                        {% endif %}
-									<p class="about">{{ speaker.bio }}</p>
+									<p class="about">{{ speaker.bio | newline_to_br }}</p>
 									<ul class="social">
 										{% for social in speaker.social %}
 											<li>
