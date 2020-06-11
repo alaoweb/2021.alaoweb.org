@@ -24,9 +24,26 @@
 						</div>
 						{% endif %}
 						<p class="theme-description">{{ session.description }}</p>
-						{% if session.presentation %}
-						<a class="theme-presentation" href="{{ session.presentation }}" title="Presentation" target="_blank">View presentation</a>
-						{% endif %}
+						<div class="row qa-row">
+							<div class="col-md-4">
+								{% if session.handouts %}
+									<div class="theme-handouts">Session Handouts</div>
+									<ul class="handouts-list">
+									{% for doc in session.handouts %}
+										<li><a href="/handouts/{{doc.filename}}">{{ doc.title }}</a></li>
+									{% endfor %}
+									</ul>
+								{% endif %}
+							</div>
+							<div class="col-md-8 qa-info">
+								{% if session.question-time and session.question-link %}
+								<div class="qa-time">Q&A starts: {{ session.question-time | date: "%b %d %I:%M %p" }}</div>
+								<div class="qa-button">
+									<a href="{{ session.question-link }}" class="btn btn-danger">Launch Q&A</a>
+								</div>
+								{% endif %}
+							</div>
+						</div>
 						<hr>
 						<div class="people-details">
 							{% for speaker in site.data.speakers %}
