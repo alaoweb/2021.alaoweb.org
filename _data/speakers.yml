@@ -6,36 +6,58 @@
   title: "Library Systems Analyst"
   bio: "Strong advocate for the use of open source technologies in day-to-day library operations. Heavily involved with ILS system management, data (and metadata) wrangling, server administration, process automation, and a host of other technical odds-and-ends for the Consortium of Ohio Libraries (COOL), Ohio Private Academic Libraries (OPAL), and the Private Academic Library Network of Indiana (PALNI)."
   thumbnailUrl: derek_zoladz.jpg
-  rockstar: true
+  rockstar: false
   ribbon:
     - {abbr: "TEDSIG", title: "TEDSIG Co-Chair", url: "https://www.alaoweb.org/igs/tedsig/index.html"}
   social:
     - {name: "twitter", link: "https://twitter.com/derek_zoladz"}
     - {name: "github", link: "https://github.com/dzoladz"}
     - {name: "site", link: "https://www.derekzoladz.com/"}
-
 -
   id: 2
   name: "Nancy S."
   surname: "Kirkpatrick"
   company: "OhioNET"
   title: "Executive Director/CEO"
-  bio: ""
-  thumbnailUrl: no-photo-available.jpg
+  bio: "Nancy S. Kirkpatrick is the Executive Director and CEO of OhioNET, a multi-type library consortium based in Columbus, OH and she also runs her own consulting business. She previously served as the Associate Director of the Midwest Collaborative for Library Services and was the Director of Library Services at Marian University. Nancy practiced non-profit law before entering librarianship. An ALA Spectrum Scholar, Nancy enjoys serving the ALA membership through appointments to the Committee on Professional Ethics (2020-2022) and the Spectrum Advisory Board (2020-2022). She is interested in change management and leadership models, especially as examined through an appreciative inquiry (AI) lens.
+
+
+        Nancy has a Bachelor of Arts degree in Journalism from Drake University, a Juris Doctor from the TC Williams School of Law at the University of Richmond, and a Master of Science in
+
+
+        Library and Information Science from the Graduate School of Library and Information Science (GSLIS) at the University of Illinois at Urbana-Champaign.
+
+
+        Nancy has two great kids – Noah (entering the University of Minnesota law school this fall) and Madeline (a sophomore at Michigan State University). Outside of work, she is chasing that all- American dream of a perfectly manicured lawn."
+  thumbnailUrl: nancy_kirkpatrick.jpg
   rockstar: true
   social:
     - {name: "twitter", link: "https://twitter.com/ohionet"}
     - {name: "site", link: "https://www.ohionet.org/"}
 -
   id: 3
-  name: "Kaetrena Davis"
-  surname: "Kendrick"
+  name: "Kaetrena"
+  surname: "Davis Kendrick"
   company: "Winthrop University"
   title: "Dean, Ida Jane Dacus Library and Louise Pettus Archives and Special Collections"
   bio: "Kaetrena Davis Kendrick earned her MSLS from the historic Clark Atlanta University School of Library and Information Studies. Her research interests include professionalism, ethics, racial and ethnic diversity in the LIS field, and the role of communities of practice in practical academic librarianship. She is co-editor of The Small and Rural Academic Library: Leveraging Resources and Overcoming Limitations (ACRL 2016) and author of two annotated bibliographies. Kendrick is currently serving as Dean of Ida Jane Dacus Library and Louise Pettus Archives and Special Collections at Winthrop University.
 
-        In addition to her research and writing, Kendrick also leads professional development opportunities and organizational dialogues designed to energize employee morale and promote empathetic leadership in North American libraries. In her daily and long-term work, Kendrick has transformed library programs, services, and culture via creativity, leadership, and advocacy. In 2019, Kendrick was named the Association of College and Research Libraries' Academic/Research Librarian of the Year. Learn more about [Kaetrena's mission and activities](https://kaetrenadaviskendrick.wordpress.com/)."
+
+        In addition to her research and writing, Kendrick also leads professional development opportunities and organizational dialogues designed to energize employee morale and promote empathetic leadership in North American libraries. In her daily and long-term work, Kendrick has transformed library programs, services, and culture via creativity, leadership, and advocacy. In 2019, Kendrick was named the Association of College and Research Libraries' Academic/Research Librarian of the Year."
   thumbnailUrl: kaetrena_kendrick.jpg
   rockstar: true
   social:
     - {name: "site", link: "https://kaetrenadaviskendrick.wordpress.com/"}
+    - {name: "twitter", link: "https://twitter.com/kaetrena"}
+-
+  id: 4
+  name: "Rebekkah"
+  surname: "Smith Aldrich"
+  company: "Mid-Hudson Library System"
+  title: "Executive Director"
+  bio: "Rebekkah Smith Aldrich is the executive director of the Mid-Hudson Library System, a cooperative public library system with 66 members. Rebekkah is the co-founder of the Sustainable Libraries Initiative of the New York Library Association, co-chair of the American Library Association's Sustainability Task Force and a board member of the ALA Center for the Future of Libraries. Rebekkah is the author of Sustainable Thinking: Ensure Your Library's Future in Uncertain Times and Resilience, part of The Futures Series from ALA Editions, and is a frequent international speaker on the topic of the future of libraries."
+  thumbnailUrl: rebekkah_smith_aldrich.jpg
+  rockstar: true
+  social:
+    - {name: "twitter", link: "https://twitter.com/rebekkah"}
+    - {name: "facebook", link: "https://www.facebook.com/SustainableLibraries/"}
