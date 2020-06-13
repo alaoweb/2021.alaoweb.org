@@ -37,7 +37,9 @@
             </div>
             {% endfor %}
         </div>
-        <a href="{{ site.c4pUrl }}" class="bottom-section-link btn btn-primary waves-effect waves-button waves-light waves-float" target="_blank">Become a speaker</a>         
+        {% if site.c4speakersEnable == true %}
+        <a href="{{ site.c4pUrl }}" class="bottom-section-link btn btn-primary waves-effect waves-button waves-light waves-float" target="_blank">{{ site.speakersC4pButton }}</a>
+        {% endif %}
     </div>
 </section>
 <!-- End Speakers List 2 -->
