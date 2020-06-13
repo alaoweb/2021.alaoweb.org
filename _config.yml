@@ -44,10 +44,15 @@ aboutBlock:
  - {title: "Posters", image: "posters.jpg", text: "Posters Description!" }
 
 # -------------------------------------------------------------
-# Call For Proposals
+# Call For Proposals & Sponsors
 # -------------------------------------------------------------
-#c4pUrl: ""
-#c4sponsorsUrl: "/assets/prospectus.pdf"
+c4speakersEnable: false
+c4pUrl: "https://docs.google.com/forms/d/e/1FAIpQLSdfGZEuGcn_KmpEqd9-GgU-xPWhViP1bivXOvJKcEvJ1DtLFw/viewform?usp=sf_link"
+speakersC4pButton: "Become a speaker"
+
+c4sponsersEnable: false
+c4sponsorsUrl: "/handouts/sponsorship_letter_2020.pdf"
+partnersC4sponsorsButton: "Become a sponsor"
 
 # -------------------------------------------------------------
 # Code of Conduct - Contact Info
@@ -181,7 +186,6 @@ navigationLinks:
 partnersEnable: True
 organizersTitle: "Organizers"
 partnersTitle: "Partners"
-partnersC4sponsorsButton: "Become a sponsor"
 
 # -------------------------------------------------------------
 # Posters
