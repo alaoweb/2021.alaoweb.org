@@ -7,10 +7,11 @@ plugins:
 - jekyll-sitemap
 safe: false
 
-#Google-Analytics
+#Google-Analytics & API Key
 googleAnalyticsTrackingId: "UA-**********"
 googleAnalyticsSiteUrl: "2020.alaoweb.org"
 siteVerification: ""
+googleMapsApiKey: "AIzaSyDUQZ2d8zeEcwzJur9Av9KSg2l1W1NNaH8"
 
 #Head
 metaKeywords: "event, alao, academic, libraries, ohio"
