@@ -1,3 +1,12 @@
+// THIS CLASS IS ONLY PRESENT FOR 2020 CONFERENCE
+// REPLACE ALL INSTANCES OF .image-section-2020 WITH .image-section
+.image-section-2020 {
+    color: #fff;
+    font-weight: $light;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: 100% 100% !important;
+}
 .top-section-hero {
     width: 100%;
     height: 100%;
