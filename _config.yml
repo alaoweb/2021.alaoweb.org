@@ -87,9 +87,9 @@ footerBlocks:
 # -------------------------------------------------------------
 # Hero Block - Main Section
 # -------------------------------------------------------------
-heroImage: "field.jpg"
-heroTitle: "ALAO <typeout> 2020"
-eventDate: "Virtual Conference: Oct 26 - Oct 30, 2020"
+heroImage: "resilience_logo_white.svg"
+heroTitle: ""
+eventDate: ""
 typeoutEnable: false
 typeoutTextValues: '"", "Resilient"'
 typeoutFallback: "Resilience"
