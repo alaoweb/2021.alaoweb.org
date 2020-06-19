@@ -1,166 +1,202 @@
 - id: 0
-  name: "Derek"
-  surname: "Zoladz"
-  title: "Lead - Conference Website"
+  name: 'Derek'
+  surname: 'Zoladz'
+  pronouns: 'he/him/his'
+  title: 'Lead - Conference Website'
   thumbnailUrl: derek_zoladz.jpg
   team: true
-  ribbon: 
-    - {abbr: "OhioNET", title: "Library Systems Analyst"}
+  ribbon:
+    - { abbr: 'OhioNET', title: 'Library Systems Analyst' }
   social:
-    - {name: "twitter", link: "https://twitter.com/derek_zoladz"}
-    - {name: "github", link: "https://github.com/dzoladz"}
-    - {name: "site", link: "https://www.derekzoladz.com/"}
+    - { name: 'twitter', link: 'https://twitter.com/derek_zoladz' }
+    - { name: 'github', link: 'https://github.com/dzoladz' }
+    - { name: 'site', link: 'https://www.derekzoladz.com/' }
 
 - id: 1
-  name: "Mandi"
-  surname: "Goodsett"
-  title: "Performing Arts & Humanities Librarian; OER & Copyright Advisor (Chair)"
+  name: 'Mandi'
+  surname: 'Goodsett'
+  pronouns: 'she/her/hers'
+  title: 'Performing Arts & Humanities Librarian; OER & Copyright Advisor (Chair)'
   thumbnailUrl: mandi_goodsett.jpg
   team: true
   ribbon:
-    - {abbr: "Cleveland State University", title: "Performing Arts & Humanities Librarian; OER & Copyright Advisor"}
+    - {
+        abbr: 'Cleveland State University',
+        title: 'Performing Arts & Humanities Librarian; OER & Copyright Advisor',
+      }
 
 - id: 2
-  name: "Don"
-  surname: "Appleby"
-  title: "Library Specialist"
+  name: 'Don'
+  surname: 'Appleby'
+  title: 'Library Specialist'
   thumbnailUrl: no-photo-available.jpg
   team: true
   ribbon:
-    -  {abbr: "University of Akron", title: "library Specialist"}
+    - { abbr: 'University of Akron', title: 'library Specialist' }
 
 - id: 3
-  name: "Amanda"
-  surname: "Black"
-  title: "Coordinator of Access Services"
+  name: 'Amanda'
+  surname: 'Black'
+  title: 'Coordinator of Access Services'
   thumbnailUrl: amanda_black.jpg
   team: true
   ribbon:
-    -  {abbr: "University of Dayton", title: "Coordinator of Access Services"}
+    - { abbr: 'University of Dayton', title: 'Coordinator of Access Services' }
 
 - id: 4
-  name: "Heather"
-  surname: "Crozier"
-  title: "Electronic Resources Librarian"
+  name: 'Heather'
+  surname: 'Crozier'
+  title: 'Electronic Resources Librarian'
   thumbnailUrl: heather_crozier.jpg
   team: true
   ribbon:
-    -  {abbr: "Ohio Northern University", title: "Electronic Resources Librarian"}
+    - {
+        abbr: 'Ohio Northern University',
+        title: 'Electronic Resources Librarian',
+      }
   social:
-    -  {name: "twitter", Link: "https://twitter.com/hrcroz"}
+    - { name: 'twitter', Link: 'https://twitter.com/hrcroz' }
 
 - id: 5
-  name: "Mark"
-  surname: "Eddy"
-  title: "Librarian, Research Services"
+  name: 'Mark'
+  surname: 'Eddy'
+  title: 'Librarian, Research Services'
   thumbnailUrl: mark_eddy.jpg
   team: True
   ribbon:
-    -  {abbr: "Case Western Reserve University", title: "Librarian, Research Services"}
+    - {
+        abbr: 'Case Western Reserve University',
+        title: 'Librarian, Research Services',
+      }
 
 - id: 6
-  name: "Melissa"
-  surname: "Hill"
-  title: "Serials & Electronic Resources Manager"
+  name: 'Melissa'
+  surname: 'Hill'
+  title: 'Serials & Electronic Resources Manager'
   thumbnailUrl: melissa_hill.jpg
   team: True
   ribbon:
-    -  {abbr: "Ohio Wesleyan University", title: "Serials & Electronic Resources Manager"}
+    - {
+        abbr: 'Ohio Wesleyan University',
+        title: 'Serials & Electronic Resources Manager',
+      }
 
 - id: 7
-  name: "Ken"
-  surname: "Irwin"
-  title: "Web Services Librarian"
+  name: 'Ken'
+  pronouns: 'he/him/his'
+  surname: 'Irwin'
+  title: 'Web Services Librarian'
   thumbnailUrl: ken_irwin.jpg
   team: True
   ribbon:
-    -  {abbr: "Miami University", title: "Web Services Librarian"}
+    - { abbr: 'Miami University', title: 'Web Services Librarian' }
   Social:
-    -  {name: "twitter", link: "https://twitter.com/irwin_ken"}
-    -  {name: "github", link: "https://github.com/kenirwin"}
-    -  {name: "site", link: "https://kenirwin.net"}
+    - { name: 'twitter', link: 'https://twitter.com/irwin_ken' }
+    - { name: 'github', link: 'https://github.com/kenirwin' }
+    - { name: 'site', link: 'https://kenirwin.net' }
 
 - id: 8
-  name: "Sara"
-  surname: "Klink"
-  title: "Assistant Director of Library Services; ALAO Instruction Group Cooardinator"
+  name: 'Sara'
+  surname: 'Klink'
+  title: 'Assistant Director of Library Services; ALAO Instruction Group Cooardinator'
   thumbnailUrl: sara_klink.jpg
   team: True
   ribbon:
-    -  {abbr: "Stark State College", title: "Assistant Director of Library Services"}
+    - {
+        abbr: 'Stark State College',
+        title: 'Assistant Director of Library Services',
+      }
 
 - id: 9
-  name: "Katy"
-  surname: "Mathuews"
-  title: "Interim Coordinating Director, Specialized Collections; Head of Collections Assessment & Access"
+  name: 'Katy'
+  surname: 'Mathuews'
+  title: 'Interim Coordinating Director, Specialized Collections; Head of Collections Assessment & Access'
   thumbnailUrl: no-photo-available.jpg
   team: True
   ribbon:
-    -  {abbr: "Ohio University", title: "Interim Coordinating Director, Specialized Collections; Head of Collections Assessment & Access"}
+    - {
+        abbr: 'Ohio University',
+        title: 'Interim Coordinating Director, Specialized Collections; Head of Collections Assessment & Access',
+      }
 
 - id: 10
-  name: "Stacey"
-  surname: "McKenna"
-  title: "Reference & Instruction Librarian"
+  name: 'Stacey'
+  surname: 'McKenna'
+  title: 'Reference & Instruction Librarian'
   thumbnailUrl: stacey_mckenna.jpg
   team: True
   ribbon:
-    -  {abbr: "The Ohio State University at Newark/ Central Ohio Technical College", title: "Reference & Instruction Librarian"}
+    - {
+        abbr: 'The Ohio State University at Newark/ Central Ohio Technical College',
+        title: 'Reference & Instruction Librarian',
+      }
 
 - id: 11
-  name: "Marsha"
-  surname: "Miles"
-  title: "Head, Collections and Digital Initiatives"
+  name: 'Marsha'
+  surname: 'Miles'
+  title: 'Head, Collections and Digital Initiatives'
   thumbnailUrl: marsha_miles.jpg
   team: True
   ribbon:
-    -  {abbr: "Cleveland State University", title: "Head, Collections and Digital Initiatives"}
+    - {
+        abbr: 'Cleveland State University',
+        title: 'Head, Collections and Digital Initiatives',
+      }
   social:
-    -  {name: "site", Link: "https://works.bepress.com/marsha_miles/"}
+    - { name: 'site', Link: 'https://works.bepress.com/marsha_miles/' }
 
 - id: 12
-  name: "Melissa"
-  Surname: "Cox Norris"
-  title: "Director of Library Communications"
+  name: 'Melissa'
+  Surname: 'Cox Norris'
+  title: 'Director of Library Communications'
   thumbnailUrl: melissa_cox_norris.jpg
   team: True
   ribbon:
-    -  {abbr: "University of Cincinnati", Title: "Director of Library Communications"}
+    - {
+        abbr: 'University of Cincinnati',
+        Title: 'Director of Library Communications',
+      }
 
 - id: 13
-  name: "Allen"
-  surname: "Reichert"
-  title: "Electronic Access Librarian"
+  name: 'Allen'
+  surname: 'Reichert'
+  title: 'Electronic Access Librarian'
   thumbnailUrl: allen_reichert.jpg
   team: True
   ribbon:
-    -  {abbr: "Otterbein University", title: "Electronic Access Librarian"}
+    - { abbr: 'Otterbein University', title: 'Electronic Access Librarian' }
 
 - id: 14
-  name: "Ryan"
-  surname: "Scott"
-  title: "Reference Librarian"
+  name: 'Ryan'
+  surname: 'Scott'
+  title: 'Reference Librarian'
   thumbnailUrl: ryan_scott.jpg
   team: True
   ribbon:
-    -  {abbr: "Columbus State Community College", title: "Reference Librarian"}
+    - { abbr: 'Columbus State Community College', title: 'Reference Librarian' }
 
 - id: 15
-  name: "Shelby"
-  surname: "Stuart"
-  title: "Electronic Resources Librarian"
+  name: 'Shelby'
+  surname: 'Stuart'
+  title: 'Electronic Resources Librarian'
   thumbnailUrl: shelby_stuart.jpg
   team: True
   ribbon:
-    -  {abbr: "Case Western Reserve University", title: "Electronic Resources Librarian"}
+    - {
+        abbr: 'Case Western Reserve University',
+        title: 'Electronic Resources Librarian',
+      }
 
 - id: 16
-  name: "Zach"
-  surname: "Walton"
-  title: "Reference & Instruction Librarian"
+  name: 'Zach'
+  surname: 'Walton'
+  title: 'Reference & Instruction Librarian'
   thumbnailUrl: zach_walton.jpg
   team: True
   ribbon:
-    -  {abbr: "The Ohio State University at Lima", title: "Reference & Instruction Librarian"}
+    - {
+        abbr: 'The Ohio State University at Lima',
+        title: 'Reference & Instruction Librarian',
+      }
   social:
-    -  {name: "twitter", link: "https://twitter.com/zwalton_art"}
+    - { name: 'twitter', link: 'https://twitter.com/zwalton_art' }
