@@ -147,7 +147,7 @@
 
 - id: 12
   name: 'Melissa'
-  Surname: 'Cox Norris'
+  surname: 'Cox Norris'
   title: 'Director of Library Communications'
   thumbnailUrl: melissa_cox_norris.jpg
   team: True
