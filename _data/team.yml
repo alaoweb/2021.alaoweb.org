@@ -90,7 +90,7 @@
   team: True
   ribbon:
     - { abbr: 'Miami University', title: 'Web Services Librarian' }
-  Social:
+  social:
     - { name: 'twitter', link: 'https://twitter.com/irwin_ken' }
     - { name: 'github', link: 'https://github.com/kenirwin' }
     - { name: 'site', link: 'https://kenirwin.net' }
