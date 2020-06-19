@@ -212,7 +212,7 @@ about these concerns can help promote authentic civility and collegiality in Nor
 reduce the factors that can cause employee mistreatment and misconduct in library workplaces."}
 
 # Preconference Location Block
-preconferenceLocationEnable: True
+preconferenceLocationEnable: False
 preconferenceLocationBlockTitle: "Location"
 preconferenceLocationName: "Nationwide Hotel & Conference Center"
 preconferenceLocationLink: "https://www.nwhotelandconferencecenter.com/"
