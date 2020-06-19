@@ -261,7 +261,7 @@ statisticBlock:
 subscribeEnable: true
 subscribeImage: "speak-up.jpg"
 subscribeTitle: "Subscribe to ALAO Mailing List"
-subscribeAction: ""
+subscribeAction: "https://alaoweb.us10.list-manage.com/subscribe/post?u=ac241e268ddc3495466be87a8&amp;id=685009e39b"
 subscribeInfo: "Stay Informed of ALAO Events!"
 
 # -------------------------------------------------------------
