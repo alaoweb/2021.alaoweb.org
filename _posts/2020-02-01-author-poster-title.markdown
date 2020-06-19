@@ -1,6 +1,6 @@
 ---
 layout: poster
-image: posters.jpg
+image: cod.png
 title: "Jekyll: Replacing LibGuides w/ a Static Site Generator"
 description: The simplicity of LibGuides revolutionized the way that librarians create web content for patrons. With this ease of use in content creation, the reduced need for librarians to continue to develop deep technical skills comes as a long-term cost. 
 date: 2020-01-01 08:00:00
