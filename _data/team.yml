@@ -37,6 +37,7 @@
 - id: 3
   name: 'Amanda'
   surname: 'Black'
+  pronouns: 'she/her/hers'
   title: 'Coordinator of Access Services'
   thumbnailUrl: amanda_black.jpg
   team: true
@@ -46,6 +47,7 @@
 - id: 4
   name: 'Heather'
   surname: 'Crozier'
+  pronouns: 'she/her/hers'
   title: 'Electronic Resources Librarian'
   thumbnailUrl: heather_crozier.jpg
   team: true
@@ -72,6 +74,7 @@
 - id: 6
   name: 'Melissa'
   surname: 'Hill'
+  pronouns: 'she/her/hers'
   title: 'Serials & Electronic Resources Manager'
   thumbnailUrl: melissa_hill.jpg
   team: True
@@ -98,6 +101,7 @@
 - id: 8
   name: 'Sara'
   surname: 'Klink'
+  pronouns: 'she/her/hers'
   title: 'Assistant Director of Library Services; ALAO Instruction Group Cooardinator'
   thumbnailUrl: sara_klink.jpg
   team: True
@@ -122,6 +126,7 @@
 - id: 10
   name: 'Stacey'
   surname: 'McKenna'
+  pronouns: 'she/her/hers'
   title: 'Reference & Instruction Librarian'
   thumbnailUrl: stacey_mckenna.jpg
   team: True
@@ -134,6 +139,7 @@
 - id: 11
   name: 'Marsha'
   surname: 'Miles'
+  pronouns: 'she/her/hers'
   title: 'Head, Collections and Digital Initiatives'
   thumbnailUrl: marsha_miles.jpg
   team: True
@@ -148,6 +154,7 @@
 - id: 12
   name: 'Melissa'
   surname: 'Cox Norris'
+  pronouns: 'she/her/hers'
   title: 'Director of Library Communications'
   thumbnailUrl: melissa_cox_norris.jpg
   team: True
@@ -160,6 +167,7 @@
 - id: 13
   name: 'Allen'
   surname: 'Reichert'
+  pronouns: 'he/him/his'
   title: 'Electronic Access Librarian'
   thumbnailUrl: allen_reichert.jpg
   team: True
@@ -169,6 +177,7 @@
 - id: 14
   name: 'Ryan'
   surname: 'Scott'
+  pronouns: 'he/him/his'
   title: 'Reference Librarian'
   thumbnailUrl: ryan_scott.jpg
   team: True
