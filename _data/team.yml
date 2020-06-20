@@ -111,17 +111,17 @@
         title: 'Assistant Director of Library Services',
       }
 
-- id: 9
-  name: 'Katy'
-  surname: 'Mathuews'
-  title: 'Interim Coordinating Director, Specialized Collections; Head of Collections Assessment & Access'
-  thumbnailUrl: no-photo-available.jpg
-  team: True
-  ribbon:
-    - {
-        abbr: 'Ohio University',
-        title: 'Interim Coordinating Director, Specialized Collections; Head of Collections Assessment & Access',
-      }
+#- id: 9
+#  name: 'Katy'
+#  surname: 'Mathuews'
+#  title: 'Interim Coordinating Director, Specialized Collections; Head of Collections Assessment & Access'
+#  thumbnailUrl: no-photo-available.jpg
+#  team: True
+#  ribbon:
+#    - {
+#        abbr: 'Ohio University',
+#        title: 'Interim Coordinating Director, Specialized Collections; Head of Collections Assessment & Access',
+#      }
 
 - id: 10
   name: 'Stacey'
