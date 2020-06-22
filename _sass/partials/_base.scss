@@ -1,4 +1,4 @@
-@import "compass";
+@import 'compass';
 
 // Font weights
 $light: 100;
@@ -35,6 +35,7 @@ $base-section-background-color: $link-color;
 $primary-color: #4285f4;
 $primary-color-hover: #3266d5;
 $icon-fill-color: #8b8b8b;
+$alao-green: #066;
 
 // Sizes
 $min-section-height: 350px;
@@ -44,15 +45,15 @@ $small-section-padding-top: 20px;
 $small-section-padding-bottom: 40px;
 
 // Global variables
-$base-transition: all .3s;
-$base-cubic-transition: all .3s cubic-bezier(0.175, 0.885, 0.320, 1.275);
-$long-transition: all .5s;
-$long-cubic-transition: all .5s cubic-bezier(0.175, 0.885, 0.320, 1.275);
+$base-transition: all 0.3s;
+$base-cubic-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+$long-transition: all 0.5s;
+$long-cubic-transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
 // Path
-$image-dir: "../img";
-$sprites-dir: $image-dir + "/sprites";
-$logos-sprite: $sprites-dir + "/alao-inverted-small.svg";
-$logos-sprite-dark: "/img/organizers/alao.svg";
+$image-dir: '../img';
+$sprites-dir: $image-dir + '/sprites';
+$logos-sprite: $sprites-dir + '/alao-inverted-small.svg';
+$logos-sprite-dark: '/img/organizers/alao.svg';
 
-@import "modules/all";
+@import 'modules/all';
