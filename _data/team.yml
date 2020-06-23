@@ -28,6 +28,7 @@
 - id: 2
   name: 'Don'
   surname: 'Appleby'
+  pronouns: 'he/him/his'
   title: 'Library Specialist'
   thumbnailUrl: no-photo-available.jpg
   team: true
@@ -62,6 +63,7 @@
 - id: 5
   name: 'Mark'
   surname: 'Eddy'
+  pronouns: 'he/him/his'
   title: 'Librarian, Research Services'
   thumbnailUrl: mark_eddy.jpg
   team: True
@@ -86,8 +88,8 @@
 
 - id: 7
   name: 'Ken'
-  pronouns: 'he/him/his'
   surname: 'Irwin'
+  pronouns: 'he/him/his'
   title: 'Web Services Librarian'
   thumbnailUrl: ken_irwin.jpg
   team: True
@@ -187,6 +189,7 @@
 - id: 15
   name: 'Shelby'
   surname: 'Stuart'
+  pronouns: 'she/her/hers'
   title: 'Electronic Resources Librarian'
   thumbnailUrl: shelby_stuart.jpg
   team: True
