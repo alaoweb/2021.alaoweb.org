@@ -1,78 +1,124 @@
 <!-- Begin Poster-->
 <section id="post-section" class="post-section">
-    <div class="content-wrapper text-left">
-        <div class="col-md-10 col-sm-10 col-lg-offset-2 col-md-offset-2 col-sm-offset-1">
-            <div class="col-lg-8 col-md-10 col-xs-12">
-                <article class="row post">
-                    {% if include.isStaticPost == false %}
-                    <div class="post-header">
-                        <div class="published col-md-6 col-xs-6 pull-left">
-                            <span class="caption">Posted:</span>
-                            <span class="publish-date" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</span>
-                        </div>
-                        <div class="share col-md-6 col-xs-6 pull-right">
-                            <ul class="social-links">
-                            {% assign postUrl = page.url | prepend: site.baseurl | prepend: site.url %} 
-                                <li>
-                                    <a href="#" onclick="window.open('https://plus.google.com/share?url={{ postUrl }}', 'newwindow', 'width=600, height=500'); return false;">
-                                        <svg class="icon icon-google-plus" viewBox="0 0 30 32">
-                                            <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-google-plus"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" onclick="window.open('https://twitter.com/home?status={{ postUrl }}', 'newwindow', 'width=600, height=250'); return false;">
-                                        <svg class="icon icon-twitter" viewBox="0 0 30 32">
-                                            <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-twitter"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u={{ postUrl }}', 'newwindow', 'width=600, height=500'); return false;">
-                                        <svg class="icon icon-facebook" viewBox="0 0 30 32">
-                                            <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-facebook"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    {% endif %}
-
-                    <div class="post-body">
-                        <div class="poster-title">{{ page.title }}</div>
-                        <div class="poster-presenter"><span class="label">Presenter:</span> <br/>{{ page.presenter }}</div>
-                        <div class="poster-description"><span class="label">Poster Description:</span> <br/>{{ page.description }}</div>
-                        <div class="poster-video"><span class="label">Poster:</span></div>
-                        <div class="theme-video embed-responsive embed-responsive-16by9">
-						    <iframe class="embed-responsive-item" src="{{ page.video }}"></iframe>
-						</div>
-                        <div class="poster-presenter-about"><span class="label">About the Presenter:</span> <br/>{{ page.presenter_bio }}</div>
-                    </div>
-
-                    <div id="page-navigation" class="page-navigation">
-                        <div class="next col-xs-6">
-                            {% if page.next.url %}
-                                <a href="{{ page.next.url | prepend: site.baseurl }}" title="{{ page.next.title | strip_html }}">&laquo; {{page.next.title | strip_html | truncate: 15 }}</a>
-                            {% endif %}
-                        </div>
-                        <div class="previous col-xs-6 text-right">
-                            {% if page.previous.url %}
-                                <a href="{{ page.previous.url | prepend: site.baseurl }}" title="{{ page.previous.title | strip_html }}">{{page.previous.title | strip_html | truncate: 15 }} &raquo;</a>
-                            {% endif %}
-                        </div>
-                    </div>
-
-                    {% if include.isStaticPost == false %}
-                        <div class="comments">
-                            {% if site.postersCommentsEnabled %} {% include disqus-comments.html %} {% endif %}
-                        </div>
-                    {% endif %}
-
-                </article>
-
+  <div class="content-wrapper text-left">
+    <div
+      class="col-md-10 col-sm-10 col-lg-offset-2 col-md-offset-2 col-sm-offset-1"
+    >
+      <div class="col-lg-8 col-md-10 col-xs-12">
+        <article class="row post">
+          {% if include.isStaticPost == false %}
+          <div class="post-header">
+            <div class="published col-md-6 col-xs-6 pull-left">
+              <span class="caption">Posted:</span>
+              <span class="publish-date" itemprop="datePublished"
+                >{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{
+                page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{%
+                endif %}</span
+              >
             </div>
-        </div>
+            <div class="share col-md-6 col-xs-6 pull-right">
+              <ul class="social-links">
+                {% assign postUrl = page.url | prepend: site.baseurl | prepend:
+                site.url %}
+                <li>
+                  <a
+                    href="#"
+                    onclick="window.open('https://plus.google.com/share?url={{ postUrl }}', 'newwindow', 'width=600, height=500'); return false;"
+                  >
+                    <svg class="icon icon-google-plus" viewBox="0 0 30 32">
+                      <use
+                        xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-google-plus"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    onclick="window.open('https://twitter.com/home?status={{ postUrl }}', 'newwindow', 'width=600, height=250'); return false;"
+                  >
+                    <svg class="icon icon-twitter" viewBox="0 0 30 32">
+                      <use
+                        xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-twitter"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    onclick="window.open('https://www.facebook.com/sharer/sharer.php?u={{ postUrl }}', 'newwindow', 'width=600, height=500'); return false;"
+                  >
+                    <svg class="icon icon-facebook" viewBox="0 0 30 32">
+                      <use
+                        xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-facebook"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          {% endif %}
+
+          <div class="post-body">
+            <div class="poster-title">{{ page.title }}</div>
+            <div class="poster-presenter">
+              <span class="label">Presenter(s):</span> <br />
+              {% if page.presenters %} {% for person in page.presenters %} • {{
+              person.name }} {% if person.institution %} ({{ person.institution
+              }}) {% endif %} {% capture bio %}
+              <p class="individual-bio">{{ person.bio}}</p>
+              {% endcapture %} {% assign bios = bios | append: bio %} {% endfor
+              %} {% endif %}
+            </div>
+            <div class="poster-description">
+              <span class="label">Poster Description:</span> <br />{{
+              page.description }}
+            </div>
+            <div class="poster-video"><span class="label">Poster:</span></div>
+            <div class="theme-video embed-responsive embed-responsive-16by9">
+              <iframe
+                class="embed-responsive-item"
+                src="{{ page.video }}"
+              ></iframe>
+            </div>
+            <div class="poster-presenter-about">
+              <span class="label">About the Presenter(s):</span> <br />{{ bios
+              }}
+            </div>
+          </div>
+
+          <div id="page-navigation" class="page-navigation">
+            <div class="next col-xs-6">
+              {% if page.next.url %}
+              <a
+                href="{{ page.next.url | prepend: site.baseurl }}"
+                title="{{ page.next.title | strip_html }}"
+                >&laquo; {{page.next.title | strip_html | truncate: 15 }}</a
+              >
+              {% endif %}
+            </div>
+            <div class="previous col-xs-6 text-right">
+              {% if page.previous.url %}
+              <a
+                href="{{ page.previous.url | prepend: site.baseurl }}"
+                title="{{ page.previous.title | strip_html }}"
+                >{{page.previous.title | strip_html | truncate: 15 }} &raquo;</a
+              >
+              {% endif %}
+            </div>
+          </div>
+
+          {% if include.isStaticPost == false %}
+          <div class="comments">
+            {% if site.postersCommentsEnabled %} {% include disqus-comments.html
+            %} {% endif %}
+          </div>
+          {% endif %}
+        </article>
+      </div>
     </div>
+  </div>
 </section>
 <!-- End Poster -->
