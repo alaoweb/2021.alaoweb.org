@@ -199,6 +199,7 @@
 - id: 16
   name: 'Zach'
   surname: 'Walton'
+  pronouns: 'he/him/his'
   title: 'Reference & Instruction Librarian'
   thumbnailUrl: zach_walton.jpg
   team: True
