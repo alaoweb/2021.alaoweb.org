@@ -46,6 +46,11 @@
 									<p class="name">{{ speaker.name }} {{ speaker.surname }}
 										<span class="position">{{ speaker.title }}, {{ speaker.company }}</span>
 									</p>
+									{% if speaker.pronouns %}
+									<div class="modal-ribbon-wrapper">
+											 <span class="modal-ribbon pronouns">{{speaker.pronouns}}</span>
+									</div>
+									{% endif %}
 									{% if speaker.ribbon != null %}
 									<div class="modal-ribbon-wrapper">
 			                            {% for ribbon in speaker.ribbon %}
