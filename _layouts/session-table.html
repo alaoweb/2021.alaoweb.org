@@ -18,7 +18,7 @@
     {% for speaker in site.data.speakers %}
       {% for session_speakerID in session.speakers %}
         {% if session_speakerID == speaker.id %}
-          {% assign speakers = speakers | append: '<span class="speaker-name">' | append: speaker.name | append: ' ' | append: speaker.surname | append: ' ' | append:'</span>' | append: ' <span class="organization">(' | append: speaker.company | append: ')</span>' %}
+          {% assign speakers = speakers | append: '<span class="speaker-block"><span class="speaker-name">' | append: speaker.name | append: ' ' | append: speaker.surname | append: ' ' | append:'</span>' | append: ' <span class="speaker-org">(' | append: speaker.company | append: ')</span></span> ' %}
           {% endif %}
       {% endfor %}
     {% endfor %}
@@ -30,7 +30,6 @@
       <ul>
         <li class="type">{{session.subtype}}</li>
         <li class="presenter">{{speakers}}</li>
-        <li class="institution"></li>
       </ul>
     </li>
     {% endfor %}
