@@ -41,6 +41,7 @@ image: cod.png
 <section id="session-table" class="session-table">
   <div class="content-wrapper">
 <div class="container" style="height: 80%">
+  <div id="filters"></div>
   <!-- List.js: Child elements of container with class="list" becomes list items -->
   <table id="sessions-list" class="list table table-striped">
     <thead>
@@ -101,4 +102,23 @@ image: cod.png
   };
 
   var userList = new List('sessions-list', options);
+</script>
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script>
+  $(document).ready(function() {
+    var arr = [];
+    $('.speaker-name').each(function(person) {
+      let name = $(this).text();
+      if (! arr.includes(name)) {
+        arr.push(name);
+      }
+    });
+    arr.sort();
+    console.log(arr);
+    $('#filters').append('<select id="presenters"></select>');
+    arr.forEach((element) => {
+      $('#presenters').append('<option>' + element + '</option>');
+    });
+  })
 </script>
