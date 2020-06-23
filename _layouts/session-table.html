@@ -1,0 +1,57 @@
+<script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+
+<div id="users">
+  <!-- class="search" automagically makes an input a search field. -->
+  <input class="search" placeholder="Search" />
+  <!-- class="sort" automagically makes an element a sort buttons. The date-sort value decides what to sort by. -->
+  <button class="sort" data-sort="name">
+    Sort
+  </button>
+
+
+  <!-- List.js: Child elements of container with class="list" becomes list items -->
+  <ul class="list">
+    <!-- sessions -->
+    {% for session in site.data.sessions %}
+      {% assign speakers = ""}
+      {% for speaker in site.data.speakers %}
+        {% for session_speaker in session.speakers %}
+          {% if session_speaker == speaker.id %}
+            {% capture speakers %}
+              
+            {% endcapture %}
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    <li>
+      <!-- The innerHTML of children with class="name" becomes this items "name" value -->
+      <h3 class="name">{{session.title}}</h3>
+      <ul>
+        <li class="type">{{session.subtype}}</li>
+        <li class="presenter">{{session.speakers | join: ", "}}</li>
+        <li class="institution"></li>
+      </ul>
+    </li>
+    {% endfor %}
+
+    <!-- posters -->
+    {% for session in site.posts %}
+    <li>
+      <!-- List.js: The innerHTML of children with class="name" becomes this items "name" value -->
+      <h3 class="name">{{session.title}}</h3>
+      <ul>
+        <li class="type">poster</li>
+        <li class="presenter">{{session.presenter}}</li>
+        <li class="institution">{{session.institution}}</li>
+      </ul>
+    </li>
+    {% endfor %}
+</div>
+
+<script>
+  var options = {
+    valueNames: ['name', 'type', 'presenter', 'institution'],
+  };
+
+  var userList = new List('users', options);
+</script>
