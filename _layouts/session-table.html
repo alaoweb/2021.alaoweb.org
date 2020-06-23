@@ -29,20 +29,25 @@
       <h3 class="title">{{session.title}}</h3>
       <ul>
         <li class="type">{{session.subtype}}</li>
-        <li class="presenter">{{speakers}}</li>
+        <li class="presenters">{{speakers}}</li>
+        <li class="description">{{session.description}}</li>
       </ul>
     </li>
     {% endfor %}
 
     <!-- posters -->
     {% for session in site.posts %}
+      {% assign speakers = "" %}
+      {% for person in session.presenters %}
+        {% assign speakers = speakers | append: '<span class="speaker-block"><span class="speaker-name">' | append: person.name | append: ' ' | append:'</span>' | append: ' <span class="speaker-org">(' | append: person.institution | append: ')</span></span> ' %}
+      {% endfor %}
     <li>
       <!-- List.js: The innerHTML of children with class="name" becomes this items "name" value -->
       <h3 class="title">{{session.title}}</h3>
       <ul>
         <li class="type">poster</li>
-        <li class="presenter">{{session.presenter}}</li>
-        <li class="institution">{{session.institution}}</li>
+        <li class="presenters">{{speakers}}</li>
+        <li class="description display-none">{{session.description}}</li>
       </ul>
     </li>
     {% endfor %}
@@ -50,7 +55,7 @@
 
 <script>
   var options = {
-    valueNames: ['name', 'type', 'presenter', 'institution'],
+    valueNames: ['title', 'type', 'speaker-name', 'speaker-org', 'description'],
   };
 
   var userList = new List('users', options);
