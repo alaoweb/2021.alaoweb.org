@@ -13,22 +13,23 @@
   <ul class="list">
     <!-- sessions -->
     {% for session in site.data.sessions %}
-      {% assign speakers = ""}
-      {% for speaker in site.data.speakers %}
-        {% for session_speaker in session.speakers %}
-          {% if session_speaker == speaker.id %}
-            {% capture speakers %}
-              
-            {% endcapture %}
+
+    {% assign speakers = "" %}
+    {% for speaker in site.data.speakers %}
+      {% for session_speakerID in session.speakers %}
+        {% if session_speakerID == speaker.id %}
+          {% assign speakers = speakers | append: '<span class="speaker-name">' | append: speaker.name | append: ' ' | append: speaker.surname | append: ' ' | append:'</span>' | append: ' <span class="organization">(' | append: speaker.company | append: ')</span>' %}
           {% endif %}
-        {% endfor %}
       {% endfor %}
+    {% endfor %}
+
+
     <li>
       <!-- The innerHTML of children with class="name" becomes this items "name" value -->
-      <h3 class="name">{{session.title}}</h3>
+      <h3 class="title">{{session.title}}</h3>
       <ul>
         <li class="type">{{session.subtype}}</li>
-        <li class="presenter">{{session.speakers | join: ", "}}</li>
+        <li class="presenter">{{speakers}}</li>
         <li class="institution"></li>
       </ul>
     </li>
@@ -38,7 +39,7 @@
     {% for session in site.posts %}
     <li>
       <!-- List.js: The innerHTML of children with class="name" becomes this items "name" value -->
-      <h3 class="name">{{session.title}}</h3>
+      <h3 class="title">{{session.title}}</h3>
       <ul>
         <li class="type">poster</li>
         <li class="presenter">{{session.presenter}}</li>
