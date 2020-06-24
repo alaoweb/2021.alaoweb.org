@@ -122,22 +122,31 @@
 ></script>
 <script>
   $(document).ready(function () {
+    /*
+      define variables to generate filter selects:
+       containerClass = the html class of the text to be listed as options in the filter "needle" list
+       filterID = the haystack-field name to search with list.js (often same as containerClass)
+       filterLabel = how to name the filter in its pulldown
+    */
     filterList = [
       {
-        containerClass: '.speaker-name',
+        containerClass: 'speaker-name',
         filterID: 'presenters',
         filterLabel: 'Presenter',
       },
       {
-        containerClass: '.type',
+        containerClass: 'type',
         filterID: 'type',
         filterLabel: 'Session Type',
       },
     ];
 
+    /*
+        foreach filter in filterList, create a filter pulldown and place it in the table #filter div
+      */
     filterList.forEach(function (f) {
       var arr = [];
-      $(f.containerClass).each(function (item) {
+      $('.' + f.containerClass).each(function (item) {
         let name = $(this).text();
         if (!arr.includes(name)) {
           arr.push(name);
@@ -156,6 +165,11 @@
       arr.forEach((element) => {
         $('#' + f.filterID).append('<option>' + element + '</option>');
       });
+
+      /*
+        now that the filter pulldown is built, bind it to the filter action onChange
+      */
+
       $('#' + f.filterID).change(function (event) {
         let filterTerm = $(this).val();
         console.log('Selected ' + f.filterID + ':', filterTerm);
