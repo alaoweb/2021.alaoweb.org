@@ -171,6 +171,13 @@
       */
 
       $('#' + f.filterID).change(function (event) {
+        let thisFilter = $(this).attr('id');
+        $('#filters select').each(function (index) {
+          if ($(this).attr('id') != thisFilter) {
+            /* foreach filter other than the active one, reset it if previously used */
+            $(this).val('');
+          }
+        });
         let filterTerm = $(this).val();
         console.log('Selected ' + f.filterID + ':', filterTerm);
         listObj.filter(function (item) {
