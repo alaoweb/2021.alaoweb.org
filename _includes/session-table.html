@@ -8,8 +8,8 @@
     border-radius: 5px;
     display: inline-block;
     margin-right: 1em;
-    padding-left: .5em;
-    padding-right: .5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
   }
   table {
     font-size: 1.5em;
@@ -18,10 +18,11 @@
   tbody tr {
     border-bottom: 1px solid #ccc;
   }
-  td,th {
+  td,
+  th {
     vertical-align: top;
-    padding-top: .5em;
-    padding-bottom: .5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
     text-align: left;
     padding-left: 1em;
   }
@@ -33,60 +34,73 @@
 
 <section id="session-table" class="session-table">
   <div class="content-wrapper">
-<div class="container" style="height: 80%">
-  <div id="filters"></div>
-  <!-- List.js: Child elements of container with class="list" becomes list items -->
-  <table id="sessions-list" class="list table table-striped">
-    <thead>
-      <tr><td colspan="3"><input class="search" placeholder="Search sessions" /></td></tr>
-      <tr>
-        <th>Session Title</th>
-        <th>Type</th>
-        <th>Presenters</th>
-      </tr>
-    </thead>
-    <tbody class="list">
+    <div class="container" style="height: 80%;">
+      <!-- List.js: Child elements of container with class="list" becomes list items -->
+      <table id="sessions-list" class="list table table-striped">
+        <thead>
+          <tr>
+            <td colspan="3">
+              <input class="search" placeholder="Search sessions" />
+              <span id="filters"></span>
+            </td>
+          </tr>
+          <tr>
+            <th>Session Title</th>
+            <th>Type</th>
+            <th>Presenters</th>
+          </tr>
+        </thead>
+        <tbody class="list">
+          <!-- sessions -->
+          {% for session in site.data.sessions %} {% assign speakers = "" %} {%
+          for speaker in site.data.speakers %} {% for session_speakerID in
+          session.speakers %} {% if session_speakerID == speaker.id %} {% assign
+          speakers = speakers | append: '<span class="speaker-block"
+            ><span class="speaker-name"
+              >' | append: speaker.name | append: ' ' | append: speaker.surname
+              | append: ' ' | append:'</span
+            >' | append: '
+            <span class="speaker-org"
+              >(' | append: speaker.company | append: ')</span
+            ></span
+          >
+          ' %} {% endif %} {% endfor %} {% endfor %}
 
+          <tr>
+            <td class="title">{{session.title}}</td>
+            <td class="type">{{session.subtype}}</td>
+            <td class="presenters">{{speakers}}</td>
+            <td class="description" style="display: none;">
+              {{session.description}}
+            </td>
+          </tr>
+          {% endfor %}
 
-    <!-- sessions -->
-    {% for session in site.data.sessions %}
-
-    {% assign speakers = "" %}
-    {% for speaker in site.data.speakers %}
-      {% for session_speakerID in session.speakers %}
-        {% if session_speakerID == speaker.id %}
-          {% assign speakers = speakers | append: '<span class="speaker-block"><span class="speaker-name">' | append: speaker.name | append: ' ' | append: speaker.surname | append: ' ' | append:'</span>' | append: ' <span class="speaker-org">(' | append: speaker.company | append: ')</span></span> ' %}
-          {% endif %}
-      {% endfor %}
-    {% endfor %}
-
-    <tr>
-      <td class="title">{{session.title}}</td>
-      <td class="type">{{session.subtype}}</td>
-      <td class="presenters">{{speakers}}</td>
-      <td class="description" style="display: none">{{session.description}}</td>
-    </tr>
-    {% endfor %}
-
-    <!-- posters -->
-    {% for session in site.posts %}
-      {% assign speakers = "" %}
-      {% for person in session.presenters %}
-        {% assign speakers = speakers | append: '<span class="speaker-block"><span class="speaker-name">' | append: person.name | append: ' ' | append:'</span>' | append: ' <span class="speaker-org">(' | append: person.institution | append: ')</span></span> ' %}
-      {% endfor %}
-    <tr>
-      <td class="title">{{session.title}}</td>
-        <td class="type">poster</td>
-        <td class="presenters">{{speakers}}</td>
-        <td class="description" style="display: none">{{session.description}}</td>
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
-</div>
-</div>
-
-
+          <!-- posters -->
+          {% for session in site.posts %} {% assign speakers = "" %} {% for
+          person in session.presenters %} {% assign speakers = speakers |
+          append: '<span class="speaker-block"
+            ><span class="speaker-name"
+              >' | append: person.name | append: ' ' | append:'</span
+            >' | append: '
+            <span class="speaker-org"
+              >(' | append: person.institution | append: ')</span
+            ></span
+          >
+          ' %} {% endfor %}
+          <tr>
+            <td class="title">{{session.title}}</td>
+            <td class="type">poster</td>
+            <td class="presenters">{{speakers}}</td>
+            <td class="description" style="display: none;">
+              {{session.description}}
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
 </section>
 
 <script>
@@ -94,25 +108,42 @@
     valueNames: ['title', 'type', 'presenters', 'description'],
   };
 
-  var userList = new List('sessions-list', options);
+  var listObj = new List('sessions-list', options);
 </script>
 
-<!-- <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script> -->
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"
+></script>
 <script>
-  $(document).ready(function() {
+  $(document).ready(function () {
     var arr = [];
-    $('.speaker-name').each(function(person) {
+    $('.speaker-name').each(function (person) {
       let name = $(this).text();
-      if (! arr.includes(name)) {
+      if (!arr.includes(name)) {
         arr.push(name);
       }
     });
     arr.sort();
     console.log(arr);
-    $('#filters').append('<select id="presenters"></select>');
+    $('#filters').append(
+      '<select id="presenters"><option value="">---Select by Presenter---</option></select>'
+    );
     arr.forEach((element) => {
       $('#presenters').append('<option>' + element + '</option>');
     });
-  })
+    $('#presenters').change(function (event) {
+      let filterTerm = $(this).val();
+      // console.log('Selected presenter:', filterTerm);
+      listObj.filter(function (item) {
+        if (item.values().presenters.includes(filterTerm)) {
+          return true;
+        } else {
+          return false;
+        }
+      });
+    });
+  });
 </script>
 <!-- End Session-Table Section -->
