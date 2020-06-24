@@ -109,7 +109,8 @@ $figcaption-color: #3c4a50;
             }
         }
         .position {
-            font-size: 12px;
+            font-size: 10px;
+            height: 16px !important;
             @include trimText(12px, 1, 1);
         }
     }

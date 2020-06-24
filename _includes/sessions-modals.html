@@ -60,10 +60,15 @@
 											{% if speaker.ribbon != null %}
 											<div class="modal-ribbon-wrapper">
 					                            {% for ribbon in speaker.ribbon %}
-					                               <a class="modal-ribbon" href="{{ ribbon["url"] }}" target="_blank">{{ ribbon["title"] }}</a>   
+					                               <a class="modal-ribbon" href="{{ ribbon["url"] }}" target="_blank">{{ ribbon["title"] }}</a>
 					                            {% endfor %}
 					                        </div>
 					                        {% endif %}
+											{% if speaker.pronouns %}
+											<div class="modal-ribbon-wrapper">
+													 <span class="modal-ribbon pronouns">{{speaker.pronouns}}</span>
+											</div>
+											{% endif %}
 											<p class="about">{{ speaker.bio }}</p>
 											<ul class="social">
 												{% for social in speaker.social %}
