@@ -40,9 +40,10 @@ permalink: "/posters/:title"
 # -------------------------------------------------------------
 aboutTitle: "ALAO Virtual Conference"
 aboutBlock:
- - {title: "Sessions", image: "sessions.jpg", text: "Conference Description!" }
- - {title: "Pre-Conference", image: "preconference.jpg", text: "Pre-Conference Description!" }
- - {title: "Posters", image: "posters.jpg", text: "Posters Description!" }
+ - {title: "Sessions", image: "sessions.jpg", text: "Prerecorded traditional presentations with live Q&A" }
+ - {title: "Pre-Conference", image: "preconference.jpg", text: "An opportunity for a deeper dive into a single topic in a workshop format" }
+ - {title: "Posters", image: "posters.jpg", text: "Visual displays of presenters’ projects with live Q&A" }
+ - {title: "Networking", image: "networking.jpg", text: "Opportunities to connect with other attendees in a less formal structure"}
 
 # -------------------------------------------------------------
 # Call For Proposals & Sponsors
