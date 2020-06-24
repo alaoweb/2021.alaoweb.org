@@ -16,12 +16,14 @@
                         <figcaption>
                             <div class="col-md-8 col-xs-8 text-left">
                                 <div class="name-block d-inline">
-                                    <span class="pronouns">{{teamMember.pronouns}}</span>
                                     <h2 class="name">{{ teamMember.name }} <span>{{ teamMember.surname }}</span></h2>
                                 </div>
                                
                                 <div class="clearfix"></div>
                                 <span class="position">{{ teamMember.title }}</span>
+
+                                <div class="clearfix"></div>
+                                <span class="pronouns">{{ teamMember.pronouns }}</span>
                             </div>
                             {% for social in teamMember.social %}
                             <a href="{{ social["link"] }}" target="_blank">
