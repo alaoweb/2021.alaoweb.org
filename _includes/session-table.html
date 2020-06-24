@@ -118,30 +118,50 @@
 ></script>
 <script>
   $(document).ready(function () {
-    var arr = [];
-    $('.speaker-name').each(function (person) {
-      let name = $(this).text();
-      if (!arr.includes(name)) {
-        arr.push(name);
-      }
-    });
-    arr.sort();
-    console.log(arr);
-    $('#filters').append(
-      '<select id="presenters"><option value="">---Select by Presenter---</option></select>'
-    );
-    arr.forEach((element) => {
-      $('#presenters').append('<option>' + element + '</option>');
-    });
-    $('#presenters').change(function (event) {
-      let filterTerm = $(this).val();
-      // console.log('Selected presenter:', filterTerm);
-      listObj.filter(function (item) {
-        if (item.values().presenters.includes(filterTerm)) {
-          return true;
-        } else {
-          return false;
+    filterList = [
+      {
+        containerClass: '.speaker-name',
+        filterID: 'presenters',
+        filterLabel: 'Presenter',
+      },
+      {
+        containerClass: '.type',
+        filterID: 'type',
+        filterLabel: 'Session Type',
+      },
+    ];
+
+    filterList.forEach(function (f) {
+      var arr = [];
+      $(f.containerClass).each(function (item) {
+        let name = $(this).text();
+        if (!arr.includes(name)) {
+          arr.push(name);
         }
+      });
+      arr.sort();
+      console.log(arr);
+
+      $('#filters').append(
+        '<select id="' +
+          f.filterID +
+          '"><option value="">---Select by ' +
+          f.filterLabel +
+          '---</option></select>'
+      );
+      arr.forEach((element) => {
+        $('#' + f.filterID).append('<option>' + element + '</option>');
+      });
+      $('#' + f.filterID).change(function (event) {
+        let filterTerm = $(this).val();
+        console.log('Selected ' + f.filterID + ':', filterTerm);
+        listObj.filter(function (item) {
+          if (item.values()[f.filterID].includes(filterTerm)) {
+            return true;
+          } else {
+            return false;
+          }
+        });
       });
     });
   });
