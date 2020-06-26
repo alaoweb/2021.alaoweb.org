@@ -275,7 +275,7 @@ aboutUs: "The Academic Library Association of Ohio (ALAO) is a chapter of the As
 # Tickets Block
 # -------------------------------------------------------------
 ticketsHorizontalEnable: false
-ticketsVerticalEnable: true
+ticketsVerticalEnable: fasle
 ticketsTitle: "Registration"
 ticketsInfo: "Conference registration provides access to all keynotes, pre-recorded sessions, and posters. Pre-conference sessions are ticketed separately during registration"
 ticketsOffers:
@@ -331,7 +331,7 @@ ticketsOffers:
 # -------------------------------------------------------------
 # Tweets Feed Block
 # -------------------------------------------------------------
-tweetsFeedEnable: true
+tweetsFeedEnable: false
 tweetsFeedImage: "katy.jpg"
 tweetsFeedTitle: "What's Up?"
 twitterHashTag: "alao2020"
