@@ -1,13 +1,23 @@
-- 
-  group: "Conference Sponsors"
+- group: "Gold"
   elements: 
     - {name: "OhioNET", description: "Supporting library success through learning opportunities, technology solutions, collaborative purchasing, and strategic connections.", link: "https://www.ohionet.org", imageUrl: "ohionet.png"}
-- 
-  group: "With support from"
-  elements: 
+
+#- group: "All Sessions"
+#  elements:
+#    - {name: "", description: "", link: "", imageUrl: ""}
+
+#- group: "All Posters"
+#  elements:
+#    - {name: "", description: "", link: "", imageUrl: ""}
+
+#- group: "Keynote"
+#  elements:
+#    - {name: "", description: "", link: "", imageUrl: ""}
+
+#- group: "Product Highlights"
+#  elements:
+#    - {name: "", description: "", link: "", imageUrl: ""}
+
+- group: "Individual Sessions"
+  elements:
     - {name: "Emery Pratt", description: "The nicest people in the book business", link: "https://emery-pratt.com/", imageUrl: "emery_pratt.png"}
-    #- {name: "EBSCO", description: "Improving research around the world", link: "https://www.ebsco.com", imageUrl: "ebsco.png", width: "120px"}
-- 
-  group: "Information partners"
-  elements: 
-    - {name: "The University of Akron", description: "The region’s most influential public research university.", link: "https://www.uakron.edu/", imageUrl: "UofA.png"}

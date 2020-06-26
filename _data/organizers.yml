@@ -1,8 +1,7 @@
-- 
-  group: "Main organizer"
-  elements: 
+- group: "Main organizer"
+  elements:
     - {name: "ALAO", description: "Academic Library Association of Ohio", link: "https://www.alaoweb.org", imageUrl: "alao.svg"}
-- 
-  group: "Co-organizers"
-  elements: 
+
+- group: "Co-organizers"
+  elements:
     - {name: "OhioNET", description: "Supporting library success through learning opportunities, technology solutions, collaborative purchasing, and strategic connections.", link: "https://www.ohionet.org", imageUrl: "ohionet.png"}
