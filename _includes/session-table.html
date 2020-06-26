@@ -29,9 +29,13 @@
     border-top: 1px solid #333;
     border-bottom: 1px solid #333;
   }
-  #filters input,
-  #filters select {
-    margin: 0.5em;
+  @media only screen and (min-width: 980px) {
+    #filters input,
+    #filters select {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      margin-bottom: 0.5em;
+    }
   }
 </style>
 
@@ -43,8 +47,17 @@
         <thead>
           <tr>
             <td colspan="3">
-              <input class="search" placeholder="Search sessions" />
-              <span id="filters"></span>
+              <div class="row" id="filter-row">
+                <span class="col-md-3">
+                  <input
+                    class="search form-control"
+                    placeholder="Search sessions (incl. description)"
+                  />
+                </span>
+                <span class="col-md-9">
+                  <span id="filters"></span>
+                </span>
+              </div>
             </td>
           </tr>
           <tr>
@@ -160,7 +173,7 @@
       console.log(arr);
 
       $('#filters').append(
-        '<select id="' +
+        '<select class="form-control col-md-3" id="' +
           f.filterID +
           '"><option value="">---Select by ' +
           f.filterLabel +
