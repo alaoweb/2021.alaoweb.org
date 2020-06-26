@@ -408,6 +408,17 @@
     });
   }); /* end session-table */
 
+  /* posters-modal in session-table */
+  $(document).ready(function () {
+    $('#poster-modals .modal').each(function () {
+      let link = $(this).find('.poster-link').data('link');
+      $(this)
+        .find('.poster-title')
+        .after('<a href="' + link + '" class="btn btn-info">Link to Q&A</a>');
+      // .after('<a href="' + link + '" class="btn btn-primary>Link to Q&A</a>');
+    });
+  }); /* end posters-modal in session-table */
+
   //Google plus
   function initGooglePlus() {
     var po = document.createElement('script');
@@ -417,7 +428,7 @@
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(po, s);
   }
-
+  y;
   // Google maps static
   if (typeof staticGoogleMaps !== 'undefined') {
     $('#canvas-map')
