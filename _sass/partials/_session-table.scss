@@ -1,0 +1,39 @@
+.session-table {
+  .speaker-block {
+    background-color: #efefef;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+  table {
+    font-size: 1.5em;
+  }
+  tbody {
+    tr {
+      border-bottom: 1px solid #ccc;
+    }
+  }
+  td,
+  th {
+    vertical-align: top;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    text-align: left;
+    padding-left: 1em;
+  }
+  th {
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+  }
+  @media only screen and (min-width: 980px) {
+    #filters input,
+    #filters select {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      margin-bottom: 0.5em;
+    }
+  }
+}
