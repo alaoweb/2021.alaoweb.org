@@ -193,6 +193,7 @@ partnersTitle: "Partners"
 # Posters
 # -------------------------------------------------------------
 postersTitle: "POSTER SESSIONS"
+postersBackground: waves-background.svg
 postersCommentsEnabled: false
 discusShortName: "derekz"
 
