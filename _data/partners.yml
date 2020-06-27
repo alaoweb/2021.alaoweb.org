@@ -3,15 +3,15 @@
     - {name: "OhioNET", description: "Supporting library success through learning opportunities, technology solutions, collaborative purchasing, and strategic connections.", link: "https://www.ohionet.org", imageUrl: "ohionet.png"}
     - {name: "De Gruyter", description: "An international, independent publisher of first-class scholarship headquartered in Berlin.", link: "https://www.degruyter.com/", imageUrl: "de_gruyter.jpg"}
 
-#- group: "All Sessions"
-#  elements:
-#    - {name: "", description: "", link: "", imageUrl: ""}
-
-#- group: "All Posters"
-#  elements:
-#    - {name: "", description: "", link: "", imageUrl: ""}
+- group: "All Sessions"
+  elements:
+    - {name: "OhioLINK", description: "OhioLINK creates a competitive advantage for Ohio's higher education community by cooperatively and cost-effectively acquiring, providing access to, and preserving an expanding array of print and digital scholarly resources in order to advance teaching, learning, research, and the growth of Ohio's knowledge-based economy", link: "https://www.ohiolink.edu/", imageUrl: "OhioLINK.png"}
 
 #- group: "Keynote"
+#  elements:
+#    - {name: "", description: "", link: "", imageUrl: ""}
+-
+#- group: "All Posters"
 #  elements:
 #    - {name: "", description: "", link: "", imageUrl: ""}
 
