@@ -7,10 +7,11 @@
   elements:
     - {name: "OhioLINK", description: "OhioLINK creates a competitive advantage for Ohio's higher education community by cooperatively and cost-effectively acquiring, providing access to, and preserving an expanding array of print and digital scholarly resources in order to advance teaching, learning, research, and the growth of Ohio's knowledge-based economy", link: "https://www.ohiolink.edu/", imageUrl: "OhioLINK.png"}
 
-#- group: "Keynote"
-#  elements:
-#    - {name: "", description: "", link: "", imageUrl: ""}
--
+- group: "Keynote"
+  elements:
+    - {name: "Kanopy", description: "We stream thoughtful entertainment to your preferred device with no fees and no commercials by partnering with public libraries and universities.", link: "https://www.kanopy.com/", imageUrl: "kanopy.png"}
+    - {name: "Cambridge", description: "", link: "", imageUrl: ""}
+
 #- group: "All Posters"
 #  elements:
 #    - {name: "", description: "", link: "", imageUrl: ""}
