@@ -12,9 +12,11 @@
     - {name: "Kanopy", description: "We stream thoughtful entertainment to your preferred device with no fees and no commercials by partnering with public libraries and universities.", link: "https://www.kanopy.com/", imageUrl: "kanopy.png"}
     - {name: "Cambridge", description: "Our mission is to unlock people's potential with the best learning and research solutions.", link: "https://www.cambridge.org/", imageUrl: "cambridge.png"}
 
-#- group: "All Posters"
-#  elements:
-#    - {name: "", description: "", link: "", imageUrl: ""}
+- group: "All Posters"
+  elements:
+    - {name: "Bloomsbury", description: "Bloomsbury Publishing is a leading independent publishing house, established in 1986, with authors who have won the Nobel, Pulitzer and Booker Prizes", link: "https://www.bloomsbury.com/", imageUrl: "bloomsbury.png"}
+    - {name: "Business Expert Press", description: "", link: "", imageUrl: ""}
+
 
 #- group: "Product Highlights"
 #  elements:
