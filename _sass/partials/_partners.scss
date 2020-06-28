@@ -13,6 +13,26 @@
         width: 40%;
         max-width: 160px;
       }
+      &.gold {
+        width: 32%;
+        max-width: 320px;
+      }
+      &.sessions {
+        width: 44%;
+        max-width: 440px;
+      }
+      &.keynote {
+        width: 23%;
+        max-width: 230px;
+      }
+      &.posters {
+        width: 25%;
+        max-width: 250px;
+      }
+      &.additional-support {
+        width: 16%;
+        max-width: 160px;
+      }
     }
   }
   img {

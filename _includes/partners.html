@@ -45,6 +45,7 @@
           {%
           endif
           %}
+          class="{{ sponsor.group | downcase | split: ' ' | join: '-' }}"
         >
           <a href="{{ element.link }}" target="_blank">
             <img
