@@ -183,11 +183,14 @@ navigationLinks:
 # - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
 
 # -------------------------------------------------------------
-# Partners Block
+# Organizers & Partners Block
 # -------------------------------------------------------------
 partnersEnable: True
+
+organizersEnable: False
 organizersTitle: "Organizers"
-partnersTitle: "Partners"
+sponsorsEnable: True
+sponsorsTitle: "Conference Sponsors"
 
 # -------------------------------------------------------------
 # Posters

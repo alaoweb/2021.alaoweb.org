@@ -2,6 +2,7 @@
 <section id="partners" class="partners">
   <div class="content-wrapper">
     <div class="col-lg-10 col-lg-offset-1">
+      {% if site.organizersEnable == true %}
       <h3>{{ site.organizersTitle }}</h3>
       {% for organizer in site.data.organizers %}
       <h4>{{ organizer.group }}</h4>
@@ -28,11 +29,13 @@
         {% endfor %}
       </ul>
       {% endfor %}
-      <h3>{{ site.partnersTitle }}</h3>
-      {% for partner in site.data.partners %}
-      <h4>{{ partner.group }}</h4>
+      {% endif %}
+      {% if site.sponsorsEnable == true %}
+      <h3>{{ site.sponsorsTitle }}</h3>
+      {% for sponsor in site.data.sponsors %}
+      <h4>{{ sponsors.group }}</h4>
       <ul class="list-inline">
-        {% for element in partner.elements %}
+        {% for element in sponsor.elements %}
         <li
           {%
           if
@@ -59,6 +62,7 @@
         class="btn btn-primary waves-effect waves-button waves-light waves-float"
         >{{ site.partnersC4sponsorsButton }}</a
       >
+      {% endif %}
       {% endif %}
     </div>
   </div>
