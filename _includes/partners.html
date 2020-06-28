@@ -33,7 +33,7 @@
       {% if site.sponsorsEnable == true %}
       <h3>{{ site.sponsorsTitle }}</h3>
       {% for sponsor in site.data.sponsors %}
-      <h4>{{ sponsors.group }}</h4>
+      <h4>{{ sponsor.group }}</h4>
       <ul class="list-inline">
         {% for element in sponsor.elements %}
         <li
