@@ -20,7 +20,6 @@
 - group: "Additional Support From"
   elements:
     - {name: "Emery Pratt", description: "The nicest people in the book business", link: "https://emery-pratt.com/", imageUrl: "emery_pratt.png"}
-    - {name: "", description: "", link: "", imageUrl: ""}
-    - {name: "", description: "", link: "", imageUrl: ""}
-    - {name: "", description: "", link: "", imageUrl: ""}
-    - {name: "", description: "", link: "", imageUrl: ""}
+    - {name: "EBSCO", description: "EBSCO is the leading provider of research databases, e-journals, magazine subscriptions, ebooks and discovery service for academic libraries, public libraries, corporations, schools, government and medical institutions", link: "https://www.ebsco.com/", imageUrl: "ebsco.png"}
+    - {name: "GeoScienceWorld", description: "GeoScienceWorld (GSW) is a nonprofit collaborative and comprehensive resource for research and communications in the Earth Sciences.", link: "https://pubs.geoscienceworld.org/", imageUrl: "geo_science_world.svg"}
+    - {name: "Springer Nature", description: "We help authors to share their discoveries; enable researchers to find, access and understand the work of others and support librarians and institutions with innovations in technology and data.", link: "https://www.springernature.com/", imageUrl: "springer_nature.png"}
