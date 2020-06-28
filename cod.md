@@ -2,7 +2,7 @@
 layout: cod
 title: ALAO Code of Conduct
 permalink: /cod/
-image: cod.png
+image: waves-background.svg
 ---
 
 __Conduct Statement__
