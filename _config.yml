@@ -185,7 +185,7 @@ navigationLinks:
 # -------------------------------------------------------------
 # Organizers & Partners/Sponsors Block
 # -------------------------------------------------------------
-partnersEnable: True
+sponsorsEnable: True
 
 organizersEnable: False
 organizersTitle: "Organizers"
