@@ -1,7 +1,7 @@
 - id: 001
   title: 'Business Meeting'
   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum iaculis eu non diam. Risus feugiat in ante metus dictum at tempor commodo. Pellentesque id nibh tortor id aliquet lectus proin nibh. Mi in nulla posuere sollicitudin aliquam ultrices. Sit amet justo donec enim diam. Tellus id interdum velit laoreet id donec. Pharetra massa massa ultricies mi quis hendrerit. Cras fermentum odio eu feugiat pretium nibh ipsum consequat. Senectus et netus et malesuada fames. In mollis nunc sed id semper risus in. Varius morbi enim nunc faucibus. Dis parturient montes nascetur ridiculus mus mauris vitae. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Egestas diam in arcu cursus euismod quis viverra. A iaculis at erat pellentesque. Pulvinar proin gravida hendrerit lectus. Tortor consequat id porta nibh venenatis cras sed felis. Elit duis tristique sollicitudin nibh sit amet commodo nulla facilisi. Nulla facilisi etiam dignissim diam.'
-  subtype: presentation
+  subtype: meeting
   speakers: []
   language: en
   complexity: 'Beginner'
@@ -67,5 +67,6 @@
 - id: 104
   title: 'Lunch'
   place: 'Location of your choosing'
+  subtype: social
   service: true
   description: 'The best time to talk with speakers and attendees'

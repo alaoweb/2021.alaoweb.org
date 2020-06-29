@@ -1,0 +1,50 @@
+.session-table {
+  .speaker-block {
+    background-color: #efefef;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0.1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+  table {
+    font-size: 1.5em;
+    width: 100%;
+  }
+  tbody {
+    tr {
+      border-bottom: 1px solid #ccc;
+      //border-left: 1px solid #e7e7e7 !important;
+      border-left: none !important;
+      border-right: none;
+    }
+  }
+  td,
+  th {
+    vertical-align: top;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    text-align: left;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  th {
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+  }
+  .thirty {
+    width: 30%;
+  }
+  .fifteen {
+    width: 15%;
+  }
+  @media only screen and (min-width: 980px) {
+    #filters input,
+    #filters select {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      margin-bottom: 0.5em;
+    }
+  }
+}
