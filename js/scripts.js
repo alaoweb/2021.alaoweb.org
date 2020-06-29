@@ -373,7 +373,14 @@
       console.log(arr);
 
       $('#filters').append(
-        '<select class="form-control col-md-3" id="' +
+        '<label class="sr-only" aria-label="filter-' +
+          f.filterID +
+          '">Select Sessions By ' +
+          f.filterLabel +
+          '</label>' +
+          '<select aria-labelledby="filter-' +
+          f.filterID +
+          '" class="form-control col-md-3" id="' +
           f.filterID +
           '"><option value="">---Select by ' +
           f.filterLabel +
