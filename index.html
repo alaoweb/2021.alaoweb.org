@@ -3,54 +3,38 @@ layout: default
 permalink: /
 ---
 
- {% include hero.html %}
-
- {% include about.html %}
+{% include hero.html %} {% include about.html %}
 
 <!-- SECTION - CONFERENCE STATISTICS -->
- {% if site.statisticBlockEnable == true %}
-  {% include statistic.html %}
- {% endif %}
+{% if site.statisticBlockEnable == true %} {% include statistic.html %} {% endif
+%}
 
 <!-- SECTION - LATEST NEWS -->
- {% if site.latestNewsEnable == true %}
-   {% include latest-news.html %}
- {% endif %}
+{% if site.latestNewsEnable == true %} {% include latest-news.html %} {% endif
+%}
 
 <!-- SECTION - FEATURED SPEAKERS -->
- {% if site.rockstarSpeakersEnable == true %}
-  {% include rockstar-speakers.html %}
- {% endif %}
+{% if site.rockstarSpeakersEnable == true %} {% include rockstar-speakers.html
+%} {% endif %}
 
-<!-- SECTION - PARTNERS -->
- {% if site.partnersEnable == true %}
-  {% include partners.html %}
- {% endif %}
+<!-- SECTION - SPONSORS -->
+{% if site.sponsorsEnable == true %} {% include sponsors.html %} {% endif %}
 
 <!-- SECTION - LOCATION MAP -->
- {% if site.locationBlockEnable == true %}
-  {% include location-map.html %}
- {% endif %}
+{% if site.locationBlockEnable == true %} {% include location-map.html %} {%
+endif %}
 
 <!-- SECTION - VENUE -->
- {% if site.venueBlockEnable == true %}
-  {% include venue.html %}
- {% endif %}
+{% if site.venueBlockEnable == true %} {% include venue.html %} {% endif %}
 
 <!-- SECTION - TWITTER HASHTAG -->
- {% if site.tweetsFeedEnable == true %}
-  {% include twitter-feed.html %}
- {% endif %}
+{% if site.tweetsFeedEnable == true %} {% include twitter-feed.html %} {% endif
+%}
 
 <!-- SECTION - TICKETS TABLE -->
- {% if site.ticketsHorizontalEnable == true %}
-  {% include tickets.html %}
- {% endif %}
- {% if site.ticketsVerticalEnable == true %}
-  {% include tickets-2.html %}
- {% endif %}
+{% if site.ticketsHorizontalEnable == true %} {% include tickets.html %} {%
+endif %} {% if site.ticketsVerticalEnable == true %} {% include tickets-2.html
+%} {% endif %}
 
 <!-- SECTION - SUBSCRIBE TO MAILING LIST -->
- {% if site.subscribeEnable == true %}
-  {% include subscribe.html %}
- {% endif %}
+{% if site.subscribeEnable == true %} {% include subscribe.html %} {% endif %}

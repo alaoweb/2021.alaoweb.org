@@ -1,7 +1,8 @@
-<!-- Begin Partners Section -->
-<section id="partners" class="partners">
+<!-- Begin Sponsors Section -->
+<section id="sponsors" class="sponsors">
   <div class="content-wrapper">
     <div class="col-lg-10 col-lg-offset-1">
+      {% if site.organizersEnable == true %}
       <h3>{{ site.organizersTitle }}</h3>
       {% for organizer in site.data.organizers %}
       <h4>{{ organizer.group }}</h4>
@@ -27,12 +28,12 @@
         </li>
         {% endfor %}
       </ul>
-      {% endfor %}
-      <h3>{{ site.partnersTitle }}</h3>
-      {% for partner in site.data.partners %}
-      <h4>{{ partner.group }}</h4>
+      {% endfor %} {% endif %} {% if site.sponsorsEnable == true %}
+      <h3>{{ site.sponsorsTitle }}</h3>
+      {% for sponsor in site.data.sponsors %}
+      <h4>{{ sponsor.group }}</h4>
       <ul class="list-inline">
-        {% for element in partner.elements %}
+        {% for element in sponsor.elements %}
         <li
           {%
           if
@@ -42,10 +43,11 @@
           {%
           endif
           %}
+          class="{{ sponsor.group | downcase | split: ' ' | join: '-' }}"
         >
           <a href="{{ element.link }}" target="_blank">
             <img
-              src="{{ site.baseurl }}/img/partners/{{ element.imageUrl }}"
+              src="{{ site.baseurl }}/img/sponsors/{{ element.imageUrl }}"
               title="{{ element.description }}"
               alt="{{ element.name }}"
             />
@@ -57,10 +59,10 @@
       <a
         href="{{ site.c4sponsorsUrl | prepend: site.baseurl }}"
         class="btn btn-primary waves-effect waves-button waves-light waves-float"
-        >{{ site.partnersC4sponsorsButton }}</a
+        >{{ site.sponsorsC4sponsorsButton }}</a
       >
-      {% endif %}
+      {% endif %} {% endif %}
     </div>
   </div>
 </section>
-<!-- End Partners Section -->
+<!-- End Sponsors Section -->

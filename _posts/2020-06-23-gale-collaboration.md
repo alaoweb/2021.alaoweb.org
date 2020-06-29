@@ -1,6 +1,5 @@
 ---
 layout: poster
-image: cod.png
 title: 'Four Heads Are Better Than None'
 description: 'How inter-department and inter-institution collaboration led to feats of dering-do and the downfall of a long-standing nemesis.'
 date: 2020-06-23 08:00:00

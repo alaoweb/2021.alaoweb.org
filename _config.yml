@@ -54,7 +54,7 @@ speakersC4pButton: "Become a speaker"
 
 c4sponsorsEnable: false
 c4sponsorsUrl: "/handouts/sponsorship_letter_2020.pdf"
-partnersC4sponsorsButton: "Become a sponsor"
+sponsorsC4sponsorsButton: "Become a sponsor"
 
 # -------------------------------------------------------------
 # Code of Conduct - Contact Info
@@ -183,16 +183,20 @@ navigationLinks:
 # - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
 
 # -------------------------------------------------------------
-# Partners Block
+# Organizers & Partners/Sponsors Block
 # -------------------------------------------------------------
-partnersEnable: True
+sponsorsEnable: True
+
+organizersEnable: False
 organizersTitle: "Organizers"
-partnersTitle: "Partners"
+sponsorsEnable: True
+sponsorsTitle: "Conference Sponsors"
 
 # -------------------------------------------------------------
 # Posters
 # -------------------------------------------------------------
 postersTitle: "POSTER SESSIONS"
+postersBackground: waves-background.svg
 postersCommentsEnabled: false
 discusShortName: "derekz"
 
@@ -275,7 +279,7 @@ aboutUs: "The Academic Library Association of Ohio (ALAO) is a chapter of the As
 # Tickets Block
 # -------------------------------------------------------------
 ticketsHorizontalEnable: false
-ticketsVerticalEnable: true
+ticketsVerticalEnable: fasle
 ticketsTitle: "Registration"
 ticketsInfo: "Conference registration provides access to all keynotes, pre-recorded sessions, and posters. Pre-conference sessions are ticketed separately during registration"
 ticketsOffers:
@@ -331,7 +335,7 @@ ticketsOffers:
 # -------------------------------------------------------------
 # Tweets Feed Block
 # -------------------------------------------------------------
-tweetsFeedEnable: true
+tweetsFeedEnable: false
 tweetsFeedImage: "katy.jpg"
 tweetsFeedTitle: "What's Up?"
 twitterHashTag: "alao2020"
