@@ -1,5 +1,5 @@
-<!-- Begin Partners Section -->
-<section id="partners" class="partners">
+<!-- Begin Sponsors Section -->
+<section id="sponsors" class="sponsors">
   <div class="content-wrapper">
     <div class="col-lg-10 col-lg-offset-1">
       {% if site.organizersEnable == true %}
@@ -28,9 +28,7 @@
         </li>
         {% endfor %}
       </ul>
-      {% endfor %}
-      {% endif %}
-      {% if site.sponsorsEnable == true %}
+      {% endfor %} {% endif %} {% if site.sponsorsEnable == true %}
       <h3>{{ site.sponsorsTitle }}</h3>
       {% for sponsor in site.data.sponsors %}
       <h4>{{ sponsor.group }}</h4>
@@ -49,7 +47,7 @@
         >
           <a href="{{ element.link }}" target="_blank">
             <img
-              src="{{ site.baseurl }}/img/partners/{{ element.imageUrl }}"
+              src="{{ site.baseurl }}/img/sponsors/{{ element.imageUrl }}"
               title="{{ element.description }}"
               alt="{{ element.name }}"
             />
@@ -61,11 +59,10 @@
       <a
         href="{{ site.c4sponsorsUrl | prepend: site.baseurl }}"
         class="btn btn-primary waves-effect waves-button waves-light waves-float"
-        >{{ site.partnersC4sponsorsButton }}</a
+        >{{ site.sponsorsC4sponsorsButton }}</a
       >
-      {% endif %}
-      {% endif %}
+      {% endif %} {% endif %}
     </div>
   </div>
 </section>
-<!-- End Partners Section -->
+<!-- End Sponsors Section -->

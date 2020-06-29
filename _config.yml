@@ -54,7 +54,7 @@ speakersC4pButton: "Become a speaker"
 
 c4sponsorsEnable: false
 c4sponsorsUrl: "/handouts/sponsorship_letter_2020.pdf"
-partnersC4sponsorsButton: "Become a sponsor"
+sponsorsC4sponsorsButton: "Become a sponsor"
 
 # -------------------------------------------------------------
 # Code of Conduct - Contact Info
@@ -183,7 +183,7 @@ navigationLinks:
 # - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
 
 # -------------------------------------------------------------
-# Organizers & Partners Block
+# Organizers & Partners/Sponsors Block
 # -------------------------------------------------------------
 partnersEnable: True
 
