@@ -5,7 +5,11 @@
   <div class="content-wrapper">
     <div class="container">
       <!-- List.js: Child elements of container with class="list" becomes list items -->
-      <table id="sessions-list" class="list table-hover">
+      <table
+        id="sessions-list"
+        class="list table-hover"
+        summary="This table shows the list of sessions and possters to be presented at the conference. Columns show the Session Title, Session Type, and Presenter Names and Institutions"
+      >
         <thead>
           <tr>
             <td colspan="3">
@@ -23,9 +27,9 @@
             </td>
           </tr>
           <tr>
-            <th class="thirty">Session Title</th>
-            <th class="fifteen">Type</th>
-            <th>Presenters</th>
+            <th scope="col" class="thirty">Session Title</th>
+            <th scope="col" class="fifteen">Type</th>
+            <th scope="col">Presenters</th>
           </tr>
         </thead>
         <tbody class="list">
