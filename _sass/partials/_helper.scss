@@ -5,7 +5,7 @@
 }
 .bordered {
   display: inline-block;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 1);
   border: 1px solid rgba(255, 255, 255, 0.6);
   border-radius: 0;
   &.dark-border {
@@ -134,3 +134,10 @@
 .reset-padding {
   padding: 0;
 }
+.darker-background {
+  background: rgba(37, 32, 31, 0.8);
+  &.soft-edges {
+    box-shadow: -1px 1px 4px 3px rgba(37,32,31,0.8);
+  }
+}
+
