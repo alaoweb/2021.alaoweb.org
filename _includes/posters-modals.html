@@ -1,0 +1,59 @@
+<!-- Begin Posters Modals -->
+<div id="poster-modals" class="modals">
+  {% for page in site.posts %}
+  <div
+    class="modal fade text-left people-modal"
+    id="posterDetail-{{ page.id | remove: '/' }}"
+    tabindex="-1"
+    role="dialog"
+    aria-labelledby="posterDetailLabel-{{ page.id | remove: '/' }}"
+    aria-hidden="true"
+  >
+    <div class="poster-link" data-link="{{page.id}}"></div>
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="close">
+            <svg class="icon icon-cross" viewBox="0 0 32 32">
+              <use
+                xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-cross"
+              ></use>
+            </svg>
+            <div class="close-mask" data-dismiss="modal"></div>
+          </div>
+          <!-- Starting here, code is reused from _include/poster.html -->
+          <div class="post-body">
+            <div class="poster-title">{{ page.title }}</div>
+            <div class="poster-presenter">
+              <span class="label">Presenter(s):</span> <br />
+              {% if page.presenters %} {% for person in page.presenters %} • {{
+              person.name }} {% if person.institution %} ({{ person.institution
+              }}) {% endif %} {% capture bio %}
+              <p class="individual-bio">{{ person.bio}}</p>
+              {% endcapture %} {% assign bios = bios | append: bio %} {% endfor
+              %} {% endif %}
+            </div>
+            <div class="poster-description">
+              <span class="label">Poster Description:</span> <br />{{
+              page.description }}
+            </div>
+            <div class="poster-video"><span class="label">Poster:</span></div>
+            <div class="theme-video embed-responsive embed-responsive-16by9">
+              <iframe
+                class="embed-responsive-item"
+                src="{{ page.video }}"
+              ></iframe>
+            </div>
+            <div class="poster-presenter-about">
+              <span class="label">About the Presenter(s):</span> <br />{{ bios
+              }}
+            </div>
+          </div>
+          <!-- Ending here, code is reused from _include/poster.html -->
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+<!-- End Posters Modals-->

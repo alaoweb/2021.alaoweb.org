@@ -1,0 +1,110 @@
+<!-- Begin Session-Table Section -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+
+<section id="session-table" class="session-table">
+  <div class="content-wrapper">
+    <div class="container">
+      <!-- List.js: Child elements of container with class="list" becomes list items -->
+      <table
+        id="sessions-list"
+        class="list table-hover"
+        summary="This table shows the list of sessions and possters to be presented at the conference. Columns show the Session Title, Session Type, and Presenter Names and Institutions"
+      >
+        <thead>
+          <tr>
+            <td colspan="3">
+              <div class="row" id="filter-row">
+                <span class="col-md-3">
+                  <label class="sr-only" aria-label="search-sessions"
+                    >Search sessions (including session description)</label
+                  >
+                  <input
+                    aria-labelledby="search-sessions"
+                    class="search form-control"
+                    placeholder="Search sessions (including description)"
+                  />
+                </span>
+                <span class="col-md-9">
+                  <span id="filters"></span>
+                </span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th scope="col" class="thirty">Session Title</th>
+            <th scope="col" class="fifteen">Type</th>
+            <th scope="col">Presenters</th>
+          </tr>
+        </thead>
+        <tbody class="list">
+          <!-- sessions -->
+          {% for session in site.data.sessions %} {% assign speakers = "" %} {%
+          for speaker in site.data.speakers %} {% for session_speakerID in
+          session.speakers %} {% if session_speakerID == speaker.id %} {% assign
+          speakers = speakers | append: '<span class="speaker-block"
+            ><span class="speaker-name"
+              >' | append: speaker.name | append: ' ' | append: speaker.surname
+              | append: ' ' | append:'</span
+            >' | append: '
+            <span class="speaker-org"
+              >(' | append: speaker.company | append: ')</span
+            ></span
+          >
+          ' %} {% endif %} {% endfor %} {% endfor %}
+
+          <tr
+            id="session-{{session.id}}"
+            class="slot"
+            data-toggle="modal"
+            data-target="#sessionDetail-{{session.id}}"
+          >
+            <td class="title">{{session.title}}</td>
+            <td class="type">{{session.subtype}}</td>
+            <td class="presenters">{{speakers}}</td>
+            <td class="description" style="display: none;">
+              {{session.description}}
+            </td>
+          </tr>
+          {% endfor %}
+
+          <!-- posters -->
+          {% for session in site.posts %} {% assign speakers = "" %} {% for
+          person in session.presenters %} {% assign speakers = speakers |
+          append: '<span class="speaker-block"
+            ><span class="speaker-name"
+              >' | append: person.name | append: ' ' | append:'</span
+            >' | append: '
+            <span class="speaker-org"
+              >(' | append: person.institution | append: ')</span
+            ></span
+          >
+          ' %} {% endfor %}
+          <tr
+            id="poster-{{session.id | remove: '/'}}"
+            class="slot"
+            data-toggle="modal"
+            data-target="#posterDetail-{{session.id | remove: '/'}}"
+          >
+            <td class="title">{{session.title}}</td>
+            <td class="type">poster</td>
+            <td class="presenters">{{speakers}}</td>
+            <td class="description" style="display: none;">
+              {{session.description}}
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<script>
+  var options = {
+    valueNames: ['title', 'type', 'presenters', 'description'],
+  };
+
+  var listObj = new List('sessions-list', options);
+</script>
+
+<!-- End Session-Table Section -->
