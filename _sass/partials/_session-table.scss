@@ -1,11 +1,13 @@
 .session-table {
   .speaker-block {
-    border: 1px solid #ccc;
     border-radius: 5px;
     display: inline-block;
     margin: 0.1em;
     padding-left: 0.5em;
     padding-right: 0.5em;
+    .speaker-name {
+      min-width: 12em;
+    }
   }
   .poster-speaker {
     .speaker-name,
