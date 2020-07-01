@@ -334,7 +334,7 @@
     }
   });
 
-  // Session-table
+  // session-search
   $(document).ready(function () {
     /*
       define variables to generate filter selects:
@@ -413,9 +413,9 @@
         });
       });
     });
-  }); /* end session-table */
+  }); /* end session-search */
 
-  /* posters-modal in session-table */
+  /* posters-modal in session-search */
   $(document).ready(function () {
     $('#poster-modals .modal').each(function () {
       let link = $(this).find('.poster-link').data('link');
@@ -424,7 +424,7 @@
         .after('<a href="' + link + '" class="btn btn-info">Link to Q&A</a>');
       // .after('<a href="' + link + '" class="btn btn-primary>Link to Q&A</a>');
     });
-  }); /* end posters-modal in session-table */
+  }); /* end posters-modal in session-search */
 
   //Google plus
   function initGooglePlus() {
