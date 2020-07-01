@@ -5,20 +5,15 @@
     - {title: "Track #2", color: "#03a9f4"}
   timeslots:
     - {
-    	startTime: "10:00",
-    	endTime: "10:45",
+    	startTime: "12:30",
+    	endTime: "1:00",
     	sessionIds: [001]
     }
     - {
-        startTime: "12:00",
-        endTime: "2:45",
+        startTime: "1:00",
+        endTime: "3:00",
         sessionIds: [002]
     }
-#    - {
-#    	startTime: "3:00",
-#    	endTime: "4:45",
-#    	sessionIds: [003]
-#    }
 
 - date: "2020-10-27"
   dateReadable: "October 27"
@@ -31,13 +26,25 @@
     	endTime: "9:50",
     	sessionIds: [101]
     }
+#    - {
+#    	startTime: "10:00",
+#    	endTime: "10:45",
+#    	sessionIds: [102, 103]
+#    }
+#    - {
+#      startTime: "11:00",
+#      endTime: "12:00",
+#      sessionIds: [104]
+#    }
+
+- date: "2020-10-27"
+  dateReadable: "October 27"
+  tracks:
+    - {title: "Track #1", color: "#90be4e"}
+    - {title: "Track #2", color: "#03a9f4"}
+  timeslots:
     - {
-    	startTime: "10:00",
-    	endTime: "10:45",
-    	sessionIds: [102, 103]
-    }
-    - {
-      startTime: "11:00",
-      endTime: "12:00",
-      sessionIds: [104]
+      startTime: "3:40",
+      endTime: "4:30",
+      sessionIds: [201]
     }

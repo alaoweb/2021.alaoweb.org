@@ -35,8 +35,8 @@
 #  video: '//www.youtube.com/embed/{replace_with_video_id}'
 
 - id: 101
-  title: 'Keynote #1'
-  description: 'Keynote #1 Description'
+  title: 'Opening Keynote'
+  description: ''
   subtype: keynote
   speakers: [4]
   language: en
@@ -44,29 +44,39 @@
   presentation: 'https://www.example.com'
   video: '//www.youtube.com/embed/{replace_with_video_id}'
 
-- id: 102
-  title: 'Session #1'
-  description: 'Description #1'
+#- id: 102
+#  title: 'Session #1'
+#  description: 'Description #1'
+#  subtype: keynote
+#  speakers: [1, 2, 3, 4]
+#  language: en
+#  complexity: 'Beginner'
+#  presentation: 'https://www.example.com'
+#  video: '//www.youtube.com/embed/{replace_with_video_id}'
+#
+#- id: 103
+#  title: 'Session #2'
+#  description: 'Description #2'
+#  subtype: keynote
+#  speakers: [1, 2, 3, 4]
+#  language: en
+#  complexity: 'Beginner'
+#  presentation: 'https://www.example.com'
+#  video: '//www.youtube.com/embed/{replace_with_video_id}'
+#
+#- id: 104
+#  title: 'Lunch'
+#  place: 'Location of your choosing'
+#  subtype: social
+#  service: true
+#  description: 'The best time to talk with speakers and attendees'
+
+- id: 201
+  title: 'Closing Keynote'
+  description: ''
   subtype: keynote
-  speakers: [1, 2, 3, 4]
+  speakers: [2]
   language: en
   complexity: 'Beginner'
   presentation: 'https://www.example.com'
   video: '//www.youtube.com/embed/{replace_with_video_id}'
-
-- id: 103
-  title: 'Session #2'
-  description: 'Description #2'
-  subtype: keynote
-  speakers: [1, 2, 3, 4]
-  language: en
-  complexity: 'Beginner'
-  presentation: 'https://www.example.com'
-  video: '//www.youtube.com/embed/{replace_with_video_id}'
-
-- id: 104
-  title: 'Lunch'
-  place: 'Location of your choosing'
-  subtype: social
-  service: true
-  description: 'The best time to talk with speakers and attendees'
