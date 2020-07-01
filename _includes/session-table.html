@@ -70,14 +70,11 @@
           <!-- posters -->
           {% for session in site.posts %} {% assign speakers = "" %} {% for
           person in session.presenters %} {% assign speakers = speakers |
-          append: '<!--div class="speaker-img flow-img img-circle" style="background-image: url(/img/people/)"></div---> 
+          append: '<div class="speaker-block poster-speaker"><!--div class="speaker-img flow-img img-circle" style="background-image: url(/img/people/)"></div---> 
           <p class="speaker-name">' | append: person.name | append: '<span class="speaker-position">' | append: person.institution | append: '</span
             >' | append: '
-          </div>
-          ' %} 
-          {% assign bogus = bogus | append: '<div class="speaker-img flow-img img-circle" style="background-image: url(/img/people/)"></div> 
-          <p class="speaker-name">Rebekkah Smith Aldrich <span class="speaker-position">Mid-Hudson Library System</span> </p>' %}
-          
+          </div></div>
+          ' %}           
           
           {% endfor %}
           <tr
