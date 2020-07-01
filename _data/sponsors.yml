@@ -14,7 +14,7 @@
 
 - group: "Posters"
   elements:
-    - {name: "Bloomsbury", description: "Bloomsbury Publishing is a leading independent publishing house, established in 1986, with authors who have won the Nobel, Pulitzer and Booker Prizes", link: "https://www.bloomsbury.com/", imageUrl: "bloomsbury.png"}
+    - {name: "Bloomsbury", description: "Bloomsbury Publishing is a leading independent publishing house, established in 1986, with authors who have won the Nobel, Pulitzer and Booker Prizes", link: "https://www.bloomsbury.com/dr/digital-resources/", imageUrl: "bloomsbury.png"}
     - {name: "Business Expert Press", description: "Concise, precise, professional business information, published in print and eBook formats, written by experts in their fields, and organized into specific content collections so that consumers can immediately find the information they seek on subjects that matter to them.", link: "https://www.businessexpertpress.com/", imageUrl: "bep.png"}
 
 - group: "Additional Support"
