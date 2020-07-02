@@ -346,7 +346,7 @@
     */
     filterList = [
       {
-        containerClass: 'speaker-name',
+        containerClass: 'name-only',
         filterID: 'presenters',
         filterLabel: 'Presenter',
       },
