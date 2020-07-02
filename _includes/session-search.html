@@ -1,7 +1,8 @@
-<!-- Begin Session-Table Section -->
+<!-- Begin session-search Section -->
 <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
 
-<section id="session-table" class="session-table">
+
+<section id="session-search" class="session-search">
   <div class="content-wrapper">
     <div class="container">
       <!-- List.js: Child elements of container with class="list" becomes list items -->
@@ -11,6 +12,11 @@
         summary="This table shows the list of sessions and possters to be presented at the conference. Columns show the Session Title, Session Type, and Presenter Names and Institutions"
       >
         <thead>
+          <tr>
+            <td colspan="3">
+                <a href="/schedule" class="btn btn-primary ml-3 mt-3">Switch to Schedule View</a>
+            </td>
+          </tr>
           <tr>
             <td colspan="3">
               <div class="row" id="filter-row">
@@ -43,7 +49,7 @@
           session.speakers %} {% if session_speakerID == speaker.id %} 
           {% assign speakers = speakers |
             append: '<div class="speaker-block"><div class="speaker-img flow-img img-circle" style="background-image: url(/img/people/'  | append: speaker.thumbnailUrl |append:')"></div> 
-            <p class="speaker-name">' | append: speaker.name | append: ' ' | append: speaker.surname | append: '<span class="speaker-position">' | append: speaker.company | append: '</span
+            <p class="speaker-name"><span class="name-only">' | append: speaker.name | append: ' ' | append: speaker.surname | append: '</span><span class="speaker-position">' | append: speaker.company | append: '</span
               ></p></div>
             ' %} 
           
@@ -71,7 +77,7 @@
           {% for session in site.posts %} {% assign speakers = "" %} {% for
           person in session.presenters %} {% assign speakers = speakers |
           append: '<div class="speaker-block poster-speaker"><!--div class="speaker-img flow-img img-circle" style="background-image: url(/img/people/)"></div---> 
-          <p class="speaker-name">' | append: person.name | append: '<span class="speaker-position">' | append: person.institution | append: '</span
+          <p class="speaker-name"><span class="name-only">' | append: person.name | append: '</span><span class="speaker-position">' | append: person.institution | append: '</span
             >' | append: '
           </div></div>
           ' %}           
@@ -108,4 +114,4 @@
   var listObj = new List('sessions-list', options);
 </script>
 
-<!-- End Session-Table Section -->
+<!-- End session-search Section -->
