@@ -4,7 +4,8 @@
   pronouns: 'he/him/his'
   title: 'Lead - Conference Website'
   thumbnailUrl: derek_zoladz.jpg
-  team: true
+  organizer: true
+  programCommittee: false
   ribbon:
     - { abbr: 'OhioNET', title: 'Library Systems Analyst' }
   social:
@@ -18,7 +19,8 @@
   pronouns: 'she/her/hers'
   title: 'Performing Arts & Humanities Librarian; OER & Copyright Advisor (Chair)'
   thumbnailUrl: mandi_goodsett.jpg
-  team: true
+  organizer: true
+  programCommittee: false
   ribbon:
     - {
         abbr: 'Cleveland State University',
@@ -31,7 +33,8 @@
   pronouns: 'he/him/his'
   title: 'Library Specialist'
   thumbnailUrl: no-photo-available.jpg
-  team: true
+  organizer: true
+  programCommittee: false
   ribbon:
     - { abbr: 'University of Akron', title: 'library Specialist' }
 
@@ -41,7 +44,8 @@
   pronouns: 'she/her/hers'
   title: 'Coordinator of Access Services'
   thumbnailUrl: amanda_black.jpg
-  team: true
+  organizer: true
+  programCommittee: false
   ribbon:
     - { abbr: 'University of Dayton', title: 'Coordinator of Access Services' }
 
@@ -51,7 +55,8 @@
   pronouns: 'she/her/hers'
   title: 'Electronic Resources Librarian'
   thumbnailUrl: heather_crozier.jpg
-  team: true
+  organizer: true
+  programCommittee: false
   ribbon:
     - {
         abbr: 'Ohio Northern University',
@@ -66,7 +71,8 @@
   pronouns: 'he/him/his'
   title: 'Librarian, Research Services'
   thumbnailUrl: mark_eddy.jpg
-  team: True
+  organizer: True
+  programCommittee: false
   ribbon:
     - {
         abbr: 'Case Western Reserve University',
@@ -79,7 +85,8 @@
   pronouns: 'she/her/hers'
   title: 'Serials & Electronic Resources Manager'
   thumbnailUrl: melissa_hill.jpg
-  team: True
+  organizer: True
+  programCommittee: false
   ribbon:
     - {
         abbr: 'Ohio Wesleyan University',
@@ -92,7 +99,8 @@
   pronouns: 'he/him/his'
   title: 'Web Services Librarian'
   thumbnailUrl: ken_irwin.jpg
-  team: True
+  organizer: True
+  programCommittee: false
   ribbon:
     - { abbr: 'Miami University', title: 'Web Services Librarian' }
   social:
@@ -106,24 +114,13 @@
   pronouns: 'she/her/hers'
   title: 'Assistant Director of Library Services; ALAO Instruction Group Cooardinator'
   thumbnailUrl: sara_klink.jpg
-  team: True
+  organizer: True
+  programCommittee: false
   ribbon:
     - {
         abbr: 'Stark State College',
         title: 'Assistant Director of Library Services',
       }
-
-#- id: 9
-#  name: 'Katy'
-#  surname: 'Mathuews'
-#  title: 'Interim Coordinating Director, Specialized Collections; Head of Collections Assessment & Access'
-#  thumbnailUrl: no-photo-available.jpg
-#  team: True
-#  ribbon:
-#    - {
-#        abbr: 'Ohio University',
-#        title: 'Interim Coordinating Director, Specialized Collections; Head of Collections Assessment & Access',
-#      }
 
 - id: 10
   name: 'Stacey'
@@ -131,7 +128,8 @@
   pronouns: 'she/her/hers'
   title: 'Reference & Instruction Librarian'
   thumbnailUrl: stacey_mckenna.jpg
-  team: True
+  organizer: True
+  programCommittee: false
   ribbon:
     - {
         abbr: 'The Ohio State University at Newark/ Central Ohio Technical College',
@@ -144,7 +142,8 @@
   pronouns: 'she/her/hers'
   title: 'Head, Collections and Digital Initiatives'
   thumbnailUrl: marsha_miles.jpg
-  team: True
+  organizer: True
+  programCommittee: false
   ribbon:
     - {
         abbr: 'Cleveland State University',
@@ -159,7 +158,8 @@
   pronouns: 'she/her/hers'
   title: 'Director of Library Communications'
   thumbnailUrl: melissa_cox_norris.jpg
-  team: True
+  organizer: True
+  programCommittee: false
   ribbon:
     - {
         abbr: 'University of Cincinnati',
@@ -172,7 +172,8 @@
   pronouns: 'he/him/his'
   title: 'Electronic Access Librarian'
   thumbnailUrl: allen_reichert.jpg
-  team: True
+  organizer: True
+  programCommittee: false
   ribbon:
     - { abbr: 'Otterbein University', title: 'Electronic Access Librarian' }
 
@@ -182,7 +183,8 @@
   pronouns: 'he/him/his'
   title: 'Reference Librarian'
   thumbnailUrl: ryan_scott.jpg
-  team: True
+  organizer: True
+  programCommittee: false
   ribbon:
     - { abbr: 'Columbus State Community College', title: 'Reference Librarian' }
 
@@ -192,7 +194,8 @@
   pronouns: 'she/her/hers'
   title: 'Electronic Resources Librarian'
   thumbnailUrl: shelby_stuart.jpg
-  team: True
+  organizer: True
+  programCommittee: false
   ribbon:
     - {
         abbr: 'Case Western Reserve University',
@@ -205,7 +208,8 @@
   pronouns: 'he/him/his'
   title: 'Reference & Instruction Librarian'
   thumbnailUrl: zach_walton.jpg
-  team: True
+  organizer: True
+  programCommittee: false
   ribbon:
     - {
         abbr: 'The Ohio State University at Lima',

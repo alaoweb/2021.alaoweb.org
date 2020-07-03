@@ -274,6 +274,8 @@ subscribeInfo: "Stay Informed of ALAO Events!"
 # -------------------------------------------------------------
 teamBlockTitle: "About us"
 aboutUs: "The Academic Library Association of Ohio (ALAO) is a chapter of the Association of College and Research Libraries (ACRL). ALAO exists to develop, promote, and improve library and information services in Ohio’s higher education community, to advance the interests of academic librarianship and the personnel of academic libraries, and to provide leadership and advocacy for the educational and policy concerns of the academic library community in Ohio."
+showOrganizers: True
+showProgramCommittee: False
 
 # -------------------------------------------------------------
 # Tickets Block
