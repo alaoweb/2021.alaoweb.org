@@ -27,7 +27,7 @@
 						<div class="row qa-row">
 							<div class="col-md-4">
 								{% if session.handouts %}
-									<div class="theme-handouts">Session Handouts</div>
+									<div class="theme-handouts">{{ session.subtype }} Handouts</div>
 									<ul class="handouts-list">
 									{% for doc in session.handouts %}
 										<li><a href="/handouts/{{doc.filename}}">{{ doc.title }}</a></li>
@@ -36,11 +36,17 @@
 								{% endif %}
 							</div>
 							<div class="col-md-8 qa-info">
-								{% if session.question-time and session.question-link %}
-								<div class="qa-time">Q&A starts: {{ session.question-time | date: "%b %d %I:%M %p" }}</div>
-								<div class="qa-button">
-									<a href="{{ session.question-link }}" class="btn btn-danger">Launch Q&A</a>
-								</div>
+								{% if session.live-stream-link and session.live-stream-type %}
+									{% if session.live-stream-type == 'q&a' or session.live-stream-type == 'Q&A' %}
+									<div class="qa-time">{{ session.live-stream-type | upcase }} starts: {{ session.live-stream-time | date: "%b %d %I:%M %p" }}</div>
+									<div class="qa-button">
+										<a href="{{ session.live-stream-link }}" class="btn btn-danger">Launch {{ session.live-stream-type | upcase }}</a>
+									</div>
+									{% else %}
+									<div class="qa-button">
+										<a href="{{ session.live-stream-link }}" class="btn btn-danger">Launch {{ session.live-stream-type | capitalize }}</a>
+									</div>
+									{% endif %}
 								{% endif %}
 							</div>
 						</div>

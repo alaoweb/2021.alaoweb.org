@@ -5,10 +5,11 @@
             <h3>{{ site.teamBlockTitle }}</h3>
             <p class="text-left animated hiding" data-animation="fadeInUp" data-delay="0">{{ site.aboutUs }}</p>
         </div>
+        {% if site.showOrganizers == true %}
         <div class="col-lg-10 col-lg-offset-1 text-center">
             <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0">Organizers</h4>
             {% assign team = site.data.team | sort: "surname" %}
-            {% for teamMember in team %} {% if teamMember.team != null %}
+            {% for teamMember in team %} {% if teamMember.organizer == true %}
             <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation">
                 <div class="zoe-effect" data-toggle="modal" data-target="#speakerDetail-{{ teamMember.id }}">
                     <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: '/img/people/' | append: teamMember.thumbnailUrl }})">
@@ -38,9 +39,11 @@
             </div>
             {% endif %} {% endfor %}
         </div>
+        {% endif %}
+        {% if site.showProgramCommittee == true %}
         <div class="col-lg-10 col-lg-offset-1 text-center">
             <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0">Program committee</h4>
-            {% for teamMember in site.data.team %} {% if teamMember.subTeam != null %}
+            {% for teamMember in site.data.team %} {% if teamMember.programCommittee == true %}
             <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation">
                 <div class="zoe-effect" data-toggle="modal" data-target="#speakerDetail-{{ teamMember.id }}">
                     <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: '/img/people/' | append: teamMember.thumbnailUrl }})">
@@ -64,6 +67,7 @@
             </div>
             {% endif %} {% endfor %}
         </div>
+        {% endif %}
     </div>
 </section>
 <!-- End Team List -->
