@@ -41,6 +41,16 @@ $small-label-width: 80px;
         margin-bottom: 60px;
         padding: 0;
     }
+    .session-search-btn {
+        float: right;
+        transform: translateY(9px);
+        margin-right: 10px;
+    @media (max-width: 767px) {
+        display: block;
+        margin: 15px;
+        float: none;
+    }
+    }
 }
 .schedule-table-heading {
     margin: 10px 0 20px;
