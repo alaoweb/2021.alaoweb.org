@@ -247,7 +247,7 @@ rockstarSpeakersButtonText: "See all speakers"
 # -------------------------------------------------------------
 # Speakers List Block
 # -------------------------------------------------------------
-showSessions: true
+showSessions: false
 
 # -------------------------------------------------------------
 # Statistic Block
