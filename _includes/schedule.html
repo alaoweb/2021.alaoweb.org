@@ -3,10 +3,11 @@
   <div class="content-wrapper">
     {% for day in site.data.schedule %}
     <div class="schedule-table col-lg-8 col-md-10 col-md-offset-1">
-      <h4 class="schedule-table-heading">{{ day.dateReadable }}
+      <h4 class="schedule-table-heading">
       {% if forloop.first == true %}
         <a href="/session-search" class="btn btn-primary ml-3 mt-3 justify-content-start session-search-btn">Switch to Session Search</a>
       {% endif %}
+      {{ day.dateReadable }}
       </h4>
       <div class="timeslot track-header stick-header">
         <div class="track-header-label">Day {{ forloop.index }}</div>

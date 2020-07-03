@@ -42,7 +42,14 @@ $small-label-width: 80px;
         padding: 0;
     }
     .session-search-btn {
-        float: right
+        float: right;
+        transform: translateY(9px);
+        margin-right: 10px;
+    @media (max-width: 767px) {
+        display: block;
+        margin: 15px;
+        float: none;
+    }
     }
 }
 .schedule-table-heading {
