@@ -1,69 +1,71 @@
+# ---------------------------------
+# CONFERENCE DAY[0], prefix ID 00x
+# Increment session IDs by 1
+# ---------------------------------
 - id: 001
   title: 'Business Meeting'
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum iaculis eu non diam. Risus feugiat in ante metus dictum at tempor commodo. Pellentesque id nibh tortor id aliquet lectus proin nibh. Mi in nulla posuere sollicitudin aliquam ultrices. Sit amet justo donec enim diam. Tellus id interdum velit laoreet id donec. Pharetra massa massa ultricies mi quis hendrerit. Cras fermentum odio eu feugiat pretium nibh ipsum consequat. Senectus et netus et malesuada fames. In mollis nunc sed id semper risus in. Varius morbi enim nunc faucibus. Dis parturient montes nascetur ridiculus mus mauris vitae. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Egestas diam in arcu cursus euismod quis viverra. A iaculis at erat pellentesque. Pulvinar proin gravida hendrerit lectus. Tortor consequat id porta nibh venenatis cras sed felis. Elit duis tristique sollicitudin nibh sit amet commodo nulla facilisi. Nulla facilisi etiam dignissim diam.'
+  description: "Academic Library Association of Ohio's annual business meeting."
   subtype: meeting
   speakers: []
-  language: en
-  complexity: 'Beginner'
-  presentation: 'https://www.example.com'
+  language:
+  complexity:
   handouts:
     - { title: Sample Budget 2020, filename: biz-mtg-budget.pdf }
     - { title: Sample Budget 2021, filename: biz-mtg-budget.pdf }
     - { title: Sample Budget 2022, filename: biz-mtg-budget.pdf }
-  video: '//www.youtube.com/embed/{replace_with_video_id}'
-  question-time: '2020-10-26 10:20:00'
-  question-link: 'https://us04web.zoom.us/j/76893733256?pwd=WHFqUkdJSnhBVEtmWE95RGhFSUpadz09'
+  video:
+  live-stream-type: meeting
+  live-stream-time:
+  live-stream-link: 'https://www.example.com'
 
 - id: 002
   title: 'Renewal: Promoting Civility and Self-Care in (Academic) Libraries'
   description: 'The Renewal Seminar offers a pathway for individuals to increase their awareness of the associated frameworks, development, outcomes, and emerging countermeasures of low morale, which is defined as repeated and protracted exposure to workplace abuse and neglect (Kendrick, 2017). Learning more about these concerns can help promote authentic civility and collegiality in North American libraries and reduce the factors that can cause employee mistreatment and misconduct in library workplaces.'
   subtype: workshop
   speakers: [3]
-  language: en
-  complexity: 'Beginner'
-  presentation: 'https://www.example.com'
-  video: '//www.youtube.com/embed/{replace_with_video_id}'
+  language:
+  complexity:
+  handouts:
+  video:
+  live-stream-type: workshop
+  live-stream-time:
+  live-stream-link: 'https://www.example.com'
 
-#- id: 003
-#  title: 'Preconference #2'
-#  description: 'Preconference #2 Description'
-#  subtype: workshop
-#  speakers: []
-#  language: en
-#  complexity: 'Beginner'
-#  presentation: 'https://www.example.com'
-#  video: '//www.youtube.com/embed/{replace_with_video_id}'
+
+# ---------------------------------
+# CONFERENCE DAY[1], prefix ID 10x
+# Increment session IDs by 1
+# ---------------------------------
 
 - id: 101
   title: 'Opening Keynote'
   description: ''
   subtype: keynote
   speakers: [4]
-  language: en
-  complexity: 'Beginner'
-  presentation: 'https://www.example.com'
-  video: '//www.youtube.com/embed/{replace_with_video_id}'
+  language:
+  complexity:
+  handouts:
+  video:
+  live-stream-type: keynote
+  live-stream-time:
+  live-stream-link: 'https://www.example.com'
 
+# EXAMPLE TEMPLATE FOR A PRERECORDED SESSION WITH Q&A
 #- id: 102
 #  title: 'Session #1'
-#  description: 'Description #1'
-#  subtype: keynote
+#  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+#  subtype: session
 #  speakers: [1, 2, 3, 4]
-#  language: en
-#  complexity: 'Beginner'
-#  presentation: 'https://www.example.com'
+#  language:
+#  complexity:
+#  handouts:
+#    - { title: Presentation Slides, filename: session-1-slides.pdf }
 #  video: '//www.youtube.com/embed/{replace_with_video_id}'
-#
-#- id: 103
-#  title: 'Session #2'
-#  description: 'Description #2'
-#  subtype: keynote
-#  speakers: [1, 2, 3, 4]
-#  language: en
-#  complexity: 'Beginner'
-#  presentation: 'https://www.example.com'
-#  video: '//www.youtube.com/embed/{replace_with_video_id}'
-#
+#  live-stream-type: Q&A
+#  live-stream-time: '2020-10-26 10:20:00'
+#  live-stream-link: 'https://www.example.com'
+
+# EXAMPLE TEMPLATE FOR A GENERIC SLOT, i.e. LUNCH
 #- id: 104
 #  title: 'Lunch'
 #  place: 'Location of your choosing'
@@ -71,12 +73,20 @@
 #  service: true
 #  description: 'The best time to talk with speakers and attendees'
 
+
+# ---------------------------------
+# CONFERENCE DAY[2], prefix ID 20x
+# Increment session IDs by 1
+# ---------------------------------
 - id: 201
   title: 'Closing Keynote'
   description: ''
   subtype: keynote
   speakers: [2]
-  language: en
-  complexity: 'Beginner'
-  presentation: 'https://www.example.com'
-  video: '//www.youtube.com/embed/{replace_with_video_id}'
+  language:
+  complexity:
+  handouts:
+  video:
+  live-stream-type: keynote
+  live-stream-time:
+  live-stream-link: 'https://www.example.com'
