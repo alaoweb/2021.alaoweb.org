@@ -78,7 +78,6 @@
   -webkit-mask-image: -webkit-radial-gradient(circle, #ffffff 100%, #000000 100%);
 }
 .waves-button,
-.waves-button:hover,
 .waves-button:visited,
 .waves-button-input {
   white-space: nowrap;
@@ -93,6 +92,12 @@
   text-align: center;
   text-decoration: none;
   z-index: 1;
+  &:hover {
+    background-color: rgba(78, 58, 24, 0.6);
+  }
+}
+.waves-button:hover {
+  background-color: rgba(78, 58, 24, 0.6);
 }
 .waves-button {
   padding: 0.85em 1.1em;
