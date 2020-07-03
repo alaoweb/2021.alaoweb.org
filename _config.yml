@@ -197,6 +197,8 @@ sponsorsTitle: "Conference Sponsors"
 # -------------------------------------------------------------
 postersTitle: "POSTER SESSIONS"
 postersBackground: waves-background.svg
+showPosters: false
+noPostersText: "Posters Forthcoming"
 postersCommentsEnabled: false
 discusShortName: "derekz"
 
@@ -281,7 +283,7 @@ showProgramCommittee: False
 # Tickets Block
 # -------------------------------------------------------------
 ticketsHorizontalEnable: false
-ticketsVerticalEnable: fasle
+ticketsVerticalEnable: false
 ticketsTitle: "Registration"
 ticketsInfo: "Conference registration provides access to all keynotes, pre-recorded sessions, and posters. Pre-conference sessions are ticketed separately during registration"
 ticketsOffers:
