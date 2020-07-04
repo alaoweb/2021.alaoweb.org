@@ -1,439 +1,653 @@
-(function (a) {
-    a(document).ready(function () {
-        a(window).load(function () {
-            a("#st-container").removeClass("disable-scrolling");
-            a("#loading-animation").fadeOut();
-            a("#preloader").delay(350).fadeOut(800);
-            var b = document.createElement("script");
-            b.type = "text/javascript";
-            b.async = !0;
-            b.src = "https://apis.google.com/js/platform.js";
-            var d = document.getElementsByTagName("script")[0];
-            d.parentNode.insertBefore(b, d);
-            equalheight(".same-height");
+(function($) {
+    $(document).ready(function() {
+        $(window).load(function() {
+            $('#st-container').removeClass('disable-scrolling');
+            $('#loading-animation').fadeOut();
+            $('#preloader').delay(350).fadeOut(800);
+            initGooglePlus();
+            equalheight('.same-height');
         });
-        1500 < a(window).width() && a(".effect-wrapper").addClass("col-lg-3");
-        768 > a(window).width() && (a(".animated").removeClass("animated").removeClass("hiding"), a(".stat span").removeClass("timer"), a(".timeslot-label").addClass("stick-label"));
-        512 > a(window).height() && a("#bottom-navlinks").removeClass("bottom-navlinks").addClass("bottom-navlinks-small");
-        100 <= a(window).scrollTop() && (a("#top-header").addClass("after-scroll"), a("#logo-header .logo").removeClass("logo-light").addClass("logo-dark"));
-        a(window).scroll(function () {
-            var b = a(this).scrollTop(),
-                d = a("#top-header"),
-                c = a("#logo-header .logo"),
-                e = a(".right-nav-button"),
-                f = d.height() + a(".track-header").height();
-            100 <= b ? (d.addClass("after-scroll"), c.removeClass("logo-light").addClass("logo-dark")) : (d.removeClass("after-scroll"), c.removeClass("logo-dark").addClass("logo-light"));
-            b >= a(".top-section").height() && 767 < a(window).width() ? e.removeClass("right-nav-button-hidden") : b < a(".top-section").height() && 767 < a(window).width() && e.addClass("right-nav-button-hidden");
-            a(".slot").each(function () {
-                var d = a(this).offset().top - b,
-                    e = f + a(this).find(".slot-title").height();
-                d <= e && 0 <= d && a(".track-header.sticky").find(".slot-detail").html(a(this).data("slotDetail"));
-            });
-        });
-        a(window).resize(function () {
-            1500 < a(window).width() ? a(".effect-wrapper").addClass("col-lg-3") : a(".effect-wrapper").removeClass("col-lg-3");
-            768 > a(window).width()
-                ? (a(".same-height").css("height", "100%"), a(".timeslot-label").addClass("stick-label"))
-                : (a(".timeslot-label").removeClass("stick-label"), c.hasClass("st-menu-open") && (c.removeClass("st-menu-open"), a("body").css("overflow", "auto")), equalheight(".same-height"));
-            512 > a(window).height()
-                ? (a(".st-menu").addClass("scrollable"), a("#bottom-navlinks").removeClass("bottom-navlinks").addClass("bottom-navlinks-small"))
-                : (a(".st-menu").removeClass("scrollable"), a("#bottom-navlinks").removeClass("bottom-navlinks-small").addClass("bottom-navlinks"));
-        });
-        a(function () {
-            a("a[href*=#]:not([href=#])").click(function () {
-                if (location.pathname.replace(/^\//, "") == this.pathname.replace(/^\//, "") && location.hostname == this.hostname) {
-                    var b = a(this.hash),
-                        b = b.length ? b : a("[name=" + this.hash.slice(1) + "]");
-                    if (b.length) return a("html,body").animate({ scrollTop: b.offset().top }, 1e3), !1;
+
+        if ($(window).width() > 1500) {
+            $('.effect-wrapper').addClass('col-lg-3');
+        }
+        if ($(window).width() < 768) {
+            $('.animated').removeClass('animated').removeClass('hiding');
+            $('.stat span').removeClass('timer');
+            $('.timeslot-label').addClass('stick-label');
+        }
+        if ($(window).height() < 512) {
+            $('#bottom-navlinks').removeClass('bottom-navlinks').addClass('bottom-navlinks-small');
+        }
+        if ($(window).scrollTop() >= 100) {
+            $('#top-header').addClass('after-scroll');
+            $('#logo-header .logo').removeClass('logo-light').addClass('logo-dark');
+        }
+
+        $(window).scroll(function() {
+            var scroll = $(this).scrollTop();
+            var header = $('#top-header');
+            var logo = $('#logo-header .logo');
+            var buyButton = $('.right-nav-button');
+            var topOffset = header.height() + $('.track-header').height();
+
+            if (scroll >= 100) {
+                header.addClass('after-scroll');
+                logo.removeClass('logo-light').addClass('logo-dark');
+            } else {
+                header.removeClass('after-scroll');
+                logo.removeClass('logo-dark').addClass('logo-light');
+            }
+
+            if (scroll >= $('.top-section').height() && $(window).width() > 767) {
+                buyButton.removeClass('right-nav-button-hidden');
+            } else if (scroll < $('.top-section').height() && $(window).width() > 767){
+                buyButton.addClass('right-nav-button-hidden');
+            }
+
+            $('.slot').each(function() {
+                var currentPosition = $(this).offset().top - scroll;
+                var offsetActivator = topOffset + $(this).find('.slot-title').height();
+                if (currentPosition <= offsetActivator && currentPosition >= 0) {
+                    $('.track-header.sticky').find('.slot-detail').html($(this).data('slotDetail'));
                 }
             });
         });
-        a(function () {
-            a("a[href=#]").click(function () {
+
+        $(window).resize(function() {
+            if ($(window).width() > 1500) {
+                $('.effect-wrapper').addClass('col-lg-3');
+            } else {
+                $('.effect-wrapper').removeClass('col-lg-3');
+            }
+            if ($(window).width() < 768) {
+                $('.same-height').css('height', '100%');
+                $('.timeslot-label').addClass('stick-label');
+            } else {
+                $('.timeslot-label').removeClass('stick-label');
+                if (container.hasClass('st-menu-open')) {
+                    container.removeClass('st-menu-open');
+                    $('body').css('overflow', 'auto');
+                }
+                equalheight('.same-height');
+            }
+            if ($(window).height() < 512) {
+                $('.st-menu').addClass('scrollable');
+                $('#bottom-navlinks').removeClass('bottom-navlinks').addClass('bottom-navlinks-small');
+            } else {
+                $('.st-menu').removeClass('scrollable');
+                $('#bottom-navlinks').removeClass('bottom-navlinks-small').addClass('bottom-navlinks');
+            }
+        });
+
+        $(function() {
+            $('a[href*=#]:not([href=#])').click(function() {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html,body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });
+        $(function() {
+            $('a[href=#]').click(function() {
                 event.preventDefault();
             });
         });
-        a(function () {
-            -1 < window.location.href.indexOf("schedule") && window.location.hash && a(window.location.hash).click();
-        });
-        a(function () {
-            var b, d, c, e, f;
-            f = a(".appear-animation");
-            c = 0;
-            for (e = f.length; c < e; c++) (d = f[c]), (b = d.offsetLeft + d.offsetTop), (b /= 1e3), a(d).css("transition-delay", "" + 0.47 * b + "s"), a(d).css("transition-duration", "0.2s");
-        });
-        a(".appear-animation-trigger").appear(function () {
-            setTimeout(function () {
-                a(".appear-animation-trigger").parent("div").find(".appear-animation").addClass("visible");
-            }, 1e3);
-        });
-        a(".animated").appear(
-            function () {
-                var b = a(this),
-                    d = b.data("animation"),
-                    c = b.data("delay");
-                c
-                    ? setTimeout(function () {
-                        b.addClass(d + " visible");
-                        b.removeClass("hiding");
-                        b.hasClass("counter") && b.find(".timer").countTo();
-                    }, c)
-                    : (b.addClass(d + " visible"), b.removeClass("hiding"), b.hasClass("counter") && b.find(".timer").countTo());
-            },
-            { accY: -150 }
-        );
-        equalheight = function (b) {
-            var d = 0,
-                c = 0,
-                e = [],
-                f;
-            a(b).each(function () {
-                f = a(this);
-                a(f).height("auto");
-                topPostion = f.position().top;
-                if (c != topPostion) {
-                    for (currentDiv = 0; currentDiv < e.length; currentDiv++) e[currentDiv].height(d);
-                    e.length = 0;
-                    c = topPostion;
-                    d = f.height();
-                    e.push(f);
-                } else e.push(f), (d = d < f.height() ? f.height() : d);
-                for (currentDiv = 0; currentDiv < e.length; currentDiv++) e[currentDiv].height(d);
-            });
-        };
-        var c = a(".st-container");
-        a("#menu-trigger").click(function (a) {
-            a.stopPropagation();
-            c.toggleClass("st-menu-open");
-        });
-        a(".st-pusher").click(function () {
-            c.hasClass("st-menu-open") && c.removeClass("st-menu-open");
-        });
-        a(".track-header").each(function () {
-            for (var b = a(this).closest(".schedule-table").find(".slot").first(), d; void 0 === d;) (d = b.data("slotDetail")), (b = b.next());
-            a(this).find(".slot-detail").html(d);
-        });
-        a("#post-section .post-body p").each(function () {
-            if (a(this).find(".feature-image").length) {
-                var b = a(this).find(".feature-image").prop("src");
-                a("#top-section")
-                    .css("background-image", "url(" + b + ")")
-                    .addClass("enable-overlay");
+        $(function() {
+            if(window.location.href.indexOf("schedule") > -1 && window.location.hash) {
+                var hash = window.location.hash;
+                $(hash).click();
             }
         });
-        a(".slider").each(function () {
-            a(this).find(".slider-item").first().addClass("slider-current-item").removeClass("hidden");
-            1 < a(this).find(".slider-item").length && a(this).closest(".speaker-item").find(".slider-next-item").removeClass("hidden");
-        });
-        a(".slider-next-item").click(function () {
-            var b = a(this).closest("div"),
-                d = b.find(".slider-current-item").next();
-            d.length
-                ? (d.addClass("slider-current-item").removeClass("hidden"), b.find(".slider-current-item").first().removeClass("slider-current-item").addClass("hidden"))
-                : (b.find(".slider-item").first().addClass("slider-current-item").removeClass("hidden"), b.find(".slider-current-item").last().removeClass("slider-current-item").addClass("hidden"));
-        });
-        a(".modal").on("hidden.bs.modal", function () {
-            var b = a(this).find("iframe");
-            b.attr("src", b.attr("src"));
-        });
-        a(".slot").click(function () {
-            location.hash = a(this).attr("id");
-        });
-        if ("undefined" !== typeof twitterFeedUrl) {
-            var h = function () {
-                var b = a("#tweets").find(".tweet"),
-                    d = 0;
-                a(b.get(0)).removeClass("hidden");
-                setInterval(function () {
-                    var c = ++d % b.length;
-                    a(b.get(c - 1)).addClass("hidden");
-                    a(b.get(c)).removeClass("hidden");
-                }, 5e3);
-            };
-            a.getJSON(twitterFeedUrl, function (b) {
-                a.each(b, function (b, c) {
-                    var e;
-                    e = c.text.replace(/(\b(https?|ftp):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/gim, '<a href="$1" target="_blank">$1</a>');
-                    e = e.replace(/(^|[^\/])(www\.[\S]+(\b|$))/gim, '$1<a href="http://$2" target="_blank">$2</a>');
-                    e = e.replace(/#(\S*)/g, '<a href="https://twitter.com/search?q=%23$1" target="_blank">#$1</a>');
-                    e = e.replace(/\B@([\w-]+)/gm, '<a href="https://twitter.com/$1" target="_blank">@$1</a>');
-                    e =
-                        '<div class="tweet animated fadeInUp hidden"><p class="tweet-text">' +
-                        e +
-                        '</p><p class="tweet-meta">by <a href="https://twitter.com/' +
-                        c.user.screen_name +
-                        '" target="_blank">@' +
-                        c.user.screen_name +
-                        "</a></p></div>";
-                    a("#tweets").append(e);
-                });
-                h();
-            });
-        }
-    });
-    "undefined" !== typeof staticGoogleMaps &&
-        a("#canvas-map")
-            .addClass("image-section")
-            .css(
-                "background-image",
-                "url(https://maps.googleapis.com/maps/api/staticmap?zoom=17&center=" +
-                mobileCenterMapCoordinates +
-                "&size=" +
-                a(window).width() +
-                "x700&scale=2&language=en&markers=icon:" +
-                icon +
-                "|" +
-                eventPlaceCoordinates +
-                "&maptype=roadmap&style=visibility:on|lightness:40|gamma:1.1|weight:0.9&style=element:labels|visibility:off&style=feature:water|hue:0x0066ff&style=feature:road|visibility:on&style=feature:road|element:labels|saturation:-30)"
-            );
-    if ("undefined" !== typeof googleMaps) {
-        var c,
-            q,
-            n,
-            r,
-            p,
-            h,
-            l = [],
-            x = new google.maps.DirectionsService();
-        google.maps.event.addDomListener(window, "load", function () {
-            function m(k, f) {
-                x.route({ origin: k, destination: eventPlace, travelMode: google.maps.TravelMode[f] }, function (d, e) {
-                    if (e == google.maps.DirectionsStatus.OK) {
-                        c.setMapTypeId("zoomed");
-                        n.setMap(c);
-                        n.setDirections(d);
-                        var g = d.routes[0].legs[0];
-                        b(g.start_location);
-                        b(g.end_location);
-                        a("#distance").text(g.distance.text);
-                        a("#estimateTime").text(g.duration.text);
-                        a("#mode-select").val(f);
-                        a("#mode").removeClass("hidden");
-                        g = a("#mode-icon use").attr("xlink:href");
-                        g = g.substring(0, g.indexOf("#") + 1) + "icon-" + f.toLowerCase();
-                        a("#mode-icon use").attr("xlink:href", g);
-                    } else e != google.maps.DirectionsStatus.OK && "DRIVING" != f ? m(k, "DRIVING") : ((g = p.getPath()), g.push(k), g.push(eventPlace), b(k), b(eventPlace), (g = new google.maps.LatLngBounds()), g.extend(k), g.extend(eventPlace), c.fitBounds(g), p.setMap(c), (g = Math.round(google.maps.geometry.spherical.computeDistanceBetween(k, eventPlace) / 1e3)), a("#distance").text(g + " km"), a("#estimateTime").text(""), a("#find-flight").removeClass("hidden"), a("#mode").addClass("hidden"));
-                });
-                d();
-                a("#find-way").addClass("location-active");
-                e(k);
-                a("#find-way h3").removeClass("fadeInUp").addClass("fadeOutDown");
-            }
-            function u() {
-                navigator.geolocation &&
-                    navigator.geolocation.getCurrentPosition(function (a) {
-                        h = new google.maps.LatLng(a.coords.latitude, a.coords.longitude);
-                        m(h, "TRANSIT");
-                    });
-            }
-            function b(a) {
-                a = new google.maps.Marker({ position: a, map: c, icon: icon });
-                l.push(a);
-            }
-            function d() {
-                for (var a = 0; a < l.length; a++) l[a].setMap(null);
-                l = [];
-            }
-            function v(a) {
-                var b = c.getZoom(),
-                    d = Math.abs(a - b),
-                    e = a > b ? 1 : -1;
-                for (a = 0; a < d; a++)
-                    setTimeout(function () {
-                        b += e;
-                        c.setZoom(b);
-                    }, 50 * (a + 1));
-            }
-            function e(b) {
-                r.geocode({ latLng: b }, function (b, c) {
-                    c == google.maps.GeocoderStatus.OK &&
-                        b[1] &&
-                        a.each(b[1].address_components, function (b, c) {
-                            if ("locality" == c.types[0]) return a("#result-name").text(c.long_name), !1;
-                        });
-                });
-            }
-            n = new google.maps.DirectionsRenderer({ suppressMarkers: !0 });
-            r = new google.maps.Geocoder();
-            p = new google.maps.Polyline({
-                strokeColor: "#03a9f4",
-                strokeOpacity: 1,
-                strokeWeight: 2,
-            });
-            var f = {
-                zoom: 17,
-                minZoom: 2,
-                scrollwheel: !1,
-                panControl: !1,
-                draggable: !0,
-                zoomControl: !1,
-                zoomControlOptions: { position: google.maps.ControlPosition.RIGHT_TOP },
-                scaleControl: !1,
-                mapTypeControl: !1,
-                streetViewControl: !1,
-                center: centerMap,
-                mapTypeControlOptions: { mapTypeIds: [google.maps.MapTypeId.ROADMAP, "custom_style"] },
-                mapTypeId: "custom_style",
-            };
-            768 > a(window).width() && (f.center = mobileCenterMap);
-            "logistics" == googleMaps && ((f.zoom = 5), (f.zoomControl = !0));
-            c = new google.maps.Map(document.getElementById("canvas-map"), f);
-            var t = new google.maps.Marker({ position: eventPlace, animation: google.maps.Animation.DROP, icon: icon, map: c });
-            l.push(t);
-            var f = new google.maps.StyledMapType(
-                [
-                    { stylers: [{ lightness: 40 }, { visibility: "on" }, { gamma: 0.9 }, { weight: 0.4 }] },
-                    { elementType: "labels", stylers: [{ visibility: "on" }] },
-                    { featureType: "water", stylers: [{ color: "#5dc7ff" }] },
-                    { featureType: "road", stylers: [{ visibility: "off" }] },
-                ],
-                { name: "Default Style" }
-            ),
-                w = new google.maps.StyledMapType(
-                    [
-                        { stylers: [{ lightness: 40 }, { visibility: "on" }, { gamma: 1.1 }, { weight: 0.9 }] },
-                        { elementType: "labels", stylers: [{ visibility: "off" }] },
-                        { featureType: "water", stylers: [{ color: "#5dc7ff" }] },
-                        { featureType: "road", stylers: [{ visibility: "on" }] },
-                        { featureType: "road", elementType: "labels", stylers: [{ saturation: -30 }] },
-                    ],
-                    { name: "Zoomed Style" }
-                );
-            c.mapTypes.set("default", f);
-            c.mapTypes.set("zoomed", w);
-            "logistics" === googleMaps
-                ? (c.setMapTypeId("default"),
-                    (f = document.getElementById("location-input")),
-                    (q = new google.maps.places.Autocomplete(f)),
-                    google.maps.event.addListener(q, "place_changed", function () {
-                        t.setVisible(!1);
-                        var a = q.getPlace();
-                        if ("undefined" != a.geometry && a.geometry) {
-                            var b = "";
-                            a.address_components &&
-                                (b = [
-                                    (a.address_components[0] && a.address_components[0].short_name) || "",
-                                    (a.address_components[1] && a.address_components[1].short_name) || "",
-                                    (a.address_components[2] && a.address_components[2].short_name) || "",
-                                ].join(" "));
-                            r.geocode({ address: b }, function (a, b) {
-                                b == google.maps.GeocoderStatus.OK ? ((h = a[0].geometry.location), m(h, "TRANSIT")) : alert("Geocode was not successful for the following reason: " + b);
-                            });
-                        }
-                    }))
-                : c.setMapTypeId("zoomed");
-            a("#mode-select").change(function () {
-                var b = a(this).val();
-                m(h, b);
-            });
-            a("#direction-locate").click(u);
-            a("#direction-cancel").click(function () {
-                a("#find-way").removeClass("location-active");
-                a("#location-input").val("");
-                a("#find-flight").addClass("hidden");
-                d();
-                n.setMap(null);
-                p.setMap(null);
-                c.setMapTypeId("default");
-                c.panTo(eventPlace);
-                768 > a(window).width() ? c.setCenter(mobileCenterMap) : c.setCenter(centerMap);
-                b(eventPlace);
-                v(5);
-                a("#find-way h3").removeClass("fadeOutDown").addClass("fadeInUp");
-            });
-            "undefined" !== typeof autoDirectionEnabled && 1 == autoDirectionEnabled && u();
-        });
-    }
 
-    // session-search
-    $(document).ready(function () {
-        /*
-          define variables to generate filter selects:
-           * containerClass = the html class of the text to be listed as options in
-             the filter "needle" list
-           * filterID = the haystack-field name to search with list.js (often same
-             as containerClass)
-           * filterLabel = how to name the filter in its pulldown
-        */
-        filterList = [
-            {
-                containerClass: 'name-only',
-                filterID: 'presenters',
-                filterLabel: 'Presenter',
-            },
-            {
-                containerClass: 'type',
-                filterID: 'type',
-                filterLabel: 'Session Type',
-            },
-        ];
+        $(function() {
+            var appear, delay, i, offset, _i, _len, _ref;
+            _ref = $(".appear-animation");
+            for (_i = 0, _len = _ref.length; _i < _len; _i++) {
+                i = _ref[_i];
+                offset = i.offsetLeft + i.offsetTop;
+                delay = offset / 1000;
+                $(i).css('transition-delay', '' + (delay * 0.47) + 's');
+                $(i).css('transition-duration', '' + 0.2 + 's');
+            }
+        });
+        $('.appear-animation-trigger').appear(function() {
+            setTimeout(function() {
+                $('.appear-animation-trigger').parent('div').find('.appear-animation').addClass('visible');
+            }, 1000);
+        });
 
-        /*
-            foreach filter in filterList, create a filter pulldown and place it in the 
-            table #filter div
-          */
-        filterList.forEach(function (f) {
-            var arr = [];
-            $('.' + f.containerClass).each(function () {
-                var speakerName = $(this).text();
-                if (!arr.includes(speakerName)) {
-                    arr.push(speakerName);
+        $('.animated').appear(function() {
+            var element = $(this);
+            var animation = element.data('animation');
+            var animationDelay = element.data('delay');
+            if (animationDelay) {
+                setTimeout(function() {
+                    element.addClass(animation + " visible");
+                    element.removeClass('hiding');
+                    if (element.hasClass('counter')) {
+                        element.find('.timer').countTo();
+                    }
+                }, animationDelay);
+            } else {
+                element.addClass(animation + " visible");
+                element.removeClass('hiding');
+                if (element.hasClass('counter')) {
+                    element.find('.timer').countTo();
+                }
+            }
+        }, {
+            accY: -150
+        });
+
+        equalheight = function(container) {
+            var currentTallest = 0,
+                currentRowStart = 0,
+                rowDivs = new Array(),
+                $el,
+                topPosition = 0;
+            $(container).each(function() {
+                $el = $(this);
+                $($el).height('auto')
+                topPostion = $el.position().top;
+                if (currentRowStart != topPostion) {
+                    for (currentDiv = 0; currentDiv < rowDivs.length; currentDiv++) {
+                        rowDivs[currentDiv].height(currentTallest);
+                    }
+                    rowDivs.length = 0; // empty the array
+                    currentRowStart = topPostion;
+                    currentTallest = $el.height();
+                    rowDivs.push($el);
+                } else {
+                    rowDivs.push($el);
+                    currentTallest = (currentTallest < $el.height()) ? ($el.height()) : (currentTallest);
+                }
+                for (currentDiv = 0; currentDiv < rowDivs.length; currentDiv++) {
+                    rowDivs[currentDiv].height(currentTallest);
                 }
             });
-            arr.sort();
-            console.log(arr);
+        }
 
-            $('#filters').append(
-                '<label class="sr-only" aria-label="filter-' +
-                f.filterID +
-                '">Select Sessions By ' +
-                f.filterLabel +
-                '</label>' +
-                '<select aria-labelledby="filter-' +
-                f.filterID +
-                '" class="form-control col-md-3" id="' +
-                f.filterID +
-                '"><option value="">---Select by ' +
-                f.filterLabel +
-                '---</option></select>'
-            );
-            arr.forEach((element) => {
-                $('#' + f.filterID).append('<option>' + element + '</option>');
-            });
+        // Session Search
+        $(function () {
+            /*
+            define variables to generate filter selects:
+                containerClass = the html class of the text to be listed as options in the filter "needle" list
+                filterID = the haystack-field name to search with list.js (often same as containerClass)
+                filterLabel = how to name the filter in its pulldown
+            */
+            filterList = [
+                {
+                    containerClass: 'speaker-name',
+                    filterID: 'presenters',
+                    filterLabel: 'Presenter',
+                },
+                {
+                    containerClass: 'type',
+                    filterID: 'type',
+                    filterLabel: 'Session Type',
+                },
+            ];
 
             /*
-              now that the filter pulldown is built, bind it to the filter action onChange
+            foreach filter in filterList, create a filter pulldown and place it in the table #filter div
             */
-
-            $('#' + f.filterID).change(function (event) {
-                let thisFilter = $(this).attr('id');
-                $('#filters select').each(function (index) {
-                    if ($(this).attr('id') != thisFilter) {
-                        /* foreach filter other than the active one, reset it if previously used */
-                        $(this).val('');
+            filterList.forEach(function (f) {
+                var arr = [];
+                $('.' + f.containerClass).each(function (item) {
+                    let name = $(this).text();
+                    if (!arr.includes(name)) {
+                        arr.push(name);
                     }
                 });
-                let filterTerm = $(this).val();
-                console.log('Selected ' + f.filterID + ':', filterTerm);
-                listObj.filter(function (item) {
-                    if (item.values()[f.filterID].includes(filterTerm)) {
-                        return true;
-                    } else {
-                        return false;
-                    }
+                arr.sort();
+                console.log(arr);
+
+                $('#filters').append(
+                    '<select class="form-control col-md-3" id="' +
+                    f.filterID +
+                    '"><option value="">---Select by ' +
+                    f.filterLabel +
+                    '---</option></select>'
+                );
+                arr.forEach((element) => {
+                    $('#' + f.filterID).append('<option>' + element + '</option>');
+                });
+
+                /*
+                now that the filter pulldown is built, bind it to the filter action onChange
+                */
+
+                $('#' + f.filterID).change(function (event) {
+                    let thisFilter = $(this).attr('id');
+                    $('#filters select').each(function (index) {
+                        if ($(this).attr('id') != thisFilter) {
+                            /* foreach filter other than the active one, reset it if previously used */
+                            $(this).val('');
+                        }
+                    });
+                    let filterTerm = $(this).val();
+                    console.log('Selected ' + f.filterID + ':', filterTerm);
+                    listObj.filter(function (item) {
+                        if (item.values()[f.filterID].includes(filterTerm)) {
+                            return true;
+                        } else {
+                            return false;
+                        }
+                    });
                 });
             });
         });
-    }); /* end session-search */
 
-    /* posters-modal in session-search */
-    $(document).ready(function () {
-        $('#poster-modals .modal').each(function () {
-            let link = $(this).find('.poster-link').data('link');
-            $(this)
-                .find('.poster-title')
-                .after('<a href="' + link + '" class="btn btn-info">Link to Q&A</a>');
-            // .after('<a href="' + link + '" class="btn btn-primary>Link to Q&A</a>');
+        //Side menu
+        var container = $('.st-container');
+        $('#menu-trigger').click(function(event) {
+            event.stopPropagation();
+            container.toggleClass('st-menu-open');
         });
-    }); /* end posters-modal in session-search */
+        $('.st-pusher').click(function() {
+            if (container.hasClass('st-menu-open')) {
+                container.removeClass('st-menu-open');
+            }
+        });
+
+        $('.track-header').each(function() {
+            var slot = $(this).closest('.schedule-table').find('.slot').first();
+            var scheduleFirstSlotText;
+            while (scheduleFirstSlotText === undefined) {
+                scheduleFirstSlotText = slot.data('slotDetail');
+                slot = slot.next();
+            }
+            $(this).find('.slot-detail').html(scheduleFirstSlotText);
+        });
+
+        $('#post-section .post-body p').each(function() {
+            if ($(this).find('.feature-image').length) {
+                var url = $(this).find('.feature-image').prop('src');
+                $('#top-section').css('background-image', 'url(' + url + ')').addClass('enable-overlay');
+            }
+        });
+
+        $('.slider').each(function() {
+            $(this).find('.slider-item').first().addClass('slider-current-item').removeClass('hidden');
+            if ($(this).find('.slider-item').length > 1) {
+                $(this).closest('.speaker-item').find('.slider-next-item').removeClass('hidden');
+            }
+        });
+        $('.slider-next-item').click(function() {
+            var slider = $(this).closest('div');
+            var elem = slider.find('.slider-current-item').next();
+            if (elem.length) {
+                elem.addClass('slider-current-item').removeClass('hidden');
+                slider.find('.slider-current-item').first().removeClass('slider-current-item').addClass('hidden');
+            } else {
+                slider.find('.slider-item').first().addClass('slider-current-item').removeClass('hidden');
+                slider.find('.slider-current-item').last().removeClass('slider-current-item').addClass('hidden');
+            }
+        });
+        $('.modal').on('hidden.bs.modal', function () {
+            var iframe = $(this).find('iframe');
+            iframe.attr('src', iframe.attr('src'));
+        });
+        $('.slot').click(function() {
+            location.hash = $(this).attr('id');
+        });
+
+
+        if (typeof twitterFeedUrl !== 'undefined') {
+            $.getJSON(twitterFeedUrl, function(data) {
+                $.each(data, function(i, gist) {
+                    var tweetElement = '<div class="tweet animated fadeInUp hidden"><p class="tweet-text">' + linkify(gist.text) + '</p><p class="tweet-meta">by <a href="https://twitter.com/' + gist.user.screen_name + '" target="_blank">@' + gist.user.screen_name + '</a></p></div>';
+                    $('#tweets').append(tweetElement);
+                });
+                animateTweets();
+            });
+
+            function linkify(inputText) {
+                var replacedText, links1, links2, hashtags, profileLinks;
+                links1 = /(\b(https?|ftp):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/gim;
+                replacedText = inputText.replace(links1, '<a href="$1" target="_blank">$1</a>');
+                links2 = /(^|[^\/])(www\.[\S]+(\b|$))/gim;
+                replacedText = replacedText.replace(links2, '$1<a href="http://$2" target="_blank">$2</a>');
+                hashtags = /#(\S*)/g;
+                replacedText = replacedText.replace(hashtags, '<a href="https://twitter.com/search?q=%23$1" target="_blank">#$1</a>');
+                profileLinks = /\B@([\w-]+)/gm;
+                replacedText = replacedText.replace(profileLinks, '<a href="https://twitter.com/$1" target="_blank">@$1</a>');
+                return replacedText;
+            }
+
+            function animateTweets() {
+                var $tweets = $('#tweets').find('.tweet'),
+                    i = 0;
+                $($tweets.get(0)).removeClass('hidden');
+                function changeTweets() {
+                    var next = (++i % $tweets.length);
+                    $($tweets.get(next - 1)).addClass('hidden');
+                    $($tweets.get(next)).removeClass('hidden');
+                }
+                var interval = setInterval(changeTweets, 5000);
+            }
+        }
+    });
+
+    //Google plus
+    function initGooglePlus() {
+        var po = document.createElement('script');
+        po.type = 'text/javascript';
+        po.async = true;
+        po.src = 'https://apis.google.com/js/platform.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(po, s);
+    }
+
+    // Google maps static
+    if (typeof staticGoogleMaps !== 'undefined') {
+        $('#canvas-map').addClass('image-section').css('background-image','url(https://maps.googleapis.com/maps/api/staticmap?zoom=17&center=' + mobileCenterMapCoordinates +'&size=' + $(window).width() + 'x700&scale=2&language=en&markers=icon:' + icon +'|'+ eventPlaceCoordinates +'&maptype=roadmap&style=visibility:on|lightness:40|gamma:1.1|weight:0.9&style=element:labels|visibility:off&style=feature:water|hue:0x0066ff&style=feature:road|visibility:on&style=feature:road|element:labels|saturation:-30)');
+    }
+
+    //Google maps
+    if (typeof googleMaps !== 'undefined') {
+        var map, autocomplete, directionsDisplay, geocoder, polyline, origin;
+        var markers = [];
+        var directionsService = new google.maps.DirectionsService();
+        var MY_MAPTYPE_ID = 'custom_style';
+
+        function initialize() {
+            directionsDisplay = new google.maps.DirectionsRenderer({
+                suppressMarkers: true
+            });
+            geocoder = new google.maps.Geocoder();
+
+            polyline = new google.maps.Polyline({
+                strokeColor: '#03a9f4',
+                strokeOpacity: 1,
+                strokeWeight: 2
+            });
+
+            var defaultOpts = [{
+                stylers: [{
+                    lightness: 40
+                }, {
+                    visibility: 'on'
+                }, {
+                    gamma: 0.9
+                }, {
+                    weight: 0.4
+                }]
+            }, {
+                elementType: 'labels',
+                stylers: [{
+                    visibility: 'on'
+                }]
+            }, {
+                featureType: 'water',
+                stylers: [{
+                    color: '#5dc7ff'
+                }]
+            }, {
+                featureType: 'road',
+                stylers: [{
+                    visibility: 'off'
+                }]
+            }];
+
+            var zoomedOpts = [{
+                stylers: [{
+                    lightness: 40
+                }, {
+                    visibility: 'on'
+                }, {
+                    gamma: 1.1
+                }, {
+                    weight: 0.9
+                }]
+            }, {
+                elementType: 'labels',
+                stylers: [{
+                    visibility: 'off'
+                }]
+            }, {
+                featureType: 'water',
+                stylers: [{
+                    color: '#5dc7ff'
+                }]
+            }, {
+                featureType: 'road',
+                stylers: [{
+                    visibility: 'on'
+                }]
+            }, {
+                featureType: 'road',
+                elementType: "labels",
+                stylers: [{
+                    saturation: -30
+                }]
+            }];
+
+            var mapOptions = {
+                zoom: 17,
+                minZoom: 2,
+                scrollwheel: false,
+                panControl: false,
+                draggable: true,
+                zoomControl: false,
+                zoomControlOptions: {
+                    position: google.maps.ControlPosition.RIGHT_TOP
+                },
+                scaleControl: false,
+                mapTypeControl: false,
+                streetViewControl: false,
+                center: centerMap,
+                mapTypeControlOptions: {
+                    mapTypeIds: [google.maps.MapTypeId.ROADMAP, MY_MAPTYPE_ID]
+                },
+                mapTypeId: MY_MAPTYPE_ID
+            };
+            if ($(window).width() < 768) {
+                mapOptions.center = mobileCenterMap;
+            }
+            if (googleMaps == 'logistics') {
+                mapOptions.zoom = 5;
+                mapOptions.zoomControl = true;
+            }
+
+            map = new google.maps.Map(document.getElementById('canvas-map'), mapOptions);
+            var marker = new google.maps.Marker({
+                position: eventPlace,
+                animation: google.maps.Animation.DROP,
+                icon: icon,
+                map: map
+            });
+            markers.push(marker);
+            var defaultMapOptions = {
+                name: 'Default Style'
+            };
+            var zoomedMapOptions = {
+                name: 'Zoomed Style'
+            };
+            var defaultMapType = new google.maps.StyledMapType(defaultOpts, defaultMapOptions);
+            var zoomedMapType = new google.maps.StyledMapType(zoomedOpts, zoomedMapOptions);
+            map.mapTypes.set('default', defaultMapType);
+            map.mapTypes.set('zoomed', zoomedMapType);
+            if (googleMaps === 'logistics') {
+                map.setMapTypeId('default');
+                var input = (document.getElementById('location-input'));
+                autocomplete = new google.maps.places.Autocomplete(input);
+                google.maps.event.addListener(autocomplete, 'place_changed', function() {
+                    marker.setVisible(false);
+                    var place = autocomplete.getPlace();
+                    if (place.geometry == 'undefined' || !place.geometry) {
+                        return;
+                    }
+                    var address = '';
+                    if (place.address_components) {
+                        address = [
+                            (place.address_components[0] && place.address_components[0].short_name || ''), (place.address_components[1] && place.address_components[1].short_name || ''), (place.address_components[2] && place.address_components[2].short_name || '')
+                        ].join(' ');
+                    }
+                    geocoder.geocode({
+                        'address': address
+                    }, function(results, status) {
+                        if (status == google.maps.GeocoderStatus.OK) {
+                            origin = results[0].geometry.location;
+                            calcRoute(origin, 'TRANSIT');
+                        } else {
+                            alert('Geocode was not successful for the following reason: ' + status);
+                        }
+                    });
+                });
+
+            } else {
+                map.setMapTypeId('zoomed');
+            }
+
+            function calcRoute(origin, selectedMode) {
+                var request = {
+                    origin: origin,
+                    destination: eventPlace,
+                    travelMode: google.maps.TravelMode[selectedMode]
+                };
+                directionsService.route(request, function(response, status) {
+                    if (status == google.maps.DirectionsStatus.OK) {
+                        map.setMapTypeId('zoomed');
+                        directionsDisplay.setMap(map);
+                        directionsDisplay.setDirections(response);
+                        var leg = response.routes[0].legs[0];
+                        makeMarker(leg.start_location);
+                        makeMarker(leg.end_location);
+                        $('#distance').text(leg.distance.text);
+                        $('#estimateTime').text(leg.duration.text);
+                        $('#mode-select').val(selectedMode);
+                        $('#mode').removeClass('hidden');
+                        var attribute = $('#mode-icon use').attr('xlink:href');
+                        attribute = attribute.substring(0, attribute.indexOf('#') + 1) + 'icon-' + selectedMode.toLowerCase();
+                        $('#mode-icon use').attr('xlink:href', attribute);
+                    } else if (status != google.maps.DirectionsStatus.OK && selectedMode != 'DRIVING') {
+                        calcRoute(origin, 'DRIVING');
+                    } else {
+                        var path = polyline.getPath();
+                        path.push(origin);
+                        path.push(eventPlace);
+                        makeMarker(origin);
+                        makeMarker(eventPlace);
+                        var bounds = new google.maps.LatLngBounds();
+                        bounds.extend(origin);
+                        bounds.extend(eventPlace);
+                        map.fitBounds(bounds);
+                        polyline.setMap(map);
+                        var distance = Math.round(google.maps.geometry.spherical.computeDistanceBetween(origin, eventPlace) / 1000);
+                        $('#distance').text(distance + ' km');
+                        $('#estimateTime').text('');
+                        $('#find-flight').removeClass('hidden');
+                        $('#mode').addClass('hidden');
+                    }
+                });
+                deleteMarkers();
+                $('#find-way').addClass('location-active');
+                setDirectionInput(origin);
+                $('#find-way h3').removeClass('fadeInUp').addClass('fadeOutDown');
+            }
+
+            function calcRouteFromMyLocation() {
+                if (navigator.geolocation) {
+                    navigator.geolocation.getCurrentPosition(function(position) {
+                        origin = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+                        calcRoute(origin, 'TRANSIT');
+                    });
+                }
+            }
+
+            function makeMarker(position) {
+                var directionMarker = new google.maps.Marker({
+                    position: position,
+                    map: map,
+                    icon: icon
+                });
+                markers.push(directionMarker);
+            }
+
+            function addMarker(location) {
+                var marker = new google.maps.Marker({
+                    position: location,
+                    map: map
+                });
+                markers.push(marker);
+            }
+
+            function deleteMarkers() {
+                for (var i = 0; i < markers.length; i++) {
+                    markers[i].setMap(null);
+                }
+                markers = [];
+            }
+
+            function smoothZoom(level) {
+                var currentZoom = map.getZoom(),
+                    timeStep = 50;
+                var numOfSteps = Math.abs(level - currentZoom);
+                var step = (level > currentZoom) ? 1 : -1;
+                for (var i = 0; i < numOfSteps; i++) {
+                    setTimeout(function() {
+                        currentZoom += step;
+                        map.setZoom(currentZoom);
+                    }, (i + 1) * timeStep);
+                }
+            }
+
+            function setDirectionInput(origin) {
+                geocoder.geocode({
+                    'latLng': origin
+                }, function(results, status) {
+                    if (status == google.maps.GeocoderStatus.OK && results[1]) {
+                        var arrAddress = results[1].address_components;
+                        $.each(arrAddress, function(i, address_component) {
+                            if (address_component.types[0] == "locality") {
+                                $('#result-name').text(address_component.long_name);
+                                return false;
+                            }
+                        });
+                    }
+                });
+            }
+
+            $('#mode-select').change(function() {
+                var selectedMode = $(this).val();
+                calcRoute(origin, selectedMode);
+            });
+
+            $("#direction-locate").click(calcRouteFromMyLocation);
+
+            $("#direction-cancel").click(function() {
+                $('#find-way').removeClass('location-active');
+                $('#location-input').val('');
+                $("#find-flight").addClass('hidden');
+                deleteMarkers();
+                directionsDisplay.setMap(null);
+                polyline.setMap(null);
+                map.setMapTypeId('default');
+                map.panTo(eventPlace);
+                if ($(window).width() < 768) {
+                    map.setCenter(mobileCenterMap);
+                } else {
+                    map.setCenter(centerMap);
+                }
+                makeMarker(eventPlace);
+                smoothZoom(5);
+                $('#find-way h3').removeClass('fadeOutDown').addClass('fadeInUp');
+            });
+
+            if (typeof autoDirectionEnabled !== 'undefined' && autoDirectionEnabled == true) {
+                calcRouteFromMyLocation();
+            }
+        }
+
+        google.maps.event.addDomListener(window, 'load', initialize);
+    }
+
 })(jQuery);
