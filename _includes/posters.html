@@ -2,27 +2,26 @@
 <section id="blog" class="blog">
   <div class="content-wrapper text-left">
     {% if site.showPosters == false %}
-      <h3 style="text-align: center">{{ site.noPostersText }}</h3>
+    <h3 style="text-align: center">{{ site.noPostersText }}</h3>
     {% else %}
-    <div class="col-md-10 col-sm-10 col-lg-offset-2 col-md-offset-2 col-sm-offset-1">
+    <div
+      class="col-md-10 col-sm-10 col-lg-offset-2 col-md-offset-2 col-sm-offset-1">
       <h3>{{ site.postersTitle }}</h3>
       <div class="col-lg-8 col-md-10 col-xs-12">
         {% for post in site.posts %}
         <article class="row post">
-          <a
-            href="{{ site.baseurl | append: post.url }}"
-            title="{{ post.title }}"
-            ><h4>{{ post.title }}</h4></a
-          >
+          <a href="{{ site.baseurl | append: post.url }}"
+            title="{{ post.title }}">
+            <h4>{{ post.title }}</h4>
+          </a>
           <div class="post-header">
             <div class="published col-md-6 col-xs-6 pull-left">
               <span class="caption">Posted:</span>
-              <span class="publish-date" itemprop="datePublished"
-                >{{ post.date | date: "%b %-d, %Y" }}{% if post.presenters %} {%
+              <span class="publish-date"
+                itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}{% if post.presenters %} {%
                 for person in post.presenters %} • {{ person.name }} {% if
                 person.institution %}({{ person.institution }}){% endif %}{%
-                endfor %}{% endif %}</span
-              >
+                endfor %}{% endif %}</span>
             </div>
           </div>
           <p class="post-body">
@@ -34,15 +33,13 @@
         <div class="row">
           <div class="pagination">
             {% if paginator.previous_page %}
-            <a href="/page{{ paginator.previous_page }}" class="previous"
-              >Previous</a
-            >
+            <a href="/page{{ paginator.previous_page }}"
+              class="previous">Previous</a>
             {% else %}
             <span class="previous">Previous</span>
             {% endif %}
-            <span class="page-number"
-              >Page: {{ paginator.page }} of {{ paginator.total_pages }}</span
-            >
+            <span class="page-number">Page: {{ paginator.page }} of
+              {{ paginator.total_pages }}</span>
             {% if paginator.next_page %}
             <a href="/page{{ paginator.next_page }}" class="next">Next</a>
             {% else %}
