@@ -18,4 +18,5 @@ presenters:
     }
 video: '//www.youtube.com/embed/aopdD9Cu-So'
 isStaticPost: true
+published: false
 ---
