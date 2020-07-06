@@ -1,14 +1,10 @@
 <!-- Begin Posters Modals -->
 <div id="poster-modals" class="modals">
   {% for page in site.posts %}
-  <div
-    class="modal fade text-left people-modal"
-    id="posterDetail-{{ page.id | remove: '/' }}"
-    tabindex="-1"
-    role="dialog"
+  <div class="modal fade text-left people-modal"
+    id="posterDetail-{{ page.id | remove: '/' }}" tabindex="-1" role="dialog"
     aria-labelledby="posterDetailLabel-{{ page.id | remove: '/' }}"
-    aria-hidden="true"
-  >
+    aria-hidden="true">
     <div class="poster-link" data-link="{{page.id}}"></div>
     <div class="modal-dialog">
       <div class="modal-content">
@@ -16,8 +12,8 @@
           <div class="close">
             <svg class="icon icon-cross" viewBox="0 0 32 32">
               <use
-                xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-cross"
-              ></use>
+                xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-cross">
+              </use>
             </svg>
             <div class="close-mask" data-dismiss="modal"></div>
           </div>
@@ -39,10 +35,8 @@
             </div>
             <div class="poster-video"><span class="label">Poster:</span></div>
             <div class="theme-video embed-responsive embed-responsive-16by9">
-              <iframe
-                class="embed-responsive-item"
-                src="{{ page.video }}"
-              ></iframe>
+              <iframe class="embed-responsive-item"
+                src="{{ page.video }}"></iframe>
             </div>
             <div class="poster-presenter-about">
               <span class="label">About the Presenter(s):</span> <br />{{ bios
