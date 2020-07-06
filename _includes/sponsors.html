@@ -8,22 +8,11 @@
       <h4>{{ organizer.group }}</h4>
       <ul class="list-inline">
         {% for element in organizer.elements %}
-        <li
-          {%
-          if
-          element.width
-          !="null"
-          %}style="width: {{ element.width }};"
-          {%
-          endif
-          %}
-        >
+        <li {% if element.width !="null"%} style="width: {{ element.width }};"
+          {% endif %}>
           <a href="{{ element.link }}" target="_blank">
-            <img
-              src="{{ site.baseurl }}/img/organizers/{{ element.imageUrl }}"
-              title="{{ element.description }}"
-              alt="{{ element.name }}"
-            />
+            <img src="{{ site.baseurl }}/img/organizers/{{ element.imageUrl }}"
+              title="{{ element.description }}" alt="{{ element.name }}" />
           </a>
         </li>
         {% endfor %}
@@ -34,33 +23,19 @@
       <h4>{{ sponsor.group }}</h4>
       <ul class="list-inline">
         {% for element in sponsor.elements %}
-        <li
-          {%
-          if
-          element.width
-          !="null"
-          %}style="width: {{ element.width }};"
-          {%
-          endif
-          %}
-          class="{{ sponsor.group | downcase | split: ' ' | join: '-' }}"
-        >
+        <li {% if element.width !="null" %}style="width: {{ element.width }};"
+          {% endif %}
+          class="{{ sponsor.group | downcase | split: ' ' | join: '-' }}">
           <a href="{{ element.link }}" target="_blank">
-            <img
-              src="{{ site.baseurl }}/img/sponsors/{{ element.imageUrl }}"
-              title="{{ element.description }}"
-              alt="{{ element.name }}"
-            />
+            <img src="{{ site.baseurl }}/img/sponsors/{{ element.imageUrl }}"
+              title="{{ element.description }}" alt="{{ element.name }}" />
           </a>
         </li>
         {% endfor %}
       </ul>
       {% endfor %} {% if site.c4sponsorsEnable == true %}
-      <a
-        href="{{ site.c4sponsorsUrl | prepend: site.baseurl }}"
-        class="btn btn-primary waves-effect waves-button waves-light waves-float"
-        >{{ site.sponsorsC4sponsorsButton }}</a
-      >
+      <a href="{{ site.c4sponsorsUrl | prepend: site.baseurl }}"
+        class="btn btn-primary waves-effect waves-button waves-light waves-float">{{ site.sponsorsC4sponsorsButton }}</a>
       {% endif %} {% endif %}
     </div>
   </div>
