@@ -280,7 +280,7 @@ showProgramCommittee: False
 # Tickets Block
 # -------------------------------------------------------------
 ticketsHorizontalEnable: false
-ticketsVerticalEnable: true
+ticketsVerticalEnable: false
 ticketsTitle: "Registration"
 ticketsInfo: "Conference registration provides access to all keynotes, pre-recorded sessions, and posters. Pre-conference sessions are ticketed separately during registration"
 ticketsOffers:
