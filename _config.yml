@@ -2,7 +2,7 @@
 markdown: kramdown
 permalink: pretty
 exclude: ['README.md', 'README.md.orig', 'LICENSE.txt', 'CNAME']
-url: "https://alaoweb.github.io/2020.alaoweb.org/"
+url: "https://alaoweb.github.io/2020.alaoweb.org"
 plugins:
 - jekyll-sitemap
 safe: false
