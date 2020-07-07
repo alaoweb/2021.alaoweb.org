@@ -19,6 +19,7 @@ twitterAccount: "@ALAOorg"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
+
 #Organizer-Info
 organizerName: "ALAO"
 organizerAlternateName: "Academic Library Association of Ohio"
@@ -72,18 +73,15 @@ socialLinks:
  - {link: "https://www.facebook.com/ALAOorg", icon: "facebook"}
 
 footerBlocks:
- -
-  title: "Links"
-  links:
-   - {link: "https://www.alaoweb.org", text: "ALAO Website"}
- -
-  title: "Contacts"
-  links:
-   - {link: "mailto:2020-cpc@alaoweb.org", text: "2020-cpc@alaoweb.org"}
- -
-  title: "Code of Conduct"
-  links:
-   - {permalink: "/cod/", text: "Code of Conduct"}
+ - title: "Links"
+   links:
+     - {link: "https://www.alaoweb.org", text: "ALAO Website"}
+ - title: "Contacts"
+   links:
+     - {link: "mailto:2020-cpc@alaoweb.org", text: "2020-cpc@alaoweb.org"}
+ - title: "Code of Conduct"
+   links:
+     - {permalink: "/cod/", text: "Code of Conduct"}
 
 # -------------------------------------------------------------
 # Hero Block - Main Section
