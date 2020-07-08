@@ -190,10 +190,10 @@ time {
   border-radius: 5px;
 }
 .btn-primary:hover {
-  background-color: #037167 !important;
-  border-color: #00665b !important;
+  background-color: $primary-color-hover !important;
+  border-color: $primary-color !important;
 }
 .btn-secondary:hover {
-  background-color: #5a6268 !important;
-  border-color: #6c757d !important;
+  background-color: $secondary-color-hover !important;
+  border-color: $secondary-color !important;
 }
