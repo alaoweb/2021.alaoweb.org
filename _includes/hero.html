@@ -1,27 +1,36 @@
 <!-- Begin Hero Section -->
-<section id="top-section-hero" class="top-section-hero top-section image-section-2020" style="background: url('{{ site.baseurl }}/img/sections-background/{{ site.heroImage }}'), url('https://www.alaoweb.org/resources/Pictures/Theme/header-bg-books-V1B.jpg'), linear-gradient(rgba(0, 102, 91, 1), rgba(0, 102, 91, 0.65) );">
+<section id="top-section-hero"
+    class="top-section-hero top-section image-section-2020"
+    style="background: url('{{ site.baseurl }}/img/sections-background/{{ site.heroImage }}'), url('https://www.alaoweb.org/resources/Pictures/Theme/header-bg-books-V1B.jpg'), linear-gradient(rgba(0, 102, 91, 1), rgba(0, 102, 91, 0.65) );">
     {% include navigation.html %}
     <div class="content-wrapper">
-    <div class="jumbotron">
-        <div class="animated hiding" data-animation="fadeInDown" data-delay="500">
-            {% assign heroText = site.heroTitle | split:"<typeout>" %}
-            <h1>{{ heroText[0] }}
-                {% if site.typeoutEnable == True %}
-                <span id="typeout-text" class="hidden-xs"></span><span class="typeout-fallback">{{ site.typeoutFallback }}</span>
-                {% endif %}
-                {{ heroText[1] }}
-            </h1>
-            <p>{{ site.eventDate }}</p>
-            {% for button in site.heroButtons %}
-            <a href="{% if button.permalink != null %} {{ button.permalink | prepend: site.baseurl }} {% else %} {{ button.link }} {% endif %}" class="btn btn-primary waves-effect waves-button waves-light waves-float" {% if button.link != null %}target="_blank"{% endif %}>{{ button.text }}</a>
-            {% endfor %}
+        <div class="jumbotron">
+            <div class="animated hiding" data-animation="fadeInDown"
+                data-delay="500">
+                {% assign heroText = site.heroTitle | split:"<typeout>" %}
+                <h1>{{ heroText[0] }}
+                    {% if site.typeoutEnable == True %}
+                    <span id="typeout-text" class="hidden-xs"></span><span
+                        class="typeout-fallback">{{ site.typeoutFallback }}</span>
+                    {% endif %}
+                    {{ heroText[1] }}
+                </h1>
+                <p>{{ site.eventDate }}</p>
+                {% for button in site.heroButtons %}
+                <a href="{% if button.permalink != null %} {{ button.permalink | prepend: site.baseurl }} {% else %} {{ button.link }} {% endif %}"
+                    class="btn btn-secondary waves-effect waves-button waves-light waves-float"
+                    {% if button.link != null %}target="_blank"
+                    {% endif %}>{{ button.text }}</a>
+                {% endfor %}
+            </div>
         </div>
-    </div>
-    <a href="#about" class="explore">
-        <svg class="icon icon-arrow-down" viewBox="0 0 32 32">
-            <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-arrow-down"></use>
-        </svg>
-    </a>
+        <a href="#about" class="explore">
+            <svg class="icon icon-arrow-down" viewBox="0 0 32 32">
+                <use
+                    xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-arrow-down">
+                </use>
+            </svg>
+        </a>
     </div>
 </section>
 <!-- End Hero Section -->
