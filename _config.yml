@@ -278,12 +278,12 @@ showProgramCommittee: False
 # Tickets Block
 # -------------------------------------------------------------
 ticketsHorizontalEnable: false
-ticketsVerticalEnable: false
+ticketsVerticalEnable: true
 ticketsTitle: "Registration"
 ticketsInfo: "Conference registration provides access to all keynotes, pre-recorded sessions, and posters. Pre-conference sessions are ticketed separately during registration"
 ticketsOffers:
- - name: "Early Bird"
-   price: "50"
+ - name: "ALAO/MiALA/OELMA Member, Early Bird"
+   price: "25"
    priceCurrency: "USD"
    ticketsNumber: "100"
    ribbon: "-25%"
@@ -292,14 +292,14 @@ ticketsOffers:
    buyButtonText: "Buy Now"
    additionalInfo: ""
    ticketContentList: ["Keynotes", "Pre-recorded Sessions", "Posters"]
-   validFrom: "2020-01-01T10:00"
-   validThrough: "2020-10-30T23:59"
+   validFrom: "2020-07-20T10:00"
+   validThrough: "2020-08-28T23:59"
    disabled: false
    soldOut: false
    soldOutText: "Sold Out"
 
- - name: "Regular"
-   price: "50"
+ - name: "Non-ALAO/MiALA/OELMA Member, Early Bird"
+   price: "30"
    priceCurrency: "USD"
    ticketsNumber: "100"
    ribbon:
@@ -308,13 +308,29 @@ ticketsOffers:
    buyButtonText: "Buy Now"
    additionalInfo: ""
    ticketContentList: ["Keynotes", "Pre-recorded Sessions", "Posters"]
-   validFrom: "2020-01-01T00:00"
-   validThrough: "2020-10-30T23:59"
-   disabled: true
+   validFrom: "2020-07-20T00:00"
+   validThrough: "2020-08-28T23:59"
+   disabled: false
    soldOut: false
    soldOutText: "Sold Out"
 
- - name: "Student"
+ - name: "Student/Retiree, Early Bird"
+   price: "10"
+   priceCurrency: "USD"
+   ticketsNumber: "50"
+   ribbon:
+   featured:
+   buyButtonLink: ""
+   buyButtonText: "Buy Now"
+   additionalInfo: ""
+   ticketContentList: ["Keynotes", "Pre-recorded Sessions", "Posters"]
+   validFrom: "2020-07-20T10:00"
+   validThrough: "2020-08-28T23:59"
+   disabled: false
+   soldOut: false
+   soldOutText: "Sold Out"
+
+ - name: "ALAO/MiALA/OELMA Member, Regular Rate"
    price: "30"
    priceCurrency: "USD"
    ticketsNumber: "50"
@@ -322,11 +338,43 @@ ticketsOffers:
    featured:
    buyButtonLink: ""
    buyButtonText: "Buy Now"
-   additionalInfo: "Requires a valid student ID."
+   additionalInfo: ""
    ticketContentList: ["Keynotes", "Pre-recorded Sessions", "Posters"]
-   validFrom: "2020-01-01T10:00"
-   validThrough: "2020-10-30T23:59"
-   disabled: true
+   validFrom: "2020-07-20T10:00"
+   validThrough: "2020-10-18T23:59"
+   disabled: false
+   soldOut: false
+   soldOutText: "Sold Out"
+
+ - name: "Non-ALAO/MiALA/OELMA Member, Regular Rate"
+   price: "35"
+   priceCurrency: "USD"
+   ticketsNumber: "50"
+   ribbon:
+   featured:
+   buyButtonLink: ""
+   buyButtonText: "Buy Now"
+   additionalInfo: ""
+   ticketContentList: ["Keynotes", "Pre-recorded Sessions", "Posters"]
+   validFrom: "2020-07-20T10:00"
+   validThrough: "2020-10-18T23:59"
+   disabled: false
+   soldOut: false
+   soldOutText: "Sold Out"
+
+ - name: "Student/Retiree, Regular Rate"
+   price: "15"
+   priceCurrency: "USD"
+   ticketsNumber: "50"
+   ribbon:
+   featured:
+   buyButtonLink: ""
+   buyButtonText: "Buy Now"
+   additionalInfo: ""
+   ticketContentList: ["Keynotes", "Pre-recorded Sessions", "Posters"]
+   validFrom: "2020-07-20T10:00"
+   validThrough: "2020-10-18T23:59"
+   disabled: false
    soldOut: false
    soldOutText: "Sold Out"
 
