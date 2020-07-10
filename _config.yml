@@ -287,15 +287,15 @@ ticketsOffers:
  - name: "Early Bird"
    price: "10-30"
    priceCurrency: "USD"
-   ticketsNumber: "100"
+   ticketsNumber: "300"
    ribbon: "-25%"
    featured: true
    buyButtonLink: "https://www.alaoweb.org/event-3712747"
    buyButtonText: "Register Now"
    additionalInfo: ""
    ticketContentList: ["Keynotes", "Pre-recorded Sessions", "Posters"]
-   validFrom: "2020-07-20T10:00"
-   validThrough: "2020-08-28T23:59"
+   validFrom: "2020-07-20"
+   validThrough: "2020-08-28"
    disabled: false
    soldOut: false
    soldOutText: "Sold Out"
@@ -335,16 +335,16 @@ ticketsOffers:
  - name: "Regular Rate"
    price: "30-50"
    priceCurrency: "USD"
-   ticketsNumber: "50"
+   ticketsNumber: ""
    ribbon:
    featured:
    buyButtonLink: "https://www.alaoweb.org/event-3712747"
    buyButtonText: "Register Now"
    additionalInfo: ""
    ticketContentList: ["Keynotes", "Pre-recorded Sessions", "Posters"]
-   validFrom: "2020-07-20T10:00"
-   validThrough: "2020-10-18T23:59"
-   disabled: false
+   validFrom: "2020-08-29"
+   validThrough: "2020-10-18"
+   disabled: true
    soldOut: false
    soldOutText: "Sold Out"
 
@@ -381,18 +381,18 @@ ticketsOffers:
 #    soldOutText: "Sold Out"
 
  - name: "Preconference"
-   price: "30"
+   price: "50"
    priceCurrency: "USD"
-   ticketsNumber: "50"
+   ticketsNumber: "30"
    ribbon:
    featured:
-   buyButtonLink: "https://www.alaoweb.org/event-3712747"
+   buyButtonLink: "https://www.alaoweb.org/event-3905631"
    buyButtonText: "Register Now"
    additionalInfo: ""
    ticketContentList: ["Preconference"]
    altSubtitle: "Separate Ticket Required"
-   validFrom: "2020-07-20T10:00"
-   validThrough: "2020-10-18T23:59"
+   validFrom: ""
+   validThrough: "2020-10-18"
    disabled: false
    soldOut: false
    soldOutText: "Sold Out"
