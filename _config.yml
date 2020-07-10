@@ -289,7 +289,7 @@ ticketsOffers:
    ribbon: "-25%"
    featured: true
    buyButtonLink: ""
-   buyButtonText: "Buy Now"
+   buyButtonText: "Register Now"
    additionalInfo: ""
    ticketContentList: ["Keynotes", "Pre-recorded Sessions", "Posters"]
    validFrom: "2020-07-20T10:00"
@@ -305,7 +305,7 @@ ticketsOffers:
    ribbon:
    featured:
    buyButtonLink: ""
-   buyButtonText: "Buy Now"
+   buyButtonText: "Register Now"
    additionalInfo: ""
    ticketContentList: ["Keynotes", "Pre-recorded Sessions", "Posters"]
    validFrom: "2020-07-20T00:00"
@@ -321,7 +321,7 @@ ticketsOffers:
    ribbon:
    featured:
    buyButtonLink: ""
-   buyButtonText: "Buy Now"
+   buyButtonText: "Register Now"
    additionalInfo: ""
    ticketContentList: ["Keynotes", "Pre-recorded Sessions", "Posters"]
    validFrom: "2020-07-20T10:00"
@@ -337,7 +337,7 @@ ticketsOffers:
    ribbon:
    featured:
    buyButtonLink: ""
-   buyButtonText: "Buy Now"
+   buyButtonText: "Register Now"
    additionalInfo: ""
    ticketContentList: ["Keynotes", "Pre-recorded Sessions", "Posters"]
    validFrom: "2020-07-20T10:00"
@@ -353,7 +353,7 @@ ticketsOffers:
    ribbon:
    featured:
    buyButtonLink: ""
-   buyButtonText: "Buy Now"
+   buyButtonText: "Register Now"
    additionalInfo: ""
    ticketContentList: ["Keynotes", "Pre-recorded Sessions", "Posters"]
    validFrom: "2020-07-20T10:00"
@@ -369,7 +369,7 @@ ticketsOffers:
    ribbon:
    featured:
    buyButtonLink: ""
-   buyButtonText: "Buy Now"
+   buyButtonText: "Register Now"
    additionalInfo: ""
    ticketContentList: ["Keynotes", "Pre-recorded Sessions", "Posters"]
    validFrom: "2020-07-20T10:00"
