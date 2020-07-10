@@ -207,11 +207,22 @@ enablePreconference: True
 aboutPreconferenceTitle: "Meet our Speakers"
 aboutPreconferenceTitleShow: False
 preconferenceRows:
- - {title: "Renewal: Promoting Civility and Self-Care in (Academic) Libraries", image: "kaetrena_kendrick.jpg", details: "The Renewal Seminar offers a pathway for individuals to increase their awareness of the associated
+ - {title: "Renewal: Promoting Civility and Self-Care in (Academic) Libraries",
+    image: "kaetrena_kendrick.jpg",
+    details: "The Renewal Seminar offers a pathway for individuals to increase their awareness of the associated
 frameworks, development, outcomes, and emerging countermeasures of low morale, which is defined
 as repeated and protracted exposure to workplace abuse and neglect (Kendrick, 2017). Learning more
 about these concerns can help promote authentic civility and collegiality in North American libraries and
-reduce the factors that can cause employee mistreatment and misconduct in library workplaces."}
+reduce the factors that can cause employee mistreatment and misconduct in library workplaces.",
+    list: "
+      Through pre-assessments and reflections and on-site participation in targeted discussions, Seminar attendees will be able to:<br/>
+      <ul>
+        <li><p>Understand the development the low morale experience;<p></li>
+        <li><p>Evaluate the role of Library and Information Science (LIS)-based and workplace barriers to resolving low morale;</p></li>
+        <li><p>Identify and consider leadership behaviors that decrease low morale in workplace environments; and</p></li>
+        <li><p>Create and engage with a collegial community to increase best practices in applying workplace civility, honing humane leadership skills, and encouraging self-advocacy.</p></li>
+      </ul>"
+ }
 
 # Preconference Location Block
 preconferenceLocationEnable: False

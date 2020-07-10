@@ -5,6 +5,12 @@ permalink: /preconference/
 image: waves-background.svg
 ---
 
-{% include top-section.html %} {% include about-preconference2.html %} {% if
-site.preconferenceLocationEnable == true %} {% include
-preconference-location.html %} {% endif %} {% include sponsors.html %}
+{% include top-section.html %}
+
+{% include about-preconference2.html %}
+
+{% if site.preconferenceLocationEnable == true %}
+    {% include preconference-location.html %}
+{% endif %}
+
+{% include sponsors.html %}
