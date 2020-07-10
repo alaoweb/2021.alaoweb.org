@@ -289,55 +289,122 @@ showProgramCommittee: False
 # Tickets Block
 # -------------------------------------------------------------
 ticketsHorizontalEnable: false
-ticketsVerticalEnable: false
+ticketsVerticalEnable: true
+ticketsBuyButtonLink: "https://www.alaoweb.org/event-3712747"
+ticketsBuyButtonText: "Register Now"
 ticketsTitle: "Registration"
 ticketsInfo: "Conference registration provides access to all keynotes, pre-recorded sessions, and posters. Pre-conference sessions are ticketed separately during registration"
 ticketsOffers:
  - name: "Early Bird"
-   price: "50"
+   price: "10-30"
    priceCurrency: "USD"
-   ticketsNumber: "100"
+   ticketsNumber: "300"
    ribbon: "-25%"
    featured: true
-   buyButtonLink: ""
-   buyButtonText: "Buy Now"
+   buyButtonLink: "https://www.alaoweb.org/event-3712747"
+   buyButtonText: "Register Now"
    additionalInfo: ""
    ticketContentList: ["Keynotes", "Pre-recorded Sessions", "Posters"]
-   validFrom: "2020-01-01T10:00"
-   validThrough: "2020-10-30T23:59"
+   validFrom: "2020-07-20"
+   validThrough: "2020-08-28"
    disabled: false
    soldOut: false
    soldOutText: "Sold Out"
 
- - name: "Regular"
-   price: "50"
+#  - name: "Non-ALAO/MiALA/OELMA Member, Early Bird"
+#    price: "30"
+#    priceCurrency: "USD"
+#    ticketsNumber: "100"
+#    ribbon:
+#    featured:
+#    buyButtonLink: "https://www.alaoweb.org/event-3712747"
+#    buyButtonText: "Register Now"
+#    additionalInfo: ""
+#    ticketContentList: ["Keynotes", "Pre-recorded Sessions", "Posters"]
+#    validFrom: "2020-07-20T00:00"
+#    validThrough: "2020-08-28T23:59"
+#    disabled: false
+#    soldOut: false
+#    soldOutText: "Sold Out"
+
+#  - name: "Student/Retiree, Early Bird"
+#    price: "10"
+#    priceCurrency: "USD"
+#    ticketsNumber: "50"
+#    ribbon:
+#    featured:
+#    buyButtonLink: "https://www.alaoweb.org/event-3712747"
+#    buyButtonText: "Register Now"
+#    additionalInfo: ""
+#    ticketContentList: ["Keynotes", "Pre-recorded Sessions", "Posters"]
+#    validFrom: "2020-07-20T10:00"
+#    validThrough: "2020-08-28T23:59"
+#    disabled: false
+#    soldOut: false
+#    soldOutText: "Sold Out"
+
+ - name: "Regular Rate"
+   price: "30-50"
    priceCurrency: "USD"
-   ticketsNumber: "100"
+   ticketsNumber: ""
    ribbon:
    featured:
-   buyButtonLink: ""
-   buyButtonText: "Buy Now"
+   buyButtonLink: "https://www.alaoweb.org/event-3712747"
+   buyButtonText: "Register Now"
    additionalInfo: ""
    ticketContentList: ["Keynotes", "Pre-recorded Sessions", "Posters"]
-   validFrom: "2020-01-01T00:00"
-   validThrough: "2020-10-30T23:59"
+   validFrom: "2020-08-29"
+   validThrough: "2020-10-18"
    disabled: true
    soldOut: false
    soldOutText: "Sold Out"
 
- - name: "Student"
-   price: "30"
+#  - name: "Non-ALAO/MiALA/OELMA Member, Regular Rate"
+#    price: "35"
+#    priceCurrency: "USD"
+#    ticketsNumber: "50"
+#    ribbon:
+#    featured:
+#    buyButtonLink: "https://www.alaoweb.org/event-3712747"
+#    buyButtonText: "Register Now"
+#    additionalInfo: ""
+#    ticketContentList: ["Keynotes", "Pre-recorded Sessions", "Posters"]
+#    validFrom: "2020-07-20T10:00"
+#    validThrough: "2020-10-18T23:59"
+#    disabled: false
+#    soldOut: false
+#    soldOutText: "Sold Out"
+
+#  - name: "Student/Retiree, Regular Rate"
+#    price: "15"
+#    priceCurrency: "USD"
+#    ticketsNumber: "50"
+#    ribbon:
+#    featured:
+#    buyButtonLink: "https://www.alaoweb.org/event-3712747"
+#    buyButtonText: "Register Now"
+#    additionalInfo: ""
+#    ticketContentList: ["Keynotes", "Pre-recorded Sessions", "Posters"]
+#    validFrom: "2020-07-20T10:00"
+#    validThrough: "2020-10-18T23:59"
+#    disabled: false
+#    soldOut: false
+#    soldOutText: "Sold Out"
+
+ - name: "Preconference"
+   price: "50"
    priceCurrency: "USD"
-   ticketsNumber: "50"
+   ticketsNumber: "30"
    ribbon:
    featured:
-   buyButtonLink: ""
-   buyButtonText: "Buy Now"
-   additionalInfo: "Requires a valid student ID."
-   ticketContentList: ["Keynotes", "Pre-recorded Sessions", "Posters"]
-   validFrom: "2020-01-01T10:00"
-   validThrough: "2020-10-30T23:59"
-   disabled: true
+   buyButtonLink: "https://www.alaoweb.org/event-3905631"
+   buyButtonText: "Register Now"
+   additionalInfo: ""
+   ticketContentList: ["Preconference"]
+   altSubtitle: "Separate Ticket Required"
+   validFrom: ""
+   validThrough: "2020-10-18"
+   disabled: false
    soldOut: false
    soldOutText: "Sold Out"
 
