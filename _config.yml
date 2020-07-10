@@ -279,6 +279,8 @@ showProgramCommittee: False
 # -------------------------------------------------------------
 ticketsHorizontalEnable: false
 ticketsVerticalEnable: true
+ticketsBuyButtonLink: "https://www.alaoweb.org/event-3712747"
+ticketsBuyButtonText: "Register Now"
 ticketsTitle: "Registration"
 ticketsInfo: "Conference registration provides access to all keynotes, pre-recorded sessions, and posters. Pre-conference sessions are ticketed separately during registration"
 ticketsOffers:
