@@ -3,18 +3,23 @@ $title-background-color: #f2f2f2;
 $button-background-color: #333;
 $button-background-color-hover: #4d4d4d;
 
-.button {
-  margin-top: 45px;
-  font-weight: bold;
-  .waves-button {
-    color: #767676 !important;
-    opacity: 1 !important;
-    &:hover {
-      background: darken($title-background-color, 7%) !important;
-      color: #222222 !important;
+#tickets {
+  .button {
+    margin-top: 45px;
+    font-weight: bold;
+    .waves-button {
+      color: #767676 !important;
+      opacity: 1 !important;
+      &:hover {
+        background: darken($title-background-color, 7%) !important;
+        color: #222222 !important;
+      }
     }
   }
 }
+
+/* not currently used */
+/*
 .pricing-col {
   overflow: hidden;
   margin-bottom: 26px;
@@ -146,3 +151,4 @@ $button-background-color-hover: #4d4d4d;
     }
   }
 }
+*/
