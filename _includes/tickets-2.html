@@ -27,12 +27,17 @@
 								class="ticket-additional-info">{{ ticketsOffer.additionalInfo }}</span>
 							{% endif %}
 							{% if ticketsOffer.disabled != true %}
+							{% if ticketsOffer.altSubtitle %}
+							<span
+								class="ticket-additional-info">{{ticketsOffer.altSubtitle}}</span>
+							{% else %}
 							{% assign ticketValidTo = ticketsOffer.validThrough | split: "T" %}
 							<span class="ticket-additional-info">Before
 								{{ ticketValidTo[0] | date: "%-d %B %Y"}}
 								{{ ticketValidTo[1] }}
 								<!--or {{ ticketsOffer.ticketsNumber }} tickets-->
 							</span>
+							{% endif %}
 							{% endif %}
 						</div>
 
