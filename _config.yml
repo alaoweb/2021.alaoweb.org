@@ -288,7 +288,7 @@ ticketsOffers:
    ticketsNumber: "100"
    ribbon: "-25%"
    featured: true
-   buyButtonLink: ""
+   buyButtonLink: "https://www.alaoweb.org/event-3712747"
    buyButtonText: "Register Now"
    additionalInfo: ""
    ticketContentList: ["Keynotes", "Pre-recorded Sessions", "Posters"]
@@ -304,7 +304,7 @@ ticketsOffers:
    ticketsNumber: "100"
    ribbon:
    featured:
-   buyButtonLink: ""
+   buyButtonLink: "https://www.alaoweb.org/event-3712747"
    buyButtonText: "Register Now"
    additionalInfo: ""
    ticketContentList: ["Keynotes", "Pre-recorded Sessions", "Posters"]
@@ -320,7 +320,7 @@ ticketsOffers:
    ticketsNumber: "50"
    ribbon:
    featured:
-   buyButtonLink: ""
+   buyButtonLink: "https://www.alaoweb.org/event-3712747"
    buyButtonText: "Register Now"
    additionalInfo: ""
    ticketContentList: ["Keynotes", "Pre-recorded Sessions", "Posters"]
@@ -336,7 +336,7 @@ ticketsOffers:
    ticketsNumber: "50"
    ribbon:
    featured:
-   buyButtonLink: ""
+   buyButtonLink: "https://www.alaoweb.org/event-3712747"
    buyButtonText: "Register Now"
    additionalInfo: ""
    ticketContentList: ["Keynotes", "Pre-recorded Sessions", "Posters"]
@@ -352,7 +352,7 @@ ticketsOffers:
    ticketsNumber: "50"
    ribbon:
    featured:
-   buyButtonLink: ""
+   buyButtonLink: "https://www.alaoweb.org/event-3712747"
    buyButtonText: "Register Now"
    additionalInfo: ""
    ticketContentList: ["Keynotes", "Pre-recorded Sessions", "Posters"]
@@ -368,7 +368,7 @@ ticketsOffers:
    ticketsNumber: "50"
    ribbon:
    featured:
-   buyButtonLink: ""
+   buyButtonLink: "https://www.alaoweb.org/event-3712747"
    buyButtonText: "Register Now"
    additionalInfo: ""
    ticketContentList: ["Keynotes", "Pre-recorded Sessions", "Posters"]
