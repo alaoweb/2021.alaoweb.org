@@ -18,7 +18,6 @@ _site/*
 
 ### Sass ###
 _sass/.sass-cache/*
-css/main.css
 
 ### Windows ###
 # Windows image file caches
