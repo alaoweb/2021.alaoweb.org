@@ -11,7 +11,7 @@ presenters:
     }
 video: '//www.youtube.com/embed/Jdv2Wp9MzY0'
 isStaticPost: true
-published: false
+published: true
 ---
 
 Template for Poster Sessions
