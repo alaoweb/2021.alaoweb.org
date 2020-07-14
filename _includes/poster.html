@@ -105,6 +105,26 @@
           {% endif %}
         </article>
       </div>
+      <div class="col-lg-4 col-md-2 col-xs-12" id="poster-sponsors">
+        <div class="h3">Sponsors</div>
+
+        {% for sponsor in site.data.sponsors %}
+        {% if sponsor.group == 'Gold' or sponsor.group == 'Posters' %}
+        <h4>{{ sponsor.group }}</h4>
+        <ul class="list-inline">
+          {% for element in sponsor.elements %}
+          <li>
+            <a href="{{ element.link }}" target="_blank">
+              <img src="{{ site.baseurl }}/img/sponsors/{{ element.imageUrl }}"
+                title="{{ element.description }}" alt="{{ element.name }}"
+                style="width:100%" />
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+        {% endfor %}
+      </div>
     </div>
   </div>
 </section>
