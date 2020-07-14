@@ -1,5 +1,5 @@
 {% for sponsor in site.data.sponsors %}
-{% if sponsor.group == 'Gold' or sponsor.group == 'Posters' %}
+{% if sponsor.group == 'Gold' or sponsor.group == include.sessionType %}
 <div class="h3">{{ sponsor.group }} Sponsors</div>
 <ul class="list-inline">
   {% for element in sponsor.elements %}
