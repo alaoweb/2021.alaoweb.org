@@ -42,12 +42,17 @@
               <span class="label">About the Presenter(s):</span> <br />{{ bios
               }}
             </div>
+            <div class="poster-sponsors mr-auto"
+              style="width:50%; margin-left: 25%; text-align: center">
+              {% include poster-sponsors.html %}
+            </div>
           </div>
-          <!-- Ending here, code is reused from _include/poster.html -->
         </div>
+        <!-- Ending here, code is reused from _include/poster.html -->
       </div>
     </div>
   </div>
-  {% endfor %}
+</div>
+{% endfor %}
 </div>
 <!-- End Posters Modals-->

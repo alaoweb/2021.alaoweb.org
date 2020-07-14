@@ -1,0 +1,16 @@
+{% for sponsor in site.data.sponsors %}
+{% if sponsor.group == 'Gold' or sponsor.group == 'Posters' %}
+<div class="h3">{{ sponsor.group }} Sponsors</div>
+<ul class="list-inline">
+  {% for element in sponsor.elements %}
+  <li>
+    <a href="{{ element.link }}" target="_blank">
+      <img src="{{ site.baseurl }}/img/sponsors/{{ element.imageUrl }}"
+        title="{{ element.description }}" alt="{{ element.name }}"
+        style="width:100%" />
+    </a>
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}
+{% endfor %}
