@@ -7,7 +7,7 @@
 			<h5>{{ block.title }}</h5>
 			<ul>
 				{% for linkElement in block.links %}
-				<li><a href="{% if linkElement.permalink != null %} {{ linkElement.permalink | prepend: site.baseurl }} {% else %} {{ linkElement.link }} {% endif %}" {% if linkElement.link != null %}target="_blank"{% endif %}>{{ linkElement.text }}</a></li>
+				<li><a {% if linkElement.featured == true %} class="featured" {% endif %} href="{% if linkElement.permalink != null %} {{ linkElement.permalink | prepend: site.baseurl }} {% else %} {{ linkElement.link }} {% endif %}" {% if linkElement.link != null %}target="_blank"{% endif %}>{{ linkElement.text }}</a></li>
 				{% endfor %}
 			</ul>
 		</div>
