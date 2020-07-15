@@ -36,6 +36,7 @@
   social:
     - { name: 'twitter', link: 'https://twitter.com/ohionet' }
     - { name: 'site', link: 'https://www.ohionet.org/' }
+
 - id: 3
   name: 'Kaetrena'
   surname: 'Davis Kendrick'
@@ -51,6 +52,7 @@
   social:
     - { name: 'site', link: 'https://kaetrenadaviskendrick.wordpress.com/' }
     - { name: 'twitter', link: 'https://twitter.com/kaetrena' }
+
 - id: 4
   name: 'Rebekkah'
   surname: 'Smith Aldrich'
@@ -65,3 +67,13 @@
         name: 'facebook',
         link: 'https://www.facebook.com/SustainableLibraries/',
       }
+
+- id: 5
+  name: 'Ione'
+  surname: 'Damasco'
+  pronouns: 'she/her/hers'
+  company: 'University of Dayton'
+  title: 'Director, Division of Information Acquisition & Organization'
+  bio: "Ione T. Damasco, M.L.I.S., is a Professor and Director of Information Acquisition & Organization at the University of Dayton, where she provides leadership, guidance, and support for technical services work in the University Libraries. She is also the Chair of the University Libraries Diversity & Inclusion Team, which serves as a resource around diversity, equity, and inclusion endeavors across all areas and for every unit of the Libraries. Along with several faculty and staff from around campus, she is part of the Dialogue Zone Steering Committee, which is dedicated to programming and other initiatives around different forms of dialogue that take place in a new library space called the <a href='https://udayton.edu/libraries/dialoguezone/index.php' target='_blank'>Dialogue Zone</a>. Her most recent research has centered on race and diversity issues in librarianship, and potential uses of intergroup dialogue as a form of experiential learning focused on social justice outcomes in libraries. Learn more about her <a href='https://works.bepress.com/ione_damasco/about/' target='_blank'>work and research</a>."
+  thumbnailUrl: ione_damasco.png
+  rockstar: true
