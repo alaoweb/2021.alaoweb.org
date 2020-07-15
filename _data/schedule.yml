@@ -1,5 +1,5 @@
-- date: "2020-10-26"
-  dateReadable: "October 26"
+- date: "2020-10-28"
+  dateReadable: "October 28"
   tracks: 
     - {title: "Track #1"}
     - {title: "Track #2"}
@@ -15,8 +15,8 @@
         sessionIds: [002]
     }
 
-- date: "2020-10-27"
-  dateReadable: "October 27"
+- date: "2020-10-29"
+  dateReadable: "October 29"
   tracks: 
     - {title: "Track #1"}
     - {title: "Track #2"}
@@ -32,8 +32,8 @@
 #    	sessionIds: [102, 103]
 #    }
 
-- date: "2020-10-27"
-  dateReadable: "October 27"
+- date: "2020-10-30"
+  dateReadable: "October 30"
   tracks:
     - {title: "Track #1"}
     - {title: "Track #2"}
