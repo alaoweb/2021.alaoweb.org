@@ -75,7 +75,7 @@ socialLinks:
 footerBlocks:
  - title: "Links"
    links:
-     - {link: "https://www.alaoweb.org", text: "ALAO Website"}
+     - {link: "https://www.alaoweb.org", text: "ALAO Website", featured: true }
  - title: "Contacts"
    links:
      - {link: "mailto:2020-cpc@alaoweb.org", text: "2020-cpc@alaoweb.org"}
