@@ -120,7 +120,7 @@ $small-label-width: 80px;
 }
 .slot-title {
   font-size: 22px;
-  font-weight: $regular;
+  font-weight: $regular !important;
   margin: 0;
   padding-right: 20px;
   @media (max-width: 767px) {
