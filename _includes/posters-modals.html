@@ -42,12 +42,16 @@
               <span class="label">About the Presenter(s):</span> <br />{{ bios
               }}
             </div>
+            <div id="poster-sponsors" class="modal-sponsors">
+              {% include sponsors-per-session.html sessionType='Posters' %}
+            </div>
           </div>
-          <!-- Ending here, code is reused from _include/poster.html -->
         </div>
+        <!-- Ending here, code is reused from _include/poster.html -->
       </div>
     </div>
   </div>
-  {% endfor %}
+</div>
+{% endfor %}
 </div>
 <!-- End Posters Modals-->
