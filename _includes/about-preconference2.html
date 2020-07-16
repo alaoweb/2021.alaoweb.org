@@ -3,16 +3,26 @@
     <div class="content-wrapper">
         <div class="col-md-8 col-md-offset-2">
             {% if site.aboutPreconferenceTitleShow == true %}
-              <h3>{{ site.aboutPreconferenceTitle }}</h3>
+            <h2>{{ site.aboutPreconferenceTitle }}</h2>
+            {% assign nextLevel = "h3" %}
+            {% else %}
+            {% assign nextLevel = "h2" %}
             {% endif %}
             {% for row in site.preconferenceRows %}
             {% assign check = forloop.index0 | modulo:2 %}
-            <div class="preconference-row {% if check == 0 %}float-left{% else %}float-right{% endif %} col-md-12">
-                <h4>{{ row.title }}</h4>
-                <div class="preconference-img-wrapper animated hiding" data-animation="{% if check == 0 %}fadeInLeft{% else %}fadeInRight{% endif %}" data-delay="0">
-                    <img class="img-responsive" src="{{ site.baseurl }}/img/preconference/{{ row.image }}" alt="Preconference">
+            <div
+                class="preconference-row {% if check == 0 %}float-left{% else %}float-right{% endif %} col-md-12">
+                <{{nextLevel}} class="h4">{{ row.title }}</{{nextLevel}}>
+                <div class="preconference-img-wrapper animated hiding"
+                    data-animation="{% if check == 0 %}fadeInLeft{% else %}fadeInRight{% endif %}"
+                    data-delay="0">
+                    <img class="img-responsive"
+                        src="{{ site.baseurl }}/img/preconference/{{ row.image }}"
+                        alt="Preconference">
                 </div>
-                <div class="preconference-details animated hiding" data-animation="{% if check == 0 %}fadeInRight{% else %}fadeInLeft{% endif %}" data-delay="0">
+                <div class="preconference-details animated hiding"
+                    data-animation="{% if check == 0 %}fadeInRight{% else %}fadeInLeft{% endif %}"
+                    data-delay="0">
                     <p>{{ row.details }}</p>
                     <p>{{ row.list }}</p>
                 </div>
