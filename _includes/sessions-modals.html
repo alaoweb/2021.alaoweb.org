@@ -16,7 +16,7 @@
 						</svg>
 						<div class="close-mask" data-dismiss="modal"></div>
 					</div>
-					<div class="h4">{{ session.title }}</div>
+					<h4>{{ session.title }}</h4>
 					{% if session.language != null %}
 					<span class="theme-metadata"><span class="caption">Language:
 						</span>{{ session.language }}</span>
@@ -123,6 +123,14 @@
 						{% endif %}
 						{% endfor %}
 						{% endfor %}
+					</div>
+					<div id="session-sponsors" class="modal-sponsors">
+						{% if session.subtype == "keynote" %}
+						{% assign sponsorType = "Keynote" %}
+						{% elsif session.subtype == "presentation" %}
+						{% assign sponsorType = "Sessions" %}
+						{% endif %}
+						{% include sponsors-per-session.html sessionType=sponsorType %}
 					</div>
 				</div>
 			</div>
