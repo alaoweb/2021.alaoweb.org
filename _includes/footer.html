@@ -2,12 +2,16 @@
 <footer id="footer" class="footer">
 	<div class="row">
 		{% for block in site.footerBlocks %}
-        {% assign colWidth = 12 | divided_by: forloop.length %}
+		{% assign colWidth = 12 | divided_by: forloop.length %}
 		<div class="col-md-{{ colWidth }} col-xs-6">
-			<h5>{{ block.title }}</h5>
+			<div class="h5">{{ block.title }}</div>
 			<ul>
 				{% for linkElement in block.links %}
-				<li><a {% if linkElement.featured == true %} class="featured" {% endif %} href="{% if linkElement.permalink != null %} {{ linkElement.permalink | prepend: site.baseurl }} {% else %} {{ linkElement.link }} {% endif %}" {% if linkElement.link != null %}target="_blank"{% endif %}>{{ linkElement.text }}</a></li>
+				<li><a {% if linkElement.featured == true %} class="featured"
+						{% endif %}
+						href="{% if linkElement.permalink != null %} {{ linkElement.permalink | prepend: site.baseurl }} {% else %} {{ linkElement.link }} {% endif %}"
+						{% if linkElement.link != null %}target="_blank"
+						{% endif %}>{{ linkElement.text }}</a></li>
 				{% endfor %}
 			</ul>
 		</div>
@@ -18,9 +22,13 @@
 			<ul class="social-links">
 				{% for social in site.socialLinks %}
 				<li>
-					<a href="{% if social.permalink != null %} {{ social.permalink | prepend: site.baseurl }} {% else %} {{ social.link }} {% endif %}" target="_blank">
-						<svg class="icon icon-{{ social.icon }}" viewBox="0 0 30 32">
-							<use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-{{ social.icon }}"></use>
+					<a href="{% if social.permalink != null %} {{ social.permalink | prepend: site.baseurl }} {% else %} {{ social.link }} {% endif %}"
+						target="_blank">
+						<svg class="icon icon-{{ social.icon }}"
+							viewBox="0 0 30 32">
+							<use
+								xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-{{ social.icon }}">
+							</use>
 						</svg>
 					</a>
 				</li>
@@ -32,7 +40,10 @@
 		<!-- Please don't delete this line-->
 		<div class="col-md-6">
 			<p class="copyright">
-				&copy; {{ site.conferenceYear }} Based on <a href="https://github.com/gdg-x/zeppelin" target="_blank">Project Zeppelin</a>.<br>Background by <a href="https://svgbackgrounds.com/">SVGBackgrounds.com</a>.
+				&copy; {{ site.conferenceYear }} Based on <a
+					href="https://github.com/gdg-x/zeppelin"
+					target="_blank">Project Zeppelin</a>.<br>Background by <a
+					href="https://svgbackgrounds.com/">SVGBackgrounds.com</a>.
 			</p>
 		</div>
 	</div>
