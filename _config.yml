@@ -396,7 +396,7 @@ ticketsOffers:
 #    soldOut: false
 #    soldOutText: "Sold Out"
 
- - name: "Preconference"
+ - name: "Renewal Preconference"
    price: "50"
    priceCurrency: "USD"
    ticketsNumber: "30"
@@ -407,6 +407,23 @@ ticketsOffers:
    additionalInfo: ""
    ticketContentList: ["Preconference"]
    altSubtitle: "Separate Ticket Required"
+   validFrom: ""
+   validThrough: "2020-10-18"
+   disabled: false
+   soldOut: false
+   soldOutText: "Sold Out"
+
+ - name: "Anti-racism Preconference"
+   price: "Free"
+   priceCurrency: ""
+   ticketsNumber: "500"
+   ribbon:
+   featured:
+   buyButtonLink: "https://www.alaoweb.org/event-3913408"
+   buyButtonText: "Register Now"
+   additionalInfo: ""
+   ticketContentList: ["Preconference"]
+   altSubtitle: ""
    validFrom: ""
    validThrough: "2020-10-18"
    disabled: false
