@@ -31,6 +31,18 @@
   live-stream-time:
   live-stream-link: 'https://www.example.com'
 
+- id: 003
+  title: 'From Being To Doing: Anti-racism as Action at Work'
+  description: 'Over the past few years, the conversation around equity in libraries has focused on thinking of the word ally as a verb, rather than as an identity. With recent events highlighting specific issues around race, the conversation has now shifted to many people wanting to be anti-racist. In this session, we will focus on anti-racism as action, rather than using the word anti-racist as identity. In particular, we will examine our notions of professionalism in libraries. Can changing how we define professionalism in library workplaces be an example of anti-racist action? We will take a critical look at how certain hallmarks of white supremacist culture inform our notions of professionalism and acceptable workplace culture. These commonly accepted traits can actually contribute to low morale, the prevalence of microaggressions, retention issues, etc. Together, we will explore ways to transform our workplace cultures by looking at specific actions that resist these hallmarks in order to create equitable workplaces.'
+  subtype: workshop
+  speakers: [5]
+  language:
+  complexity:
+  handouts:
+  video: '//www.youtube.com/embed/{replace_with_video_id}'
+  live-stream-type: Q&A
+  live-stream-time: '2020-10-28 15:30:00'
+  live-stream-link: 'https://www.example.com'
 
 # ---------------------------------
 # CONFERENCE DAY[1], prefix ID 10x
