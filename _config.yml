@@ -316,38 +316,6 @@ ticketsOffers:
    soldOut: false
    soldOutText: "Sold Out"
 
-#  - name: "Non-ALAO/MiALA/OELMA Member, Early Bird"
-#    price: "30"
-#    priceCurrency: "USD"
-#    ticketsNumber: "100"
-#    ribbon:
-#    featured:
-#    buyButtonLink: "https://www.alaoweb.org/event-3712747"
-#    buyButtonText: "Register Now"
-#    additionalInfo: ""
-#    ticketContentList: ["Keynotes", "Pre-recorded Sessions", "Posters"]
-#    validFrom: "2020-07-20T00:00"
-#    validThrough: "2020-08-28T23:59"
-#    disabled: false
-#    soldOut: false
-#    soldOutText: "Sold Out"
-
-#  - name: "Student/Retiree, Early Bird"
-#    price: "10"
-#    priceCurrency: "USD"
-#    ticketsNumber: "50"
-#    ribbon:
-#    featured:
-#    buyButtonLink: "https://www.alaoweb.org/event-3712747"
-#    buyButtonText: "Register Now"
-#    additionalInfo: ""
-#    ticketContentList: ["Keynotes", "Pre-recorded Sessions", "Posters"]
-#    validFrom: "2020-07-20T10:00"
-#    validThrough: "2020-08-28T23:59"
-#    disabled: false
-#    soldOut: false
-#    soldOutText: "Sold Out"
-
  - name: "Regular Rate"
    price: "30-50"
    priceCurrency: "USD"
@@ -363,38 +331,6 @@ ticketsOffers:
    disabled: true
    soldOut: false
    soldOutText: "Sold Out"
-
-#  - name: "Non-ALAO/MiALA/OELMA Member, Regular Rate"
-#    price: "35"
-#    priceCurrency: "USD"
-#    ticketsNumber: "50"
-#    ribbon:
-#    featured:
-#    buyButtonLink: "https://www.alaoweb.org/event-3712747"
-#    buyButtonText: "Register Now"
-#    additionalInfo: ""
-#    ticketContentList: ["Keynotes", "Pre-recorded Sessions", "Posters"]
-#    validFrom: "2020-07-20T10:00"
-#    validThrough: "2020-10-18T23:59"
-#    disabled: false
-#    soldOut: false
-#    soldOutText: "Sold Out"
-
-#  - name: "Student/Retiree, Regular Rate"
-#    price: "15"
-#    priceCurrency: "USD"
-#    ticketsNumber: "50"
-#    ribbon:
-#    featured:
-#    buyButtonLink: "https://www.alaoweb.org/event-3712747"
-#    buyButtonText: "Register Now"
-#    additionalInfo: ""
-#    ticketContentList: ["Keynotes", "Pre-recorded Sessions", "Posters"]
-#    validFrom: "2020-07-20T10:00"
-#    validThrough: "2020-10-18T23:59"
-#    disabled: false
-#    soldOut: false
-#    soldOutText: "Sold Out"
 
  - name: "Renewal Preconference"
    price: "50"
