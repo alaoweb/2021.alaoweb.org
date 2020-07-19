@@ -223,6 +223,11 @@ reduce the factors that can cause employee mistreatment and misconduct in librar
         <li><p>Create and engage with a collegial community to increase best practices in applying workplace civility, honing humane leadership skills, and encouraging self-advocacy.</p></li>
       </ul>"
  }
+ - {title: "From Being To Doing: Anti-racism as Action at Work",
+      image: "ione_damasco.png",
+      details: "Over the past few years, the conversation around equity in libraries has focused on thinking of the word ally as a verb, rather than as an identity. With recent events highlighting specific issues around race, the conversation has now shifted to many people wanting to be anti-racist. In this session, we will focus on anti-racism as action, rather than using the word anti-racist as identity. In particular, we will examine our notions of professionalism in libraries. Can changing how we define professionalism in library workplaces be an example of anti-racist action? We will take a critical look at how certain hallmarks of white supremacist culture inform our notions of professionalism and acceptable workplace culture. These commonly accepted traits can actually contribute to low morale, the prevalence of microaggressions, retention issues, etc. Together, we will explore ways to transform our workplace cultures by looking at specific actions that resist these hallmarks in order to create equitable workplaces.",
+      list: ""
+ }
 
 # Preconference Location Block
 preconferenceLocationEnable: False
