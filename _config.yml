@@ -303,7 +303,7 @@ ticketsOffers:
  - name: "Early Bird"
    price: "10-30"
    priceCurrency: "USD"
-   ticketsNumber: "300"
+   ticketsNumber: "500"
    ribbon: "-25%"
    featured: true
    buyButtonLink: "https://www.alaoweb.org/event-3712747"
