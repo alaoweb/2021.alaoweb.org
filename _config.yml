@@ -167,7 +167,7 @@ directionDetailsWideCards:
 # -------------------------------------------------------------
 navigationLinks:
  - {permalink: "/", text: "Home"}
- - {permalink: "/preconference/", text: "Preconference"}
+ - {permalink: "/preconference/", text: "Preconferences"}
  - {permalink: "/schedule/", text: "Schedule"}
  - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/posters/", text: "Posters"}
