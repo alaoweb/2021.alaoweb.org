@@ -42,7 +42,7 @@ permalink: "/posters/:title"
 aboutTitle: "ALAO Virtual Conference"
 aboutBlock:
  - {title: "Sessions", image: "sessions.jpg", text: "Prerecorded traditional presentations with live Q&A" }
- - {title: "Pre-Conference", image: "preconference.jpg", text: "An opportunity for a deeper dive into a single topic in a workshop format" }
+ - {title: "Pre-Conferences", image: "preconference.jpg", text: "An opportunity for a deeper dive into a single topic in a workshop format" }
  - {title: "Posters", image: "posters.jpg", text: "Short videos with asynchronous, text-based Q&A" }
  - {title: "Networking", image: "networking.jpg", text: "Opportunities to connect with other attendees in a less formal structure"}
 
@@ -167,7 +167,7 @@ directionDetailsWideCards:
 # -------------------------------------------------------------
 navigationLinks:
  - {permalink: "/", text: "Home"}
- - {permalink: "/preconference/", text: "Preconference"}
+ - {permalink: "/preconference/", text: "Preconferences"}
  - {permalink: "/schedule/", text: "Schedule"}
  - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/posters/", text: "Posters"}
