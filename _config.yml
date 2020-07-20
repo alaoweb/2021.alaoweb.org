@@ -223,6 +223,11 @@ reduce the factors that can cause employee mistreatment and misconduct in librar
         <li><p>Create and engage with a collegial community to increase best practices in applying workplace civility, honing humane leadership skills, and encouraging self-advocacy.</p></li>
       </ul>"
  }
+ - {title: "From Being To Doing: Anti-racism as Action at Work",
+      image: "ione_damasco.png",
+      details: "Over the past few years, the conversation around equity in libraries has focused on thinking of the word ally as a verb, rather than as an identity. With recent events highlighting specific issues around race, the conversation has now shifted to many people wanting to be anti-racist. In this session, we will focus on anti-racism as action, rather than using the word anti-racist as identity. In particular, we will examine our notions of professionalism in libraries. Can changing how we define professionalism in library workplaces be an example of anti-racist action? We will take a critical look at how certain hallmarks of white supremacist culture inform our notions of professionalism and acceptable workplace culture. These commonly accepted traits can actually contribute to low morale, the prevalence of microaggressions, retention issues, etc. Together, we will explore ways to transform our workplace cultures by looking at specific actions that resist these hallmarks in order to create equitable workplaces.",
+      list: ""
+ }
 
 # Preconference Location Block
 preconferenceLocationEnable: False
@@ -298,7 +303,7 @@ ticketsOffers:
  - name: "Early Bird"
    price: "10-30"
    priceCurrency: "USD"
-   ticketsNumber: "300"
+   ticketsNumber: "500"
    ribbon: "-25%"
    featured: true
    buyButtonLink: "https://www.alaoweb.org/event-3712747"
@@ -310,38 +315,6 @@ ticketsOffers:
    disabled: false
    soldOut: false
    soldOutText: "Sold Out"
-
-#  - name: "Non-ALAO/MiALA/OELMA Member, Early Bird"
-#    price: "30"
-#    priceCurrency: "USD"
-#    ticketsNumber: "100"
-#    ribbon:
-#    featured:
-#    buyButtonLink: "https://www.alaoweb.org/event-3712747"
-#    buyButtonText: "Register Now"
-#    additionalInfo: ""
-#    ticketContentList: ["Keynotes", "Pre-recorded Sessions", "Posters"]
-#    validFrom: "2020-07-20T00:00"
-#    validThrough: "2020-08-28T23:59"
-#    disabled: false
-#    soldOut: false
-#    soldOutText: "Sold Out"
-
-#  - name: "Student/Retiree, Early Bird"
-#    price: "10"
-#    priceCurrency: "USD"
-#    ticketsNumber: "50"
-#    ribbon:
-#    featured:
-#    buyButtonLink: "https://www.alaoweb.org/event-3712747"
-#    buyButtonText: "Register Now"
-#    additionalInfo: ""
-#    ticketContentList: ["Keynotes", "Pre-recorded Sessions", "Posters"]
-#    validFrom: "2020-07-20T10:00"
-#    validThrough: "2020-08-28T23:59"
-#    disabled: false
-#    soldOut: false
-#    soldOutText: "Sold Out"
 
  - name: "Regular Rate"
    price: "30-50"
@@ -359,39 +332,7 @@ ticketsOffers:
    soldOut: false
    soldOutText: "Sold Out"
 
-#  - name: "Non-ALAO/MiALA/OELMA Member, Regular Rate"
-#    price: "35"
-#    priceCurrency: "USD"
-#    ticketsNumber: "50"
-#    ribbon:
-#    featured:
-#    buyButtonLink: "https://www.alaoweb.org/event-3712747"
-#    buyButtonText: "Register Now"
-#    additionalInfo: ""
-#    ticketContentList: ["Keynotes", "Pre-recorded Sessions", "Posters"]
-#    validFrom: "2020-07-20T10:00"
-#    validThrough: "2020-10-18T23:59"
-#    disabled: false
-#    soldOut: false
-#    soldOutText: "Sold Out"
-
-#  - name: "Student/Retiree, Regular Rate"
-#    price: "15"
-#    priceCurrency: "USD"
-#    ticketsNumber: "50"
-#    ribbon:
-#    featured:
-#    buyButtonLink: "https://www.alaoweb.org/event-3712747"
-#    buyButtonText: "Register Now"
-#    additionalInfo: ""
-#    ticketContentList: ["Keynotes", "Pre-recorded Sessions", "Posters"]
-#    validFrom: "2020-07-20T10:00"
-#    validThrough: "2020-10-18T23:59"
-#    disabled: false
-#    soldOut: false
-#    soldOutText: "Sold Out"
-
- - name: "Preconference"
+ - name: "Renewal Preconference"
    price: "50"
    priceCurrency: "USD"
    ticketsNumber: "30"
@@ -402,6 +343,23 @@ ticketsOffers:
    additionalInfo: ""
    ticketContentList: ["Preconference"]
    altSubtitle: "Separate Ticket Required"
+   validFrom: ""
+   validThrough: "2020-10-18"
+   disabled: false
+   soldOut: false
+   soldOutText: "Sold Out"
+
+ - name: "Anti-racism Preconference"
+   price: "Free"
+   priceCurrency: ""
+   ticketsNumber: "500"
+   ribbon:
+   featured:
+   buyButtonLink: "https://www.alaoweb.org/event-3913408"
+   buyButtonText: "Register Now"
+   additionalInfo: ""
+   ticketContentList: ["Preconference"]
+   altSubtitle: ""
    validFrom: ""
    validThrough: "2020-10-18"
    disabled: false
