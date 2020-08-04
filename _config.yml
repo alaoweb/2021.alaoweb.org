@@ -86,9 +86,9 @@ footerBlocks:
 # -------------------------------------------------------------
 # Hero Block - Main Section
 # -------------------------------------------------------------
+heroTitle: "Resilience: Sustainable & Thriving Academic Libraries for the Future"
 heroImage: "resilience_logo_white.svg"
-heroTitle: ""
-eventDate: ""
+eventDate: "October 29-30, 2020"
 typeoutEnable: false
 typeoutTextValues: '"", "Resilient"'
 typeoutFallback: "Resilience"
