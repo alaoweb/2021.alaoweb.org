@@ -69,8 +69,8 @@ codContactEmail: a.goodsett@csuohio.edu
 conferenceYear: 2020
 
 socialLinks:
- - {link: "https://twitter.com/ALAOorg", icon: "twitter"}
- - {link: "https://www.facebook.com/ALAOorg", icon: "facebook"}
+ - {link: "https://twitter.com/ALAOorg", icon: "twitter", title: "Twitter"}
+ - {link: "https://www.facebook.com/ALAOorg", icon: "facebook", title: "Facebook"}
 
 footerBlocks:
  - title: "Links"
