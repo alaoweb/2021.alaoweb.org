@@ -5,17 +5,15 @@
     {% include navigation.html %}
     <div class="content-wrapper">
         <div class="jumbotron">
+            <div class="sr-only">
+                <h1>{{site.heroTitle}}</h1>
+                <p>
+                    {% capture eventDate %}{{ site.eventDate | replace: '-', ' to ' }}{% endcapture %}
+                    {{ eventDate }}
+                </p>
+            </div>
             <div class="animated hiding" data-animation="fadeInDown"
                 data-delay="500">
-                {% assign heroText = site.heroTitle | split:"<typeout>" %}
-                <h1>{{ heroText[0] }}
-                    {% if site.typeoutEnable == True %}
-                    <span id="typeout-text" class="hidden-xs"></span><span
-                        class="typeout-fallback">{{ site.typeoutFallback }}</span>
-                    {% endif %}
-                    {{ heroText[1] }}
-                </h1>
-                <p>{{ site.eventDate }}</p>
                 {% for button in site.heroButtons %}
                 <a href="{% if button.permalink != null %} {{ button.permalink | prepend: site.baseurl }} {% else %} {{ button.link }} {% endif %}"
                     class="btn btn-secondary waves-effect waves-button waves-light waves-float"
@@ -25,7 +23,8 @@
             </div>
         </div>
         <a href="#about" class="explore">
-            <svg class="icon icon-arrow-down" viewBox="0 0 32 32">
+            <svg class="icon icon-arrow-down" viewBox="0 0 32 32"
+                title="Go To Next Section (ALAO Virtual Conference)">
                 <use
                     xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-arrow-down">
                 </use>
