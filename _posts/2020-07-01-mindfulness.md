@@ -16,5 +16,5 @@ presenters:
     }
 video: "//www.youtube.com/embed/{video-is}"
 isStaticPost: false
-published: false
+published: true
 ---
