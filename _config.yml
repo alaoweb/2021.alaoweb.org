@@ -194,7 +194,7 @@ postersTitle: "POSTER SESSIONS"
 postersBackground: waves-background.svg
 showPosters: false
 noPostersText: "Posters Forthcoming"
-postersCommentsEnabled: false
+postersCommentsEnabled: true
 discusShortName: "alaoweb"
 
 # -------------------------------------------------------------

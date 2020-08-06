@@ -465,7 +465,7 @@
   company: 'University of Dayton'
   title: 'Coordinator of Marketing and Engagement and Associate Professor'
   bio: "Katy Kelly is associate professor and coordinator of marketing and engagement at University of Dayton Libraries. She promotes library services and resources by planning, developing, and assessing programs, activities, and publications for the university community. She also provides reference support, participates in library instruction and serves as liaison to the Department of Communication."
-  thumbnailUrl: no_image.png
+  thumbnailUrl: katy_kelly.jpg
   rockstar: false
 
 - id: 45
@@ -645,7 +645,7 @@
   company: 'Bowling Green State University'
   title: 'Reference and Instruction Librarian'
   bio: "Chris is a graduate of Indiana State University (English) and Drexel University (MLIS) and has worked in academic libraries for seven years. Currently, she is a Reference and Instruction Librarian at Bowling Green State University. She has presented on microaggressions at several state and national conferences. She has co-authored the article,” Dropped in Without a Parachute: Library Managers' Supervision Experiences” published in the Journal of Library Administration, which analyzes the microaggressions that library managers experience."
-  thumbnailUrl: no_image.png
+  thumbnailUrl: chris_robinson_nkongola.png
   rockstar: false
 
 - id: 63
@@ -655,7 +655,7 @@
   company: 'Bowling Green State University'
   title: 'Reference and Instruction Librarian'
   bio: "Edith is a graduate of Wittenberg University (Sociology) and Kent State University (MLIS) and has been an academic librarian for 18 years. She has worked in several state university libraries and is currently a Reference & Instruction Librarian for the Sciences at Bowling Green State University. Her scholarly interests include hiring and recruitment practices for DEI in libraries and has presented at state and national conferences JCLC, IDEAL and ALAO Diversity Workshop."
-  thumbnailUrl: no_image.png
+  thumbnailUrl: edith_scarletto.jpg
   rockstar: false
 
 - id: 64
@@ -766,4 +766,14 @@
   title: 'Communications Coordinator and Graphic Designer'
   bio: "Ann Zlotnik is the communications coordinator for the Marian Library and the graphic designer for University of Dayton Libraries. She manages websites, the blog and oversees social media for the Marian Library, designs exhibits and spaces and serves on the Libraries’ marketing and outreach team."
   thumbnailUrl: no_image.png
+  rockstar: false
+
+- id: 75
+  name: 'Jillian'
+  surname: 'Ewalt'
+  pronouns:
+  company: 'University of Dayton'
+  title: 'Librarian for Visual Resources'
+  bio: "As a Librarian for Visual Resources, Jillian manages the art and image collections in the Marian Library. She oversees collection development and exhibits and provides reference services, instruction, and outreach. Jillian also serves as the liaison to the Art and Design department."
+  thumbnailUrl: jillian_ewalt.jpg
   rockstar: false
