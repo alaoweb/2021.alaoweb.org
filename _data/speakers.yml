@@ -465,7 +465,7 @@
   company: 'University of Dayton'
   title: 'Coordinator of Marketing and Engagement and Associate Professor'
   bio: "Katy Kelly is associate professor and coordinator of marketing and engagement at University of Dayton Libraries. She promotes library services and resources by planning, developing, and assessing programs, activities, and publications for the university community. She also provides reference support, participates in library instruction and serves as liaison to the Department of Communication."
-  thumbnailUrl: no_image.png
+  thumbnailUrl: katy_kelly.jpg
   rockstar: false
 
 - id: 45
@@ -766,4 +766,14 @@
   title: 'Communications Coordinator and Graphic Designer'
   bio: "Ann Zlotnik is the communications coordinator for the Marian Library and the graphic designer for University of Dayton Libraries. She manages websites, the blog and oversees social media for the Marian Library, designs exhibits and spaces and serves on the Libraries’ marketing and outreach team."
   thumbnailUrl: no_image.png
+  rockstar: false
+
+- id: 75
+  name: 'Jillian'
+  surname: 'Ewalt'
+  pronouns:
+  company: 'University of Dayton'
+  title: 'Librarian for Visual Resources'
+  bio: "As a Librarian for Visual Resources, Jillian manages the art and image collections in the Marian Library. She oversees collection development and exhibits and provides reference services, instruction, and outreach. Jillian also serves as the liaison to the Art and Design department."
+  thumbnailUrl: jillian_ewalt.jpg
   rockstar: false
