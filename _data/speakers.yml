@@ -285,7 +285,7 @@
   company: 'Case Western Reserve University'
   title: 'Research Services Librarian'
   bio: "Mark Eddy is a Research Services Librarian liaison to social sciences and humanities departments at Case Western Reserve University.  He has training in the humanities and library science and is professionally active with ALAO and ACRL.   His research interests include, instruction, OER, outreach, social sciences research support, and assessment."
-  thumbnailUrl: no_image.png
+  thumbnailUrl: mark_eddy.jpg
   rockstar: false
 
 - id: 27
@@ -435,7 +435,7 @@
   company: 'Miami University'
   title: 'Web Services Librarian'
   bio: "Ken Irwin is a Web Services Librarian at Miami University. He is interested in developing open-source solutions to solve challenging library issues and to make the most of our resources."
-  thumbnailUrl: no_image.png
+  thumbnailUrl: ken_irwin.png
   rockstar: false
 
 - id: 42
@@ -515,7 +515,7 @@
   company: 'Cleveland State University'
   title: 'Head of Collections and Digital Initiatives'
   bio: "Marsha Miles is Head of Collections and Digital Initiatives at Cleveland State University. She holds a Master in Library and Information Science degree from Kent State University. She oversees the Collections and Resource Management unit of the Michael Schwartz Library which includes acquisitions, cataloging, collection management, digital initiatives, donations, electronic resources, government documents, knowledge-bases, serials, systems and the Department of Special Collections. Marsha’s research interests include digital libraries, metadata, and scholarly communication."
-  thumbnailUrl: no_image.png
+  thumbnailUrl: marsha_miles.jpg
   rockstar: false
 
 - id: 50
@@ -725,7 +725,7 @@
   company: 'The Ohio State University'
   title: 'Reference and Instruction Librarian'
   bio: "Zach Walton is the Reference and Instruction Librarian at The Ohio State University at Lima."
-  thumbnailUrl: no_image.png
+  thumbnailUrl: zach_walton.jpg
   rockstar: false
 
 - id: 71
