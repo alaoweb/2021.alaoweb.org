@@ -85,7 +85,7 @@
   company: 'Miami University'
   title: 'Science and Engineering Librarian'
   bio: "Kristen Adams is the science and engineering librarian in the Advise and Instruct department at the Miami University Libraries. Adams has served at Miami since 2019 and worked previously at a public library. Her research interests are historical data rescue and collection development strategies."
-  thumbnailUrl: no_image.png
+  thumbnailUrl: kristen_adams.jpg
   rockstar: false
 
 - id: 7
@@ -145,7 +145,7 @@
   company: 'Miami University'
   title: 'Science Librarian'
   bio: "Ginny Boehme is a science librarian in the Advise & Instruct department at Miami University Libraries, with liaison responsibilities for several departments in the life sciences. Her primary responsibilities are instruction and reference, and her passion lies in helping her students ultimately become informed, engaged, and active citizens."
-  thumbnailUrl: no_image.png
+  thumbnailUrl: ginny_boehme.jpg
   rockstar: false
 
 - id: 13
