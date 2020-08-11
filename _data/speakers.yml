@@ -535,7 +535,7 @@
   company: 'Wittenberg University'
   title: 'Reference Librarian'
   bio: "Alisa Mizikar is a Reference Librarian at Wittenberg University. She is interested in building community and making the library a welcoming place for everyone."
-  thumbnailUrl: no_image.png
+  thumbnailUrl: alisa_mizikar.jpg
   rockstar: false
 
 - id: 52
@@ -595,7 +595,7 @@
   company: 'Wittenberg University'
   title: 'Reference Librarian'
   bio: "Kristen Peters is a Reference Librarian at Wittenberg University. She is always on the lookout for new ways the library faculty and staff can form new connections that support lifelong learning."
-  thumbnailUrl: no_image.png
+  thumbnailUrl: kristen_peters.jpg
   rockstar: false
 
 - id: 58
