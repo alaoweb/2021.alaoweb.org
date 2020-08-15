@@ -22,7 +22,7 @@
 #    - { name: 'site', link: 'https://www.derekzoladz.com/' }
 
 - id: 2
-  name: 'Nancy S.'
+  name: 'Nancy'
   surname: 'Kirkpatrick'
   pronouns: 'she/her/hers'
   company: 'OhioNET'
@@ -38,8 +38,8 @@
     - { name: 'site', link: 'https://www.ohionet.org/' }
 
 - id: 3
-  name: 'Kaetrena'
-  surname: 'Davis Kendrick'
+  name: 'Kaetrena Davis'
+  surname: 'Kendrick'
   pronouns: 'she/her/hers'
   company: 'Renewals'
   title: 'Researcher | Facilitator | Leader'
@@ -54,8 +54,8 @@
     - { name: 'twitter', link: 'https://twitter.com/kaetrena' }
 
 - id: 4
-  name: 'Rebekkah'
-  surname: 'Smith Aldrich'
+  name: 'Rebekkah Smith'
+  surname: 'Aldrich'
   company: 'Mid-Hudson Library System'
   title: 'Executive Director'
   bio: "Rebekkah Smith Aldrich is the executive director of the Mid-Hudson Library System, a cooperative public library system with 66 members. Rebekkah is the co-founder of the Sustainable Libraries Initiative of the New York Library Association, co-chair of the American Library Association's Sustainability Task Force and a board member of the ALA Center for the Future of Libraries. Rebekkah is the author of Sustainable Thinking: Ensure Your Library's Future in Uncertain Times and Resilience, part of The Futures Series from ALA Editions, and is a frequent international speaker on the topic of the future of libraries."
@@ -109,7 +109,7 @@
   rockstar: false
 
 - id: 9
-  name: 'Christina A.'
+  name: 'Christina'
   surname: 'Beis'
   pronouns: 'she/her/hers'
   company: 'University of Dayton'
@@ -309,7 +309,7 @@
   rockstar: false
 
 - id: 29
-  name: 'Ash E.'
+  name: 'Ash'
   surname: 'Faulkner'
   pronouns: 'she/her/hers'
   company: 'The Ohio State University'
