@@ -777,3 +777,13 @@
   bio: "As a Librarian for Visual Resources, Jillian manages the art and image collections in the Marian Library. She oversees collection development and exhibits and provides reference services, instruction, and outreach. Jillian also serves as the liaison to the Art and Design department."
   thumbnailUrl: jillian_ewalt.jpg
   rockstar: false
+
+- id: 76
+  name: 'Sandra'
+  surname: 'Enimil'
+  pronouns:
+  company: 'Yale University Library'
+  title: 'Copyright Librarian and Contracting Specialist'
+  bio:
+  thumbnailUrl: sandra_enimil.png
+  rockstar: false
