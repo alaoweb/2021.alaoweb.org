@@ -36,6 +36,32 @@
 #    	endTime: "10:45",
 #    	sessionIds: [102, 103]
 #    }
+     - {
+        startTime: "10:00",
+        endTime: "11:00",
+        sessionIds: [120, 117]
+    }
+    - {
+        startTime: "11:10",
+        endTime: "12:10",
+        sessionIds: [107, 118]
+    }
+    - {
+        startTime: "1:10",
+        endTime: "2:10",
+        sessionIds: [108, 121]
+    }
+    - {
+        startTime: "2:20",
+        endTime: "3:20",
+        sessionIds: [102, 114]
+    }
+    - {
+        startTime: "3:30",
+        endTime: "4:30",
+        sessionIds: [119, 110]
+    }
+
 
 - date: "2020-10-30"
   dateReadable: "October 30"
@@ -43,6 +69,31 @@
     - {title: "Track #1"}
     - {title: "Track #2"}
   timeslots:
+    - {
+        startTime: "9:00",
+        endTime: "10:00",
+        sessionIds: [109, 103]
+    }
+    - {
+        startTime: "10:10",
+        endTime: "11:10",
+        sessionIds: [105, 112]
+    }
+    - {
+        startTime: "11:20",
+        endTime: "12:20",
+        sessionIds: [106, 116]
+    }
+    - {
+        startTime: "1:20",
+        endTime: "2:20",
+        sessionIds: [113, 115]
+    }
+    - {
+        startTime: "2:30",
+        endTime: "3:30",
+        sessionIds: [111, 104]
+    }
     - {
       startTime: "3:40",
       endTime: "4:30",
