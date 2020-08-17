@@ -2,7 +2,8 @@
 <section id="speakers">
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1 appear-animation-trigger">
-            {% for speaker in site.data.speakers %}
+            {% assign sorted_speakers = (site.data.speakers | sort: "surname") %}
+            {% for speaker in sorted_speakers %}
             <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 appear-animation">
                 <div class="zoe-effect ribbon-activator" data-toggle="modal" data-target="#speakerDetail-{{ speaker.id }}">
                     <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }})">
