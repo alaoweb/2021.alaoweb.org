@@ -2,11 +2,13 @@
 <section id="speakers">
     <div class="content-wrapper">
         <h2>Featured Speakers</h2>
-        <div class="col-lg-10 col-lg-offset-1 appear-animation-trigger">
-            {% assign sorted_speakers = (site.data.speakers | where: "rockstar", "true" | sort: "surname") %}
-            {% for speaker in sorted_speakers %}
-            {% include speaker-div.html %}
-            {% endfor %}
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 appear-animation-trigger">
+                {% assign sorted_speakers = (site.data.speakers | where: "rockstar", "true" | sort: "surname") %}
+                {% for speaker in sorted_speakers %}
+                {% include speaker-div.html %}
+                {% endfor %}
+            </div>
         </div>
         <h2>Additional Speakers</h2>
         <div class="col-lg-10 col-lg-offset-1 appear-animation-trigger">
