@@ -77,14 +77,14 @@
   bio: "Ione T. Damasco, M.L.I.S., is a Professor and Director of Information Acquisition & Organization at the University of Dayton, where she provides leadership, guidance, and support for technical services work in the University Libraries. She is also the Chair of the University Libraries Diversity & Inclusion Team, which serves as a resource around diversity, equity, and inclusion endeavors across all areas and for every unit of the Libraries. Along with several faculty and staff from around campus, she is part of the Dialogue Zone Steering Committee, which is dedicated to programming and other initiatives around different forms of dialogue that take place in a new library space called the <a href='https://udayton.edu/libraries/dialoguezone/index.php' target='_blank'>Dialogue Zone</a>. Her most recent research has centered on race and diversity issues in librarianship, and potential uses of intergroup dialogue as a form of experiential learning focused on social justice outcomes in libraries. Learn more about her <a href='https://works.bepress.com/ione_damasco/about/' target='_blank'>work and research</a>."
   thumbnailUrl: ione_damasco.png
   rockstar: true
-  
+
 - id: 6
   name: 'Kristen'
   surname: 'Adams'
   pronouns: 'she/her/hers'
   company: 'Miami University'
   title: 'Science and Engineering Librarian'
-  bio: "Kristen Adams is the science and engineering librarian in the Advise and Instruct department at the Miami University Libraries. Adams has served at Miami since 2019 and worked previously at a public library. Her research interests are historical data rescue and collection development strategies."
+  bio: 'Kristen Adams is the science and engineering librarian in the Advise and Instruct department at the Miami University Libraries. Adams has served at Miami since 2019 and worked previously at a public library. Her research interests are historical data rescue and collection development strategies.'
   thumbnailUrl: kristen_adams.jpg
   rockstar: false
 
@@ -94,7 +94,7 @@
   pronouns: 'she/her/hers'
   company: 'Ohio Northern University'
   title: 'Director'
-  bio: "Kathleen Baril is the Director of Heterick Memorial Library at Ohio Northern University.  She has a M.A. in Library Information Science from University of Iowa, a M.A. in Elementary Education from Teachers College, Columbia University and a B.A. in English/French from Grinnell College."
+  bio: 'Kathleen Baril is the Director of Heterick Memorial Library at Ohio Northern University.  She has a M.A. in Library Information Science from University of Iowa, a M.A. in Elementary Education from Teachers College, Columbia University and a B.A. in English/French from Grinnell College.'
   thumbnailUrl: no_image.png
   rockstar: false
 
@@ -104,7 +104,7 @@
   pronouns: 'she/her/hers'
   company: 'Bowling Green State University'
   title: 'Reference and Instruction Librarian'
-  bio: "Maureen Barry joined Bowling Green State University as Reference and Instruction Librarian in Spring 2019. She is the subject librarian for Criminal Justice, Gerontology, History, and Social Work. Her research interests include first-year students’ transition to college and the intersections of service-learning and information literacy. Prior to arriving at BGSU, Maureen was Student Success Librarian at Wright State University for 14 years."
+  bio: 'Maureen Barry joined Bowling Green State University as Reference and Instruction Librarian in Spring 2019. She is the subject librarian for Criminal Justice, Gerontology, History, and Social Work. Her research interests include first-year students’ transition to college and the intersections of service-learning and information literacy. Prior to arriving at BGSU, Maureen was Student Success Librarian at Wright State University for 14 years.'
   thumbnailUrl: no_image.png
   rockstar: false
 
@@ -124,7 +124,7 @@
   pronouns: 'he/him/his'
   company: 'Miami University'
   title: 'Computing and Engineering Librarian'
-  bio: "Matt Benzing is the Computing and Engineering librarian at Miami University."
+  bio: 'Matt Benzing is the Computing and Engineering librarian at Miami University.'
   thumbnailUrl: no_image.png
   rockstar: false
 
@@ -134,7 +134,7 @@
   pronouns: 'she/her/hers'
   company: 'Wayne State University'
   title: 'Student Success Librarian'
-  bio: "Veronica Bielat is the Student Success Librarian and English Subject Specialist in Wayne State University’s Library System. She strives to connect with students so they can forge independent critical paths through our complex information ecosystem. She has presented and published on her passionate pursuits of course integrated information literacy instruction, integrating technology into teaching and instructional design and faculty/librarian collaboration. When she’s not doing that, she likes to spend quality time in her garden, and sharing what’s happening on @vbielat"
+  bio: 'Veronica Bielat is the Student Success Librarian and English Subject Specialist in Wayne State University’s Library System. She strives to connect with students so they can forge independent critical paths through our complex information ecosystem. She has presented and published on her passionate pursuits of course integrated information literacy instruction, integrating technology into teaching and instructional design and faculty/librarian collaboration. When she’s not doing that, she likes to spend quality time in her garden, and sharing what’s happening on @vbielat'
   thumbnailUrl: no_image.png
   rockstar: false
 
@@ -144,7 +144,7 @@
   pronouns: 'she/her/hers'
   company: 'Miami University'
   title: 'Science Librarian'
-  bio: "Ginny Boehme is a science librarian in the Advise & Instruct department at Miami University Libraries, with liaison responsibilities for several departments in the life sciences. Her primary responsibilities are instruction and reference, and her passion lies in helping her students ultimately become informed, engaged, and active citizens."
+  bio: 'Ginny Boehme is a science librarian in the Advise & Instruct department at Miami University Libraries, with liaison responsibilities for several departments in the life sciences. Her primary responsibilities are instruction and reference, and her passion lies in helping her students ultimately become informed, engaged, and active citizens.'
   thumbnailUrl: ginny_boehme.jpg
   rockstar: false
 
@@ -154,7 +154,7 @@
   pronouns: 'she/her/hers'
   company: 'Bowling Green State University'
   title: 'Head of Curriculum Resource Center'
-  bio: "Dr. Colleen Boff is the Head of the Curriculum Resource Center at Bowling Green State University."
+  bio: 'Dr. Colleen Boff is the Head of the Curriculum Resource Center at Bowling Green State University.'
   thumbnailUrl: no_image.png
   rockstar: false
 
@@ -164,7 +164,7 @@
   pronouns: 'he/him/his'
   company: 'Miami University'
   title: 'Technology Development Manager'
-  bio: "Mike Bomholt is a Technology Development Manager. He specializes in Endpoint device and software management."
+  bio: 'Mike Bomholt is a Technology Development Manager. He specializes in Endpoint device and software management.'
   thumbnailUrl: no_image.png
   rockstar: false
 
@@ -174,7 +174,7 @@
   pronouns: 'she/her/hers'
   company: 'Bowling Green State University'
   title: 'Reference Archivist'
-  bio: "Sara Butler-Tongate is the Reference Archivist for the Center for Archival Collections at Bowling Green State University. Her research interests include genealogy, folk narrative, and teaching with primary sources. Before joining the BGSU Library staff in December of 2019, she served as the Library Director at the National Watch and Clock Museum in Columbia, Pennsylvania."
+  bio: 'Sara Butler-Tongate is the Reference Archivist for the Center for Archival Collections at Bowling Green State University. Her research interests include genealogy, folk narrative, and teaching with primary sources. Before joining the BGSU Library staff in December of 2019, she served as the Library Director at the National Watch and Clock Museum in Columbia, Pennsylvania.'
   thumbnailUrl: no_image.png
   rockstar: false
 
@@ -184,7 +184,7 @@
   pronouns: 'she/her/hers'
   company: 'Miami University'
   title: 'Acquisitions and Access Librarian'
-  bio: "Cara Calabrese is the Acquisitions & Access Librarian at Miami University Libraries. She received her MLIS from Florida State University in 2015 and began her librarian career as a Resident Librarian in Technical Services. She has worked in various areas of Technical Services, but has recently focused on acquisitions and electronic resources. She is a Past Co-chair of ALAO’s TEDSIG and currently serves on ALCTS Budget and Finance Committee and as the Programs & Proposals’ Team leader for ACRL’s Residency Interest Group."
+  bio: 'Cara Calabrese is the Acquisitions & Access Librarian at Miami University Libraries. She received her MLIS from Florida State University in 2015 and began her librarian career as a Resident Librarian in Technical Services. She has worked in various areas of Technical Services, but has recently focused on acquisitions and electronic resources. She is a Past Co-chair of ALAO’s TEDSIG and currently serves on ALCTS Budget and Finance Committee and as the Programs & Proposals’ Team leader for ACRL’s Residency Interest Group.'
   thumbnailUrl: no_image.png
   rockstar: false
 
@@ -194,7 +194,7 @@
   pronouns: 'she/her/hers'
   company: 'University of South Florida St. Petersburg'
   title: 'Regional Associate Vice Chancellor of Academic Affairs and Dean of the Nelson Poynter Memorial Library'
-  bio: "Catherine Cardwell is the Regional Associate Vice Chancellor of Academic Affairs and Dean of the Nelson Poynter Memorial Library at the University of South Florida Saint Petersburg (USFSP). She provides leadership for the library, online learning, instructional technology services, and the Center for Innovative Teaching and Learning. A librarian for more than twenty years, Cardwell has served in various leadership positions for twenty-one of those years from library instruction coordinator to library dean. Her research interests include library leadership, integrating information literacy and digital scholarship into the curriculum, creating dynamic and contemporary user-centered teaching and learning spaces, and improving discovery and usability of library resources and services."
+  bio: 'Catherine Cardwell is the Regional Associate Vice Chancellor of Academic Affairs and Dean of the Nelson Poynter Memorial Library at the University of South Florida Saint Petersburg (USFSP). She provides leadership for the library, online learning, instructional technology services, and the Center for Innovative Teaching and Learning. A librarian for more than twenty years, Cardwell has served in various leadership positions for twenty-one of those years from library instruction coordinator to library dean. Her research interests include library leadership, integrating information literacy and digital scholarship into the curriculum, creating dynamic and contemporary user-centered teaching and learning spaces, and improving discovery and usability of library resources and services.'
   thumbnailUrl: no_image.png
   rockstar: false
 
@@ -204,7 +204,7 @@
   pronouns: 'she/her/hers'
   company: 'University of Cincinnati Clermont College'
   title: 'Library Director'
-  bio: "Catie Carlson is the Library Director at the University of Cincinnati Clermont College. She previously worked at Tiffin University as the Library Director during their general education curriculum revision. She holds a an MLIS, MEd, and is currently enrolled in a doctoral program for Adult Learning & Leadership."
+  bio: 'Catie Carlson is the Library Director at the University of Cincinnati Clermont College. She previously worked at Tiffin University as the Library Director during their general education curriculum revision. She holds a an MLIS, MEd, and is currently enrolled in a doctoral program for Adult Learning & Leadership.'
   thumbnailUrl: no_image.png
   rockstar: false
 
@@ -214,7 +214,7 @@
   pronouns: 'she/her/hers'
   company: 'Miami University'
   title: 'Manager of Innovative Spaces'
-  bio: "Lori Chapin is currently serving as the Manager of Innovative Spaces, she supports the University Libraries’ classrooms. Lori has a strong interest in experiential learning and her research interests include maker literacies and user experience."
+  bio: 'Lori Chapin is currently serving as the Manager of Innovative Spaces, she supports the University Libraries’ classrooms. Lori has a strong interest in experiential learning and her research interests include maker literacies and user experience.'
   thumbnailUrl: no_image.png
   rockstar: false
 
@@ -224,7 +224,7 @@
   pronouns: 'she/her/hers'
   company: 'Otterbein University'
   title: 'Assessment and Special Projects Librarian and Associate Professor'
-  bio: "Kristin Cole (she/her/hers) is the Assessment and Special Projects Librarian, Associate Professor at Otterbein University. She oversees the library’s assessment projects and provides academic support to faculty and students in education and the sciences. Her research interests include assessment of public services and instructional design for online learning. She has an MLIS and an M.Ed in Instructional Technology, both from Kent State University."
+  bio: 'Kristin Cole (she/her/hers) is the Assessment and Special Projects Librarian, Associate Professor at Otterbein University. She oversees the library’s assessment projects and provides academic support to faculty and students in education and the sciences. Her research interests include assessment of public services and instructional design for online learning. She has an MLIS and an M.Ed in Instructional Technology, both from Kent State University.'
   thumbnailUrl: kristin_cole.jpg
   rockstar: false
 
@@ -234,7 +234,7 @@
   pronouns: 'she/her/hers'
   company: 'Otterbein University'
   title: 'Public Services Librarian and Associate Professor'
-  bio: "Jess Crossfield McIntosh (she/her/hers) is the Public Services Librarian, Associate Professor at Otterbein University. Jess manages outreach, marketing, and public services for the library, and provides academic support to students and faculty. Her research interests include the library’s role in the community and equity in public services."
+  bio: 'Jess Crossfield McIntosh (she/her/hers) is the Public Services Librarian, Associate Professor at Otterbein University. Jess manages outreach, marketing, and public services for the library, and provides academic support to students and faculty. Her research interests include the library’s role in the community and equity in public services.'
   thumbnailUrl: jessica_crossfieldmcintosh.jpg
   rockstar: false
 
@@ -244,7 +244,7 @@
   pronouns: 'he/him/his'
   company: 'Miami University'
   title: 'Humanities and Social Sciences Librarian'
-  bio: "Mark Dahlquist (Miami University) is a Humanities and Social Sciences Librarian. His research interests include digital humanities, information creativity and literacy, and early modern literary studies."
+  bio: 'Mark Dahlquist (Miami University) is a Humanities and Social Sciences Librarian. His research interests include digital humanities, information creativity and literacy, and early modern literary studies.'
   thumbnailUrl: no_image.png
   rockstar: false
 
@@ -264,7 +264,7 @@
   pronouns: 'he/him/his'
   company: 'Ohio Northern University'
   title: 'Systems and Technology Librarian'
-  bio: "Chris Deems is the Systems and Technology Librarian at Ohio Northern University and currently serves as the newest TEDSIG Co-Chair. He graduated from The Ohio State University in 2015 with a BA in History, and from the University of Texas at Austin with an MSIS in 2017."
+  bio: 'Chris Deems is the Systems and Technology Librarian at Ohio Northern University and currently serves as the newest TEDSIG Co-Chair. He graduated from The Ohio State University in 2015 with a BA in History, and from the University of Texas at Austin with an MSIS in 2017.'
   thumbnailUrl: christopher_deems.jpg
   rockstar: false
 
@@ -274,7 +274,7 @@
   pronouns: 'he/him/his'
   company: 'Bryant & Stratton College'
   title: 'Campus Librarian'
-  bio: "Joseph Dudley serves as campus librarian at the Bryant & Stratton College Cleveland and Solon campuses.  He performs public and technical services at each campus, is a co-administrator of the College’s LibGuides and SirsiDynix Enterprise implementations, and coordinates BSC’s participation in the LibAnswers virtual reference service.  His research interests include library metadata implementation and uses, library web site design, and computer applications in libraries."
+  bio: 'Joseph Dudley serves as campus librarian at the Bryant & Stratton College Cleveland and Solon campuses.  He performs public and technical services at each campus, is a co-administrator of the College’s LibGuides and SirsiDynix Enterprise implementations, and coordinates BSC’s participation in the LibAnswers virtual reference service.  His research interests include library metadata implementation and uses, library web site design, and computer applications in libraries.'
   thumbnailUrl: no_image.png
   rockstar: false
 
@@ -284,7 +284,7 @@
   pronouns: 'he/him/his'
   company: 'Case Western Reserve University'
   title: 'Research Services Librarian'
-  bio: "Mark Eddy is a Research Services Librarian liaison to social sciences and humanities departments at Case Western Reserve University.  He has training in the humanities and library science and is professionally active with ALAO and ACRL.   His research interests include, instruction, OER, outreach, social sciences research support, and assessment."
+  bio: 'Mark Eddy is a Research Services Librarian liaison to social sciences and humanities departments at Case Western Reserve University.  He has training in the humanities and library science and is professionally active with ALAO and ACRL.   His research interests include, instruction, OER, outreach, social sciences research support, and assessment.'
   thumbnailUrl: mark_eddy.jpg
   rockstar: false
 
@@ -294,7 +294,7 @@
   pronouns: 'she/her/hers'
   company: 'Tiffin University'
   title: 'Library Director'
-  bio: "Luann Edwards is the current Library Director at Tiffin University, having worked previously as the Online Services Librarian. She is involved in the ongoing general education efforts, including the delivery of an information-literacy focused course developed during the curriculum revision. She holds a MLIS and MA in English."
+  bio: 'Luann Edwards is the current Library Director at Tiffin University, having worked previously as the Online Services Librarian. She is involved in the ongoing general education efforts, including the delivery of an information-literacy focused course developed during the curriculum revision. She holds a MLIS and MA in English.'
   thumbnailUrl: no_image.png
   rockstar: false
 
@@ -304,7 +304,7 @@
   pronouns: 'she/her/hers'
   company: 'The Ohio State University'
   title: 'Latin American Studies Librarian and Assistant Professor'
-  bio: "Pamela Espinosa de los Monteros is an Assistant Professor and Latin American Area Studies Librarian at The Ohio State University (OSU). As a bilingual/bicultural information professional, she has supported international research initiatives, developed award-winning educational curriculum, and served as senior project manager in corporate, private, and higher education settings. Espinosa de los Monteros is the recipient of a Fulbright Garcia Robles Binational Business Fellowship, University Libraries’ Teaching Award, and Ohio State’s Distinguished Diversity Enhancement Award. Her most current project is as a co-principal investigator for the K’acha Willaykuna Andean and Amazonian Indigenous Arts and Humanities Collaborative."
+  bio: 'Pamela Espinosa de los Monteros is an Assistant Professor and Latin American Area Studies Librarian at The Ohio State University (OSU). As a bilingual/bicultural information professional, she has supported international research initiatives, developed award-winning educational curriculum, and served as senior project manager in corporate, private, and higher education settings. Espinosa de los Monteros is the recipient of a Fulbright Garcia Robles Binational Business Fellowship, University Libraries’ Teaching Award, and Ohio State’s Distinguished Diversity Enhancement Award. Her most current project is as a co-principal investigator for the K’acha Willaykuna Andean and Amazonian Indigenous Arts and Humanities Collaborative.'
   thumbnailUrl: pamela_espinosadelosmonteros.png
   rockstar: false
 
@@ -314,7 +314,7 @@
   pronouns: 'she/her/hers'
   company: 'The Ohio State University'
   title: 'Business Librarian'
-  bio: "Ash E. Faulkner is the Business Librarian at The Ohio State University Library.  She graduated from Kent State University with her MBA as well as her MLIS and her professional work, and research interests, have focused on the intersection of the business and librarianship fields.  Her research has focused specifically on library services and resources for entrepreneurs and on financial literacy, both in academic and public library contexts."
+  bio: 'Ash E. Faulkner is the Business Librarian at The Ohio State University Library.  She graduated from Kent State University with her MBA as well as her MLIS and her professional work, and research interests, have focused on the intersection of the business and librarianship fields.  Her research has focused specifically on library services and resources for entrepreneurs and on financial literacy, both in academic and public library contexts.'
   thumbnailUrl: ashley_faulkner.jpg
   rockstar: false
 
@@ -324,7 +324,7 @@
   pronouns: 'he/him/his'
   company: 'Ohio Northern University'
   title: 'Archivist'
-  bio: "Matt is the Archivist at Ohio Northern University, and has been a practicing archivist since 2008. He has a M.A. in public history from Wright State University and a B.A. in history from Bluffton University."
+  bio: 'Matt is the Archivist at Ohio Northern University, and has been a practicing archivist since 2008. He has a M.A. in public history from Wright State University and a B.A. in history from Bluffton University.'
   thumbnailUrl: matt_francis.jpg
   rockstar: false
 
@@ -334,7 +334,7 @@
   pronouns: 'she/her/hers'
   company: 'University of Cincinnati'
   title: 'Online Learning and Instruction Librarian'
-  bio: "Madeleine Gaiser is the Online Learning and Instruction Librarian for the College of Education, Criminal Justice, and Human Services (CECH) Library at the University of Cincinnati. She graduated from Indiana University-Bloomington with her Masters in Library Science in May 2020. Her interests are instruction, virtual reference, and online accessibility."
+  bio: 'Madeleine Gaiser is the Online Learning and Instruction Librarian for the College of Education, Criminal Justice, and Human Services (CECH) Library at the University of Cincinnati. She graduated from Indiana University-Bloomington with her Masters in Library Science in May 2020. Her interests are instruction, virtual reference, and online accessibility.'
   thumbnailUrl: no_image.png
   rockstar: false
 
@@ -344,7 +344,7 @@
   pronouns: 'she/her/hers'
   company: 'University of Dayton'
   title: 'Professor and Coordinator of Research & Instruction'
-  bio: "Heidi Gauder is professor and coordinator of research & instruction at University of Dayton. She chairs the Instruction and Research Teams of Roesch Library, coordinating and scheduling the work of the team members.  She is the subject liaison to the History and Political Science Departments, and coordinates Porch Reads, a leisure reading program for undergraduates."
+  bio: 'Heidi Gauder is professor and coordinator of research & instruction at University of Dayton. She chairs the Instruction and Research Teams of Roesch Library, coordinating and scheduling the work of the team members.  She is the subject liaison to the History and Political Science Departments, and coordinates Porch Reads, a leisure reading program for undergraduates.'
   thumbnailUrl: no_image.png
   rockstar: false
 
@@ -354,7 +354,7 @@
   pronouns: 'she/her/hers'
   company: 'Miami Univeristy'
   title: 'Humanities Librarian'
-  bio: "Katie Gibson is a Humanities Librarian at Miami University Libraries. She received her MLS from Indiana University in 2006. Research interests include library services to diverse student populations (including international and first generation students), information literacy instruction, and digital humanities. She is active in the European Studies Section of the Association of College and Research Libraries."
+  bio: 'Katie Gibson is a Humanities Librarian at Miami University Libraries. She received her MLS from Indiana University in 2006. Research interests include library services to diverse student populations (including international and first generation students), information literacy instruction, and digital humanities. She is active in the European Studies Section of the Association of College and Research Libraries.'
   thumbnailUrl: no_image.png
   rockstar: false
 
@@ -364,7 +364,7 @@
   pronouns: 'she/her/hers'
   company: 'The Ohio State University'
   title: 'Teaching and Learning Engagement Librarian and Assistant Professor'
-  bio: "Jane Hammons is the Teaching and Learning Engagement Librarian and an assistant professor at The Ohio State University. As part of the Teaching and Learning department within the University Libraries, her role is to provide programming and resources to support instructor development within the Libraries and across the University."
+  bio: 'Jane Hammons is the Teaching and Learning Engagement Librarian and an assistant professor at The Ohio State University. As part of the Teaching and Learning department within the University Libraries, her role is to provide programming and resources to support instructor development within the Libraries and across the University.'
   thumbnailUrl: no_image.png
   rockstar: false
 
@@ -374,7 +374,7 @@
   pronouns: 'they/them/their'
   company: 'University of Dayton'
   title: 'Collections Librarian'
-  bio: "The presenter is a collections librarian stewarding a special collection in an academic library in Ohio, where they consider equity, diversity, and inclusion in collection development, collection management, instruction, and reference. They also face questions about how to deal with library users and collection materials that oppose their queer and trans identity due to the collection’s institutional milieu."
+  bio: 'The presenter is a collections librarian stewarding a special collection in an academic library in Ohio, where they consider equity, diversity, and inclusion in collection development, collection management, instruction, and reference. They also face questions about how to deal with library users and collection materials that oppose their queer and trans identity due to the collection’s institutional milieu.'
   thumbnailUrl: no_image.png
   rockstar: false
 
@@ -384,7 +384,7 @@
   pronouns: 'she/her/hers'
   company: 'The Ohio State University'
   title: 'African American and African Studies Librarian, Comparative Studies Librarian, and Interim Anthropology Librarian'
-  bio: "Leta Hendricks is the African American and African Studies Librarian, the Comparative Studies Librarian, and the Interim Anthropology Librarian at The Ohio State University. She serves as Affiliated Faculty in African American and African Studies and Affiliated Faculty in French and Francophone Studies. She provides general and specialized research services; library and information literacy instruction courses; conducts specialized instruction and; develops and manages subject collections. As a 21st century Librarian she utilizes technology to create, store, teach, and disseminate knowledge. Research interests include French Rap Music, Gaming and Teaching, Hip Hop Culture, and Robert Johnson."
+  bio: 'Leta Hendricks is the African American and African Studies Librarian, the Comparative Studies Librarian, and the Interim Anthropology Librarian at The Ohio State University. She serves as Affiliated Faculty in African American and African Studies and Affiliated Faculty in French and Francophone Studies. She provides general and specialized research services; library and information literacy instruction courses; conducts specialized instruction and; develops and manages subject collections. As a 21st century Librarian she utilizes technology to create, store, teach, and disseminate knowledge. Research interests include French Rap Music, Gaming and Teaching, Hip Hop Culture, and Robert Johnson.'
   thumbnailUrl: no_image.png
   rockstar: false
 
@@ -394,7 +394,7 @@
   pronouns: 'she/her/hers'
   company: 'Miami University'
   title: 'Arts and Humanities Librarian'
-  bio: "Stefanie Hilles is the Arts and Humanities Librarian at Wertz Art and Architecture Library at Miami University, where she liaisons to the art, architecture, and theater departments, manages their collections, and instructs information literacy sessions. Stefanie holds a M.A. in Art History from Case Western Reserve University and a M.L.I.S from Kent State University. She is also the Chapter Liaison Officer on the Art Librarians Society of North America’s (ARLIS/NA) Executive Board, where she’s responsible for representing and coordinating with regional ARLIS/NA chapters."
+  bio: 'Stefanie Hilles is the Arts and Humanities Librarian at Wertz Art and Architecture Library at Miami University, where she liaisons to the art, architecture, and theater departments, manages their collections, and instructs information literacy sessions. Stefanie holds a M.A. in Art History from Case Western Reserve University and a M.L.I.S from Kent State University. She is also the Chapter Liaison Officer on the Art Librarians Society of North America’s (ARLIS/NA) Executive Board, where she’s responsible for representing and coordinating with regional ARLIS/NA chapters.'
   thumbnailUrl: no_image.png
   rockstar: false
 
@@ -404,7 +404,7 @@
   pronouns: 'she/her/hers'
   company: 'Denison University'
   title: 'Electronic Resources and Scholarly Communication Librarian'
-  bio: "Yuimi Hlasten holds a Master of Library and Information Science from the University of Pittsburgh. She received her Bachelor of Arts degree from Okayama University, Japan. Her interests include educational technology, services to international students, e-resources, and institutional repositories. She loves coffee, chewing gum, and all small sized vertebrates that come with legs."
+  bio: 'Yuimi Hlasten holds a Master of Library and Information Science from the University of Pittsburgh. She received her Bachelor of Arts degree from Okayama University, Japan. Her interests include educational technology, services to international students, e-resources, and institutional repositories. She loves coffee, chewing gum, and all small sized vertebrates that come with legs.'
   thumbnailUrl: no_image.png
   rockstar: false
 
@@ -414,7 +414,7 @@
   pronouns: 'she/her/hers'
   company: 'Miami University'
   title: 'Preservation Librarian'
-  bio: "Kim Hoffman is the Preservation Librarian at Miami University in Oxford, Ohio, where she is responsible for maintaining both the circulating and special collections as well as the digital preservation program. She received her MS in Library and Information Science and her MA in Museum Studies in 2019 from Syracuse University in New York, where she also earned a Certificate of Advanced Studies in Cultural Heritage Preservation. At Syracuse University, she worked as a preservation assistant from 2016 to 2019. Before turning to library work, Kim was a technical writer for various software products."
+  bio: 'Kim Hoffman is the Preservation Librarian at Miami University in Oxford, Ohio, where she is responsible for maintaining both the circulating and special collections as well as the digital preservation program. She received her MS in Library and Information Science and her MA in Museum Studies in 2019 from Syracuse University in New York, where she also earned a Certificate of Advanced Studies in Cultural Heritage Preservation. At Syracuse University, she worked as a preservation assistant from 2016 to 2019. Before turning to library work, Kim was a technical writer for various software products.'
   thumbnailUrl: no_image.png
   rockstar: false
 
@@ -424,7 +424,7 @@
   pronouns: 'she/her/hers'
   company: 'Tennessee Tech University'
   title: 'Coordinator of Public Services'
-  bio: "Sharon Holderman is the Coordinator of Public Services at Tennessee Tech University, which includes reference, instruction, tutoring, testing, circulation, collection development, and marketing. Previously she worked as a library director at a small branch campus, and prior to her library life, she was an academic advisor. She has an MA in journalism and an MLIS from Kent State University and an MS in leadership from Creighton University."
+  bio: 'Sharon Holderman is the Coordinator of Public Services at Tennessee Tech University, which includes reference, instruction, tutoring, testing, circulation, collection development, and marketing. Previously she worked as a library director at a small branch campus, and prior to her library life, she was an academic advisor. She has an MA in journalism and an MLIS from Kent State University and an MS in leadership from Creighton University.'
   thumbnailUrl: no_image.png
   rockstar: false
 
@@ -434,7 +434,7 @@
   pronouns: 'he/him/his'
   company: 'Miami University'
   title: 'Web Services Librarian'
-  bio: "Ken Irwin is a Web Services Librarian at Miami University. He is interested in developing open-source solutions to solve challenging library issues and to make the most of our resources."
+  bio: 'Ken Irwin is a Web Services Librarian at Miami University. He is interested in developing open-source solutions to solve challenging library issues and to make the most of our resources.'
   thumbnailUrl: ken_irwin.jpg
   rockstar: false
 
@@ -444,7 +444,7 @@
   pronouns: 'she/her/hers'
   company: 'University of Toledo'
   title: 'Undergraduate Engagement Librarian and Assistant Professor'
-  bio: "Jennifer Joe is an Assistant Professor and Undergraduate Engagement Librarian at the University of Toledo. Previously, she worked at Western Kentucky University as the Owensboro Campus Librarian. Her degrees are from Indiana University (Master of Library Science, 2010) and Western Kentucky University (Master of Arts in Sociology, 2011) and her research interests include emotional labor in librarianship, information literacy, and social media."
+  bio: 'Jennifer Joe is an Assistant Professor and Undergraduate Engagement Librarian at the University of Toledo. Previously, she worked at Western Kentucky University as the Owensboro Campus Librarian. Her degrees are from Indiana University (Master of Library Science, 2010) and Western Kentucky University (Master of Arts in Sociology, 2011) and her research interests include emotional labor in librarianship, information literacy, and social media.'
   thumbnailUrl: jennifer_joe.jpg
   rockstar: false
 
@@ -464,7 +464,7 @@
   pronouns: 'she/her/hers'
   company: 'University of Dayton'
   title: 'Coordinator of Marketing and Engagement and Associate Professor'
-  bio: "Katy Kelly is associate professor and coordinator of marketing and engagement at University of Dayton Libraries. She promotes library services and resources by planning, developing, and assessing programs, activities, and publications for the university community. She also provides reference support, participates in library instruction and serves as liaison to the Department of Communication."
+  bio: 'Katy Kelly is associate professor and coordinator of marketing and engagement at University of Dayton Libraries. She promotes library services and resources by planning, developing, and assessing programs, activities, and publications for the university community. She also provides reference support, participates in library instruction and serves as liaison to the Department of Communication.'
   thumbnailUrl: katy_kelly.jpg
   rockstar: false
 
@@ -484,7 +484,7 @@
   pronouns: 'she/her/hers'
   company: 'Miami University'
   title: 'Special Collections Librarian'
-  bio: "Rachel Makarowski is the Special Collections Librarian at Miami University. She graduated from IU Bloomington with an MLS, specializing in Rare Book and Manuscript Librarianship, and worked at the Lilly Library in Public Services during her time there. She earned her BA in Classics and Medieval Studies from the University of Virginia, during which time she worked at Rare Book School. While she loves all parts of special collections, she is most interested in researching and discussing instruction with primary sources."
+  bio: 'Rachel Makarowski is the Special Collections Librarian at Miami University. She graduated from IU Bloomington with an MLS, specializing in Rare Book and Manuscript Librarianship, and worked at the Lilly Library in Public Services during her time there. She earned her BA in Classics and Medieval Studies from the University of Virginia, during which time she worked at Rare Book School. While she loves all parts of special collections, she is most interested in researching and discussing instruction with primary sources.'
   thumbnailUrl: no_image.png
   rockstar: false
 
@@ -494,7 +494,7 @@
   pronouns: 'she/her/hers'
   company: 'Lakeland Community College'
   title: 'Librarian and Assistant Professor'
-  bio: "Megan Mamolen is a Librarian and Assistant Professor at Lakeland Community College. She has worked in academic libraries for 5 years and is interested in how programming and mindfulness activities influence library anxiety. Megan has practiced meditation for nearly a decade and has helped develop and coordinate community meditation groups. She now provides guided meditation sessions for Lakeland students, faculty, and staff."
+  bio: 'Megan Mamolen is a Librarian and Assistant Professor at Lakeland Community College. She has worked in academic libraries for 5 years and is interested in how programming and mindfulness activities influence library anxiety. Megan has practiced meditation for nearly a decade and has helped develop and coordinate community meditation groups. She now provides guided meditation sessions for Lakeland students, faculty, and staff.'
   thumbnailUrl: megan_mamolen.jpg
   rockstar: false
 
@@ -504,7 +504,7 @@
   pronouns: 'he/him/his'
   company: 'Miami University'
   title: 'Head of Advise and Instruct'
-  bio: "Kevin Messner is the Head of Advise & Instruct at Miami University Libraries.  He received an MS in Library and Information Sciences and PhD in Microbiology from the University of Illinois in 2002.  He previously worked as a science librarian and a branch libraries manager at Miami and at the University of Minnesota."
+  bio: 'Kevin Messner is the Head of Advise & Instruct at Miami University Libraries.  He received an MS in Library and Information Sciences and PhD in Microbiology from the University of Illinois in 2002.  He previously worked as a science librarian and a branch libraries manager at Miami and at the University of Minnesota.'
   thumbnailUrl: kevin_messner.jpg
   rockstar: false
 
@@ -514,7 +514,7 @@
   pronouns: 'she/her/hers'
   company: 'Cleveland State University'
   title: 'Head of Collections and Digital Initiatives'
-  bio: "Marsha Miles is Head of Collections and Digital Initiatives at Cleveland State University. She holds a Master in Library and Information Science degree from Kent State University. She oversees the Collections and Resource Management unit of the Michael Schwartz Library which includes acquisitions, cataloging, collection management, digital initiatives, donations, electronic resources, government documents, knowledge-bases, serials, systems and the Department of Special Collections. Marsha’s research interests include digital libraries, metadata, and scholarly communication."
+  bio: 'Marsha Miles is Head of Collections and Digital Initiatives at Cleveland State University. She holds a Master in Library and Information Science degree from Kent State University. She oversees the Collections and Resource Management unit of the Michael Schwartz Library which includes acquisitions, cataloging, collection management, digital initiatives, donations, electronic resources, government documents, knowledge-bases, serials, systems and the Department of Special Collections. Marsha’s research interests include digital libraries, metadata, and scholarly communication.'
   thumbnailUrl: marsha_miles.jpg
   rockstar: false
 
@@ -524,7 +524,7 @@
   pronouns: 'she/her/hers'
   company: 'University of Toledo'
   title: 'Director of the Mulford Health Science Library and Assistant Professor of Library Administration'
-  bio: "Jolene Miller is Director of the Mulford Health Science Library and an Assistant Professor of Library Administration at the University of Toledo. The complex realities of library administration forced her to look for new ways to manage her workload and develop the knowledge and skills needed for success. Reflective practice was a natural extension of her life-long experience keeping a personal journal. It provided the time and space needed to develop as an administrator. She is interested in how health science librarians use reflective practice and how they can learn to apply reflective practice in their positions. "
+  bio: 'Jolene Miller is Director of the Mulford Health Science Library and an Assistant Professor of Library Administration at the University of Toledo. The complex realities of library administration forced her to look for new ways to manage her workload and develop the knowledge and skills needed for success. Reflective practice was a natural extension of her life-long experience keeping a personal journal. It provided the time and space needed to develop as an administrator. She is interested in how health science librarians use reflective practice and how they can learn to apply reflective practice in their positions. '
   thumbnailUrl: no_image.png
   rockstar: false
 
@@ -534,7 +534,7 @@
   pronouns: 'she/her/hers'
   company: 'Wittenberg University'
   title: 'Reference Librarian'
-  bio: "Alisa Mizikar is a Reference Librarian at Wittenberg University. She is interested in building community and making the library a welcoming place for everyone."
+  bio: 'Alisa Mizikar is a Reference Librarian at Wittenberg University. She is interested in building community and making the library a welcoming place for everyone.'
   thumbnailUrl: alisa_mizikar.jpg
   rockstar: false
 
@@ -544,7 +544,7 @@
   pronouns: 'she/her/hers'
   company: 'Miami University'
   title: 'Social Sciences Librarian'
-  bio: "Abi Morgan is a Social Sciences librarian at Miami University."
+  bio: 'Abi Morgan is a Social Sciences librarian at Miami University.'
   thumbnailUrl: no_image.png
   rockstar: false
 
@@ -554,7 +554,7 @@
   pronouns: 'he/him/his'
   company: 'Ohio Northern University'
   title:
-  bio: "Matthew Morgan is a senior undergraduate Psychology student with a minor in Statistics. He works part time at the Ohio Northern University Writing Center at Heterick Memorial Library."
+  bio: 'Matthew Morgan is a senior undergraduate Psychology student with a minor in Statistics. He works part time at the Ohio Northern University Writing Center at Heterick Memorial Library.'
   thumbnailUrl: no_image.png
   rockstar: false
 
@@ -564,7 +564,7 @@
   pronouns: 'she/her/hers'
   company: 'Miami University'
   title: 'Coordinator of Scholarly Communications and Assistant Professor'
-  bio: "Carla Myers serves as Assistant Professor and Coordinator of Scholarly Communications for the Miami University Libraries. Her professional presentations and publications focus on copyright and scholarly communications issues."
+  bio: 'Carla Myers serves as Assistant Professor and Coordinator of Scholarly Communications for the Miami University Libraries. Her professional presentations and publications focus on copyright and scholarly communications issues.'
   thumbnailUrl: no_image.png
   rockstar: false
 
@@ -574,7 +574,7 @@
   pronouns: 'she/her/hers'
   company: 'Miami University'
   title: 'Creation and Innovation Services Librarian'
-  bio: "As Creation and Innovation Services Librarian, Sarah Nagle supports maker learning and innovation topics. Her research interests include maker/creative spaces in academic libraries and maker-centered learning in higher education."
+  bio: 'As Creation and Innovation Services Librarian, Sarah Nagle supports maker learning and innovation topics. Her research interests include maker/creative spaces in academic libraries and maker-centered learning in higher education.'
   thumbnailUrl: no_image.png
   rockstar: false
 
@@ -584,7 +584,7 @@
   pronouns: 'she/her/hers'
   company: 'Miami University'
   title: 'Digital Scholarship Librarian'
-  bio: "Jody Perkins is a Digital Scholarship Librarian. Her research interests include Digital Libraries, Linked Open Data and Digital Humanities Pedagogy."
+  bio: 'Jody Perkins is a Digital Scholarship Librarian. Her research interests include Digital Libraries, Linked Open Data and Digital Humanities Pedagogy.'
   thumbnailUrl: no_image.png
   rockstar: false
 
@@ -594,7 +594,7 @@
   pronouns: 'she/her/hers'
   company: 'Wittenberg University'
   title: 'Reference Librarian'
-  bio: "Kristen Peters is a Reference Librarian at Wittenberg University. She is always on the lookout for new ways the library faculty and staff can form new connections that support lifelong learning."
+  bio: 'Kristen Peters is a Reference Librarian at Wittenberg University. She is always on the lookout for new ways the library faculty and staff can form new connections that support lifelong learning.'
   thumbnailUrl: kristen_peters.jpg
   rockstar: false
 
@@ -604,7 +604,7 @@
   pronouns: 'she/her/hers'
   company: 'The Ohio State University'
   title: 'Mary P. Key Diversity Resident Librarian with Area Studies'
-  bio: "Stephanie Porrata graduated with a an M.A in Latin American and Caribbean Studies and M.L.S in May of 2019 and is currently a Mary P. Key Diversity Resident Librarian for Area Studies at the Ohio State University. Stephanie is interested in exploring libraries as areas for activism and resistance, creating more meaningful diversity residency programs, and the role of area studies librarians supporting social justice work."
+  bio: 'Stephanie Porrata graduated with a an M.A in Latin American and Caribbean Studies and M.L.S in May of 2019 and is currently a Mary P. Key Diversity Resident Librarian for Area Studies at the Ohio State University. Stephanie is interested in exploring libraries as areas for activism and resistance, creating more meaningful diversity residency programs, and the role of area studies librarians supporting social justice work.'
   thumbnailUrl: no_image.png
   rockstar: false
 
@@ -614,7 +614,7 @@
   pronouns: 'she/her/hers'
   company: 'Ohio Northern University'
   title:
-  bio: "Carah Porter is a senior undergraduate psychology student at Ohio Northern University. She works part time at the Ohio Northern University Writing Center."
+  bio: 'Carah Porter is a senior undergraduate psychology student at Ohio Northern University. She works part time at the Ohio Northern University Writing Center.'
   thumbnailUrl: no_image.png
   rockstar: false
 
@@ -624,7 +624,7 @@
   pronouns: 'she/her/hers'
   company: 'Ohio Northern University'
   title: 'Writing Center Director and Associate Professor of Rhetoric and Composition'
-  bio: "Justine Post is the Writing Center Director and an Assistant Professor of Rhetoric and Composition at Ohio Northern University. She received a Ph.D. in English and Education from the University of Michigan."
+  bio: 'Justine Post is the Writing Center Director and an Assistant Professor of Rhetoric and Composition at Ohio Northern University. She received a Ph.D. in English and Education from the University of Michigan.'
   thumbnailUrl: no_image.png
   rockstar: false
 
@@ -634,7 +634,7 @@
   pronouns: 'she/her/hers'
   company: 'Franklin University'
   title: 'Access Services Manager'
-  bio: "Megan Powell (she/her/hers) is the Access Services Manager at Franklin University. She is responsible for planning and organizing all circulation functions, managing student workers, providing reference assistance, and overseeing all aspects of the Interlibrary Loan Department. She graduated from Otterbein University in May and plans on applying to an MLIS program later this year."
+  bio: 'Megan Powell (she/her/hers) is the Access Services Manager at Franklin University. She is responsible for planning and organizing all circulation functions, managing student workers, providing reference assistance, and overseeing all aspects of the Interlibrary Loan Department. She graduated from Otterbein University in May and plans on applying to an MLIS program later this year.'
   thumbnailUrl: megan_powell.jpg
   rockstar: false
 
@@ -654,7 +654,7 @@
   pronouns: 'she/her/hers'
   company: 'Bowling Green State University'
   title: 'Reference and Instruction Librarian'
-  bio: "Edith is a graduate of Wittenberg University (Sociology) and Kent State University (MLIS) and has been an academic librarian for 18 years. She has worked in several state university libraries and is currently a Reference & Instruction Librarian for the Sciences at Bowling Green State University. Her scholarly interests include hiring and recruitment practices for DEI in libraries and has presented at state and national conferences JCLC, IDEAL and ALAO Diversity Workshop."
+  bio: 'Edith is a graduate of Wittenberg University (Sociology) and Kent State University (MLIS) and has been an academic librarian for 18 years. She has worked in several state university libraries and is currently a Reference & Instruction Librarian for the Sciences at Bowling Green State University. Her scholarly interests include hiring and recruitment practices for DEI in libraries and has presented at state and national conferences JCLC, IDEAL and ALAO Diversity Workshop.'
   thumbnailUrl: edith_scarletto.jpg
   rockstar: false
 
@@ -664,7 +664,7 @@
   pronouns: 'she/her/hers'
   company: 'University of Dayton'
   title: 'E-scholarship and communications manager'
-  bio: "Maureen Schlangen manages the university’s open-access institutional repository and contributes to the Libraries’ marketing and communications efforts."
+  bio: 'Maureen Schlangen manages the university’s open-access institutional repository and contributes to the Libraries’ marketing and communications efforts.'
   thumbnailUrl: no_image.png
   rockstar: false
 
@@ -674,7 +674,7 @@
   pronouns: 'she/her/hers'
   company: 'The Ohio State University'
   title: 'Professor and Library Director'
-  bio: "Tina Schneider is a Professor with Ohio State University Libraries and the director of the Lima Campus Library."
+  bio: 'Tina Schneider is a Professor with Ohio State University Libraries and the director of the Lima Campus Library.'
   thumbnailUrl: tina_schneider.jpg
   rockstar: false
 
@@ -684,7 +684,7 @@
   pronouns: 'she/her/hers'
   company: 'Lakeland Community College'
   title: 'Circulation Services Coordinator'
-  bio: "Ragan Snead is the Circulation Services Coordinator at Lakeland Community College. She has been working in public and academic libraries for 11 years and is interested in engaging students through unique and intentional programming. Ragan is a member of the Lakeland Employee Wellness Committee which coordinates wellness and mindfulness activities across campus. Ragan regularly practices yoga and is pursuing a yoga teacher certification."
+  bio: 'Ragan Snead is the Circulation Services Coordinator at Lakeland Community College. She has been working in public and academic libraries for 11 years and is interested in engaging students through unique and intentional programming. Ragan is a member of the Lakeland Employee Wellness Committee which coordinates wellness and mindfulness activities across campus. Ragan regularly practices yoga and is pursuing a yoga teacher certification.'
   thumbnailUrl: ragan_snead.jpg
   rockstar: false
 
@@ -694,7 +694,7 @@
   pronouns: 'she/her/hers'
   company: 'Case Western University'
   title: 'Research Services Librarian liason to engineering departments'
-  bio: "Daniela Solomon is a Research Services Librarian liaison to engineering departments at Case Western Reserve University. She received her BS in Electrical Engineering from Romania, and holds an MLSI from the University of Arizona. Daniela is professionally active in the American Society for Engineering Education, Engineering Libraries Division, and ALAO. Her research interests include scholarly communications, technical standards, OER, instruction, and outreach."
+  bio: 'Daniela Solomon is a Research Services Librarian liaison to engineering departments at Case Western Reserve University. She received her BS in Electrical Engineering from Romania, and holds an MLSI from the University of Arizona. Daniela is professionally active in the American Society for Engineering Education, Engineering Libraries Division, and ALAO. Her research interests include scholarly communications, technical standards, OER, instruction, and outreach.'
   thumbnailUrl: no_image.png
   rockstar: false
 
@@ -704,7 +704,7 @@
   pronouns: 'she/her/hers'
   company: 'Ohio Northern University'
   title: 'Instruction and Access Services Librarian'
-  bio: "Bethany Spieth is the Instruction & Access Services Librarian at Heterick Memorial Library at Ohio Northern University. She has an M.L.I.S from the University of Illinois at Urbana-Champaign."
+  bio: 'Bethany Spieth is the Instruction & Access Services Librarian at Heterick Memorial Library at Ohio Northern University. She has an M.L.I.S from the University of Illinois at Urbana-Champaign.'
   thumbnailUrl: no_image.png
   rockstar: false
 
@@ -714,7 +714,7 @@
   pronouns: 'he/him/his'
   company: 'Wayne State University'
   title: 'Graduate Student Assistant'
-  bio: "Troy Walker is a Graduate Student Assistant in Wayne State University’s Library System and is about to enter the second semester of his MLIS in the School of Information Sciences. He also works as a Circulation Clerk at the Orion Township Public Library. He is passionate about literature, the pursuit of knowledge, and helping people and their communities. Over the course of his library career, he hopes to utilize his skills to promote lifelong learning, intellectual freedom, and social justice. In his free time, you’ll find him reading a novel or caring for his three unruly cats."
+  bio: 'Troy Walker is a Graduate Student Assistant in Wayne State University’s Library System and is about to enter the second semester of his MLIS in the School of Information Sciences. He also works as a Circulation Clerk at the Orion Township Public Library. He is passionate about literature, the pursuit of knowledge, and helping people and their communities. Over the course of his library career, he hopes to utilize his skills to promote lifelong learning, intellectual freedom, and social justice. In his free time, you’ll find him reading a novel or caring for his three unruly cats.'
   thumbnailUrl: no_image.png
   rockstar: false
 
@@ -724,7 +724,7 @@
   pronouns: 'he/him/his'
   company: 'The Ohio State University'
   title: 'Reference and Instruction Librarian'
-  bio: "Zach Walton is the Reference and Instruction Librarian at The Ohio State University at Lima."
+  bio: 'Zach Walton is the Reference and Instruction Librarian at The Ohio State University at Lima.'
   thumbnailUrl: zach_walton.jpg
   rockstar: false
 
@@ -734,7 +734,7 @@
   pronouns: 'he/him/his'
   company: 'University of Dayton'
   title: 'Health and Life Sciences Librarian and Assistant Professor'
-  bio: "Jason Wardell holds the role of Health & Life Sciences Librarian and Assistant Professor at University of Dayton. As the lead for instructional design on the library’s Instruction Team, Jason is responsible for developing and maintaining online learning content as well as training his colleagues on utilizing new instructional technologies both online and in the classroom. His research interests include learner-centered pedagogy; scholarly communications; diversity, equity & inclusion; and asynchronous instruction."
+  bio: 'Jason Wardell holds the role of Health & Life Sciences Librarian and Assistant Professor at University of Dayton. As the lead for instructional design on the library’s Instruction Team, Jason is responsible for developing and maintaining online learning content as well as training his colleagues on utilizing new instructional technologies both online and in the classroom. His research interests include learner-centered pedagogy; scholarly communications; diversity, equity & inclusion; and asynchronous instruction.'
   thumbnailUrl: no_image.png
   rockstar: false
 
@@ -744,7 +744,7 @@
   pronouns: 'he/him/his'
   company: 'Miami University'
   title: 'Coordinator of Access Services'
-  bio: "Withers is Coordinator of Access Services at Miami University. He has presented at conferences including the Access Services Conference, ACRL, Brick and Click, Computers in Libraries, HighEdWeb, LOEX, and NASIG and published in Against the Grain, College & Research Libraries,  C&RL News, Library Collections, Acquisitions and Technical Services, and College & Undergraduate Libraries."
+  bio: 'Withers is Coordinator of Access Services at Miami University. He has presented at conferences including the Access Services Conference, ACRL, Brick and Click, Computers in Libraries, HighEdWeb, LOEX, and NASIG and published in Against the Grain, College & Research Libraries,  C&RL News, Library Collections, Acquisitions and Technical Services, and College & Undergraduate Libraries.'
   thumbnailUrl: no_image.png
   rockstar: false
 
@@ -754,7 +754,7 @@
   pronouns: 'he/him/his'
   company: 'Miami University'
   title: 'Web Services Librarian'
-  bio: "Jerry Yarnetsky is a Web Services librarian at Miami University."
+  bio: 'Jerry Yarnetsky is a Web Services librarian at Miami University.'
   thumbnailUrl: no_image.png
   rockstar: false
 
@@ -764,7 +764,7 @@
   pronouns: 'she/her/hers'
   company: 'University of Dayton'
   title: 'Communications Coordinator and Graphic Designer'
-  bio: "Ann Zlotnik is the communications coordinator for the Marian Library and the graphic designer for University of Dayton Libraries. She manages websites, the blog and oversees social media for the Marian Library, designs exhibits and spaces and serves on the Libraries’ marketing and outreach team."
+  bio: 'Ann Zlotnik is the communications coordinator for the Marian Library and the graphic designer for University of Dayton Libraries. She manages websites, the blog and oversees social media for the Marian Library, designs exhibits and spaces and serves on the Libraries’ marketing and outreach team.'
   thumbnailUrl: no_image.png
   rockstar: false
 
@@ -774,7 +774,7 @@
   pronouns:
   company: 'University of Dayton'
   title: 'Librarian for Visual Resources'
-  bio: "As a Librarian for Visual Resources, Jillian manages the art and image collections in the Marian Library. She oversees collection development and exhibits and provides reference services, instruction, and outreach. Jillian also serves as the liaison to the Art and Design department."
+  bio: 'As a Librarian for Visual Resources, Jillian manages the art and image collections in the Marian Library. She oversees collection development and exhibits and provides reference services, instruction, and outreach. Jillian also serves as the liaison to the Art and Design department.'
   thumbnailUrl: jillian_ewalt.jpg
   rockstar: false
 
