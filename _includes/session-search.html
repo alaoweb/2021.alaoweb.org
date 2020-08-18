@@ -76,11 +76,11 @@
           {% for id in session.speaker-data %}
           {% assign this-person = site.data.speakers | where: 'id', id %}
           {% assign speakers = speakers |
-              append: '<div class="speaker-block poster-speaker"><!--div class="speaker-img flow-img img-circle" style="background-image: url(/img/people/)"></div---> 
-              <p class="speaker-name"><span class="name-only">' | append: this-person[0].name | append: ' ' | append: this-person[0].surname | append: '</span><span class="speaker-position">' | append: this-person[0].company | append: '</span
-                >' | append: '
-              </div></div>
-              ' %}
+            append: '<div class="speaker-block"><div class="speaker-img flow-img img-circle" style="background-image: url(/img/people/'  | append: this-person[0].thumbnailUrl |append:')"></div> 
+            <p class="speaker-name"><span class="name-only">' | append: this-person[0].name | append: ' ' | append: this-person[0].surname | append: '</span><span class="speaker-position">' | append: this-person[0].company | append: '</span
+              ></p></div>
+            ' %}
+
           {% endfor %}
           {% else %}
           {% for
