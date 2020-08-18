@@ -371,6 +371,12 @@
   live-stream-time:
   live-stream-link:
 
+- id: 122
+  title: "Lunch"
+  place: "On your own"
+  subtype: social
+  service: true
+  description:
 
 # ---------------------------------
 # CONFERENCE DAY[2], prefix ID 20x
@@ -388,3 +394,10 @@
   live-stream-type: keynote
   live-stream-time:
   live-stream-link: "https://www.example.com"
+
+- id: 202
+  title: "Lunch"
+  place: "On your own"
+  subtype: social
+  service: true
+  description:
