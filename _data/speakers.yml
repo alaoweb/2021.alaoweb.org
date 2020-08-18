@@ -202,7 +202,7 @@
   name: 'Catie'
   surname: 'Carlson'
   pronouns: 'she/her/hers'
-  company: 'University of Cincinnati Clermont College'
+  company: 'University of Cincinnati Clermont'
   title: 'Library Director'
   bio: 'Catie Carlson is the Library Director at the University of Cincinnati Clermont College. She previously worked at Tiffin University as the Library Director during their general education curriculum revision. She holds a an MLIS, MEd, and is currently enrolled in a doctoral program for Adult Learning & Leadership.'
   thumbnailUrl: no_image.png
@@ -252,7 +252,7 @@
   name: 'Malachai'
   surname: 'Darling'
   pronouns: 'he/him/his'
-  company:
+  company: 'Indiana University-Bloomington'
   title:
   bio: "Malachai Darling is a recent graduate from Indiana University with a master's degree in Library Science and a specialization in Archives and Records Management. He has an interest in public services within archives and special collections and finds projects such as that described in the abstract allows him to grow and develop skills that better assist researchers in any institution."
   thumbnailUrl: no_image.png
@@ -786,4 +786,24 @@
   title: 'Copyright Librarian and Contracting Specialist'
   bio:
   thumbnailUrl: sandra_enimil.png
+  rockstar: false
+
+- id: 77
+  name: 'Matt'
+  surname: 'Benzing'
+  pronouns:
+  company: 'Miami University'
+  title: 'Computing and Engineering Librarian'
+  bio:
+  thumbnailUrl: no_image.png
+  rockstar: false
+
+- id: 77
+  name: 'Lisa'
+  surname: 'Hayes'
+  pronouns:
+  company: 'Indiana Wesleyan University'
+  title: 'OCLS Librarian'
+  bio:
+  thumbnailUrl: no_image.png
   rockstar: false
