@@ -22,6 +22,7 @@
             <div class="poster-title">{{ page.title }}</div>
             <div class="poster-presenter">
               <span class="label">Presenter(s):</span> <br />
+              {% assign bios = "" %}
               {% if page.presenters %} {% for person in page.presenters %} • {{
               person.name }} {% if person.institution %} ({{ person.institution
               }}) {% endif %} {% capture bio %}
