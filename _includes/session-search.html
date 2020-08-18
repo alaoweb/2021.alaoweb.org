@@ -90,9 +90,10 @@
               >' | append: '
             </div></div>
             ' %}
+          {% endfor %}
           {% endif %}
 
-          {% endfor %}
+
           <tr id="poster-{{session.id | remove: '/'}}" class="slot"
             data-toggle="modal"
             data-target="#posterDetail-{{session.id | remove: '/'}}">
