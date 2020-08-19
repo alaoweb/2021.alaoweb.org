@@ -389,13 +389,13 @@
   rockstar: false
 
 - id: 37
-  name: 'Stephanie'
+  name: 'Stefanie'
   surname: 'Hilles'
   pronouns: 'she/her/hers'
   company: 'Miami University'
   title: 'Arts and Humanities Librarian'
   bio: 'Stefanie Hilles is the Arts and Humanities Librarian at Wertz Art and Architecture Library at Miami University, where she liaisons to the art, architecture, and theater departments, manages their collections, and instructs information literacy sessions. Stefanie holds a M.A. in Art History from Case Western Reserve University and a M.L.I.S from Kent State University. She is also the Chapter Liaison Officer on the Art Librarians Society of North America’s (ARLIS/NA) Executive Board, where she’s responsible for representing and coordinating with regional ARLIS/NA chapters.'
-  thumbnailUrl: dtefanie_hilles.jpg
+  thumbnailUrl: stefanie_hilles.jpg
   rockstar: false
 
 - id: 38
