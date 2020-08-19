@@ -6,6 +6,7 @@ So, I wanted to create sustainable online library instruction and a flexible lea
 This is my attempt to create zero cost online library instruction (my example is RefWorks online workshop) by using Google Course Builder and ShareX. Google Course Builder and ShareX are both free. You will need to install C# compiler and Python in order to use Google Course Builder, but you don’t need any programming experience. And I will explain how to install C# and Python, and share all tips I learned from using the free but sometimes quirky software.
 "
 date: 2020-07-01 08:00:00
+speaker-data: [38]
 presenters:
   - {
       name: Yuimi Hlasten,
