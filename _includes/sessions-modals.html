@@ -127,7 +127,7 @@
 					<div id="session-sponsors" class="modal-sponsors">
 						{% if session.subtype == "keynote" %}
 						{% assign sponsorType = "Keynote" %}
-						{% elsif session.subtype == "presentation" %}
+						{% elsif session.subtype == "session" %}
 						{% assign sponsorType = "Sessions" %}
 						{% endif %}
 						{% include sponsors-per-session.html sessionType=sponsorType %}
