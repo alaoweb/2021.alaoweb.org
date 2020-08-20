@@ -19,33 +19,11 @@
           </div>
           <!-- Starting here, code is reused from _include/poster.html -->
           <div class="post-body">
-            <div class="poster-title">{{ page.title }}</div>
-            <!--
-            <div class="poster-presenter">
-              <span class="label">Presenter(s):</span> <br />
-              {% assign bios = "" %}
-              {% if page.speaker-data %}
-              {% for id in page.speaker-data %}
-              {% assign person = site.data.speakers | where: 'id',id | first %}
-              • {{person.name}} {{person.surname}} {% if person.company %}
-              ({{person.company}}) {% endif %}
-              {% endfor %}
-              {% endif %}
-            </div>
-          -->
-            <div class="poster-description">
-              <span class="label">Poster Description:</span> <br />{{
-              page.description }}
-            </div>
-            <a href="/posters/{{page.slug}}.html" class="btn btn-primary">View
-              Poster</a>
-            <!--
-            <div class="poster-video"><span class="label">Poster:</span></div>
-            <div class="theme-video embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item"
-                src="{{ page.video }}"></iframe>
-            </div>
-          -->
+            <h4 class="poster-title">{{ page.title }}</h4>
+            <p class="poster-description">
+              {{ page.description }}
+            </p>
+            <a href="/posters/{{page.slug}}.html" class="btn btn-primary">View Poster</a>
             <div class="people-details">
               {% if page.speaker-data %}
               {% for id in page.speaker-data %}
