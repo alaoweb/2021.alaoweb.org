@@ -19,30 +19,20 @@
           </div>
           <!-- Starting here, code is reused from _include/poster.html -->
           <div class="post-body">
-            <div class="poster-title">{{ page.title }}</div>
-            <div class="poster-presenter">
-              <span class="label">Presenter(s):</span> <br />
-              {% assign bios = "" %}
-              {% if page.presenters %} {% for person in page.presenters %} • {{
-              person.name }} {% if person.institution %} ({{ person.institution
-              }}) {% endif %} {% capture bio %}
-              <p class="individual-bio">{{ person.bio}}</p>
-              {% endcapture %} {% assign bios = bios | append: bio %} {% endfor
-              %} {% endif %}
+            <h4 class="poster-title">{{ page.title }}</h4>
+            <p class="poster-description">
+              {{ page.description }}
+            </p>
+            <a href="/posters/{{page.slug}}.html" class="btn btn-primary">View Poster</a>
+            <div class="people-details">
+              {% if page.speaker-data %}
+              {% for id in page.speaker-data %}
+              {% assign session_speaker = site.data.speakers | where: 'id',id | first %}
+              {% include modal-speaker-info.html speaker=session_speaker %}
+              {% endfor %}
+              {% endif %}
             </div>
-            <div class="poster-description">
-              <span class="label">Poster Description:</span> <br />{{
-              page.description }}
-            </div>
-            <div class="poster-video"><span class="label">Poster:</span></div>
-            <div class="theme-video embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item"
-                src="{{ page.video }}"></iframe>
-            </div>
-            <div class="poster-presenter-about">
-              <span class="label">About the Presenter(s):</span> <br />{{ bios
-              }}
-            </div>
+
             <div id="poster-sponsors" class="modal-sponsors">
               {% include sponsors-per-session.html sessionType='Posters' %}
             </div>
