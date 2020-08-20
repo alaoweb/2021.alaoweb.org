@@ -205,7 +205,7 @@
   company: 'University of Cincinnati Clermont'
   title: 'Library Director'
   bio: 'Catie Carlson is the Library Director at the University of Cincinnati Clermont College. She previously worked at Tiffin University as the Library Director during their general education curriculum revision. She holds a an MLIS, MEd, and is currently enrolled in a doctoral program for Adult Learning & Leadership.'
-  thumbnailUrl: no_image.png
+  thumbnailUrl: catie_carlson.jpg
   rockstar: false
 
 - id: 19
@@ -215,7 +215,7 @@
   company: 'Miami University'
   title: 'Manager of Innovative Spaces'
   bio: 'Lori Chapin is currently serving as the Manager of Innovative Spaces, she supports the University Libraries’ classrooms. Lori has a strong interest in experiential learning and her research interests include maker literacies and user experience.'
-  thumbnailUrl: no_image.png
+  thumbnailUrl: lori_chapin.jpg
   rockstar: false
 
 - id: 20
@@ -295,7 +295,7 @@
   company: 'Tiffin University'
   title: 'Library Director'
   bio: 'Luann Edwards is the current Library Director at Tiffin University, having worked previously as the Online Services Librarian. She is involved in the ongoing general education efforts, including the delivery of an information-literacy focused course developed during the curriculum revision. She holds a MLIS and MA in English.'
-  thumbnailUrl: no_image.png
+  thumbnailUrl: luann_edwards.jpg
   rockstar: false
 
 - id: 28
@@ -425,7 +425,7 @@
   company: 'Tennessee Tech University'
   title: 'Coordinator of Public Services'
   bio: 'Sharon Holderman is the Coordinator of Public Services at Tennessee Tech University, which includes reference, instruction, tutoring, testing, circulation, collection development, and marketing. Previously she worked as a library director at a small branch campus, and prior to her library life, she was an academic advisor. She has an MA in journalism and an MLIS from Kent State University and an MS in leadership from Creighton University.'
-  thumbnailUrl: no_image.png
+  thumbnailUrl: sharon_holderman.jpg
   rockstar: false
 
 - id: 41
@@ -575,7 +575,7 @@
   company: 'Miami University'
   title: 'Creation and Innovation Services Librarian'
   bio: 'As Creation and Innovation Services Librarian, Sarah Nagle supports maker learning and innovation topics. Her research interests include maker/creative spaces in academic libraries and maker-centered learning in higher education.'
-  thumbnailUrl: no_image.png
+  thumbnailUrl: sarah_nagle.jpg
   rockstar: false
 
 - id: 56
