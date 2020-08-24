@@ -1,0 +1,19 @@
+$col-border-color: #ddd;
+
+.serviceproject {
+    .h3 {
+        margin-bottom: 10px;
+    }
+    .info {
+        font-weight: $light;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .bordered {
+        border: 1px solid $col-border-color;
+        color: #666;
+        text-transform: uppercase;
+    }
+}
+
+

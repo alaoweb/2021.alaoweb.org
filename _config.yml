@@ -258,6 +258,20 @@ rockstarSpeakersTitle: "Featured Speakers"
 rockstarSpeakersButtonText: "See all speakers"
 
 # -------------------------------------------------------------
+# Service Project Block
+# -------------------------------------------------------------
+serviceprojectTitle: "Dress for Success"
+serviceprojectInfo: "The mission of Dress for Success is to empower women to achieve economic independence by providing a network of support, professional attire and the development tools to help women thrive in work and in life."
+serviceprojectLocations:
+  cleveland:
+    url: "https://example.com"
+  columbus:
+    url: "https://example.com"
+  cincinnati:
+    url: "https://example.com"
+
+
+# -------------------------------------------------------------
 # Speakers List Block
 # -------------------------------------------------------------
 showSessions: false
