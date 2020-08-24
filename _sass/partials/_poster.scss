@@ -69,9 +69,12 @@
 }
 
 .poster-presenter-about {
-  margin: 0 0 20px 0;
+  margin-top: 40px !important;
 }
-
+.poster-document {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
 .page-navigation {
   margin-bottom: 40px;
   font-weight: $bold;
