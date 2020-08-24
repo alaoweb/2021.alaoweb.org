@@ -89,8 +89,8 @@
   rockstar: false
 
 - id: 7
-  name: 'Baril'
-  surname: 'Kathleen'
+  name: 'Kathleen'
+  surname: 'Baril'
   pronouns: 'she/her/hers'
   company: 'Ohio Northern University'
   title: 'Director'
@@ -105,7 +105,7 @@
   company: 'Bowling Green State University'
   title: 'Reference and Instruction Librarian'
   bio: 'Maureen Barry joined Bowling Green State University as Reference and Instruction Librarian in Spring 2019. She is the subject librarian for Criminal Justice, Gerontology, History, and Social Work. Her research interests include first-year students’ transition to college and the intersections of service-learning and information literacy. Prior to arriving at BGSU, Maureen was Student Success Librarian at Wright State University for 14 years.'
-  thumbnailUrl: no_image.png
+  thumbnailUrl: maureen_barry.jpg
   rockstar: false
 
 - id: 9
@@ -135,7 +135,7 @@
   company: 'Wayne State University'
   title: 'Student Success Librarian'
   bio: 'Veronica Bielat is the Student Success Librarian and English Subject Specialist in Wayne State University’s Library System. She strives to connect with students so they can forge independent critical paths through our complex information ecosystem. She has presented and published on her passionate pursuits of course integrated information literacy instruction, integrating technology into teaching and instructional design and faculty/librarian collaboration. When she’s not doing that, she likes to spend quality time in her garden, and sharing what’s happening on @vbielat'
-  thumbnailUrl: no_image.png
+  thumbnailUrl: veronica_bielat.jpg
   rockstar: false
 
 - id: 12
@@ -155,7 +155,7 @@
   company: 'Bowling Green State University'
   title: 'Head of Curriculum Resource Center'
   bio: 'Dr. Colleen Boff is the Head of the Curriculum Resource Center at Bowling Green State University.'
-  thumbnailUrl: no_image.png
+  thumbnailUrl: colleen_boff.jpg
   rockstar: false
 
 - id: 14
@@ -175,7 +175,7 @@
   company: 'Bowling Green State University'
   title: 'Reference Archivist'
   bio: 'Sara Butler-Tongate is the Reference Archivist for the Center for Archival Collections at Bowling Green State University. Her research interests include genealogy, folk narrative, and teaching with primary sources. Before joining the BGSU Library staff in December of 2019, she served as the Library Director at the National Watch and Clock Museum in Columbia, Pennsylvania.'
-  thumbnailUrl: no_image.png
+  thumbnailUrl: sara_butler-tongate.jpg
   rockstar: false
 
 - id: 16
@@ -185,7 +185,7 @@
   company: 'Miami University'
   title: 'Acquisitions and Access Librarian'
   bio: 'Cara Calabrese is the Acquisitions & Access Librarian at Miami University Libraries. She received her MLIS from Florida State University in 2015 and began her librarian career as a Resident Librarian in Technical Services. She has worked in various areas of Technical Services, but has recently focused on acquisitions and electronic resources. She is a Past Co-chair of ALAO’s TEDSIG and currently serves on ALCTS Budget and Finance Committee and as the Programs & Proposals’ Team leader for ACRL’s Residency Interest Group.'
-  thumbnailUrl: no_image.png
+  thumbnailUrl: cara_calabrese.jpg
   rockstar: false
 
 - id: 17
@@ -195,17 +195,17 @@
   company: 'University of South Florida St. Petersburg'
   title: 'Regional Associate Vice Chancellor of Academic Affairs and Dean of the Nelson Poynter Memorial Library'
   bio: 'Catherine Cardwell is the Regional Associate Vice Chancellor of Academic Affairs and Dean of the Nelson Poynter Memorial Library at the University of South Florida Saint Petersburg (USFSP). She provides leadership for the library, online learning, instructional technology services, and the Center for Innovative Teaching and Learning. A librarian for more than twenty years, Cardwell has served in various leadership positions for twenty-one of those years from library instruction coordinator to library dean. Her research interests include library leadership, integrating information literacy and digital scholarship into the curriculum, creating dynamic and contemporary user-centered teaching and learning spaces, and improving discovery and usability of library resources and services.'
-  thumbnailUrl: no_image.png
+  thumbnailUrl: catherine_cardwell.jpg
   rockstar: false
 
 - id: 18
   name: 'Catie'
   surname: 'Carlson'
   pronouns: 'she/her/hers'
-  company: 'University of Cincinnati Clermont College'
+  company: 'University of Cincinnati Clermont'
   title: 'Library Director'
   bio: 'Catie Carlson is the Library Director at the University of Cincinnati Clermont College. She previously worked at Tiffin University as the Library Director during their general education curriculum revision. She holds a an MLIS, MEd, and is currently enrolled in a doctoral program for Adult Learning & Leadership.'
-  thumbnailUrl: no_image.png
+  thumbnailUrl: catie_carlson.jpg
   rockstar: false
 
 - id: 19
@@ -215,7 +215,7 @@
   company: 'Miami University'
   title: 'Manager of Innovative Spaces'
   bio: 'Lori Chapin is currently serving as the Manager of Innovative Spaces, she supports the University Libraries’ classrooms. Lori has a strong interest in experiential learning and her research interests include maker literacies and user experience.'
-  thumbnailUrl: no_image.png
+  thumbnailUrl: lori_chapin.jpg
   rockstar: false
 
 - id: 20
@@ -252,7 +252,7 @@
   name: 'Malachai'
   surname: 'Darling'
   pronouns: 'he/him/his'
-  company:
+  company: 'Indiana University-Bloomington'
   title:
   bio: "Malachai Darling is a recent graduate from Indiana University with a master's degree in Library Science and a specialization in Archives and Records Management. He has an interest in public services within archives and special collections and finds projects such as that described in the abstract allows him to grow and develop skills that better assist researchers in any institution."
   thumbnailUrl: no_image.png
@@ -295,7 +295,7 @@
   company: 'Tiffin University'
   title: 'Library Director'
   bio: 'Luann Edwards is the current Library Director at Tiffin University, having worked previously as the Online Services Librarian. She is involved in the ongoing general education efforts, including the delivery of an information-literacy focused course developed during the curriculum revision. She holds a MLIS and MA in English.'
-  thumbnailUrl: no_image.png
+  thumbnailUrl: luann_edwards.jpg
   rockstar: false
 
 - id: 28
@@ -355,7 +355,7 @@
   company: 'Miami Univeristy'
   title: 'Humanities Librarian'
   bio: 'Katie Gibson is a Humanities Librarian at Miami University Libraries. She received her MLS from Indiana University in 2006. Research interests include library services to diverse student populations (including international and first generation students), information literacy instruction, and digital humanities. She is active in the European Studies Section of the Association of College and Research Libraries.'
-  thumbnailUrl: no_image.png
+  thumbnailUrl: katie_gibson.jpg
   rockstar: false
 
 - id: 34
@@ -365,7 +365,7 @@
   company: 'The Ohio State University'
   title: 'Teaching and Learning Engagement Librarian and Assistant Professor'
   bio: 'Jane Hammons is the Teaching and Learning Engagement Librarian and an assistant professor at The Ohio State University. As part of the Teaching and Learning department within the University Libraries, her role is to provide programming and resources to support instructor development within the Libraries and across the University.'
-  thumbnailUrl: no_image.png
+  thumbnailUrl: jane_hammons.png
   rockstar: false
 
 - id: 35
@@ -375,7 +375,7 @@
   company: 'University of Dayton'
   title: 'Collections Librarian'
   bio: 'The presenter is a collections librarian stewarding a special collection in an academic library in Ohio, where they consider equity, diversity, and inclusion in collection development, collection management, instruction, and reference. They also face questions about how to deal with library users and collection materials that oppose their queer and trans identity due to the collection’s institutional milieu.'
-  thumbnailUrl: no_image.png
+  thumbnailUrl: henry_handley.jpg
   rockstar: false
 
 - id: 36
@@ -389,13 +389,13 @@
   rockstar: false
 
 - id: 37
-  name: 'Stephanie'
+  name: 'Stefanie'
   surname: 'Hilles'
   pronouns: 'she/her/hers'
   company: 'Miami University'
   title: 'Arts and Humanities Librarian'
   bio: 'Stefanie Hilles is the Arts and Humanities Librarian at Wertz Art and Architecture Library at Miami University, where she liaisons to the art, architecture, and theater departments, manages their collections, and instructs information literacy sessions. Stefanie holds a M.A. in Art History from Case Western Reserve University and a M.L.I.S from Kent State University. She is also the Chapter Liaison Officer on the Art Librarians Society of North America’s (ARLIS/NA) Executive Board, where she’s responsible for representing and coordinating with regional ARLIS/NA chapters.'
-  thumbnailUrl: no_image.png
+  thumbnailUrl: stefanie_hilles.jpg
   rockstar: false
 
 - id: 38
@@ -405,7 +405,7 @@
   company: 'Denison University'
   title: 'Electronic Resources and Scholarly Communication Librarian'
   bio: 'Yuimi Hlasten holds a Master of Library and Information Science from the University of Pittsburgh. She received her Bachelor of Arts degree from Okayama University, Japan. Her interests include educational technology, services to international students, e-resources, and institutional repositories. She loves coffee, chewing gum, and all small sized vertebrates that come with legs.'
-  thumbnailUrl: no_image.png
+  thumbnailUrl: yuimi_hlasten.jpg
   rockstar: false
 
 - id: 39
@@ -425,7 +425,7 @@
   company: 'Tennessee Tech University'
   title: 'Coordinator of Public Services'
   bio: 'Sharon Holderman is the Coordinator of Public Services at Tennessee Tech University, which includes reference, instruction, tutoring, testing, circulation, collection development, and marketing. Previously she worked as a library director at a small branch campus, and prior to her library life, she was an academic advisor. She has an MA in journalism and an MLIS from Kent State University and an MS in leadership from Creighton University.'
-  thumbnailUrl: no_image.png
+  thumbnailUrl: sharon_holderman.jpg
   rockstar: false
 
 - id: 41
@@ -525,7 +525,7 @@
   company: 'University of Toledo'
   title: 'Director of the Mulford Health Science Library and Assistant Professor of Library Administration'
   bio: 'Jolene Miller is Director of the Mulford Health Science Library and an Assistant Professor of Library Administration at the University of Toledo. The complex realities of library administration forced her to look for new ways to manage her workload and develop the knowledge and skills needed for success. Reflective practice was a natural extension of her life-long experience keeping a personal journal. It provided the time and space needed to develop as an administrator. She is interested in how health science librarians use reflective practice and how they can learn to apply reflective practice in their positions. '
-  thumbnailUrl: no_image.png
+  thumbnailUrl: jolene_miller.jpg
   rockstar: false
 
 - id: 51
@@ -575,7 +575,7 @@
   company: 'Miami University'
   title: 'Creation and Innovation Services Librarian'
   bio: 'As Creation and Innovation Services Librarian, Sarah Nagle supports maker learning and innovation topics. Her research interests include maker/creative spaces in academic libraries and maker-centered learning in higher education.'
-  thumbnailUrl: no_image.png
+  thumbnailUrl: sarah_nagle.jpg
   rockstar: false
 
 - id: 56
@@ -695,7 +695,7 @@
   company: 'Case Western University'
   title: 'Research Services Librarian liason to engineering departments'
   bio: 'Daniela Solomon is a Research Services Librarian liaison to engineering departments at Case Western Reserve University. She received her BS in Electrical Engineering from Romania, and holds an MLSI from the University of Arizona. Daniela is professionally active in the American Society for Engineering Education, Engineering Libraries Division, and ALAO. Her research interests include scholarly communications, technical standards, OER, instruction, and outreach.'
-  thumbnailUrl: no_image.png
+  thumbnailUrl: daniela_solomon.jpg
   rockstar: false
 
 - id: 68
@@ -715,7 +715,7 @@
   company: 'Wayne State University'
   title: 'Graduate Student Assistant'
   bio: 'Troy Walker is a Graduate Student Assistant in Wayne State University’s Library System and is about to enter the second semester of his MLIS in the School of Information Sciences. He also works as a Circulation Clerk at the Orion Township Public Library. He is passionate about literature, the pursuit of knowledge, and helping people and their communities. Over the course of his library career, he hopes to utilize his skills to promote lifelong learning, intellectual freedom, and social justice. In his free time, you’ll find him reading a novel or caring for his three unruly cats.'
-  thumbnailUrl: no_image.png
+  thumbnailUrl: troy_walker.jpg
   rockstar: false
 
 - id: 70
@@ -786,4 +786,24 @@
   title: 'Copyright Librarian and Contracting Specialist'
   bio:
   thumbnailUrl: sandra_enimil.png
+  rockstar: false
+
+- id: 77
+  name: 'Matt'
+  surname: 'Benzing'
+  pronouns:
+  company: 'Miami University'
+  title: 'Computing and Engineering Librarian'
+  bio:
+  thumbnailUrl: no_image.png
+  rockstar: false
+
+- id: 77
+  name: 'Lisa'
+  surname: 'Hayes'
+  pronouns:
+  company: 'Indiana Wesleyan University'
+  title: 'OCLS Librarian'
+  bio:
+  thumbnailUrl: no_image.png
   rockstar: false
