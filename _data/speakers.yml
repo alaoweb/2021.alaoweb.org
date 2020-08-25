@@ -789,16 +789,6 @@
   rockstar: false
 
 - id: 77
-  name: 'Matt'
-  surname: 'Benzing'
-  pronouns:
-  company: 'Miami University'
-  title: 'Computing and Engineering Librarian'
-  bio:
-  thumbnailUrl: no_image.png
-  rockstar: false
-
-- id: 77
   name: 'Lisa'
   surname: 'Hayes'
   pronouns:
