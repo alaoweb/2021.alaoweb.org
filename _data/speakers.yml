@@ -268,15 +268,15 @@
   thumbnailUrl: christopher_deems.jpg
   rockstar: false
 
-- id: 25
-  name: 'Joseph'
-  surname: 'Dudley'
-  pronouns: 'he/him/his'
-  company: 'Bryant & Stratton College'
-  title: 'Campus Librarian'
-  bio: 'Joseph Dudley serves as campus librarian at the Bryant & Stratton College Cleveland and Solon campuses.  He performs public and technical services at each campus, is a co-administrator of the College’s LibGuides and SirsiDynix Enterprise implementations, and coordinates BSC’s participation in the LibAnswers virtual reference service.  His research interests include library metadata implementation and uses, library web site design, and computer applications in libraries.'
-  thumbnailUrl: no_image.png
-  rockstar: false
+#- id: 25
+#  name: 'Joseph'
+#  surname: 'Dudley'
+#  pronouns: 'he/him/his'
+#  company: 'Bryant & Stratton College'
+#  title: 'Campus Librarian'
+#  bio: 'Joseph Dudley serves as campus librarian at the Bryant & Stratton College Cleveland and Solon campuses.  He performs public and technical services at each campus, is a co-administrator of the College’s LibGuides and SirsiDynix Enterprise implementations, and coordinates BSC’s participation in the LibAnswers virtual reference service.  His research interests include library metadata implementation and uses, library web site design, and computer applications in libraries.'
+#  thumbnailUrl: no_image.png
+#  rockstar: false
 
 - id: 26
   name: 'Mark'
