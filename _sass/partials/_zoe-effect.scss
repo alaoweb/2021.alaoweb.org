@@ -131,3 +131,8 @@ $figcaption-color: #3c4a50;
     @include trimText(14px, 1.3, 5);
   }
 }
+.rockstar {
+  .zoe-effect {
+    height: 350px !important;
+  }
+}
