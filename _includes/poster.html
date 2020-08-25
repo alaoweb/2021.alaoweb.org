@@ -30,9 +30,8 @@
               <p>{{ page.description }}</p>
             </div>
             <div class="poster-content">
-
-              <h3>Poster</h3>
               {% if page.session-contents %}
+              <h3>Poster</h3>
               {% for doc in page.session-contents %}
               <div class="poster-document">
                 {% if doc.type == 'video' %}
@@ -54,6 +53,7 @@
                 {% endif %}
               </div>
               {% endfor %}
+              {% endif %}
               {% if page.supplemental-docs %}
               <div class="supplemental-docs">
                 <h4 class="h5">Supplemental Documents</h4>
@@ -73,19 +73,6 @@
                       href="{{supdoc.url}}">{{supdoc.title}}</a></li>
                   {% endfor %}
                 </ul>
-              </div>
-              {% endif %}
-              {% else %}
-              {% comment %}
-              Original code, to be replaced by session-contents
-              {% endcomment %}
-              <div class="poster-video">
-                <h3>Poster</h3>
-                <div
-                  class="theme-video embed-responsive embed-responsive-16by9">
-                  <iframe class="embed-responsive-item"
-                    src="{{ page.video }}"></iframe>
-                </div>
               </div>
               {% endif %}
             </div>
