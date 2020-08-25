@@ -15,7 +15,25 @@ presenters:
       bio: Malachai Darling is a recent graduate from Indiana University with a master's degree in Library Science and a specialization in Archives and Records Management. He has an interest in public services within archives and special collections and finds projects such as that described in the abstract allows him to grow and develop skills that better assist researchers in any institution.,
       institution: Indiana University-Bloomington
     }
-video: "//www.youtube.com/embed/{video-is}"
+session-contents:
+#  - type: video
+#    url: //www.youtube.com/embed/{video-id}
+#    title: Intro Video
+#  - type: image
+#    url: /img/posters/filename.png
+#    title: Image Title
+#    alt: Alt text
+#    text-description: "<ol><li>Thing One</li><li>Thing Two</li></ol>"
+supplemental-docs:
+#  - type: word
+#    url: /handouts/handout.docx
+#    title: My great worksheet
+#  - type: pdf
+#    url: /handouts/my-handout.pdf
+#    title: Sample Handout
+#  - type: website
+#    url: https://example.com/nifty-widget
+#    title: Website name
 isStaticPost: false
 published: true
 ---

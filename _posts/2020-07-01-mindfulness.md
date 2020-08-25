@@ -15,7 +15,25 @@ presenters:
       bio: Ragan Snead is the Circulation Services Coordinator at Lakeland Community College. She has been working in public and academic libraries for 11 years and is interested in engaging students through unique and intentional programming. Ragan is a member of the Lakeland Employee Wellness Committee which coordinates wellness and mindfulness activities across campus. Ragan regularly practices yoga and is pursuing a yoga teacher certification.,
       institution: Lakeland Community College
     }
-video: "//www.youtube.com/embed/{video-is}"
+session-contents:
+#  - type: video
+#    url: //www.youtube.com/embed/{video-id}
+#    title: Intro Video
+#  - type: image
+#    url: /img/posters/filename.png
+#    title: Image Title
+#    alt: Alt text
+#    text-description: "<ol><li>Thing One</li><li>Thing Two</li></ol>"
+supplemental-docs:
+#  - type: word
+#    url: /handouts/handout.docx
+#    title: My great worksheet
+#  - type: pdf
+#    url: /handouts/my-handout.pdf
+#    title: Sample Handout
+#  - type: website
+#    url: https://example.com/nifty-widget
+#    title: Website name
 isStaticPost: false
 published: true
 ---
