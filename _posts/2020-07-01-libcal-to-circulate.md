@@ -26,8 +26,11 @@ session-contents:
    alt: 
    text-description: "<ol><li>User checks software in/out in LibCal</li><li>The app fetches current LibCal checkouts</li><li>The app fetches current permissions from Adobe</li><li>The app compares list</li><li>The app pushes changes to the Adobe API</li><li>Adobe allows access to user</li></ol>"
 supplemental-docs:
+ - type: word
+   url: /handouts/handout.docx
+   title: My great worksheet
  - type: pdf
-   url: /docs/my-handout.pdf
+   url: /handouts/my-handout.pdf
    title: Sample Handout
  - type: website
    url: https://example.com/nifty-widget
