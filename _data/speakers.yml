@@ -125,7 +125,7 @@
   company: 'Miami University'
   title: 'Computing and Engineering Librarian'
   bio: 'Matt Benzing is the Computing and Engineering librarian at Miami University.'
-  thumbnailUrl: no_image.png
+  thumbnailUrl: matt_benzing.jpg
   rockstar: false
 
 - id: 11
@@ -545,7 +545,7 @@
   company: 'Miami University'
   title: 'Social Sciences Librarian'
   bio: 'Abi Morgan is a Social Sciences librarian at Miami University.'
-  thumbnailUrl: no_image.png
+  thumbnailUrl: abi_morgan.jpg
   rockstar: false
 
 - id: 53
@@ -755,7 +755,7 @@
   company: 'Miami University'
   title: 'Web Services Librarian'
   bio: 'Jerry Yarnetsky is a Web Services librarian at Miami University.'
-  thumbnailUrl: no_image.png
+  thumbnailUrl: jerry_yarnetsky.jpg
   rockstar: false
 
 - id: 74
