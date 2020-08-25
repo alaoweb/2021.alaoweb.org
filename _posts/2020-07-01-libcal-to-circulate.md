@@ -26,6 +26,9 @@ session-contents:
    alt: 
    text-description: "<ol><li>User checks software in/out in LibCal</li><li>The app fetches current LibCal checkouts</li><li>The app fetches current permissions from Adobe</li><li>The app compares list</li><li>The app pushes changes to the Adobe API</li><li>Adobe allows access to user</li></ol>"
 supplemental-docs:
+ - type: github
+   url: https://github.com/Miamiohlibs/SoftwareCheckout
+   title: SoftwareCheckout on Github
  - type: word
    url: /handouts/handout.docx
    title: My great worksheet

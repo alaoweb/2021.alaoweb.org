@@ -60,16 +60,18 @@
                 <ul class="fa-ul">
                   {% for supdoc in page.supplemental-docs %}
                   {% if supdoc.type == 'pdf' %}
-                  {% assign icon = "fa-file-pdf" %}
+                  {% assign icon = "fas fa-file-pdf" %}
                   {% elsif supdoc.type == 'word' %}
-                  {% assign icon = "fa-file-word" %}
+                  {% assign icon = "fas fa-file-word" %}
                   {% elsif supdoc.type == "website" %}
-                  {% assign icon = "fa-rocket" %}
+                  {% assign icon = "fas fa-rocket" %}
+                  {% elsif supdoc.type == "github" %}
+                  {% assign icon = "fab fa-github" %}
                   {% else %}
-                  {% assign icon = "fa-circle" %}
+                  {% assign icon = "fas fa-circle" %}
                   {% endif %}
 
-                  <li><span class="fa-li"><i class="fas {{icon}}"></i></span><a
+                  <li><span class="fa-li"><i class="{{icon}}"></i></span><a
                       href="{{supdoc.url}}">{{supdoc.title}}</a></li>
                   {% endfor %}
                 </ul>
