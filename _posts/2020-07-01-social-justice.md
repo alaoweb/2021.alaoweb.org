@@ -10,7 +10,25 @@ presenters:
       bio: Stephanie Porrata graduated with a an M.A in Latin American and Caribbean Studies and M.L.S in May of 2019 and is currently a Mary P. Key Diversity Resident Librarian for Area Studies at the Ohio State University. Stephanie is interested in exploring libraries as areas for activism and resistance, creating more meaningful diversity residency programs, and the role of area studies librarians supporting social justice work.,
       institution: Ohio State University
     }
-video: "//www.youtube.com/embed/{video-is}"
+session-contents:
+#  - type: video
+#    url: //www.youtube.com/embed/{video-id}
+#    title: Intro Video
+#  - type: image
+#    url: /img/posters/filename.png
+#    title: Image Title
+#    alt: Alt text
+#    text-description: "<ol><li>Thing One</li><li>Thing Two</li></ol>"
+supplemental-docs:
+#  - type: word
+#    url: /handouts/handout.docx
+#    title: My great worksheet
+#  - type: pdf
+#    url: /handouts/my-handout.pdf
+#    title: Sample Handout
+#  - type: website
+#    url: https://example.com/nifty-widget
+#    title: Website name
 isStaticPost: false
 published: true
 ---

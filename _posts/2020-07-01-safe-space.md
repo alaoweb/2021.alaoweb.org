@@ -20,7 +20,25 @@ presenters:
       institution: Franklin University,
       bio: Megan Powell (she/her/hers) is the Access Services Manager at Franklin University. She is responsible for planning and organizing all circulation functions, managing student workers, providing reference assistance, and overseeing all aspects of the Interlibrary Loan Department. She graduated from Otterbein University in May and plans on applying to an MLIS program later this year.
     }
-video: "//www.youtube.com/embed/{video-is}"
+session-contents:
+#  - type: video
+#    url: //www.youtube.com/embed/{video-id}
+#    title: Intro Video
+#  - type: image
+#    url: /img/posters/filename.png
+#    title: Image Title
+#    alt: Alt text
+#    text-description: "<ol><li>Thing One</li><li>Thing Two</li></ol>"
+supplemental-docs:
+#  - type: word
+#    url: /handouts/handout.docx
+#    title: My great worksheet
+#  - type: pdf
+#    url: /handouts/my-handout.pdf
+#    title: Sample Handout
+#  - type: website
+#    url: https://example.com/nifty-widget
+#    title: Website name
 isStaticPost: false
 published: true
 ---

@@ -10,7 +10,25 @@ presenters:
       bio: Chris Deems is the Systems and Technology Librarian at Ohio Northern University and currently serves as the newest TEDSIG Co-Chair. He graduated from The Ohio State University in 2015 with a BA in History, and from the University of Texas at Austin with an MSIS in 2017.,
       institution: Ohio Northern University
     }
-video: "//www.youtube.com/embed/{video-is}"
+session-contents:
+#  - type: video
+#    url: //www.youtube.com/embed/{video-id}
+#    title: Intro Video
+#  - type: image
+#    url: /img/posters/filename.png
+#    title: Image Title
+#    alt: Alt text
+#    text-description: "<ol><li>Thing One</li><li>Thing Two</li></ol>"
+supplemental-docs:
+#  - type: word
+#    url: /handouts/handout.docx
+#    title: My great worksheet
+#  - type: pdf
+#    url: /handouts/my-handout.pdf
+#    title: Sample Handout
+#  - type: website
+#    url: https://example.com/nifty-widget
+#    title: Website name
 isStaticPost: false
 published: true
 ---

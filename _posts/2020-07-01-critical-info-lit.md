@@ -10,7 +10,25 @@ presenters:
       institution: Miami University,
       bio: Stefanie Hilles is the Arts and Humanities Librarian at Wertz Art and Architecture Library at Miami University, where she liaisons to the art, architecture, and theater departments, manages their collections, and instructs information literacy sessions. Stefanie holds a M.A. in Art History from Case Western Reserve University and a M.L.I.S from Kent State University. She is also the Chapter Liaison Officer on the Art Librarians Society of North America’s (ARLIS/NA) Executive Board, where she’s responsible for representing and coordinating with regional ARLIS/NA chapters.
     }
-video: "//www.youtube.com/embed/{video-is}"
+session-contents:
+#  - type: video
+#    url: //www.youtube.com/embed/{video-id}
+#    title: Intro Video
+#  - type: image
+#    url: /img/posters/filename.png
+#    title: Image Title
+#    alt: Alt text
+#    text-description: "<ol><li>Thing One</li><li>Thing Two</li></ol>"
+supplemental-docs:
+#  - type: word
+#    url: /handouts/handout.docx
+#    title: My great worksheet
+#  - type: pdf
+#    url: /handouts/my-handout.pdf
+#    title: Sample Handout
+#  - type: website
+#    url: https://example.com/nifty-widget
+#    title: Website name
 isStaticPost: false
 published: true
 ---

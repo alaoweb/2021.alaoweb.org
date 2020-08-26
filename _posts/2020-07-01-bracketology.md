@@ -20,7 +20,25 @@ presenters:
     bio: Heidi Gauder is professor and coordinator of research & instruction at University of Dayton. She chairs the Instruction and Research Teams of Roesch Library, coordinating and scheduling the work of the team members. She is the subject liaison to the History and Political Science Departments, and coordinates Porch Reads, a leisure reading program for undergraduates.,
     institution: University of Dayton
     }
-video: "//www.youtube.com/embed/{video-is}"
+session-contents:
+#  - type: video
+#    url: //www.youtube.com/embed/{video-id}
+#    title: Intro Video
+#  - type: image
+#    url: /img/posters/filename.png
+#    title: Image Title
+#    alt: Alt text
+#    text-description: "<ol><li>Thing One</li><li>Thing Two</li></ol>"
+supplemental-docs:
+#  - type: word
+#    url: /handouts/handout.docx
+#    title: My great worksheet
+#  - type: pdf
+#    url: /handouts/my-handout.pdf
+#    title: Sample Handout
+#  - type: website
+#    url: https://example.com/nifty-widget
+#    title: Website name
 isStaticPost: false
 published: true
 ---
