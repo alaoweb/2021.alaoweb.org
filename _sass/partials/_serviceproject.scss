@@ -1,18 +1,30 @@
 $col-border-color: #ddd;
+$dfs-color: #b32b33;
 
 .serviceproject {
     .h3 {
         margin-bottom: 10px;
     }
     .info {
-        font-weight: $light;
+        font-weight: $regular;
         font-size: 16px;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
     .bordered {
         border: 1px solid $col-border-color;
         color: #666;
         text-transform: uppercase;
+    }
+    .img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .waves-button {
+        font-weight: $bold;
+        &:hover {
+            background-color: $dfs-color;
+            color: #fff;
+        }
     }
 }
 

@@ -1,12 +1,13 @@
 <!-- Begin Service Project Section -->
-<section id="serviceproject" class="serviceproject">
-  <!-- style="background-image: url({{ site.baseurl }}/img/sections-background/{{ site.serviceprojectImage }});" -->
-  <!-- <div class="overlay solid-overlay"></div> -->
+<section id="serviceproject" class="serviceproject" xmlns="http://www.w3.org/1999/html">
   <div class="content-wrapper">
     <div class="col-lg-8 col-lg-offset-2 animated hiding" data-animation="fadeInUp" data-delay="0">
-      <h2 class="serviceproject h3">{{ site.serviceprojectTitle }}</h2>
+      {% if site.serviceprojectTitle %}
+        <h2 class="serviceproject h3">{{ site.serviceprojectTitle }}</h2>
+      {% endif %}
+      <img class="serviceproject img" src="{{ site.baseurl }}/img/sponsors/{{ site.serviceprojectImage }}"/>
     </div>
-    <div class="col-lg-8 col-lg-offset-2">
+    <div class="col-lg-10 col-lg-offset-1">
       <div class="serviceproject info">{{ site.serviceprojectInfo }}</div>
     </div>
     <div class="col-lg-4 col-lg-offset-4">
