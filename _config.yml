@@ -260,8 +260,9 @@ rockstarSpeakersButtonText: "See all speakers"
 # -------------------------------------------------------------
 # Service Project Block
 # -------------------------------------------------------------
-serviceprojectTitle: "Dress for Success"
-serviceprojectInfo: 'Each year for the ALAO conference we host a service project to collect materials for a charitable organization. This year, we are partnering with Dress for Success, an organization that serves women by providing clothes and other tools to seek economic independence. However, instead of collecting clothes at the conference, we ask that you consider making a donation to this worthy organization. There are three affiliates of Dress for Success in Ohio, and you can choose the region that you would like to support.  If you decide to make a donation, please put ALAO member either in the notes field (Cleveland affiliate) or in the "In honor/memory of" field (Cincinnati and Columbus affiliate).'
+serviceprojectTitle: ""
+serviceprojectImage: dfs_logo.jpg
+serviceprojectInfo: 'Each year for the ALAO conference we host a service project to collect materials for a charitable organization. This year, we are partnering with Dress for Success, an organization that serves women by providing clothes and other tools to seek economic independence. However, instead of collecting clothes at the conference, we ask that you consider making a donation to this worthy organization. There are three affiliates of Dress for Success in Ohio, and you can choose the region that you would like to support.  If you decide to make a donation, please put ALAO member in the notes field.'
 serviceprojectLocations:
   cleveland:
     url: "https://cleveland.dressforsuccess.org/get-involved/donate/"
