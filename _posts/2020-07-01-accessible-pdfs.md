@@ -6,7 +6,7 @@ date: 2020-07-01 08:00:00
 speaker-data: [78]
 presenters:
   - {
-      name: Rob O'Brien Withers
+      name: Rob O'Brien Withers,
       bio:
     }
 session-contents:
