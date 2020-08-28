@@ -1,0 +1,26 @@
+<!-- Begin Service Project Section -->
+<section id="serviceproject" class="serviceproject" xmlns="http://www.w3.org/1999/html">
+  <div class="content-wrapper">
+    <div class="col-lg-8 col-lg-offset-2 animated hiding" data-animation="fadeInUp" data-delay="0">
+      {% if site.serviceprojectTitle %}
+        <h2 class="serviceproject h3">{{ site.serviceprojectTitle }}</h2>
+      {% endif %}
+      <img class="serviceproject img" src="{{ site.baseurl }}/img/sponsors/{{ site.serviceprojectImage }}"/>
+    </div>
+    <div class="col-lg-10 col-lg-offset-1">
+      <div class="serviceproject info">{{ site.serviceprojectInfo }}</div>
+    </div>
+    <div class="col-lg-4 col-lg-offset-4">
+      {% for item in site.serviceprojectLocations %}
+      <span>
+        <a href="{{ item[1].url }}"
+           aria-role="button"
+           class="serviceproject waves-effect waves-button bordered"
+           target="_blank">{{ item[0] }}
+        </a>
+      </span>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<!-- End Service Project Section -->
