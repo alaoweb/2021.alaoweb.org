@@ -10,7 +10,25 @@ presenters:
       bio: Joseph Dudley serves as campus librarian at the Bryant & Stratton College Cleveland and Solon campuses. He performs public and technical services at each campus, is a co-administrator of the College’s LibGuides and SirsiDynix Enterprise implementations, and coordinates BSC’s participation in the LibAnswers virtual reference service. His research interests include library metadata implementation and uses, library web site design, and computer applications in libraries.,
       institution: Bryant & Stratton College
     }
-video: "//www.youtube.com/embed/{video-is}"
+session-contents:
+#  - type: video
+#    url: //www.youtube.com/embed/{video-id}
+#    title: Intro Video
+#  - type: image
+#    url: /img/posters/filename.png
+#    title: Image Title
+#    alt: Alt text
+#    text-description: "<ol><li>Thing One</li><li>Thing Two</li></ol>"
+supplemental-docs:
+#  - type: word
+#    url: /handouts/handout.docx
+#    title: My great worksheet
+#  - type: pdf
+#    url: /handouts/my-handout.pdf
+#    title: Sample Handout
+#  - type: website
+#    url: https://example.com/nifty-widget
+#    title: Website name
 isStaticPost: false
-published: true
+published: false
 ---

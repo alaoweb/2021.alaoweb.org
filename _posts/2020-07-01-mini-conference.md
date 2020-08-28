@@ -15,7 +15,25 @@ presenters:
       bio: Sara Butler-Tongate is the Reference Archivist for the Center for Archival Collections at Bowling Green State University. Her research interests include genealogy, folk narrative, and teaching with primary sources. Before joining the BGSU Library staff in December of 2019, she served as the Library Director at the National Watch and Clock Museum in Columbia, Pennsylvania.,
       institution: Bowling Green State University
     }
-video: "//www.youtube.com/embed/{video-is}"
+session-contents:
+#  - type: video
+#    url: //www.youtube.com/embed/{video-id}
+#    title: Intro Video
+#  - type: image
+#    url: /img/posters/filename.png
+#    title: Image Title
+#    alt: Alt text
+#    text-description: "<ol><li>Thing One</li><li>Thing Two</li></ol>"
+supplemental-docs:
+#  - type: word
+#    url: /handouts/handout.docx
+#    title: My great worksheet
+#  - type: pdf
+#    url: /handouts/my-handout.pdf
+#    title: Sample Handout
+#  - type: website
+#    url: https://example.com/nifty-widget
+#    title: Website name
 isStaticPost: false
 published: true
 ---

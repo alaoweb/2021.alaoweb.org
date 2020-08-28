@@ -115,7 +115,7 @@
   company: 'University of Dayton'
   title: 'Assistant Professor and Discovery Services Librarian'
   bio: "Christina 'Tina' Beis is assistant professor and discovery services librarian at the University of Dayton Libraries. She manages the life cycle of electronic resources, which includes access, discovery, assessment, and problem resolution. She also provides reference support, participates in library instruction and serves as liaison to the Criminal Justice Studies Program and the Department of Sociology, Anthropology, and Social Work."
-  thumbnailUrl: no_image.png
+  thumbnailUrl: tina_beis.jpg
   rockstar: false
 
 - id: 10
@@ -125,7 +125,7 @@
   company: 'Miami University'
   title: 'Computing and Engineering Librarian'
   bio: 'Matt Benzing is the Computing and Engineering librarian at Miami University.'
-  thumbnailUrl: no_image.png
+  thumbnailUrl: matt_benzing.jpg
   rockstar: false
 
 - id: 11
@@ -255,7 +255,7 @@
   company: 'Indiana University-Bloomington'
   title:
   bio: "Malachai Darling is a recent graduate from Indiana University with a master's degree in Library Science and a specialization in Archives and Records Management. He has an interest in public services within archives and special collections and finds projects such as that described in the abstract allows him to grow and develop skills that better assist researchers in any institution."
-  thumbnailUrl: no_image.png
+  thumbnailUrl: malachai_darling.jpg
   rockstar: false
 
 - id: 24
@@ -268,15 +268,15 @@
   thumbnailUrl: christopher_deems.jpg
   rockstar: false
 
-- id: 25
-  name: 'Joseph'
-  surname: 'Dudley'
-  pronouns: 'he/him/his'
-  company: 'Bryant & Stratton College'
-  title: 'Campus Librarian'
-  bio: 'Joseph Dudley serves as campus librarian at the Bryant & Stratton College Cleveland and Solon campuses.  He performs public and technical services at each campus, is a co-administrator of the College’s LibGuides and SirsiDynix Enterprise implementations, and coordinates BSC’s participation in the LibAnswers virtual reference service.  His research interests include library metadata implementation and uses, library web site design, and computer applications in libraries.'
-  thumbnailUrl: no_image.png
-  rockstar: false
+#- id: 25
+#  name: 'Joseph'
+#  surname: 'Dudley'
+#  pronouns: 'he/him/his'
+#  company: 'Bryant & Stratton College'
+#  title: 'Campus Librarian'
+#  bio: 'Joseph Dudley serves as campus librarian at the Bryant & Stratton College Cleveland and Solon campuses.  He performs public and technical services at each campus, is a co-administrator of the College’s LibGuides and SirsiDynix Enterprise implementations, and coordinates BSC’s participation in the LibAnswers virtual reference service.  His research interests include library metadata implementation and uses, library web site design, and computer applications in libraries.'
+#  thumbnailUrl: no_image.png
+#  rockstar: false
 
 - id: 26
   name: 'Mark'
@@ -335,7 +335,7 @@
   company: 'University of Cincinnati'
   title: 'Online Learning and Instruction Librarian'
   bio: 'Madeleine Gaiser is the Online Learning and Instruction Librarian for the College of Education, Criminal Justice, and Human Services (CECH) Library at the University of Cincinnati. She graduated from Indiana University-Bloomington with her Masters in Library Science in May 2020. Her interests are instruction, virtual reference, and online accessibility.'
-  thumbnailUrl: no_image.png
+  thumbnailUrl: madeleine_gaiser.jpg
   rockstar: false
 
 - id: 32
@@ -345,7 +345,7 @@
   company: 'University of Dayton'
   title: 'Professor and Coordinator of Research & Instruction'
   bio: 'Heidi Gauder is professor and coordinator of research & instruction at University of Dayton. She chairs the Instruction and Research Teams of Roesch Library, coordinating and scheduling the work of the team members.  She is the subject liaison to the History and Political Science Departments, and coordinates Porch Reads, a leisure reading program for undergraduates.'
-  thumbnailUrl: no_image.png
+  thumbnailUrl: heidi_gauder.jpg
   rockstar: false
 
 - id: 33
@@ -385,7 +385,7 @@
   company: 'The Ohio State University'
   title: 'African American and African Studies Librarian, Comparative Studies Librarian, and Interim Anthropology Librarian'
   bio: 'Leta Hendricks is the African American and African Studies Librarian, the Comparative Studies Librarian, and the Interim Anthropology Librarian at The Ohio State University. She serves as Affiliated Faculty in African American and African Studies and Affiliated Faculty in French and Francophone Studies. She provides general and specialized research services; library and information literacy instruction courses; conducts specialized instruction and; develops and manages subject collections. As a 21st century Librarian she utilizes technology to create, store, teach, and disseminate knowledge. Research interests include French Rap Music, Gaming and Teaching, Hip Hop Culture, and Robert Johnson.'
-  thumbnailUrl: no_image.png
+  thumbnailUrl: leta_hendricks.jpg
   rockstar: false
 
 - id: 37
@@ -405,7 +405,7 @@
   company: 'Denison University'
   title: 'Electronic Resources and Scholarly Communication Librarian'
   bio: 'Yuimi Hlasten holds a Master of Library and Information Science from the University of Pittsburgh. She received her Bachelor of Arts degree from Okayama University, Japan. Her interests include educational technology, services to international students, e-resources, and institutional repositories. She loves coffee, chewing gum, and all small sized vertebrates that come with legs.'
-  thumbnailUrl: no_image.png
+  thumbnailUrl: yuimi_hlasten.jpg
   rockstar: false
 
 - id: 39
@@ -415,7 +415,7 @@
   company: 'Miami University'
   title: 'Preservation Librarian'
   bio: 'Kim Hoffman is the Preservation Librarian at Miami University in Oxford, Ohio, where she is responsible for maintaining both the circulating and special collections as well as the digital preservation program. She received her MS in Library and Information Science and her MA in Museum Studies in 2019 from Syracuse University in New York, where she also earned a Certificate of Advanced Studies in Cultural Heritage Preservation. At Syracuse University, she worked as a preservation assistant from 2016 to 2019. Before turning to library work, Kim was a technical writer for various software products.'
-  thumbnailUrl: no_image.png
+  thumbnailUrl: kimberly_hoffman.jpg
   rockstar: false
 
 - id: 40
@@ -455,7 +455,7 @@
   company: 'Miami University'
   title: 'University Archivist'
   bio: "Johnson is the University Archivist at Miami University, Oxford, Ohio. She earned her bachelor's degree from Limestone College and master’s from the University of South Carolina.  Johnson is the author of Finding Freedom: Memorializing the Voices of Freedom Summer and Western College. Her chapter on “Edgar Stillman Kelley, Dean of American Composers” was published in the book Celebrating the Oxford, Ohio Bicentennial 1810-2010.  Her published works also appear in Ohio History, Archival Outlook and The Journal of Afro-American History and Genealogical Society.  Her research focuses on the history of Miami University, Western College for Women, and Oxford College."
-  thumbnailUrl: no_image.png
+  thumbnailUrl: jacqueline_johnson.jpg
   rockstar: false
 
 - id: 44
@@ -475,7 +475,7 @@
   company: 'University of Dayton'
   title: 'Student Success Librarian and Assistant Professor'
   bio: "Zachary Lewis holds the role of Student Success Librarian and Assistant Professor at University of Dayton. His work involves supporting underserved and underrepresented students. Zachary is the chair of the university's First-Gen Success Team, and a standing member of the University Libraries Diversity and Inclusion Team, working to coordinate dialogue regarding issues of equity and inclusion. Zachary is also the interim liaison to the School of Engineering. His research interests include the first-gen experience, DE&I, social justice, accessibility, and student engagement."
-  thumbnailUrl: no_image.png
+  thumbnailUrl: zachary_lewis.jpg
   rockstar: false
 
 - id: 46
@@ -485,7 +485,7 @@
   company: 'Miami University'
   title: 'Special Collections Librarian'
   bio: 'Rachel Makarowski is the Special Collections Librarian at Miami University. She graduated from IU Bloomington with an MLS, specializing in Rare Book and Manuscript Librarianship, and worked at the Lilly Library in Public Services during her time there. She earned her BA in Classics and Medieval Studies from the University of Virginia, during which time she worked at Rare Book School. While she loves all parts of special collections, she is most interested in researching and discussing instruction with primary sources.'
-  thumbnailUrl: no_image.png
+  thumbnailUrl: rachel_makarowski.jpg
   rockstar: false
 
 - id: 47
@@ -525,7 +525,7 @@
   company: 'University of Toledo'
   title: 'Director of the Mulford Health Science Library and Assistant Professor of Library Administration'
   bio: 'Jolene Miller is Director of the Mulford Health Science Library and an Assistant Professor of Library Administration at the University of Toledo. The complex realities of library administration forced her to look for new ways to manage her workload and develop the knowledge and skills needed for success. Reflective practice was a natural extension of her life-long experience keeping a personal journal. It provided the time and space needed to develop as an administrator. She is interested in how health science librarians use reflective practice and how they can learn to apply reflective practice in their positions. '
-  thumbnailUrl: no_image.png
+  thumbnailUrl: jolene_miller.jpg
   rockstar: false
 
 - id: 51
@@ -545,7 +545,7 @@
   company: 'Miami University'
   title: 'Social Sciences Librarian'
   bio: 'Abi Morgan is a Social Sciences librarian at Miami University.'
-  thumbnailUrl: no_image.png
+  thumbnailUrl: abi_morgan.jpg
   rockstar: false
 
 - id: 53
@@ -565,7 +565,7 @@
   company: 'Miami University'
   title: 'Coordinator of Scholarly Communications and Assistant Professor'
   bio: 'Carla Myers serves as Assistant Professor and Coordinator of Scholarly Communications for the Miami University Libraries. Her professional presentations and publications focus on copyright and scholarly communications issues.'
-  thumbnailUrl: no_image.png
+  thumbnailUrl: carla_myers.png
   rockstar: false
 
 - id: 55
@@ -605,7 +605,7 @@
   company: 'The Ohio State University'
   title: 'Mary P. Key Diversity Resident Librarian with Area Studies'
   bio: 'Stephanie Porrata graduated with a an M.A in Latin American and Caribbean Studies and M.L.S in May of 2019 and is currently a Mary P. Key Diversity Resident Librarian for Area Studies at the Ohio State University. Stephanie is interested in exploring libraries as areas for activism and resistance, creating more meaningful diversity residency programs, and the role of area studies librarians supporting social justice work.'
-  thumbnailUrl: no_image.png
+  thumbnailUrl: stephanie_porrata.jpg
   rockstar: false
 
 - id: 59
@@ -665,7 +665,7 @@
   company: 'University of Dayton'
   title: 'E-scholarship and communications manager'
   bio: 'Maureen Schlangen manages the university’s open-access institutional repository and contributes to the Libraries’ marketing and communications efforts.'
-  thumbnailUrl: no_image.png
+  thumbnailUrl: maureen_schlangen.jpg
   rockstar: false
 
 - id: 65
@@ -735,7 +735,7 @@
   company: 'University of Dayton'
   title: 'Health and Life Sciences Librarian and Assistant Professor'
   bio: 'Jason Wardell holds the role of Health & Life Sciences Librarian and Assistant Professor at University of Dayton. As the lead for instructional design on the library’s Instruction Team, Jason is responsible for developing and maintaining online learning content as well as training his colleagues on utilizing new instructional technologies both online and in the classroom. His research interests include learner-centered pedagogy; scholarly communications; diversity, equity & inclusion; and asynchronous instruction.'
-  thumbnailUrl: no_image.png
+  thumbnailUrl: jason_wardell.jpg
   rockstar: false
 
 - id: 72
@@ -755,7 +755,7 @@
   company: 'Miami University'
   title: 'Web Services Librarian'
   bio: 'Jerry Yarnetsky is a Web Services librarian at Miami University.'
-  thumbnailUrl: no_image.png
+  thumbnailUrl: jerry_yarnetsky.jpg
   rockstar: false
 
 - id: 74
@@ -765,7 +765,7 @@
   company: 'University of Dayton'
   title: 'Communications Coordinator and Graphic Designer'
   bio: 'Ann Zlotnik is the communications coordinator for the Marian Library and the graphic designer for University of Dayton Libraries. She manages websites, the blog and oversees social media for the Marian Library, designs exhibits and spaces and serves on the Libraries’ marketing and outreach team.'
-  thumbnailUrl: no_image.png
+  thumbnailUrl: ann_zlotnik.jpg
   rockstar: false
 
 - id: 75
@@ -786,16 +786,6 @@
   title: 'Copyright Librarian and Contracting Specialist'
   bio:
   thumbnailUrl: sandra_enimil.png
-  rockstar: false
-
-- id: 77
-  name: 'Matt'
-  surname: 'Benzing'
-  pronouns:
-  company: 'Miami University'
-  title: 'Computing and Engineering Librarian'
-  bio:
-  thumbnailUrl: no_image.png
   rockstar: false
 
 - id: 77

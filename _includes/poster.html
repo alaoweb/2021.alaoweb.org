@@ -1,7 +1,10 @@
+<script src="https://kit.fontawesome.com/6f6b0890b2.js"
+  crossorigin="anonymous"></script>
 <!-- Begin Poster: a single poster -->
 <section id="poster-section" class="poster-section">
   <div class="content-wrapper text-left">
-    <div class="col-md-10 col-sm-10 col-lg-offset-1 col-md-offset-1 col-sm-offset-0">
+    <div
+      class="col-md-10 col-sm-10 col-lg-offset-1 col-md-offset-1 col-sm-offset-0">
       <div class="col-lg-8 col-md-10 col-xs-12">
         <article class="row poster">
           <!-- Starting here, reuse this code in _includes/posters-modal.html -->
@@ -14,8 +17,11 @@
               <h3>Presented by</h3>
               <ul>
                 {% if page.presenters %} {% for person in page.presenters %}
-                <li>{{ person.name }} {% if person.institution %} ({{ person.institution }}) {% endif %}</li>
-                {% capture bio %}<p class="individual-bio">{{ person.bio}}</p>{% endcapture %} {% assign bios = bios | append: bio %} {% endfor %}
+                <li>{{ person.name }} {% if person.institution %}
+                  ({{ person.institution }}) {% endif %}</li>
+                {% capture bio %}<p class="individual-bio">{{ person.bio}}</p>
+                {% endcapture %} {% assign bios = bios | append: bio %}
+                {% endfor %}
                 {% endif %}
               </ul>
             </div>
@@ -23,11 +29,54 @@
               <h3>Description</h3>
               <p>{{ page.description }}</p>
             </div>
-            <div class="poster-video">
+            <div class="poster-content">
+              {% if page.session-contents %}
               <h3>Poster</h3>
-              <div class="theme-video embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="{{ page.video }}"></iframe>
+              {% for doc in page.session-contents %}
+              <div class="poster-document">
+                {% if doc.type == 'video' %}
+                <div class="poster-video">
+                  <h4 class="h5">{{doc.title}}</h4>
+                  <div
+                    class="theme-video embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item"
+                      src="{{ doc.url }}"></iframe>
+                  </div>
+                </div>
+                {% elsif doc.type == 'image' %}
+                <div class="poster-image">
+                  <h4 class="h5">{{doc.title}}</h4>
+                  <img src="{{doc.url}}" alt={{doc.alt}} style="max-width: 100%"
+                    class="img-responsive" />
+                  <figcaption>{{doc.text-description}}</figcaption>
+                </div>
+                {% endif %}
               </div>
+              {% endfor %}
+              {% endif %}
+              {% if page.supplemental-docs %}
+              <div class="supplemental-docs">
+                <h4 class="h5">Supplemental Documents</h4>
+                <ul class="fa-ul">
+                  {% for supdoc in page.supplemental-docs %}
+                  {% if supdoc.type == 'pdf' %}
+                  {% assign icon = "fas fa-file-pdf" %}
+                  {% elsif supdoc.type == 'word' %}
+                  {% assign icon = "fas fa-file-word" %}
+                  {% elsif supdoc.type == "website" %}
+                  {% assign icon = "fas fa-rocket" %}
+                  {% elsif supdoc.type == "github" %}
+                  {% assign icon = "fab fa-github" %}
+                  {% else %}
+                  {% assign icon = "fas fa-circle" %}
+                  {% endif %}
+
+                  <li><span class="fa-li"><i class="{{icon}}"></i></span><a
+                      href="{{supdoc.url}}">{{supdoc.title}}</a></li>
+                  {% endfor %}
+                </ul>
+              </div>
+              {% endif %}
             </div>
             <div class="poster-presenter-about">
               <h3>About</h3>
@@ -38,23 +87,30 @@
           <div id="page-navigation" class="page-navigation">
             <div class="next col-xs-6">
               {% if page.next.url %}
-              <a href="{{ page.next.url | prepend: site.baseurl }}" title="{{ page.next.title | strip_html }}">&laquo; {{page.next.title | strip_html | truncate: 25 }}</a>
+              <a href="{{ page.next.url | prepend: site.baseurl }}"
+                title="{{ page.next.title | strip_html }}">&laquo;
+                {{page.next.title | strip_html | truncate: 25 }}</a>
               {% endif %}
             </div>
             <div class="previous col-xs-6 text-right">
               {% if page.previous.url %}
-              <a href="{{ page.previous.url | prepend: site.baseurl }}" title="{{ page.previous.title | strip_html }}">{{page.previous.title | strip_html | truncate: 25 }} &raquo;</a>
+              <a href="{{ page.previous.url | prepend: site.baseurl }}"
+                title="{{ page.previous.title | strip_html }}">{{page.previous.title | strip_html | truncate: 25 }}
+                &raquo;</a>
               {% endif %}
             </div>
           </div>
           {% if include.isStaticPost == false %}
           <div class="comments">
-            {% if site.postersCommentsEnabled %} {% include disqus-comments.html %} {% endif %}
+            {% if site.postersCommentsEnabled %}
+            {% include disqus-comments.html %}
+            {% endif %}
           </div>
           {% endif %}
         </article>
       </div>
-      <div class="col-lg-3 col-lg-offset-1 col-md-2 col-xs-12" id="poster-sponsors">
+      <div class="col-lg-3 col-lg-offset-1 col-md-2 col-xs-12"
+        id="poster-sponsors">
         {% include sponsors-per-session.html sessionType='Posters' %}
       </div>
     </div>

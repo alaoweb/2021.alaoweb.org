@@ -15,7 +15,25 @@ presenters:
       bio: Kathleen is the Director of Heterick Memorial Library at Ohio Northern University. She has a M.A. in Library Information Science from University of Iowa, a M.A. in Elementary Education from Teachers College, Columbia University and a B.A. in English/French from Grinnell College.,
       institution: Ohio Northern University
     }
-video: "//www.youtube.com/embed/{video-is}"
+session-contents:
+#  - type: video
+#    url: //www.youtube.com/embed/{video-id}
+#    title: Intro Video
+#  - type: image
+#    url: /img/posters/filename.png
+#    title: Image Title
+#    alt: Alt text
+#    text-description: "<ol><li>Thing One</li><li>Thing Two</li></ol>"
+supplemental-docs:
+#  - type: word
+#    url: /handouts/handout.docx
+#    title: My great worksheet
+#  - type: pdf
+#    url: /handouts/my-handout.pdf
+#    title: Sample Handout
+#  - type: website
+#    url: https://example.com/nifty-widget
+#    title: Website name
 isStaticPost: false
 published: true
 ---
