@@ -797,3 +797,13 @@
   bio:
   thumbnailUrl: no_image.png
   rockstar: false
+
+- id: 78
+  name: 'Tammy'
+  surname: 'Stitz'
+  pronouns:
+  company: 'University of Akron'
+  title: 'Applied Sciences Librarian'
+  bio:
+  thumbnailUrl: tammy_stitz.jpg
+  rockstar: false
