@@ -6,7 +6,7 @@
         <div class="zoe-effect ribbon-activator" data-toggle="modal"
             data-target="#speakerDetail-{{ speaker.id }}">
             <figure class="waves-effect waves-block waves-light"
-                style="background-image: url({{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }})">
+                style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.8)), url({{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }})">
                 <div class="overlay solid-overlay"></div>
                 {% if speaker.ribbon != null %}
                 <ul class="ribbon-wrapper">
