@@ -36,7 +36,7 @@
                     </a>
                     {% endfor %}
                 </figcaption>
-                <p class="bio">{{ speaker.bio | strip_html }}</p>
+                <p class="bio">{{ speaker.bio | strip_html | truncatewords: 20, " ..." }}</p>
             </figure>
         </div>
     </div>
