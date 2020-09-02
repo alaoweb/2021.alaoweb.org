@@ -245,7 +245,7 @@
   company: 'Miami University'
   title: 'Humanities and Social Sciences Librarian'
   bio: 'Mark Dahlquist (Miami University) is a Humanities and Social Sciences Librarian. His research interests include digital humanities, information creativity and literacy, and early modern literary studies.'
-  thumbnailUrl: no_image.png
+  thumbnailUrl: mark_dahlquist.jpg
   rockstar: false
 
 - id: 23
@@ -585,7 +585,7 @@
   company: 'Miami University'
   title: 'Digital Scholarship Librarian'
   bio: 'Jody Perkins is a Digital Scholarship Librarian. Her research interests include Digital Libraries, Linked Open Data and Digital Humanities Pedagogy.'
-  thumbnailUrl: no_image.png
+  thumbnailUrl: jody_perkins.jpg
   rockstar: false
 
 - id: 57
