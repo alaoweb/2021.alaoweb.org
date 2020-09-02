@@ -165,7 +165,7 @@
   company: 'Miami University'
   title: 'Technology Development Manager'
   bio: 'Mike Bomholt is a Technology Development Manager. He specializes in Endpoint device and software management.'
-  thumbnailUrl: no_image.png
+  thumbnailUrl: mike_bomholt.jpg
   rockstar: false
 
 - id: 15
@@ -245,7 +245,7 @@
   company: 'Miami University'
   title: 'Humanities and Social Sciences Librarian'
   bio: 'Mark Dahlquist (Miami University) is a Humanities and Social Sciences Librarian. His research interests include digital humanities, information creativity and literacy, and early modern literary studies.'
-  thumbnailUrl: no_image.png
+  thumbnailUrl: mark_dahlquist.jpg
   rockstar: false
 
 - id: 23
@@ -585,7 +585,7 @@
   company: 'Miami University'
   title: 'Digital Scholarship Librarian'
   bio: 'Jody Perkins is a Digital Scholarship Librarian. Her research interests include Digital Libraries, Linked Open Data and Digital Humanities Pedagogy.'
-  thumbnailUrl: no_image.png
+  thumbnailUrl: jody_perkins.jpg
   rockstar: false
 
 - id: 57
@@ -745,7 +745,7 @@
   company: 'Miami University'
   title: 'Coordinator of Access Services'
   bio: 'Withers is Coordinator of Access Services at Miami University. He has presented at conferences including the Access Services Conference, ACRL, Brick and Click, Computers in Libraries, HighEdWeb, LOEX, and NASIG and published in Against the Grain, College & Research Libraries,  C&RL News, Library Collections, Acquisitions and Technical Services, and College & Undergraduate Libraries.'
-  thumbnailUrl: no_image.png
+  thumbnailUrl: rob_withers.jpg
   rockstar: false
 
 - id: 73
