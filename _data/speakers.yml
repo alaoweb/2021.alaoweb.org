@@ -95,7 +95,7 @@
   company: 'Ohio Northern University'
   title: 'Director'
   bio: 'Kathleen Baril is the Director of Heterick Memorial Library at Ohio Northern University.  She has a M.A. in Library Information Science from University of Iowa, a M.A. in Elementary Education from Teachers College, Columbia University and a B.A. in English/French from Grinnell College.'
-  thumbnailUrl: no_image.png
+  thumbnailUrl: kathleen_baril.jpg
   rockstar: false
 
 - id: 8
@@ -615,7 +615,7 @@
   company: 'Ohio Northern University'
   title:
   bio: 'Carah Porter is a senior undergraduate psychology student at Ohio Northern University. She works part time at the Ohio Northern University Writing Center.'
-  thumbnailUrl: no_image.png
+  thumbnailUrl: carah_porter.jpg
   rockstar: false
 
 - id: 60
