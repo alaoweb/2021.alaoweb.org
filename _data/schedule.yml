@@ -61,6 +61,11 @@
         endTime: "4:30",
         sessionIds: [119, 110]
     }
+    - {
+      startTime: "7:00",
+      endTime: "9:00",
+      sessionIds: [203]
+    }
 
 
 - date: "2020-10-30"
