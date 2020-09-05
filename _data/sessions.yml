@@ -44,6 +44,14 @@
   live-stream-time: "2020-10-28 15:30:00"
   live-stream-link: "https://www.example.com"
 
+- id: 004
+  title: "New Members Night 👋"
+  description: "Session for members new to ALAO"
+  subtype: social
+  live-stream-type: social
+  live-stream-time:
+  live-stream-link: "https://www.example.com"
+
 # ---------------------------------
 # CONFERENCE DAY[1], prefix ID 10x
 # Increment session IDs by 1

@@ -19,6 +19,11 @@
       endTime: "4:30",
       sessionIds: [003]
     }
+    - {
+      startTime: "7:00",
+      endTime: "8:00",
+      sessionIds: [004]
+    }
 
 - date: "2020-10-29"
   dateReadable: "October 29"
