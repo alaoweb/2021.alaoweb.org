@@ -82,11 +82,13 @@
 					</div>
 					<div id="session-sponsors" class="modal-sponsors">
 						{% if session.subtype == "keynote" %}
-						{% assign sponsorType = "Keynote" %}
+							{% assign sponsorType = "Keynote" %}
+							{% include sponsors-per-session.html sessionType=sponsorType %}
 						{% elsif session.subtype == "session" %}
-						{% assign sponsorType = "Sessions" %}
+							{% assign sponsorType = "Sessions" %}
+							{% include sponsors-per-session.html sessionType=sponsorType %}
+						{% elsif session.subtype == "social" %}
 						{% endif %}
-						{% include sponsors-per-session.html sessionType=sponsorType %}
 					</div>
 				</div>
 			</div>
