@@ -44,6 +44,14 @@
   live-stream-time: "2020-10-28 15:30:00"
   live-stream-link: "https://www.example.com"
 
+- id: 004
+  title: "New Members Night 👋"
+  description: "Session for members new to ALAO"
+  subtype: social
+  live-stream-type: social
+  live-stream-time:
+  live-stream-link: "https://www.example.com"
+
 # ---------------------------------
 # CONFERENCE DAY[1], prefix ID 10x
 # Increment session IDs by 1
@@ -362,7 +370,7 @@
 
                 This presentation will discuss the design and methodology used to create the initiative, training, and implementation as well as discuss the workshop outcome and its effectiveness in developing strategic EDI actions for the organization. The presentation will also provide a method from which to cultivate in-house EDI leaders who can lead from where they are."
   subtype: session
-  speakers: [28]
+  speakers: [28, 76]
   language:
   complexity:
   handouts:
@@ -408,4 +416,44 @@
   subtype: social
   description: "Join your colleagues for some light-hearted trivia"
   live-stream-type: social
+  live-stream-link: "https://www.example.com"
+
+- id: 204
+  title: "Sustainability Interest Group (SUSIG)"
+  subtype: social
+  description: "<br/><strong>How are you being more sustainable at your library during the pandemic?</strong><br/>Join ALAO keynote speaker Rebekkah Smith Aldrich and the Sustainability Interest Group for an opportunity to ask questions, share experiences, and discuss the role of sustainability in academic libraries. We will explore ways in which our libraries have been more sustainable during the pandemic, and what we can do as academic librarians to contribute to sustainability efforts going forward."
+  handouts:
+  video:
+  live-stream-type: social
+  live-stream-time:
+  live-stream-link: "https://www.example.com"
+
+- id: 205
+  title: "STEM Interest Group (STEMIG)"
+  subtype: social
+  description: "<br/><strong>STEM Librarianship During the Pandemic</strong><br/>Librarians supporting STEM research and education face unique challenges (and maybe opportunities) in the post-COVID-19 world. Join STEMIG to discuss how the pandemic has changed the way we work."
+  handouts:
+  video:
+  live-stream-type: social
+  live-stream-time:
+  live-stream-link: "https://www.example.com"
+
+- id: 206
+  title: "Instruction Interest Group (IIG)"
+  subtype: social
+  description: "<br/><strong>Keeping Students Engaged: Information Literacy Instruction in a Virtual Environment</strong><br/>Join the Instruction Interest Group’s lunchtime roundtable to discuss instruction techniques that keep students engaged in both synchronous and asynchronous virtual learning environments."
+  handouts:
+  video:
+  live-stream-type: social
+  live-stream-time:
+  live-stream-link: "https://www.example.com"
+
+- id: 207
+  title: "Special Collections and Archives Interest Group (SCAIG)"
+  subtype: social
+  description: "<br/><strong>Special Collections, Archives, and Extraordinary Circumstances</strong><br/>Discussion on how the fall is progressing for special collections and archives professionals in the time of COVID-19: what was planned, what’s changed, and other new challenges and successes."
+  handouts:
+  video:
+  live-stream-type: social
+  live-stream-time:
   live-stream-link: "https://www.example.com"

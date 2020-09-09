@@ -15,9 +15,14 @@
         sessionIds: [002]
     }
     - {
-      startTime: "3:30",
-      endTime: "4:30",
-      sessionIds: [003]
+        startTime: "3:30",
+        endTime: "4:30",
+        sessionIds: [003]
+    }
+    - {
+      startTime: "7:00",
+      endTime: "8:00",
+      sessionIds: [004]
     }
 
 - date: "2020-10-29"
@@ -42,9 +47,9 @@
         sessionIds: [107, 118]
     }
     - {
-      startTime: "12:10",
-      endTime: "1:10",
-      sessionIds: [122]
+        startTime: "12:10",
+        endTime: "1:10",
+        sessionIds: [122]
     }
     - {
         startTime: "1:10",
@@ -75,6 +80,11 @@
     - {title: "Track #2"}
   timeslots:
     - {
+        startTime: "8:00",
+        endTime: "8:50",
+        sessionIds: [204, 205]
+    }
+    - {
         startTime: "9:00",
         endTime: "10:00",
         sessionIds: [109, 103]
@@ -90,9 +100,9 @@
         sessionIds: [106, 116]
     }
     - {
-      startTime: "12:20",
-      endTime: "1:20",
-      sessionIds: [202]
+        startTime: "12:20",
+        endTime: "1:20",
+        sessionIds: [206, 207, 202]
     }
     - {
         startTime: "1:20",
@@ -105,7 +115,7 @@
         sessionIds: [111, 104]
     }
     - {
-      startTime: "3:40",
-      endTime: "4:30",
-      sessionIds: [201]
+        startTime: "3:40",
+        endTime: "4:30",
+        sessionIds: [201]
     }
