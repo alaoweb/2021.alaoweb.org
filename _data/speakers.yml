@@ -781,7 +781,7 @@
 - id: 76
   name: 'Sandra'
   surname: 'Enimil'
-  pronouns:
+  pronouns: 'she/her/hers'
   company: 'Yale University Library'
   title: 'Copyright Librarian and Contracting Specialist'
   bio: "Sandra Aya Enimil is the Copyright Librarian and Contracting Specialist at Yale University Library. Prior to this role, she was the Copyright Services Librarian at the Ohio State University Libraries. She has also given numerous presentations on various aspects of copyright at several institutions. Sandra was previously the Archives/Copyright Manager of the Chicago Defender Newspaper. Sandra earned her Law and Masters of Library and Information Science degrees from the University of Illinois at Urbana-Champaign. Sandra has Bachelor of Arts degrees in Political Science and Psychology from the University of Michigan and a Master's degree in International Relations from the University of Ghana"
