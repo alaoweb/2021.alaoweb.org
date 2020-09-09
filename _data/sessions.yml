@@ -410,6 +410,14 @@
   service: true
   description:
 
+- id: 203
+  title: "🎉 Thursday Night Social"
+  place: "Zoom"
+  subtype: social
+  description: "Join your colleagues for some light-hearted trivia"
+  live-stream-type: social
+  live-stream-link: "https://www.example.com"
+
 - id: 204
   title: "Sustainability Interest Group (SUSIG)"
   subtype: social
