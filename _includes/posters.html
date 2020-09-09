@@ -1,10 +1,10 @@
 <!-- Begin Posters: indexed list of posters -->
-<section id="blog" class="poster">
+<section id="blog">
   <div class="content-wrapper text-left">
     {% if site.showPosters == false %}
     <h2 style="text-align: center">{{ site.noPostersText }}</h2>
     {% else %}
-      <div id="poster-sessions" class="col-lg-10 col-md-10 col-xs-10 col-lg-offset-2 col-md-offset-1 col-xs-offset-1">
+      <div id="poster-sessions" class="col-lg-10 col-md-10 col-xs-10 col-md-offset-1 col-xs-offset-1">
         {% for post in site.posts %}
         <article class="post">
         <div class="card">
