@@ -7,6 +7,7 @@ speaker-data: [78]
 presenters:
   - {
       name: Rob O'Brien Withers,
+      institution: Miami University,
       bio:
     }
 session-contents:
