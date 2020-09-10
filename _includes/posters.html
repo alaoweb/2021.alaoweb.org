@@ -1,40 +1,33 @@
 <!-- Begin Posters: indexed list of posters -->
-<section id="blog" class="blog">
+<section id="blog">
   <div class="content-wrapper text-left">
     {% if site.showPosters == false %}
-    <h3 style="text-align: center">{{ site.noPostersText }}</h3>
+    <h2 style="text-align: center">{{ site.noPostersText }}</h2>
     {% else %}
-    <div
-      class="col-md-10 col-sm-10 col-lg-offset-2 col-md-offset-2 col-sm-offset-1">
-      <h3>{{ site.postersTitle }}</h3>
-      <div class="col-lg-8 col-md-10 col-xs-12">
+      <div id="poster-sessions" class="col-lg-10 col-md-10 col-xs-10 col-md-offset-1 col-xs-offset-1">
         {% for post in site.posts %}
-        <article class="row post">
-          <a href="{{ site.baseurl | append: post.url }}"
-            title="{{ post.title }}">
-            <h4>{{ post.title }}</h4>
-          </a>
-          <div class="post-header">
-            <div class="published col-md-6 col-xs-6 pull-left">
-              <span class="caption">Posted:</span>
-              <span class="publish-date"
-                itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}{% if post.presenters %} {%
-                for person in post.presenters %} • {{ person.name }} {% if
-                person.institution %}({{ person.institution }}){% endif %}{%
-                endfor %}{% endif %}</span>
-            </div>
+        <article class="post">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="poster-title">{{ post.title }}</h3>
+            {% if post.presenters %}
+            <p>
+              {%for person in post.presenters %}
+                <strong>{{ person.name }}</strong>{% if person.institution %} • {{ person.institution }} {% endif %}<br />
+              {%endfor %}
+            </p>
+            {% endif %}
+            <a href="{{ site.baseurl | append: post.url }}" title="{{ post.title }}" class="btn btn-primary">View Poster</a>
           </div>
-          <p class="post-body">
-            {{ post.content | strip_html | truncate: 350 }}
-            <a href="{{ site.baseurl | append: post.url }}">continue reading</a>
-          </p>
+        </div>
         </article>
-        {% endfor %} {% if paginator.total_pages > 1 %}
+        {% endfor %}
+        {% if paginator.total_pages > 1 %}
         <div class="row">
           <div class="pagination">
             {% if paginator.previous_page %}
             <a href="/page{{ paginator.previous_page }}"
-              class="previous">Previous</a>
+               class="previous">Previous</a>
             {% else %}
             <span class="previous">Previous</span>
             {% endif %}
@@ -51,6 +44,5 @@
       </div>
     </div>
     {% endif %}
-  </div>
 </section>
 <!-- End Posters -->
