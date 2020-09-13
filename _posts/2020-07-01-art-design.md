@@ -33,7 +33,7 @@ supplemental-docs:
 #    title: Sample Handout
   - type: website
     url: https://libguides.udayton.edu/artalao
-    title: VIDEOS, WORKSHEETS, & REPORTS
+    title: View sample worksheets, reports and videos 
 isStaticPost: false
 published: true
 ---
