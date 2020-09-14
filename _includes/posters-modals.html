@@ -23,7 +23,9 @@
             <p class="poster-description">
               {{ page.description }}
             </p>
-            <a href="/posters/{{page.slug}}.html" class="btn btn-primary">View Poster</a>
+            {% if site.showPosters != false %}
+              <a href="/posters/{{page.slug}}.html" class="btn btn-primary">View Poster</a>
+            {% endif %}
             <div class="people-details">
               {% if page.speaker-data %}
               {% for id in page.speaker-data %}
