@@ -80,11 +80,6 @@
     - {title: "Track #2"}
   timeslots:
     - {
-        startTime: "8:00",
-        endTime: "8:50",
-        sessionIds: [204, 205]
-    }
-    - {
         startTime: "9:00",
         endTime: "10:00",
         sessionIds: [109, 103]
@@ -102,7 +97,7 @@
     - {
         startTime: "12:20",
         endTime: "1:20",
-        sessionIds: [206, 207, 202]
+        sessionIds: [204, 205, 206, 207, 202]
     }
     - {
         startTime: "1:20",
