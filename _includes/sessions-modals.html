@@ -34,6 +34,16 @@
 					</div>
 					{% endif %}
 					<p class="theme-description">{{ session.description }}</p>
+
+
+					<div class="row survey-row">
+						<div class="col-md-4"></div>
+						<div class="col-md-8">
+							<a href="{{ site.sessionFeedbackForm }}&{{ site.sessionFeedbackParameter }}={{ session.title | url_encode }}" class="survey-button btn">Session Feedback</a>
+						</div>
+					</div>
+
+
 					<div class="row qa-row">
 						<div class="col-md-4">
 							{% if session.handouts %}
@@ -51,14 +61,14 @@
 						<div class="col-md-8 qa-info">
 							{% if session.live-stream-link and session.live-stream-type %}
 							{% if session.live-stream-type == 'q&a' or session.live-stream-type == 'Q&A' %}
-							<div class="qa-time">
-								{{ session.live-stream-type | upcase }} starts:
-								{{ session.live-stream-time | date: "%b %d %I:%M %p" }}
-							</div>
 							<div class="qa-button">
 								<a href="{{ session.live-stream-link }}"
 									class="btn btn-danger">Launch
 									{{ session.live-stream-type | upcase }}</a>
+							</div>
+							<div class="qa-time">
+								{{ session.live-stream-type | upcase }} starts:
+								{{ session.live-stream-time | date: "%b %d %I:%M %p" }}
 							</div>
 							{% else %}
 							<div class="qa-button">

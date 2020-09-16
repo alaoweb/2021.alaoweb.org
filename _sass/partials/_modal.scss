@@ -134,6 +134,19 @@ $modal-highlight-color: #212121;
   .qa-time {
     float: right;
     padding-left: 10px;
+    padding-right: 10px;
     transform: translateY(50%);
+  }
+}
+.survey-row {
+  height: auto; // 40px
+  .survey-button {
+    float: right;
+    background-color: #e5e5e5;
+    color: #fff;
+    margin-bottom: 5px;
+    &:hover {
+      background-color: #00665b;
+    }
   }
 }
