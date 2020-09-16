@@ -10,6 +10,7 @@
     padding-bottom: 5px;
   }
 </style>
+
 <div class="row">
   {% for sponsor in site.data.sponsors %}
   {% if sponsor.group == 'Gold' or sponsor.group == include.sessionType %}
@@ -29,4 +30,28 @@
   </div>
   {% endif %}
   {% endfor %}
+
+  {% if session.additional_support %}
+  {% for sponsor in site.data.sponsors %}
+    {% if sponsor.group == 'Additional Support' %}
+      <div class="sponsorGroupWrapper">
+        <div class="h3">{{ sponsor.group }}</div>
+        <ul class="list-inline">
+          {% for element in sponsor.elements %}
+            {% if element.name == session.additional_support %}
+            <li>
+              <a href="{{ element.link }}" target="_blank">
+                <img src="{{ site.baseurl }}/img/sponsors/{{ element.imageUrl }}"
+                  title="{{ element.description }}" alt="{{ element.name }}"
+                  style="width:100%" />
+              </a>
+            </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+  {% endfor %}
+  {% endif %}
+
 </div>
