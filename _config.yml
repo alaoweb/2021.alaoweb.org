@@ -390,7 +390,7 @@ ticketsOffers:
 # -------------------------------------------------------------
 # Tweets Feed Block
 # -------------------------------------------------------------
-tweetsFeedEnable: false
+tweetsFeedEnable: true
 tweetsFeedImage: "katy.jpg"
 tweetsFeedTitle: "What's Up?"
 twitterHashTag: "alao2020"
