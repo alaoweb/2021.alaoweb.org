@@ -4,6 +4,23 @@
     margin-top: 30px;
     font-size: 29.9px;
   }
+  .video-container {
+    display: table;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .video {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .video-link {
+    color: #ff0000;
+    transition: all .2s ease-in-out;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
   .list-inline {
     margin-bottom: 65px;
     li {
@@ -45,3 +62,4 @@
     }
   }
 }
+
