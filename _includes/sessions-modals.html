@@ -26,7 +26,7 @@
 							class="caption">Complexity:
 						</span>{{ session.complexity }}</span>
 					{% endif %}
-					{% if session.video %}
+					{% if site.showSessions == true and session.video %}
 					<div
 						class="theme-video embed-responsive embed-responsive-16by9">
 						<iframe class="embed-responsive-item"
