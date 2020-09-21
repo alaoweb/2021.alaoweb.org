@@ -298,6 +298,12 @@ subscribeAction: "https://alaoweb.us10.list-manage.com/subscribe/post?u=ac241e26
 subscribeInfo: "Stay Informed of ALAO Events!"
 
 # -------------------------------------------------------------
+# Surveys
+# -------------------------------------------------------------
+sessionFeedbackForm: "http://www.example.com/"
+sessionFeedbackParameter: "entry.792046611"
+
+# -------------------------------------------------------------
 # Team Block
 # -------------------------------------------------------------
 teamBlockTitle: "About us"
