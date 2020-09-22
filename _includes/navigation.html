@@ -30,6 +30,11 @@
             </li>
             {% endfor %}
         </ul>
+        <ul id="conferenceHashtag" class="navbar-text">
+            <li><a href="https://twitter.com/hashtag/{{site.twitterHashTag}}"
+                    target="twitter">#{{site.twitterHashTag}}</a>
+            </li>
+        </ul>
         {% for rightNavigationButton in site.rightNavigationButtons %}
         <a href="{% if rightNavigationButton.permalink != null %} {{ rightNavigationButton.permalink | prepend: site.baseurl }} {% else %} {{ rightNavigationButton.link }} {% endif %}"
             class="right-nav-button right-nav-button-hidden btn btn-primary waves-effect waves-button waves-light waves-float pull-right hidden-xs hidden-sm"

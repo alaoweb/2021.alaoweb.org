@@ -143,6 +143,17 @@ nav {
       }
     }
   }
+  ul#conferenceHashtag {
+    float: right;
+    li a {
+      font-size: $base-font-size * 1.5;
+      font-weight: 400;
+      text-transform: none!important;
+      @media (max-width: 767px) {
+        color: rgba(0, 0, 0, 0.6);
+      }
+    }
+  }
 }
 .right-nav-button {
   margin: 11px 11px 0 0;
