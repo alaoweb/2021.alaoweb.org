@@ -4,45 +4,49 @@
     {% if site.showPosters == false %}
     <h2 style="text-align: center">{{ site.noPostersText }}</h2>
     {% else %}
-      <div id="poster-sessions" class="col-lg-10 col-md-10 col-xs-10 col-md-offset-1 col-xs-offset-1">
-        {% for post in site.posts %}
-        <article class="post">
+    <div id="poster-sessions"
+      class="col-lg-10 col-md-10 col-xs-10 col-md-offset-1 col-xs-offset-1">
+      {% assign sortedPosts = site.posts | sort: 'title' %}
+      {% for post in sortedPosts %}
+      <article class="post">
         <div class="card">
           <div class="card-body">
             <h3 class="poster-title">{{ post.title }}</h3>
             {% if post.presenters %}
             <p>
               {%for person in post.presenters %}
-                <strong>{{ person.name }}</strong>{% if person.institution %} • {{ person.institution }} {% endif %}<br />
+              <strong>{{ person.name }}</strong>{% if person.institution %} •
+              {{ person.institution }} {% endif %}<br />
               {%endfor %}
             </p>
             {% endif %}
-            <a href="{{ site.baseurl | append: post.url }}" title="{{ post.title }}" class="btn btn-primary">View Poster</a>
+            <a href="{{ site.baseurl | append: post.url }}"
+              title="{{ post.title }}" class="btn btn-primary">View Poster</a>
           </div>
         </div>
-        </article>
-        {% endfor %}
-        {% if paginator.total_pages > 1 %}
-        <div class="row">
-          <div class="pagination">
-            {% if paginator.previous_page %}
-            <a href="/page{{ paginator.previous_page }}"
-               class="previous">Previous</a>
-            {% else %}
-            <span class="previous">Previous</span>
-            {% endif %}
-            <span class="page-number">Page: {{ paginator.page }} of
-              {{ paginator.total_pages }}</span>
-            {% if paginator.next_page %}
-            <a href="/page{{ paginator.next_page }}" class="next">Next</a>
-            {% else %}
-            <span class="next">Next</span>
-            {% endif %}
-          </div>
+      </article>
+      {% endfor %}
+      {% if paginator.total_pages > 1 %}
+      <div class="row">
+        <div class="pagination">
+          {% if paginator.previous_page %}
+          <a href="/page{{ paginator.previous_page }}"
+            class="previous">Previous</a>
+          {% else %}
+          <span class="previous">Previous</span>
+          {% endif %}
+          <span class="page-number">Page: {{ paginator.page }} of
+            {{ paginator.total_pages }}</span>
+          {% if paginator.next_page %}
+          <a href="/page{{ paginator.next_page }}" class="next">Next</a>
+          {% else %}
+          <span class="next">Next</span>
+          {% endif %}
         </div>
-        {% endif %}
       </div>
+      {% endif %}
     </div>
-    {% endif %}
+  </div>
+  {% endif %}
 </section>
 <!-- End Posters -->
