@@ -41,7 +41,7 @@
   handouts:
   video: "//www.youtube.com/embed/{replace_with_video_id}"
   live-stream-type: Q&A
-  live-stream-time: "2020-10-28 15:30:00"
+  live-stream-time: "2020-10-28 16:15:00"
   live-stream-link: "https://www.example.com"
 
 - id: 004
@@ -103,7 +103,7 @@
   handouts:
   video:
   live-stream-type: Q&A
-  live-stream-time: "2020-10-29 14:20:00"
+  live-stream-time: "2020-10-29 15:05:00"
   live-stream-link:
 
 - id: 103
@@ -116,7 +116,7 @@
   handouts:
   video:
   live-stream-type: Q&A
-  live-stream-time: "2020-10-30 09:00:00"
+  live-stream-time: "2020-10-30 09:45:00"
   live-stream-link:
 
 - id: 104
@@ -132,7 +132,7 @@
   handouts:
   video:
   live-stream-type: Q&A
-  live-stream-time: "2020-10-30 14:30:00"
+  live-stream-time: "2020-10-30 15:15:00"
   live-stream-link:
 
 - id: 105
@@ -145,7 +145,7 @@
   handouts:
   video:
   live-stream-type: Q&A
-  live-stream-time: "2020-10-30 10:10:00"
+  live-stream-time: "2020-10-30 10:55:00"
   live-stream-link:
 
 - id: 106
@@ -165,7 +165,7 @@
   handouts:
   video:
   live-stream-type: Q&A
-  live-stream-time: "2020-10-30 11:20:00"
+  live-stream-time: "2020-10-30 12:05:00"
   live-stream-link:
 
 - id: 107
@@ -179,7 +179,7 @@
   handouts:
   video:
   live-stream-type: Q&A
-  live-stream-time: "2020-10-29 11:10:00"
+  live-stream-time: "2020-10-29 11:55:00"
   live-stream-link:
 
 - id: 108
@@ -195,7 +195,7 @@
   handouts:
   video:
   live-stream-type: Q&A
-  live-stream-time: "2020-10-29 13:10:00"
+  live-stream-time: "2020-10-29 13:55:00"
   live-stream-link:
 
 - id: 109
@@ -208,7 +208,7 @@
   handouts:
   video:
   live-stream-type: Q&A
-  live-stream-time: "2020-10-30 09:00:00"
+  live-stream-time: "2020-10-30 09:45:00"
   live-stream-link:
 
 - id: 110
@@ -221,7 +221,7 @@
   handouts:
   video:
   live-stream-type: Q&A
-  live-stream-time: "2020-10-29 15:30:00"
+  live-stream-time: "2020-10-29 16:15:00"
   live-stream-link:
 
 - id: 111
@@ -235,7 +235,7 @@
   handouts:
   video:
   live-stream-type: Q&A
-  live-stream-time: "2020-10-30 14:30:00"
+  live-stream-time: "2020-10-30 15:15:00"
   live-stream-link:
 
 - id: 112
@@ -248,7 +248,7 @@
   handouts:
   video:
   live-stream-type: Q&A
-  live-stream-time: "2020-10-30 10:10:00"
+  live-stream-time: "2020-10-30 10:55:00"
   live-stream-link:
 
 - id: 113
@@ -262,7 +262,7 @@
   handouts:
   video:
   live-stream-type: Q&A
-  live-stream-time: "2020-10-30 13:20:00"
+  live-stream-time: "2020-10-30 14:05:00"
   live-stream-link:
 
 - id: 114
@@ -276,7 +276,7 @@
   handouts:
   video:
   live-stream-type: Q&A
-  live-stream-time: "2020-10-29 14:20:00"
+  live-stream-time: "2020-10-29 15:05:00"
   live-stream-link:
 
 - id: 115
@@ -289,7 +289,7 @@
   handouts:
   video:
   live-stream-type: Q&A
-  live-stream-time: "2020-10-30 13:20:00"
+  live-stream-time: "2020-10-30 14:05:00"
   live-stream-link:
 
 - id: 116
@@ -304,7 +304,7 @@
   handouts:
   video:
   live-stream-type: Q&A
-  live-stream-time: "2020-10-30 11:20:00"
+  live-stream-time: "2020-10-30 12:05:00"
   live-stream-link:
 
 - id: 117
@@ -320,7 +320,7 @@
   handouts:
   video:
   live-stream-type: Q&A
-  live-stream-time: "2020-10-29 10:00:00"
+  live-stream-time: "2020-10-29 10:45:00"
   live-stream-link:
 
 - id: 118
@@ -335,7 +335,7 @@
   handouts:
   video:
   live-stream-type: Q&A
-  live-stream-time: "2020-10-29 11:10:00"
+  live-stream-time: "2020-10-29 11:55:00"
   live-stream-link:
 
 - id: 119
@@ -349,7 +349,7 @@
   handouts:
   video:
   live-stream-type: Q&A
-  live-stream-time: "2020-10-29 15:30:00"
+  live-stream-time: "2020-10-29 16:15:00"
   live-stream-link:
 
 - id: 120
@@ -364,7 +364,7 @@
   handouts:
   video:
   live-stream-type: Q&A
-  live-stream-time: "2020-10-29 10:00:00"
+  live-stream-time: "2020-10-29 10:45:00"
   live-stream-link:
 
 - id: 121
@@ -382,7 +382,7 @@
   handouts:
   video:
   live-stream-type: Q&A
-  live-stream-time: "2020-10-29 13:10:00"
+  live-stream-time: "2020-10-29 13:55:00"
   live-stream-link:
 
 - id: 122
