@@ -74,7 +74,7 @@ nav {
     transform: translate(0);
   }
   ul {
-    float: left;
+    //float: left;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -140,6 +140,19 @@ nav {
             color: $main-color;
           }
         }
+      }
+    }
+  }
+  #conferenceHashtag {
+    float: right;
+    transform: translateY(-4px);
+    a {
+      font-size: $base-font-size * 1.4;
+      font-weight: 400;
+      text-transform: none !important;
+      @media (max-width: 767px) {
+        color: rgba(0, 0, 0, 0.6);
+        border-left: none;
       }
     }
   }

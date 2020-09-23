@@ -20,6 +20,10 @@
                     {% endif %}>{{ navigationLink.text}}</a>
             </li>
             {% endfor %}
+            <li id="conferenceHashtag" class="navbar-text">
+                <a href="https://twitter.com/hashtag/{{site.twitterHashTag}}"
+                    target="twitter">#{{site.twitterHashTag}}</a>
+            </li>
         </ul>
         <ul id="bottom-navlinks" class="bottom-navlinks visible-xs">
             {% for bottomNavigationLink in site.bottomNavigationLinks %}
