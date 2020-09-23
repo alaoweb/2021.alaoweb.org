@@ -20,6 +20,10 @@
                     {% endif %}>{{ navigationLink.text}}</a>
             </li>
             {% endfor %}
+            <li id="conferenceHashtag" class="navbar-text">
+                <a href="https://twitter.com/hashtag/{{site.twitterHashTag}}"
+                    target="twitter">#{{site.twitterHashTag}}</a>
+            </li>
         </ul>
         <ul id="bottom-navlinks" class="bottom-navlinks visible-xs">
             {% for bottomNavigationLink in site.bottomNavigationLinks %}
@@ -29,11 +33,6 @@
                     {% endif %}>{{ bottomNavigationLink.text }}</a>
             </li>
             {% endfor %}
-        </ul>
-        <ul id="conferenceHashtag" class="navbar-text">
-            <li><a href="https://twitter.com/hashtag/{{site.twitterHashTag}}"
-                    target="twitter">#{{site.twitterHashTag}}</a>
-            </li>
         </ul>
         {% for rightNavigationButton in site.rightNavigationButtons %}
         <a href="{% if rightNavigationButton.permalink != null %} {{ rightNavigationButton.permalink | prepend: site.baseurl }} {% else %} {{ rightNavigationButton.link }} {% endif %}"
