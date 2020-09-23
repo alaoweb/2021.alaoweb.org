@@ -1,0 +1,39 @@
+---
+layout: default
+title: Awards
+permalink: /awards/
+image: waves-background.svg
+---
+{% include top-section.html %}
+
+<div class="container" id="awards">
+    <h2 class="h4">2020 ALAO Awards</h2>
+    <h3 class="h5">Presented at:
+        {{site.awardAnnouncementTime | date: "%A, %B %-d, %Y %I:%M%P"}}
+    </h3>
+
+    {% for award in site.data.awards %}
+    <h4 class="award-title">{{award.title}}</h4>
+    <div class="award-description">{{award.description}}
+        {% if award.infoUrl.size > 0 %}
+        [<a href="{{ award.infoUrl}}">Read more</a>]
+        {% endif %}
+    </div>
+
+    {% if site.showAwardWinners and award.winner.name.size > 0 %}
+    <div class="winner-block">
+        {% if award.winner.photo.size > 0 %}
+        <div class="winner-photo">
+            <img src="/img/people/{{award.winner.photo}}" class="img-circle" />
+        </div>
+        {% endif %}
+        <div class="award-winner">
+            Winner: {{award.winner.name}}, {{award.winner.institution}}
+        </div>
+        <div class="award-citation">{{award.winner.citation}}</div>
+    </div>
+
+
+    {% endif %}
+    {% endfor %}
+</div>

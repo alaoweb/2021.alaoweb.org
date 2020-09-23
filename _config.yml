@@ -47,6 +47,13 @@ aboutBlock:
  - {title: "Networking", image: "networking.jpg", text: "Opportunities to connect with other attendees in a less formal structure"}
 
 # -------------------------------------------------------------
+# Awards
+# -------------------------------------------------------------
+showAwardPage: true 
+showAwardWinners: true 
+awardAnnouncementTime: "2020-10-29T12:30:00"
+
+# -------------------------------------------------------------
 # Call For Proposals & Sponsors
 # -------------------------------------------------------------
 c4speakersEnable: false
