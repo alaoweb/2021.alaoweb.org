@@ -17,13 +17,15 @@ image: waves-background.svg
 {% include top-section.html %}
 
 <div class="container" id="awards">
-    <h2 class="h4">2020 ALAO Awards</h2>
-    <h3 class="h5">Presented at:
-        {{site.awardAnnouncementTime | date: "%A, %B %-d, %Y %I:%M%P"}}
-    </h3>
+    <div class="mb-4 text-center">
+        <h2 class="h4">2020 ALAO Awards</h2>
+        <h3 class="h5">Presented at:
+            {{site.awardAnnouncementTime | date: "%A, %B %-d, %Y %I:%M%P"}}
+        </h3>
+    </div>
 
     {% for award in site.data.awards %}
-    <div class="one-award p-3 mt-4">
+    <div class="one-award p-3 mb-4">
         <h4 class="award-title">{{award.title}}</h4>
         <div class="award-description">{{award.description}}
             {% if award.infoUrl.size > 0 %}
