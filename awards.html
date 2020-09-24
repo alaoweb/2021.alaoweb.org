@@ -4,6 +4,16 @@ title: Awards
 permalink: /awards/
 image: waves-background.svg
 ---
+<link rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+    crossorigin="anonymous">
+<style>
+    .jumbotron {
+        background-color: transparent !important;
+    }
+</style>
+
 {% include top-section.html %}
 
 <div class="container" id="awards">
@@ -13,27 +23,32 @@ image: waves-background.svg
     </h3>
 
     {% for award in site.data.awards %}
-    <h4 class="award-title">{{award.title}}</h4>
-    <div class="award-description">{{award.description}}
-        {% if award.infoUrl.size > 0 %}
-        [<a href="{{ award.infoUrl}}">Read more</a>]
+    <div class="one-award p-3 mt-4">
+        <h4 class="award-title">{{award.title}}</h4>
+        <div class="award-description">{{award.description}}
+            {% if award.infoUrl.size > 0 %}
+            [<a href="{{ award.infoUrl}}">Read more</a>]
+            {% endif %}
+        </div>
+
+        {% if site.showAwardWinners and award.winner.name.size > 0 %}
+        <div class="winner-block row">
+            {% if award.winner.photo.size > 0 %}
+            <div class="winner-photo col-2">
+                <img src="/img/people/{{award.winner.photo}}"
+                    class="img-circle" />
+            </div>
+            {% endif %}
+            <div class="col-9">
+                <div class="award-winner">
+                    Winner: {{award.winner.name}}, {{award.winner.institution}}
+                </div>
+                <div class="award-citation">{{award.winner.citation}}</div>
+            </div>
+        </div>
+
+
         {% endif %}
     </div>
-
-    {% if site.showAwardWinners and award.winner.name.size > 0 %}
-    <div class="winner-block">
-        {% if award.winner.photo.size > 0 %}
-        <div class="winner-photo">
-            <img src="/img/people/{{award.winner.photo}}" class="img-circle" />
-        </div>
-        {% endif %}
-        <div class="award-winner">
-            Winner: {{award.winner.name}}, {{award.winner.institution}}
-        </div>
-        <div class="award-citation">{{award.winner.citation}}</div>
-    </div>
-
-
-    {% endif %}
     {% endfor %}
 </div>
