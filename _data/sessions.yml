@@ -432,7 +432,7 @@
   video:
   live-stream-type: social
   live-stream-time: "2020-10-30 12:20:00"
-  live-stream-link: "https://www.example.com"
+  live-stream-link: "https://cwru.zoom.us/j/92705985210?pwd=M2hoZGhnUm5zc0xKMDdFeHpLL0VIZz09"
 
 - id: 205
   title: "STEM Interest Group (STEMIG)"
@@ -442,7 +442,7 @@
   video:
   live-stream-type: social
   live-stream-time: "2020-10-30 12:20:00"
-  live-stream-link: "https://www.example.com"
+  live-stream-link: "https://cwru.zoom.us/j/93704974862?pwd=ajd4S0dzYmZJYTZ6OVR1UTVqaTBsZz09"
 
 - id: 206
   title: "Instruction Interest Group (IIG)"
@@ -452,7 +452,7 @@
   video:
   live-stream-type: social
   live-stream-time: "2020-10-30 12:20:00"
-  live-stream-link: "https://www.example.com"
+  live-stream-link: "https://osu.zoom.us/j/92679366270?pwd=b1cxQlVZOXpMR3FsdW42OUNiblBWQT09"
 
 - id: 207
   title: "Special Collections and Archives Interest Group (SCAIG)"
@@ -462,4 +462,4 @@
   video:
   live-stream-type: social
   live-stream-time: "2020-10-30 12:20:00"
-  live-stream-link: "https://www.example.com"
+  live-stream-link: "https://udayton.zoom.us/j/94661071529?pwd=U2h4akl0c0taNmx1bW5MbjRMWnMxZz09"
