@@ -394,7 +394,7 @@
 
 - id: 123
   title: "Awards 👏"
-  description: ""
+  description: "The Awards sessions will announce the awardees who for ALAO's service awards and grant recipients. See the <a href=\"/awards/\">Awards</a> page for information about the awards. Award winners will be posted on the page after they are announced."
   subtype: social
   live-stream-type: awards
   live-stream-time: "2020-10-29 12:30:00"
