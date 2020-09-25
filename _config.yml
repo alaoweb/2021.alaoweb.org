@@ -300,8 +300,8 @@ subscribeInfo: "Stay Informed of ALAO Events!"
 # -------------------------------------------------------------
 # Surveys
 # -------------------------------------------------------------
-sessionFeedbackForm: "http://www.example.com/"
-sessionFeedbackParameter: "entry.792046611"
+sessionFeedbackForm: "https://docs.google.com/forms/d/e/1FAIpQLSdVgEk_d_Ed4mt7lBNZQx2XzT9fP1C7a5KFME1vyToYB8NDFA/viewform?usp=pp_url"
+sessionFeedbackParameter: "entry.1153076421"
 
 # -------------------------------------------------------------
 # Team Block
