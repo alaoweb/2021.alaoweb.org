@@ -392,6 +392,14 @@
   service: true
   description:
 
+- id: 123
+  title: "Awards 👏"
+  description: ""
+  subtype: social
+  live-stream-type: awards
+  live-stream-time: "2020-10-29 12:30:00"
+  live-stream-link: https://www.example.com
+
 # ---------------------------------
 # CONFERENCE DAY[2], prefix ID 20x
 # Increment session IDs by 1
