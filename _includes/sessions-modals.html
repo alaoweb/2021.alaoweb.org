@@ -34,12 +34,14 @@
 					</div>
 					{% endif %}
 					<p class="theme-description">{{ session.description }}</p>
+					{% if session.subtype == 'session' %}
 					<div class="row survey-row">
 						<div class="col-md-4"></div>
 						<div class="col-md-8">
 							<a href="{{ site.sessionFeedbackForm }}&{{ site.sessionFeedbackParameter }}={{ session.title | url_encode }}" class="survey-button btn" aria-label="Complete the session survey for {{ session.title }}}">Session Feedback</a>
 						</div>
 					</div>
+					{% endif %}
 					<div class="row qa-row">
 						<div class="col-md-4">
 							{% if session.handouts %}
