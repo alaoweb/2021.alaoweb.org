@@ -36,6 +36,11 @@
 							<p class="price">{{ ticketsOffer.price }}
 								{{ ticketsOffer.priceCurrency }}</p>
 						</div>
+						{% assign ticketValidFrom = ticketsOffer.validFrom | split: "T" %}
+						{% assign ticketValidThrough = ticketsOffer.validThrough | split: "T" %}
+						{% assign nowStamp = 'now' | date: '%s' %}
+						{% assign validFromStamp = ticketValidFrom[0] | date: '%s' %}
+						{% assign validToStamp = ticketValidThrough[0] | date: '%s' %}
 						<div class="col-sm-3 col-xs-12">
 							{% if ticketsOffer.soldOut == true %}
 							<p class="ticket-sold-out">
@@ -48,10 +53,17 @@
 									target="_blank">{{ ticketsOffer.buyButtonText }}</a>
 							</span>
 							{% else %}
-							{% assign ticketValidFrom = ticketsOffer.validFrom | split: "T" %}
-							<p class="ticket-fallback">Ticket sales will begin
-								on {{ ticketValidFrom[0] | date: '%B %d, %Y'}}
-								{{ ticketValidFrom[1] }}</p>
+
+							<p class="ticket-fallback">
+								{% if nowStamp > validToStamp %}
+								Ticket sales ended on
+								{{ ticketValidThrough[0] | date: '%B %d, %Y'}}
+								{% else %}
+								Ticket sales will begin on
+								{{ ticketValidFrom[0] | date: '%B %d, %Y'}}
+								{{ ticketValidFrom[1] }}
+								{% endif %}
+							</p>
 							{% endif %}
 						</div>
 					</div>
