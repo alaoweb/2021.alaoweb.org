@@ -340,7 +340,7 @@ ticketsOffers:
    ticketContentList: ["Keynotes", "Pre-recorded Sessions", "Posters"]
    validFrom: "2020-07-20"
    validThrough: "2020-09-28"
-   disabled: false
+   disabled: true
    soldOut: false
    soldOutText: "Sold Out"
 
@@ -356,7 +356,7 @@ ticketsOffers:
    ticketContentList: ["Keynotes", "Pre-recorded Sessions", "Posters"]
    validFrom: "2020-09-29"
    validThrough: "2020-10-16"
-   disabled: true
+   disabled: false
    soldOut: false
    soldOutText: "Sold Out"
 
