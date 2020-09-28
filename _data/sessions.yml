@@ -45,10 +45,10 @@
   live-stream-link: "https://www.example.com"
 
 - id: 004
-  title: "New Members Night 👋"
-  description: "Session for members new to ALAO"
-  subtype: social
-  live-stream-type: social
+  title: "Making the Most of your ALAO Membership"
+  description: " Whether you are considering joining ALAO, you joined recently or are looking for ways to get involved, this is the session for you! The program will start at 7 p.m. with a brief overview of the structure of ALAO with particular attention paid to how to get involved. There will also be time for questions and a chance to connect informally with other new members."
+  subtype: meeting
+  live-stream-type: meeting
   live-stream-time: "2020-10-28 19:00:00"
   live-stream-link: "https://www.example.com"
 
