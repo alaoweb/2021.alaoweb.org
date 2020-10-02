@@ -118,16 +118,6 @@
   thumbnailUrl: tina_beis.jpg
   rockstar: false
 
-- id: 10
-  name: 'Matt'
-  surname: 'Benzing'
-  pronouns: 'he/him/his'
-  company: 'Miami University'
-  title: 'Computing and Engineering Librarian'
-  bio: 'Matt Benzing is the Computing and Engineering librarian at Miami University.'
-  thumbnailUrl: matt_benzing.jpg
-  rockstar: false
-
 - id: 11
   name: 'Veronica'
   surname: 'Bielat'
