@@ -15,11 +15,6 @@ presenters:
       bio: Jerry Yarnetsky is a Web Services librarian at Miami University.,
       institution: Miami University
     }
-  - {
-      name: Matt Benzig,
-      bio: Matt Benzing is the Computing and Engineering librarian at Miami University.,
-      institution: Miami University
-    }
 session-contents:
 #  - type: video
 #    url: //www.youtube.com/embed/{video-id}
