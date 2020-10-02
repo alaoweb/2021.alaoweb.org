@@ -16,7 +16,7 @@
   video:
   live-stream-type: meeting
   live-stream-time: "2020-10-28 12:30:00"
-  live-stream-link: "https://www.example.com"
+  live-stream-link: "https://zoom.us/j/93676999606?pwd=ZXluNGRlcG95akpoM2oxTm5EWVpXZz09"
 
 - id: 002
   title: "Renewal: Promoting Civility and Self-Care in (Academic) Libraries"
@@ -29,7 +29,7 @@
   video:
   live-stream-type: workshop
   live-stream-time: "2020-10-28 13:00:00"
-  live-stream-link: "https://www.example.com"
+  live-stream-link: "https://zoom.us/j/99254388425?pwd=d240aUZhOTFYZGJjOTNRWEpvdXZidz09"
 
 - id: 003
   title: "From Being To Doing: Anti-racism as Action at Work"
@@ -42,7 +42,7 @@
   video: "//www.youtube.com/embed/{replace_with_video_id}"
   live-stream-type: Q&A
   live-stream-time: "2020-10-28 16:10:00"
-  live-stream-link: "https://www.example.com"
+  live-stream-link: "https://zoom.us/j/92980272044?pwd=Q1ZsNThGazNGVlBQd21iaGZyd1pidz09"
 
 - id: 004
   title: "Making the Most of your ALAO Membership"
@@ -50,7 +50,7 @@
   subtype: meeting
   live-stream-type: meeting
   live-stream-time: "2020-10-28 19:00:00"
-  live-stream-link: "https://www.example.com"
+  live-stream-link: "https://zoom.us/j/99177433462?pwd=WCt6OEhaSzRCSTRlQ1ZNZzNYcS9xQT09"
 
 # ---------------------------------
 # CONFERENCE DAY[1], prefix ID 10x
@@ -68,7 +68,7 @@
   video:
   live-stream-type: keynote
   live-stream-time: "2020-10-29 09:00:00"
-  live-stream-link: "https://www.example.com"
+  live-stream-link: "https://zoom.us/j/94847488840?pwd=cE1JZ1ljR1FIQjFiREJNV0dWSitIUT09"
 
 # EXAMPLE TEMPLATE FOR A PRERECORDED SESSION WITH Q&A
 #- id: 102
@@ -104,7 +104,7 @@
   video:
   live-stream-type: Q&A
   live-stream-time: "2020-10-29 15:05:00"
-  live-stream-link:
+  live-stream-link: "https://zoom.us/j/97051578436?pwd=bFNwTnNGVmQ0dUo4TFQ2V1d2RG82QT09"
 
 - id: 103
   title: "Speaking to Diversity through Information Literacy"
@@ -117,7 +117,7 @@
   video:
   live-stream-type: Q&A
   live-stream-time: "2020-10-30 09:45:00"
-  live-stream-link:
+  live-stream-link: "https://zoom.us/j/99757959861?pwd=UHJkSktTZU9sZnZlUk5scUkxMU5KQT09"
 
 - id: 104
   title: "Business Research Skills for Non-Business Librarians"
@@ -133,7 +133,7 @@
   video:
   live-stream-type: Q&A
   live-stream-time: "2020-10-30 15:15:00"
-  live-stream-link:
+  live-stream-link: "https://zoom.us/j/97111179471?pwd=dFNWbG13aFRwKzhER3hlSlBKNE9mUT09"
 
 - id: 105
   title: "Identity, Harm, and Hate in Special Collections"
@@ -146,7 +146,7 @@
   video:
   live-stream-type: Q&A
   live-stream-time: "2020-10-30 10:55:00"
-  live-stream-link:
+  live-stream-link: "https://zoom.us/j/94278620480?pwd=cjlaZ2FGWlVPYnJJTGRSLy9PWTN2UT09"
 
 - id: 106
   title: "How do I use statistics to help my library?  Let me count the ways."
@@ -166,7 +166,7 @@
   video:
   live-stream-type: Q&A
   live-stream-time: "2020-10-30 12:05:00"
-  live-stream-link:
+  live-stream-link: "https://zoom.us/j/98575362928?pwd=RzUzL0ZFV1F3Qk1SdXVzc3llK1FZdz09"
 
 - id: 107
   title: "Did it help?: Assessing how a change in streaming video access impacted expenditures and staff"
@@ -180,7 +180,7 @@
   video:
   live-stream-type: Q&A
   live-stream-time: "2020-10-29 11:55:00"
-  live-stream-link:
+  live-stream-link: "https://zoom.us/j/98913419982?pwd=Nm93L1h6L3dNTDVDM3AvWG1zVldyZz09"
 
 - id: 108
   title: "Building New Networks: Outreach, Campus Partnerships, and Student Employment in a Pandemic"
@@ -196,7 +196,7 @@
   video:
   live-stream-type: Q&A
   live-stream-time: "2020-10-29 13:55:00"
-  live-stream-link:
+  live-stream-link: "https://zoom.us/j/97477479765?pwd=VHBFZlRpaExnc2o3d0lGekR5Z0wydz09"
 
 - id: 109
   title: "Analysis and Assessment of the 'Get it Now' Service, Five Years after Implementation - is it Fulfilling its Purpose Sustainably?"
@@ -209,7 +209,7 @@
   video:
   live-stream-type: Q&A
   live-stream-time: "2020-10-30 09:45:00"
-  live-stream-link:
+  live-stream-link: "https://zoom.us/j/96739966882?pwd=SU5OelJ6eldDYXdPY3FIWkVBS3N0dz09"
 
 - id: 110
   title: "Supporting Information Literacy Learning in Developmental Writing Courses: A Model for Library and Writing Center Collaboration"
@@ -222,7 +222,7 @@
   video:
   live-stream-type: Q&A
   live-stream-time: "2020-10-29 16:15:00"
-  live-stream-link:
+  live-stream-link: "https://zoom.us/j/91001656927?pwd=dEluK1MzZEhQaFNvKzRRa2p5ZnFEUT09"
 
 - id: 111
   title: "Flexible, Scalable, and Sustainable Data Literacy Instruction: Remote Learning and Collaboration for the Future"
@@ -236,7 +236,7 @@
   video:
   live-stream-type: Q&A
   live-stream-time: "2020-10-30 15:15:00"
-  live-stream-link:
+  live-stream-link: "https://zoom.us/j/93927055431?pwd=R3J4S3JTcDd5YTNvNlNUYnBvTng2QT09"
 
 - id: 112
   title: "Making Changes: Sustaining Innovative Services During a Pandemic"
@@ -249,7 +249,7 @@
   video:
   live-stream-type: Q&A
   live-stream-time: "2020-10-30 10:55:00"
-  live-stream-link:
+  live-stream-link: "https://zoom.us/j/93860089808?pwd=dFhhOTBrMFlxZTRpYWs0MFhoTHVQQT09"
 
 - id: 113
   title: "Dude Where is my Black Studies Library?"
@@ -263,7 +263,7 @@
   video:
   live-stream-type: Q&A
   live-stream-time: "2020-10-30 14:05:00"
-  live-stream-link:
+  live-stream-link: "https://zoom.us/j/99701030797?pwd=SEZ0N1FiZ3YxTU1Nd0xyMkFNbUpkdz09"
 
 - id: 114
   title: "People-First Promotion: Rallying Library Workers during COVID-19"
@@ -277,7 +277,7 @@
   video:
   live-stream-type: Q&A
   live-stream-time: "2020-10-29 15:05:00"
-  live-stream-link:
+  live-stream-link: "https://zoom.us/j/95571468391?pwd=NzliTDJOalh3NHVPbU9rK1lPSnhhQT09"
 
 - id: 115
   title: "Cloud-based Video Editing as a Circulating Library Resource:  Deploying and Supporting a Web-based Creative Tool for Face-to-Face and Remote Instruction and Community Engagement"
@@ -290,7 +290,7 @@
   video:
   live-stream-type: Q&A
   live-stream-time: "2020-10-30 14:05:00"
-  live-stream-link:
+  live-stream-link: "https://zoom.us/j/96009166811?pwd=TGcwWVF6cVp1YWpJY1Q5S3hhamx4QT09"
 
 - id: 116
   title: "Beyond the Checklist: Introducing the SIFT Strategy to a Campus"
@@ -305,7 +305,7 @@
   video:
   live-stream-type: Q&A
   live-stream-time: "2020-10-30 12:05:00"
-  live-stream-link:
+  live-stream-link: "https://zoom.us/j/97171574808?pwd=bzFVeWpaZGUzSlpBU3pmY0R3ajBnQT09"
 
 - id: 117
   title: "Connecting Communities and Building Collections: Archiving a Community’s Resilience during a Pandemic"
@@ -321,7 +321,7 @@
   video:
   live-stream-type: Q&A
   live-stream-time: "2020-10-29 10:45:00"
-  live-stream-link:
+  live-stream-link: "https://zoom.us/j/92548044881?pwd=NTBKUGlSVHoyS2E4dTFMbkRBd291QT09"
 
 - id: 118
   title: "Teaching the Faculty to Teach Information Literacy: Examples and Considerations"
@@ -336,7 +336,7 @@
   video:
   live-stream-type: Q&A
   live-stream-time: "2020-10-29 11:55:00"
-  live-stream-link:
+  live-stream-link: "https://zoom.us/j/92712188325?pwd=N01adUxEQlZ4Ymg2KzdJcXBMZXBRQT09"
 
 - id: 119
   title: "Anchoring Change: Using the Kotter Change Management Framework to Analyze and Facilitate Change in Academic Libraries"
@@ -350,7 +350,7 @@
   video:
   live-stream-type: Q&A
   live-stream-time: "2020-10-29 16:15:00"
-  live-stream-link:
+  live-stream-link: "https://zoom.us/j/93376330969?pwd=a2JLK1NJNndYM25FTHVRTjAzUUwzUT09"
 
 - id: 120
   title: "Microaggressions in a Time of Trauma: Engaging Empathy with Colleagues as a Form of Antiracism"
@@ -365,7 +365,7 @@
   video:
   live-stream-type: Q&A
   live-stream-time: "2020-10-29 10:45:00"
-  live-stream-link:
+  live-stream-link: "https://zoom.us/j/91849918080?pwd=RUN3R1hrS1FxbURyL1UvWTA3SGhndz09"
 
 - id: 121
   title: "Diversity, Equity, and Inclusion as Action: Designing a Collective DEI Strategy"
@@ -383,7 +383,7 @@
   video:
   live-stream-type: Q&A
   live-stream-time: "2020-10-29 13:55:00"
-  live-stream-link:
+  live-stream-link: "https://zoom.us/j/93485980929?pwd=SGZ3NWlXZnlPdEF5cWVKVmdibW1DQT09"
 
 - id: 122
   title: "Lunch"
@@ -398,7 +398,7 @@
   subtype: social
   live-stream-type: awards
   live-stream-time: "2020-10-29 12:30:00"
-  live-stream-link: https://www.example.com
+  live-stream-link: "https://zoom.us/j/98947848949?pwd=NnlTUmZZTDVmM2FpbGtwUWpCSDhoUT09"
 
 # ---------------------------------
 # CONFERENCE DAY[2], prefix ID 20x
@@ -415,7 +415,7 @@
   video:
   live-stream-type: keynote
   live-stream-time: "2020-10-30 15:40:00"
-  live-stream-link: "https://www.example.com"
+  live-stream-link: "https://zoom.us/j/92392890537?pwd=Yk5KTDRxWXQ2L09aVTVJTUcrUDl5dz09"
 
 - id: 202
   title: "Lunch"
@@ -430,7 +430,7 @@
   subtype: social
   description: "Grab a beverage, close your books, and open your minds. It’s trivia night!"
   live-stream-type: social
-  live-stream-link: "https://www.example.com"
+  live-stream-link: "https://zoom.us/j/91863589948?pwd=ZkQzOXFIZHVhRHRHbmJ1T0RMSGRZQT09"
 
 - id: 204
   title: "Sustainability Interest Group (SUSIG)"
