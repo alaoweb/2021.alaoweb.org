@@ -12,7 +12,7 @@ presenters:
     }
   - {
       name: Kristen Peters,
-      bio: Kristen Peters is a Reference Librarian at Wittenberg University. She is always on the lookout for new ways the library faculty and staff can form new connections that support lifelong learning.,
+      bio: Kristen Peters is the Interim Director at Wittenberg University's library. She is always on the lookout for new ways the library faculty and staff can form new connections that support lifelong learning.,
       institution: Wittenberg University,
     }
   - {
