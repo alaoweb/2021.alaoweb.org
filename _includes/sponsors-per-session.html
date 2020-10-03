@@ -24,6 +24,15 @@
             title="{{ element.description }}" alt="{{ element.name }}"
             style="width:100%" />
         </a>
+        {% if element.video %}
+        <div class="sponsors video-container">
+          <div class="sponsors video-modals">
+            <a href="{{ element.video }}" aria-label='Sponsor video for {{ element.name }}'>
+              <i class="fa fa-youtube-play fa-lg sponsors video-link"></i>
+            </a>
+          </div>
+        </div>
+        {% endif %}
       </li>
       {% endfor %}
     </ul>
@@ -45,6 +54,15 @@
                   title="{{ element.description }}" alt="{{ element.name }}"
                   style="width:100%" />
               </a>
+              {% if element.video %}
+              <div class="sponsors video-container">
+                <div class="sponsors video-modals">
+                  <a href="{{ element.video }}" aria-label='Sponsor video for {{ element.name }}'>
+                    <i class="fa fa-youtube-play fa-lg sponsors video-link"></i>
+                  </a>
+                </div>
+              </div>
+              {% endif %}
             </li>
             {% endif %}
           {% endfor %}
