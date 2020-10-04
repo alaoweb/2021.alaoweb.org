@@ -38,7 +38,28 @@
 					<div class="row survey-row">
 						<div class="col-md-4"></div>
 						<div class="col-md-8">
-							<a href="{{ site.sessionFeedbackForm }}&{{ site.sessionFeedbackParameter }}={{ session.title | url_encode }}" class="survey-button btn" aria-label="Complete the session survey for {{ session.title }}}">Session Feedback</a>
+							<a href="{{ site.sessionFeedbackForm }}&{{ site.sessionFeedbackParameter }}={{ session.title | url_encode }}" class="survey-button btn" aria-label="Complete the survey for {{ session.title }}}">{{session.subtype | capitalize }} Feedback</a>
+						</div>
+					</div>
+					{% elsif session.subtype == 'keynote' %}
+					<div class="row survey-row">
+						<div class="col-md-4"></div>
+						<div class="col-md-8">
+							<a href="{{ site.keynoteFeedbackForm }}" class="survey-button btn" aria-label="Complete the survey for {{ session.title }}}">{{session.subtype | capitalize }} Feedback</a>
+						</div>
+					</div>
+					{% elsif session.subtype == 'preconference' %}
+					<div class="row survey-row">
+						<div class="col-md-4"></div>
+						<div class="col-md-8">
+							<a href="{{ site.preconferenceFeedbackForm }}" class="survey-button btn" aria-label="Complete the survey for {{ session.title }}}">{{session.subtype | capitalize }} Feedback</a>
+						</div>
+					</div>
+					{% elsif session.subtype == 'workshop' %}
+					<div class="row survey-row">
+						<div class="col-md-4"></div>
+						<div class="col-md-8">
+							<a href="{{ site.preconferenceWorkshopFeedbackForm }}" class="survey-button btn" aria-label="Complete the survey for {{ session.title }}}">{{session.subtype | capitalize }} Feedback</a>
 						</div>
 					</div>
 					{% endif %}
