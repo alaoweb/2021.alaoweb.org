@@ -347,7 +347,7 @@ ticketsOffers:
  - name: "Regular Rate"
    price: "30-50"
    priceCurrency: "USD"
-   ticketsNumber: ""
+   ticketsNumber: "500"
    ribbon:
    featured:
    buyButtonLink: "https://www.alaoweb.org/event-3712747"
