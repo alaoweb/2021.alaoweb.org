@@ -1,6 +1,6 @@
 - group: "Gold"
   elements:
-    - {name: "De Gruyter", description: "An international, independent publisher of first-class scholarship headquartered in Berlin.", link: "https://www.degruyter.com/", imageUrl: "de_gruyter.svg"}
+    - {name: "De Gruyter", description: "An international, independent publisher of first-class scholarship headquartered in Berlin.", link: "https://www.degruyter.com/", imageUrl: "de_gruyter.svg", video: "https://www.youtube.com/watch?v=mnbR8Cl78S4"}
     - {name: "OhioNET", description: "Supporting library success through learning opportunities, technology solutions, collaborative purchasing, and strategic connections.", link: "https://www.ohionet.org", imageUrl: "ohionet.png"}
 
 - group: "Sessions"
