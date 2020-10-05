@@ -102,6 +102,7 @@ typeoutFallback: "Resilience"
 # Call to Action Buttons
 heroButtons:
   - {permalink: "/#tickets", text: "Register"}
+  # - {permalink: "/awards", text: "View Award Winners" }
   # - {link: "https://forms.gle/DWoBhvAnJDDiR3tv6", text: "Apply for Scholarship"}
   #- {link: "https://docs.google.com/forms/d/e/1FAIpQLSdfGZEuGcn_KmpEqd9-GgU-xPWhViP1bivXOvJKcEvJ1DtLFw/viewform", text: "Become a speaker"}
 
