@@ -1,3 +1,36 @@
+# =============================================================================
+# Subtypes:
+#   - meeting
+#   - workshop
+#   - session
+#   - keynote
+#   - social
+#   - preconference
+
+# EXAMPLE TEMPLATE FOR A PRERECORDED SESSION WITH Q&A
+#- id: 102
+#  title: "Session #1"
+#  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+#  subtype: session
+#  speakers: [1, 2, 3, 4]
+#  language:
+#  complexity:
+#  handouts:
+#    - { title: Presentation Slides, filename: session-1-slides.pdf }
+#  video: "//www.youtube.com/embed/{replace_with_video_id}"
+#  live-stream-type: Q&A
+#  live-stream-time: "2020-10-26 10:20:00"
+#  live-stream-link: "https://www.example.com"
+
+# EXAMPLE TEMPLATE FOR A GENERIC SLOT, i.e. LUNCH
+#- id: 104
+#  title: "Lunch"
+#  place: "Location of your choosing"
+#  subtype: social
+#  service: true
+#  description: "The best time to talk with speakers and attendees"
+# =============================================================================
+
 # ---------------------------------
 # CONFERENCE DAY[0], prefix ID 00x
 # Increment session IDs by 1
@@ -32,7 +65,7 @@
 - id: 003
   title: "From Being To Doing: Anti-racism as Action at Work"
   description: "Over the past few years, the conversation around equity in libraries has focused on thinking of the word ally as a verb, rather than as an identity. With recent events highlighting specific issues around race, the conversation has now shifted to many people wanting to be anti-racist. In this session, we will focus on anti-racism as action, rather than using the word anti-racist as identity. In particular, we will examine our notions of professionalism in libraries. Can changing how we define professionalism in library workplaces be an example of anti-racist action? We will take a critical look at how certain hallmarks of white supremacist culture inform our notions of professionalism and acceptable workplace culture. These commonly accepted traits can actually contribute to low morale, the prevalence of microaggressions, retention issues, etc. Together, we will explore ways to transform our workplace cultures by looking at specific actions that resist these hallmarks in order to create equitable workplaces."
-  subtype: session
+  subtype: preconference
   speakers: [5]
   language:
   complexity:
@@ -67,29 +100,6 @@
   live-stream-type: keynote
   live-stream-time: "2020-10-29 09:00:00"
   live-stream-link: "https://zoom.us/j/94847488840?pwd=cE1JZ1ljR1FIQjFiREJNV0dWSitIUT09"
-
-# EXAMPLE TEMPLATE FOR A PRERECORDED SESSION WITH Q&A
-#- id: 102
-#  title: "Session #1"
-#  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-#  subtype: session
-#  speakers: [1, 2, 3, 4]
-#  language:
-#  complexity:
-#  handouts:
-#    - { title: Presentation Slides, filename: session-1-slides.pdf }
-#  video: "//www.youtube.com/embed/{replace_with_video_id}"
-#  live-stream-type: Q&A
-#  live-stream-time: "2020-10-26 10:20:00"
-#  live-stream-link: "https://www.example.com"
-
-# EXAMPLE TEMPLATE FOR A GENERIC SLOT, i.e. LUNCH
-#- id: 104
-#  title: "Lunch"
-#  place: "Location of your choosing"
-#  subtype: social
-#  service: true
-#  description: "The best time to talk with speakers and attendees"
 
 - id: 102
   title: "Health Science Librarians' Engagement in Work-Related Reflection: A Qualitative Exploration of why they Invest in Reflective Practice: Preliminary Findings and Application to Academic Libraries"
