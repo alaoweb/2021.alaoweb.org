@@ -3,20 +3,18 @@
 # Increment session IDs by 1
 # ---------------------------------
 - id: 001
-  title: "Business Meeting"
-  description: "Academic Library Association of Ohio's annual business meeting."
+  title: "ALAO Membership Meeting"
+  description: "Academic Library Association of Ohio's annual membership meeting."
   subtype: meeting
   speakers: []
   language:
   complexity:
   handouts:
     - { title: Sample Budget 2020, filename: biz-mtg-budget.pdf }
-    - { title: Sample Budget 2021, filename: biz-mtg-budget.pdf }
-    - { title: Sample Budget 2022, filename: biz-mtg-budget.pdf }
   video:
   live-stream-type: meeting
   live-stream-time: "2020-10-28 12:30:00"
-  live-stream-link: "https://zoom.us/j/93676999606?pwd=ZXluNGRlcG95akpoM2oxTm5EWVpXZz09"
+  live-stream-link: "https://zoom.us/j/93676999606?pwd=aFVtNEFFcWZDRWRSSzhLbThDTHZVdz09"
 
 - id: 002
   title: "Renewal: Promoting Civility and Self-Care in (Academic) Libraries"
@@ -29,7 +27,7 @@
   video:
   live-stream-type: workshop
   live-stream-time: "2020-10-28 13:00:00"
-  live-stream-link: "https://zoom.us/j/99254388425?pwd=d240aUZhOTFYZGJjOTNRWEpvdXZidz09"
+  live-stream-link: "https://zoom.us/j/99254388425?pwd=bkswTHlvQkJtcWg3L3RXK05FUjFMdz09"
 
 - id: 003
   title: "From Being To Doing: Anti-racism as Action at Work"
@@ -42,7 +40,7 @@
   video: "//www.youtube.com/embed/{replace_with_video_id}"
   live-stream-type: Q&A
   live-stream-time: "2020-10-28 16:10:00"
-  live-stream-link: "https://zoom.us/j/92980272044?pwd=Q1ZsNThGazNGVlBQd21iaGZyd1pidz09"
+  live-stream-link: "https://zoom.us/j/92980272044?pwd=ZWJ2SmN0NmdLUkpmSmc2cU1kYlJ6dz09"
 
 - id: 004
   title: "Making the Most of your ALAO Membership"
@@ -50,7 +48,7 @@
   subtype: meeting
   live-stream-type: meeting
   live-stream-time: "2020-10-28 19:00:00"
-  live-stream-link: "https://zoom.us/j/99177433462?pwd=WCt6OEhaSzRCSTRlQ1ZNZzNYcS9xQT09"
+  live-stream-link: "https://zoom.us/j/99177433462?pwd=RzBPNnptQkp5SlBMSjc2MzNjZEVsZz09"
 
 # ---------------------------------
 # CONFERENCE DAY[1], prefix ID 10x
@@ -398,7 +396,7 @@
   subtype: social
   live-stream-type: awards
   live-stream-time: "2020-10-29 12:30:00"
-  live-stream-link: "https://zoom.us/j/98947848949?pwd=NnlTUmZZTDVmM2FpbGtwUWpCSDhoUT09"
+  live-stream-link: "https://zoom.us/j/98947848949?pwd=MmYzNW9nMExNTU1mZmpWaUZjRmJPQT09"
 
 # ---------------------------------
 # CONFERENCE DAY[2], prefix ID 20x
