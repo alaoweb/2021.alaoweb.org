@@ -3,16 +3,14 @@
 # Increment session IDs by 1
 # ---------------------------------
 - id: 001
-  title: "Business Meeting"
-  description: "Academic Library Association of Ohio's annual business meeting."
+  title: "ALAO Membership Meeting"
+  description: "Academic Library Association of Ohio's annual membership meeting."
   subtype: meeting
   speakers: []
   language:
   complexity:
   handouts:
     - { title: Sample Budget 2020, filename: biz-mtg-budget.pdf }
-    - { title: Sample Budget 2021, filename: biz-mtg-budget.pdf }
-    - { title: Sample Budget 2022, filename: biz-mtg-budget.pdf }
   video:
   live-stream-type: meeting
   live-stream-time: "2020-10-28 12:30:00"
