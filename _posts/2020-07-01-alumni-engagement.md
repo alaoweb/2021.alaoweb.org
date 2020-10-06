@@ -21,18 +21,18 @@ presenters:
       institution: Wittenberg University,
     }
 session-contents:
-#  - type: video
-#    url: //www.youtube.com/embed/{video-id}
-#    title: Intro Video
+ - type: video
+   url: //www.youtube.com/embed/Zp1I0vMLr7U
+   title: Intro Video
 #  - type: image
 #    url: /img/posters/filename.png
 #    title: Image Title
 #    alt: Alt text
 #    text-description: "<ol><li>Thing One</li><li>Thing Two</li></ol>"
 supplemental-docs:
-#  - type: word
-#    url: /handouts/handout.docx
-#    title: My great worksheet
+  - type: github
+    url: https://github.com/kenirwin/Then-And-Now-Photos
+    title: Then-and-Now Photos App
 #  - type: pdf
 #    url: /handouts/my-handout.pdf
 #    title: Sample Handout
