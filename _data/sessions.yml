@@ -355,6 +355,8 @@
   language:
   complexity:
   handouts:
+    - { title: Presentation Slides, filename: boff_cardwell_slides.pdf }
+    - { title: Kotter Framework Worksheet, filename: kotter_framework.pdf }
   video:
   live-stream-type: Q&A
   live-stream-time: "2020-10-29 16:15:00"
