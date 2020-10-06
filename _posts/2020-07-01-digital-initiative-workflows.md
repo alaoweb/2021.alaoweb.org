@@ -11,9 +11,9 @@ presenters:
       institution: Cleveland State University
     }
 session-contents:
-#  - type: video
-#    url: //www.youtube.com/embed/{video-id}
-#    title: Intro Video
+  - type: video
+    url: //www.youtube.com/embed/CrGtAJhB-k0
+    title: Intro Video
 #  - type: image
 #    url: /img/posters/filename.png
 #    title: Image Title
@@ -26,9 +26,9 @@ supplemental-docs:
 #  - type: pdf
 #    url: /handouts/my-handout.pdf
 #    title: Sample Handout
-#  - type: website
-#    url: https://example.com/nifty-widget
-#    title: Website name
+  - type: website
+    url: https://sway.office.com/xFJGMuXtkcthv0A6?ref=Link
+    title: Sustainable Digital Initiative Workflows - Poster
 isStaticPost: false
 published: true
 ---
