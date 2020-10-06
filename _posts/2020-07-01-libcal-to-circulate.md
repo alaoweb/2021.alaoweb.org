@@ -15,29 +15,29 @@ presenters:
       bio: "Mike Bomholt is a Technology Development Manager at Miami University. He specializes in endpoint device and software management.",
       institution: "Miami University",
     }
-video: "//www.youtube.com/embed/{video-id}"
+# video: "//www.youtube.com/embed/blGgfC29yMM"
 session-contents:
  - type: video
-   url: //www.youtube.com/embed/HdbQgiJMIGM
-   title: Intro Video
+   url: //www.youtube.com/embed/blGgfC29yMM
+   title: Software Checkout Process
  - type: image
    url: /img/posters/software-checkout.png
    title: Software Checkout Workflow
    alt: 
-   text-description: "<ol><li>User checks software in/out in LibCal</li><li>The app fetches current LibCal checkouts</li><li>The app fetches current permissions from Adobe</li><li>The app compares list</li><li>The app pushes changes to the Adobe API</li><li>Adobe allows access to user</li></ol>"
+   text-description: "<ol><li>User checks software in/out in LibCal (signing into LibCal with institutional Single Sign-On)</li><li>The app fetches current LibCal checkouts</li><li>The app fetches current permissions from Adobe</li><li>The app compares list</li><li>The app pushes changes to the Adobe API</li><li>Adobe allows access to user</li><li>User can sign in using Single Sign On</li></ol>"
 supplemental-docs:
  - type: github
    url: https://github.com/Miamiohlibs/SoftwareCheckout
    title: SoftwareCheckout on Github
- - type: word
-   url: /handouts/handout.docx
-   title: My great worksheet
- - type: pdf
-   url: /handouts/my-handout.pdf
-   title: Sample Handout
- - type: website
-   url: https://example.com/nifty-widget
-   title: NiftyWidget we used to make it better!
+#  - type: word
+#    url: /handouts/handout.docx
+#    title: My great worksheet
+#  - type: pdf
+#    url: /handouts/my-handout.pdf
+#    title: Sample Handout
+#  - type: website
+#    url: https://example.com/nifty-widget
+#    title: NiftyWidget we used to make it better!
 isStaticPost: false
 published: true
 ---
