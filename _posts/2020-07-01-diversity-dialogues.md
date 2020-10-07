@@ -28,12 +28,12 @@ supplemental-docs:
 #  - type: word
 #    url: /handouts/handout.docx
 #    title: My great worksheet
-#  - type: pdf
-#    url: /handouts/my-handout.pdf
-#    title: Sample Handout
-#  - type: website
-#    url: https://example.com/nifty-widget
-#    title: Website name
+  - type: pdf
+    url: /handouts/EDI_bibliography.pdf
+    title: Bibliography
+  - type: website
+    url: https://drive.google.com/file/d/1PnXeyT1b2qQiMTkwe6kn5ES8brMdkT_K/view
+    title: Poster Slides
 isStaticPost: false
 published: true
 ---
