@@ -11,9 +11,9 @@ presenters:
       institution: Ohio State University
     }
 session-contents:
-#  - type: video
-#    url: //www.youtube.com/embed/{video-id}
-#    title: Intro Video
+  - type: video
+    url: //www.youtube.com/embed/xR-Nr5zogzs
+    title: Intro Video
 #  - type: image
 #    url: /img/posters/filename.png
 #    title: Image Title
