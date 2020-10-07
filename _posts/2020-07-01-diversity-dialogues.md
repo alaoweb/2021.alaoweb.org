@@ -16,9 +16,9 @@ presenters:
       institution: Ohio Northern University
     }
 session-contents:
-#  - type: video
-#    url: //www.youtube.com/embed/{video-id}
-#    title: Intro Video
+  - type: video
+    url: //www.youtube.com/embed/I0vh4ZZiDvY
+    title: Intro Video
 #  - type: image
 #    url: /img/posters/filename.png
 #    title: Image Title
