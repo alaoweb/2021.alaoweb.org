@@ -23,9 +23,9 @@ supplemental-docs:
 #  - type: word
 #    url: /handouts/handout.docx
 #    title: My great worksheet
-#  - type: pdf
-#    url: /handouts/my-handout.pdf
-#    title: Sample Handout
+  - type: pdf
+    url: /handouts/porrata_slides.pdf
+    title: Slides - LibGuides for Social Justice
 #  - type: website
 #    url: https://example.com/nifty-widget
 #    title: Website name
