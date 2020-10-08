@@ -1,14 +1,14 @@
 ---
 layout: poster
 title: 'Ensuring your Microsoft Word created PDFs are Accessible'
-description: ''
+description: 'This poster highlights actions that must be taken in order to create an accessible PDF using Microsoft Word.'
 date: 2020-07-01 08:00:00
 speaker-data: [78]
 presenters:
   - {
       name: Tammy Stitz,
       institution: University of Akron,
-      bio:
+      bio: 'Since 2008, Tammy Stitz has been the Applied Sciences Librarian at The University of Akron. She earned a MLIS from Kent State University in 2005. She has a BS and MS in Electrical Engineering from The University of Akron as well.'
     }
 session-contents:
   - type: video
