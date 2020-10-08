@@ -11,21 +11,21 @@ presenters:
       institution: Ohio Northern University
     }
 session-contents:
-#  - type: video
-#    url: //www.youtube.com/embed/{video-id}
-#    title: Intro Video
+  - type: video
+    url: //www.youtube.com/embed/xWa7zd3CtI0
+    title:
 #  - type: image
 #    url: /img/posters/filename.png
 #    title: Image Title
 #    alt: Alt text
 #    text-description: "<ol><li>Thing One</li><li>Thing Two</li></ol>"
 supplemental-docs:
-#  - type: word
-#    url: /handouts/handout.docx
-#    title: My great worksheet
-#  - type: pdf
-#    url: /handouts/my-handout.pdf
-#    title: Sample Handout
+  - type: word
+    url: /handouts/deems_slides.pptx
+    title: Poster Slides as PPTX
+  - type: pdf
+    url: /handouts/deems_slides.pdf
+    title: Poster Slides as PDF
 #  - type: website
 #    url: https://example.com/nifty-widget
 #    title: Website name
