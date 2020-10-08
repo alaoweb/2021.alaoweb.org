@@ -200,7 +200,7 @@ sponsorsTitle: "Conference Sponsors"
 # -------------------------------------------------------------
 postersTitle: "POSTER SESSIONS"
 postersBackground: waves-background.svg
-showPosters: false
+showPosters: true
 noPostersText: "Posters Forthcoming"
 postersCommentsEnabled: true
 discusShortName: "alaoweb"
