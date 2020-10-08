@@ -31,9 +31,9 @@ supplemental-docs:
 #  - type: pdf
 #    url: /handouts/my-handout.pdf
 #    title: Sample Handout
-#  - type: website
-#    url: https://example.com/nifty-widget
-#    title: Website name
+  - type: website
+    url: https://sway.office.com/Yxqmw3x5MPBoQjjz?ref=Link
+    title: Poster via Microsoft Sway
 isStaticPost: false
 published: true
 ---
