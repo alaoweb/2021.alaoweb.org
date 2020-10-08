@@ -310,6 +310,8 @@
   language:
   complexity:
   handouts:
+    - { title: Presentation Slides, filename: SIFT_slides.pdf }
+    - { title: SIFT Bibliography, filename: SIFT_bibliography.pdf }
   video:
   live-stream-type: Q&A
   live-stream-time: "2020-10-30 12:05:00"
