@@ -34,9 +34,12 @@ supplemental-docs:
 #  - type: word
 #    url: /handouts/handout.docx
 #    title: My great worksheet
-#  - type: pdf
-#    url: /handouts/my-handout.pdf
-#    title: Sample Handout
+  - type: pdf
+    url: /handouts/withers_poster.pdf
+    title: Poster
+  - type: pdf
+    url: /handouts/withers_handout.pdf
+    title: Handout
 #  - type: website
 #    url: https://example.com/nifty-widget
 #    title: Website name
