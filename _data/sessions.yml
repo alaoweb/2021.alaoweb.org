@@ -185,6 +185,7 @@
   language:
   complexity:
   handouts:
+    - { title: Presentation Slides as PDF, filename: didithelp_slides.pdf }
   video:
   live-stream-type: Q&A
   live-stream-time: "2020-10-29 11:55:00"
