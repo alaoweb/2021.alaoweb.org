@@ -21,9 +21,9 @@ presenters:
       bio: Megan Powell (she/her/hers) is the Access Services Manager at Franklin University. She is responsible for planning and organizing all circulation functions, managing student workers, providing reference assistance, and overseeing all aspects of the Interlibrary Loan Department. She graduated from Otterbein University in May and plans on applying to an MLIS program later this year.
     }
 session-contents:
-#  - type: video
-#    url: //www.youtube.com/embed/{video-id}
-#    title: Intro Video
+  - type: video
+    url: //www.youtube.com/embed/8q8gdSDdnLk
+    title: Intro Video
 #  - type: image
 #    url: /img/posters/filename.png
 #    title: Image Title
@@ -33,9 +33,12 @@ supplemental-docs:
 #  - type: word
 #    url: /handouts/handout.docx
 #    title: My great worksheet
-#  - type: pdf
-#    url: /handouts/my-handout.pdf
-#    title: Sample Handout
+  - type: pdf
+    url: /handouts/safe_space_slides.pdf
+    title: Poster Slides as PDF
+  - type: pdf
+    url: /handouts/safe_space_handout.pdf
+    title: Library as Safe Space
 #  - type: website
 #    url: https://example.com/nifty-widget
 #    title: Website name
