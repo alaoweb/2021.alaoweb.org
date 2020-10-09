@@ -254,6 +254,8 @@
   language:
   complexity:
   handouts:
+    - { title: Presentation Slides (PPTX), filename: nagle_slides.pptx }
+    - { title: Presentation Slides (PDF), filename: nagle_slides.pdf }
   video:
   live-stream-type: Q&A
   live-stream-time: "2020-10-30 10:55:00"
