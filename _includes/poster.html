@@ -50,6 +50,11 @@
                     class="img-responsive" />
                   <figcaption>{{doc.text-description}}</figcaption>
                 </div>
+                {% elsif doc.type == 'iframe' %}
+                <div class="poster-iframe">
+                  <h4 class="h5">{{doc.title}}</h4>
+                  <iframe width="{{doc.width}}" height="{{doc.height}}" allowfullscreen="true" frameborder="0" mozallowfullscreen="true" src="{{doc.url}}" title="{{doc.title}}" webkitallowfullscreen="true"></iframe>
+                </div>
                 {% endif %}
               </div>
               {% endfor %}

@@ -16,24 +16,29 @@ presenters:
       institution: Miami University
     }
 session-contents:
-#  - type: video
-#    url: //www.youtube.com/embed/{video-id}
-#    title: Intro Video
+  - type: video
+    url: //www.youtube.com/embed/jb9CYCPbnw0
+    title: Intro Video
 #  - type: image
 #    url: /img/posters/filename.png
 #    title: Image Title
 #    alt: Alt text
 #    text-description: "<ol><li>Thing One</li><li>Thing Two</li></ol>"
+  - type: iframe
+    url: https://docs.google.com/presentation/d/e/2PACX-1vTG2G3fwmcnddCc9R8lYzd93YDN34HQGS_DrWdYgmPdog4ewI03z7oc-2Advf2WQLgH4DIE6-LC3Gmg/embed?start=false&loop=false&delayms=3000
+    title: Google Slides presentation of research
+    width: 960
+    height: 569
 supplemental-docs:
 #  - type: word
 #    url: /handouts/handout.docx
 #    title: My great worksheet
-#  - type: pdf
-#    url: /handouts/my-handout.pdf
-#    title: Sample Handout
-#  - type: website
-#    url: https://example.com/nifty-widget
-#    title: Website name
+  - type: pdf
+    url: /handouts/hs_location_slides.pdf
+    title: Poster Slides as PDF
+  - type: website
+    url: https://libguides.lib.miamioh.edu/am-jy-alao-poster-2020
+    title: Citations and Related Links
 isStaticPost: false
 published: true
 ---
