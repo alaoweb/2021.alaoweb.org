@@ -21,9 +21,9 @@ presenters:
     institution: University of Dayton
     }
 session-contents:
-#  - type: video
-#    url: //www.youtube.com/embed/{video-id}
-#    title: Intro Video
+  - type: video
+    url: //www.youtube.com/embed/Row1UUaXhNI
+    title: Intro Video
 #  - type: image
 #    url: /img/posters/filename.png
 #    title: Image Title
@@ -36,9 +36,9 @@ supplemental-docs:
 #  - type: pdf
 #    url: /handouts/my-handout.pdf
 #    title: Sample Handout
-#  - type: website
-#    url: https://example.com/nifty-widget
-#    title: Website name
+  - type: website
+    url: https://libguides.udayton.edu/alao2020-june-madness
+    title: June Madness Website
 isStaticPost: false
 published: true
 ---
