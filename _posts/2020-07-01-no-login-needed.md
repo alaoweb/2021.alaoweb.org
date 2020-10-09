@@ -26,9 +26,9 @@ supplemental-docs:
   - type: pdf
     url: /handouts/deems_slides.pdf
     title: Poster Slides as PDF
-#  - type: website
-#    url: https://example.com/nifty-widget
-#    title: Website name
+  - type: website
+    url: https://github.com/c-deems/hml_website
+    title: Code
 isStaticPost: false
 published: true
 ---
