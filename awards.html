@@ -37,22 +37,25 @@ image: waves-background.svg
             {% endif %}
         </div>
 
-        {% if site.showAwardWinners and award.winner.name.size > 0 %}
+        {% if site.showAwardWinners and award.winners.first %}
+
+        {% for winner in award.winners %}
+        {% if winner.name.size > 0 %}
         <div class="winner-block row">
-            {% if award.winner.photo.size > 0 %}
+            {% if winner.photo.size > 0 %}
             <div class="winner-photo col-2">
-                <img src="/img/people/{{award.winner.photo}}"
-                    class="img-circle" />
+                <img src="/img/people/{{winner.photo}}" class="img-circle" />
             </div>
             {% endif %}
             <div class="col-9">
                 <div class="award-winner">
-                    Winner: {{award.winner.name}}, {{award.winner.institution}}
+                    Winner: {{winner.name}}, {{winner.institution}}
                 </div>
-                <div class="award-citation">{{award.winner.citation}}</div>
+                <div class="award-citation">{{winner.citation}}</div>
             </div>
         </div>
-
+        {% endif %}
+        {% endfor %}
 
         {% endif %}
     </div>

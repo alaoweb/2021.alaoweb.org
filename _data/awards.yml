@@ -3,105 +3,112 @@
   infoUrl: "https://www.alaoweb.org/aboutalao/jay-ladd-award.php"
   nominationForm: "https://docs.google.com/forms/d/e/1FAIpQLSd1vSgpeX2NohYWQAI5-m9Uf-DTdkcOjr0HzWgUvEN5jucTDA/viewform?usp=sf_link"
   description: "The Jay Ladd Distinguished Service Award recognizes an individual who has (1) been an Academic Library Association of Ohio member for at least 5 years (2) promoted academic libraries and librarianship on his or her own campus and within the state (3) provided sustained leadership in the promotion of Academic Library Association of Ohio, e.g., committee service, interest group chair, position on the Executive Board."
-  winner: {
+  winners: [{
     name: "Alisa Mizikar",
     institution: "Wittenberg University",
     citation: "Alisa's pretty fabulous and hard-working, but so often behind the scenes it's easy to not notice how great she is.",
     photo: "alisa_mizikar.jpg"
-  }
+  }]
 - title: "Kathryn Venditti Mentoring Award"
   type: "award"
   infoUrl: "https://www.alaoweb.org/Venditti-Award"
   nominationForm: "https://docs.google.com/forms/d/e/1FAIpQLSdqPFBPYeRx06WbmXEqT4SEYo2yfy8YlPwGGWxjX4LQLJj_iA/viewform?usp=sf_link"
   description: "The Kathryn L. Venditti Mentoring Award is given annually to an academic librarian who has demonstrated excellence as a mentor to a librarian, library worker, or library science student. Through this award ALAO strives to foster a culture of mentoring within the Association."
-  winner: {
+  winners: [{
     name: "Sue Polanka",
     institution: "Wright State University",
     citation: "Sue's great, and she can cut a rug like nobody's business",
     photo: ""
-  }
+  }]
 - title: "TEDDY Award"
   type: "award"
   infoUrl: "https://www.alaoweb.org/igs/tedsig/index.html#TEDDY"
   nominationForm:
   description: "For Distinguished Service by an ALAO member in the fields of Technical, Electronic and Digital Services."
-  winner: {
-    name: "",
-    institution: "",
-    citation: "",
-    photo: ""
+  winners: [{
+    name: "Derek",
+    institution: "OhioNET",
+    citation: "Derek's great!",
+    photo: "derek_zoladz.jpg"
+  },
+  {
+    name: "Melissa",
+    institution: "OWU",
+    citation: "Melissa's great too!",
+    photo: "melissa_hill.jpg"
   }
+  ]
 - title: "Diversity Scholarship Award"
   type: "scholarship"
   infoUrl: "https://www.alaoweb.org/Diversity-Scholarship-Award"
   nominationForm:
   description: "ALAO values diversity in its membership, in the profession, and in future library professionals. For that reason, we offer a $1,500 scholarship to a promising student enrolled in an ALA-accredited MLS program who exemplifies the qualities needed to ensure a diverse library workforce. The scholarship funds will be sent to the recipient after institutional enrollment is confirmed by the Diversity Committee chair or designee."
-  winner: {
+  winners: [{
     name: "",
     institution: "",
     citation: "",
     photo: ""
-  }
+  }]
 - title: "Research & Publications Committee Research Grant"
   type: "grant"
   infoUrl: ""
   applicationForm:
   description: "The Academic Library Association of Ohio (ALAO) seeks to promote research, and each year the ALAO Executive Board may award up to $2000.00 to support and encourage research projects proposed by ALAO members. Both ongoing and new research projects are considered. Grants are intended to help in funding such incremental research costs as the organization of data, the hiring of interviewers or other assistants, charges for computer time, and modest travel costs associated with research. Grants may not be used for purchase of equipment. Grants are limited to investigations related to issues in libraries, librarianship, and information science and technology."
-  winner: {
+  winners: [{
     name: "",
     institution: "",
     citation: "",
     photo: ""
-  }
+  }]
 - title: "Student Presenter Grant"
   infoUrl: "https://www.alaoweb.org/Student-Presenter-Grant"
   applicationForm:
   description: "The Academic Library Association of Ohio (ALAO) seeks to provide opportunities for students and new librarians to grow professionally and encourage participation towards a career in academic libraries. ALAO also recognizes the need to spotlight current research, particularly if the research is in new and emerging fields and technologies. To that end, the ALAO Executive Board may award up to $150 annually to a student to present at the ALAO Annual Conference."
-  winner: {
+  winners: [{
     name: "",
     institution: "",
     citation: "",
     photo: ""
-  }
+  }]
 - title: "Continuing Education Grant"
   infoUrl: "https://www.alaoweb.org/continuingeducationgrant"
   applicationForm: "https://forms.gle/wXLS31pHhg9cgSGAA"
   description: "The Academic Library Association of Ohio (ALAO) Continuing Education Grant is awarded each year to support the cost of participating in professional development opportunities such as conferences, workshops, seminars, which are related to the member’s current position or in pursuit of a professional library degree. Current ALAO members are eligible to apply for funds to defray the costs of attending any library-related educational opportunity occurring during the calendar year."
-  winner: {
+  winners: [{
     name: "",
     institution: "",
     citation: "",
     photo: ""
-  }
+  }]
 - title: "Support Staff Conference Grant"
   infoUrl: "https://www.alaoweb.org/Support-Staff-Conference-Grant"
   applicationForm: "https://forms.gle/JuKvFHnp7HjffNpx5"
   description: "The Academic Library Association of Ohio (ALAO) seeks to encourage support staff development and participation in ALAO activities. To that end, the ALAO Executive Board may award up to $150 annually to support and encourage support staff to attend the ALAO Annual Conference."
-  winner: {
+  winners: [{
     name: "",
     institution: "",
     citation: "",
     photo: ""
-  }
+  }]
 
 
   # - title: ""
   #   infoUrl: ""
   #   nominationForm:
   #   description: ""
-  #   winner: {
+  #   winners: [{
   #     name: "",
   #     institution: "",
   #     citation: "",
   #     photo: ""
-  #   }
+  #   }]
   # - title: ""
   #   infoUrl: ""
   #   nominationForm:
   #   description: ""
-  #   winner: {
+  #   winners: [{
   #     name: "",
   #     institution: "",
   #     citation: "",
   #     photo: ""
-  #   }
+  #   }]
