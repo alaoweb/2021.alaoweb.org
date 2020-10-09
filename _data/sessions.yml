@@ -376,6 +376,8 @@
   language:
   complexity:
   handouts:
+    - { title: Presentation Slides as PPTX, filename: microagressions_slides.pptx }
+    - { title: Presentation Slides as PDF, filename: microagressions_slides.pdf }
   video:
   live-stream-type: Q&A
   live-stream-time: "2020-10-29 10:45:00"
