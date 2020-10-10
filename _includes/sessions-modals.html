@@ -70,9 +70,15 @@
 								Handouts</div>
 							<ul class="handouts-list">
 								{% for doc in session.handouts %}
-								<li><a
-										href="/handouts/{{doc.filename}}">{{ doc.title }}</a>
-								</li>
+									{% if doc.filename %}
+										<li><a
+												href="/handouts/{{doc.filename}}">{{ doc.title }}</a>
+										</li>
+									{% elsif doc.url %}
+										<li><a
+												href="{{doc.url}}">{{ doc.title }}</a>
+										</li>
+									{% endif %}
 								{% endfor %}
 							</ul>
 							{% endif %}
