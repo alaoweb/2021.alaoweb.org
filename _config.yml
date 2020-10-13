@@ -6,6 +6,7 @@ url: "https://alaoweb.github.io/2020.alaoweb.org"
 plugins:
 - jekyll-sitemap
 safe: false
+safe: false
 
 #Google-Analytics & API Key
 googleAnalyticsTrackingId: "UA-101881286-2"
@@ -200,7 +201,7 @@ sponsorsTitle: "Conference Sponsors"
 # -------------------------------------------------------------
 postersTitle: "POSTER SESSIONS"
 postersBackground: waves-background.svg
-showPosters: false
+showPosters: true
 noPostersText: "Posters Forthcoming"
 postersCommentsEnabled: true
 discusShortName: "alaoweb"
