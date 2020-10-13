@@ -16,9 +16,9 @@ presenters:
       institution: Indiana University-Bloomington
     }
 session-contents:
-#  - type: video
-#    url: //www.youtube.com/embed/{video-id}
-#    title: Intro Video
+  - type: video
+    url: //www.youtube.com/embed/mD3wzx3-_8k
+    title: Intro Video
 #  - type: image
 #    url: /img/posters/filename.png
 #    title: Image Title
