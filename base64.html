@@ -31,9 +31,25 @@ permalink: "/tools/base64.html"
 
 <body class="container">
     <h1>Base64 Encode JSON Values</h1>
+    <div class="alert alert-warning">If you already have a YML file with the
+        data you
+        want to encode, you may have to go through a few hoops:
+
+        <ol>
+            <li><a href="http://www.yamllint.com" target="_new">Lint it up to
+                    make it the
+                    cleanest yml possible</a></li>
+            <li><a href="http://nodeca.github.io/js-yaml/" target="_new">convert
+                    it to
+                    json</a></li>
+            <li><a href="https://www.charset.org/utf8-to-latin-converter"
+                    target="_new">Convert
+                    to latin1 because base64 doesn't like utf8</a></li>
+        </ol>
+    </div>
     <form name="encoding">
         <!--input type="text" id="salt" name="salt" class="form-control" placeholder="Add an encyrption salt" /-->
-        <textarea name="input" id="input" class="form-control"
+        <textarea name="input" id="input" class="form-control mb-3"
             rows="10"></textarea>
         <input type="button" name="encode-submit" id="encode-submit"
             class="form-control btn btn-warning mb-3" value="Encode" />
