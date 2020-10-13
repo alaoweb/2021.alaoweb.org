@@ -426,8 +426,8 @@
 # Increment session IDs by 1
 # ---------------------------------
 - id: 201
-  title: "Closing Keynote"
-  description: ""
+  title: "Resiliency and Other Myths: Keeping It Real in 2020"
+  description: "In the best of times, librarianship is a career filled with a myriad of challenges and rewards. Librarianship in the time of a pandemic has amplified those challenges and shone a spotlight on some of the inequities inherent in our field and in our services. I’m going to use some old school inspiration to share my ideas for keeping it real and keeping things moving during these challenging times."
   subtype: keynote
   speakers: [2]
   language:
