@@ -31,17 +31,17 @@ permalink: "/tools/base64.html"
 
 <body class="container">
     <h1>Base64 Encode JSON Values</h1>
-    <form name="encrypting">
+    <form name="encoding">
         <!--input type="text" id="salt" name="salt" class="form-control" placeholder="Add an encyrption salt" /-->
-        <textarea name="encrypt-input" id="encrypt-input" class="form-control"
+        <textarea name="input" id="input" class="form-control"
             rows="10"></textarea>
-        <input type="button" name="encrypt-submit" id="encrypt-submit"
+        <input type="button" name="encode-submit" id="encode-submit"
             class="form-control btn btn-warning mb-3" value="Encode" />
-        <input type="button" name="decrypt-submit" id="decrypt-submit"
+        <input type="button" name="decode-submit" id="decode-submit"
             class="form-control btn btn-success mb-3" value="Decode" />
         <div class="btn btn-primary form-control" id="copy-output"
-            data-clipboard-target="#encrypted-output">Copy Output</div>
-        <textarea id="encrypted-output"
+            data-clipboard-target="#encoded-output">Copy Output</div>
+        <textarea id="encoded-output"
             class="form-control border border-success mt-3 p-3"></textarea>
     </form>
 

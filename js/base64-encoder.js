@@ -3,26 +3,27 @@ $(document).ready(() => {
 
   let str = 'this is a test';
 
-  $('#encrypt-submit').click(() => {
-    let raw_in = $('#encrypt-input').val();
-    // alert(raw_in);
+  $('#encode-submit').click(() => {
+    let raw_in = $('#input').val();
+    alert(raw_in);
     // let salt = $('#salt').val();
-    let result = encryptValues(JSON.parse(raw_in));
+    let result = encodeValues(JSON.parse(raw_in));
     result.obfuscated = true;
     let output = JSON.stringify(result, null, 2);
-    $('#encrypted-output').html(output);
+    $('#encoded-output').html(output);
   });
 
-  $('#decrypt-submit').click(() => {
-    let raw_in = $('#encrypt-input').val();
-    let result = encryptValues(JSON.parse(raw_in), 'decrypt');
+  $('#decode-submit').click(() => {
+    let raw_in = $('#input').val();
+    alert(raw_in);
+    let result = encodeValues(JSON.parse(raw_in), 'decode');
     result.obfuscated = false;
     let output = JSON.stringify(result, null, 2);
-    $('#encrypted-output').html(output);
+    $('#encoded-output').html(output);
   });
 });
 
-function encryptValues(obj, action = 'encrypt') {
+function encodeValues(obj, action = 'encode') {
   let salt = 'SuperSekrit';
   if (typeof obj === 'object') {
     // iterating over the object using for..in
@@ -30,16 +31,16 @@ function encryptValues(obj, action = 'encrypt') {
       //checking if the current value is an object itself
       if (typeof obj[keys] === 'object') {
         // if so then again calling the same function
-        encryptValues(obj[keys], action);
+        encodeValues(obj[keys], action);
       } else {
         // else getting the value and transforming
         let initialString = obj[keys];
-        if (action == 'encrypt') {
+        if (action == 'encode') {
           obj[keys] = btoa(obj[keys]);
-          // obj[keys] = CryptoJS.AES.encrypt(obj[keys], salt).toString();
+          // obj[keys] = CryptoJS.AES.encode(obj[keys], salt).toString();
         } else {
           obj[keys] = atob(obj[keys]);
-          // obj[keys] = CryptoJS.AES.decrypt(obj[keys], salt).toString();
+          // obj[keys] = CryptoJS.AES.decode(obj[keys], salt).toString();
         }
       }
     }
