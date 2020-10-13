@@ -1,0 +1,50 @@
+---
+permalink: "/tools/base64.html"
+---
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base64 Encode JSON Values</title>
+    <script
+        src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+        crossorigin="anonymous">
+    <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"
+        integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf"
+        crossorigin="anonymous"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js"></script>
+    <script src="/js/base64-encoder.js"></script>
+</head>
+
+<body class="container">
+    <h1>Base64 Encode JSON Values</h1>
+    <form name="encrypting">
+        <!--input type="text" id="salt" name="salt" class="form-control" placeholder="Add an encyrption salt" /-->
+        <textarea name="encrypt-input" id="encrypt-input" class="form-control"
+            rows="10"></textarea>
+        <input type="button" name="encrypt-submit" id="encrypt-submit"
+            class="form-control btn btn-warning mb-3" value="Encode" />
+        <input type="button" name="decrypt-submit" id="decrypt-submit"
+            class="form-control btn btn-success mb-3" value="Decode" />
+        <div class="btn btn-primary form-control" id="copy-output"
+            data-clipboard-target="#encrypted-output">Copy Output</div>
+        <textarea id="encrypted-output"
+            class="form-control border border-success mt-3 p-3"></textarea>
+    </form>
+
+</body>
+
+</html>
