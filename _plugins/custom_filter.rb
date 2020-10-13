@@ -1,9 +1,13 @@
 module Jekyll
     module CustomFilter
   
-        def decode64(input)
+        def decode64(input, active = true)
             require "base64"
-            return Base64.decode64(input)
+            if (active == false)
+                return input
+            else
+                return Base64.decode64(input)
+            end
         end
   
     end
