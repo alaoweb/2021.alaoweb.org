@@ -23,7 +23,7 @@ presenters:
     }
 session-contents:
 #  - type: video
-#    url: //www.youtube.com/embed/{video-id}
+#    url: NOT SUBMITTING AN INTRO VIDEO FOR THE POSTER
 #    title: Intro Video
 #  - type: image
 #    url: /img/posters/filename.png
