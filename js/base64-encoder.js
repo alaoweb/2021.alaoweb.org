@@ -5,7 +5,6 @@ $(document).ready(() => {
 
   $('#encode-submit').click(() => {
     let raw_in = $('#input').val();
-    alert(raw_in);
     // let salt = $('#salt').val();
     let result = encodeValues(JSON.parse(raw_in));
     result.obfuscated = true;
@@ -15,7 +14,6 @@ $(document).ready(() => {
 
   $('#decode-submit').click(() => {
     let raw_in = $('#input').val();
-    alert(raw_in);
     let result = encodeValues(JSON.parse(raw_in), 'decode');
     result.obfuscated = false;
     let output = JSON.stringify(result, null, 2);
