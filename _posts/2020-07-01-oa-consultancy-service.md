@@ -16,9 +16,9 @@ presenters:
       institution: Case Western Reserve University
     }
 session-contents:
-#  - type: video
-#    url: //www.youtube.com/embed/{video-id}
-#    title: Intro Video
+  - type: video
+    url: //www.youtube.com/embed/wl8vRE2PL_w
+    title: Intro Video
 #  - type: image
 #    url: /img/posters/filename.png
 #    title: Image Title
