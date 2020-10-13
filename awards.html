@@ -28,12 +28,12 @@ image: waves-background.svg
         </h3>
     </div>
 
-    {% for award in site.data.awards %}
+    {% for award in site.data.awards-bak %}
     <div class="one-award p-3 mb-4">
-        <h4 class="award-title">{{award.title}}</h4>
-        <div class="award-description">{{award.description}}
+        <h4 class="award-title">{{award.title | decode64}}</h4>
+        <div class="award-description">{{award.description | decode64}}
             {% if award.infoUrl.size > 0 %}
-            [<a href="{{ award.infoUrl}}">Read more</a>]
+            [<a href="{{ award.infoUrl | decode64}}">Read more</a>]
             {% endif %}
         </div>
 
@@ -44,14 +44,17 @@ image: waves-background.svg
         <div class="winner-block row">
             {% if winner.photo.size > 0 %}
             <div class="winner-photo col-2">
-                <img src="/img/people/{{winner.photo}}" class="img-circle" />
+                <img src="/img/people/{{winner.photo | decode64}}"
+                    class="img-circle" />
             </div>
             {% endif %}
             <div class="col-9">
                 <div class="award-winner">
-                    Winner: {{winner.name}}, {{winner.institution}}
+                    Winner: {{winner.name | decode64 }},
+                    {{winner.institution | decode64 }}
                 </div>
-                <div class="award-citation">{{winner.citation}}</div>
+                <div class="award-citation">{{winner.citation | decode64 }}
+                </div>
             </div>
         </div>
         {% endif %}
