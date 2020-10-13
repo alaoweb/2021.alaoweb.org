@@ -28,12 +28,18 @@ image: waves-background.svg
         </h3>
     </div>
 
-    {% for award in site.data.awards-bak %}
+    {% comment %}
+    If using a data-source that base64-encodes values for secrecy, set use64 =
+    true.
+    For plain-text data-source, set use64 = false.
+    {% endcomment %}
+    {% assign use64 = true %}
+    {% for award in site.data.awards-base64 %}
     <div class="one-award p-3 mb-4">
-        <h4 class="award-title">{{award.title | decode64}}</h4>
-        <div class="award-description">{{award.description | decode64}}
+        <h4 class="award-title">{{award.title | decode64: use64}}</h4>
+        <div class="award-description">{{award.description | decode64: use64}}
             {% if award.infoUrl.size > 0 %}
-            [<a href="{{ award.infoUrl | decode64}}">Read more</a>]
+            [<a href="{{ award.infoUrl | decode64: use64}}">Read more</a>]
             {% endif %}
         </div>
 
@@ -44,16 +50,17 @@ image: waves-background.svg
         <div class="winner-block row">
             {% if winner.photo.size > 0 %}
             <div class="winner-photo col-2">
-                <img src="/img/people/{{winner.photo | decode64}}"
+                <img src="/img/people/{{winner.photo | decode64: use64}}"
                     class="img-circle" />
             </div>
             {% endif %}
             <div class="col-9">
                 <div class="award-winner">
-                    Winner: {{winner.name | decode64 }},
-                    {{winner.institution | decode64 }}
+                    Winner: {{winner.name | decode64: use64 }},
+                    {{winner.institution | decode64: use64 }}
                 </div>
-                <div class="award-citation">{{winner.citation | decode64 }}
+                <div class="award-citation">
+                    {{winner.citation | decode64: use64 }}
                 </div>
             </div>
         </div>
