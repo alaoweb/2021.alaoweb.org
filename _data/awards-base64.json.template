@@ -1,0 +1,125 @@
+[
+  {
+    "description": "The Jay Ladd Distinguished Service Award recognizes an individual who has (1) been an Academic Library Association of Ohio member for at least 5 years (2) promoted academic libraries and librarianship on his or her own campus and within the state (3) provided sustained leadership in the promotion of Academic Library Association of Ohio, e.g., committee service, interest group chair, position on the Executive Board.",
+    "infoUrl": "https://www.alaoweb.org/aboutalao/jay-ladd-award.php",
+    "nominationForm": null,
+    "title": "Jay Ladd Distinguished Service Award",
+    "type": "award",
+    "winners": [
+      {
+        "citation": "",
+        "institution": "",
+        "name": "",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "description": "The Kathryn L. Venditti Mentoring Award is given annually to an academic librarian who has demonstrated excellence as a mentor to a librarian, library worker, or library science student. Through this award ALAO strives to foster a culture of mentoring within the Association.",
+    "infoUrl": "https://www.alaoweb.org/Venditti-Award",
+    "nominationForm": null,
+    "title": "Kathryn Venditti Mentoring Award",
+    "type": "award",
+    "winners": [
+      {
+        "citation": "",
+        "institution": "",
+        "name": "",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "description": "For Distinguished Service by an ALAO member in the fields of Technical, Electronic and Digital Services.",
+    "infoUrl": "https://www.alaoweb.org/igs/tedsig/index.html#TEDDY",
+    "nominationForm": null,
+    "title": "TEDDY Award",
+    "type": "award",
+    "winners": [
+      {
+        "citation": "",
+        "institution": "",
+        "name": "",
+        "photo": ""
+      },
+      {
+        "citation": "",
+        "institution": "",
+        "name": "",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "description": "ALAO values diversity in its membership, in the profession, and in future library professionals. For that reason, we offer a $1,500 scholarship to a promising student enrolled in an ALA-accredited MLS program who exemplifies the qualities needed to ensure a diverse library workforce. The scholarship funds will be sent to the recipient after institutional enrollment is confirmed by the Diversity Committee chair or designee.",
+    "infoUrl": "https://www.alaoweb.org/Diversity-Scholarship-Award",
+    "nominationForm": null,
+    "title": "Diversity Scholarship Award",
+    "type": "scholarship",
+    "winners": [
+      {
+        "citation": "",
+        "institution": "",
+        "name": "",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "applicationForm": null,
+    "description": "The Academic Library Association of Ohio (ALAO) seeks to promote research, and each year the ALAO Executive Board may award up to $2000.00 to support and encourage research projects proposed by ALAO members. Both ongoing and new research projects are considered. Grants are intended to help in funding such incremental research costs as the organization of data, the hiring of interviewers or other assistants, charges for computer time, and modest travel costs associated with research. Grants may not be used for purchase of equipment. Grants are limited to investigations related to issues in libraries, librarianship, and information science and technology.",
+    "infoUrl": "",
+    "title": "Research & Publications Committee Research Grant",
+    "type": "grant",
+    "winners": [
+      {
+        "citation": "",
+        "institution": "",
+        "name": "",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "applicationForm": null,
+    "description": "The Academic Library Association of Ohio (ALAO) seeks to provide opportunities for students and new librarians to grow professionally and encourage participation towards a career in academic libraries. ALAO also recognizes the need to spotlight current research, particularly if the research is in new and emerging fields and technologies. To that end, the ALAO Executive Board may award up to $150 annually to a student to present at the ALAO Annual Conference.",
+    "infoUrl": "https://www.alaoweb.org/Student-Presenter-Grant",
+    "title": "Student Presenter Grant",
+    "winners": [
+      {
+        "citation": "",
+        "institution": "",
+        "name": "",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "applicationForm": null,
+    "description": "The Academic Library Association of Ohio (ALAO) Continuing Education Grant is awarded each year to support the cost of participating in professional development opportunities such as conferences, workshops, seminars, which are related to the member?s current position or in pursuit of a professional library degree. Current ALAO members are eligible to apply for funds to defray the costs of attending any library-related educational opportunity occurring during the calendar year.",
+    "infoUrl": "https://www.alaoweb.org/continuingeducationgrant",
+    "title": "Continuing Education Grant",
+    "winners": [
+      {
+        "citation": "",
+        "institution": "",
+        "name": "",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "applicationForm": null,
+    "description": "The Academic Library Association of Ohio (ALAO) seeks to encourage support staff development and participation in ALAO activities. To that end, the ALAO Executive Board may award up to $150 annually to support and encourage support staff to attend the ALAO Annual Conference.",
+    "infoUrl": "https://www.alaoweb.org/Support-Staff-Conference-Grant",
+    "title": "Support Staff Conference Grant",
+    "winners": [
+      {
+        "citation": "",
+        "institution": "",
+        "name": "",
+        "photo": ""
+      }
+    ]
+  }
+]
