@@ -29,8 +29,7 @@ image: waves-background.svg
     </div>
 
     {% comment %}
-    If using a data-source that base64-encodes values for secrecy, set use64 =
-    true.
+    If using a data-source that base64-encodes values for secrecy, set use64 = true.
     For plain-text data-source, set use64 = false.
     {% endcomment %}
     {% assign use64 = true %}
@@ -53,10 +52,15 @@ image: waves-background.svg
                 <img src="/img/people/{{winner.photo | decode64: use64}}"
                     class="img-circle" />
             </div>
+            {% else %}
+            <div class="winner-photo col-2">
+                <img src="/img/people/no_image.png"
+                    class="img-circle" />
+            </div>
             {% endif %}
             <div class="col-9">
                 <div class="award-winner">
-                    Winner: {{winner.name | decode64: use64 }},
+                    {{winner.name | decode64: use64 }},
                     {{winner.institution | decode64: use64 }}
                 </div>
                 <div class="award-citation">
