@@ -5,6 +5,9 @@
     - {title: "Track #2"}
   timeslots:
     - {
+      sessionIds: [000]
+    }
+    - {
     	startTime: "12:30",
     	endTime: "1:00",
     	sessionIds: [001]
@@ -30,7 +33,10 @@
   tracks: 
     - {title: "Track #1"}
     - {title: "Track #2"}
-  timeslots: 
+  timeslots:
+    - {
+      sessionIds: [100]
+    }
     - {
     	startTime: "9:00",
     	endTime: "9:50",
@@ -79,6 +85,9 @@
     - {title: "Track #1"}
     - {title: "Track #2"}
   timeslots:
+    - {
+      sessionIds: [200]
+    }
     - {
         startTime: "9:00",
         endTime: "10:00",
