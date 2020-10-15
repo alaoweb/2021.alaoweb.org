@@ -35,6 +35,14 @@
 # CONFERENCE DAY[0], prefix ID 00x
 # Increment session IDs by 1
 # ---------------------------------
+- id: 000
+  title: "Virtual Help Desk"
+  description: "<strong>Staffed: 12:00pm - 5:00pm</strong><br/>Conference Planning Committee members are available to answer your questions."
+  subtype: meeting
+  live-stream-type: help desk
+  live-stream-time: ""
+  live-stream-link: "https://us02web.zoom.us/j/88280945699?pwd=V05Sd3dZcVg3RXVtNU8ycXk0Um9UUT09"
+
 - id: 001
   title: "ALAO Membership Meeting"
   description: "Academic Library Association of Ohio's annual membership meeting."
@@ -87,6 +95,13 @@
 # CONFERENCE DAY[1], prefix ID 10x
 # Increment session IDs by 1
 # ---------------------------------
+- id: 100
+  title: "Virtual Help Desk"
+  description: "<strong>Staffed: 8:00am - 5:00pm</strong><br/>Conference Planning Committee members are available to answer your questions."
+  subtype: meeting
+  live-stream-type: help desk
+  live-stream-time: ""
+  live-stream-link: "https://us02web.zoom.us/j/87336490964?pwd=SndvL3c1ckljY3MyQWorVHpCejNPZz09"
 
 - id: 101
   title: "Opening Keynote"
@@ -425,6 +440,14 @@
 # CONFERENCE DAY[2], prefix ID 20x
 # Increment session IDs by 1
 # ---------------------------------
+- id: 200
+  title: "Virtual Help Desk"
+  description: "<strong>Staffed: 8:00am - 5:00pm</strong><br/>Conference Planning Committee members are available to answer your questions."
+  subtype: meeting
+  live-stream-type: help desk
+  live-stream-time: ""
+  live-stream-link: "https://us02web.zoom.us/j/84832603431?pwd=aExDL3krb29BTHRzM1pQTy9jT3RLQT09"
+
 - id: 201
   title: "Resiliency and Other Myths: Keeping It Real in 2020"
   description: "In the best of times, librarianship is a career filled with a myriad of challenges and rewards. Librarianship in the time of a pandemic has amplified those challenges and shone a spotlight on some of the inequities inherent in our field and in our services. I’m going to use some old school inspiration to share my ideas for keeping it real and keeping things moving during these challenging times."
