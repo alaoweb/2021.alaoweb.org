@@ -97,12 +97,12 @@
     - {
         startTime: "12:20",
         endTime: "1:20",
-        sessionIds: [204, 205, 206, 207, 202]
+        sessionIds: [204, 205, 206, 207, 202,]
     }
     - {
         startTime: "1:20",
         endTime: "2:20",
-        sessionIds: [113, 115]
+        sessionIds: [115]
     }
     - {
         startTime: "2:30",

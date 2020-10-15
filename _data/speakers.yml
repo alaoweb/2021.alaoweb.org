@@ -368,15 +368,15 @@
   thumbnailUrl: henry_handley.jpg
   rockstar: false
 
-- id: 36
-  name: 'Leta'
-  surname: 'Hendricks'
-  pronouns: 'she/her/hers'
-  company: 'The Ohio State University'
-  title: 'African American and African Studies Librarian, Comparative Studies Librarian, and Interim Anthropology Librarian'
-  bio: 'Leta Hendricks is the African American and African Studies Librarian, the Comparative Studies Librarian, and the Interim Anthropology Librarian at The Ohio State University. She serves as Affiliated Faculty in African American and African Studies and Affiliated Faculty in French and Francophone Studies. She provides general and specialized research services; library and information literacy instruction courses; conducts specialized instruction and; develops and manages subject collections. As a 21st century Librarian she utilizes technology to create, store, teach, and disseminate knowledge. Research interests include French Rap Music, Gaming and Teaching, Hip Hop Culture, and Robert Johnson.'
-  thumbnailUrl: leta_hendricks.jpg
-  rockstar: false
+#- id: 36
+#  name: 'Leta'
+#  surname: 'Hendricks'
+#  pronouns: 'she/her/hers'
+#  company: 'The Ohio State University'
+#  title: 'African American and African Studies Librarian, Comparative Studies Librarian, and Interim Anthropology Librarian'
+#  bio: 'Leta Hendricks is the African American and African Studies Librarian, the Comparative Studies Librarian, and the Interim Anthropology Librarian at The Ohio State University. She serves as Affiliated Faculty in African American and African Studies and Affiliated Faculty in French and Francophone Studies. She provides general and specialized research services; library and information literacy instruction courses; conducts specialized instruction and; develops and manages subject collections. As a 21st century Librarian she utilizes technology to create, store, teach, and disseminate knowledge. Research interests include French Rap Music, Gaming and Teaching, Hip Hop Culture, and Robert Johnson.'
+#  thumbnailUrl: leta_hendricks.jpg
+#  rockstar: false
 
 - id: 37
   name: 'Stefanie'
@@ -778,15 +778,15 @@
   thumbnailUrl: sandra_enimil.png
   rockstar: false
 
-- id: 77
-  name: 'Lisa'
-  surname: 'Hayes'
-  pronouns:
-  company: 'Indiana Wesleyan University'
-  title: 'OCLS Librarian'
-  bio:
-  thumbnailUrl: no_image.png
-  rockstar: false
+#- id: 77
+#  name: 'Lisa'
+#  surname: 'Hayes'
+#  pronouns:
+#  company: 'Indiana Wesleyan University'
+#  title: 'OCLS Librarian'
+#  bio:
+#  thumbnailUrl: no_image.png
+#  rockstar: false
 
 - id: 78
   name: 'Tammy'

@@ -264,19 +264,19 @@
   live-stream-time: "2020-10-30 10:55:00"
   live-stream-link: "https://zoom.us/j/93860089808?pwd=dFhhOTBrMFlxZTRpYWs0MFhoTHVQQT09"
 
-- id: 113
-  title: "Dude Where is my Black Studies Library?"
-  description: "In 2007, Cecil Brown asked, 'Dude Where’s My Black Studies Department?' Brown, points to the increase of mass incarceration of Black youth and the shift to global studies by Black Studies Departments to a global view for the cause the disappearance of Black students on college campuses. The state of the Black Studies Library and collections on college campuses is daunting. Current collection management decisions are eroding the effectiveness and role of Black Studies Library and collections. Collection management decisions on budget cuts, space reallocation, material weeding, and 'the digitization divide' have a chilling effect on classroom teaching and academic research. 'Dude Where is My Black Studies Library?' provides a critique and a plan for the survival of the having hBlack Studies Library and collections on college campuses.
-    http://guides.osu.edu/africana/thisisus"
-  subtype: session
-  speakers: [36]
-  language:
-  complexity:
-  handouts:
-  video:
-  live-stream-type: Q&A
-  live-stream-time: "2020-10-30 14:05:00"
-  live-stream-link: "https://zoom.us/j/99701030797?pwd=SEZ0N1FiZ3YxTU1Nd0xyMkFNbUpkdz09"
+#- id: 113
+#  title: "Dude Where is my Black Studies Library?"
+#  description: "In 2007, Cecil Brown asked, 'Dude Where’s My Black Studies Department?' Brown, points to the increase of mass incarceration of Black youth and the shift to global studies by Black Studies Departments to a global view for the cause the disappearance of Black students on college campuses. The state of the Black Studies Library and collections on college campuses is daunting. Current collection management decisions are eroding the effectiveness and role of Black Studies Library and collections. Collection management decisions on budget cuts, space reallocation, material weeding, and 'the digitization divide' have a chilling effect on classroom teaching and academic research. 'Dude Where is My Black Studies Library?' provides a critique and a plan for the survival of the having hBlack Studies Library and collections on college campuses.
+#    http://guides.osu.edu/africana/thisisus"
+#  subtype: session
+#  speakers: [36]
+#  language:
+#  complexity:
+#  handouts:
+#  video:
+#  live-stream-type: Q&A
+#  live-stream-time: "2020-10-30 14:05:00"
+#  live-stream-link: "https://zoom.us/j/99701030797?pwd=SEZ0N1FiZ3YxTU1Nd0xyMkFNbUpkdz09"
 
 - id: 114
   title: "People-First Promotion: Rallying Library Workers during COVID-19"
