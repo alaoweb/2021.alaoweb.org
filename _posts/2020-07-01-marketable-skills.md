@@ -17,7 +17,7 @@ presenters:
     }
 session-contents:
   - type: video
-    url: //www.youtube.com/embed/mD3wzx3-_8k
+    url: //www.youtube.com/embed/78XCBlcLt_g
     title: Intro Video
 #  - type: image
 #    url: /img/posters/filename.png
