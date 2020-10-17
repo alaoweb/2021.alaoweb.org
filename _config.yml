@@ -6,7 +6,6 @@ url: "https://alaoweb.github.io/2020.alaoweb.org"
 plugins:
 - jekyll-sitemap
 safe: false
-safe: false
 
 #Google-Analytics & API Key
 googleAnalyticsTrackingId: "UA-101881286-2"
@@ -102,10 +101,10 @@ typeoutFallback: "Resilience"
 
 # Call to Action Buttons
 heroButtons:
-  - {permalink: "/#tickets", text: "Register"}
+  # - {permalink: "/#tickets", text: "Register"}
   # - {permalink: "/awards", text: "View Award Winners" }
   # - {link: "https://forms.gle/DWoBhvAnJDDiR3tv6", text: "Apply for Scholarship"}
-  #- {link: "https://docs.google.com/forms/d/e/1FAIpQLSdfGZEuGcn_KmpEqd9-GgU-xPWhViP1bivXOvJKcEvJ1DtLFw/viewform", text: "Become a speaker"}
+  # - {link: "https://docs.google.com/forms/d/e/1FAIpQLSdfGZEuGcn_KmpEqd9-GgU-xPWhViP1bivXOvJKcEvJ1DtLFw/viewform", text: "Become a speaker"}
 
 # -------------------------------------------------------------
 # Latest News Block
@@ -361,7 +360,7 @@ ticketsOffers:
    ticketContentList: ["Keynotes", "Pre-recorded Sessions", "Posters"]
    validFrom: "2020-09-29"
    validThrough: "2020-10-16"
-   disabled: false
+   disabled: true
    soldOut: false
    soldOutText: "Sold Out"
 
@@ -378,7 +377,7 @@ ticketsOffers:
    altSubtitle: "Separate Ticket Required"
    validFrom: ""
    validThrough: "2020-10-16"
-   disabled: false
+   disabled: true
    soldOut: false
    soldOutText: "Sold Out"
 
@@ -395,7 +394,7 @@ ticketsOffers:
    altSubtitle: ""
    validFrom: ""
    validThrough: "2020-10-16"
-   disabled: false
+   disabled: true
    soldOut: false
    soldOutText: "Sold Out"
 
