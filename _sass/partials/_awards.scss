@@ -1,10 +1,13 @@
 #awards {
+    font-family: $fixed-font-family;
+    font-weight: $regular;
     .one-award { 
         border: 1px solid #e7e7e7;
         border-radius: 5px;
     }
     .award-title {
-        font-weight: 300;
+        font-weight: $regular;
+        font-size: $base-font-size * 2;
     }
     .winner-block {
         margin: 1em 0;
@@ -18,10 +21,13 @@
         }
     }
     .award-winner {
-        font-size: $base-font-size * 2;
+        font-size: $base-font-size * 1.65;
+        font-weight: $bold;
+        color: $alao-green;
     }
     .award-citation {
         font-size: $base-font-size * 1.25;
         margin: .25em 0 .5em 0;
+        text-align: justify;
     }
 }
