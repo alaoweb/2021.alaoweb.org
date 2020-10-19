@@ -361,10 +361,10 @@
 - id: 35
   name: 'Henry'
   surname: 'Handley'
-  pronouns: 'they/them/their'
+  pronouns: 'he/him/his'
   company: 'University of Dayton'
   title: 'Collections Librarian'
-  bio: 'The presenter is a collections librarian stewarding a special collection in an academic library in Ohio, where they consider equity, diversity, and inclusion in collection development, collection management, instruction, and reference. They also face questions about how to deal with library users and collection materials that oppose their queer and trans identity due to the collection’s institutional milieu.'
+  bio: 'Henry Handley is a collections librarian stewarding a special collection in an academic library in Ohio, where he considers equity, diversity, and inclusion in collection development, collection management, instruction, and reference. He also faces questions about how to deal with library users and collection materials that oppose his queer and trans identity due to the collection’s institutional milieu.'
   thumbnailUrl: henry_handley.jpg
   rockstar: false
 
