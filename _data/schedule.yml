@@ -5,7 +5,7 @@
     - {title: "Track #2"}
   timeslots:
     - {
-      startTime: "7:00",
+      startTime: "6:00",
       endTime: "9:00",
       sessionIds: [203]
     }
