@@ -78,6 +78,8 @@
   language:
   complexity:
   handouts:
+    - { title: Presentation Slides as PDF, filename: damasco_slides.pdf }
+    - { title: Presentation Slides as PPTX, filename: damasco_slides.pptx }
   video: "//www.youtube.com/embed/xTXlNHmScbQ"
   live-stream-type: Q&A
   live-stream-time: "2020-10-28 16:10:00"
