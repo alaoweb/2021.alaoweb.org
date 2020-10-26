@@ -27,7 +27,8 @@
         {% if element.video %}
         <div class="sponsors video-container">
           <div class="sponsors video-modals">
-            <a href="{{ element.video }}" aria-label='Sponsor video for {{ element.name }}'>
+            <a href="{{ element.video }}"
+              aria-label='Sponsor video for {{ element.name }}'>
               <i class="fa fa-youtube-play fa-lg sponsors video-link"></i>
             </a>
           </div>
@@ -40,35 +41,36 @@
   {% endif %}
   {% endfor %}
 
-  {% if session.additional_support %}
+  {% if session.additional_support or include.additional_support != nil %}
   {% for sponsor in site.data.sponsors %}
-    {% if sponsor.group == 'Additional Support' %}
-      <div class="sponsorGroupWrapper">
-        <div class="h3">{{ sponsor.group }}</div>
-        <ul class="list-inline">
-          {% for element in sponsor.elements %}
-            {% if element.name == session.additional_support %}
-            <li>
-              <a href="{{ element.link }}" target="_blank">
-                <img src="{{ site.baseurl }}/img/sponsors/{{ element.imageUrl }}"
-                  title="{{ element.description }}" alt="{{ element.name }}"
-                  style="width:100%" />
-              </a>
-              {% if element.video %}
-              <div class="sponsors video-container">
-                <div class="sponsors video-modals">
-                  <a href="{{ element.video }}" aria-label='Sponsor video for {{ element.name }}'>
-                    <i class="fa fa-youtube-play fa-lg sponsors video-link"></i>
-                  </a>
-                </div>
-              </div>
-              {% endif %}
-            </li>
-            {% endif %}
-          {% endfor %}
-        </ul>
-      </div>
-    {% endif %}
+  {% if sponsor.group == 'Additional Support' %}
+  <div class="sponsorGroupWrapper">
+    <div class="h3">{{ sponsor.group }}</div>
+    <ul class="list-inline">
+      {% for element in sponsor.elements %}
+      {% if element.name == session.additional_support or element.name == include.additional_support %}
+      <li>
+        <a href="{{ element.link }}" target="_blank">
+          <img src="{{ site.baseurl }}/img/sponsors/{{ element.imageUrl }}"
+            title="{{ element.description }}" alt="{{ element.name }}"
+            style="width:100%" />
+        </a>
+        {% if element.video %}
+        <div class="sponsors video-container">
+          <div class="sponsors video-modals">
+            <a href="{{ element.video }}"
+              aria-label='Sponsor video for {{ element.name }}'>
+              <i class="fa fa-youtube-play fa-lg sponsors video-link"></i>
+            </a>
+          </div>
+        </div>
+        {% endif %}
+      </li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
   {% endfor %}
   {% endif %}
 
