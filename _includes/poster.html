@@ -53,7 +53,10 @@
                 {% elsif doc.type == 'iframe' %}
                 <div class="poster-iframe">
                   <h4 class="h5">{{doc.title}}</h4>
-                  <iframe width="{{doc.width}}" height="{{doc.height}}" allowfullscreen="true" frameborder="0" mozallowfullscreen="true" src="{{doc.url}}" title="{{doc.title}}" webkitallowfullscreen="true"></iframe>
+                  <iframe width="{{doc.width}}" height="{{doc.height}}"
+                    allowfullscreen="true" frameborder="0"
+                    mozallowfullscreen="true" src="{{doc.url}}"
+                    title="{{doc.title}}" webkitallowfullscreen="true"></iframe>
                 </div>
                 {% endif %}
               </div>
@@ -116,7 +119,7 @@
       </div>
       <div class="col-lg-3 col-lg-offset-1 col-md-2 col-xs-12"
         id="poster-sponsors">
-        {% include sponsors-per-session.html sessionType='Posters' %}
+        {% include sponsors-per-session.html sessionType='Posters' additional_support=page.additional_support %}
       </div>
     </div>
   </div>
