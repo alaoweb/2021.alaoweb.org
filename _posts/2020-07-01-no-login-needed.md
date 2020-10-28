@@ -26,7 +26,7 @@ supplemental-docs:
   - type: pdf
     url: /handouts/deems_slides.pdf
     title: Poster Slides as PDF
-  - type: website
+  - type: github
     url: https://github.com/c-deems/hml_website
     title: Code
 isStaticPost: false
