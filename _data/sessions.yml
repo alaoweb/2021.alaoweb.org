@@ -113,6 +113,7 @@
   language:
   complexity:
   handouts:
+    - { title: Presentation Slides as PDF, filename: opening_keynote_slides.pdf }
   video:
   live-stream-type: keynote
   live-stream-time: "2020-10-29 09:00:00"
