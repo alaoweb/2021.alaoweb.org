@@ -141,6 +141,8 @@
   language:
   complexity:
   handouts:
+    - { title: Presentation Slides as PDF, filename: jennifer_joe_slides.pdf }
+    - { title: Presentation Slides as PPTX, filename: jennifer_joe_slides.pptx }
   video: "//www.youtube.com/embed/w5nPac3CYS8"
   live-stream-type: Q&A
   live-stream-time: "2020-10-30 09:45:00"
