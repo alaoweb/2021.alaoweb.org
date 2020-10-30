@@ -204,6 +204,8 @@ showPosters: true
 noPostersText: "Posters Forthcoming"
 postersCommentsEnabled: true
 discusShortName: "alaoweb"
+showPosterVoting: true
+posterVotingLink: "https://docs.google.com/forms/d/e/1FAIpQLSfas6Fj3iaA20Ma6GwHoRjKubYWRQS14ZQ6pL_58RSEmXcnUw/viewform"
 
 # -------------------------------------------------------------
 # Preconference
