@@ -22,20 +22,19 @@
 #    - { name: 'site', link: 'https://www.derekzoladz.com/' }
 
 - id: 2
-  name: 'Nancy'
-  surname: 'Kirkpatrick'
+  name: 'Fobazi'
+  surname: 'Ettarh'
   pronouns: 'she/her/hers'
-  company: 'OhioNET'
-  title: 'Executive Director/CEO'
+  company: 'iSchool at the University of Illinois’ Urbana-Champaign'
+  title: 'Independent Scholar & PhD candidate'
   bio: |
-    Nancy S. Kirkpatrick is the Executive Director and CEO of OhioNET, a multi-type library consortium based in Columbus, OH and she also runs her own consulting business. She previously served as the Associate Director of the Midwest Collaborative for Library Services and was the Director of Library Services at Marian University. Nancy practiced non-profit law before entering librarianship. An ALA Spectrum Scholar, Nancy enjoys serving the ALA membership through appointments to the Committee on Professional Ethics (2020-2022) and the Spectrum Advisory Board (2020-2022). She is interested in change management and leadership models, especially as examined through an appreciative inquiry (AI) lens.
+   'Fobazi Ettarh’s research is concerned with the relationships and tensions between the espoused values of librarianship and the realities present in the experiences of marginalized librarians and library users. In 2018, she coined the term and defined the concept of “vocational awe,” which describe, “the set of ideas, values, and assumptions librarians have about themselves and the profession that result in beliefs that libraries as institutions are inherently good and sacred, and therefore beyond critique.” In her article “Vocational Awe: The Lies We Tell Ourselves,” she describes how vocational awe can lead to burnout and a sense that one’s own self-care is less important than the work being done.'
 
-    Nancy has a Bachelor of Arts degree in Journalism from Drake University, a Juris Doctor from the TC Williams School of Law at the University of Richmond, and a Master of Science in Library and Information Science from the Graduate School of Library and Information Science (GSLIS) at the University of Illinois at Urbana-Champaign.'
-  thumbnailUrl: nancy_kirkpatrick.jpg
+  thumbnailUrl: 
   rockstar: true
   social:
-    - { name: 'twitter', link: 'https://twitter.com/ohionet' }
-    - { name: 'site', link: 'https://www.ohionet.org/' }
+    - { name: 'twitter', link: 'https://twitter.com/Fobettarh' }
+    - { name: 'site', link: 'https://fobaziettarh.com/' }
 
 - id: 3
   name: 'Kaetrena Davis'
