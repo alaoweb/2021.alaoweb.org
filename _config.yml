@@ -92,12 +92,12 @@ footerBlocks:
 # -------------------------------------------------------------
 # Hero Block - Main Section
 # -------------------------------------------------------------
-heroTitle: "Resilience: Sustainable & Thriving Academic Libraries for the Future"
-heroImage: "resilience_logo_white.svg"
-eventDate: "October 29-30, 2020"
+heroTitle: "Building Bridges: Dialogue, Deliberation & Connection in Academic Libraries"
+heroImage: "bridges_conference_logo_fixed.svg"
+eventDate: "October 27-29, 2021"
 typeoutEnable: false
-typeoutTextValues: '"", "Resilient"'
-typeoutFallback: "Resilience"
+typeoutTextValues: '"", ""'
+typeoutFallback: "Building Bridges"
 
 # Call to Action Buttons
 heroButtons:
