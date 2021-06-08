@@ -6,6 +6,7 @@
 #   - keynote
 #   - social
 #   - preconference
+#   - NOTE: no posters here; posters are defined in the _posts/ directory, one file per post/er
 
 # EXAMPLE TEMPLATE FOR A PRERECORDED SESSION WITH Q&A
 #- id: 102
