@@ -24,13 +24,13 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 organizerName: "ALAO"
 organizerAlternateName: "Academic Library Association of Ohio"
 organizerDescription: "ALAO of the Ohio chapter of ACRL"
-organizerEmail: "2020-cpc@alaoweb.org"
+organizerEmail: "2021-cpc@alaoweb.org"
 organizerLogo: "/img/seo/organizer-logo.svg"
 organizerLink: "https://www.alaoweb.org/"
 
 #Site-Settings
 title: "ALAO Virtual Conference 2020"
-email: "2020-cpc@alaoweb.org"
+email: "2021-cpc@alaoweb.org"
 description: "Virtual Conference"
 permalink: "/posters/:title"
 #############################################################################
@@ -84,7 +84,7 @@ footerBlocks:
      - {link: "https://www.alaoweb.org", text: "ALAO Website", featured: true }
  - title: "Contacts"
    links:
-     - {link: "mailto:2020-cpc@alaoweb.org", text: "2020-cpc@alaoweb.org"}
+     - {link: "mailto:2021-cpc@alaoweb.org", text: "2021-cpc@alaoweb.org"}
  - title: "Code of Conduct"
    links:
      - {permalink: "/cod/", text: "Code of Conduct"}
@@ -263,13 +263,14 @@ preconferenceMapMobileCenterCoordinates: "40.154830, -83.016290"
 # -------------------------------------------------------------
 rockstarSpeakersEnable: true
 rockstarSpeakersImage: "featured-speakers.jpg"
-rockstarSpeakersCount: 4
+rockstarSpeakersCount: 3
 rockstarSpeakersTitle: "Featured Speakers"
 rockstarSpeakersButtonText: "See all speakers"
 
 # -------------------------------------------------------------
 # Service Project Block
 # -------------------------------------------------------------
+# this still 2020
 serviceprojectTitle: ""
 serviceprojectImage: dfs_logo.jpg
 serviceprojectInfo: 'Each year for the ALAO conference we host a service project to collect materials for a charitable organization. This year, we are partnering with Dress for Success, an organization that serves women by providing clothes and other tools to seek economic independence. However, instead of collecting clothes at the conference, we ask that you consider making a donation to this worthy organization. There are three affiliates of Dress for Success in Ohio, and you can choose the region that you would like to support.  If you decide to make a donation, please put ALAO member in the notes field.'
