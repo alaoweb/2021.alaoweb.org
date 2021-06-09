@@ -1,5 +1,17 @@
 <style>
-  .poster-panel { height: 25rem; }
+  .poster-panel { height: 25rem; 
+                  border: 1px solid #ccc;
+                  margin: .5rem;
+                  padding: .5rem;
+                  border-radius: 10px;
+                  -webkit-box-shadow: 5px 5px 7px -2px #ccc; 
+box-shadow: 5px 5px 7px -2px #ccc;
+  }
+  .poster-panel .btn { 
+    margin: auto;
+    width: 10rem;
+    display: block;
+  }
 </style>
 <!-- Begin Posters: indexed list of posters -->
 <section id="blog">
@@ -10,8 +22,8 @@
     <div id="poster-sessions">
       {% assign sortedPosts = site.posts | sort: 'title' %}
       {% for post in sortedPosts %}
-      <article class="post">
-        <div class="panel col-md-4 poster-panel">
+      <article class="post col-md-4">
+        <div class="panel poster-panel">
           <div class="panel-body">
             <h3 class="poster-title">{{ post.title }}</h3>
             {% if post.presenters %}
@@ -22,8 +34,10 @@
               {%endfor %}
             </p>
             {% endif %}
+
             <a href="{{ site.baseurl | append: post.url }}"
-              title="{{ post.title }}" class="btn btn-primary">View Poster</a>
+              title="{{ post.title }}" class="btn btn-primary align-items-center justify-content-center">View Poster</a>
+            
           </div>
         </div>
       </article>
