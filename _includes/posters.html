@@ -1,16 +1,18 @@
+<style>
+  .poster-panel { height: 25rem; }
+</style>
 <!-- Begin Posters: indexed list of posters -->
 <section id="blog">
-  <div class="content-wrapper text-left">
+  <div class="content-wrapper text-left container">
     {% if site.showPosters == false %}
     <h2 style="text-align: center">{{ site.noPostersText }}</h2>
     {% else %}
-    <div id="poster-sessions"
-      class="col-lg-10 col-md-10 col-xs-10 col-md-offset-1 col-xs-offset-1">
+    <div id="poster-sessions">
       {% assign sortedPosts = site.posts | sort: 'title' %}
       {% for post in sortedPosts %}
       <article class="post">
-        <div class="card">
-          <div class="card-body">
+        <div class="panel col-md-4 poster-panel">
+          <div class="panel-body">
             <h3 class="poster-title">{{ post.title }}</h3>
             {% if post.presenters %}
             <p>
