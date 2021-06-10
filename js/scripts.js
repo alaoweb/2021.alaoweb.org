@@ -408,6 +408,13 @@
         var interval = setInterval(changeTweets, 5000);
       }
     }
+
+    // Lazy load modal iframes
+      $('[id^="sessionDetail-"]').on("show.bs.modal", function () {
+          let iframe = $(this).find('.lazyload')
+          iframe.attr('src', iframe.data('src'));
+      });
+
   });
 
   //Google plus
@@ -816,5 +823,6 @@
     }
 
     google.maps.event.addDomListener(window, 'load', initialize);
+
   }
 })(jQuery);

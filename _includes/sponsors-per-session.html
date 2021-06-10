@@ -52,7 +52,8 @@
       <li>
         <a href="{{ element.link }}" target="_blank">
           <img src="{{ site.baseurl }}/img/sponsors/{{ element.imageUrl }}"
-            title="{{ element.description }}" alt="{{ element.name }}"
+            loading="lazy"
+               title="{{ element.description }}" alt="{{ element.name }}"
             style="width:100%" />
         </a>
         {% if element.video %}

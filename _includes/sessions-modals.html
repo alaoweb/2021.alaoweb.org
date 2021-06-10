@@ -29,9 +29,9 @@
 					{% if site.showSessions == true and session.video %}
 					<div
 						class="theme-video embed-responsive embed-responsive-16by9">
-						<iframe class="embed-responsive-item"
+						<iframe loading="lazy" class="lazyload embed-responsive-item"
 							{% include allow-fullscreen.html %}
-							src="{{ session.video }}?rel=0"></iframe>
+							data-src="{{ session.video }}?rel=0"></iframe>
 					</div>
 					{% endif %}
 					<p class="theme-description">{{ session.description }}</p>
