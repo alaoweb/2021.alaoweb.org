@@ -1,28 +1,105 @@
-- group: "Gold"
+- group: 'Gold'
   elements:
-    - {name: "De Gruyter", description: "An international, independent publisher of first-class scholarship headquartered in Berlin.", link: "https://www.degruyter.com/", imageUrl: "de_gruyter.svg", video: "https://www.youtube.com/watch?v=mnbR8Cl78S4"}
-    - {name: "OhioNET", description: "Supporting library success through learning opportunities, technology solutions, collaborative purchasing, and strategic connections.", link: "https://www.ohionet.org", imageUrl: "ohionet.png", video: "https://www.youtube.com/watch?v=QklsXsLuQPE"}
+    - {
+        name: 'De Gruyter',
+        description: 'An international, independent publisher of first-class scholarship headquartered in Berlin.',
+        link: 'https://www.degruyter.com/',
+        imageUrl: 'de_gruyter.svg',
+        video: 'https://www.youtube.com/watch?v=mnbR8Cl78S4',
+      }
 
-- group: "Sessions"
+- group: 'Sessions'
   elements:
-    - {name: "OhioLINK", description: "OhioLINK creates a competitive advantage for Ohio's higher education community by cooperatively and cost-effectively acquiring, providing access to, and preserving an expanding array of print and digital scholarly resources in order to advance teaching, learning, research, and the growth of Ohio's knowledge-based economy", link: "https://www.ohiolink.edu/", imageUrl: "ohiolink.png"}
+    - {
+        name: 'OhioLINK',
+        description: "OhioLINK creates a competitive advantage for Ohio's higher education community by cooperatively and cost-effectively acquiring, providing access to, and preserving an expanding array of print and digital scholarly resources in order to advance teaching, learning, research, and the growth of Ohio's knowledge-based economy",
+        link: 'https://www.ohiolink.edu/',
+        imageUrl: 'ohiolink.png',
+      }
 
-- group: "Keynote"
+- group: 'Keynote'
   elements:
-    - {name: "Kanopy", description: "We stream thoughtful entertainment to your preferred device with no fees and no commercials by partnering with public libraries and universities.", link: "https://www.kanopy.com/", imageUrl: "kanopy.png"}
-    - {name: "Cambridge", description: "Our mission is to unlock people's potential with the best learning and research solutions.", link: "https://www.cambridge.org/", imageUrl: "cambridge.png"}
+    - {
+        name: 'Cambridge',
+        description: "Our mission is to unlock people's potential with the best learning and research solutions.",
+        link: 'https://www.cambridge.org/',
+        imageUrl: 'cambridge.png',
+      }
 
-- group: "Posters"
+- group: 'Posters'
   elements:
-    - {name: "Bloomsbury", description: "Bloomsbury Publishing is a leading independent publishing house, established in 1986, with authors who have won the Nobel, Pulitzer and Booker Prizes", link: "https://www.bloomsbury.com/dr/digital-resources/", imageUrl: "bloomsbury.png"}
-    - {name: "Business Expert Press", description: "Concise, precise, professional business information, published in print and eBook formats, written by experts in their fields, and organized into specific content collections so that consumers can immediately find the information they seek on subjects that matter to them.", link: "https://www.businessexpertpress.com/", imageUrl: "bep.png"}
+    - {
+        name: 'Emery Pratt',
+        description: 'The nicest people in the book business',
+        link: 'https://emery-pratt.com/',
+        imageUrl: 'emery_pratt.png',
+      }
 
-- group: "Additional Support"
+- group: 'Additional Support'
   elements:
-    - {name: "Emery Pratt", description: "The nicest people in the book business", link: "https://emery-pratt.com/", imageUrl: "emery_pratt.png"}
-    - {name: "EBSCO", description: "EBSCO is the leading provider of research databases, e-journals, magazine subscriptions, ebooks and discovery service for academic libraries, public libraries, corporations, schools, government and medical institutions", link: "https://www.ebsco.com/", imageUrl: "ebsco.png"}
-    - {name: "GeoScienceWorld", description: "GeoScienceWorld (GSW) is a nonprofit collaborative and comprehensive resource for research and communications in the Earth Sciences.", link: "https://pubs.geoscienceworld.org/", imageUrl: "geo_science_world.png"}
-    - {name: "Springer Nature", description: "We help authors to share their discoveries; enable researchers to find, access and understand the work of others and support librarians and institutions with innovations in technology and data.", link: "https://www.springernature.com/", imageUrl: "springer_nature.png", video: "https://www.youtube.com/watch?v=ke44YCKig_w"}
-    - {name: "HF Group", description: "HF Group specializes in library binding, conservation, preservation, digitization, print on demand (POD), fine binding, edition binding, restoration, art restoration, photograph restoration, and photograph conservation.", link: "https://www.hfgroup.com/", imageUrl: "hf_group.png"}
-    - {name: "Wall Street Journal", description: "Wall Street Journal leads online coverage of breaking news and current headlines from the US and around the world", link: "https://www.wsj.com/", imageUrl: "wsj.svg", video: "https://youtu.be/LLhEQsHENQM"}
-    - {name: "Ohio Library Support Staff Institute", description: "By providing continuing education opportunities for library support staff, OLSSI aspires to revitalize their enthusiasm for library work to make our libraries and ourselves better than ever!", link: "https://olssi.org/", imageUrl: "olssi.png"}
+
+- group: 'do-not-include'
+  elements:
+    - {
+        name: 'Kanopy',
+        description: 'We stream thoughtful entertainment to your preferred device with no fees and no commercials by partnering with public libraries and universities.',
+        link: 'https://www.kanopy.com/',
+        imageUrl: 'kanopy.png',
+      }
+    - {
+        name: 'OhioNET',
+        description: 'Supporting library success through learning opportunities, technology solutions, collaborative purchasing, and strategic connections.',
+        link: 'https://www.ohionet.org',
+        imageUrl: 'ohionet.png',
+        video: 'https://www.youtube.com/watch?v=QklsXsLuQPE',
+      }
+    - {
+        name: 'Bloomsbury',
+        description: 'Bloomsbury Publishing is a leading independent publishing house, established in 1986, with authors who have won the Nobel, Pulitzer and Booker Prizes',
+        link: 'https://www.bloomsbury.com/dr/digital-resources/',
+        imageUrl: 'bloomsbury.png',
+      }
+    - {
+        name: 'Business Expert Press',
+        description: 'Concise, precise, professional business information, published in print and eBook formats, written by experts in their fields, and organized into specific content collections so that consumers can immediately find the information they seek on subjects that matter to them.',
+        link: 'https://www.businessexpertpress.com/',
+        imageUrl: 'bep.png',
+      }
+    - {
+        name: 'EBSCO',
+        description: 'EBSCO is the leading provider of research databases, e-journals, magazine subscriptions, ebooks and discovery service for academic libraries, public libraries, corporations, schools, government and medical institutions',
+        link: 'https://www.ebsco.com/',
+        imageUrl: 'ebsco.png',
+      }
+    - {
+        name: 'GeoScienceWorld',
+        description: 'GeoScienceWorld (GSW) is a nonprofit collaborative and comprehensive resource for research and communications in the Earth Sciences.',
+        link: 'https://pubs.geoscienceworld.org/',
+        imageUrl: 'geo_science_world.png',
+      }
+    - {
+        name: 'Springer Nature',
+        description: 'We help authors to share their discoveries; enable researchers to find, access and understand the work of others and support librarians and institutions with innovations in technology and data.',
+        link: 'https://www.springernature.com/',
+        imageUrl: 'springer_nature.png',
+        video: 'https://www.youtube.com/watch?v=ke44YCKig_w',
+      }
+    - {
+        name: 'HF Group',
+        description: 'HF Group specializes in library binding, conservation, preservation, digitization, print on demand (POD), fine binding, edition binding, restoration, art restoration, photograph restoration, and photograph conservation.',
+        link: 'https://www.hfgroup.com/',
+        imageUrl: 'hf_group.png',
+      }
+    - {
+        name: 'Wall Street Journal',
+        description: 'Wall Street Journal leads online coverage of breaking news and current headlines from the US and around the world',
+        link: 'https://www.wsj.com/',
+        imageUrl: 'wsj.svg',
+        video: 'https://youtu.be/LLhEQsHENQM',
+      }
+    - {
+        name: 'Ohio Library Support Staff Institute',
+        description: 'By providing continuing education opportunities for library support staff, OLSSI aspires to revitalize their enthusiasm for library work to make our libraries and ourselves better than ever!',
+        link: 'https://olssi.org/',
+        imageUrl: 'olssi.png',
+      }

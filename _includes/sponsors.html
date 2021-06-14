@@ -20,28 +20,30 @@
       {% endfor %} {% endif %} {% if site.sponsorsEnable == true %}
       <h3>{{ site.sponsorsTitle }}</h3>
       {% for sponsor in site.data.sponsors %}
-      <h4>{{ sponsor.group }}</h4>
-      <ul class="list-inline">
-        {% for element in sponsor.elements %}
-        <li {% if element.width !="null" %}style="width: {{ element.width }};"
-          {% endif %}
-          class="{{ sponsor.group | downcase | split: ' ' | join: '-' }}">
-          <a href="{{ element.link }}" target="_blank">
-            <img src="{{ site.baseurl }}/img/sponsors/{{ element.imageUrl }}"
-              title="{{ element.description }}" alt="{{ element.name }}" />
-          </a>
-          {% if element.video %}
-          <div class="sponsors video-container">
-            <div class="sponsors video">
-              <a href="{{ element.video }}" aria-label='Sponsor video for {{ element.name }}'>
-                <i class="fa fa-youtube-play fa-2x sponsors video-link"></i>
+        {% if sponsor.group != "do-not-include" %}
+          <h4>{{ sponsor.group }}</h4>
+          <ul class="list-inline">
+            {% for element in sponsor.elements %}
+            <li {% if element.width !="null" %}style="width: {{ element.width }};"
+              {% endif %}
+              class="{{ sponsor.group | downcase | split: ' ' | join: '-' }}">
+              <a href="{{ element.link }}" target="_blank">
+                <img src="{{ site.baseurl }}/img/sponsors/{{ element.imageUrl }}"
+                  title="{{ element.description }}" alt="{{ element.name }}" />
               </a>
-            </div>
-          </div>
-          {% endif %}
-        </li>
-        {% endfor %}
-      </ul>
+              {% if element.video %}
+              <div class="sponsors video-container">
+                <div class="sponsors video">
+                  <a href="{{ element.video }}" aria-label='Sponsor video for {{ element.name }}'>
+                    <i class="fa fa-youtube-play fa-2x sponsors video-link"></i>
+                  </a>
+                </div>
+              </div>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+        {% endif %}
       {% endfor %} {% if site.c4sponsorsEnable == true %}
       <a href="{{ site.c4sponsorsUrl | prepend: site.baseurl }}"
         class="btn btn-primary waves-effect waves-button waves-light waves-float">{{ site.sponsorsC4sponsorsButton }}</a>
