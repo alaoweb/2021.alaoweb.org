@@ -41,6 +41,7 @@
 						<div class="col-md-8">
 							<a href="{{ site.sessionFeedbackForm }}&{{ site.sessionFeedbackParameter }}={{ session.title | url_encode }}"
 								class="survey-button btn"
+								target="_blank"
 								aria-label="Complete the survey for {{ session.title }}}">{{session.subtype | capitalize }}
 								Feedback</a>
 						</div>
@@ -51,6 +52,7 @@
 						<div class="col-md-8">
 							<a href="{{ site.keynoteFeedbackForm }}"
 								class="survey-button btn"
+								target="_blank"
 								aria-label="Complete the survey for {{ session.title }}}">{{session.subtype | capitalize }}
 								Feedback</a>
 						</div>
@@ -61,6 +63,7 @@
 						<div class="col-md-8">
 							<a href="{{ site.preconferenceFeedbackForm }}"
 								class="survey-button btn"
+								target="_blank"
 								aria-label="Complete the survey for {{ session.title }}}">{{session.subtype | capitalize }}
 								Feedback</a>
 						</div>
@@ -71,6 +74,7 @@
 						<div class="col-md-8">
 							<a href="{{ site.preconferenceWorkshopFeedbackForm }}"
 								class="survey-button btn"
+								target="_blank"
 								aria-label="Complete the survey for {{ session.title }}}">{{session.subtype | capitalize }}
 								Feedback</a>
 						</div>
@@ -100,6 +104,7 @@
 							{% if session.live-stream-type == 'q&a' or session.live-stream-type == 'Q&A' %}
 							<div class="qa-button">
 								<a href="{{ session.live-stream-link }}"
+									target="_blank"
 									class="btn btn-danger">Launch
 									{{ session.live-stream-type | upcase }}</a>
 							</div>
@@ -110,6 +115,7 @@
 							{% else %}
 							<div class="qa-button">
 								<a href="{{ session.live-stream-link }}"
+									target="_blank"
 									class="btn btn-danger">Launch
 									{{ session.live-stream-type | capitalize }}</a>
 							</div>
