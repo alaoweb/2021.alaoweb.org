@@ -1,16 +1,15 @@
 <!-- Begin Posters: indexed list of posters -->
 <section id="blog">
-  <div class="content-wrapper text-left">
+  <div class="content-wrapper text-left container">
     {% if site.showPosters == false %}
     <h2 style="text-align: center">{{ site.noPostersText }}</h2>
     {% else %}
-    <div id="poster-sessions"
-      class="col-lg-10 col-md-10 col-xs-10 col-md-offset-1 col-xs-offset-1">
+    <div id="poster-sessions">
       {% assign sortedPosts = site.posts | sort: 'title' %}
       {% for post in sortedPosts %}
-      <article class="post">
-        <div class="card">
-          <div class="card-body">
+      <article class="post col-md-4">
+        <div class="panel poster-panel">
+          <div class="panel-body">
             <h3 class="poster-title">{{ post.title }}</h3>
             {% if post.presenters %}
             <p>
@@ -20,8 +19,10 @@
               {%endfor %}
             </p>
             {% endif %}
+
             <a href="{{ site.baseurl | append: post.url }}"
-              title="{{ post.title }}" class="btn btn-primary">View Poster</a>
+              title="{{ post.title }}" class="btn btn-primary align-items-center justify-content-center">View Poster</a>
+            
           </div>
         </div>
       </article>
