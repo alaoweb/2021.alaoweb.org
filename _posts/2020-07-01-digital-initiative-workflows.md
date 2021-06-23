@@ -2,7 +2,7 @@
 layout: poster
 title: "Sustainable Digital Initiative Workflows"
 description: "Managing digital initiatives with limited staff can be challenging. Learn how a mid-sized university applied technical services librarians’ metadata expertise, liaison librarians’ relationships with faculty and knowledge of subject areas, and systems staffs’ technical expertise to make the process more efficient and sustainable. Find out how interdepartmental collaboration and implementation of time-saving scripts and free tools worked well and where there are still opportunities for improvement."
-date: 2020-07-01 08:00:00
+date: 2021-07-01 08:00:00
 speaker-data: [49]
 presenters:
   - {

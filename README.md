@@ -1,19 +1,19 @@
 # Preview website:
 [https://www.alaoweb.org/2021-preview](https://www.alaoweb.org/2021-preview)
 <!--
-# 2020.alaoweb.org
+# 2021.alaoweb.org
 #### PRODUCTION
-GitHub Pages build from `master` branch: [https://2020.alaoweb.org](https://2020.alaoweb.org)
+GitHub Pages build from `master` branch: [https://2021.alaoweb.org](https://2021.alaoweb.org)
 
 #### STAGING
-Netlify build from `staging` branch: [https://2020-staging.alaoweb.org](https://2020-staging.alaoweb.org)
+Netlify build from `staging` branch: [https://2021-staging.alaoweb.org](https://2021-staging.alaoweb.org)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3bcb0bf6-d7dc-433c-afff-69ba64964e69/deploy-status)](https://app.netlify.com/sites/alao/deploys)
 -->
 
 ## Intro
 
-This site was developed by the ALAO 2020 Virtual Conference Website Team based on a design by the [Project Zeppelin / GDG DevFest](https://github.com/gdg-x/zeppelin). A great deal of conference and organizational info can be found on the [ALAO Website](https://www.alaoweb.org). This site should serve as a gateway to the various sources of ALAO information while providing visitors with a user-friendly way to find conference-specific info.
+This site was developed by the ALAO 2021 Virtual Conference Website Team based on a design by the [Project Zeppelin / GDG DevFest](https://github.com/gdg-x/zeppelin). A great deal of conference and organizational info can be found on the [ALAO Website](https://www.alaoweb.org). This site should serve as a gateway to the various sources of ALAO information while providing visitors with a user-friendly way to find conference-specific info.
 
 This site was designed with future users in mind, so the group chose platforms that would be accessible to a wide range of users: [Jekyll](https://jekyllrb.com) and [GitHub Pages](https://pages.github.com).
 
@@ -23,7 +23,7 @@ This site was designed with future users in mind, so the group chose platforms t
 
 ## Resources
 
-More details are available in the [GitHub wiki](https://github.com/alaoweb/2020.alaoweb.org/wiki).
+More details are available in the [GitHub wiki](https://github.com/alaoweb/2021.alaoweb.org/wiki).
 
 ## Contributing
 
@@ -37,7 +37,7 @@ The following example uses "issue#3" as a subject. That's the branch name and is
 
 ### Setup
 
-1. ```git clone``` the [repo](https://github.com/alaoweb/2020.alaoweb.org.git) from GitHub
+1. ```git clone``` the [repo](https://github.com/alaoweb/2021.alaoweb.org.git) from GitHub
 2. cd to repo root and ```git pull```
 3. ```bundle install```
 4. Continue with step 3 below
@@ -63,7 +63,7 @@ The following example uses "issue#3" as a subject. That's the branch name and is
   * ```git push --set-upstream origin issue#3```
 9. Switch back to the master branch
   * ```git checkout master```
-10. Go to https://github.com/alaoweb/2020.alaoweb.org
+10. Go to https://github.com/alaoweb/2021.alaoweb.org
 11. Make a pull request base:master and compare:issue-3
 12. Wait for someone to test your changes and merge the pull request
 13. Do the dance of joy 🎉

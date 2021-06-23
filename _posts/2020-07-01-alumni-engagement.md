@@ -2,7 +2,7 @@
 layout: poster
 title: 'Connecting the Past to the Present: Alumni Engagement with the Library During Homecoming'
 description: 'Our library has implemented a plan to sustain alumni engagement with the library and its resources during Homecoming festivities. In 2019, we developed open-source software to pair yearbook photos with selfies or photos from “today” to create social-media-ready now-and-then images alums could share. We also highlighted special collections related to the 50th anniversary year being celebrated and made old yearbooks available. Paired with some basic hospitality (snacks, shelter from the weather, the big game on a live feed, etc), we highlighted the library’s alumni-oriented resources and deepened our partnership with the Alumni Relations office. We will share some easy things your library can do to bring alumni to the library during Homecoming and similar events, and share resources to support some more involved projects to engage with alums. We will also share the open-source software we developed to create “now-and-then” alumni photos for social media.'
-date: 2020-07-01 08:00:00
+date: 2021-07-01 08:00:00
 speaker-data: [41, 51, 57]
 presenters:
   - {

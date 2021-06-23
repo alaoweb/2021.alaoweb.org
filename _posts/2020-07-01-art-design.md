@@ -2,7 +2,7 @@
 layout: poster
 title: 'Art and Learning in the Library: Designing Curricular and Co-Curricular Experiences for Students'
 description: Art and other visual collections in academic libraries present a unique opportunity for librarians and archivists to enhance student learning. In this session, attendees will be able to reimagine exhibits, art, film or photography within the library as inspiration to collaborate with teaching faculty and other units on campus. Two examples will illustrate successful processes and partnerships. A curricular-based project sought to engage non-majors in an art history course in critical visual literacy using hands-on activities with art and artifacts. An exhibit-based, co-curricular program increased student awareness of cultural representations of one of the world’s most well-known stories. From planning, to collaboration, to assessment of student learning, these examples will provide libraries with ideas and inspiration to create their own intentional, repeatable and sustainable experiences for students; pivoting to virtual experiences will be discussed. By leveraging our expertise and collections, we can effectively market the library as well-connected to students’ development.
-date: 2020-07-01 08:00:00
+date: 2021-07-01 08:00:00
 speaker-data: [75, 44]
 presenters:
   - {

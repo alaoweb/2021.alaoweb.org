@@ -2,7 +2,7 @@
 layout: poster
 title: "June Madness! A Month of Book Bracketology"
 description: "Offering support in a remote learning environment has long been an essential function of libraries. As universities across the country moved to digital spaces for engagement as well as education, libraries followed suit. June Madness! is a piece of passive programming offered by this academic library. Utilizing both Libwizard and Libguides, librarians were able to create a program which mirrored the traditional NCAA March Madness Bracket, using books from the library and OhioLINK catalogs to represent four areas unique to this campus. June Madness! offered students the opportunity to interact with their library, voice their opinions, and predict winners on their own time, allowing them to learn about lending services at their own pace. Coordinated marketing of the program to university faculty, staff, alumni, and students showcased the library as a digital space not only for distance learning, but for fun and engagement as well."
-date: 2020-07-01 08:00:00
+date: 2021-07-01 08:00:00
 speaker-data: [45, 71, 32]
 additional_support: "Emery Pratt"
 presenters:
@@ -38,7 +38,7 @@ supplemental-docs:
 #    url: /handouts/my-handout.pdf
 #    title: Sample Handout
   - type: website
-    url: https://libguides.udayton.edu/alao2020-june-madness
+    url: https://libguides.udayton.edu/alao2021-june-madness
     title: June Madness Website
 isStaticPost: false
 published: true

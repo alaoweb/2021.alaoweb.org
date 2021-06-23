@@ -2,7 +2,7 @@
 layout: poster
 title: "Information Literacy in General Education"
 description: "In a multi-year process, an entire general education curriculum was revised. Through this revision, the curriculum went from a subject-focused list to one that highly emphasizes critical thinking, problem-solving, and analysis. The library was fortunate to be involved throughout this revision working with faculty for a comprehensive 4-year curriculum. We will explore the ways in which the library was involved and what the resulting curriculum became, including information on key takeaways regarding delivery in two modalities (classroom-based and online). We will also explain how this impacted library resources and services in the curriculum’s first year and what its future may be."
-date: 2020-07-01 08:00:00
+date: 2021-07-01 08:00:00
 speaker-data: [18, 27]
 presenters:
   - {

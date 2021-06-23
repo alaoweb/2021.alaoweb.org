@@ -2,7 +2,7 @@
 layout: poster
 title: "Sustainable, Cooperative Instruction: Implementing a One-Shot Mini-Conference"
 description: "This poster will describe a cooperative effort between archivists, an instruction librarian, our faculty partner, and an undergraduate teaching assistant to support a particularly challenging research assignment in a course that regularly enrolls 50-60 students from a variety of majors. At the request of our faculty partner, we designed a one-shot “mini-conference” that fit within a standard course block and was composed of repeated concurrent workshops. Each workshop focused on a particular source or genre of sources and the advanced search strategies used to navigate them. As such, the instruction aligned well with ACRL’s information literacy frame searching as strategic exploration. Instructors found this format to be sustainable and scalable in part because we were able to provide specialized instruction in a more intimate setting than generally possible for larger class sizes. The poster will offer practical advice for replicating the mini-conference and highlight the benefits of this format. While many libraries may not have the space or staff to replicate the model in-person, it could be modified for synchronous or asynchronous online instruction."
-date: 2020-07-01 08:00:00
+date: 2021-07-01 08:00:00
 speaker-data: [8, 15]
 presenters:
   - {

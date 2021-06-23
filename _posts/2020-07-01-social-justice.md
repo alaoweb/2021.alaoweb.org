@@ -2,7 +2,7 @@
 layout: poster
 title: "LibGuides for Social Justice: Transformative or Transactional?"
 description: "The use of the LibGuides platform to provide access to information and resources outside the scope of traditional subject and course guides is a direct example of how libraries and librarians are using their tools to become advocates and allies for change. In this poster presentation, I explore LibGuides that were created in conversation with the Black Lives Matter, anti-racism movements and police brutality dialogues happening in our country, highlighting the need to think critically about our motivations and implementations of social justice guides."
-date: 2020-07-01 08:00:00
+date: 2021-07-01 08:00:00
 speaker-data: [58]
 presenters:
   - {

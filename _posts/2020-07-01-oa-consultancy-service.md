@@ -2,7 +2,7 @@
 layout: poster
 title: "No Publishing Services? No Problem!: Growing a Consultancy Service for OA Journal Editors"
 description: "Through liaison activities, librarians identified faculty editors of locally-published open access scholarly journals needing journal management support, as well as guidance in enhancing the scholarly impact and perceived value of publications among research community stakeholders. Faculty editors of these publications are often unaware of the strategies available to increase the potential for the success of their journals and do not consider libraries as a source for support. This state of affairs represents a tremendous service opportunity for academic libraries, especially those that cannot offer full, standalone publishing services. Assembling a small, in-house team with relevant expertise, librarians were able to provide high-value, game-changing consultancy services where faculty-editors came to view librarians as full partners in enhancing scholarly communications. This poster highlights the evolution of this innovative and sustainable consultancy service model to support faculty editors."
-date: 2020-07-01 08:00:00
+date: 2021-07-01 08:00:00
 speaker-data: [67, 26]
 presenters:
   - {

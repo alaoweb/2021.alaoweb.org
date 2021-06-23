@@ -2,14 +2,14 @@
 markdown: kramdown
 permalink: pretty
 exclude: ['README.md', 'README.md.orig', 'LICENSE.txt', 'CNAME']
-url: "https://alaoweb.github.io/2020.alaoweb.org"
+url: "https://alaoweb.github.io/2021.alaoweb.org"
 plugins:
 - jekyll-sitemap
 safe: false
 
 #Google-Analytics & API Key
 googleAnalyticsTrackingId: "UA-101881286-2"
-googleAnalyticsSiteUrl: "2020.alaoweb.org"
+googleAnalyticsSiteUrl: "2021.alaoweb.org"
 siteVerification: "2dvmkAUuRuFhMopsqIvEBr1-YCYHb9v2Py9FEsrUg40"
 googleMapsApiKey: "AIzaSyDUQZ2d8zeEcwzJur9Av9KSg2l1W1NNaH8"
 
@@ -29,7 +29,7 @@ organizerLogo: "/img/seo/organizer-logo.svg"
 organizerLink: "https://www.alaoweb.org/"
 
 #Site-Settings
-title: "ALAO Virtual Conference 2020"
+title: "ALAO Virtual Conference 2021"
 email: "2021-cpc@alaoweb.org"
 description: "Virtual Conference"
 permalink: "/posters/:title"
@@ -50,7 +50,7 @@ aboutBlock:
 # Awards
 # -------------------------------------------------------------
 showAwardWinners: true
-awardAnnouncementTime: "2020-10-29T12:10:00"
+awardAnnouncementTime: "2021-10-29T12:10:00"
 
 # -------------------------------------------------------------
 # Call For Proposals & Sponsors
@@ -60,7 +60,7 @@ c4pUrl: "https://docs.google.com/forms/d/e/1FAIpQLSdfGZEuGcn_KmpEqd9-GgU-xPWhViP
 speakersC4pButton: "Become a speaker"
 
 c4sponsorsEnable: false
-c4sponsorsUrl: "/handouts/sponsorship_letter_2020.pdf"
+c4sponsorsUrl: "/handouts/sponsorship_letter_2021.pdf"
 sponsorsC4sponsorsButton: "Become a sponsor"
 
 # -------------------------------------------------------------
@@ -72,7 +72,7 @@ codContactEmail: a.goodsett@csuohio.edu
 # -------------------------------------------------------------
 # Footer
 # -------------------------------------------------------------
-conferenceYear: 2020
+conferenceYear: 2021
 
 socialLinks:
  - {link: "https://twitter.com/ALAOorg", icon: "twitter", title: "Twitter"}
@@ -124,9 +124,9 @@ eventAddressLocality: "Columbus"
 eventAddressLocalityRegion: "Ohio"
 eventPostalCode: "43035"
 eventAddressCountry: "United States"
-eventStartTime: "2020-10-26T10:00" # 2020-10-26T10:00
+eventStartTime: "2021-10-26T10:00" # 2021-10-26T10:00
 eventDoorTime: "09:00"
-eventEndTime: "2020-10-28T17:00"
+eventEndTime: "2021-10-28T17:00"
 eventPlaceCoordinates: "40.154830, -83.016290"
 mapCenterCoordinates: "40.154830, -83.016290"
 mapMobileCenterCoordinates: "40.154830, -83.016290"
@@ -250,9 +250,9 @@ preconferenceAddressLocalityRegion: "Ohio"
 preconferencePostalCode: "43035"
 preconferenceAddressCountry: "United States"
 preconferenceTimeTitle: "Preconference through"
-preconferenceStartTime: "2020-01-01T10:00"
+preconferenceStartTime: "2021-01-01T10:00"
 preconferenceDoorTime: "09:00"
-preconferenceEndTime: "2020-10-30T00:00"
+preconferenceEndTime: "2021-10-30T00:00"
 viewOnMap: "View on Google Maps"
 preconferencePlaceCoordinates: "40.154830, -83.016290"
 preconferenceMapCenterCoordinates: "40.154830, -83.016290"
@@ -270,7 +270,7 @@ rockstarSpeakersButtonText: "See all speakers"
 # -------------------------------------------------------------
 # Service Project Block
 # -------------------------------------------------------------
-# this still 2020
+# this still 2021
 serviceprojectTitle: ""
 serviceprojectImage: dfs_logo.jpg
 serviceprojectInfo: 'Each year for the ALAO conference we host a service project to collect materials for a charitable organization. This year, we are partnering with Dress for Success, an organization that serves women by providing clothes and other tools to seek economic independence. However, instead of collecting clothes at the conference, we ask that you consider making a donation to this worthy organization. There are three affiliates of Dress for Success in Ohio, and you can choose the region that you would like to support.  If you decide to make a donation, please put ALAO member in the notes field.'
@@ -345,8 +345,8 @@ ticketsOffers:
    buyButtonText: "Register Now"
    additionalInfo: ""
    ticketContentList: ["Keynotes", "Pre-recorded Sessions", "Posters"]
-   validFrom: "2020-07-20"
-   validThrough: "2020-09-28"
+   validFrom: "2021-07-20"
+   validThrough: "2021-09-28"
    disabled: true
    soldOut: false
    soldOutText: "Sold Out"
@@ -361,8 +361,8 @@ ticketsOffers:
    buyButtonText: "Register Now"
    additionalInfo: ""
    ticketContentList: ["Keynotes", "Pre-recorded Sessions", "Posters"]
-   validFrom: "2020-09-29"
-   validThrough: "2020-10-16"
+   validFrom: "2021-09-29"
+   validThrough: "2021-10-16"
    disabled: true
    soldOut: false
    soldOutText: "Sold Out"
@@ -379,7 +379,7 @@ ticketsOffers:
    ticketContentList: ["Preconference"]
    altSubtitle: "Separate Ticket Required"
    validFrom: ""
-   validThrough: "2020-10-16"
+   validThrough: "2021-10-16"
    disabled: true
    soldOut: false
    soldOutText: "Sold Out"
@@ -396,7 +396,7 @@ ticketsOffers:
    ticketContentList: ["Preconference"]
    altSubtitle: ""
    validFrom: ""
-   validThrough: "2020-10-16"
+   validThrough: "2021-10-16"
    disabled: true
    soldOut: false
    soldOutText: "Sold Out"

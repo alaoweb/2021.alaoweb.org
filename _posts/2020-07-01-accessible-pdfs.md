@@ -2,7 +2,7 @@
 layout: poster
 title: 'Ensuring your Microsoft Word created PDFs are Accessible'
 description: 'This poster highlights actions that must be taken in order to create an accessible PDF using Microsoft Word.'
-date: 2020-07-01 08:00:00
+date: 2021-07-01 08:00:00
 speaker-data: [78]
 presenters:
   - {

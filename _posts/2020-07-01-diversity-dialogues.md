@@ -1,8 +1,8 @@
 ---
 layout: poster
 title: "Engaging Library Staff in Diversity Dialogues: Experiences from a Small PWI Institution"
-description: "During the 2019-2020 academic year, we started an EDI focused reading and discussion program for all library employees at our small, predominately white institution. The program was intended to raise awareness about issues related to EDI, provide a safe space for staff to have challenging discussions, and to identify practical steps that library employees could undertake in order to support the University’s commitment to non-discrimination and diversity. In support of these goals we selected readings on a variety of topics related to diversity, made use of multiple discussion models, and designed our year-end staff retreat to serve as a culmination for our first year of discussions."
-date: 2020-07-01 08:00:00
+description: "During the 2019-2021 academic year, we started an EDI focused reading and discussion program for all library employees at our small, predominately white institution. The program was intended to raise awareness about issues related to EDI, provide a safe space for staff to have challenging discussions, and to identify practical steps that library employees could undertake in order to support the University’s commitment to non-discrimination and diversity. In support of these goals we selected readings on a variety of topics related to diversity, made use of multiple discussion models, and designed our year-end staff retreat to serve as a culmination for our first year of discussions."
+date: 2021-07-01 08:00:00
 speaker-data: [30, 7]
 presenters:
   - {
