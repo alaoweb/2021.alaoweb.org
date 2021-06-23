@@ -20,7 +20,7 @@
 #    - { title: Presentation Slides, filename: session-1-slides.pdf }
 #  video: "//www.youtube.com/embed/{replace_with_video_id}"
 #  live-stream-type: Q&A
-#  live-stream-time: "2020-10-26 10:20:00"
+#  live-stream-time: "2021-10-26 10:20:00"
 #  live-stream-link: "https://www.example.com"
 
 # EXAMPLE TEMPLATE FOR A GENERIC SLOT, i.e. LUNCH
@@ -52,10 +52,10 @@
   language:
   complexity:
   handouts:
-    - { title: Executive Board Minutes 10/16/2020, filename: board_minutes.pdf }
+    - { title: Executive Board Minutes 10/16/2021, filename: board_minutes.pdf }
   video:
   live-stream-type: meeting
-  live-stream-time: "2020-10-28 12:30:00"
+  live-stream-time: "2021-10-28 12:30:00"
   live-stream-link: "https://zoom.us/j/93676999606?pwd=aFVtNEFFcWZDRWRSSzhLbThDTHZVdz09"
 
 - id: 002
@@ -68,7 +68,7 @@
   handouts:
   video:
   live-stream-type: workshop
-  live-stream-time: "2020-10-28 13:00:00"
+  live-stream-time: "2021-10-28 13:00:00"
   live-stream-link: "https://zoom.us/j/99254388425?pwd=bkswTHlvQkJtcWg3L3RXK05FUjFMdz09"
 
 - id: 003
@@ -83,7 +83,7 @@
     - { title: Presentation Slides as PPTX, filename: damasco_slides.pptx }
   video: "//www.youtube.com/embed/xTXlNHmScbQ"
   live-stream-type: Q&A
-  live-stream-time: "2020-10-28 16:10:00"
+  live-stream-time: "2021-10-28 16:10:00"
   live-stream-link: "https://zoom.us/j/92980272044?pwd=ZWJ2SmN0NmdLUkpmSmc2cU1kYlJ6dz09"
 
 - id: 004
@@ -91,7 +91,7 @@
   description: " Whether you are considering joining ALAO, you joined recently or are looking for ways to get involved, this is the session for you! The program will start at 7 p.m. with a brief overview of the structure of ALAO with particular attention paid to how to get involved. There will also be time for questions and a chance to connect informally with other new members."
   subtype: meeting
   live-stream-type: meeting
-  live-stream-time: "2020-10-28 19:00:00"
+  live-stream-time: "2021-10-28 19:00:00"
   live-stream-link: "https://zoom.us/j/99177433462?pwd=RzBPNnptQkp5SlBMSjc2MzNjZEVsZz09"
 
 # ---------------------------------
@@ -117,12 +117,12 @@
     - { title: Presentation Slides as PDF, filename: opening_keynote_slides.pdf }
   video: "//www.youtube.com/embed/x1YH_9OBrkg"
   live-stream-type: keynote
-  live-stream-time: "2020-10-29 09:00:00"
+  live-stream-time: "2021-10-29 09:00:00"
   live-stream-link: "https://zoom.us/j/94847488840?pwd=cE1JZ1ljR1FIQjFiREJNV0dWSitIUT09"
 
 - id: 102
   title: "Health Science Librarians' Engagement in Work-Related Reflection: A Qualitative Exploration of why they Invest in Reflective Practice: Preliminary Findings and Application to Academic Libraries"
-  description: "While reflective practice is often recommended in the library literature within the context of information literacy, there is minimal research on the use of reflective practice by librarians. A 2020 qualitative study analyzed transcripts from interviews of health science librarians about how they use intentional reflection to improve their performance at work. Examples of reflective writing, when available, were also analyzed. Preliminary results suggest that these librarians rarely use detailed reflective models, utilizing instead simple models or freeform reflection. The most common work areas in which reflection is used are information literacy education (teaching improvement) and assessment of annual performance/goal setting. Because reflective practice is a tool that can be used by any library employee in any department in any type of library, the results of this study have application to employees in general academic libraries. In addition to reporting the results of the research, the session will also include practical advice, experience, and tools that attendees can use in their work."
+  description: "While reflective practice is often recommended in the library literature within the context of information literacy, there is minimal research on the use of reflective practice by librarians. A 2021 qualitative study analyzed transcripts from interviews of health science librarians about how they use intentional reflection to improve their performance at work. Examples of reflective writing, when available, were also analyzed. Preliminary results suggest that these librarians rarely use detailed reflective models, utilizing instead simple models or freeform reflection. The most common work areas in which reflection is used are information literacy education (teaching improvement) and assessment of annual performance/goal setting. Because reflective practice is a tool that can be used by any library employee in any department in any type of library, the results of this study have application to employees in general academic libraries. In addition to reporting the results of the research, the session will also include practical advice, experience, and tools that attendees can use in their work."
   subtype: session
   speakers: [50]
   language:
@@ -131,7 +131,7 @@
     - { title: Presentation Slides as PDF, filename: jolene_miller_slides.pdf }
   video: "//www.youtube.com/embed/LFx4iDNKbWE"
   live-stream-type: Q&A
-  live-stream-time: "2020-10-29 15:05:00"
+  live-stream-time: "2021-10-29 15:05:00"
   live-stream-link: "https://zoom.us/j/97051578436?pwd=bFNwTnNGVmQ0dUo4TFQ2V1d2RG82QT09"
 
 - id: 103
@@ -146,7 +146,7 @@
     - { title: Presentation Slides as PPTX, filename: jennifer_joe_slides.pptx }
   video: "//www.youtube.com/embed/w5nPac3CYS8"
   live-stream-type: Q&A
-  live-stream-time: "2020-10-30 09:45:00"
+  live-stream-time: "2021-10-30 09:45:00"
   live-stream-link: "https://zoom.us/j/99757959861?pwd=UHJkSktTZU9sZnZlUk5scUkxMU5KQT09"
 
 - id: 104
@@ -162,7 +162,7 @@
   handouts:
   video: "//www.youtube.com/embed/LfQQx5OZ3m8"
   live-stream-type: Q&A
-  live-stream-time: "2020-10-30 15:15:00"
+  live-stream-time: "2021-10-30 15:15:00"
   live-stream-link: "https://zoom.us/j/97111179471?pwd=dFNWbG13aFRwKzhER3hlSlBKNE9mUT09"
 
 - id: 105
@@ -175,7 +175,7 @@
   handouts:
   video: "//www.youtube.com/embed/Lq0Anoh4u9I"
   live-stream-type: Q&A
-  live-stream-time: "2020-10-30 10:55:00"
+  live-stream-time: "2021-10-30 10:55:00"
   live-stream-link: "https://zoom.us/j/94278620480?pwd=cjlaZ2FGWlVPYnJJTGRSLy9PWTN2UT09"
 
 - id: 106
@@ -195,7 +195,7 @@
   handouts:
   video: "//www.youtube.com/embed/WQfbBJ5y3oU"
   live-stream-type: Q&A
-  live-stream-time: "2020-10-30 12:05:00"
+  live-stream-time: "2021-10-30 12:05:00"
   live-stream-link: "https://zoom.us/j/98575362928?pwd=RzUzL0ZFV1F3Qk1SdXVzc3llK1FZdz09"
 
 - id: 107
@@ -210,7 +210,7 @@
     - { title: Presentation Slides as PDF, filename: didithelp_slides.pdf }
   video: "//www.youtube.com/embed/M9UVRnX7q7k"
   live-stream-type: Q&A
-  live-stream-time: "2020-10-29 11:55:00"
+  live-stream-time: "2021-10-29 11:55:00"
   live-stream-link: "https://zoom.us/j/98913419982?pwd=Nm93L1h6L3dNTDVDM3AvWG1zVldyZz09"
 
 - id: 108
@@ -226,7 +226,7 @@
   handouts:
   video: "//www.youtube.com/embed/TLQ3IewImbc"
   live-stream-type: Q&A
-  live-stream-time: "2020-10-29 13:55:00"
+  live-stream-time: "2021-10-29 13:55:00"
   live-stream-link: "https://zoom.us/j/97477479765?pwd=VHBFZlRpaExnc2o3d0lGekR5Z0wydz09"
 
 - id: 109
@@ -239,7 +239,7 @@
   handouts:
   video: "//www.youtube.com/embed/hsyg6g1NuXg"
   live-stream-type: Q&A
-  live-stream-time: "2020-10-30 09:45:00"
+  live-stream-time: "2021-10-30 09:45:00"
   live-stream-link: "https://zoom.us/j/96739966882?pwd=SU5OelJ6eldDYXdPY3FIWkVBS3N0dz09"
 
 - id: 110
@@ -253,12 +253,12 @@
     - { title: Writing Center and Library Collaborations, url: "https://docs.google.com/document/d/1zFdk0H2Ow2cBqjuLKQU7wv-2gMV6e14QTT316jqwhoI/edit" }
   video: "//www.youtube.com/embed/ALWFseA64QY"
   live-stream-type: Q&A
-  live-stream-time: "2020-10-29 16:15:00"
+  live-stream-time: "2021-10-29 16:15:00"
   live-stream-link: "https://zoom.us/j/91001656927?pwd=WkcxOEpOZFRwL24rRHJObm8zdWJXZz09"
 
 - id: 111
   title: "Flexible, Scalable, and Sustainable Data Literacy Instruction: Remote Learning and Collaboration for the Future"
-  description: "Data literacy (DL) is an important topic that is not typically covered in-depth as part of undergraduate curricula, yet is often a skillset that faculty expect new graduate students to have. In spring 2020, librarians partnered with a STEM department to transform its in-person DL workshops. Online modules were created to cover four main DL subjects: data management, data curation, data analysis, and data visualization. The modules were designed to either be standalone or taken together as a microcredential, and to be applicable to a wide range of disciplines. Over the summer, several graduate students, faculty, and librarians were recruited to test and provide feedback on the modules, with the goal of a full rollout in fall 2020. Many faculty have already expressed interest in incorporating one or more of these modules into their online courses. Future developments will strengthen the library’s remote instruction offerings to face challenges posed by uncertain times and ensure students are able to cultivate these skills. This presentation will cover the development of these modules, including outreach and marketing efforts, and will provide a platform for attendees to identify, discuss, and plan how they might incorporate data literacy instruction at their institutions."
+  description: "Data literacy (DL) is an important topic that is not typically covered in-depth as part of undergraduate curricula, yet is often a skillset that faculty expect new graduate students to have. In spring 2021, librarians partnered with a STEM department to transform its in-person DL workshops. Online modules were created to cover four main DL subjects: data management, data curation, data analysis, and data visualization. The modules were designed to either be standalone or taken together as a microcredential, and to be applicable to a wide range of disciplines. Over the summer, several graduate students, faculty, and librarians were recruited to test and provide feedback on the modules, with the goal of a full rollout in fall 2021. Many faculty have already expressed interest in incorporating one or more of these modules into their online courses. Future developments will strengthen the library’s remote instruction offerings to face challenges posed by uncertain times and ensure students are able to cultivate these skills. This presentation will cover the development of these modules, including outreach and marketing efforts, and will provide a platform for attendees to identify, discuss, and plan how they might incorporate data literacy instruction at their institutions."
   subtype: session
   speakers: [12, 6]
   additional_support: 'GeoScienceWorld'
@@ -267,7 +267,7 @@
   handouts:
   video: "//www.youtube.com/embed/xYsY0sh0CNA"
   live-stream-type: Q&A
-  live-stream-time: "2020-10-30 15:15:00"
+  live-stream-time: "2021-10-30 15:15:00"
   live-stream-link: "https://zoom.us/j/93927055431?pwd=R3J4S3JTcDd5YTNvNlNUYnBvTng2QT09"
 
 - id: 112
@@ -282,7 +282,7 @@
     - { title: Presentation Slides (PDF), filename: nagle_slides.pdf }
   video: "//www.youtube.com/embed/UbDFJYLpp2Q"
   live-stream-type: Q&A
-  live-stream-time: "2020-10-30 10:55:00"
+  live-stream-time: "2021-10-30 10:55:00"
   live-stream-link: "https://zoom.us/j/93860089808?pwd=dFhhOTBrMFlxZTRpYWs0MFhoTHVQQT09"
 
 #- id: 113
@@ -296,7 +296,7 @@
 #  handouts:
 #  video:
 #  live-stream-type: Q&A
-#  live-stream-time: "2020-10-30 14:05:00"
+#  live-stream-time: "2021-10-30 14:05:00"
 #  live-stream-link: "https://zoom.us/j/99701030797?pwd=SEZ0N1FiZ3YxTU1Nd0xyMkFNbUpkdz09"
 
 - id: 114
@@ -310,7 +310,7 @@
   handouts:
   video: "//www.youtube.com/embed/5UA5P0OQaKA"
   live-stream-type: Q&A
-  live-stream-time: "2020-10-29 15:05:00"
+  live-stream-time: "2021-10-29 15:05:00"
   live-stream-link: "https://zoom.us/j/95571468391?pwd=NzliTDJOalh3NHVPbU9rK1lPSnhhQT09"
 
 - id: 115
@@ -323,7 +323,7 @@
   handouts:
   video: "//www.youtube.com/embed/8xttnNkQSXc"
   live-stream-type: Q&A
-  live-stream-time: "2020-10-30 14:05:00"
+  live-stream-time: "2021-10-30 14:05:00"
   live-stream-link: "https://zoom.us/j/96009166811?pwd=TGcwWVF6cVp1YWpJY1Q5S3hhamx4QT09"
 
 - id: 116
@@ -340,7 +340,7 @@
     - { title: SIFT Bibliography, filename: SIFT_bibliography.pdf }
   video: "//www.youtube.com/embed/jtccWs2CdDA"
   live-stream-type: Q&A
-  live-stream-time: "2020-10-30 12:05:00"
+  live-stream-time: "2021-10-30 12:05:00"
   live-stream-link: "https://zoom.us/j/97171574808?pwd=bzFVeWpaZGUzSlpBU3pmY0R3ajBnQT09"
 
 - id: 117
@@ -356,7 +356,7 @@
   handouts:
   video: "//www.youtube.com/embed/d72xOwv1giI"
   live-stream-type: Q&A
-  live-stream-time: "2020-10-29 10:45:00"
+  live-stream-time: "2021-10-29 10:45:00"
   live-stream-link: "https://zoom.us/j/92548044881?pwd=NTBKUGlSVHoyS2E4dTFMbkRBd291QT09"
 
 - id: 118
@@ -373,7 +373,7 @@
     - { title: Presentation Slides as PDF, filename: hammons_slides.pdf }
   video: "//www.youtube.com/embed/VVsqiz739o8"
   live-stream-type: Q&A
-  live-stream-time: "2020-10-29 11:55:00"
+  live-stream-time: "2021-10-29 11:55:00"
   live-stream-link: "https://zoom.us/j/92712188325?pwd=N01adUxEQlZ4Ymg2KzdJcXBMZXBRQT09"
 
 - id: 119
@@ -389,7 +389,7 @@
     - { title: Kotter Framework Worksheet, filename: kotter_framework.pdf }
   video: "//www.youtube.com/embed/4SUU_BiheGk"
   live-stream-type: Q&A
-  live-stream-time: "2020-10-29 16:15:00"
+  live-stream-time: "2021-10-29 16:15:00"
   live-stream-link: "https://zoom.us/j/93376330969?pwd=a2JLK1NJNndYM25FTHVRTjAzUUwzUT09"
 
 - id: 120
@@ -406,7 +406,7 @@
     - { title: Presentation Slides as PDF, filename: microagressions_slides.pdf }
   video: "//www.youtube.com/embed/aaQE4rXzvts"
   live-stream-type: Q&A
-  live-stream-time: "2020-10-29 10:45:00"
+  live-stream-time: "2021-10-29 10:45:00"
   live-stream-link: "https://zoom.us/j/91849918080?pwd=RUN3R1hrS1FxbURyL1UvWTA3SGhndz09"
 
 - id: 121
@@ -424,7 +424,7 @@
   handouts:
   video: "//www.youtube.com/embed/k0PGSxhlGd0"
   live-stream-type: Q&A
-  live-stream-time: "2020-10-29 13:55:00"
+  live-stream-time: "2021-10-29 13:55:00"
   live-stream-link: "https://zoom.us/j/93485980929?pwd=SGZ3NWlXZnlPdEF5cWVKVmdibW1DQT09"
 
 - id: 122
@@ -440,7 +440,7 @@
   subtype: social
   video: "//www.youtube.com/embed/a6jQq2xfC5c"
   live-stream-type: awards
-  live-stream-time: "2020-10-29 12:30:00"
+  live-stream-time: "2021-10-29 12:30:00"
   live-stream-link: "https://zoom.us/j/98947848949?pwd=MmYzNW9nMExNTU1mZmpWaUZjRmJPQT09"
 
 # ---------------------------------
@@ -456,7 +456,7 @@
   live-stream-link: "https://us02web.zoom.us/j/84832603431?pwd=aExDL3krb29BTHRzM1pQTy9jT3RLQT09"
 
 - id: 201
-  title: "Resiliency and Other Myths: Keeping It Real in 2020"
+  title: "Resiliency and Other Myths: Keeping It Real in 2021"
   description: "In the best of times, librarianship is a career filled with a myriad of challenges and rewards. Librarianship in the time of a pandemic has amplified those challenges and shone a spotlight on some of the inequities inherent in our field and in our services. I’m going to use some old school inspiration to share my ideas for keeping it real and keeping things moving during these challenging times."
   subtype: keynote
   speakers: [2]
@@ -465,7 +465,7 @@
   handouts:
   video:
   live-stream-type: keynote
-  live-stream-time: "2020-10-30 15:40:00"
+  live-stream-time: "2021-10-30 15:40:00"
   live-stream-link: "https://zoom.us/j/92392890537?pwd=Yk5KTDRxWXQ2L09aVTVJTUcrUDl5dz09"
 
 - id: 202
@@ -490,7 +490,7 @@
   handouts:
   video:
   live-stream-type: social
-  live-stream-time: "2020-10-30 12:20:00"
+  live-stream-time: "2021-10-30 12:20:00"
   live-stream-link: "https://cwru.zoom.us/j/92705985210?pwd=M2hoZGhnUm5zc0xKMDdFeHpLL0VIZz09"
 
 - id: 205
@@ -500,7 +500,7 @@
   handouts:
   video:
   live-stream-type: social
-  live-stream-time: "2020-10-30 12:20:00"
+  live-stream-time: "2021-10-30 12:20:00"
   live-stream-link: "https://cwru.zoom.us/j/93704974862?pwd=ajd4S0dzYmZJYTZ6OVR1UTVqaTBsZz09"
 
 - id: 206
@@ -510,7 +510,7 @@
   handouts:
   video:
   live-stream-type: social
-  live-stream-time: "2020-10-30 12:20:00"
+  live-stream-time: "2021-10-30 12:20:00"
   live-stream-link: "https://miamioh.zoom.us/j/85962921708?pwd=SnNyTktnQUdxYVUzamtqU3ZudjI4UT09"
 
 - id: 207
@@ -520,5 +520,5 @@
   handouts:
   video:
   live-stream-type: social
-  live-stream-time: "2020-10-30 12:20:00"
+  live-stream-time: "2021-10-30 12:20:00"
   live-stream-link: "https://udayton.zoom.us/j/94661071529?pwd=U2h4akl0c0taNmx1bW5MbjRMWnMxZz09"

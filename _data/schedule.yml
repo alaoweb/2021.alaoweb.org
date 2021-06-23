@@ -1,4 +1,4 @@
-- date: "2020-10-27"
+- date: "2021-10-27"
   dateReadable: "October 27"
   tracks:
     - {title: "Track #1"}
@@ -10,9 +10,9 @@
       sessionIds: [203]
     }
 
-- date: "2020-10-28"
+- date: "2021-10-28"
   dateReadable: "October 28"
-  tracks: 
+  tracks:
     - {title: "Track #1"}
     - {title: "Track #2"}
   timeslots:
@@ -40,9 +40,9 @@
       sessionIds: [004]
     }
 
-- date: "2020-10-29"
+- date: "2021-10-29"
   dateReadable: "October 29"
-  tracks: 
+  tracks:
     - {title: "Track #1"}
     - {title: "Track #2"}
   timeslots:
@@ -85,7 +85,7 @@
         sessionIds: [119, 110]
     }
 
-- date: "2020-10-30"
+- date: "2021-10-30"
   dateReadable: "October 30"
   tracks:
     - {title: "Track #1"}
