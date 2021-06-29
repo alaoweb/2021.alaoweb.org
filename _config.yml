@@ -49,7 +49,7 @@ aboutBlock:
 # -------------------------------------------------------------
 # Awards
 # -------------------------------------------------------------
-showAwardWinners: true
+showAwardWinners: false
 awardAnnouncementTime: "2020-10-29T12:10:00"
 
 # -------------------------------------------------------------
@@ -66,8 +66,8 @@ sponsorsC4sponsorsButton: "Become a sponsor"
 # -------------------------------------------------------------
 # Code of Conduct - Contact Info
 # -------------------------------------------------------------
-codContactName: Mandi Goodsett
-codContactEmail: a.goodsett@csuohio.edu
+codContactName: ALAO President
+codContactEmail: president@alaoweb.org
 
 # -------------------------------------------------------------
 # Footer
@@ -101,7 +101,7 @@ typeoutFallback: "Building Bridges"
 
 # Call to Action Buttons
 heroButtons:
-  # - {permalink: "/#tickets", text: "Register"}
+  - {permalink: "/#tickets", text: "Register"}
   # - {permalink: "/awards", text: "View Award Winners" }
   # - {link: "https://forms.gle/DWoBhvAnJDDiR3tv6", text: "Apply for Scholarship"}
   # - {link: "https://docs.google.com/forms/d/e/1FAIpQLSdfGZEuGcn_KmpEqd9-GgU-xPWhViP1bivXOvJKcEvJ1DtLFw/viewform", text: "Become a speaker"}
@@ -315,7 +315,7 @@ showProgramCommittee: False
 # -------------------------------------------------------------
 ticketsHorizontalEnable: false
 ticketsVerticalEnable: true
-ticketsBuyButtonLink: "https://www.alaoweb.org/event-3712747"
+ticketsBuyButtonLink: "https://www.alaoweb.org/event-4300937"
 ticketsBuyButtonText: "Register Now"
 ticketsTitle: "Registration"
 ticketsInfo: "Conference registration provides access to all keynotes, pre-recorded sessions, and posters. Pre-conference sessions are ticketed separately during registration"
@@ -324,20 +324,20 @@ ticketsOffers:
    price: "10-30"
    priceCurrency: "USD"
    ticketsNumber: "500"
-   ribbon: "-25%"
+   ribbon: "Save $5"
    featured: true
    buyButtonLink: "https://www.alaoweb.org/event-3712747"
    buyButtonText: "Register Now"
    additionalInfo: ""
    ticketContentList: ["Keynotes", "Pre-recorded Sessions", "Posters"]
-   validFrom: "2020-07-20"
-   validThrough: "2020-09-28"
-   disabled: true
+   validFrom: "2021-06-28"
+   validThrough: "2021-08-27"
+   disabled: false
    soldOut: false
    soldOutText: "Sold Out"
 
  - name: "Regular Rate"
-   price: "30-50"
+   price: "15-35"
    priceCurrency: "USD"
    ticketsNumber: "500"
    ribbon:
@@ -346,45 +346,45 @@ ticketsOffers:
    buyButtonText: "Register Now"
    additionalInfo: ""
    ticketContentList: ["Keynotes", "Pre-recorded Sessions", "Posters"]
-   validFrom: "2020-09-29"
-   validThrough: "2020-10-16"
+   validFrom: "2021-08-28"
+   validThrough: "2021-10-15"
    disabled: true
    soldOut: false
    soldOutText: "Sold Out"
 
- - name: "Renewal Preconference"
-   price: "50"
-   priceCurrency: "USD"
-   ticketsNumber: "30"
-   ribbon:
-   featured:
-   buyButtonLink: "https://www.alaoweb.org/event-3905631"
-   buyButtonText: "Register Now"
-   additionalInfo: ""
-   ticketContentList: ["Preconference"]
-   altSubtitle: "Separate Ticket Required"
-   validFrom: ""
-   validThrough: "2020-10-16"
-   disabled: true
-   soldOut: false
-   soldOutText: "Sold Out"
+#  - name: "Renewal Preconference"
+#    price: "50"
+#    priceCurrency: "USD"
+#    ticketsNumber: "30"
+#    ribbon:
+#    featured:
+#    buyButtonLink: "https://www.alaoweb.org/event-3905631"
+#    buyButtonText: "Register Now"
+#    additionalInfo: ""
+#    ticketContentList: ["Preconference"]
+#    altSubtitle: "Separate Ticket Required"
+#    validFrom: ""
+#    validThrough: "2020-10-16"
+#    disabled: true
+#    soldOut: false
+#    soldOutText: "Sold Out"
 
- - name: "Anti-racism Preconference"
-   price: "Free"
-   priceCurrency: ""
-   ticketsNumber: "500"
-   ribbon:
-   featured:
-   buyButtonLink: "https://www.alaoweb.org/event-3913408"
-   buyButtonText: "Register Now"
-   additionalInfo: ""
-   ticketContentList: ["Preconference"]
-   altSubtitle: ""
-   validFrom: ""
-   validThrough: "2020-10-16"
-   disabled: true
-   soldOut: false
-   soldOutText: "Sold Out"
+#  - name: "Anti-racism Preconference"
+#    price: "Free"
+#    priceCurrency: ""
+#    ticketsNumber: "500"
+#    ribbon:
+#    featured:
+#    buyButtonLink: "https://www.alaoweb.org/event-3913408"
+#    buyButtonText: "Register Now"
+#    additionalInfo: ""
+#    ticketContentList: ["Preconference"]
+#    altSubtitle: ""
+#    validFrom: ""
+#    validThrough: "2020-10-16"
+#    disabled: true
+#    soldOut: false
+#    soldOutText: "Sold Out"
 
 # -------------------------------------------------------------
 # Tweets Feed Block
