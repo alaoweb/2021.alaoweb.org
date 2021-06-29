@@ -16,9 +16,9 @@
                 <div class="preconference-img-wrapper animated hiding"
                     data-animation="{% if check == 0 %}fadeInLeft{% else %}fadeInRight{% endif %}"
                     data-delay="0">
-                    <img class="img-responsive"
-                        src="{{ site.baseurl }}/img/preconference/{{ row.image }}"
-                        alt="Preconference">
+                <img class="img-responsive"
+                src="{{ site.baseurl }}/img/preconference/{{ row.image }}"
+                alt="{{ row.speakerName }}">
                 </div>
                 <div class="preconference-details animated hiding"
                     data-animation="{% if check == 0 %}fadeInRight{% else %}fadeInLeft{% endif %}"

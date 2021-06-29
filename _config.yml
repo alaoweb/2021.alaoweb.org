@@ -217,8 +217,9 @@ enablePreconference: True
 aboutPreconferenceTitle: "Meet our Speaker"
 aboutPreconferenceTitleShow: False
 preconferenceRows:
- - {title: "Title TBA [on the subject of vocational awe in libraries]",
+ - {title: "Title TBA [on the subject of vocational awe in libraries] with Fobazi Ettarh",
     image: "fobazi_ettarh.jpg",
+    speakerName: "Fobazi Ettarh",
     details: "",
     list: ""
  }
