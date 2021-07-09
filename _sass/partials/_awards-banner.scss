@@ -1,18 +1,18 @@
 .awards-banner {
     width: 80%;
     // background-color: $main-color;
-    background-image: linear-gradient($primary-color, #2faaa4);
+    background-image: linear-gradient($primary-color, #0b2827);
     margin: 1em auto;
     padding: 1em;
     text-align: center;
     a {
         h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-            color: #ff9!important;
+            color: #ff9!important;text-decoration:underline;
         }
     }   
     a:hover {
         h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-            color: #ff3!important;
+            color: #ffffff!important;
         }
     }
 
