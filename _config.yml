@@ -174,7 +174,7 @@ directionDetailsWideCards:
 # -------------------------------------------------------------
 navigationLinks:
  - {permalink: "/", text: "Home"}
- - {permalink: "/preconference/", text: "Preconferences"}
+ - {permalink: "/preconference/", text: "Preconference"}
  - {permalink: "/schedule/", text: "Schedule"}
  - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/posters/", text: "Posters"}
@@ -214,30 +214,16 @@ preconferenceTitle: "Preconference"
 enablePreconference: True
 
 # Preconference About Block
-aboutPreconferenceTitle: "Meet our Speakers"
+aboutPreconferenceTitle: "Meet our Speaker"
 aboutPreconferenceTitleShow: False
 preconferenceRows:
- - {title: "Renewal: Promoting Civility and Self-Care in (Academic) Libraries",
-    image: "kaetrena_kendrick.jpg",
-    details: "The Renewal Seminar offers a pathway for individuals to increase their awareness of the associated
-frameworks, development, outcomes, and emerging countermeasures of low morale, which is defined
-as repeated and protracted exposure to workplace abuse and neglect (Kendrick, 2017). Learning more
-about these concerns can help promote authentic civility and collegiality in North American libraries and
-reduce the factors that can cause employee mistreatment and misconduct in library workplaces.",
-    list: "
-      Through pre-assessments and reflections and on-site participation in targeted discussions, Seminar attendees will be able to:<br/>
-      <ul>
-        <li><p>Understand the development the low morale experience;<p></li>
-        <li><p>Evaluate the role of Library and Information Science (LIS)-based and workplace barriers to resolving low morale;</p></li>
-        <li><p>Identify and consider leadership behaviors that decrease low morale in workplace environments; and</p></li>
-        <li><p>Create and engage with a collegial community to increase best practices in applying workplace civility, honing humane leadership skills, and encouraging self-advocacy.</p></li>
-      </ul>"
+ - {title: "Title TBA [on the subject of vocational awe in libraries] with Fobazi Ettarh",
+    image: "fobazi_ettarh.jpg",
+    speakerName: "Fobazi Ettarh",
+    details: "",
+    list: ""
  }
- - {title: "From Being To Doing: Anti-racism as Action at Work",
-      image: "ione_damasco.png",
-      details: "Over the past few years, the conversation around equity in libraries has focused on thinking of the word ally as a verb, rather than as an identity. With recent events highlighting specific issues around race, the conversation has now shifted to many people wanting to be anti-racist. In this session, we will focus on anti-racism as action, rather than using the word anti-racist as identity. In particular, we will examine our notions of professionalism in libraries. Can changing how we define professionalism in library workplaces be an example of anti-racist action? We will take a critical look at how certain hallmarks of white supremacist culture inform our notions of professionalism and acceptable workplace culture. These commonly accepted traits can actually contribute to low morale, the prevalence of microaggressions, retention issues, etc. Together, we will explore ways to transform our workplace cultures by looking at specific actions that resist these hallmarks in order to create equitable workplaces.",
-      list: ""
- }
+
 
 # Preconference Location Block
 preconferenceLocationEnable: False
