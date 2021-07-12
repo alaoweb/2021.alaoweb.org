@@ -246,7 +246,7 @@
             f.filterLabel +
             '---</option></select>'
         );
-        arr.forEach((element) => {
+        arr.forEach(function (element) {
           $('#' + f.filterID).append('<option>' + element + '</option>');
         });
 
@@ -285,6 +285,11 @@
       if (container.hasClass('st-menu-open')) {
         container.removeClass('st-menu-open');
       }
+    });
+
+    $('.slot').focus(function () {
+      console.log('selected: ' + $(this).text());
+      $(this).trigger('mouseover');
     });
 
     $('.track-header').each(function () {
@@ -373,7 +378,8 @@
 
       function linkify(inputText) {
         var replacedText, links1, links2, hashtags, profileLinks;
-        links1 = /(\b(https?|ftp):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/gim;
+        links1 =
+          /(\b(https?|ftp):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/gim;
         replacedText = inputText.replace(
           links1,
           '<a href="$1" target="_blank">$1</a>'
@@ -410,11 +416,10 @@
     }
 
     // Lazy load modal iframes
-      $('[id^="sessionDetail-"]').on("show.bs.modal", function () {
-          let iframe = $(this).find('.lazyload')
-          iframe.attr('src', iframe.data('src'));
-      });
-
+    $('[id^="sessionDetail-"]').on('show.bs.modal', function () {
+      let iframe = $(this).find('.lazyload');
+      iframe.attr('src', iframe.data('src'));
+    });
   });
 
   //Google plus
@@ -823,6 +828,5 @@
     }
 
     google.maps.event.addDomListener(window, 'load', initialize);
-
   }
 })(jQuery);
