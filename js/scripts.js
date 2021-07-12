@@ -295,19 +295,29 @@
       .focusout(function () {
         $(this).find('.slot-content').toggleClass('hovered');
       });
-
     $('.slot').each(function (index) {
       let launchDivId = $(this).attr('id');
       let targetDiv = $(this).attr('data-target');
+      $(targetDiv).on('shown.bs.modal', function () {
+        let closeButton = $(this).find('.close').filter(':first');
+        $(closeButton).attr('tabindex', 0);
+        $(closeButton).keydown(function (e) {
+          if (e.which === 13) {
+            $(targetDiv).modal('hide');
+          }
+        });
+      });
       $(this).keydown(function (e) {
         if (e.which === 13) {
-          /* on "Enter */
+          /* on "Enter in schedule, show the associated modal */
           $(targetDiv)
             .modal('show')
             .on('hidden.bs.modal', function () {
               /* return focus to launchDivId */
               console.log('go to:' + launchDivId);
               $('#' + launchDivId).focus();
+              /* and remove tabindex from modal-close */
+              $('.modal-body .close').attr('tabindex', '-1');
             });
         }
       });
