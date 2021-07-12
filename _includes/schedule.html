@@ -48,7 +48,7 @@
           {% if slot == session.id and session.service == null %}
           <div id="session-{{ session.id }}"
             class="slot col-md-{{ slotColWidth }} col-xs-12 flexbox-item-height"
-            data-slot-detail="{{ day.tracks[slotIndex].title }}"
+            data-slot-detail="{{ day.tracks[slotIndex].title }}" tabindex="0"
             data-toggle="modal" data-target="#sessionDetail-{{ session.id }}">
             <div class="color-line"></div>
             <div class="slot-content">
@@ -71,7 +71,7 @@
             </div>
           </div>
           {% elsif slot == session.id and session.service != null %}
-          <div
+          <div 
             class="slot col-md-{{ slotColWidth }} col-xs-12 service-slot flexbox-item-height"
             data-slot-detail="{{ session.place }}">
             <div class="color-line"></div>
