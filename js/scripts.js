@@ -287,10 +287,14 @@
       }
     });
 
-    $('.slot').focus(function () {
-      console.log('selected: ' + $(this).text());
-      $(this).trigger('mouseover');
-    });
+    $('.slot')
+      .focus(function () {
+        console.log('selected: ' + $(this).text());
+        $(this).find('.slot-content').toggleClass('hovered');
+      })
+      .focusout(function () {
+        $(this).find('.slot-content').toggleClass('hovered');
+      });
 
     $('.track-header').each(function () {
       var slot = $(this).closest('.schedule-table').find('.slot').first();

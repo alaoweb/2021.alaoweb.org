@@ -185,7 +185,8 @@ $small-label-width: 80px;
       transform: translateY(0);
     }
   }
-  &:hover {
+  &:hover,
+  &.hovered {
     transform: translateY(5px);
   }
 }
