@@ -287,14 +287,32 @@
       }
     });
 
+    /* Keyboard nav features for schedule */
     $('.slot')
       .focus(function () {
-        console.log('selected: ' + $(this).text());
         $(this).find('.slot-content').toggleClass('hovered');
       })
       .focusout(function () {
         $(this).find('.slot-content').toggleClass('hovered');
       });
+
+    $('.slot').each(function (index) {
+      let launchDivId = $(this).attr('id');
+      let targetDiv = $(this).attr('data-target');
+      $(this).keydown(function (e) {
+        if (e.which === 13) {
+          /* on "Enter */
+          $(targetDiv)
+            .modal('show')
+            .on('hidden.bs.modal', function () {
+              /* return focus to launchDivId */
+              console.log('go to:' + launchDivId);
+              $('#' + launchDivId).focus();
+            });
+        }
+      });
+    });
+    /* End keyboard nav for schedule */
 
     $('.track-header').each(function () {
       var slot = $(this).closest('.schedule-table').find('.slot').first();
