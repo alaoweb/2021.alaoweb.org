@@ -140,4 +140,7 @@
     box-shadow: -1px 1px 4px 3px rgba(37, 32, 31, 0.8);
   }
 }
-
+.btn:focus {
+  outline: 2px solid $primary-color-hover;
+  box-shadow: 0 0 0 2px #f9f9d1, 0 0 0 4px #396196, 0 0 4px 8px #f9f9d1;
+}
