@@ -246,7 +246,7 @@
             f.filterLabel +
             '---</option></select>'
         );
-        arr.forEach((element) => {
+        arr.forEach(function (element) {
           $('#' + f.filterID).append('<option>' + element + '</option>');
         });
 
@@ -286,6 +286,43 @@
         container.removeClass('st-menu-open');
       }
     });
+
+    /* Keyboard nav features for schedule */
+    $('.slot')
+      .focus(function () {
+        $(this).find('.slot-content').toggleClass('hovered');
+      })
+      .focusout(function () {
+        $(this).find('.slot-content').toggleClass('hovered');
+      });
+    $('.slot').each(function (index) {
+      let launchDivId = $(this).attr('id');
+      let targetDiv = $(this).attr('data-target');
+      $(targetDiv).on('shown.bs.modal', function () {
+        let closeButton = $(this).find('.close').filter(':first');
+        $(closeButton).attr('tabindex', 0);
+        $(closeButton).keydown(function (e) {
+          if (e.which === 13) {
+            $(targetDiv).modal('hide');
+          }
+        });
+      });
+      $(this).keydown(function (e) {
+        if (e.which === 13) {
+          /* on "Enter in schedule, show the associated modal */
+          $(targetDiv)
+            .modal('show')
+            .on('hidden.bs.modal', function () {
+              /* return focus to launchDivId */
+              console.log('go to:' + launchDivId);
+              $('#' + launchDivId).focus();
+              /* and remove tabindex from modal-close */
+              $('.modal-body .close').attr('tabindex', '-1');
+            });
+        }
+      });
+    });
+    /* End keyboard nav for schedule */
 
     $('.track-header').each(function () {
       var slot = $(this).closest('.schedule-table').find('.slot').first();
@@ -373,7 +410,8 @@
 
       function linkify(inputText) {
         var replacedText, links1, links2, hashtags, profileLinks;
-        links1 = /(\b(https?|ftp):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/gim;
+        links1 =
+          /(\b(https?|ftp):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/gim;
         replacedText = inputText.replace(
           links1,
           '<a href="$1" target="_blank">$1</a>'
@@ -410,11 +448,10 @@
     }
 
     // Lazy load modal iframes
-      $('[id^="sessionDetail-"]').on("show.bs.modal", function () {
-          let iframe = $(this).find('.lazyload')
-          iframe.attr('src', iframe.data('src'));
-      });
-
+    $('[id^="sessionDetail-"]').on('show.bs.modal', function () {
+      let iframe = $(this).find('.lazyload');
+      iframe.attr('src', iframe.data('src'));
+    });
   });
 
   //Google plus
@@ -823,6 +860,5 @@
     }
 
     google.maps.event.addDomListener(window, 'load', initialize);
-
   }
 })(jQuery);
