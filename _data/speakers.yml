@@ -65,3 +65,881 @@
   social:
     - { name: 'twitter', link: 'https://twitter.com/LibraryNicole' }
     - { name: 'site', link: 'http://www.nicolecooke.info/' }
+
+---
+-
+    id: 5
+    name: Abigail
+    surname: Morgan
+    pronouns: 
+    company: Miami University
+    email: morgan55@miamioh.edu
+    bio: "Abigail Morgan is a Social Sciences Librarian at Miami University where she liaisons to the anthropology, business, economics, marketing, and teacher education departments, manages their collections, and instructs information literacy sessions. She holds an M.Ed. in Education from Ohio University and an M.L.I.S. from University of Maryland, College Park.\n\nShe also serves as co-chair of the Library Gaming Knights planning committee. One of her favorite job duties is purchasing board games for the Libraries’ instructional materials collection."
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 6
+    name: Allison
+    surname: DeVito
+    pronouns: she/her
+    company: The Ohio State University
+    email: devito.34@osu.edu
+    bio: Allison DeVito is the Office of Distance Education and eLearning Library Services Liaison and Copyright Specialist at The Ohio State University. In her role she consults with instructors and instructional designers building courses for Ohio State’s online degree programs and serves as a point of contact for copyright considerations in online education. Allison earned her MLIS from Kent State University in 2015.
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 7
+    name: Amanda
+    surname: Larson
+    pronouns: she/her
+    company: The Ohio State University
+    email: larson.581@osu.edu
+    bio: "Amanda Larson joined the Teaching and Learning department at University Libraries at The Ohio State University in 2020 as the Affordable Learning Instructional Consultant. She provides professional development opportunities for librarians and instructors on Open Educational Resources and Open Pedagogy; works with instructors to curate affordable educational resources for their courses, and supports Affordable Learning Exchange Grant winners as they transform their courses.  \n\nPrior to joining Ohio State, she was the Open Education Librarian at the Penn State University where she coordinated affordable content initiatives across 24 campuses, provided guidance on OER curation, creative commons licensing, and project management."
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 8
+    name: Annie
+    surname: Bélanger
+    pronouns: she/her
+    company: Grand Valley State University Libraries
+    email: belange1@gvsu.edu
+    bio: "Annie Bélanger is the Dean of University Libraries at Grand Valley State University. She is a Grand Valley State University Inclusion Advocate and sponsor for GVSU’s ACRL Diversity Alliance Diversity Residency program. She is the co-chair of the ACRL Diversity Alliance taskforce, and was the inaugural Chair for the Michigan Academic Libraries Association’s Inclusion, Diversity, Equity and Accessibility Taskforce. She is a board member for the Disability Associates of Kent County.  Annie is Québéçoise, disabled, and a native French speaker. She received her Master’s in Library and Information Sciences from Western University in Canada. \n"
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 9
+    name: Bart
+    surname: Lenart
+    pronouns: 
+    company: University of Calgary
+    email: bartlomiej.lenart@ucalgary.ca
+    bio: Bart Lenart is a Research and Learning Librarian for Philosophy, Education, and the Scholarship of Teaching and Learning at the University of Calgary. Bart holds a BEd in Secondary Education, an MLIS, and a PhD in Philosophy.
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 10
+    name: Bridget
+    surname: Retzloff
+    pronouns: she/her
+    company: Roesch Library, University of Dayton
+    email: bretzloff1@udayton.edu
+    bio: "Bridget Retzloff is a Librarian and Lecturer at Roesch Library, University of Dayton. She provides research services and library instruction as a member of the University Libraries research and instruction teams. She also contributes to the processing of archival materials in University Archives and Special Collections. \n"
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 11
+    name: Cara
+    surname: Calabrese
+    pronouns: she/her
+    company: Miami University
+    email: calabrcm@miamioh.edu
+    bio: Cara Calabrese is the Acquisitions & Access Librarian for Miami University Libraries (MUL), where she acquires content and supports electronic resources. She is a current member of the MUL Diversity, Equity, & Inclusion and ALA CORE Diversity & Inclusion committees. Previously she was an ERM Librarian for UW-Madison and is a former Resident Librarian.
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 12
+    name: Carissa
+    surname: Thatcher
+    pronouns: she/her
+    company: University of Cincinnati
+    email: thatchcs@ucmail.uc.edu
+    bio: Carissa Thatcher is the Team Lead for Acquisitions at the University of Cincinnati Libraries.  She received her BS in Information from Franklin University and an MLIS from Kent State University.  Carissa has over 20 years’ experience finding economical, creative, and workable solutions for libraries’ processes.    
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 13
+    name: Catie
+    surname: Carlson
+    pronouns: she/her
+    company: University of Cincinnati 
+    email: carlsoc2@ucmail.uc.edu
+    bio: Catie Carlson is an Associate Librarian at the University of Cincinnati. She has a MLIS from Kent State University and an MEd from Tiffin University. Currently, she is a PhD student at Kansas State University in Adult Learning & Leadership. 
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 14
+    name: Christine
+    surname: Tobias
+    pronouns: she/her
+    company: Michigan State University Libraries
+    email: tobiasc@msu.edu
+    bio: Christine Tobias is the Coordinator for Public Services at the Michigan State University Libraries in East Lansing, Michigan. She earned her MLIS from Wayne State University in 2007. She is a librarian and middle manager, leading several organizational and technology projects over the past decade and has extensive experience in the areas of public services, reference, user experience, and library assessment. Her hobbies include gardening, antiques (Pyrex!), reclaiming and refurbishing home décor, and embroidery. 
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 15
+    name: Clayton
+    surname: Hayes
+    pronouns: he/him
+    company: Wayne State University Libraries
+    email: as6348@wayne.edu
+    bio: Clayton Hayes splits his time between Publishing and Learning & Research Support services at the Wayne State University Libraries, where he has been a librarian since 2015. His professional interests include local history, mapping tools, and web development/design, and he especially enjoys working on projects that bring all three together.
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 16
+    name: Cori
+    surname: Wilhelm
+    pronouns: 
+    company: SUNY Canton
+    email: wilhelmc@canton.edu
+    bio: 'Cori Wilhelm is the Director of Library Services at SUNY Canton''s Southworth Library Learning Commons.'
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 17
+    name: Deborah
+    surname: Tenofsky
+    pronouns: she/her
+    company: University of Cincinnati
+    email: tenofsdg@uc.edu
+    bio: Deborah Tenofsky is the Head of the Research, Teaching, and Services Department and the Accessibility Librarian at the University of Cincinnati Libraries.  Her research interests include management, leadership, student success, and public services.  She has an MILS from the University of Michigan.
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 18
+    name: Dipti
+    surname: Mehta
+    pronouns: she/her
+    company: Bridgewater State University
+    email: dmehta@bridgew.edu
+    bio: "Dipti Mehta is the Head of Reference, Research and Instruction Librarian at Maxwell Library, Bridgewater State University (BSU). Ms. Mehta is very passionate about information literacy and critical thinking skills. Her expertise includes providing user focused reference assistance in person and virtually, delivering information literacy instruction through creative pedagogies, proficient in website management, community building and outreach. She holds a Master’s degree in both Library and Information Science and Computer Science. She is active on campus and outside library organizations and active in scholarly work and presentations. \n"
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 19
+    name: Sterling Joseph
+    surname: Coleman, Jr.
+    pronouns: he/him
+    company: Clark State College
+    email: colemans@clarkstate.edu 
+    bio: Dr. Sterling Joseph Coleman, Jr., has a BA in History from Louisiana State University (1991); an MA at the Center for Middle Eastern and North African Studies from the University of Michigan (1993); a Teaching Certificate in Secondary Education from Southern University at New Orleans (1995); an MLIS in Library and Information Science from Louisiana State University (1999) and a Ph.D. in British Imperial & Commonwealth History from Florida State University (2008). He has published several articles on British history, Ethiopian history and women’s history. 
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 20
+    name: Eric
+    surname: Bradley
+    pronouns: 
+    company: Goshen / PALNI
+    email: ebradley@goshen.edu
+    bio: Eric Bradley is a Research and Instruction Librarian for Goshen College who works with college students and their professors to locate and evaluate quality resources, as well as an Information Fluency Coordinator for the Private Academic Library Network of Indiana (PALNI) who supports college librarians in their work of teaching.
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 21
+    name: Feng-Ru
+    surname: Sheu
+    pronouns: she/her
+    company: Kent State University
+    email: fsheu@kent.edu
+    bio: Feng-Ru Sheu is an Instructional Design Librarian at Kent State University Libraries (KSUL). She received her Ph.D. in Instructional System Technology, Specialist in Information Science, and a MLS from Indiana University. Her unique position at KSUL contributes to research, development, and evaluation activities in the area of instructional design and focuses on enhancing the quality of the student learning experience through the application of pedagogy and emerging technologies. Her primary research interests include the application of learning theories, instructional approaches (e.g., problem-based learning, game-based learning, flipped classroom, etc.), and innovative technology in online, in-person, and blended learning environments. 
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 22
+    name: Gene R.
+    surname: Springs
+    pronouns: 
+    company: The Ohio State University
+    email: springs.14@osu.edu
+    bio: 'Gene R. Springs (he/him) is collections strategist and associate professor at The Ohio State University Libraries. In this role, Gene leads the dynamic collections program area across University Libraries, including all collection development and collection management activities. Gene''s research interests include evolving models in collections building and transforming scholarly publishing. '
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 23
+    name: Gerald
+    surname: Natal
+    pronouns: he/him
+    company: The University of Toledo
+    email: gerald.natal@utoledo.edu
+    bio: Gerald Natal is an assistant professor at The University of Toledo. His primary duties are in reference and instruction, with library liaison responsibility for all programs in The College of Health and Human Services. He also serves as library liaison on campus to Latinx initiatives,  and as advisor to the UToledo chapter of the Student Veterans of America. His main research interest is in the area of library outreach.
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 24
+    name: Ginny
+    surname: Boehme
+    pronouns: she/her
+    company: Miami University
+    email: boehmemv@miamioh.edu 
+    bio: "Ginny Boehme is a Science Librarian in Edgar W. King Library at Miami University, where she liaises with the biology; environmental sciences; kinesiology, nutrition, and health; microbiology; and nursing departments. She holds an M.L.I.S. from the University of Alabama.\n\nShe also serves as co-chair of the Library Gaming Knights planning committee. In addition to her duties as a reference and instruction librarian, she enjoys getting people hooked on board games.\n"
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 25
+    name: Giovanna
+    surname: Colosi
+    pronouns: she/her
+    company: Syracuse University
+    email: grcolosi@syr.edu
+    bio: Giovanna Colosi is the subject librarian for The School of Education at Syracuse University Libraries and Team Lead for Subject Instruction. She also holds an elected position as Board of Trustee member at Northern Onondaga Public Libraries as Executive Secretary. She holds a B.A. in Psychology as well as an M.S. in Counseling and Human Services from The State University of New York at Oswego.  Giovanna also holds an M.L.I.S. degree from Syracuse University.  Her research interests include information literacy, teaching and leadership, disability studies, exercise science, higher education and counseling and human services.
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 26
+    name: Hanna
+    surname: Primeau
+    pronouns: she/her
+    company: The Ohio State University
+    email: primeau.8@osu.edu
+    bio: "Hanna Primeau is the Instructional Designer in The Ohio State University Libraries. She began her career as a Reference and Instruction Librarian in 2013, honing her instruction skills, focusing on data-driven methods to reach a diverse student base. In 2017 she moved to the Columbus campus of the University Libraries as the Instructional Designer. \n\nHer role has given her freedom and variety, from big projects such as redesigning for-credit online courses teaching research skills, to consultations with fellow librarians on how to best use teaching technology in their sessions, as well as how to more recently take in-person teaching to a virtual stage."
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 27
+    name: Hanna
+    surname: Schmillen
+    pronouns: she/her
+    company: Ohio University Libraries
+    email: schmille@ohio.edu
+    bio: Hanna Schmillen, MLIS, AHIP, is the Interim Head of the Subject Liaison Services (new library department) and the Health Sciences and Professions Librarian at Ohio University. As the Head of Subject Liaison Services, Hanna focuses on leading the other subject liaisons to explore the identity of liaison work libraries while building teamwork. As the health liaison, Hanna focuses on instruction, research support, collection development, outreach, and programming. She received her MLIS from the University of Denver in 2015 and is a member and leader of several professional organizations.
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 28
+    name: Heidi
+    surname: Gauder
+    pronouns: she/her
+    company: Roesch Library, University of Dayton
+    email: hgauder1@udayton.edu
+    bio: "Heidi Gauder is the Coordinator of Research and Instruction at Roesch Library, University of Dayton.  She chairs of the University Libraries instruction team; responsibilities include scheduling, assessing, and coordinating the work of the team. She also leads the Roesch Library research team, working to schedule and provide research services to campus constituents and visitors.  \n"
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 29
+    name: Ione
+    surname: Damasco
+    pronouns: she/her
+    company: University of Dayton
+    email: idamasco1@udayton.edu
+    bio: "Ione T. Damasco, M.L.I.S., is a Professor and newly-appointed Associate Dean for Inclusive Excellence, Engagement, and Operations at the University of Dayton. In this role, she strives to ensure inclusive excellence is a deeply embedded framework within the Libraries. She provides leadership, guidance, and support for diversity, equity, and inclusion initiatives, as well as outreach and engagement efforts across the Libraries. She is also the chair of the University Libraries Diversity & Inclusion Team, which serves as a resource around diversity, equity, and inclusion endeavors across all areas and for every unit of the Libraries. Along with several faculty and staff from around campus, she is part of the Dialogue Zone Steering Committee, which is dedicated to programming and other initiatives around different forms of dialogue that take place in a new library space called the Dialogue Zone. Her research has centered on race and diversity issues in librarianship, as well as the utilization of dialogue techniques to facilitate learning focused on social justice outcomes in libraries.\n"
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 30
+    name: Jaclyn
+    surname: Spraetz
+    pronouns: she/her
+    company: Miami University
+    email: spraetj@miamioh.edu
+    bio: Jaclyn Spraetz is an Information Literacy Librarian at Miami University in Oxford, OH with master’s degrees in education and library science. Before serving as a librarian, she was a high school English teacher. She promotes information literacy on campus and helps faculty and students through research support and instruction. Her goals include engaging with faculty and students through information literacy outreach programs, promoting effective teaching strategies, and embedding media effects in her instruction. 
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 31
+    name: James
+    surname: Murphy
+    pronouns: he/him
+    company: University of Calgary
+    email: james.murphy2@ucalgary.ca
+    bio: James Murphy is Student Learning and Engagement Librarian at the University of Calgary where he designs, implements and coordinates a range of library educational, outreach and engagement programming for students at the University of Calgary. He is also liaison librarian for Sciences, Engineering, Architecture, Planning & Landscape. James holds an MLIS from the University of British Columbia.
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 32
+    name: Jane
+    surname: Hammons
+    pronouns: she/her
+    company: The Ohio State University
+    email: hammons.73@osu.edu
+    bio: Jane Hammons is an assistant professor and the Teaching and Learning Engagement Librarian at The Ohio State University. In this role she is responsible for instructor development related to the integration of information literacy into the curriculum. Jane has an MLIS from the University of Illinois and an MS in instructional design from Western Kentucky University.  
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 33
+    name: Jennifer
+    surname: Nyiri
+    pronouns: she/her
+    company: Bowling Green State University
+    email: jnyiri@bgsu.edu
+    bio: Jennifer Nyiri is a Senior Library Associate at Bowling Green State University.  She serves as student employee supervisor for Information Desk Assistants and works as a research coach in the Falcon Learning Your Way (FLY) program, providing individualized support to students with specific learning disabilities (SLD) and/or ADHD. Jennifer’s research interests include addressing student opportunity gaps and active strategies to promote inclusion, diversity, equity, and accessibility for library users.  
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 34
+    name: Jenny
+    surname: Donley
+    pronouns: she/her
+    company: Ohio Northern University
+    email: j-donley.1@onu.edu
+    bio: Jenny Donley is the Cataloging and Knowledge Architect Librarian at Ohio Northern University’s Heterick Memorial Library. She is grateful to work somewhere that, in addition to her technical responsibilities, she can also take part in the library’s instruction and liaison programs as well as collection development. 
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 35
+    name: Jessie
+    surname: Long
+    pronouns: she/her
+    company: Miami University Regionals
+    email: longjh@miamioh.edu
+    bio: "Jessie Long is the Outreach and Instruction Librarian & Associate Librarian on the Middletown campus of Miami University Regionals.  She received an MLIS from Kent State University and a BA in anthropology from the University of New Mexico. Her scholarship focus has included online learning courses and tools, gamification and game-based learning, fake news, and makerspaces supporting community needs. She is the author and co-author of two book chapters that deal with gamification of the research process and interactive library orientations, respectively. She has most recently co-edited the book Makerspaces for Adults: Best practices and great projects (Rowman & Littlefield). \n"
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 36
+    name: Jillian
+    surname: Ewalt
+    pronouns: she/her
+    company: University of Dayton
+    email: jewalt1@udayton.edu
+    bio: Jillian Ewalt (she/her) is a librarian for visual resources at the University of Dayton
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 37
+    name: John
+    surname: Burke
+    pronouns: he/him
+    company: Miami University Regionals
+    email: burkejj@miamioh.edu
+    bio: John Burke is Library Director & Principal Librarian on the Middletown campus of Miami University Regionals.  He holds an MSLS from the University of Tennessee and a B.A. in history from Michigan State University.  John has worked in academic libraries for 28 years.  His scholarship centers on LMS embedded librarianship, makerspaces, and technology for library staff.  He is the author of the Neal-Schuman Library Technology Companion (ALA Neal-Schuman) and Makerspaces: a Practical Guide for Librarians (Rowman & Littlefield).  
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 38
+    name: Jolene
+    surname: Miller
+    pronouns: she/her
+    company: University of Toledo
+    email: jolene.miller@utoledo.edu
+    bio: Jolene Miller is an Assistant Professor of Library Administration and the Director of the Mulford Health Science Library at the University of Toledo. She started the writing groups because she herself needed structure and accountability for her scholarly work. Her research interests are librarians’ use of reflective practice and emotion regulation in library administrators.
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 39
+    name: Joshua
+    surname: Neds-Fox
+    pronouns: he/him
+    company: Wayne State University Libraries
+    email: dp5745@wayne.edu
+    bio: Joshua Neds-Fox is Coordinator for Digital Publishing at Wayne State University Libraries, where he helps guide the development and direction of the Libraries’ digital collections infrastructure, institutional repository, and publishing services.
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 40
+    name: Josie
+    surname: Evans-Phillips
+    pronouns: she/her
+    company: University of Cincinnati
+    email: evanspje@ucmail.uc.edu
+    bio: Josie Evans-Phillips is the Assistant Dean of Inclusive Excellence and Community Partnerships for the College of Education, Criminal Justice, Human Services and Information Technology at the University of Cincinnati.  Her interests include social justice efforts, community collaboration efforts, and capturing cultural wisdom. 
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 41
+    name: Judith
+    surname: Wiener
+    pronouns: she/her
+    company: The Ohio State University Health Sciences Library
+    email: judith.wiener@osumc.edu
+    bio: "Judith A. Wiener, MA, MLIS is an Associate Professor and the Associate Director for Collections and Outreach at The Ohio State University Health Sciences Library. She earned a BA in History at Wheeling Jesuit University, a MA in History with a concentration in public history at Wright State University, and a MLIS from Kent State University. Her current research interests include library administrative issues, special collections, and health sciences library outreach.\n"
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 42
+    name: Justina
+    surname: Kaiser
+    pronouns: she/her
+    company: Miami University
+    email: kaiserj5@miamioh.edu
+    bio: Justina Kaiser is the Digital Discovery Librarian at Miami University. She holds a Masters of Library Science from Indiana University and a B.A. in Mathematics from Butler University.
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 43
+    name: Kari
+    surname: Siders
+    pronouns: she/her
+    company: Cedarville University
+    email: ksiders@cedarville.edu
+    bio: Kari Siders serves as the Director of Library Public Services at Cedarville University. She graduated from Kent State with her MLIS.  One of her primary responsibilities is the direction and evaluation of research services and oversight of the liaison librarians.  
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 44
+    name: Kathleen
+    surname: Baril
+    pronouns: she/her
+    company: Ohio Northern University
+    email: k-baril@onu.edu
+    bio: Kathleen Baril is the Director of Heterick Memorial Library at Ohio Northern University. Since she works at a small university, besides her administrative duties, she has the pleasure of working in instruction, collection development and outreach.
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 45
+    name: Kathy
+    surname: Ladell
+    pronouns: she/her
+    company: University of Cincinnati Clermont College
+    email: kathy.ladell@uc.edu
+    bio: Kathy Ladell is a Reference Librarian at the University of Cincinnati Clermont College.  After working many years in non-profit organizations, she obtained her MLIS and MA in Latin American Studies at Indiana University.  Her research interests include underrepresented populations and their information needs. 
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 46
+    name: Katie
+    surname: Foran-Mulcahy
+    pronouns: she/her
+    company: University of Cincinnati
+    email: foranmkn@uc.edu
+    bio: Katie Foran-Mulcahy Head of the College of Education, Criminal Justice, and Human Services (CECH) Library at the University of Cincinnati, where she also serves as Education Librarian. Her interests include instruction, children’s literature, and user-centered facilities planning. She has an MSLS from the University of Kentucky.
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 47
+    name: Katy
+    surname: Tucker
+    pronouns: 
+    company: Xavier University
+    email: tuckerk3@xavier.edu
+    bio: Katy Tucker is the Acquisitions Librarian at Xavier University. 
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 48
+    name: Kayla
+    surname: Harris
+    pronouns: she/her
+    company: University of Dayton
+    email: kharris2@udayton.edu
+    bio: Kayla Harris is an Archivist/Librarian for the Marian Library at the University of Dayton. Her primary responsibilities include the arrangement and description of materials, reference services, instruction, and outreach, with the goal of making the Marian Library’s unique materials accessible. 
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 49
+    name: Ken
+    surname: Irwin
+    pronouns: he/him
+    company: Miami University
+    email: irwinkr@miamioh.edu
+    bio: 'Ken Irwin is a Web Services Librarian at Miami University. He is interested in developing open-source solutions to solve challenging library issues and to make the most of our resources. His projects have included tools for managing and analyzing the use of library collections, a mechanism for "checking out" software licenses, and a game to improve students skills at understanding book and journal citations. When not at the library, he''s interested in mushroom hunting, contra dancing, and board games.'
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 50
+    name: Kim
+    surname: Hoffman
+    pronouns: she/her
+    company: Miami University
+    email: hoffma84@miamioh.edu
+    bio: Kim Hoffman is the Preservation Librarian at Miami University in Oxford, Ohio, where she is responsible for maintaining both the circulating and special collections as well as the digital preservation program. She is a current member of the Miami University Libraries Diversity, Equity, & Inclusion committee.
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 51
+    name: Kirsten
+    surname: Setzkorn
+    pronouns: she/her
+    company: Cedarville University
+    email: knsetzkorn@cedarville.edu
+    bio: Kirsten Setzkorn serves as the Humanities Librarian at Cedarville University with liaison responsibilities among five liberal arts departments.  She graduated with her MLIS from Kent State University.  Her primary responsibilities include instruction and research services. 
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 52
+    name: Krista
+    surname: McDonald
+    pronouns: 
+    company: Miami University Regionals
+    email: mcdonak@miamioh.edu 
+    bio: Krista McDonald is the Director of Rentschler Library at Miami University Hamilton Campus in Hamilton, Ohio. She received her MLS from the University of Kentucky and a B.A. in History from Ohio University. Krista has worked in public and academic libraries for 24 years. Her research interests include academic library partnerships with TRiO grant programs and e-book usage.
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 53
+    name: Kyle
+    surname: Moll
+    pronouns: 
+    company: BHDP Architecture
+    email: kmoll@bhdp.com
+    bio: As an Intern Architect on BHDP’s Higher Education team, Kyle’s responsibilities range from space programming to conceptual design. With a keen interest in academic library design, Kyle has been deeply involved in several library master plans and renovations—including Denison University’s Master Plan and Bowling Green State University’s Jerome Library Master Plan. Kyle enjoys research and writing, and he is currently taking an active role in BHDP’s research on the academic library while advancing the firm’s library design expertise.
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 54
+    name: Leta
+    surname: Hendricks
+    pronouns: 
+    company: The Ohio State University
+    email: hendricks.3@osu.edu
+    bio: Leta Hendricks (she/her) is an assistant professor and the African American and African Studies Librarian, the Comparative Studies Librarian, and the Interim Anthropology Librarian at The Ohio State University. She serves as Affiliated Faculty in African American and African Studies and Affiliated Faculty in French and Francophone Studies. She provides general and specialized research services; library and meta-literacy instruction and; develops and manages subject collections. Leta’s research interests include French Rap music, the use of gaming in education, and music analysis. She holds an M.S. in Library and Information Science from the University of Illinois, an M.A. in Afro-American Studies from Atlanta University and a B.A. in Afro-American Studies from Western Illinois University. 
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 55
+    name: Linda
+    surname: Rich
+    pronouns: 
+    company: Bowling Green State University
+    email: lrich@bgsu.edu
+    bio: Linda Rich is the Reference Services Coordinator at Bowling Green State University. She also serves as the librarian liaison for the College of Business and the Department of Fashion Merchandising & Product Design.  Linda’s research interests include various aspects of chat reference services. 
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 56
+    name: Madeleine
+    surname: Gaiser
+    pronouns: 
+    company: University of Cincinnati
+    email: gaiserml@ucmail.uc.edu
+    bio: Madeleine Gaiser is the Online Learning and Instruction Specialist for the College of Education, Criminal Justice, and Human Services (CECH) at the University of Cincinnati. Her interests include online accessibility, library instruction, and creating exciting online content.
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 57
+    name: Marc
+    surname: Stoeckle
+    pronouns: 
+    company: University of Calgary
+    email: mstoeckle@ucalgary.ca
+    bio: Marc Stoeckle is a Research and Learning Librarian for the School of Creative & Performing Arts and the School of Languages, Linguistics, Literatures & Cultures at the University of Calgary. Marc holds a Bachelor’s degree in Musicology and Ethnomusicology and an MLIS.
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 58
+    name: Margaret
+    surname: Hoogland
+    pronouns: 
+    company: University of Toledo
+    email: margaret.hoogland@utoledo.edu
+    bio: Margaret Hoogland is an Assistant Professor and the Clinical Medical Librarian in the Mulford Health Science Library at The University of Toledo. She started participating in Write on Site because it provided a dedicated time with minimal distractions for working on scholarly activity projects. Her research focuses on using educational technology to enhance the student and faculty learning experience.
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 59
+    name: Mark
+    surname: Shores
+    pronouns: 
+    company: Miami University Regionals
+    email: shoresml@miamioh.edu
+    bio: Mark Shores is Assistant Director and Associate Librarian of Rentschler Library on the Hamilton campus of Miami University Regionals. He received his MSLS from the University of Kentucky and a B.A. in English from the University of Minnesota Morris. Mark has worked in academic and public libraries since 1998. His current position responsibilities include information literacy instruction, reference service, streaming video services, and collection management in the area of history, literature and computer science. His areas of research interest includes student use of citation tools, Appalachian Studies, and embedded librarianship.
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 60
+    name: Masha
+    surname: Stepanova
+    pronouns: 
+    company: Miami University
+    email: stepanm@miamioh.edu
+    bio: "Masha Stepanova is the Coordinator of Cataloging at Miami University and has been cataloging a wide variety of material formats for the last 15 years. Her areas of special interest include cataloging of non-book formats, such as graphics and realia, as well as accessibility in cataloging.\n"
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 61
+    name: Meghan
+    surname: Musolff
+    pronouns: 
+    company: University of Michigan Library
+    email: musolffm@umich.edu
+    bio: Meghan Musolff is the Lead Project Manager at the University of Michigan Library. She is responsible for project management leadership, consulting with library colleagues on library-wide change initiatives, projects, and teams. As a library leadership team member, she fosters healthy project management practices and methodologies in the library, by providing guidance to the library community by creating and curating resources, tools, and training opportunities, in areas such as strategic planning, systems thinking, change management, organizational development, inclusive meeting facilitation and self-care. She received her MLIS from Dominican University and her MA in Art History from Michigan State University. 
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 62
+    name: Meris
+    surname: Longmeier
+    pronouns: 
+    company: The Ohio State University
+    email: longmeier.10@osu.edu
+    bio: Meris Mandernach Longmeier is the head of Research Services. In this role she develops services for OSU Libraries to support the research endeavors of all faculty, staff, and students at Ohio State. She is also co-faculty director of the OHI/O hackathon program focused on informal learning to foster a tech culture.
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 63
+    name: Miriam
+    surname: Intrator
+    pronouns: 
+    company: Ohio University 
+    email: intrator@ohio.edu 
+    bio: Miriam Intrator is Special Collections Librarian for Rare Books and Liaison Librarian to honors programs at Ohio University. She has a PhD in modern European history from the Graduate Center, City University of New York, and a MSLS from the University of North Carolina at Chapel Hill. Her book, Books Across Borders: UNESCO and the Politics of Postwar Cultural Reconstruction, 1945-1951 (Palgrave Macmillan, 2019), investigates transnational networks of information and publications exchange during and in the aftermath of World War II. Her library research explores interactive primary source literacy instruction and diverse and inclusive approaches to rare book collection development.
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 64
+    name: Nate
+    surname: Floyd
+    pronouns: 
+    company: Miami University
+    email: floydns@miamioh.edu
+    bio: Nate Floyd is a Student Success Librarian at Miami University, in Oxford, Ohio. He supports first-year students as they transition from high school to college, leading information literacy sessions and research seminars. He has master’s degrees in journalism and library science. In 2020, he completed a PhD degree in mass communication at Indiana University. His research interests include media history, media effects, and media literacy.
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 65
+    name: Nathanael
+    surname: Davis
+    pronouns: 
+    company: Cedarville University
+    email: nathanaeldavis@cedarville.edu
+    bio: Nathanael Davis serves as the STEM/Business Librarian at Cedarville University with liaison responsibilities for departments in science, engineering and business. He graduated from Taylor University with his Masters in Environmental Science and is currently completing an MSIS degree at the University of Tennessee.  His primary responsibilities are instruction and research services and his passion is supporting student exploration of the research process.
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 66
+    name: Paul C.
+    surname: Campbell
+    pronouns: 
+    company: Ohio University 
+    email: campbep1@ohio.edu 
+    bio: Paul C. Campbell is a Social Science Librarian at Ohio University Libraries in Athens, Ohio. He earned his MLIS from Kent State University and his M.Ed. from Ohio University. His research interests are in information literacy pedagogy. More recently, he has been focusing his scholarly communication on exploring different ways to effectively include archival materials into his library instruction. Paul also enjoys serving on University and professional committees. Working to serve his institution and the profession enriches his personal and professional development through new connections with colleagues that might otherwise be missed.    
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 67
+    name: 'Rob O''Brien Withers'
+    surname: 
+    pronouns: 
+    company: Miami University
+    email: witherre@miamioh.edu
+    bio: Rob O’Brien Withers has been Access Services Coordinator at Miami University for 10 years. He previously worked as Assistant to the Dean / Electronic Services Librarian (1998-2010), Head of Systems and Technical Services (Western Maryland College, 1996-1998), and in several paraprofessional positions at the University of North Carolina (1991-1996). He has published in Against the Grain, College & Research Libraries News, College and Undergraduate Libraries, Library Cataloging, Acquisitions and Technical Services, and Reference & User Services Quarterly and presented at the American Library Association, Brick and Click Computers in Libraries, Educause Midwest, High Ed Web, Internet Librarian, LOEX, and NASIG. 
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 68
+    name: Ruth
+    surname: Szpunar
+    pronouns: 
+    company: PALNI
+    email: ruth@palni.edu
+    bio: Ruth Szpunar serves as Information Fluency Coordinator for the Private Academic Library Network of Indiana (PALNI), where she plans professional development events for librarians, creates and implements research studies, and generally facilitates collaboration among librarians. She is also the co-founder of Aestiva Solutions. She is passionate about hands-on learning, collaboration, editing, LibGuides, usability, and milk chocolate.  
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 69
+    name: Sarah
+    surname: Nagle
+    pronouns: 
+    company: Miami University
+    email: pricesb@miamioh.edu
+    bio: As Creation and Innovation Services Librarian, Sarah Nagle supports maker learning and innovation topics. Her research interests include maker/creative spaces in academic libraries and maker-centered learning in higher education.
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 70
+    name: Shelby
+    surname: Stuart
+    pronouns: 
+    company: Case Western Reserve University
+    email: sxs1827@case.edu
+    bio: Shelby Stuart is an early-career Electronic Resources Librarian at Case Western Reserve University. Her responsibilities include ordering, licensing, assessing, and maintaining access to electronic resources. She particularly enjoys working with library users to solve complex resource access issues.
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 71
+    name: Stefanie
+    surname: Hilles
+    pronouns: 
+    company: Miami University
+    email: hillessa@miamioh.edu
+    bio: Stefanie Hilles is the Arts and Humanities Librarian at Wertz Art and Architecture Library at Miami University, where she is the liaison to the art, architecture, and theater departments, manages their collections, and instructs information literacy sessions. She holds a M.A. in Art History from Case Western Reserve University and a M.L.I.S from Kent State University.
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 72
+    name: Ted
+    surname: Baldwin
+    pronouns: 
+    company: University of Cincinnati
+    email: ted.baldwin@uc.edu
+    bio: Ted Baldwin is Director of the Science and Engineering Libraries at the University of Cincinnati. He is liaison librarian for chemistry, biology and engineering (chemical, biomedical, environmental) and manages operations for three STEM library locations.  He has an MLS from Indiana University.
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 73
+    name: Tom
+    surname: Sens
+    pronouns: 
+    company: BHDP Architecture
+    email: tsens@bhdp.com
+    bio: As a Client Leader for BHDP Architecture, Tom is responsible for driving a core area of expertise—Learning Space Design. Tom’s passion for library design traces back to his graduate student assistantship as a library assistant at Miami University’s Art and Architecture Library. Tom’s ongoing research and writing on higher education topics has led to numerous publications in Library Journal, School Construction News, Building Design + Construction, and University Business. Most recently, Tom contributed a chapter on “The Evolving Role of the Architect in Library Design” in the book, "Assessing Library Space for Learning."
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 74
+    name: Trinidad
+    surname: Linares
+    pronouns: 
+    company: Bowling Green State University
+    email: tlinare@bgsu.edu
+    bio: Trinidad Linares (M.A., Popular Culture) is the Library Associate for the Music Library and Bill Schurk Sound Archives. She is the Area Chair for both Subculture and 9/11 in Popular Culture for the Midwest Popular Culture Association/American Culture Association Conference 2021. She was a guest speaker at the Frederick Douglass Institute’s Kickoff Virtual Mini Conference at Slippery Rock University and the Asian Cultural Engagement Center at Virginia Tech for Filipino American History Month. Her writings have been published in Bitch, Meridians, and The Projector. 
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 75
+    name: Vera
+    surname: Lux
+    pronouns: 
+    company: Bowling Green State University
+    email: vlux@bgsu.edu
+    bio: Vera Lux is a Reference and Instruction Librarian at Bowling Green State University. She serves at the team lead for Social Sciences instruction. She has published on chat reference and other aspects of academic librarianship in The Journal of Academic Librarianship, Internet Reference Services Quarterly, and Reference Services Review.
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 76
+    name: Victor
+    surname: Fleischer
+    pronouns: 
+    company: The University of Akron
+    email: svfleis@uakron.edu
+    bio: Victor Fleischer holds a B.A. and M.A. in American history and a M.L.I.S from Kent State University.  He serves as University Archivist, Head of Archival Services, and Associate Professor of Bibliography at The University of Akron.  Previously he served as Special Collections Manager at Stan Hywet Hall & Gardens before becoming the University Archivist/Special Collections Librarian and then Head of Archives & Special Collections at Youngstown State University.  He has served on the boards of the Ohio Museums Association and Society of Ohio Archivists and has published and presented on various topics in the field of archival science.  
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
+-
+    id: 77
+    name: Xiaocan (Lucy)
+    surname: Wang
+    pronouns: 
+    company: Bridgewater State University
+    email: x4wang@bridgew.edu 
+    bio: Xiaocan (Lucy) Wang is the Library Digital Services Librarian at Maxwell Library, Bridgewater State University. Prior to this, she serviced in the capacity of Emerging Technologies Librarian and Digital Repository Librarian. Ms. Wang has varied experience in library system administration, website development, electronic resource management, library resource access and troubleshooting, and digital initiatives. She holds a Master’s degree in both Library and Information Science and Computer Science. She is active in library organizations and maintains a continuous record of research publications and presentations.
+    thumbnailUrl: 
+    rockstar: false
+    ribbon: 
+    social: 
