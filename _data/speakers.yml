@@ -69,11 +69,11 @@
 - id: 5
   name: Abigail
   surname: Morgan
-  pronouns:
+  pronouns: she/her
   company: Miami University
   email: morgan55@miamioh.edu
   bio: "Abigail Morgan is a Social Sciences Librarian at Miami University where she liaisons to the anthropology, business, economics, marketing, and teacher education departments, manages their collections, and instructs information literacy sessions. She holds an M.Ed. in Education from Ohio University and an M.L.I.S. from University of Maryland, College Park.\n\nShe also serves as co-chair of the Library Gaming Knights planning committee. One of her favorite job duties is purchasing board games for the Libraries’ instructional materials collection."
-  thumbnailUrl:
+  thumbnailUrl: abi_morgan.jpg
   rockstar: false
   ribbon:
   social:
@@ -145,7 +145,7 @@
   company: Miami University
   email: calabrcm@miamioh.edu
   bio: Cara Calabrese is the Acquisitions & Access Librarian for Miami University Libraries (MUL), where she acquires content and supports electronic resources. She is a current member of the MUL Diversity, Equity, & Inclusion and ALA CORE Diversity & Inclusion committees. Previously she was an ERM Librarian for UW-Madison and is a former Resident Librarian.
-  thumbnailUrl:
+  thumbnailUrl: cara_calabrese.jpg
   rockstar: false
   ribbon:
   social:
@@ -169,7 +169,7 @@
   company: University of Cincinnati
   email: carlsoc2@ucmail.uc.edu
   bio: Catie Carlson is an Associate Librarian at the University of Cincinnati. She has a MLIS from Kent State University and an MEd from Tiffin University. Currently, she is a PhD student at Kansas State University in Adult Learning & Leadership.
-  thumbnailUrl:
+  thumbnailUrl: catie_carlson.jpg
   rockstar: false
   ribbon:
   social:
@@ -301,7 +301,7 @@
   company: Miami University
   email: boehmemv@miamioh.edu
   bio: "Ginny Boehme is a Science Librarian in Edgar W. King Library at Miami University, where she liaises with the biology; environmental sciences; kinesiology, nutrition, and health; microbiology; and nursing departments. She holds an M.L.I.S. from the University of Alabama.\n\nShe also serves as co-chair of the Library Gaming Knights planning committee. In addition to her duties as a reference and instruction librarian, she enjoys getting people hooked on board games.\n"
-  thumbnailUrl:
+  thumbnailUrl: ginny_boehme.jpg
   rockstar: false
   ribbon:
   social:
@@ -361,7 +361,7 @@
   company: University of Dayton
   email: idamasco1@udayton.edu
   bio: "Ione T. Damasco, M.L.I.S., is a Professor and newly-appointed Associate Dean for Inclusive Excellence, Engagement, and Operations at the University of Dayton. In this role, she strives to ensure inclusive excellence is a deeply embedded framework within the Libraries. She provides leadership, guidance, and support for diversity, equity, and inclusion initiatives, as well as outreach and engagement efforts across the Libraries. She is also the chair of the University Libraries Diversity & Inclusion Team, which serves as a resource around diversity, equity, and inclusion endeavors across all areas and for every unit of the Libraries. Along with several faculty and staff from around campus, she is part of the Dialogue Zone Steering Committee, which is dedicated to programming and other initiatives around different forms of dialogue that take place in a new library space called the Dialogue Zone. Her research has centered on race and diversity issues in librarianship, as well as the utilization of dialogue techniques to facilitate learning focused on social justice outcomes in libraries.\n"
-  thumbnailUrl:
+  thumbnailUrl: ione_damasco.png
   rockstar: false
   ribbon:
   social:
@@ -469,7 +469,7 @@
   company: University of Toledo
   email: jolene.miller@utoledo.edu
   bio: Jolene Miller is an Assistant Professor of Library Administration and the Director of the Mulford Health Science Library at the University of Toledo. She started the writing groups because she herself needed structure and accountability for her scholarly work. Her research interests are librarians’ use of reflective practice and emotion regulation in library administrators.
-  thumbnailUrl:
+  thumbnailUrl: jolene_miller.jpg
   rockstar: false
   ribbon:
   social:
@@ -541,7 +541,7 @@
   company: Ohio Northern University
   email: k-baril@onu.edu
   bio: Kathleen Baril is the Director of Heterick Memorial Library at Ohio Northern University. Since she works at a small university, besides her administrative duties, she has the pleasure of working in instruction, collection development and outreach.
-  thumbnailUrl:
+  thumbnailUrl: kathleen_baril.jpg
   rockstar: false
   ribbon:
   social:
@@ -601,7 +601,7 @@
   company: Miami University
   email: irwinkr@miamioh.edu
   bio: 'Ken Irwin is a Web Services Librarian at Miami University. He is interested in developing open-source solutions to solve challenging library issues and to make the most of our resources. His projects have included tools for managing and analyzing the use of library collections, a mechanism for "checking out" software licenses, and a game to improve students skills at understanding book and journal citations. When not at the library, he''s interested in mushroom hunting, contra dancing, and board games.'
-  thumbnailUrl:
+  thumbnailUrl: ken_irwin.jpg
   rockstar: false
   ribbon:
   social:
@@ -613,7 +613,7 @@
   company: Miami University
   email: hoffma84@miamioh.edu
   bio: Kim Hoffman is the Preservation Librarian at Miami University in Oxford, Ohio, where she is responsible for maintaining both the circulating and special collections as well as the digital preservation program. She is a current member of the Miami University Libraries Diversity, Equity, & Inclusion committee.
-  thumbnailUrl:
+  thumbnailUrl: kimberly_hoffman.jpg
   rockstar: false
   ribbon:
   social:
@@ -685,7 +685,7 @@
   company: University of Cincinnati
   email: gaiserml@ucmail.uc.edu
   bio: Madeleine Gaiser is the Online Learning and Instruction Specialist for the College of Education, Criminal Justice, and Human Services (CECH) at the University of Cincinnati. Her interests include online accessibility, library instruction, and creating exciting online content.
-  thumbnailUrl:
+  thumbnailUrl: madeleine_gaiser.jpg
   rockstar: false
   ribbon:
   social:
@@ -817,7 +817,7 @@
   company: Miami University
   email: witherre@miamioh.edu
   bio: Rob O’Brien Withers has been Access Services Coordinator at Miami University for 10 years. He previously worked as Assistant to the Dean / Electronic Services Librarian (1998-2010), Head of Systems and Technical Services (Western Maryland College, 1996-1998), and in several paraprofessional positions at the University of North Carolina (1991-1996). He has published in Against the Grain, College & Research Libraries News, College and Undergraduate Libraries, Library Cataloging, Acquisitions and Technical Services, and Reference & User Services Quarterly and presented at the American Library Association, Brick and Click Computers in Libraries, Educause Midwest, High Ed Web, Internet Librarian, LOEX, and NASIG.
-  thumbnailUrl:
+  thumbnailUrl: rob_withers.jpg
   rockstar: false
   ribbon:
   social:
@@ -841,7 +841,7 @@
   company: Miami University
   email: pricesb@miamioh.edu
   bio: As Creation and Innovation Services Librarian, Sarah Nagle supports maker learning and innovation topics. Her research interests include maker/creative spaces in academic libraries and maker-centered learning in higher education.
-  thumbnailUrl:
+  thumbnailUrl: sarah_nagle.jpg
   rockstar: false
   ribbon:
   social:
@@ -853,7 +853,7 @@
   company: Case Western Reserve University
   email: sxs1827@case.edu
   bio: Shelby Stuart is an early-career Electronic Resources Librarian at Case Western Reserve University. Her responsibilities include ordering, licensing, assessing, and maintaining access to electronic resources. She particularly enjoys working with library users to solve complex resource access issues.
-  thumbnailUrl:
+  thumbnailUrl: shelby_stuart.jpg
   rockstar: false
   ribbon:
   social:
@@ -865,7 +865,7 @@
   company: Miami University
   email: hillessa@miamioh.edu
   bio: Stefanie Hilles is the Arts and Humanities Librarian at Wertz Art and Architecture Library at Miami University, where she is the liaison to the art, architecture, and theater departments, manages their collections, and instructs information literacy sessions. She holds a M.A. in Art History from Case Western Reserve University and a M.L.I.S from Kent State University.
-  thumbnailUrl:
+  thumbnailUrl: stefanie_hilles.jpg
   rockstar: false
   ribbon:
   social:
