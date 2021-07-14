@@ -199,7 +199,7 @@ sponsorsTitle: "Conference Sponsors"
 # Posters
 # -------------------------------------------------------------
 postersTitle: "POSTER SESSIONS"
-postersBackground: waves-background.svg
+postersBackground: 2021alao-header-image.svg
 showPosters: true
 noPostersText: "Posters Forthcoming"
 postersCommentsEnabled: true
