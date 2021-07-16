@@ -12,7 +12,36 @@
     - { title: 'Track #1' }
     - { title: 'Track #2' }
   timeslots:
-    - { startTime: '12:00', endTime: '3:00', sessionIds: [002] }
-    - { startTime: '3:00', endTime: '3:30', sessionIds: [003] }
-    - { startTime: '3:30', endTime: '4:30', sessionIds: [004] }
-    - { startTime: '5:00', endTime: '6:00', sessionIds: [005] }
+    - { startTime: '12:00', endTime: '3:00', sessionIds: [100] }
+    - { startTime: '3:00', endTime: '3:30', sessionIds: [101] }
+    - { startTime: '3:30', endTime: '4:30', sessionIds: [102] }
+    - { startTime: '5:00', endTime: '6:00', sessionIds: [103] }
+
+- date: '2021-10-28'
+  dateReadable: 'October 28'
+  tracks:
+    - { title: 'Track #1' }
+    - { title: 'Track #2' }
+  timeslots:
+    - { startTime: '9:00', endTime: '9:50', sessionIds: [201] }
+    - { startTime: '10:00', endTime: '11:00', sessionIds: [202, 203] }
+    - { startTime: '11:10', endTime: '12:10', sessionIds: [204, 205] }
+    - { startTime: '12:10', endTime: '1:10', sessionIds: [206, 207] }
+    - { startTime: '1:10', endTime: '2:10', sessionIds: [208, 209] }
+    - { startTime: '2:20', endTime: '3:20', sessionIds: [210, 211] }
+    - { startTime: '3:30', endTime: '4:30', sessionIds: [212, 213] }
+    - { startTime: '6:00', endTime: '7:00', sessionIds: [214] }
+
+- date: '2021-10-29'
+  dateReadable: 'October 29'
+  tracks:
+    - { title: 'Track #1' }
+    - { title: 'Track #2' }
+  timeslots:
+    - { startTime: '9:00', endTime: '9:50', sessionIds: [301, 302] }
+    - { startTime: '10:10', endTime: '11:10', sessionIds: [303, 304] }
+    - { startTime: '11:20', endTime: '12:20', sessionIds: [305, 306] }
+    - { startTime: '12:20', endTime: '1:20', sessionIds: [307, 308] }
+    - { startTime: '1:20', endTime: '2:20', sessionIds: [309, 310] }
+    - { startTime: '2:30', endTime: '3:30', sessionIds: [311, 312] }
+    - { startTime: '3:40', endTime: '4:30', sessionIds: [313] }

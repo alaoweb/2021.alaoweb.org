@@ -21,7 +21,7 @@
 #  video: "//www.youtube.com/embed/{replace_with_video_id}"
 #  live-stream-type: Q&A
 #  live-stream-time: "2020-10-26 10:20:00"
-#  live-stream-link: "https://www.example.com"
+#  live-stream-link:
 
 # EXAMPLE TEMPLATE FOR A GENERIC SLOT, i.e. LUNCH
 #- id: 104
@@ -42,7 +42,7 @@
   subtype: meeting
   live-stream-type: meeting
   live-stream-time: ''
-  live-stream-link: ''
+  live-stream-link:
 
 - id: 001
   title: 'Virtual Help Desk'
@@ -50,23 +50,28 @@
   subtype: meeting
   live-stream-type: help desk
   live-stream-time: ''
-  live-stream-link: 'https://us02web.zoom.us/j/88280945699?pwd=V05Sd3dZcVg3RXVtNU8ycXk0Um9UUT09'
+  live-stream-link:
 
-- id: 002
+# ---------------------------------
+# CONFERENCE DAY[1], prefix ID 10x
+# Increment session IDs by 1
+# ---------------------------------
+
+- id: 100
   title: 'Technical Setup'
   description: ''
   subtype: meeting
   live-stream-type: meeting
   live-stream-time: ''
-  live-stream-link: ''
+  live-stream-link:
 
-- id: 003
+- id: 101
   title: 'Business Meeting'
   description: ''
   subtype: meeting
   live-stream-type: meeting
   live-stream-time: ''
-  live-stream-link: ''
+  live-stream-link:
 
 # - id:
 #   title: 'ALAO Membership Meeting'
@@ -80,9 +85,9 @@
 #   video:
 #   live-stream-type: meeting
 #   live-stream-time: '2020-10-28 12:30:00'
-#   live-stream-link: 'https://zoom.us/j/93676999606?pwd=aFVtNEFFcWZDRWRSSzhLbThDTHZVdz09'
+#   live-stream-link:
 
-- id: 004
+- id: 102
   title: 'Pre-conference #1 (Fobazi Ettarh)'
   description: ''
   subtype: workshop
@@ -93,386 +98,15 @@
   video:
   live-stream-type: workshop
   live-stream-time: '2021-10-27 15:30:00'
-  live-stream-link: ''
+  live-stream-link:
 
-- id: 005
+- id: 103
   title: 'ALAO New Member Orientation Session'
   description: ''
   subtype: meeting
   live-stream-type: meeting
   live-stream-time: '2021-10-27 17:00:00'
-  live-stream-link: ''
-
-# ---------------------------------
-# CONFERENCE DAY[1], prefix ID 10x
-# Increment session IDs by 1
-# ---------------------------------
-- id: 100
-  title: 'Virtual Help Desk'
-  description: '<strong>Staffed: 8:00am - 5:00pm</strong><br/>Conference Planning Committee members are available to answer your questions.'
-  subtype: meeting
-  live-stream-type: help desk
-  live-stream-time: ''
-  live-stream-link: 'https://us02web.zoom.us/j/87336490964?pwd=SndvL3c1ckljY3MyQWorVHpCejNPZz09'
-
-- id: 101
-  title: 'Sustainable Thinking for Building Community Resilience'
-  description: "Our future depends on citizens who are able to work together with empathy, respect, and understanding to adapt to the many challenges facing society. We will explore the importance of infusing the new core value of sustainability into everything we do, and demonstrate how libraries that lead into the future using 'sustainable thinking' fulfill our mission as libraries in new and innovative ways. 'Sustainable Thinking' is a concept that aligns the core values of libraries with the 'Triple Bottom Line' definition of sustainability (i.e. the intersection of economic feasibility, environmental stewardship and social equity) to inspire investment and build support for your library in the future."
-  subtype: keynote
-  speakers: [4]
-  language:
-  complexity:
-  handouts:
-    - {
-        title: Presentation Slides as PDF,
-        filename: opening_keynote_slides.pdf,
-      }
-  video: '//www.youtube.com/embed/x1YH_9OBrkg'
-  live-stream-type: keynote
-  live-stream-time: '2020-10-29 09:00:00'
-  live-stream-link: 'https://zoom.us/j/94847488840?pwd=cE1JZ1ljR1FIQjFiREJNV0dWSitIUT09'
-
-- id: 102
-  title: "Health Science Librarians' Engagement in Work-Related Reflection: A Qualitative Exploration of why they Invest in Reflective Practice: Preliminary Findings and Application to Academic Libraries"
-  description: 'While reflective practice is often recommended in the library literature within the context of information literacy, there is minimal research on the use of reflective practice by librarians. A 2020 qualitative study analyzed transcripts from interviews of health science librarians about how they use intentional reflection to improve their performance at work. Examples of reflective writing, when available, were also analyzed. Preliminary results suggest that these librarians rarely use detailed reflective models, utilizing instead simple models or freeform reflection. The most common work areas in which reflection is used are information literacy education (teaching improvement) and assessment of annual performance/goal setting. Because reflective practice is a tool that can be used by any library employee in any department in any type of library, the results of this study have application to employees in general academic libraries. In addition to reporting the results of the research, the session will also include practical advice, experience, and tools that attendees can use in their work.'
-  subtype: session
-  speakers: [50]
-  language:
-  complexity:
-  handouts:
-    - { title: Presentation Slides as PDF, filename: jolene_miller_slides.pdf }
-  video: '//www.youtube.com/embed/LFx4iDNKbWE'
-  live-stream-type: Q&A
-  live-stream-time: '2020-10-29 15:05:00'
-  live-stream-link: 'https://zoom.us/j/97051578436?pwd=bFNwTnNGVmQ0dUo4TFQ2V1d2RG82QT09'
-
-- id: 103
-  title: 'Speaking to Diversity through Information Literacy'
-  description: "Based on the presenter's experience teaching both a credit bearing information literacy class and one-shot library instruction for the departments of Anthropology and Sociology and Women's and Gender Studies, this presentation will explore the ways that information literacy can be used to support higher education's mission to foster and support diversity. It will include class-tested examples of how to speak to students about diversity while also imparting important information literacy skills. These examples are grounded in the ACRL Framework for Information Literacy and have been used in classroom instruction for over a year."
-  subtype: session
-  speakers: [42]
-  language:
-  complexity:
-  handouts:
-    - { title: Presentation Slides as PDF, filename: jennifer_joe_slides.pdf }
-    - { title: Presentation Slides as PPTX, filename: jennifer_joe_slides.pptx }
-  video: '//www.youtube.com/embed/w5nPac3CYS8'
-  live-stream-type: Q&A
-  live-stream-time: '2020-10-30 09:45:00'
-  live-stream-link: 'https://zoom.us/j/99757959861?pwd=UHJkSktTZU9sZnZlUk5scUkxMU5KQT09'
-
-- id: 104
-  title: 'Business Research Skills for Non-Business Librarians'
-  description:
-    'Business reference questions are often viewed as intimidating by subject librarians in other disciplines.  These questions, however, arise across nearly all disciplines, from history, to engineering, to health sciences, especially in entrepreneurial contexts.  Having a basic understanding of some of the foundational research areas unique to business may help subject librarians to answer some of these interdisciplinary questions on their own, or give them the ability to judge which questions are more or less likely to be definitively answered, even with the assistance of a business librarian.
-
-    Some questions that tend to arise in other disciplinary areas involve traditional business research areas, particularly company and industry research.  Many other questions arise from a growing trend, both in academia and society at large, towards entrepreneurship and/or an ‘entrepreneurial mindset’, wherein patrons might be considering more nuanced questions predominantly related to market research.  Attendees at this presentation will learn some of the more common cross-discipline business research foundations, tips and tricks.'
-  subtype: session
-  speakers: [29]
-  additional_support: 'EBSCO'
-  language:
-  complexity:
-  handouts:
-  video: '//www.youtube.com/embed/LfQQx5OZ3m8'
-  live-stream-type: Q&A
-  live-stream-time: '2020-10-30 15:15:00'
-  live-stream-link: 'https://zoom.us/j/97111179471?pwd=dFNWbG13aFRwKzhER3hlSlBKNE9mUT09'
-
-- id: 105
-  title: 'Identity, Harm, and Hate in Special Collections'
-  description: 'LIS studies of diversity, equity, and inclusion frequently separate workplace interpersonal issues from collections issues, divorcing organizational culture from organizational collections, especially in special collections. Weeding harmful or hateful materials from circulating collections can lead to their transfer to special collections, where library and archives workers as well as their users can be impacted. This presentation addresses assumptions of an unmarginalized, neutral, and impervious arbiter in special collections and suggests solutions to give special collections workers and users agency and accommodation in the types of materials they are asked to handle, based in scholarship from BIPOC, LGBTQ, and disabled library workers on resistance, self-preservation, and accommodation.'
-  subtype: session
-  speakers: [35]
-  language:
-  complexity:
-  handouts:
-  video: '//www.youtube.com/embed/Lq0Anoh4u9I'
-  live-stream-type: Q&A
-  live-stream-time: '2020-10-30 10:55:00'
-  live-stream-link: 'https://zoom.us/j/94278620480?pwd=cjlaZ2FGWlVPYnJJTGRSLy9PWTN2UT09'
-
-- id: 106
-  title: 'How do I use statistics to help my library?  Let me count the ways.'
-  description:
-    'Gathering data and statistics about a library can be extremely intimidating.  Many staff members think they need advanced degrees or a lot of experience with math, marketing, and statistics to understand how to use the data.  These perceptions often influence a library to ignore the wealth of data available to them, which can ultimately hurt them!
-
-    One common misunderstanding is that libraries must invest a lot of time and money to create elaborate surveys to acquire statistics and data.  However, libraries usually have access to existing data that they are not using.  Additionally, many statistics can be kept in house with a minimal amount of time.
-
-    Data and statistics can provide multiple benefits to a library including
-    -Validating expenditures
-    -Increasing patron satisfaction
-    -Garnering support from administration/board'
-  subtype: session
-  speakers: [40]
-  language:
-  complexity:
-  handouts:
-  video: '//www.youtube.com/embed/WQfbBJ5y3oU'
-  live-stream-type: Q&A
-  live-stream-time: '2020-10-30 12:05:00'
-  live-stream-link: 'https://zoom.us/j/98575362928?pwd=RzUzL0ZFV1F3Qk1SdXVzc3llK1FZdz09'
-
-- id: 107
-  title: 'Did it help?: Assessing how a change in streaming video access impacted expenditures and staff'
-  description:
-    'Streaming video has become an important format in classrooms. Patron-driven acquisitions (PDA) emerged as a popular model for higher education. Our institution set up PDA streaming in 2014. Our community eagerly adopted its use. By 2018, the demand, and costs, became unsustainable. We explored methods to control costs, narrowing subject and publisher scopes, or turning the PDA off when the budget was reached. Each had varying levels of long-term feasibility and success. We ultimately chose a more substantial change, moving to a title-by-title, user request and selector approval in July 2019. We wanted to continue delivering high value content, but increase control of expenditures and focus on video that is actively supporting curricular needs.
-    We will discuss the transition to the mediated model and data from our first year. We will present our experience as a quantitative and qualitative cost-benefit analysis, with comparisons between the new method and previous years under the old model. We will examine the new model’s sustainability, are cost savings truly being realized, and discuss to what extent are cost savings are offset by increased time required to process title-by-title requests and leases, as well as the “soft costs” of the decreased convenience of user experience.'
-  subtype: session
-  speakers: [16, 33, 48]
-  language:
-  complexity:
-  handouts:
-    - { title: Presentation Slides as PDF, filename: didithelp_slides.pdf }
-  video: '//www.youtube.com/embed/M9UVRnX7q7k'
-  live-stream-type: Q&A
-  live-stream-time: '2020-10-29 11:55:00'
-  live-stream-link: 'https://zoom.us/j/98913419982?pwd=Nm93L1h6L3dNTDVDM3AvWG1zVldyZz09'
-
-- id: 108
-  title: 'Building New Networks: Outreach, Campus Partnerships, and Student Employment in a Pandemic'
-  description:
-    "By working separately at home this year, two librarians from a small campus built on and developed new relationships both 'on' and 'off' campus. New partnerships with campus development and outreach brought forth opportunities for the library to serve its campus and virtual communities, resulting in art videos, read-alouds, discussions with high school seniors about the transition to college, and the creation of a new workshop about campus history. Librarians learned how to assist the development office in identifying grants, and student employees took advantage of a new opportunity to continue working online to advance an ongoing research project.
-
-    Attendees of this presentation will come away with ideas of how best to partner with and build on relationships with other offices at their institutions and take away multiple plans for demonstrating the value of the library in a purely online environment."
-  subtype: session
-  speakers: [65, 70]
-  additional_support: 'Wall Street Journal'
-  language:
-  complexity:
-  handouts:
-  video: '//www.youtube.com/embed/TLQ3IewImbc'
-  live-stream-type: Q&A
-  live-stream-time: '2020-10-29 13:55:00'
-  live-stream-link: 'https://zoom.us/j/97477479765?pwd=VHBFZlRpaExnc2o3d0lGekR5Z0wydz09'
-
-- id: 109
-  title: "Analysis and Assessment of the 'Get it Now' Service, Five Years after Implementation - is it Fulfilling its Purpose Sustainably?"
-  description: "The 'Get it Now' service, from the Copyright Clearance Center, is a rapid document delivery program for journal articles which we implemented in 2014. With five years of data, our analysis addressed questions including: patterns and changes in usage, cost, and cost per use over time; average delivery period; frequency of repeat users – including any with an excessive number of requests; how usage is divided by publisher and by discipline based on classifying journal titles.  Our analysis of the service’s use is informing our overall assessment of the service, addressing in particular growth of the service and sustainability over time. The assessment also explores whether the service’s original mission of providing expedient access to particular articles for faculty and graduate students is being fulfilled, or if actual use indicates movement away from this purpose.  Is 'Get It Now' fulfilling a role as critical service for campus researchers? Finally, a special look at the service during the recent public health crisis and remote instruction and research period -- when other methods of access to material not held locally, such as interlibrary loan, were unavailable -- will be discussed."
-  subtype: session
-  speakers: [6, 48]
-  language:
-  complexity:
-  handouts:
-  video: '//www.youtube.com/embed/hsyg6g1NuXg'
-  live-stream-type: Q&A
-  live-stream-time: '2020-10-30 09:45:00'
-  live-stream-link: 'https://zoom.us/j/96739966882?pwd=SU5OelJ6eldDYXdPY3FIWkVBS3N0dz09'
-
-- id: 110
-  title: 'Supporting Information Literacy Learning in Developmental Writing Courses: A Model for Library and Writing Center Collaboration'
-  description: 'This presentation will share findings from an ACRL Library Impact Research Grant that examined a collaboration between a writing instructor/writing center director and two librarians at a small university. A range of interventions were made to improve student outcomes in a developmental writing course, including the addition of library instruction sessions, an embedded writing center tutor, consultations with personal librarians, self-assessments, peer feedback sessions, and required writing center usage. Using data from students’ coursework, interviews, and surveys, this presentation will demonstrate how coordinating and embedding support impacted students’ information literacy skills, awareness of support services, resilience, and retention. In exploring the effects of this collaborative model, this study builds on research examining library and writing center collaborations. Few studies have analyzed individual student outcomes; consequently, this presentation not only offers a method for collaboration, but also a method for assessing its effectiveness with a goal of helping audience members pursue similar collaborations at their institutions. To engage with the audience, presenters will share a Google Doc on which attendees can post experiences with, ideas for, and questions or concerns about collaborating with other units on campus. Presenters will incorporate material from this document into the live Q&A session.'
-  subtype: session
-  speakers: [7, 68, 60, 53, 59]
-  language:
-  complexity:
-  handouts:
-    - {
-        title: Writing Center and Library Collaborations,
-        url: 'https://docs.google.com/document/d/1zFdk0H2Ow2cBqjuLKQU7wv-2gMV6e14QTT316jqwhoI/edit',
-      }
-  video: '//www.youtube.com/embed/ALWFseA64QY'
-  live-stream-type: Q&A
-  live-stream-time: '2020-10-29 16:15:00'
-  live-stream-link: 'https://zoom.us/j/91001656927?pwd=WkcxOEpOZFRwL24rRHJObm8zdWJXZz09'
-
-- id: 111
-  title: 'Flexible, Scalable, and Sustainable Data Literacy Instruction: Remote Learning and Collaboration for the Future'
-  description: 'Data literacy (DL) is an important topic that is not typically covered in-depth as part of undergraduate curricula, yet is often a skillset that faculty expect new graduate students to have. In spring 2020, librarians partnered with a STEM department to transform its in-person DL workshops. Online modules were created to cover four main DL subjects: data management, data curation, data analysis, and data visualization. The modules were designed to either be standalone or taken together as a microcredential, and to be applicable to a wide range of disciplines. Over the summer, several graduate students, faculty, and librarians were recruited to test and provide feedback on the modules, with the goal of a full rollout in fall 2020. Many faculty have already expressed interest in incorporating one or more of these modules into their online courses. Future developments will strengthen the library’s remote instruction offerings to face challenges posed by uncertain times and ensure students are able to cultivate these skills. This presentation will cover the development of these modules, including outreach and marketing efforts, and will provide a platform for attendees to identify, discuss, and plan how they might incorporate data literacy instruction at their institutions.'
-  subtype: session
-  speakers: [12, 6]
-  additional_support: 'GeoScienceWorld'
-  language:
-  complexity:
-  handouts:
-  video: '//www.youtube.com/embed/xYsY0sh0CNA'
-  live-stream-type: Q&A
-  live-stream-time: '2020-10-30 15:15:00'
-  live-stream-link: 'https://zoom.us/j/93927055431?pwd=R3J4S3JTcDd5YTNvNlNUYnBvTng2QT09'
-
-- id: 112
-  title: 'Making Changes: Sustaining Innovative Services During a Pandemic'
-  description: 'Many libraries across the country are faced with the challenge of re-opening our doors in the wake of the COVID-19 pandemic.  Some might encounter budget cuts, while at the same time the pressure to meet our universities’ new needs, including  developing new services that support online learning. Makerspaces and other experiential learning spaces are tackling the unique challenge of devising online experiences and learning opportunities that capture the collaborative, hands-on spirit of in-person maker activities. In this presentation, managers of an academic library makerspace discuss their strategies for reaching patrons while working with administration to continue to invest in innovative  services in a time where funding is limited. We will cover ways to justify new or existing emerging technologies in libraries, despite pressure to cut costs. We will also explore various strategies to create online learning and event experiences for students that replicate the casual collaboration of a makerspace environment.'
-  subtype: session
-  speakers: [19, 55]
-  language:
-  complexity:
-  handouts:
-    - { title: Presentation Slides (PPTX), filename: nagle_slides.pptx }
-    - { title: Presentation Slides (PDF), filename: nagle_slides.pdf }
-  video: '//www.youtube.com/embed/UbDFJYLpp2Q'
-  live-stream-type: Q&A
-  live-stream-time: '2020-10-30 10:55:00'
-  live-stream-link: 'https://zoom.us/j/93860089808?pwd=dFhhOTBrMFlxZTRpYWs0MFhoTHVQQT09'
-
-#- id: 113
-#  title: "Dude Where is my Black Studies Library?"
-#  description: "In 2007, Cecil Brown asked, 'Dude Where’s My Black Studies Department?' Brown, points to the increase of mass incarceration of Black youth and the shift to global studies by Black Studies Departments to a global view for the cause the disappearance of Black students on college campuses. The state of the Black Studies Library and collections on college campuses is daunting. Current collection management decisions are eroding the effectiveness and role of Black Studies Library and collections. Collection management decisions on budget cuts, space reallocation, material weeding, and 'the digitization divide' have a chilling effect on classroom teaching and academic research. 'Dude Where is My Black Studies Library?' provides a critique and a plan for the survival of the having hBlack Studies Library and collections on college campuses.
-#    http://guides.osu.edu/africana/thisisus"
-#  subtype: session
-#  speakers: [36]
-#  language:
-#  complexity:
-#  handouts:
-#  video:
-#  live-stream-type: Q&A
-#  live-stream-time: "2020-10-30 14:05:00"
-#  live-stream-link: "https://zoom.us/j/99701030797?pwd=SEZ0N1FiZ3YxTU1Nd0xyMkFNbUpkdz09"
-
-- id: 114
-  title: 'People-First Promotion: Rallying Library Workers during COVID-19'
-  description: 'COVID-19 forced us all to face realities of closed buildings, precarious employment situations, and challenges to our well-being. This presentation will showcase how our resilience depended on people, not buildings. A team of librarians and communicators will share three pandemic-era strategies developed to put people at the forefront of initiatives and messaging. A revamped marketing strategy for our research appointment service puts faces to the work and student support, instead of listing the menu of what people can get out of it. Reporting numbers and stories to the provost prompted us to center the focus on how the workers made it possible, despite the unpredictable circumstances. The cancellation announcement of a beloved annual event centered on how the event takes months of planning by employees — some of whom were affected by university furloughs and layoffs. By intentionally bringing attention to the human component of library work, we were able to share our commitment to service while also setting boundaries, sharing our limitations and tempering our need, as author/librarian Fobazi Ettarh would say, to satisfy our vocational awe. Presenters will prompt you to consider how you frame what library workers do, versus what an inanimate building offers.'
-  subtype: session
-  speakers: [44, 9, 74, 64]
-  additional_support: 'Ohio Library Support Staff Institute'
-  language:
-  complexity:
-  handouts:
-  video: '//www.youtube.com/embed/5UA5P0OQaKA'
-  live-stream-type: Q&A
-  live-stream-time: '2020-10-29 15:05:00'
-  live-stream-link: 'https://zoom.us/j/95571468391?pwd=NzliTDJOalh3NHVPbU9rK1lPSnhhQT09'
-
-- id: 115
-  title: 'Cloud-based Video Editing as a Circulating Library Resource:  Deploying and Supporting a Web-based Creative Tool for Face-to-Face and Remote Instruction and Community Engagement'
-  description: 'This panel describes the aims, challenges, and opportunities associated with establishing at an academic library a system for circulating licenses to a cloud-based video editing platform. Video compositions are an increasingly important mode of communication in academic, commercial, and civic contexts, and higher education is increasingly committed to assessing multimodal arguments, presentations, and reports that incorporate video elements. However, video-based assignments often present challenges, due to the multiplicity of available video editors and formats, and the various computing devices to which students have access. Video assignments are often collaborative projects, where such incompatibilities are especially hindering. This panel describes and considers the development of practices for the temporary lending of access to a cloud-based video editor at [name] University, which aimed to overcome the software and hardware compatibility associated with video editing and production. The panel also describes  librarian support for the use of this resource in instruction, service learning and community activism. Introduced at [name] just a semester prior to the Covid-19 campus closures, this cloud-based editing platform is also considered as an instrument for sustaining student community and engagement under conditions of sudden social distancing.'
-  subtype: session
-  speakers: [22, 14, 56]
-  language:
-  complexity:
-  handouts:
-  video: '//www.youtube.com/embed/8xttnNkQSXc'
-  live-stream-type: Q&A
-  live-stream-time: '2020-10-30 14:05:00'
-  live-stream-link: 'https://zoom.us/j/96009166811?pwd=TGcwWVF6cVp1YWpJY1Q5S3hhamx4QT09'
-
-- id: 116
-  title: 'Beyond the Checklist: Introducing the SIFT Strategy to a Campus'
-  description:
-    "In 2004, Meola’s article 'Chucking the Checklist' ushered in the call for a new approach to teaching evaluation. As the information landscape continues to evolve, tools such as CRAAP—rooted in print selection criteria—lack the content engagement required for adequate evaluation. How can librarians begin to influence a shift in strategy on our campuses from binary checklists to build more sophisticated skills in our students, so they can successfully navigate an increasingly complex information landscape?
-
-    This presentation will focus on the building of such a strategy on our public university campus. Using Michael Caulfield’s SIFT model, we will present a tiered and multi-platform approach to presenting the SIFT strategy to students and faculty. We will focus on design strategies for presenting SIFT using a variety of learning options: PowToon, LibGuides, LibWizard and a self-enroll Canvas course. We will examine what worked in these various production strategies and how media and images can be used to convey complex content. This presentation will illustrate how librarians can strategically introduce new web and information literacy strategies such as SIFT on their own campuses, to encourage independent learning, and support faculty adoption in their own teaching."
-  subtype: session
-  speakers: [11, 69]
-  language:
-  complexity:
-  handouts:
-    - { title: Presentation Slides, filename: SIFT_slides.pdf }
-    - { title: SIFT Bibliography, filename: SIFT_bibliography.pdf }
-  video: '//www.youtube.com/embed/jtccWs2CdDA'
-  live-stream-type: Q&A
-  live-stream-time: '2020-10-30 12:05:00'
-  live-stream-link: 'https://zoom.us/j/97171574808?pwd=bzFVeWpaZGUzSlpBU3pmY0R3ajBnQT09'
-
-- id: 117
-  title: 'Connecting Communities and Building Collections: Archiving a Community’s Resilience during a Pandemic'
-  description:
-    "In response to the COVID-19 pandemic, Miami University created the project 'Documenting Life During COVID-19,' that established an archival collection centered around those in the local and institutional community. Participants were invited to create their record in any medium they could to express their feelings and experiences throughout the pandemic. While developing the project, the organizers faced various obstacles. Preservation planning became a daunting task, given the variety of physical and digital objects submitted to the collection that could be closed for up to fifty years. Through support from multiple stakeholders, the project was allowed to continue, resulting in a collection born completely through volunteers representing the resilience of the community in a time of global crisis.
-
-    This presentation will explore the opportunities and challenges presented by actively building a crowdsourced collection, and how the speakers minimized risks in its creation and preservation. Though the presentation will be framed around the experiences of a single institution, attendees will leave equipped with the knowledge to develop a community-born archival collection. Attendees will also learn how to address preservation challenges working with archival collections that will be sealed for a significant amount of time."
-  subtype: session
-  speakers: [46, 39, 43, 54]
-  additional_support: 'HF Group'
-  language:
-  complexity:
-  handouts:
-  video: '//www.youtube.com/embed/d72xOwv1giI'
-  live-stream-type: Q&A
-  live-stream-time: '2020-10-29 10:45:00'
-  live-stream-link: 'https://zoom.us/j/92548044881?pwd=NTBKUGlSVHoyS2E4dTFMbkRBd291QT09'
-
-- id: 118
-  title: 'Teaching the Faculty to Teach Information Literacy: Examples and Considerations'
-  description:
-    'Academic librarians are always seeking scalable and sustainable ways to support students’ information literacy. One potential pathway is faculty development. By teaching disciplinary faculty to teach information literacy, librarians can reach more students without creating an overwhelming instructional burden. Implementing such programming has the potential to raise the visibility of the library on campus and can lead to increased opportunities for collaboration with other campus units.
-    In this session, the presenter will provide an overview of several different information literacy faculty development initiatives that she has implemented at her institution over the past two years. These have included a series of live virtual workshops, a series of self-guided virtual workshops, and a fully online course in Canvas. In addition, the presenter will provide a brief review of other initiatives that have been developed by librarians at different institutions.
-    The presenter will also provide a consideration of the benefits, concerns, and challenges that come with taking this approach, and will share insights from a recently completed literature review of library-led faculty development initiatives. Participants will be provided with resources they can use if they are interested in using faculty development to support the integration of information literacy into the curriculum.'
-  subtype: session
-  speakers: [34]
-  language:
-  complexity:
-  handouts:
-    - { title: Presentation Slides as PPTX, filename: hammons_slides.pptx }
-    - { title: Presentation Slides as PDF, filename: hammons_slides.pdf }
-  video: '//www.youtube.com/embed/VVsqiz739o8'
-  live-stream-type: Q&A
-  live-stream-time: '2020-10-29 11:55:00'
-  live-stream-link: 'https://zoom.us/j/92712188325?pwd=N01adUxEQlZ4Ymg2KzdJcXBMZXBRQT09'
-
-- id: 119
-  title: 'Anchoring Change: Using the Kotter Change Management Framework to Analyze and Facilitate Change in Academic Libraries'
-  description:
-    'Changes in the higher education landscape are happening more rapidly than ever and require academic libraries to engage with users in new and different ways. Libraries participate in digital scholarship, lead textbook affordability and OER initiatives, create makerspaces, and more. These new and different expectations require library leaders, managers and employees at every level to facilitate change in a variety of situations that range in complexity and are almost always messy.
-    Learn about trends across a collection of twenty change stories in academic library settings, including two- and four-year institutions in the United States and Canada. At the same time, explore Kotter’s (1996, 2012) Eight-Stage Process of Creating Major Change as outlined in his book, Leading Change. This will serve as the framework to examine changes that involve technology, strategic planning, culture shifts, reorganizations, and adapting to new roles. This session will utilize a case study approach to examine change at the programmatic level and organizational level. Whether you are a library administrator, a middle manager or an active participant in the daily work of a library, this session will provide a deep dive into a change framework to use before, during or after a change initiative at your institution.'
-  subtype: session
-  speakers: [13, 17]
-  language:
-  complexity:
-  handouts:
-    - { title: Presentation Slides, filename: boff_cardwell_slides.pdf }
-    - { title: Kotter Framework Worksheet, filename: kotter_framework.pdf }
-  video: '//www.youtube.com/embed/4SUU_BiheGk'
-  live-stream-type: Q&A
-  live-stream-time: '2020-10-29 16:15:00'
-  live-stream-link: 'https://zoom.us/j/93376330969?pwd=a2JLK1NJNndYM25FTHVRTjAzUUwzUT09'
-
-- id: 120
-  title: 'Microaggressions in a Time of Trauma: Engaging Empathy with Colleagues as a Form of Antiracism'
-  description:
-    'Current events such as the Covid-19 pandemic, Black Lives Matter protests, as well as work from home situations have increased the stress levels of many people. This is especially true for BIPOC in libraries. The increase in baseline stress, or shared trauma, means that we need to be proactive in our empathy and support for colleagues. Acting to support colleagues who experience microaggressions can be one way to begin that journey.
-
-    This session will use a variation of the Liberating Structures activity, Nine Questions, to engage empathy around how microaggressions can affect colleagues in the workplace. Using these questions to examine assumptions around microaggressions can help us understand their increased impact. Reflective questions will be posed for participant to respond individually or to the online document of examples. The session will also discuss the five Core Social Motives that can underly microaggressions. Participants will use the Nine Questions to reflect and respond individually or asynchronously in order to encourage empathy in responding to microaggressions.  Building professional as well as necessary responses when challenged in the workplace will help participants build resilience to seek community accountability around such behaviors. This accountability can be an avenue for antiracism in our organizations.'
-  subtype: session
-  speakers: [62, 63]
-  language:
-  complexity:
-  handouts:
-    - {
-        title: Presentation Slides as PPTX,
-        filename: microagressions_slides.pptx,
-      }
-    - {
-        title: Presentation Slides as PDF,
-        filename: microagressions_slides.pdf,
-      }
-  video: '//www.youtube.com/embed/aaQE4rXzvts'
-  live-stream-type: Q&A
-  live-stream-time: '2020-10-29 10:45:00'
-  live-stream-link: 'https://zoom.us/j/91849918080?pwd=RUN3R1hrS1FxbURyL1UvWTA3SGhndz09'
-
-- id: 121
-  title: 'Equity Diversity and Inclusion as Action: Designing a collective EDI strategy with library staff'
-  description:
-    'The EDI @ OSUL pilot, is an employee led initiative that facilitates equity, diversity and inclusion (EDI) conversations for library units and departments through a workshop model. The initiative’s curriculum and design assist the organization to transition from discussing values to embedding them in organizational systems with strategic action.
-
-    The workshop is designed to be inclusive, applicable, and accessible to participants with varying levels of cultural fluency. Unlike traditional EDI employee trainings, the workshops create a forum where library personnel can reflect and discuss with each other topics such as: EDI as a value; EDI definitions; existing EDI practices and gaps; and EDI organizational priorities. The goal of the workshops is to convey the message that EDI work can be advanced by all members of a LIS organization and not solely the work of people of color, EDI leaders, or a committee.
-
-    This presentation will discuss the design and methodology used to create the initiative, training, and implementation as well as discuss the workshop outcome and its effectiveness in developing strategic EDI actions for the organization. The presentation will also provide a method from which to cultivate in-house EDI leaders who can lead from where they are.'
-  subtype: session
-  speakers: [28, 76]
-  additional_support: 'Springer Nature'
-  language:
-  complexity:
-  handouts:
-  video: '//www.youtube.com/embed/k0PGSxhlGd0'
-  live-stream-type: Q&A
-  live-stream-time: '2020-10-29 13:55:00'
-  live-stream-link: 'https://zoom.us/j/93485980929?pwd=SGZ3NWlXZnlPdEF5cWVKVmdibW1DQT09'
-
-- id: 122
-  title: 'Lunch'
-  place: 'On your own'
-  subtype: social
-  service: true
-  description:
-
-- id: 123
-  title: 'Awards 👏'
-  description: 'The Awards sessions will announce the awardees who for ALAO''s service awards and grant recipients. See the <a href="/awards/">Awards</a> page for information about the awards. Award winners will be posted on the page after they are announced.'
-  subtype: social
-  video: '//www.youtube.com/embed/a6jQq2xfC5c'
-  live-stream-type: awards
-  live-stream-time: '2020-10-29 12:30:00'
-  live-stream-link: 'https://zoom.us/j/98947848949?pwd=MmYzNW9nMExNTU1mZmpWaUZjRmJPQT09'
+  live-stream-link:
 
 # ---------------------------------
 # CONFERENCE DAY[2], prefix ID 20x
@@ -484,72 +118,227 @@
   subtype: meeting
   live-stream-type: help desk
   live-stream-time: ''
-  live-stream-link: 'https://us02web.zoom.us/j/84832603431?pwd=aExDL3krb29BTHRzM1pQTy9jT3RLQT09'
+  live-stream-link:
 
 - id: 201
-  title: 'Resiliency and Other Myths: Keeping It Real in 2020'
-  description: 'In the best of times, librarianship is a career filled with a myriad of challenges and rewards. Librarianship in the time of a pandemic has amplified those challenges and shone a spotlight on some of the inequities inherent in our field and in our services. I’m going to use some old school inspiration to share my ideas for keeping it real and keeping things moving during these challenging times.'
+  title: 'Opening Keynote'
+  description:
   subtype: keynote
-  speakers: [2]
+  speakers: [3]
+  note-presenter: Sofia Leung
   language:
   complexity:
   handouts:
   video:
   live-stream-type: keynote
-  live-stream-time: '2020-10-30 15:40:00'
-  live-stream-link: 'https://zoom.us/j/92392890537?pwd=Yk5KTDRxWXQ2L09aVTVJTUcrUDl5dz09'
+  live-stream-time: '2020-10-28 09:00:00'
+  live-stream-link:
 
 - id: 202
-  title: 'Lunch'
-  place: 'On your own'
-  subtype: social
-  service: true
-  description:
+  subtype: session
+  title: 'Connecting Instructors with Resources: The Trials and Triumphs of Creating an Instructor Resources Site '
+  description: 'In this presentation, we will outline our efforts to create a centralized site where instructors from across our university can access learning resources developed in the library. Librarians and library staff have created many types of learning resources, including videos, tutorials, and Canvas modules, but there was not a single location where instructors could go to access these resources. Although developing an instructor resources site appeared a simple task on the surface, we discovered that it required a significant amount of time, effort, and planning and that we had to demonstrate patience, flexibility, and persistence. We will include discussion of some of the stumbling blocks that we encountered and how we moved beyond them. We will highlight key questions that anyone who is considering developing a similar resource will need to consider, share our main takeaways from the journey, and provide a planning document that others can use to get started with a similar process. Participants will leave the presentation with an understanding of challenges they might face if they begin a similar project, but also with concrete steps they can take to get started and resources that can guide them along the way. '
+  audience: DLIG, IIG, PROMIG
+  keywords: resource repository; information literacy; outreach; affordability; student support
+  note-presenter-names: "Jane Hammons,Allison DeVito,Hanna Primeau,Amanda Larson\n"
 
 - id: 203
-  title: 'Tuesday Night Social 🎉'
-  place: 'Zoom'
-  subtype: social
-  description: '<strong>Grab a beverage, close your books, and open your minds. It’s trivia night!</strong><br/>Categories are: Entertainment, Arts & Literature, Geography, and Current Events.'
-  live-stream-type: social
-  live-stream-link: 'https://zoom.us/j/91863589948?pwd=ZkQzOXFIZHVhRHRHbmJ1T0RMSGRZQT09'
+  subtype: session
+  title: 'What Else Could Happen?: Disaster Planning and Recovery in the Age of COVID'
+  description: 'The COVID-19 pandemic has had many negative impacts on our institutions, including budget cuts, staff reductions, and doing even more with less.  Therefore, one of the furthest things from everyone’s mind is probably updating disaster plans and preparing for disasters affecting collections, equipment, and services.  However, if you think nothing else could happen this year, think again.  This session will describe a major flood that occurred recently at a large academic archival repository that affected hundreds of historic volumes and boxes of archival materials.  It will demonstrate how the pandemic exacerbated the flood by delaying response times and hampering recovery efforts.  From discovery of the disaster being postponed due to working remotely, to delayed response time due to outdated plans and reduction in force, to frozen budgets that precluded us from purchasing additional disaster supplies, this session will show just what can go wrong and how it can be made worse by the pandemic.  It will also demonstrate what you should be prepared for and will express the importance of having plans updated and contingency plans in place to be prepared in the age of COVID for when, not if, a disaster strikes, and what to do when it does.  '
+  audience: CMIG, SCAIG, Library administration/supervision, diversity, consortia, emerging technologies, reference
+  keywords: Disasters; disaster planning, response, and recovery; archives and special collections; COVID-19
+  note-presenter-names: Victor Fleischer,
 
 - id: 204
-  title: 'Sustainability Interest Group (SUSIG)'
-  subtype: social
-  description: '<br/><strong>How are you being more sustainable at your library during the pandemic?</strong><br/>Join the Sustainability Interest Group for an opportunity to ask questions, share experiences, and discuss the role of sustainability in academic libraries. We will explore ways in which our libraries have been more sustainable during the pandemic, and what we can do as academic librarians to contribute to sustainability efforts going forward.'
-  handouts:
-  video:
-  live-stream-type: social
-  live-stream-time: '2020-10-30 12:20:00'
-  live-stream-link: 'https://cwru.zoom.us/j/92705985210?pwd=M2hoZGhnUm5zc0xKMDdFeHpLL0VIZz09'
+  subtype: session
+  title: 'Tackling Racism One Book at A Time: The First & Second Chapter'
+  description: 'During the summer of 2020, a book club was organized by an academic library to address the issue of systemic racism and the role it plays in our daily lives. The purpose of this presentation not only will be to highlight this event but also teach other librarians and library directors how to set up a book club that addresses the issue of systemic racism, which books would be appropriate for such a book club, what intrinsic qualities a moderator should have to manage a successful book club on this topic and what outcomes can be expected from a successful book club.'
+  audience: AIG, C2YCLIG, PROMIG, SSIG, Library administration/supervision, diversity, consortia, emerging technologies, reference
+  keywords: anti-racism, book club, dialogue and systemic racism.
+  note-presenter-names: Dr. Sterling Joseph Coleman, Jr.,
 
 - id: 205
-  title: 'STEM Interest Group (STEMIG)'
-  subtype: social
-  description: '<br/><strong>STEM Librarianship During the Pandemic</strong><br/>Librarians supporting STEM research and education face unique challenges (and maybe opportunities) in the post-COVID-19 world. Join STEMIG to discuss how the pandemic has changed the way we work.'
-  handouts:
-  video:
-  live-stream-type: social
-  live-stream-time: '2020-10-30 12:20:00'
-  live-stream-link: 'https://cwru.zoom.us/j/93704974862?pwd=ajd4S0dzYmZJYTZ6OVR1UTVqaTBsZz09'
+  subtype: session
+  title: 'Creating an Individualized Patron Dashboard using Existing Data Sources'
+  description: 'Libraries have long sought to provide individualized information to their users online. However, the technological and upkeep barriers have been significant challenges. With library vendors and campus service providers offering APIs for many services, we are able to rely more on already existing services to manage and supply the relevant data. Using patron data from our university registrar and campus authentication system, we can identify subjects relevant to a user’s courses and majors to build a customized dashboard of information relevant to the user. The dashboard  includes tabs for each major or course subject showing liaison librarians, databases, and research guides, as well as key circulation data (e.g. current checkouts, holds, and fines) for the user. By building on multiple external data sources, we aim to improve access to information without adding substantial new management burdens for library staff. This presentation will share the tools we used to create the dashboard as well as code that could be adapted for use at other libraries.'
+  audience: IIG, TEDSIG
+  keywords: personalized services, LibGuides, web services
+  note-presenter-names: Ken Irwin,
 
 - id: 206
-  title: 'Instruction Interest Group (IIG)'
-  subtype: social
-  description: '<br/><strong>Keeping Students Engaged: Information Literacy Instruction in a Virtual Environment</strong><br/>Join the Instruction Interest Group’s lunchtime roundtable to discuss instruction techniques that keep students engaged in both synchronous and asynchronous virtual learning environments.'
-  handouts:
-  video:
-  live-stream-type: social
-  live-stream-time: '2020-10-30 12:20:00'
-  live-stream-link: 'https://miamioh.zoom.us/j/85962921708?pwd=SnNyTktnQUdxYVUzamtqU3ZudjI4UT09'
+  subtype: lunch
+  title: Lunch
+  description: Lunch on your own
 
 - id: 207
-  title: 'Special Collections and Archives Interest Group (SCAIG)'
+  subtype: lunch
+  title: Interest Group coffee/lunch hour meetings
+
+- id: 208
+  subtype: session
+  title: 'Cataloging as civic engagement: Providing inclusive local subject alternatives to offensive headings'
+  description: "In 2016 the Library of Congress was unable to officially change the subject headings for 'aliens' and 'illegal aliens' to 'non-citizens' and 'undocumented immigrants.' Many libraries reacted to this event by replacing these subject headings locally. Such a project requires careful consideration of alternatives, logistics, possible complications, as well as gaining the support of the library administration. In addition, working on consistency with other institutions within a consortium is of great importance. This presentation will describe in detail one such undertaking that used 'illegal aliens' as the initial example but moved even further to include inclusive terms for other populations. This presentation will include a step-by-step workflow for adding local subjects, as well as a table of alternative headings. It will also include suggestions for outreach to various populations on campus to help review subjects dealing with race, gender, and sexual orientation.\n"
+  audience: AIG, PROMIG, TEDSIG,Library administration/supervision, diversity, consortia, emerging technologies, reference
+  keywords: Cataloging, accessibility, subject headings, cataloging workflows, inclusive cataloging, access points
+  note-presenter-names: Masha Stepanova,
+
+- id: 209
+  subtype: session
+  title: 'Practicing organizational care: Using human-centered approaches to facilitate change in your library'
+  description: "Can you think of a time when you have thrived through change? What made that possible? How did the change effort center on organizational values and engage those impacted? \n\nMost traditional change management practices focus on process and implementation over listening, compassion, and healing. By using human-centered change leadership approaches, we will explore ways to align change efforts with organizational values. We will identify factors that can lead to a change that harness the strengths of the team, while also make space for voices to be heard.\n\nTogether, participants will consider how the Bridges’ Transition Model enables effective and compassionate communication through change and how the Appreciative Inquiry approach can lead to empowering colleagues in order to build engagement and a shared vision for outcomes. Whether leading change, collaborating towards it, or affected by it, these tools will create space to name concerns while shifting to a solutions-oriented frame in order to gain momentum towards sustainable change.\n\nSession participants will:\nUnderstand the basic components of human-centered change \nGain awareness of tools to facilitate engaged change leadership\nDeepen their understanding of how to communicate effectively and compassionately during change efforts"
+  audience: AIG, Library administration/supervision, diversity, consortia, emerging technologies, reference
+  keywords: Change Management, Change Readiness, Team work, Human-Centered, Leadership, Facilitation
+  note-presenter-names: Annie Bélanger,Meghan Musolff,
+
+- id: 210
+  subtype: lightning
+  title: 'Lightning Talks #1'
+  description: 'This lightning talk concerns a digital image collection comprising flyover photographs of much of a major metropolitan area at varying intervals from 1949 through 1997. They receive heavy traffic from a broad range of communities who need to survey land use for a number of purposes. However, the user interface that libraries inherited was locked in an inaccessible series of PDF maps that has grown steadily less usable, causing endless frustration for librarians and users alike. This talk will cover the steps taken to extract both data and digital images from this user interface and reimplement the collection in a web-based map interface. Both a how-to and a case study, this talk will prove useful to attendees planning implementation of their own geolocated digital collections, or exploring solutions for problem interfaces to digital materials. Presenters will share python code developed to extract geolocation data and images from PDF-based collection, and PHP to translate JSON-based geolocation data to geoJSON.'
+  audience: PROMIG, DLIG, C2YCLIG,AIG, IIG, PROMIG,SCAIG, SUSIG, TEDSIG,Library administration/supervision, diversity, consortia, emerging technologies, reference
+  keywords: geolocation, map-based interfaces, user interfaces, digital collections, community service, problem solving, archives, collection development, leaflet.js, python, PDF, geoJSON,informal learning, outreach, maker culture,Information literacy instruction, embedded librarianship, instructor-librarian collaborations, inquiry-based learning, text-analysis, covid-19, outreach, remote work, online, community-building, Crisis Management Training, Professional Development, Mental Health, Staff Development, Staff Burnout,Chat Reference, Chat Transcript Review,  Professional Development
+  note-presenter-names: Bart Lenart,James Murphy,Marc Stoeckle , Joshua Neds-Fox,Clayton Hayes,Meris Longmeier,Kathy Ladell and Catie Carlson,Catie Carlson,Judith Wiener,
+
+- id: 211
+  subtype: session
+  title: 'I Like the Way You Did That!  Collaborative Chat Review for Continuous Assessment & Improvement'
+  description: "Studying the work of others can spark new ideas and help us improve our own work; we believe this especially true of reviewing colleagues’ chat reference transcripts.   We have long incorporated chat transcript review in staff training and development, but recently developed a meaningful, collaborative plan involving all chat providers.  In Fall 2020, as part of a departmental strategic initiative, we drafted a Plan for Continuous Review & Improvement of Chat Reference Services: Moving Toward a Departmental Culture of Assessment and Continuous Improvement; we implemented the plan in Spring 2021.\n\nIt was important that the initiative be a collaborate exercise to assess and improve our chat reference service and not an evaluative measure.  The plan outlines objectives and sets specific, measurable goals for all individuals involved.  It also features quarterly professional development activities based on what we’ve learned from others.  Following the pilot semester, we will solicit feedback from all participants and adjust as needed.\n\nOur presentation will review the components of the plan, share input received from participants, and discuss adjustments made for fall 2021.  Following the presentation, we will engage the audience with a transcript review activity and encourage reflection for use at their institutions."
+  audience: AIG, C2YCLIG, DLIG
+  keywords: Chat Reference, Chat Transcript Review,  Professional Development
+  note-presenter-names: Linda Rich,Vera Lux,Jennifer Nyiri,
+
+- id: 212
+  subtype: session
+  title: 'Data-Driven Research to Connect the Academic Library to Institutional Priorities and Enhance User Experience'
+  description: "Academic Libraries face many competing priorities within their own operations and among larger institutional goals. Therefore, library leadership must create defensible, data-driven planning strategies to create stronger connections between the library and the student experience.  As a strategic tool to assist library leaders, we have completed a nationwide survey of 500 students reflecting on their library usage and their emotional experience in the library. Using this survey data, along with the findings from a robust dialogue among library leaders across the country via roundtable discussions, we have developed a series of key takeaways to be considered when planning improvements to library environments.\n\nTo uncover more about student’s behaviors and needs, our survey targeted frequent library users’ usage habits and the feelings they have while using library spaces. We presented this survey data to a panel of library leaders to open a dialogue about the near-term and long-term evolving role of the library, and we conducted student focus groups to learn more about connecting the library to the student experience. These findings will help library leaders develop effective strategies to connect the library to institutional priorities and strengthen the connection between the library and user experience."
+  audience: PROMIG, SCIG, Library administration/supervision, diversity, consortia, emerging technologies, reference
+  keywords: Connection, Empathy, Data-Driven Research, Institutional Priorities, Consensus Building
+  note-presenter-names: Tom Sens,Kyle Moll,
+
+- id: 213
+  subtype: session
+  title: 'Decentralizing Anti-Racism Content in LibGuides: A Disciplinary-Integrative Approach '
+  description: "Like never before, systemic and institutional racism has become a topic of national conversation. Academic libraries have responded in a variety of ways, including utilizing LibGuides to curate centralized, high-quality resources on anti-racism, diversity, and the Black Lives Matter movement.  \n\nWhen considering a centralized LibGuide, two librarians began to contemplate their own subject-based LibGuides. Why not take an integrated, disciplinary approach to anti-racism resources instead?  Beginning with an audit, the librarians developed a rubric to analyze anti-racism resources within each subject guide. The rubric examined guides for quantity of anti-racism resources, variety of resources, authority of resources, resources relevant in a disciplinary context, and resources relevant in professional context. After scoring each guide, librarians curated discipline-specific resources and tools on anti-racism topics for inclusion in the revised guides. Anti-racism resources for use across guides were also selected. After implementing changes and re-scoring the subject guides, librarians promoted the newly audited guides to their constituencies and solicited collaboration with faculty to incorporate anti-racism resources into courses. "
+  audience: CMIG, IIG, Library administration/supervision, diversity, consortia, emerging technologies, reference
+  keywords: LibGuides   Anti-Racism   DEI   Audit   Rubric
+  note-presenter-names: Madeleine Gaiser,Katie Foran-Mulcahy,
+
+- id: 214
   subtype: social
-  description: '<br/><strong>Special Collections, Archives, and Extraordinary Circumstances</strong><br/>Discussion on how the fall is progressing for special collections and archives professionals in the time of COVID-19: what was planned, what’s changed, and other new challenges and successes.'
+  title: ALAO Trivia Happy Hour
+  description:
+
+# ---------------------------------
+# CONFERENCE DAY[2], prefix ID 30x
+# Increment session IDs by 1
+# ---------------------------------
+- id: 300
+  title: 'Virtual Help Desk'
+  description: '<strong>Staffed: 8:00am - 5:00pm</strong><br/>Conference Planning Committee members are available to answer your questions.'
+  subtype: meeting
+  live-stream-type: help desk
+  live-stream-time: ''
+  live-stream-link:
+
+- id: 301
+  subtype: session
+  title: 'Building a Bridge between Art and Experiential Learning in an Academic Library'
+  description: 'Much of the literature concerning experiential learning in academic libraries is placed in the context of opportunities for student workers and library and information science students. Removed from these library-oriented purposes, the library can serve as a physical space where students in any discipline may engage in projects designed to be completed outside the classroom. These projects are planned with various levels of student/teacher involvement, often to develop information literacy skills. There exists great potential for the library to transcend these roles by partnering with faculty to provide students with more profound learning experiences. This presentation describes such a collaboration between an academic library and a university art program, and discusses the progression of the library from a space used to display student work to experiential learning projects requiring total student involvement from concept to completion. This presentation will provide details on the process of partnering with faculty to develop unique immersive opportunities for students, offer several examples of benefits to the students and the library, and explore project learning as a means to expand the library’s identity on campus.'
+  audience: IIG, PROMIG
+  keywords: Experiential learning, Project Learning, Library Outreach, Faculty collaboration
+  note-presenter-names: Gerald Natal,
+
+- id: 302
+  subtype: session
+  title: 'More Than Just a Diary: Reflective Practice for Academic Librarians'
+  description: 'Writing personal reflections is a popular hobby across the generations. Applying this practice in a professional context can be a powerful tool in improving one’s craft as a college or university librarian. In this presentation, we will share three forms of self-reflection: immediate reflection, delayed reflection, and focused reflection. For each type of self-reflection, we will provide several practical examples of ways librarians can add these practices into their professional lives, such as a reflective teaching journal, a weekly email reflection thread, and a professional retreat. We will provide interactive next steps for attendees to follow up on after the session to fully engage them in the topic.'
+  audience: IIG, Library administration/supervision, diversity, consortia, emerging technologies, reference
+  keywords: reflective practice, journaling, instruction
+  note-presenter-names: Ruth Szpunar,Eric Bradley,
+
+- id: 303
+  subtype: session
+  title: 'Academic Library Jobs: Trends From the Evolving Landscape  '
+  description: 'This past year demonstrated the need for academic libraries to quickly adapt to new circumstances and pivot to meet users’ needs as the learning environment swiftly changed. Having a library staffed with individuals prepared and willing to adjust to the new conditions was crucial. The presenters spent the year prior to the pandemic researching current trends in small to medium-sized academic library job positions. While identifying the ways in which jobs are evolving, they noted a definite shift towards blended public and technical responsibilities and increased requests for soft skills and flexibility. Presenters will share their findings about the ways in which libraries are adapting positions in the ever-changing academic environment to meet both student and institutional needs. Position changes were found to be both technologically and financially driven. As a result, libraries (often with tighter budgets) are striving to still provide quality core services and resources by rethinking current and open positions in innovative ways. Presenters will talk about the characteristics of newer, blended position types and the various soft skills that are currently being sought after in new hires, and how positions such as these can help during any time period, but especially during unexpected times like these.  '
+  audience: IIG, TEDSIG,Library administration/supervision, diversity, consortia, emerging technologies, reference
+  keywords: Job descriptions, blended positions, evolving libraries, budget constraints
+  note-presenter-names: Jenny Donley,Kathleen Baril,
+
+- id: 304
+  subtype: session
+  title: 'Do students really hate e-books?: Analyzing e-book use among college students'
+  description: "Every year libraries find themselves devoting more and more of their library budgets to e-book access, and regional consortias, like OhioLINK, are proactively adding new e-book packages. And while we vaguely know that e-books are being used, who is using them and for what reason?\nIn early 2020 we began surveying students to learn more about their use of and interest in e-books. After an initial survey was completed prior to the pandemic, a second one was completed during the height of the pandemic, and a third one during the spring 2021 semester while we remained in a mostly remote learning environment.\nThis presentation will compare our three surveys’ findings along with additional surveys and reports on e-book use among college students. It will show how much experience students really have with e-books, and whether the stories of resistance we hear in the library match up with the larger picture. It will also focus on the barriers to greater use of e-books, what devices students use to access e-books, as well as the frequency of use and the willingness of students to use e-books and whether it has grown over the time of the pandemic. \n"
+  audience: AIG, C2YCLIG, SUSIG
+  keywords: e-Books, students, collection use
+  note-presenter-names: Jessie Long,John Burke,Krista McDonald,Mark Shores
+
+- id: 305
+  subtype: session
+  title: 'One size doesn’t fit all: tailoring DEIA for academic libraries of different sizes'
+  description: 'Many academic libraries have a desire to work for diversity, equity, and inclusion; many are unsure where to start or what impact they can have. This panel will bring together representatives from several Ohio academic libraries of different sizes and campus types for a discussion of their different approaches to diversity, equity, inclusion, and accessibility (DEIA) work. Representatives will discuss what has worked, what hasn’t, and where they are headed. Additional topics for discussion include: considerations for DEIA work at institutions with varying degrees of racial diversity; different ways DEIA work is organized; challenges to sustaining DEIA work; relationships with campus initiatives & leadership; projects undertaken; how decisions are made; & how power is shared (or not).'
+  audience: PROMIG, Library administration/supervision, diversity, consortia, emerging technologies, reference
+  keywords: Diversity, Equity, Inclusion, Accessibility, Program Planning, Staff Development
+  note-presenter-names: Cara Calabrese,Kathleen Baril,Ione Damasco (she/her),Kim Hoffman
+
+- id: 306
+  subtype: session
+  title: 'Rethinking the Research Consultation: A Model for Bridging Student Needs with Faculty Expectations Through Effective, Efficient, and Exceptional Service '
+  description: "Do you want to expand your connections with students engaging in research?  Would increasing the number of impactful research consultations be valuable to your library? Could rethinking how you presently reach students to meet their needs improve research services?  Transitioning to a robust research consultation model, our library has seen extensive growth in both the number of and enthusiasm for individualized research consultations. Our efficient scheduling system coupled with effective communication methods and an exceptional level of service has led to an substantial increase in the quantity and quality of student research consultations. Through our liaison librarian model, we are positioned for deliberate dialogue with faculty to better inform our understanding of the research assignments students encounter. Our subject specialists now possess a unique way to bridge faculty expectations with the research assistance students need. \n\nThis session will provide practical steps you can utilize to elevate your own research consultations at your library. We will discuss how to make intentional connections with your faculty to improve familiarity with assignments and identify how to meet student needs strategically. We will also share best practices you can implement today to increase the quality and quantity of research consultations at your own institution."
+  audience: AIG, IIG
+  keywords: Research consultations, liaison librarians, faculty collaboration, reference, outreach
+  note-presenter-names: Kari Siders,Kirsten Setzkorn,Nathanael Davis,
+
+- id: 307
+  subtype: lunch
+  title: Lunch
+  description: Lunch on your own
+
+- id: 308
+  subtype: lunch
+  title: Interest Group coffee/lunch hour meetings
+
+- id: 309
+  subtype: lightning
+  title: 'Lightning Talks #2'
+  description: ''
+  audience: IIG, PROMIG, AIG, DLIG, IIG, STEMIG, CMIG, Library administration/supervision, diversity, consortia, emerging technologies, reference
+  keywords: Media Effects, Misinformation, Information Literacy
+  note-presenter-names: Jaclyn Spraetz,Nate Floyd, Giovanna Colosi, Cori Wilhelm,Hanna Schmillen,Madeleine Gaiser,Josie Evans-Phillips,Carissa Thatcher,
+
+- id: 310
+  subtype: session
+  title: 'Even Flow : Using Microsoft Flows to streamline library acquisitions work'
+  description: 'Have you seen the Flow icon in Microsoft 360 and wondered what that does? Or maybe you’ve heard about this thing called Flow but not sure what the big deal is?  Would you like to up your acquisitions game, but not sure where to start?  We’ll kick off this session with flow basics such as naming conventions, expressions and variables.  Then move on to the fun stuff, demonstrating how you can streamline your acquisitions processes through Microsoft Flow by harnessing the power of automating emails, populating SharePoint spreadsheets from a form, and how to set up a Flow approval process that will save you valuable time. '
+  audience: CMIG, TEDSIG,Library administration/supervision, diversity, consortia, emerging technologies, reference
+  keywords: Process Automation, Acquisitions, Workflows, Emerging Technologies
+  note-presenter-names: Carissa Thatcher,
+
+- id: 311
+  subtype: session
+  title: 'Building bridges connecting students to primary sources from a distance: Converting in-person activities to an online format.   '
+  description: "In recent years, a subject librarian and an archivist have been successful in building bridges between upper-level students and primary source research for a political science course offered every fall. The culminating assignment has students write a biography of a primary source related to colonialism. Pre-pandemic, the librarians provided five in-person library sessions during the semester with each session filled with hands-on engagement with original primary source materials, discussion, small group work, and active learning. Facing the realities of remote learning and the faculty member’s desire to be asynchronous, we challenged ourselves to identify ways to create online learning experiences that were both educational and engaging.   \n\nThis presentation will outline the process of using various educational technologies to convert nearly all of the course’s in-person activities to the online and asynchronous environment. Planning, content creation, and activity development took place over summer 2020 and the changes debuted successfully during the fall. The presenters will facilitate a discussion on how other librarians have adapted their active-learning instructional strategies to an online format that recreates the 'ah ha' moments students had in the classroom. This transitioned content will have long-term utility for continued online teaching even after the pandemic."
+  audience: DLIG, IIG, SCAIG
+  keywords: Primary sources, instruction, archives, asynchronous, online learning, active-learning, faculty/librarian collaboration
+  note-presenter-names: Paul C. Campbell ,Miriam Intrator ,
+
+- id: 312
+  subtype: session
+  title: 'Maker Literacy and the ACRL Framework'
+  description: 'Academic library makerspaces enable maker-centered learning experiences that hold enduring benefits to students from all fields of study. Some may wonder, however, how maker literacy fits within traditional library information literacy instruction, and specifically how it connects to the ACRL Framework for Information Literacy. This presentation will use two foundational concepts of the ACRL Framework, metaliteracy and liminality, to demonstrate how maker-centered learning can support information literacy. We will explore connections between existing maker literacy frameworks and the ACRL Framework, and specifically how maker-centered learning connects to each frame. We will discuss how hands-on maker learning experiences can be employed as a supplement and enrichment to traditional information literacy instruction, regardless of whether your library has a dedicated makerspace. Attendees will be empowered to experiment with new forms of active and experiential learning in their information literacy instruction.'
+  audience: IIG, Library administration/supervision, diversity, consortia, emerging technologies, reference
+  keywords: Makerspaces; maker literacy; experiential learning; information literacy; ACRL Framework
+  note-presenter-names: Sarah Nagle,
+
+- id: 313
+  title: 'Closing Keynote'
+  description:
+  subtype: keynote
+  speakers: [4]
+  note-presenter: Nicole Cooke
+  language:
+  complexity:
   handouts:
   video:
-  live-stream-type: social
-  live-stream-time: '2020-10-30 12:20:00'
-  live-stream-link: 'https://udayton.zoom.us/j/94661071529?pwd=U2h4akl0c0taNmx1bW5MbjRMWnMxZz09'
+  live-stream-type: keynote
+  live-stream-time: '2020-10-28 09:00:00'
+  live-stream-link:
