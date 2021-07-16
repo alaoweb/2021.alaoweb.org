@@ -1,131 +1,47 @@
-- date: "2020-10-27"
-  dateReadable: "October 27"
+- date: '2021-10-21'
+  dateReadable: 'October 21'
   tracks:
-    - {title: "Track #1"}
-    - {title: "Track #2"}
+    - { title: 'Track #1' }
+    - { title: 'Track #2' }
   timeslots:
-    - {
-      startTime: "6:00",
-      endTime: "7:00",
-      sessionIds: [203]
-    }
+    - { startTime: '3:30', endTime: '4:30', sessionIds: [000] }
 
-- date: "2020-10-28"
-  dateReadable: "October 28"
-  tracks: 
-    - {title: "Track #1"}
-    - {title: "Track #2"}
-  timeslots:
-    - {
-      sessionIds: [000]
-    }
-    - {
-    	startTime: "12:30",
-    	endTime: "1:00",
-    	sessionIds: [001]
-    }
-    - {
-        startTime: "1:00",
-        endTime: "3:00",
-        sessionIds: [002]
-    }
-    - {
-        startTime: "3:30",
-        endTime: "4:30",
-        sessionIds: [003]
-    }
-    - {
-      startTime: "7:00",
-      endTime: "8:00",
-      sessionIds: [004]
-    }
-
-- date: "2020-10-29"
-  dateReadable: "October 29"
-  tracks: 
-    - {title: "Track #1"}
-    - {title: "Track #2"}
-  timeslots:
-    - {
-      sessionIds: [100]
-    }
-    - {
-    	startTime: "9:00",
-    	endTime: "9:50",
-    	sessionIds: [101]
-    }
-    - {
-        startTime: "10:00",
-        endTime: "11:00",
-        sessionIds: [120, 117]
-    }
-    - {
-        startTime: "11:10",
-        endTime: "12:10",
-        sessionIds: [107, 118]
-    }
-    - {
-        startTime: "12:10",
-        endTime: "1:10",
-        sessionIds: [123, 122]
-    }
-    - {
-        startTime: "1:10",
-        endTime: "2:10",
-        sessionIds: [108, 121]
-    }
-    - {
-        startTime: "2:20",
-        endTime: "3:20",
-        sessionIds: [102, 114]
-    }
-    - {
-        startTime: "3:30",
-        endTime: "4:30",
-        sessionIds: [119, 110]
-    }
-
-- date: "2020-10-30"
-  dateReadable: "October 30"
+- date: '2021-10-27'
+  dateReadable: 'October 27'
   tracks:
-    - {title: "Track #1"}
-    - {title: "Track #2"}
+    - { title: 'Track #1' }
+    - { title: 'Track #2' }
   timeslots:
-    - {
-      sessionIds: [200]
-    }
-    - {
-        startTime: "9:00",
-        endTime: "10:00",
-        sessionIds: [109, 103]
-    }
-    - {
-        startTime: "10:10",
-        endTime: "11:10",
-        sessionIds: [105, 112]
-    }
-    - {
-        startTime: "11:20",
-        endTime: "12:20",
-        sessionIds: [106, 116]
-    }
-    - {
-        startTime: "12:20",
-        endTime: "1:20",
-        sessionIds: [204, 205, 206, 207, 202,]
-    }
-    - {
-        startTime: "1:20",
-        endTime: "2:20",
-        sessionIds: [115]
-    }
-    - {
-        startTime: "2:30",
-        endTime: "3:30",
-        sessionIds: [111, 104]
-    }
-    - {
-        startTime: "3:40",
-        endTime: "4:30",
-        sessionIds: [201]
-    }
+    - { startTime: '12:00', endTime: '3:00', sessionIds: [100] }
+    - { startTime: '3:00', endTime: '3:30', sessionIds: [101] }
+    - { startTime: '3:30', endTime: '4:30', sessionIds: [102] }
+    - { startTime: '5:00', endTime: '6:00', sessionIds: [103] }
+
+- date: '2021-10-28'
+  dateReadable: 'October 28'
+  tracks:
+    - { title: 'Track #1' }
+    - { title: 'Track #2' }
+  timeslots:
+    - { startTime: '9:00', endTime: '9:50', sessionIds: [201] }
+    - { startTime: '10:00', endTime: '11:00', sessionIds: [202, 203] }
+    - { startTime: '11:10', endTime: '12:10', sessionIds: [204, 205] }
+    - { startTime: '12:10', endTime: '1:10', sessionIds: [206, 207] }
+    - { startTime: '1:10', endTime: '2:10', sessionIds: [208, 209] }
+    - { startTime: '2:20', endTime: '3:20', sessionIds: [210, 211] }
+    - { startTime: '3:30', endTime: '4:30', sessionIds: [212, 213] }
+    - { startTime: '6:00', endTime: '7:00', sessionIds: [214] }
+
+- date: '2021-10-29'
+  dateReadable: 'October 29'
+  tracks:
+    - { title: 'Track #1' }
+    - { title: 'Track #2' }
+  timeslots:
+    - { startTime: '9:00', endTime: '9:50', sessionIds: [301, 302] }
+    - { startTime: '10:10', endTime: '11:10', sessionIds: [303, 304] }
+    - { startTime: '11:20', endTime: '12:20', sessionIds: [305, 306] }
+    - { startTime: '12:20', endTime: '1:20', sessionIds: [307, 308] }
+    - { startTime: '1:20', endTime: '2:20', sessionIds: [309, 310] }
+    - { startTime: '2:30', endTime: '3:30', sessionIds: [311, 312] }
+    - { startTime: '3:40', endTime: '4:30', sessionIds: [313] }
