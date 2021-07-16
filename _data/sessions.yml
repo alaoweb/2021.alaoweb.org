@@ -136,6 +136,7 @@
 
 - id: 202
   subtype: session
+  speakers: [32, 6, 26, 7]
   title: 'Connecting Instructors with Resources: The Trials and Triumphs of Creating an Instructor Resources Site '
   description: 'In this presentation, we will outline our efforts to create a centralized site where instructors from across our university can access learning resources developed in the library. Librarians and library staff have created many types of learning resources, including videos, tutorials, and Canvas modules, but there was not a single location where instructors could go to access these resources. Although developing an instructor resources site appeared a simple task on the surface, we discovered that it required a significant amount of time, effort, and planning and that we had to demonstrate patience, flexibility, and persistence. We will include discussion of some of the stumbling blocks that we encountered and how we moved beyond them. We will highlight key questions that anyone who is considering developing a similar resource will need to consider, share our main takeaways from the journey, and provide a planning document that others can use to get started with a similar process. Participants will leave the presentation with an understanding of challenges they might face if they begin a similar project, but also with concrete steps they can take to get started and resources that can guide them along the way. '
   audience: DLIG, IIG, PROMIG
