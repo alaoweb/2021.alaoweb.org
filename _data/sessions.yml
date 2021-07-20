@@ -145,6 +145,7 @@
 
 - id: 203
   subtype: session
+  speakers: [76]
   title: 'What Else Could Happen?: Disaster Planning and Recovery in the Age of COVID'
   description: 'The COVID-19 pandemic has had many negative impacts on our institutions, including budget cuts, staff reductions, and doing even more with less.  Therefore, one of the furthest things from everyone’s mind is probably updating disaster plans and preparing for disasters affecting collections, equipment, and services.  However, if you think nothing else could happen this year, think again.  This session will describe a major flood that occurred recently at a large academic archival repository that affected hundreds of historic volumes and boxes of archival materials.  It will demonstrate how the pandemic exacerbated the flood by delaying response times and hampering recovery efforts.  From discovery of the disaster being postponed due to working remotely, to delayed response time due to outdated plans and reduction in force, to frozen budgets that precluded us from purchasing additional disaster supplies, this session will show just what can go wrong and how it can be made worse by the pandemic.  It will also demonstrate what you should be prepared for and will express the importance of having plans updated and contingency plans in place to be prepared in the age of COVID for when, not if, a disaster strikes, and what to do when it does.  '
   audience: CMIG, SCAIG, Library administration/supervision, diversity, consortia, emerging technologies, reference
@@ -153,6 +154,7 @@
 
 - id: 204
   subtype: session
+  speakers: [19]
   title: 'Tackling Racism One Book at A Time: The First & Second Chapter'
   description: 'During the summer of 2020, a book club was organized by an academic library to address the issue of systemic racism and the role it plays in our daily lives. The purpose of this presentation not only will be to highlight this event but also teach other librarians and library directors how to set up a book club that addresses the issue of systemic racism, which books would be appropriate for such a book club, what intrinsic qualities a moderator should have to manage a successful book club on this topic and what outcomes can be expected from a successful book club.'
   audience: AIG, C2YCLIG, PROMIG, SSIG, Library administration/supervision, diversity, consortia, emerging technologies, reference
@@ -161,6 +163,7 @@
 
 - id: 205
   subtype: session
+  speakers: [49]
   title: 'Creating an Individualized Patron Dashboard using Existing Data Sources'
   description: 'Libraries have long sought to provide individualized information to their users online. However, the technological and upkeep barriers have been significant challenges. With library vendors and campus service providers offering APIs for many services, we are able to rely more on already existing services to manage and supply the relevant data. Using patron data from our university registrar and campus authentication system, we can identify subjects relevant to a user’s courses and majors to build a customized dashboard of information relevant to the user. The dashboard  includes tabs for each major or course subject showing liaison librarians, databases, and research guides, as well as key circulation data (e.g. current checkouts, holds, and fines) for the user. By building on multiple external data sources, we aim to improve access to information without adding substantial new management burdens for library staff. This presentation will share the tools we used to create the dashboard as well as code that could be adapted for use at other libraries.'
   audience: IIG, TEDSIG
@@ -178,6 +181,7 @@
 
 - id: 208
   subtype: session
+  speakers: [60]
   title: 'Cataloging as civic engagement: Providing inclusive local subject alternatives to offensive headings'
   description: "In 2016 the Library of Congress was unable to officially change the subject headings for 'aliens' and 'illegal aliens' to 'non-citizens' and 'undocumented immigrants.' Many libraries reacted to this event by replacing these subject headings locally. Such a project requires careful consideration of alternatives, logistics, possible complications, as well as gaining the support of the library administration. In addition, working on consistency with other institutions within a consortium is of great importance. This presentation will describe in detail one such undertaking that used 'illegal aliens' as the initial example but moved even further to include inclusive terms for other populations. This presentation will include a step-by-step workflow for adding local subjects, as well as a table of alternative headings. It will also include suggestions for outreach to various populations on campus to help review subjects dealing with race, gender, and sexual orientation.\n"
   audience: AIG, PROMIG, TEDSIG,Library administration/supervision, diversity, consortia, emerging technologies, reference
@@ -186,6 +190,7 @@
 
 - id: 209
   subtype: session
+  speakers: [8, 61] 
   title: 'Practicing organizational care: Using human-centered approaches to facilitate change in your library'
   description: "Can you think of a time when you have thrived through change? What made that possible? How did the change effort center on organizational values and engage those impacted? \n\nMost traditional change management practices focus on process and implementation over listening, compassion, and healing. By using human-centered change leadership approaches, we will explore ways to align change efforts with organizational values. We will identify factors that can lead to a change that harness the strengths of the team, while also make space for voices to be heard.\n\nTogether, participants will consider how the Bridges’ Transition Model enables effective and compassionate communication through change and how the Appreciative Inquiry approach can lead to empowering colleagues in order to build engagement and a shared vision for outcomes. Whether leading change, collaborating towards it, or affected by it, these tools will create space to name concerns while shifting to a solutions-oriented frame in order to gain momentum towards sustainable change.\n\nSession participants will:\nUnderstand the basic components of human-centered change \nGain awareness of tools to facilitate engaged change leadership\nDeepen their understanding of how to communicate effectively and compassionately during change efforts"
   audience: AIG, Library administration/supervision, diversity, consortia, emerging technologies, reference
@@ -194,6 +199,7 @@
 
 - id: 210
   subtype: lightning
+  speakers: [9, 31, 57, 39, 15, 62, 45, 13, 41] 
   title: 'Lightning Talks #1'
   description: 'This lightning talk concerns a digital image collection comprising flyover photographs of much of a major metropolitan area at varying intervals from 1949 through 1997. They receive heavy traffic from a broad range of communities who need to survey land use for a number of purposes. However, the user interface that libraries inherited was locked in an inaccessible series of PDF maps that has grown steadily less usable, causing endless frustration for librarians and users alike. This talk will cover the steps taken to extract both data and digital images from this user interface and reimplement the collection in a web-based map interface. Both a how-to and a case study, this talk will prove useful to attendees planning implementation of their own geolocated digital collections, or exploring solutions for problem interfaces to digital materials. Presenters will share python code developed to extract geolocation data and images from PDF-based collection, and PHP to translate JSON-based geolocation data to geoJSON.'
   audience: PROMIG, DLIG, C2YCLIG,AIG, IIG, PROMIG,SCAIG, SUSIG, TEDSIG,Library administration/supervision, diversity, consortia, emerging technologies, reference
@@ -202,6 +208,7 @@
 
 - id: 211
   subtype: session
+  speakers: [55, 75, 33]
   title: 'I Like the Way You Did That!  Collaborative Chat Review for Continuous Assessment & Improvement'
   description: "Studying the work of others can spark new ideas and help us improve our own work; we believe this especially true of reviewing colleagues’ chat reference transcripts.   We have long incorporated chat transcript review in staff training and development, but recently developed a meaningful, collaborative plan involving all chat providers.  In Fall 2020, as part of a departmental strategic initiative, we drafted a Plan for Continuous Review & Improvement of Chat Reference Services: Moving Toward a Departmental Culture of Assessment and Continuous Improvement; we implemented the plan in Spring 2021.\n\nIt was important that the initiative be a collaborate exercise to assess and improve our chat reference service and not an evaluative measure.  The plan outlines objectives and sets specific, measurable goals for all individuals involved.  It also features quarterly professional development activities based on what we’ve learned from others.  Following the pilot semester, we will solicit feedback from all participants and adjust as needed.\n\nOur presentation will review the components of the plan, share input received from participants, and discuss adjustments made for fall 2021.  Following the presentation, we will engage the audience with a transcript review activity and encourage reflection for use at their institutions."
   audience: AIG, C2YCLIG, DLIG
@@ -210,6 +217,7 @@
 
 - id: 212
   subtype: session
+  speakers: [73, 53] 
   title: 'Data-Driven Research to Connect the Academic Library to Institutional Priorities and Enhance User Experience'
   description: "Academic Libraries face many competing priorities within their own operations and among larger institutional goals. Therefore, library leadership must create defensible, data-driven planning strategies to create stronger connections between the library and the student experience.  As a strategic tool to assist library leaders, we have completed a nationwide survey of 500 students reflecting on their library usage and their emotional experience in the library. Using this survey data, along with the findings from a robust dialogue among library leaders across the country via roundtable discussions, we have developed a series of key takeaways to be considered when planning improvements to library environments.\n\nTo uncover more about student’s behaviors and needs, our survey targeted frequent library users’ usage habits and the feelings they have while using library spaces. We presented this survey data to a panel of library leaders to open a dialogue about the near-term and long-term evolving role of the library, and we conducted student focus groups to learn more about connecting the library to the student experience. These findings will help library leaders develop effective strategies to connect the library to institutional priorities and strengthen the connection between the library and user experience."
   audience: PROMIG, SCIG, Library administration/supervision, diversity, consortia, emerging technologies, reference
@@ -218,6 +226,7 @@
 
 - id: 213
   subtype: session
+  speakers: [56, 46]
   title: 'Decentralizing Anti-Racism Content in LibGuides: A Disciplinary-Integrative Approach '
   description: "Like never before, systemic and institutional racism has become a topic of national conversation. Academic libraries have responded in a variety of ways, including utilizing LibGuides to curate centralized, high-quality resources on anti-racism, diversity, and the Black Lives Matter movement.  \n\nWhen considering a centralized LibGuide, two librarians began to contemplate their own subject-based LibGuides. Why not take an integrated, disciplinary approach to anti-racism resources instead?  Beginning with an audit, the librarians developed a rubric to analyze anti-racism resources within each subject guide. The rubric examined guides for quantity of anti-racism resources, variety of resources, authority of resources, resources relevant in a disciplinary context, and resources relevant in professional context. After scoring each guide, librarians curated discipline-specific resources and tools on anti-racism topics for inclusion in the revised guides. Anti-racism resources for use across guides were also selected. After implementing changes and re-scoring the subject guides, librarians promoted the newly audited guides to their constituencies and solicited collaboration with faculty to incorporate anti-racism resources into courses. "
   audience: CMIG, IIG, Library administration/supervision, diversity, consortia, emerging technologies, reference
@@ -243,6 +252,7 @@
 
 - id: 301
   subtype: session
+  speakers: [23]
   title: 'Building a Bridge between Art and Experiential Learning in an Academic Library'
   description: 'Much of the literature concerning experiential learning in academic libraries is placed in the context of opportunities for student workers and library and information science students. Removed from these library-oriented purposes, the library can serve as a physical space where students in any discipline may engage in projects designed to be completed outside the classroom. These projects are planned with various levels of student/teacher involvement, often to develop information literacy skills. There exists great potential for the library to transcend these roles by partnering with faculty to provide students with more profound learning experiences. This presentation describes such a collaboration between an academic library and a university art program, and discusses the progression of the library from a space used to display student work to experiential learning projects requiring total student involvement from concept to completion. This presentation will provide details on the process of partnering with faculty to develop unique immersive opportunities for students, offer several examples of benefits to the students and the library, and explore project learning as a means to expand the library’s identity on campus.'
   audience: IIG, PROMIG
@@ -251,6 +261,7 @@
 
 - id: 302
   subtype: session
+  speakers: [68, 20]
   title: 'More Than Just a Diary: Reflective Practice for Academic Librarians'
   description: 'Writing personal reflections is a popular hobby across the generations. Applying this practice in a professional context can be a powerful tool in improving one’s craft as a college or university librarian. In this presentation, we will share three forms of self-reflection: immediate reflection, delayed reflection, and focused reflection. For each type of self-reflection, we will provide several practical examples of ways librarians can add these practices into their professional lives, such as a reflective teaching journal, a weekly email reflection thread, and a professional retreat. We will provide interactive next steps for attendees to follow up on after the session to fully engage them in the topic.'
   audience: IIG, Library administration/supervision, diversity, consortia, emerging technologies, reference
@@ -259,6 +270,7 @@
 
 - id: 303
   subtype: session
+  speakers: [34, 44] 
   title: 'Academic Library Jobs: Trends From the Evolving Landscape  '
   description: 'This past year demonstrated the need for academic libraries to quickly adapt to new circumstances and pivot to meet users’ needs as the learning environment swiftly changed. Having a library staffed with individuals prepared and willing to adjust to the new conditions was crucial. The presenters spent the year prior to the pandemic researching current trends in small to medium-sized academic library job positions. While identifying the ways in which jobs are evolving, they noted a definite shift towards blended public and technical responsibilities and increased requests for soft skills and flexibility. Presenters will share their findings about the ways in which libraries are adapting positions in the ever-changing academic environment to meet both student and institutional needs. Position changes were found to be both technologically and financially driven. As a result, libraries (often with tighter budgets) are striving to still provide quality core services and resources by rethinking current and open positions in innovative ways. Presenters will talk about the characteristics of newer, blended position types and the various soft skills that are currently being sought after in new hires, and how positions such as these can help during any time period, but especially during unexpected times like these.  '
   audience: IIG, TEDSIG,Library administration/supervision, diversity, consortia, emerging technologies, reference
@@ -267,6 +279,7 @@
 
 - id: 304
   subtype: session
+  speakers: [35, 37, 52, 59]
   title: 'Do students really hate e-books?: Analyzing e-book use among college students'
   description: "Every year libraries find themselves devoting more and more of their library budgets to e-book access, and regional consortias, like OhioLINK, are proactively adding new e-book packages. And while we vaguely know that e-books are being used, who is using them and for what reason?\nIn early 2020 we began surveying students to learn more about their use of and interest in e-books. After an initial survey was completed prior to the pandemic, a second one was completed during the height of the pandemic, and a third one during the spring 2021 semester while we remained in a mostly remote learning environment.\nThis presentation will compare our three surveys’ findings along with additional surveys and reports on e-book use among college students. It will show how much experience students really have with e-books, and whether the stories of resistance we hear in the library match up with the larger picture. It will also focus on the barriers to greater use of e-books, what devices students use to access e-books, as well as the frequency of use and the willingness of students to use e-books and whether it has grown over the time of the pandemic. \n"
   audience: AIG, C2YCLIG, SUSIG
@@ -275,6 +288,7 @@
 
 - id: 305
   subtype: session
+  speakers: [11, 44, 29, 50] 
   title: 'One size doesn’t fit all: tailoring DEIA for academic libraries of different sizes'
   description: 'Many academic libraries have a desire to work for diversity, equity, and inclusion; many are unsure where to start or what impact they can have. This panel will bring together representatives from several Ohio academic libraries of different sizes and campus types for a discussion of their different approaches to diversity, equity, inclusion, and accessibility (DEIA) work. Representatives will discuss what has worked, what hasn’t, and where they are headed. Additional topics for discussion include: considerations for DEIA work at institutions with varying degrees of racial diversity; different ways DEIA work is organized; challenges to sustaining DEIA work; relationships with campus initiatives & leadership; projects undertaken; how decisions are made; & how power is shared (or not).'
   audience: PROMIG, Library administration/supervision, diversity, consortia, emerging technologies, reference
@@ -283,6 +297,7 @@
 
 - id: 306
   subtype: session
+  speakers: [43, 51, 65] 
   title: 'Rethinking the Research Consultation: A Model for Bridging Student Needs with Faculty Expectations Through Effective, Efficient, and Exceptional Service '
   description: "Do you want to expand your connections with students engaging in research?  Would increasing the number of impactful research consultations be valuable to your library? Could rethinking how you presently reach students to meet their needs improve research services?  Transitioning to a robust research consultation model, our library has seen extensive growth in both the number of and enthusiasm for individualized research consultations. Our efficient scheduling system coupled with effective communication methods and an exceptional level of service has led to an substantial increase in the quantity and quality of student research consultations. Through our liaison librarian model, we are positioned for deliberate dialogue with faculty to better inform our understanding of the research assignments students encounter. Our subject specialists now possess a unique way to bridge faculty expectations with the research assistance students need. \n\nThis session will provide practical steps you can utilize to elevate your own research consultations at your library. We will discuss how to make intentional connections with your faculty to improve familiarity with assignments and identify how to meet student needs strategically. We will also share best practices you can implement today to increase the quality and quantity of research consultations at your own institution."
   audience: AIG, IIG
@@ -300,6 +315,7 @@
 
 - id: 309
   subtype: lightning
+  speakers: [30, 64, 25, 16, 27, 56, 40, 12] 
   title: 'Lightning Talks #2'
   description: ''
   audience: IIG, PROMIG, AIG, DLIG, IIG, STEMIG, CMIG, Library administration/supervision, diversity, consortia, emerging technologies, reference
@@ -308,6 +324,7 @@
 
 - id: 310
   subtype: session
+  speakers: [12]
   title: 'Even Flow : Using Microsoft Flows to streamline library acquisitions work'
   description: 'Have you seen the Flow icon in Microsoft 360 and wondered what that does? Or maybe you’ve heard about this thing called Flow but not sure what the big deal is?  Would you like to up your acquisitions game, but not sure where to start?  We’ll kick off this session with flow basics such as naming conventions, expressions and variables.  Then move on to the fun stuff, demonstrating how you can streamline your acquisitions processes through Microsoft Flow by harnessing the power of automating emails, populating SharePoint spreadsheets from a form, and how to set up a Flow approval process that will save you valuable time. '
   audience: CMIG, TEDSIG,Library administration/supervision, diversity, consortia, emerging technologies, reference
@@ -316,6 +333,7 @@
 
 - id: 311
   subtype: session
+  speakers: [66, 63]
   title: 'Building bridges connecting students to primary sources from a distance: Converting in-person activities to an online format.   '
   description: "In recent years, a subject librarian and an archivist have been successful in building bridges between upper-level students and primary source research for a political science course offered every fall. The culminating assignment has students write a biography of a primary source related to colonialism. Pre-pandemic, the librarians provided five in-person library sessions during the semester with each session filled with hands-on engagement with original primary source materials, discussion, small group work, and active learning. Facing the realities of remote learning and the faculty member’s desire to be asynchronous, we challenged ourselves to identify ways to create online learning experiences that were both educational and engaging.   \n\nThis presentation will outline the process of using various educational technologies to convert nearly all of the course’s in-person activities to the online and asynchronous environment. Planning, content creation, and activity development took place over summer 2020 and the changes debuted successfully during the fall. The presenters will facilitate a discussion on how other librarians have adapted their active-learning instructional strategies to an online format that recreates the 'ah ha' moments students had in the classroom. This transitioned content will have long-term utility for continued online teaching even after the pandemic."
   audience: DLIG, IIG, SCAIG
@@ -325,6 +343,7 @@
 - id: 312
   subtype: session
   title: 'Maker Literacy and the ACRL Framework'
+  speakers: [69]
   description: 'Academic library makerspaces enable maker-centered learning experiences that hold enduring benefits to students from all fields of study. Some may wonder, however, how maker literacy fits within traditional library information literacy instruction, and specifically how it connects to the ACRL Framework for Information Literacy. This presentation will use two foundational concepts of the ACRL Framework, metaliteracy and liminality, to demonstrate how maker-centered learning can support information literacy. We will explore connections between existing maker literacy frameworks and the ACRL Framework, and specifically how maker-centered learning connects to each frame. We will discuss how hands-on maker learning experiences can be employed as a supplement and enrichment to traditional information literacy instruction, regardless of whether your library has a dedicated makerspace. Attendees will be empowered to experiment with new forms of active and experiential learning in their information literacy instruction.'
   audience: IIG, Library administration/supervision, diversity, consortia, emerging technologies, reference
   keywords: Makerspaces; maker literacy; experiential learning; information literacy; ACRL Framework
