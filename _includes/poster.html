@@ -19,7 +19,6 @@
                 
                 {% if page.speaker-data %}
                   {% for id in page.speaker-data %}
-                    <li>getting data for ID = {{id}}</li>
                     {% assign this_speaker = site.data.speakers | where: "id", id %}
                     {% assign name = this_speaker[0].name | append: " " | append: this_speaker[0].surname %}
                     {% assign institution = this_speaker[0].company %} 
