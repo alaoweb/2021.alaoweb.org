@@ -16,12 +16,19 @@
             <div class="poster-presenter">
               <h3>Presented by</h3>
               <ul>
-                {% if page.presenters %} {% for person in page.presenters %}
-                <li>{{ person.name }} {% if person.institution %}
-                  ({{ person.institution }}) {% endif %}</li>
-                {% capture bio %}<p class="individual-bio">{{ person.bio}}</p>
-                {% endcapture %} {% assign bios = bios | append: bio %}
-                {% endfor %}
+                
+                {% if page.speaker-data %}
+                  {% for id in page.speaker-data %}
+                    <li>getting data for ID = {{id}}</li>
+                    {% assign this_speaker = site.data.speakers | where: "id", id %}
+                    {% assign name = this_speaker[0].name | append: " " | append: this_speaker[0].surname %}
+                    {% assign institution = this_speaker[0].company %} 
+                    {% assign bio = this_speaker[0].bio %}
+                    <li>{{ name }} {% if institution %}
+                        ({{ institution }}) {% endif %}</li>
+                      {% capture bio %}<p class="individual-bio">{{ bio}}</p>
+                      {% endcapture %} {% assign bios = bios | append: bio %}
+                  {% endfor %}
                 {% endif %}
               </ul>
             </div>
