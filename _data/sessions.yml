@@ -121,8 +121,8 @@
   live-stream-link:
 
 - id: 201
-  title: 'Opening Keynote'
-  description:
+  title: 'Opening Keynote: What is at work in our library work?'
+  description: "What are we hoping to accomplish with our work in libraries? What goals are we all working towards? In the words of Eve Tuck and K. Wayne Wang from their introduction to the book, <cite>Toward What Justice? Describing Diverse Dreams of Justice in Education</cite>, “what is at work in all of this work? What does this work care about? What animates and compels this work? What does this work believe about itself and others?”. I will explore these questions within the context of our work in libraries, why it's crucial for us to understand what is at work within libraries, and where we might go from there."
   subtype: keynote
   speakers: [3]
   note-presenter: Sofia Leung
@@ -190,7 +190,7 @@
 
 - id: 209
   subtype: session
-  speakers: [8, 61] 
+  speakers: [8, 61]
   title: 'Practicing organizational care: Using human-centered approaches to facilitate change in your library'
   description: "Can you think of a time when you have thrived through change? What made that possible? How did the change effort center on organizational values and engage those impacted? \n\nMost traditional change management practices focus on process and implementation over listening, compassion, and healing. By using human-centered change leadership approaches, we will explore ways to align change efforts with organizational values. We will identify factors that can lead to a change that harness the strengths of the team, while also make space for voices to be heard.\n\nTogether, participants will consider how the Bridges’ Transition Model enables effective and compassionate communication through change and how the Appreciative Inquiry approach can lead to empowering colleagues in order to build engagement and a shared vision for outcomes. Whether leading change, collaborating towards it, or affected by it, these tools will create space to name concerns while shifting to a solutions-oriented frame in order to gain momentum towards sustainable change.\n\nSession participants will:\nUnderstand the basic components of human-centered change \nGain awareness of tools to facilitate engaged change leadership\nDeepen their understanding of how to communicate effectively and compassionately during change efforts"
   audience: AIG, Library administration/supervision, diversity, consortia, emerging technologies, reference
@@ -199,7 +199,7 @@
 
 - id: 210
   subtype: lightning
-  speakers: [9, 31, 57, 39, 15, 62, 45, 13, 41] 
+  speakers: [9, 31, 57, 39, 15, 62, 45, 13, 41]
   title: 'Lightning Talks #1'
   description: 'This lightning talk concerns a digital image collection comprising flyover photographs of much of a major metropolitan area at varying intervals from 1949 through 1997. They receive heavy traffic from a broad range of communities who need to survey land use for a number of purposes. However, the user interface that libraries inherited was locked in an inaccessible series of PDF maps that has grown steadily less usable, causing endless frustration for librarians and users alike. This talk will cover the steps taken to extract both data and digital images from this user interface and reimplement the collection in a web-based map interface. Both a how-to and a case study, this talk will prove useful to attendees planning implementation of their own geolocated digital collections, or exploring solutions for problem interfaces to digital materials. Presenters will share python code developed to extract geolocation data and images from PDF-based collection, and PHP to translate JSON-based geolocation data to geoJSON.'
   audience: PROMIG, DLIG, C2YCLIG,AIG, IIG, PROMIG,SCAIG, SUSIG, TEDSIG,Library administration/supervision, diversity, consortia, emerging technologies, reference
@@ -217,7 +217,7 @@
 
 - id: 212
   subtype: session
-  speakers: [73, 53] 
+  speakers: [73, 53]
   title: 'Data-Driven Research to Connect the Academic Library to Institutional Priorities and Enhance User Experience'
   description: "Academic Libraries face many competing priorities within their own operations and among larger institutional goals. Therefore, library leadership must create defensible, data-driven planning strategies to create stronger connections between the library and the student experience.  As a strategic tool to assist library leaders, we have completed a nationwide survey of 500 students reflecting on their library usage and their emotional experience in the library. Using this survey data, along with the findings from a robust dialogue among library leaders across the country via roundtable discussions, we have developed a series of key takeaways to be considered when planning improvements to library environments.\n\nTo uncover more about student’s behaviors and needs, our survey targeted frequent library users’ usage habits and the feelings they have while using library spaces. We presented this survey data to a panel of library leaders to open a dialogue about the near-term and long-term evolving role of the library, and we conducted student focus groups to learn more about connecting the library to the student experience. These findings will help library leaders develop effective strategies to connect the library to institutional priorities and strengthen the connection between the library and user experience."
   audience: PROMIG, SCIG, Library administration/supervision, diversity, consortia, emerging technologies, reference
@@ -270,7 +270,7 @@
 
 - id: 303
   subtype: session
-  speakers: [34, 44] 
+  speakers: [34, 44]
   title: 'Academic Library Jobs: Trends From the Evolving Landscape  '
   description: 'This past year demonstrated the need for academic libraries to quickly adapt to new circumstances and pivot to meet users’ needs as the learning environment swiftly changed. Having a library staffed with individuals prepared and willing to adjust to the new conditions was crucial. The presenters spent the year prior to the pandemic researching current trends in small to medium-sized academic library job positions. While identifying the ways in which jobs are evolving, they noted a definite shift towards blended public and technical responsibilities and increased requests for soft skills and flexibility. Presenters will share their findings about the ways in which libraries are adapting positions in the ever-changing academic environment to meet both student and institutional needs. Position changes were found to be both technologically and financially driven. As a result, libraries (often with tighter budgets) are striving to still provide quality core services and resources by rethinking current and open positions in innovative ways. Presenters will talk about the characteristics of newer, blended position types and the various soft skills that are currently being sought after in new hires, and how positions such as these can help during any time period, but especially during unexpected times like these.  '
   audience: IIG, TEDSIG,Library administration/supervision, diversity, consortia, emerging technologies, reference
@@ -288,7 +288,7 @@
 
 - id: 305
   subtype: session
-  speakers: [11, 44, 29, 50] 
+  speakers: [11, 44, 29, 50]
   title: 'One size doesn’t fit all: tailoring DEIA for academic libraries of different sizes'
   description: 'Many academic libraries have a desire to work for diversity, equity, and inclusion; many are unsure where to start or what impact they can have. This panel will bring together representatives from several Ohio academic libraries of different sizes and campus types for a discussion of their different approaches to diversity, equity, inclusion, and accessibility (DEIA) work. Representatives will discuss what has worked, what hasn’t, and where they are headed. Additional topics for discussion include: considerations for DEIA work at institutions with varying degrees of racial diversity; different ways DEIA work is organized; challenges to sustaining DEIA work; relationships with campus initiatives & leadership; projects undertaken; how decisions are made; & how power is shared (or not).'
   audience: PROMIG, Library administration/supervision, diversity, consortia, emerging technologies, reference
@@ -297,7 +297,7 @@
 
 - id: 306
   subtype: session
-  speakers: [43, 51, 65] 
+  speakers: [43, 51, 65]
   title: 'Rethinking the Research Consultation: A Model for Bridging Student Needs with Faculty Expectations Through Effective, Efficient, and Exceptional Service '
   description: "Do you want to expand your connections with students engaging in research?  Would increasing the number of impactful research consultations be valuable to your library? Could rethinking how you presently reach students to meet their needs improve research services?  Transitioning to a robust research consultation model, our library has seen extensive growth in both the number of and enthusiasm for individualized research consultations. Our efficient scheduling system coupled with effective communication methods and an exceptional level of service has led to an substantial increase in the quantity and quality of student research consultations. Through our liaison librarian model, we are positioned for deliberate dialogue with faculty to better inform our understanding of the research assignments students encounter. Our subject specialists now possess a unique way to bridge faculty expectations with the research assistance students need. \n\nThis session will provide practical steps you can utilize to elevate your own research consultations at your library. We will discuss how to make intentional connections with your faculty to improve familiarity with assignments and identify how to meet student needs strategically. We will also share best practices you can implement today to increase the quality and quantity of research consultations at your own institution."
   audience: AIG, IIG
@@ -315,7 +315,7 @@
 
 - id: 309
   subtype: lightning
-  speakers: [30, 64, 25, 16, 27, 56, 40, 12] 
+  speakers: [30, 64, 25, 16, 27, 56, 40, 12]
   title: 'Lightning Talks #2'
   description: ''
   audience: IIG, PROMIG, AIG, DLIG, IIG, STEMIG, CMIG, Library administration/supervision, diversity, consortia, emerging technologies, reference
