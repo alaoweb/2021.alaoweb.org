@@ -201,9 +201,9 @@
   subtype: lightning
   speakers: [9, 31, 57, 39, 15, 62, 45, 13, 41]
   title: 'Lightning Talks #1'
-  description: 'This lightning talk concerns a digital image collection comprising flyover photographs of much of a major metropolitan area at varying intervals from 1949 through 1997. They receive heavy traffic from a broad range of communities who need to survey land use for a number of purposes. However, the user interface that libraries inherited was locked in an inaccessible series of PDF maps that has grown steadily less usable, causing endless frustration for librarians and users alike. This talk will cover the steps taken to extract both data and digital images from this user interface and reimplement the collection in a web-based map interface. Both a how-to and a case study, this talk will prove useful to attendees planning implementation of their own geolocated digital collections, or exploring solutions for problem interfaces to digital materials. Presenters will share python code developed to extract geolocation data and images from PDF-based collection, and PHP to translate JSON-based geolocation data to geoJSON.'
-  audience: PROMIG, DLIG, C2YCLIG,AIG, IIG, PROMIG,SCAIG, SUSIG, TEDSIG,Library administration/supervision, diversity, consortia, emerging technologies, reference
-  keywords: geolocation, map-based interfaces, user interfaces, digital collections, community service, problem solving, archives, collection development, leaflet.js, python, PDF, geoJSON,informal learning, outreach, maker culture,Information literacy instruction, embedded librarianship, instructor-librarian collaborations, inquiry-based learning, text-analysis, covid-19, outreach, remote work, online, community-building, Crisis Management Training, Professional Development, Mental Health, Staff Development, Staff Burnout,Chat Reference, Chat Transcript Review,  Professional Development
+  description: 'This session focuses on sustainability and connection in academic libraries and consists of five short talks followed by a live Q&A: "Essential but unusable: rehabilitating an aging digital collection", "Supporting Campus Innovation Efforts through Library Events", Bridging the gap between sustainability and impact: The relationship between librarian involvement and the efficacy of information literacy instruction", "Transitioning and Sustaining Community Connection for Newly Employed Library Workers during COVID", and "Exploring Mental Health First Aid Training as a Library Staff Crisis Management Tool".'
+  audience: Programming, Outreach, and Marketing (PROMIG), Distance learning (DLIG), Community & Two Year College Libraries (C2YCLIG), Assessment (AIG), Instruction (IIG), Scholarly Communications (SCAIG), Sustainability (SUSIG), Technical, Electronic & Digital Services (TEDSIG), Library administration/supervision
+  keywords: geolocation, map-based interfaces, user interfaces, digital collections, community service, problem solving, archives, collection development, leaflet.js, python, PDF, geoJSON, informal learning, outreach, maker culture, Information literacy instruction, embedded librarianship, instructor-librarian collaborations, inquiry-based learning, text-analysis, covid-19, outreach, remote work, online, community-building, Crisis Management Training, Professional Development, Mental Health, Staff Development, Staff Burnout
   note-presenter-names: Bart Lenart,James Murphy,Marc Stoeckle , Joshua Neds-Fox,Clayton Hayes,Meris Longmeier,Kathy Ladell and Catie Carlson,Catie Carlson,Judith Wiener,
 
 - id: 211
@@ -317,9 +317,9 @@
   subtype: lightning
   speakers: [30, 64, 25, 16, 27, 56, 40, 12]
   title: 'Lightning Talks #2'
-  description: ''
-  audience: IIG, PROMIG, AIG, DLIG, IIG, STEMIG, CMIG, Library administration/supervision, diversity, consortia, emerging technologies, reference
-  keywords: Media Effects, Misinformation, Information Literacy
+  description: 'This session focuses on collaboration and meaningful connection in academic libraries and consists of five short talks followed by a live Q&A: "Connecting media studies and information literacy to help students identify misinformation", "Academic Libraries collaborating with Graduate Student Organizations", "Conversations with Students: Using a Student Advisory Board for Dialogue and Assessment, "Conspiracy Theories in the Classroom: COVID-19 Misinformation Edition", and "Library Collaboration with College DEI Leadership Brings Mutual Benefits".'
+  audience: IIG, Programming, Outrearch, and Marketing (PROMIG), Assessment (AIG), Distance Learning (DLIG), Instruction (IIG), STEM, Scholarly Communications (SCIG), Library administration/supervision
+  keywords: Media Effects, Misinformation, Information Literacy, Student Organizations, Funding, Students, Assessment, Feedback, COVID-19, Discussion, Instruction, Anti-racism, DEI, Community
   note-presenter-names: Jaclyn Spraetz,Nate Floyd, Giovanna Colosi, Cori Wilhelm,Hanna Schmillen,Madeleine Gaiser,Josie Evans-Phillips,Carissa Thatcher,
 
 - id: 310
