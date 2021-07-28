@@ -546,18 +546,6 @@
   ribbon:
   social:
 
-- id: 45
-  name: Kathy
-  surname: Ladell
-  pronouns: she/her
-  company: University of Cincinnati Clermont College
-  email: kathy.ladell@uc.edu
-  bio: Kathy Ladell is a Reference Librarian at the University of Cincinnati Clermont College.  After working many years in non-profit organizations, she obtained her MLIS and MA in Latin American Studies at Indiana University.  Her research interests include underrepresented populations and their information needs.
-  thumbnailUrl:
-  rockstar: false
-  ribbon:
-  social:
-
 - id: 46
   name: Katie
   surname: Foran-Mulcahy
