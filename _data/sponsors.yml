@@ -34,6 +34,12 @@
         link: 'https://emery-pratt.com/',
         imageUrl: 'emery_pratt.png',
       }
+    - {
+        name: 'Bloomsbury',
+        description: 'Bloomsbury Publishing is a leading independent publishing house, established in 1986, with authors who have won the Nobel, Pulitzer and Booker Prizes',
+        link: 'https://www.bloomsbury.com/dr/digital-resources/',
+        imageUrl: 'bloomsbury.png',
+      }
 
 - group: 'Schedule'
   elements:
