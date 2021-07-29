@@ -199,12 +199,12 @@
 
 - id: 210
   subtype: lightning
-  speakers: [9, 31, 57, 39, 15, 62, 45, 13, 41]
+  speakers: [9, 31, 57, 39, 15, 62, 41]
   title: 'Lightning Talks #1'
-  description: 'This session focuses on sustainability and connection in academic libraries and consists of five short talks followed by a live Q&A: "Essential but unusable: rehabilitating an aging digital collection", "Supporting Campus Innovation Efforts through Library Events", Bridging the gap between sustainability and impact: The relationship between librarian involvement and the efficacy of information literacy instruction", "Transitioning and Sustaining Community Connection for Newly Employed Library Workers during COVID", and "Exploring Mental Health First Aid Training as a Library Staff Crisis Management Tool".'
-  audience: Programming, Outreach, and Marketing (PROMIG), Distance learning (DLIG), Community & Two Year College Libraries (C2YCLIG), Assessment (AIG), Instruction (IIG), Scholarly Communications (SCAIG), Sustainability (SUSIG), Technical, Electronic & Digital Services (TEDSIG), Library administration/supervision
-  keywords: geolocation, map-based interfaces, user interfaces, digital collections, community service, problem solving, archives, collection development, leaflet.js, python, PDF, geoJSON, informal learning, outreach, maker culture, Information literacy instruction, embedded librarianship, instructor-librarian collaborations, inquiry-based learning, text-analysis, covid-19, outreach, remote work, online, community-building, Crisis Management Training, Professional Development, Mental Health, Staff Development, Staff Burnout
-  note-presenter-names: Bart Lenart,James Murphy,Marc Stoeckle , Joshua Neds-Fox,Clayton Hayes,Meris Longmeier,Kathy Ladell and Catie Carlson,Catie Carlson,Judith Wiener,
+  description: 'This session focuses on sustainability and connection in academic libraries and consists of four short talks followed by a live Q&A: "Essential but unusable: rehabilitating an aging digital collection", "Supporting Campus Innovation Efforts through Library Events", "Bridging the gap between sustainability and impact: The relationship between librarian involvement and the efficacy of information literacy instruction", and "Exploring Mental Health First Aid Training as a Library Staff Crisis Management Tool".'
+  audience: Programming, Outreach, and Marketing (PROMIG), Distance learning (DLIG), Community & Two Year College Libraries (C2YCLIG), Assessment (AIG), Instruction (IIG), Scholarly Communications (SCAIG), Sustainability (SUSIG), Technical, Electronic & Digital Services (TEDSIG), Support Staff (SSIG), Library administration/supervision, Reference, Collections
+  keywords: geolocation, map-based interfaces, user interfaces, digital collections, community service, problem solving, archives, collection development, leaflet.js, python, PDF, geoJSON, informal learning, outreach, maker culture, Information literacy instruction, embedded librarianship, instructor-librarian collaborations, inquiry-based learning, text-analysis, Crisis Management Training, Professional Development, Mental Health, Staff Development, Staff Burnout
+  note-presenter-names: Bart Lenart,James Murphy,Marc Stoeckle , Joshua Neds-Fox,Clayton Hayes,Meris Longmeier,Judith Wiener,
 
 - id: 211
   subtype: session
