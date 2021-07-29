@@ -199,3 +199,16 @@ $small-label-width: 80px;
 .service-description {
   margin-top: 15px;
 }
+.schedule-sponsors {
+  list-style: none;
+  li {
+    margin-bottom: 5em;
+  }
+  img {
+    width: 80%;
+  }
+  .h3,
+  .h4 {
+    margin-bottom: 1em;
+  }
+}

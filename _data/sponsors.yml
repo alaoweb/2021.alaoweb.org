@@ -35,8 +35,23 @@
         imageUrl: 'emery_pratt.png',
       }
 
-- group: 'Additional Support'
+- group: 'Schedule'
   elements:
+    - {
+        name: 'EBSCO',
+        description: 'EBSCO is the leading provider of research databases, e-journals, magazine subscriptions, ebooks and discovery service for academic libraries, public libraries, corporations, schools, government and medical institutions',
+        link: 'https://www.ebsco.com/',
+        imageUrl: 'ebsco.png',
+      }
+    - {
+        name: 'Springer Nature',
+        description: 'We help authors to share their discoveries; enable researchers to find, access and understand the work of others and support librarians and institutions with innovations in technology and data.',
+        link: 'https://www.springernature.com/',
+        imageUrl: 'springer_nature.png',
+        video: 'https://www.youtube.com/watch?v=ke44YCKig_w',
+      }
+
+# - group: 'Additional Support'
 
 - group: 'do-not-include'
   elements:
