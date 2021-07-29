@@ -93,7 +93,9 @@
         {% endfor %}
       </div>
       <div class="schedule-sponsors col-lg-3 col-md-3">
-        <h3 class="h4">Schedule Sponsors</h3>
+        <div class="sponsorGroupWrapper">
+          <div class="h3">Schedule Sponsors</h3>
+        </div>
         {% assign schedSponsors = site.data.sponsors | where: "group", "Schedule" %}
         {% for element in schedSponsors[0].elements %}
         <li>
