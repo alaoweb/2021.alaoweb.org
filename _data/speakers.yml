@@ -217,7 +217,7 @@
   company: University of Cincinnati
   email: tenofsdg@uc.edu
   bio: Deborah Tenofsky is the Head of the Research, Teaching, and Services Department and the Accessibility Librarian at the University of Cincinnati Libraries.  Her research interests include management, leadership, student success, and public services.  She has an MILS from the University of Michigan.
-  thumbnailUrl:
+  thumbnailUrl: deborah_tenofsky.jpg
   rockstar: false
   ribbon:
   social:
@@ -241,7 +241,7 @@
   company: Clark State College
   email: colemans@clarkstate.edu
   bio: Dr. Sterling Joseph Coleman, Jr., has a BA in History from Louisiana State University (1991); an MA at the Center for Middle Eastern and North African Studies from the University of Michigan (1993); a Teaching Certificate in Secondary Education from Southern University at New Orleans (1995); an MLIS in Library and Information Science from Louisiana State University (1999) and a Ph.D. in British Imperial & Commonwealth History from Florida State University (2008). He has published several articles on British history, Ethiopian history and women’s history.
-  thumbnailUrl:
+  thumbnailUrl: sterling_coleman.jpg
   rockstar: false
   ribbon:
   social:
@@ -249,11 +249,11 @@
 - id: 20
   name: Eric
   surname: Bradley
-  pronouns:
+  pronouns: he/him
   company: Goshen / PALNI
   email: ebradley@goshen.edu
   bio: Eric Bradley is a Research and Instruction Librarian for Goshen College who works with college students and their professors to locate and evaluate quality resources, as well as an Information Fluency Coordinator for the Private Academic Library Network of Indiana (PALNI) who supports college librarians in their work of teaching.
-  thumbnailUrl:
+  thumbnailUrl: eric_bradley.png
   rockstar: false
   ribbon:
   social:
@@ -517,7 +517,7 @@
   company: Miami University
   email: kaiserj5@miamioh.edu
   bio: Justina Kaiser is the Digital Discovery Librarian at Miami University. She holds a Masters of Library Science from Indiana University and a B.A. in Mathematics from Butler University.
-  thumbnailUrl:
+  thumbnailUrl: justina_kaiser.jpg
   rockstar: false
   ribbon:
   social:
@@ -553,7 +553,7 @@
   company: University of Cincinnati
   email: foranmkn@uc.edu
   bio: Katie Foran-Mulcahy Head of the College of Education, Criminal Justice, and Human Services (CECH) Library at the University of Cincinnati, where she also serves as Education Librarian. Her interests include instruction, children’s literature, and user-centered facilities planning. She has an MSLS from the University of Kentucky.
-  thumbnailUrl:
+  thumbnailUrl: katie_foran-mulcahy.jpg
   rockstar: false
   ribbon:
   social:
@@ -697,7 +697,7 @@
   company: University of Toledo
   email: margaret.hoogland@utoledo.edu
   bio: Margaret Hoogland is an Assistant Professor and the Clinical Medical Librarian in the Mulford Health Science Library at The University of Toledo. She started participating in Write on Site because it provided a dedicated time with minimal distractions for working on scholarly activity projects. Her research focuses on using educational technology to enhance the student and faculty learning experience.
-  thumbnailUrl:
+  thumbnailUrl: margaret_hoogland.jpg
   rockstar: false
   ribbon:
   social:
@@ -817,7 +817,7 @@
   company: PALNI
   email: ruth@palni.edu
   bio: Ruth Szpunar serves as Information Fluency Coordinator for the Private Academic Library Network of Indiana (PALNI), where she plans professional development events for librarians, creates and implements research studies, and generally facilitates collaboration among librarians. She is also the co-founder of Aestiva Solutions. She is passionate about hands-on learning, collaboration, editing, LibGuides, usability, and milk chocolate.
-  thumbnailUrl:
+  thumbnailUrl: ruth_szpunar.jpg
   rockstar: false
   ribbon:
   social:
@@ -865,7 +865,7 @@
   company: University of Cincinnati
   email: ted.baldwin@uc.edu
   bio: Ted Baldwin is Director of the Science and Engineering Libraries at the University of Cincinnati. He is liaison librarian for chemistry, biology and engineering (chemical, biomedical, environmental) and manages operations for three STEM library locations.  He has an MLS from Indiana University.
-  thumbnailUrl:
+  thumbnailUrl: ted_baldwin.jpg
   rockstar: false
   ribbon:
   social:
