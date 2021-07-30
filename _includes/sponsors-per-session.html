@@ -10,6 +10,35 @@
     padding-bottom: 5px;
   }
 </style>
+<!-- Individual Session Sponsors -->
+{% if session.sponsor %}
+{% assign sponsor = session.sponsor %}
+<div class="sponsorGroupWrapper">
+  <div class="h3">{{ sponsor.group }}</div>
+  <ul class="list-inline">
+    {% for element in sponsor.elements %}
+    <li>
+      <a href="{{ element.link }}" target="_blank">
+        <img src="{{ site.baseurl }}/img/sponsors/{{ element.imageUrl }}"
+          loading="lazy"
+             title="{{ element.description }}" alt="{{ element.name }}"
+          style="width:100%" />
+      </a>
+      {% if element.video %}
+      <div class="sponsors video-container">
+        <div class="sponsors video-modals">
+          <a href="{{ element.video }}"
+            aria-label='Sponsor video for {{ element.name }}'>
+            <i class="fa fa-youtube-play fa-lg sponsors video-link"></i>
+          </a>
+        </div>
+      </div>
+    </li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
 
 <!-- Gold and Sessions Sponsors -->
 <div class="row">
@@ -41,36 +70,6 @@
   </div>
   {% endif %}
   {% endfor %}
-
-<!-- Individual Session Sponsors -->
-  {% if session.sponsor %}
-  {% assign sponsor = session.sponsor %}
-  <div class="sponsorGroupWrapper">
-    <div class="h3">{{ sponsor.group }}</div>
-    <ul class="list-inline">
-      {% for element in sponsor.elements %}
-      <li>
-        <a href="{{ element.link }}" target="_blank">
-          <img src="{{ site.baseurl }}/img/sponsors/{{ element.imageUrl }}"
-            loading="lazy"
-               title="{{ element.description }}" alt="{{ element.name }}"
-            style="width:100%" />
-        </a>
-        {% if element.video %}
-        <div class="sponsors video-container">
-          <div class="sponsors video-modals">
-            <a href="{{ element.video }}"
-              aria-label='Sponsor video for {{ element.name }}'>
-              <i class="fa fa-youtube-play fa-lg sponsors video-link"></i>
-            </a>
-          </div>
-        </div>
-      </li>
-      {% endif %}
-      {% endfor %}
-    </ul>
-  </div>
-  {% endif %}
 
 <!-- Additional Support -->
 
