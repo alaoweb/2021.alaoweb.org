@@ -246,6 +246,7 @@
   audience: SCAIG, SUSIG, TEDSIG,Library administration/supervision, diversity, consortia, emerging technologies, reference
   keywords: geolocation, map-based interfaces, user interfaces, digital collections, community service, problem solving, archives, collection development, leaflet.js, python, PDF, geoJSON
   presenter-names: Joshua Neds-Fox,Clayton Hayes,
+  speakers: [39, 15]
   speaker-data:
   session-contents:
   supplemental-docs:
@@ -260,6 +261,7 @@
   audience: PROMIG, Library administration/supervision, diversity, consortia, emerging technologies, reference
   keywords: informal learning, outreach, maker culture
   presenter-names: Meris Longmeier,
+  speakers: [62]
   speaker-data:
   session-contents:
   supplemental-docs:
@@ -274,6 +276,7 @@
   audience: AIG, IIG, SUSIG
   keywords: Information literacy instruction, embedded librarianship, instructor-librarian collaborations, inquiry-based learning, text-analysis
   presenter-names: Bart Lenart,James Murphy,Marc Stoeckle ,
+  speakers: [9, 31, 57]
   speaker-data:
   session-contents:
   supplemental-docs:
@@ -288,7 +291,7 @@
   audience: PROMIG, SSIG, Library administration/supervision, diversity, consortia, emerging technologies, reference
   keywords: Crisis Management Training, Professional Development, Mental Health, Staff Development, Staff Burnout
   presenter-names: Judith Wiener,
-  speaker-data:
+  speaker-data: [41]
   session-contents:
   supplemental-docs:
   isStaticPost:
@@ -427,6 +430,7 @@
   audience: IIG
   keywords: Media Effects, Misinformation, Information Literacy
   presenter-names: Jaclyn Spraetz,Nate Floyd,
+  speakers: [30, 64]
   speaker-data:
   session-contents:
   supplemental-docs:
@@ -441,6 +445,7 @@
   audience: PROMIG
   keywords: Student Organizations, Funding
   presenter-names: Giovanna Colosi,
+  speakers: [25]
   speaker-data:
   session-contents:
   supplemental-docs:
@@ -455,6 +460,7 @@
   audience: AIG, PROMIG
   keywords: Students, assessment, feedback, academic libraries
   presenter-names: Cori Wilhelm,
+  speakers: [16]
   speaker-data:
   session-contents:
   supplemental-docs:
@@ -469,6 +475,7 @@
   audience: DLIG, IIG, STEMIG
   keywords: Misinformation; COVID-19; Discussion; Instruction
   presenter-names: Hanna Schmillen,
+  speakers: [27]
   speaker-data:
   session-contents:
   supplemental-docs:
@@ -483,6 +490,7 @@
   audience: IIG, PROMIG, Library administration/supervision, diversity, consortia, emerging technologies, reference
   keywords: Anti-racism   DEI   Community   discussions
   presenter-names: Madeleine Gaiser,Josie Evans-Phillips,
+  speakers: [56, 40]
   speaker-data:
   session-contents:
   supplemental-docs:
