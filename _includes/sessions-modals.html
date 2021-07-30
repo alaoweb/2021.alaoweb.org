@@ -137,7 +137,7 @@
 						{% if session.subtype == "keynote" %}
 						{% assign sponsorType = "Keynote" %}
 						{% include sponsors-per-session.html sessionType=sponsorType %}
-						{% elsif session.subtype == "session" %}
+						{% elsif session.subtype == "session" or session.subtype == "lightning" %}
 						{% assign sponsorType = "Sessions" %}
 						{% include sponsors-per-session.html sessionType=sponsorType %}
 						{% elsif session.subtype == "social" %}
