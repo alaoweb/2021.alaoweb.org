@@ -1,0 +1,47 @@
+- short: AIG
+  display: Assessment
+  full: Assessment Interest Group
+
+- short: CMIG
+  display: Collection Managment
+  full: Collection Management Interest Group
+
+- short: C2YCLIG
+  display: Community & Two-Year Colleges
+  full: Community & Two Year College Libraries Interest Group
+
+- short: DLIG
+  display: Digital Libraries
+  full: Digital Libraries Interest Group
+
+- short: IIG
+  display: Instruction
+  full: Instruction Interest Group
+
+- short: PROMIG
+  display: Programming, Outreach, and Marketing
+  full: Programming, Outreach, and Marketing Interest Group
+
+- short: SCIG
+  display: Scholarly Communications
+  full: Scholarly Communications Interest Group
+
+- short: SCAIG
+  display: Special Collections and Archives
+  full: Special Collections and Archives Interest Group
+
+- short: STEMIG
+  display: STEM
+  full: STEM Interest Group
+
+- short: SSIG
+  display: Support Staff
+  full: Support Staff Interest Group
+
+- short: SUSIG
+  display: Sustainability
+  full: Sustainability Interest Group
+
+- short: TEDSIG
+  display: Technical, Electronic, and Digital Services
+  full: Technical, Electronic, and Digital Services Interest Group
