@@ -58,6 +58,7 @@
             <td class="presenters schedule">{{speakers}}</td>
             <td class="description" style="display: none;">
               {{session.description}} {{session.keywords}} {{session.audience}}
+              {% include interest-groups.html content=session.audience %}
             </td>
             <td class="speaker-org" style="display:none">
               {{ speaker.company }}
