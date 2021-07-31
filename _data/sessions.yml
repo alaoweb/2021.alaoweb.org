@@ -198,7 +198,7 @@
   note-presenter-names: Annie Bélanger,Meghan Musolff,
 
 - id: 210
-  subtype: lightning
+  subtype: session
   speakers: [9, 31, 57, 39, 15, 62, 41]
   title: 'Lightning Talks #1'
   description: 'This session focuses on sustainability and connection in academic libraries and consists of four short talks followed by a live Q&A: "Essential but unusable: rehabilitating an aging digital collection", "Supporting Campus Innovation Efforts through Library Events", "Bridging the gap between sustainability and impact: The relationship between librarian involvement and the efficacy of information literacy instruction", and "Exploring Mental Health First Aid Training as a Library Staff Crisis Management Tool".'
@@ -237,6 +237,65 @@
   subtype: social
   title: ALAO Trivia Happy Hour
   description:
+
+- id: 290
+  part_of_session: 210
+  subtype: lightning
+  title: 'Essential but unusable: rehabilitating an aging digital collection'
+  description: 'This lightning talk concerns a digital image collection comprising flyover photographs of much of a major metropolitan area at varying intervals from 1949 through 1997. They receive heavy traffic from a broad range of communities who need to survey land use for a number of purposes. However, the user interface that libraries inherited was locked in an inaccessible series of PDF maps that has grown steadily less usable, causing endless frustration for librarians and users alike. This talk will cover the steps taken to extract both data and digital images from this user interface and reimplement the collection in a web-based map interface. Both a how-to and a case study, this talk will prove useful to attendees planning implementation of their own geolocated digital collections, or exploring solutions for problem interfaces to digital materials. Presenters will share python code developed to extract geolocation data and images from PDF-based collection, and PHP to translate JSON-based geolocation data to geoJSON.'
+  audience: SCAIG, SUSIG, TEDSIG,Library administration/supervision, diversity, consortia, emerging technologies, reference
+  keywords: geolocation, map-based interfaces, user interfaces, digital collections, community service, problem solving, archives, collection development, leaflet.js, python, PDF, geoJSON
+  presenter-names: Joshua Neds-Fox,Clayton Hayes,
+  speakers: [39, 15]
+  speaker-data:
+  session-contents:
+  supplemental-docs:
+  isStaticPost:
+  published: TRUE
+
+- id: 291
+  part_of_session: 210
+  subtype: lightning
+  title: 'Supporting Campus Innovation Efforts through Library Events'
+  description: 'The libraries can support campus innovation efforts directly and indirectly through library spaces, programming, and services. While the library may not immediately come to mind for these types of endeavors, the ethos of the library naturally aligns with curiosity, innovation, and creativity, all of which are required when thinking about innovating. This talk will highlight two examples of building partnerships to support campus innovation efforts, one focused on the library’s role in planning a hackathon and the other working with a group on campus to host a pop-up maker space and workshop series. Attendees will learn some practical tips when facilitating similar partnerships at their own institutions and will provide approaches for various levels of scalability, from simply using library spaces to providing enhanced services or other programming in conjunction with the events.'
+  audience: PROMIG, Library administration/supervision, diversity, consortia, emerging technologies, reference
+  keywords: informal learning, outreach, maker culture
+  presenter-names: Meris Longmeier,
+  speakers: [62]
+  speaker-data:
+  session-contents:
+  supplemental-docs:
+  isStaticPost:
+  published: TRUE
+
+- id: 292
+  part_of_session: 210
+  subtype: lightning
+  title: 'Bridging the gap between sustainability and impact: The relationship between librarian involvement and the efficacy of information literacy instruction'
+  description: "This study was undertaken in an effort to understand what is needed to build lasting bridges between teaching faculty and librarian information literacy (IL) instruction. This study took advantage of a unique opportunity to compare IL instructional efficacy between librarian and non-librarian instructors teaching exactly the same content in a full-term course; it utilizes text analysis of student assignments to measure and evaluate IL skill development across four levels of librarian involvement (one-shot instruction, two levels of embeddedness, and librarian as instructor-of-record) in IL instruction within an undergraduate university course. \n\nThe results are somewhat surprising, but nevertheless highly suggestive of the argument that the benefit to student IL skills is not related to amount of librarian instruction, but rather to the level of instructor buy-in with regard to library services and the importance of IL skills. We argue that the most impactful librarian involvement is as an information literacy consultant rather than a full-time embedded librarian (which is somewhat surprising given the literature on the efficacy of embeddedness). The study results have salient implications on academic librarian instructional practices and collaborations on course content with faculty members."
+  audience: AIG, IIG, SUSIG
+  keywords: Information literacy instruction, embedded librarianship, instructor-librarian collaborations, inquiry-based learning, text-analysis
+  presenter-names: Bart Lenart,James Murphy,Marc Stoeckle ,
+  speakers: [9, 31, 57]
+  speaker-data:
+  session-contents:
+  supplemental-docs:
+  isStaticPost:
+  published: TRUE
+
+- id: 293
+  part_of_session: 210
+  subtype: lightning
+  title: 'Exploring Mental Health First Aid Training as a Library Staff Crisis Management Tool'
+  description: "This lightning talk will provide an overview and explore the results of a grant-supported program that brought Mental Health First Aid Training to Ohio hospital, academic, and public library employees in 2019-2020. The goal of the training was to improve employee recognition of mental disorders, increase their confidence in providing services to patrons exhibiting mental health needs, support crisis management decision making and, with this, potentially reducing their related stress and burnout. In addition to providing an overview of Mental Health First Aid training, the presenter will discuss the results of surveys given to participants before and after the training to determine the training's effectiveness in the various library settings. Implications of adding Mental Health First Aid Training to staff professional development for effective crisis management will also be highlighted."
+  audience: PROMIG, SSIG, Library administration/supervision, diversity, consortia, emerging technologies, reference
+  keywords: Crisis Management Training, Professional Development, Mental Health, Staff Development, Staff Burnout
+  presenter-names: Judith Wiener,
+  speaker-data: [41]
+  session-contents:
+  supplemental-docs:
+  isStaticPost:
+  published: TRUE
 
 # ---------------------------------
 # CONFERENCE DAY[2], prefix ID 30x
@@ -314,7 +373,7 @@
   title: Interest Group coffee/lunch hour meetings
 
 - id: 309
-  subtype: lightning
+  subtype: session
   speakers: [30, 64, 25, 16, 27, 56, 40, 12]
   title: 'Lightning Talks #2'
   description: 'This session focuses on collaboration and meaningful connection in academic libraries and consists of five short talks followed by a live Q&A: "Connecting media studies and information literacy to help students identify misinformation", "Academic Libraries collaborating with Graduate Student Organizations", "Conversations with Students: Using a Student Advisory Board for Dialogue and Assessment, "Conspiracy Theories in the Classroom: COVID-19 Misinformation Edition", and "Library Collaboration with College DEI Leadership Brings Mutual Benefits".'
@@ -362,3 +421,78 @@
   live-stream-type: keynote
   live-stream-time: '2020-10-28 09:00:00'
   live-stream-link:
+
+- id: 390
+  part_of_session: 309
+  subtype: lightning
+  title: 'Connecting media studies and information literacy to help students identify misinformation'
+  description: 'Teaching students how to identify misinformation is an important component of information literacy. However, there is more to misinformation than identifying fake news. The power to misinform is not limited to bad-faith actors and partisan cheerleaders. Even legitimate news reporting can mislead, misinform, and influence our perception of reality. In our lightning talk, we introduce media effects theories to address this under-appreciated dimension of misinformation and discuss it as an essential component of information literacy instruction. Media effects theories, like agenda setting and framing, help explain the relationship between public opinion and the presentation of legitimate news reporting. We argue that incorporating media effects into information literacy instruction encourages students to have a deeper engagement with the news media ecosystem. In addition, it equips them to unpack news stories in any medium and to critically engage in the subtleties of news production and its effects.'
+  audience: IIG
+  keywords: Media Effects, Misinformation, Information Literacy
+  presenter-names: Jaclyn Spraetz,Nate Floyd,
+  speakers: [30, 64]
+  speaker-data:
+  session-contents:
+  supplemental-docs:
+  isStaticPost:
+  published: TRUE
+
+- id: 391
+  part_of_session: 309
+  subtype: lightning
+  title: Academic Libraries collaborating with Graduate Student Organizations
+  description: "One of our Libraries' mission is to serve the 6,600+ graduate students enrolled at our University. We try to announce our availability and reach this population through representation at orientations, information fairs, curricular based instruction sessions, and by providing space and collections. An estimate of graduate students who receive some form of direct interaction with a librarian (i.e. through library instruction sessions in their courses), however, was only about 1,500 (according to academic year 2018-2019 internal data). Funds from our Graduate Student Organization starting in 2018 allowed the Libraries to put on programming which served to bridge this large gap. The literature shows that faculty often expect graduate students to enter their programs equipped with the necessary research, writing, and professional skills, but that these skills are often lacking. Academic librarians have extensive resources and expertise in these areas and are strategically positioned to fill this gap. Come listen to how we worked with our GSO to help garner funding, market, and collaborate with programming designed especially for our graduate student population. Also, come hear how we had to quickly pivot these programs to an all-online environment during the Covid-19 Pandemic."
+  audience: PROMIG
+  keywords: Student Organizations, Funding
+  presenter-names: Giovanna Colosi,
+  speakers: [25]
+  speaker-data:
+  session-contents:
+  supplemental-docs:
+  isStaticPost:
+  published: TRUE
+
+- id: 392
+  part_of_session: 309
+  subtype: lightning
+  title: 'Conversations with Students: Using a Student Advisory Board for Dialogue and Assessment'
+  description: "SUNY Canton's Southworth Library Learning Commons (SLLC) is a student-centered space which prioritizes student feedback.  We have found our most valuable feedback comes directly from conversations with our students.  To cultivate these conversations, directors of each department in the Learning Commons – the Library, Tutoring Center, and HelpDesk – host a regular, constructive student focus group, the SLLC Advisory Board.  \nStudents representing our diverse campus meet with us throughout the academic year.  When COVID shifted more students online, we adapted our group to meet our students where they were.  We discuss how our students engage (or don’t) with the Learning Commons’ resources, what they would change if they could, and their ideas or suggestions for our departments.  Although guided by pointed questions, these organic meetings often result in unexpected and candid conversations, and lead to meaningful results.  Changes made as a result of Advisory Board suggestions include altering and improving our space, additions to our tutoring and technology offerings, and changes to our services available for remote students.  "
+  audience: AIG, PROMIG
+  keywords: Students, assessment, feedback, academic libraries
+  presenter-names: Cori Wilhelm,
+  speakers: [16]
+  speaker-data:
+  session-contents:
+  supplemental-docs:
+  isStaticPost:
+  published: TRUE
+
+- id: 393
+  part_of_session: 309
+  subtype: lightning
+  title: 'Conspiracy Theories in the Classroom: COVID-19 Misinformation Edition'
+  description: 'Provocative prompts and topics inspire impactful discussions. If you focus on active learning in your teaching, you know the prior statement to be true. In the fall of 2020, I taught AHEC (Area Health Education Centers) scholars and AmeriCorps interns about health misinformation and how to find credible health resources. COVID-19 was the focus because the participants worked directly with the community during the pandemic. I created a pre-session activity where participants choose a COVID-19 conspiracy theory to investigate. The goal of the pre-session activity was to have the participants identify and evaluate a variety of resources that support or debunk the theory and to find ways to communicate their reasoning to others. The synchronous, remote session was discussion-based, and their activity submissions were used as the prompts. We discussed bias, credibility, authority, access, social/economic status, and psychology. And yes, participants did walk away with tangible tips and resources on where to look for credible health information, but the core lesson was to understand how being a person impacts our information use. All of this, all of us, impacts how we seek, interpret, and absorb information. The feedback from the faculty and students were overwhelmingly positive. '
+  audience: DLIG, IIG, STEMIG
+  keywords: Misinformation; COVID-19; Discussion; Instruction
+  presenter-names: Hanna Schmillen,
+  speakers: [27]
+  speaker-data:
+  session-contents:
+  supplemental-docs:
+  isStaticPost:
+  published: TRUE
+
+- id: 394
+  part_of_session: 309
+  subtype: lightning
+  title: 'Library Collaboration with College DEI Leadership Brings Mutual Benefits'
+  description: 'Facing increased racial tensions in the United States in 2020, one college within a large, public research university decided  to create a virtual, COVID-safe community space to proactively discuss racism and discrimination on a regular basis.  Seeking a neutral party to act as host and organizer,  diversity, equity, and inclusion (DEI) leadership turned to the college’s library. Already active in other DEI efforts, the library also had the technological know-how to manage virtual events and the connections needed to facilitate publicity efforts. Over the course of 6 months, the college’s Anti-Racism Community Space grew from a pilot program to a monthly event with regular attendees, including college administration. This collaboration has benefitted the library, DEI leadership, and the college -- and has been lauded as a model at the university. '
+  audience: IIG, PROMIG, Library administration/supervision, diversity, consortia, emerging technologies, reference
+  keywords: Anti-racism   DEI   Community   discussions
+  presenter-names: Madeleine Gaiser,Josie Evans-Phillips,
+  speakers: [56, 40]
+  speaker-data:
+  session-contents:
+  supplemental-docs:
+  isStaticPost:
+  published: TRUE
