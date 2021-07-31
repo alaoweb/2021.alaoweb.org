@@ -196,6 +196,15 @@
   audience: AIG, Library administration/supervision, diversity, consortia, emerging technologies, reference
   keywords: Change Management, Change Readiness, Team work, Human-Centered, Leadership, Facilitation
   note-presenter-names: Annie Bélanger,Meghan Musolff,
+  sponsor:
+    group: Individual Session Sponsor
+    elements:
+      - {
+          name: 'Ohio Library Support Staff Institute (OLSSI)',
+          description: '',
+          link: 'https://olssi.org/',
+          imageUrl: 'olssi.png',
+        }
 
 - id: 210
   subtype: session
