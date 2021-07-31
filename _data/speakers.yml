@@ -409,7 +409,7 @@
   company: Bowling Green State University
   email: jnyiri@bgsu.edu
   bio: Jennifer Nyiri is a Senior Library Associate at Bowling Green State University.  She serves as student employee supervisor for Information Desk Assistants and works as a research coach in the Falcon Learning Your Way (FLY) program, providing individualized support to students with specific learning disabilities (SLD) and/or ADHD. Jennifer’s research interests include addressing student opportunity gaps and active strategies to promote inclusion, diversity, equity, and accessibility for library users.
-  thumbnailUrl:
+  thumbnailUrl: jennifer_nyiri.jpg
   rockstar: false
   ribbon:
   social:
@@ -561,11 +561,11 @@
 - id: 47
   name: Katy
   surname: Tucker
-  pronouns:
+  pronouns: she/her
   company: Xavier University
   email: tuckerk3@xavier.edu
-  bio: Katy Tucker is the Acquisitions Librarian at Xavier University.
-  thumbnailUrl:
+  bio: Katy Tucker is the Acquisitions & Electronic Resources Librarian at Xavier University.
+  thumbnailUrl: Katy_Tucker.jpg
   rockstar: false
   ribbon:
   social:
@@ -661,7 +661,7 @@
   company: Bowling Green State University
   email: lrich@bgsu.edu
   bio: Linda Rich is the Reference Services Coordinator at Bowling Green State University. She also serves as the librarian liaison for the College of Business and the Department of Fashion Merchandising & Product Design.  Linda’s research interests include various aspects of chat reference services.
-  thumbnailUrl:
+  thumbnailUrl: linda_rich.jpg
   rockstar: false
   ribbon:
   social:
@@ -901,7 +901,7 @@
   company: Bowling Green State University
   email: vlux@bgsu.edu
   bio: Vera Lux is a Reference and Instruction Librarian at Bowling Green State University. She serves at the team lead for Social Sciences instruction. She has published on chat reference and other aspects of academic librarianship in The Journal of Academic Librarianship, Internet Reference Services Quarterly, and Reference Services Review.
-  thumbnailUrl:
+  thumbnailUrl: vera_lux.png
   rockstar: false
   ribbon:
   social:
