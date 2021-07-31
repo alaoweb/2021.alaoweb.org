@@ -1,0 +1,14 @@
+---
+layout: poster
+title: "Teaching to the Same Audience: Collaboration between Instruction and Special Collections Teams"
+description: "One core value of academic library work is collaboration; done effectively, collaboration provides superior service to students, faculty and researchers.  Recently, an archivist and a librarian conducted a grant-funded research project that aimed to identify the levels of collaboration that currently exist for library instruction between special collections and instruction teams. Increasingly archivists and special collections librarians are incorporating primary source instruction into their roles, and they are often encouraged to learn from their more experienced instruction colleagues about topics such as pedagogy or assessment. For instruction librarians, the ACRL Framework for Information Literacy encourages librarians to look at the research process more holistically, an aspect that is often present in primary source instruction.  By interviewing department heads of both special collections and instruction teams at public and private academic libraries, the researchers gained insight into potential barriers that exist between the units, and aspirational goals for what a successful partnership would embody. This session will explore the opportunities, tensions, and values placed on instruction by both units.  Participants will be prompted to reflect on their own collaborative experiences within their libraries."
+date: 2021-07-01 08:00:00
+audience: IIG, SCAIG
+keywords: Library instruction, information literacy, primary source literacy, collaboration, barriers, aspirations, communication
+presenter-names: Kayla Harris,Heidi Gauder,
+speaker-data: [48, 28]
+session-contents: 
+supplemental-docs: 
+isStaticPost: false
+published: true
+---
