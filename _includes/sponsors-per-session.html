@@ -13,6 +13,12 @@
 <!-- Individual Session Sponsors -->
 {% if session.sponsor %}
 {% assign sponsor = session.sponsor %}
+{% endif %}
+{% if page.sponsor %}
+{% assign sponsor = page.sponsor %}
+{% endif %}
+
+{% if sponsor %}
 <div class="sponsorGroupWrapper">
   <div class="h3">{{ sponsor.group }}</div>
   <ul class="list-inline">
