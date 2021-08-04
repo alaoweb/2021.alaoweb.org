@@ -133,7 +133,7 @@
   company: Roesch Library, University of Dayton
   email: bretzloff1@udayton.edu
   bio: "Bridget Retzloff is a Librarian and Lecturer at Roesch Library, University of Dayton. She provides research services and library instruction as a member of the University Libraries research and instruction teams. She also contributes to the processing of archival materials in University Archives and Special Collections. \n"
-  thumbnailUrl:
+  thumbnailUrl: bridget_retzloff.jpg
   rockstar: false
   ribbon:
   social:
@@ -265,7 +265,7 @@
   company: Kent State University
   email: fsheu@kent.edu
   bio: Feng-Ru Sheu is an Instructional Design Librarian at Kent State University Libraries (KSUL). She received her Ph.D. in Instructional System Technology, Specialist in Information Science, and a MLS from Indiana University. Her unique position at KSUL contributes to research, development, and evaluation activities in the area of instructional design and focuses on enhancing the quality of the student learning experience through the application of pedagogy and emerging technologies. Her primary research interests include the application of learning theories, instructional approaches (e.g., problem-based learning, game-based learning, flipped classroom, etc.), and innovative technology in online, in-person, and blended learning environments.
-  thumbnailUrl:
+  thumbnailUrl: feng-ru_sheu.jpg
   rockstar: false
   ribbon:
   social:
@@ -313,7 +313,7 @@
   company: Syracuse University
   email: grcolosi@syr.edu
   bio: Giovanna Colosi is the subject librarian for The School of Education at Syracuse University Libraries and Team Lead for Subject Instruction. She also holds an elected position as Board of Trustee member at Northern Onondaga Public Libraries as Executive Secretary. She holds a B.A. in Psychology as well as an M.S. in Counseling and Human Services from The State University of New York at Oswego.  Giovanna also holds an M.L.I.S. degree from Syracuse University.  Her research interests include information literacy, teaching and leadership, disability studies, exercise science, higher education and counseling and human services.
-  thumbnailUrl:
+  thumbnailUrl: giovanna_colosi.jpg
   rockstar: false
   ribbon:
   social:
@@ -433,7 +433,7 @@
   company: Miami University Regionals
   email: longjh@miamioh.edu
   bio: "Jessie Long is the Outreach and Instruction Librarian & Associate Librarian on the Middletown campus of Miami University Regionals.  She received an MLIS from Kent State University and a BA in anthropology from the University of New Mexico. Her scholarship focus has included online learning courses and tools, gamification and game-based learning, fake news, and makerspaces supporting community needs. She is the author and co-author of two book chapters that deal with gamification of the research process and interactive library orientations, respectively. She has most recently co-edited the book Makerspaces for Adults: Best practices and great projects (Rowman & Littlefield). \n"
-  thumbnailUrl:
+  thumbnailUrl: jessie_long.jpg
   rockstar: false
   ribbon:
   social:
@@ -457,7 +457,7 @@
   company: Miami University Regionals
   email: burkejj@miamioh.edu
   bio: 'John Burke is Library Director & Principal Librarian on the Middletown campus of Miami University Regionals.  He holds an MSLS from the University of Tennessee and a B.A. in history from Michigan State University.  John has worked in academic libraries for 28 years.  His scholarship centers on LMS embedded librarianship, makerspaces, and technology for library staff.  He is the author of the Neal-Schuman Library Technology Companion (ALA Neal-Schuman) and Makerspaces: a Practical Guide for Librarians (Rowman & Littlefield).'
-  thumbnailUrl:
+  thumbnailUrl: john_burke.jpg
   rockstar: false
   ribbon:
   social:
@@ -481,7 +481,7 @@
   company: Wayne State University Libraries
   email: dp5745@wayne.edu
   bio: Joshua Neds-Fox is Coordinator for Digital Publishing at Wayne State University Libraries, where he helps guide the development and direction of the Libraries’ digital collections infrastructure, institutional repository, and publishing services.
-  thumbnailUrl:
+  thumbnailUrl: joshua_neds-fox.jpg
   rockstar: false
   ribbon:
   social:
@@ -505,7 +505,7 @@
   company: The Ohio State University Health Sciences Library
   email: judith.wiener@osumc.edu
   bio: "Judith A. Wiener, MA, MLIS is an Associate Professor and the Associate Director for Collections and Outreach at The Ohio State University Health Sciences Library. She earned a BA in History at Wheeling Jesuit University, a MA in History with a concentration in public history at Wright State University, and a MLIS from Kent State University. Her current research interests include library administrative issues, special collections, and health sciences library outreach.\n"
-  thumbnailUrl:
+  thumbnailUrl: judith_wiener.jpg
   rockstar: false
   ribbon:
   social:
@@ -529,9 +529,9 @@
   company: Cedarville University
   email: ksiders@cedarville.edu
   bio: Kari Siders serves as the Director of Library Public Services at Cedarville University. She graduated from Kent State with her MLIS.  One of her primary responsibilities is the direction and evaluation of research services and oversight of the liaison librarians.
-  thumbnailUrl:
+  thumbnailUrl: kari_siders.jpg
   rockstar: false
-  ribbon:
+  ribbon: 
   social:
 
 - id: 44
@@ -565,7 +565,7 @@
   company: Xavier University
   email: tuckerk3@xavier.edu
   bio: Katy Tucker is the Acquisitions & Electronic Resources Librarian at Xavier University.
-  thumbnailUrl: Katy_Tucker.jpg
+  thumbnailUrl: katy_tucker.jpg
   rockstar: false
   ribbon:
   social:
@@ -613,7 +613,7 @@
   company: Cedarville University
   email: knsetzkorn@cedarville.edu
   bio: Kirsten Setzkorn serves as the Humanities Librarian at Cedarville University with liaison responsibilities among five liberal arts departments.  She graduated with her MLIS from Kent State University.  Her primary responsibilities include instruction and research services.
-  thumbnailUrl:
+  thumbnailUrl: kirsten_setzkorn.jpg
   rockstar: false
   ribbon:
   social:
@@ -625,7 +625,7 @@
   company: Miami University Regionals
   email: mcdonak@miamioh.edu
   bio: Krista McDonald is the Director of Rentschler Library at Miami University Hamilton Campus in Hamilton, Ohio. She received her MLS from the University of Kentucky and a B.A. in History from Ohio University. Krista has worked in public and academic libraries for 24 years. Her research interests include academic library partnerships with TRiO grant programs and e-book usage.
-  thumbnailUrl:
+  thumbnailUrl: krista_mcdonald.jpg
   rockstar: false
   ribbon:
   social:
@@ -637,7 +637,7 @@
   company: BHDP Architecture
   email: kmoll@bhdp.com
   bio: As an Intern Architect on BHDP’s Higher Education team, Kyle’s responsibilities range from space programming to conceptual design. With a keen interest in academic library design, Kyle has been deeply involved in several library master plans and renovations—including Denison University’s Master Plan and Bowling Green State University’s Jerome Library Master Plan. Kyle enjoys research and writing, and he is currently taking an active role in BHDP’s research on the academic library while advancing the firm’s library design expertise.
-  thumbnailUrl:
+  thumbnailUrl: kyle_moll.jpg
   rockstar: false
   ribbon:
   social:
@@ -709,7 +709,7 @@
   company: Miami University Regionals
   email: shoresml@miamioh.edu
   bio: Mark Shores is Assistant Director and Associate Librarian of Rentschler Library on the Hamilton campus of Miami University Regionals. He received his MSLS from the University of Kentucky and a B.A. in English from the University of Minnesota Morris. Mark has worked in academic and public libraries since 1998. His current position responsibilities include information literacy instruction, reference service, streaming video services, and collection management in the area of history, literature and computer science. His areas of research interest includes student use of citation tools, Appalachian Studies, and embedded librarianship.
-  thumbnailUrl:
+  thumbnailUrl: mark_shores.jpg
   rockstar: false
   ribbon:
   social:
@@ -745,7 +745,7 @@
   company: The Ohio State University
   email: longmeier.10@osu.edu
   bio: Meris Mandernach Longmeier is the head of Research Services. In this role she develops services for OSU Libraries to support the research endeavors of all faculty, staff, and students at Ohio State. She is also co-faculty director of the OHI/O hackathon program focused on informal learning to foster a tech culture.
-  thumbnailUrl:
+  thumbnailUrl: meris_longmeier.jpg
   rockstar: false
   ribbon:
   social:
@@ -781,7 +781,7 @@
   company: Cedarville University
   email: nathanaeldavis@cedarville.edu
   bio: Nathanael Davis serves as the STEM/Business Librarian at Cedarville University with liaison responsibilities for departments in science, engineering and business. He graduated from Taylor University with his Masters in Environmental Science and is currently completing an MSIS degree at the University of Tennessee.  His primary responsibilities are instruction and research services and his passion is supporting student exploration of the research process.
-  thumbnailUrl:
+  thumbnailUrl: nathanael_davis.jpg
   rockstar: false
   ribbon:
   social:
@@ -877,7 +877,7 @@
   company: BHDP Architecture
   email: tsens@bhdp.com
   bio: As a Client Leader for BHDP Architecture, Tom is responsible for driving a core area of expertise—Learning Space Design. Tom’s passion for library design traces back to his graduate student assistantship as a library assistant at Miami University’s Art and Architecture Library. Tom’s ongoing research and writing on higher education topics has led to numerous publications in Library Journal, School Construction News, Building Design + Construction, and University Business. Most recently, Tom contributed a chapter on “The Evolving Role of the Architect in Library Design” in the book, "Assessing Library Space for Learning."
-  thumbnailUrl:
+  thumbnailUrl: tom_sens.png
   rockstar: false
   ribbon:
   social:
