@@ -1,10 +1,3 @@
-<style>
-    .vendor-infobox { margin-top: 1em; margin-bottom: 1em;}
-    h3.vendor-contact { font-size: 135%; font-weight: 300}
-    .rep-title{ font-size: 120%; font-weight: 300}
-    .custom-content { margin-top: 1em;}
-</style>
-
 {% assign activeVendors = site.data.vendors | where: "active", "true" %}
 <div class="container">
     {% for vendor in activeVendors %}
