@@ -1,0 +1,36 @@
+# logos go in the /img/sponsors folder; there is no separate vendors folder
+
+- id: 0
+  name: EBSCO (FAKE)
+  url: https://ebsco.com
+  description: EBSCO is a provider of databases, electronic resource management systems, and library acquisition services.
+  rep-name: Jamie Gieseck-Ashworth
+  rep-title: Academic Sales Rep to the Stars
+  rep-email: jashworth@ebsco.com
+  logo: ebsco.png
+  content:
+    - { url: 'http://www.ebsco.com', text: 'Schedule an appointment' }
+  active: true
+
+- id: 1
+  name:
+  url:
+  description:
+  rep-name:
+  rep-title:
+  rep-email:
+  logo:
+  content: {}
+  active: false
+
+- id: 2
+  name: EBSCO (FAKE)
+  url: https://ebsco.com
+  description: EBSCO is a provider of databases, electronic resource management systems, and library acquisition services.
+  rep-name: Jamie Gieseck-Ashworth
+  rep-title: Academic Sales Rep to the Stars
+  rep-email: jashworth@ebsco.com
+  logo: ebsco.png
+  content:
+    - { url: 'http://www.ebsco.com', text: 'Schedule an appointment' }
+  active: true

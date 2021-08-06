@@ -178,6 +178,7 @@ navigationLinks:
  - {permalink: "/schedule/", text: "Schedule"}
  - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/posters/", text: "Posters"}
+#  - {permalink: "/vendors/", text: "Vendors"}
  - {permalink: "/team/", text: "Team"}
  - {permalink: "/awards/", text: "Awards"}
 # - {permalink: "/lodging/", text: "Lodging"}
