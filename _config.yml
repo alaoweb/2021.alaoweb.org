@@ -33,6 +33,7 @@ title: "ALAO Virtual Conference 2020"
 email: "2021-cpc@alaoweb.org"
 description: "Virtual Conference"
 permalink: "/posters/:title"
+
 #############################################################################
 
 
@@ -202,6 +203,7 @@ sponsorsTitle: "Conference Sponsors"
 postersTitle: "POSTER SESSIONS"
 postersBackground: 2021alao-header-image.svg
 showPosters: true
+showPosterContent: false
 noPostersText: "Posters Forthcoming"
 postersCommentsEnabled: true
 discusShortName: "alaoweb"
@@ -298,11 +300,12 @@ subscribeInfo: "Stay Informed of ALAO Events!"
 # -------------------------------------------------------------
 # Surveys
 # -------------------------------------------------------------
-sessionFeedbackForm: "https://docs.google.com/forms/d/e/1FAIpQLSdVgEk_d_Ed4mt7lBNZQx2XzT9fP1C7a5KFME1vyToYB8NDFA/viewform?usp=pp_url"
-sessionFeedbackParameter: "entry.1153076421"
-preconferenceWorkshopFeedbackForm: "https://docs.google.com/forms/d/e/1FAIpQLScr9oiR9VEgU77lISo2YV_MkrC3SK-D_7ixZ14UYr9L4AWz0w/viewform"
-preconferenceFeedbackForm: "https://docs.google.com/forms/d/e/1FAIpQLScrp2h3Of9-7skigJ3H8-r9R51we8bVZOCj2D1eMY6hhGFh_Q/viewform"
-keynoteFeedbackForm: "https://docs.google.com/forms/d/e/1FAIpQLSdAuGKiH8bP95KnrvQQarT8_hEOFp_XO3YHFHwlVwDwFuTFAQ/viewform"
+# currently showing 2020 survey links
+# sessionFeedbackForm: "https://docs.google.com/forms/d/e/1FAIpQLSdVgEk_d_Ed4mt7lBNZQx2XzT9fP1C7a5KFME1vyToYB8NDFA/viewform?usp=pp_url"
+# sessionFeedbackParameter: "entry.1153076421"
+# preconferenceWorkshopFeedbackForm: "https://docs.google.com/forms/d/e/1FAIpQLScr9oiR9VEgU77lISo2YV_MkrC3SK-D_7ixZ14UYr9L4AWz0w/viewform"
+# preconferenceFeedbackForm: "https://docs.google.com/forms/d/e/1FAIpQLScrp2h3Of9-7skigJ3H8-r9R51we8bVZOCj2D1eMY6hhGFh_Q/viewform"
+# keynoteFeedbackForm: "https://docs.google.com/forms/d/e/1FAIpQLSdAuGKiH8bP95KnrvQQarT8_hEOFp_XO3YHFHwlVwDwFuTFAQ/viewform"
 
 # -------------------------------------------------------------
 # Team Block

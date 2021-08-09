@@ -36,7 +36,7 @@
               <p>{{ page.description }}</p>
             </div>
             <div class="poster-content">
-              {% if page.session-contents %}
+              {% if page.session-contents and site.showPosterContent %}
               <h3>Poster</h3>
               {% for doc in page.session-contents %}
               <div class="poster-document">

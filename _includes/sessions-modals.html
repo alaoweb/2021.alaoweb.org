@@ -35,7 +35,7 @@
 					</div>
 					{% endif %}
 					<p class="theme-description">{{ session.description }}</p>
-					{% if session.subtype == 'session' %}
+					{% if session.subtype == 'session' and site.sessionFeedbackForm != null %}
 					<div class="row survey-row">
 						<div class="col-md-4"></div>
 						<div class="col-md-8">
@@ -46,7 +46,7 @@
 								Feedback</a>
 						</div>
 					</div>
-					{% elsif session.subtype == 'keynote' %}
+					{% elsif session.subtype == 'keynote' and site.keynoteFeedbackForm != null  %}
 					<div class="row survey-row">
 						<div class="col-md-4"></div>
 						<div class="col-md-8">
@@ -57,7 +57,7 @@
 								Feedback</a>
 						</div>
 					</div>
-					{% elsif session.subtype == 'preconference' %}
+					{% elsif session.subtype == 'preconference' and site.preconferenceFeedbackForm %}
 					<div class="row survey-row">
 						<div class="col-md-4"></div>
 						<div class="col-md-8">
@@ -68,7 +68,7 @@
 								Feedback</a>
 						</div>
 					</div>
-					{% elsif session.subtype == 'workshop' %}
+					{% elsif session.subtype == 'workshop' and site.preconferenceWorkshopFeedbackForm %}
 					<div class="row survey-row">
 						<div class="col-md-4"></div>
 						<div class="col-md-8">
