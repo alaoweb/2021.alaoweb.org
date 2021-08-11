@@ -29,7 +29,7 @@ organizerLogo: "/img/seo/organizer-logo.svg"
 organizerLink: "https://www.alaoweb.org/"
 
 #Site-Settings
-title: "ALAO Virtual Conference 2020"
+title: "ALAO Virtual Conference 2021"
 email: "2021-cpc@alaoweb.org"
 description: "Virtual Conference"
 permalink: "/posters/:title"
