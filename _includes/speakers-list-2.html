@@ -3,7 +3,7 @@
     <div class="content-wrapper">
         <h2>Featured Speakers</h2>
         <div class="row">
-            <div class="col-lg-10 col-lg-offset-2 appear-animation-trigger">
+            <div class="col-lg-8 col-lg-offset-2 appear-animation-trigger">
                 {% assign sorted_speakers = (site.data.speakers | where: "rockstar", "true" | sort: "surname") %}
                 {% for speaker in sorted_speakers %}
                 {% include speaker-div.html %}
