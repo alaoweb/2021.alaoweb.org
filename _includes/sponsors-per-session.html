@@ -1,15 +1,3 @@
-<style>
-  .sponsorGroupWrapper li {
-    padding-right: 20%;
-    margin-bottom: 1rem;
-  }
-
-  .sponsorGroupWrapper .h3 {
-    border-bottom: 1px solid #757575 !important;
-    font-size: 30px;
-    padding-bottom: 5px;
-  }
-</style>
 <!-- Individual Session Sponsors -->
 {% if session.sponsor %}
 {% assign sponsor = session.sponsor %}
@@ -20,7 +8,7 @@
 
 {% if sponsor %}
 <div class="sponsorGroupWrapper">
-  <div class="h3">{{ sponsor.group }}</div>
+  <div class="sponsors h3">{{ sponsor.group }}</div>
   <ul class="list-inline">
     {% for element in sponsor.elements %}
     <li>
@@ -51,7 +39,7 @@
   {% for sponsor in site.data.sponsors %}
   {% if sponsor.group == 'Gold' or sponsor.group == include.sessionType %}
   <div class="sponsorGroupWrapper">
-    <div class="h3">{{ sponsor.group }} Sponsors</div>
+    <div class="sponsors h3">{{ sponsor.group }} Sponsors</div>
     <ul class="list-inline">
       {% for element in sponsor.elements %}
       <li>
@@ -83,7 +71,7 @@
   {% for sponsor in site.data.sponsors %}
   {% if sponsor.group == 'Additional Support' %}
   <div class="sponsorGroupWrapper">
-    <div class="h3">{{ sponsor.group }}</div>
+    <div class="sponsors h3">{{ sponsor.group }}</div>
     <ul class="list-inline">
       {% for element in sponsor.elements %}
       {% if element.name == session.additional_support or element.name == include.additional_support %}

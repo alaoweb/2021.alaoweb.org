@@ -10,7 +10,6 @@
     margin-top: 10px;
   }
   .video {
-    display: table-cell;
     text-align: center;
     vertical-align: middle;
   }
@@ -20,6 +19,7 @@
     padding: 10px 0px 10px 0px;
   }
   .video-link {
+    margin-top: 2%;
     color: #ff0000;
     transition: all .2s ease-in-out;
     &:hover {
@@ -58,6 +58,7 @@
       }
     }
   }
+
   img {
     width: 100%;
     transition: $base-transition;
@@ -68,3 +69,14 @@
   }
 }
 
+.sponsorGroupWrapper .h3 {
+  border-bottom: 1px solid #757575 !important;
+  font-size: 30px;
+  padding-bottom: 5px;
+}
+
+.sponsorGroupWrapper li {
+  margin-bottom: 1rem;
+  padding: 5% 0;
+  border-bottom: 1px solid #eee;
+}

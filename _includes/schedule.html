@@ -72,7 +72,7 @@
               </div>
             </div>
             {% elsif slot == session.id and session.service != null %}
-            <div 
+            <div
               class="slot col-md-{{ slotColWidth }} col-xs-12 service-slot flexbox-item-height"
               data-slot-detail="{{ session.place }}">
               <div class="color-line"></div>
@@ -92,7 +92,8 @@
         </div>
         {% endfor %}
       </div>
-      <div class="schedule-sponsors col-lg-3 col-md-3">
+      {% if forloop.first == true %}
+      <div class="schedule-sponsors col-lg-2 col-md-2">
         <div class="sponsorGroupWrapper">
           <div class="h3">Schedule Sponsors</h3>
         </div>
@@ -116,7 +117,8 @@
         {% endfor %}
       </div>
     </div>
-    
+      {% endif %}
+
     {% endfor %}
   </div>
 </section>
