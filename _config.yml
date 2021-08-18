@@ -259,18 +259,13 @@ rockstarSpeakersButtonText: "See all speakers"
 # -------------------------------------------------------------
 # Service Project Block
 # -------------------------------------------------------------
-# this still 2020
 serviceprojectTitle: ""
-serviceprojectImage: dfs_logo.jpg
-serviceprojectInfo: 'Each year for the ALAO conference we host a service project to collect materials for a charitable organization. This year, we are partnering with Dress for Success, an organization that serves women by providing clothes and other tools to seek economic independence. However, instead of collecting clothes at the conference, we ask that you consider making a donation to this worthy organization. There are three affiliates of Dress for Success in Ohio, and you can choose the region that you would like to support.  If you decide to make a donation, please put ALAO member in the notes field.'
-serviceprojectLocations:
-  cleveland:
-    url: "https://cleveland.dressforsuccess.org/get-involved/donate/"
-  columbus:
-    url: "https://columbus.dressforsuccess.org/get-involved/donate/"
-  cincinnati:
-    url: "https://cincinnati.dressforsuccess.org/get-involved/donate/"
-
+serviceprojectImage: fp_logo.jpg
+serviceprojectInfo: 'Each year for the ALAO conference we host a service project to collect resources for a charitable organization. This year, we are partnering with Free Press, an organization that promotes equitable access to trustworthy news and information. Free Press advocacy areas include media and platform accountability, net neutrality and affordable high speed internet access, and diversification of media ownership. We ask that you consider making a donation to this worthy organization.'
+Learn more about Free Press: 
+    url: "https://www.freepress.net/issues"
+Make a donation:
+    url: "https://bit.ly/freepressdonate"
 
 # -------------------------------------------------------------
 # Sessions
