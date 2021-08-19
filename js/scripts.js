@@ -6,6 +6,31 @@
       $('#preloader').delay(10).fadeOut(800);
       initGooglePlus();
       equalheight('.same-height');
+
+      /* for schedule page, scroll to today if today is a day on the schedule */
+      // we want today == date in yyyy_mm_dd format
+      let today = new Date();
+      let dd = String(today.getDate()).padStart(2, '0');
+      let mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+      let yyyy = today.getFullYear();
+      today = yyyy + '_' + mm + '_' + dd;
+      // today = '2021_10_29'; //uncomment this line to use this as the test date
+      // console.log('today:', today);
+
+      let navHeight = 100;
+      let element = $('#' + today);
+      if (element.length > 0) {
+        // if today is on the schedule, set scrollTop to top of today's schedule
+        let offsetTop = element.offset().top;
+        let totalScroll = offsetTop - navHeight;
+        // console.log('totalScroll:', totalScroll);
+        $('body,html').animate(
+          {
+            scrollTop: totalScroll,
+          },
+          500
+        );
+      }
     });
 
     if ($(window).width() > 1500) {

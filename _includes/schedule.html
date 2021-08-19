@@ -3,7 +3,7 @@
   <div class="content-wrapper">
     {% for day in site.data.schedule %}
     <div class="row">
-      <div class="schedule-table col-lg-8 col-md-8 col-md-offset-1">
+      <div class="schedule-table col-lg-8 col-md-8 col-md-offset-1" id="{{day.date | replace: '-','_'}}">
         <h2 class="schedule-table-heading h4">
           {% if forloop.first == true %}
           <a href="/session-search"
