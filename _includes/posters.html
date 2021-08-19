@@ -11,12 +11,15 @@
         <div class="panel poster-panel">
           <div class="panel-body">
             <h3 class="poster-title">{{ post.title }}</h3>
-            {% if post.presenters %}
+            {% if post.speaker-data %}
             <p>
-              {%for person in post.presenters %}
-              <strong>{{ person.name }}</strong>{% if person.institution %} •
-              {{ person.institution }} {% endif %}<br />
-              {%endfor %}
+              {% for id in post.speaker-data %}
+              {% assign this_speaker = site.data.speakers | where: "id", id %}
+              {% assign name = this_speaker[0].name | append: " " | append: this_speaker[0].surname %}
+              {% assign institution = this_speaker[0].company %} 
+              <strong>{{ name }}</strong>{% if institution %} •
+              {{ institution }} {% endif %}<br />
+              {% endfor %}
             </p>
             {% endif %}
 

@@ -1,0 +1,34 @@
+{% assign activeVendors = site.data.vendors | where: "active", "true" %}
+<div class="container">
+    {% for vendor in activeVendors %}
+    <div class="vendor vendor-infobox">
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class="h4">
+                    {{vendor.name}}
+                </h2> 
+                <div class="vendor-description">{{vendor.description}}</div>
+                <div class="vendor-rep">
+                    <h3 class="vendor-contact">
+                        Contact: 
+                        <span class="rep-name">{{vendor.rep-name}}</span>
+                        <span class="rep-email"><a href="mailto:{{vendor.rep-email}}">Email</a></span>
+                    </h3>
+                    <div class="rep-title">{{vendor.rep-title}} </div>
+                    
+                </div>
+            </div>
+
+            <div class="col-md-5 col-md-offset-1">
+                <img src="/img/sponsors/{{vendor.logo}}" alt="{{vendor.name}}" style="width: 80%">
+                <div class="custom-content">
+                    {% for item in vendor.content %}
+                    <a href="{{item.url}}" class="btn btn-primary">{{item.text}}</a>
+                    {% endfor %}
+                </div>
+
+            </div>
+        </div>
+    </div>
+{% endfor %}
+</div>
