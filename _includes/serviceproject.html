@@ -2,10 +2,13 @@
 <section id="serviceproject" class="serviceproject" xmlns="http://www.w3.org/1999/html">
   <div class="content-wrapper">
     <div class="col-lg-8 col-lg-offset-2 animated hiding" data-animation="fadeInUp" data-delay="0">
-      {% if site.serviceprojectTitle %}
+      {% if site.serviceprojectDisplayImage && site.serviceprojectImage %}
+        <img class="serviceproject img" alt="{{site.serviceprojectTitle}}"src="{{ site.baseurl }}/img/sponsors/{{ site.serviceprojectImage }}"/>
+      {% else %}
+        {% if site.serviceprojectTitle %}
         <h2 class="serviceproject h3">{{ site.serviceprojectTitle }}</h2>
+        {% endif %}
       {% endif %}
-      <img class="serviceproject img" src="{{ site.baseurl }}/img/sponsors/{{ site.serviceprojectImage }}"/>
     </div>
     <div class="col-lg-10 col-lg-offset-1">
       <div class="serviceproject info">{{ site.serviceprojectInfo }}</div>
