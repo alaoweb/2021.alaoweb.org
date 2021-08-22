@@ -263,11 +263,14 @@ serviceprojectTitle: "Free Press"
 serviceprojectImage: fp_logo.jpg
 serviceprojectDisplayImage: true
 serviceprojectInfo: 'Each year for the ALAO conference we host a service project to collect resources for a charitable organization. This year, we are partnering with Free Press, an organization that promotes equitable access to trustworthy news and information. Free Press advocacy areas include media and platform accountability, net neutrality and affordable high speed internet access, and diversification of media ownership. We ask that you consider making a donation to this worthy organization.'
-Learn more about Free Press: 
-    url: "https://www.freepress.net/issues"
-Make a donation:
-    url: "https://bit.ly/freepressdonate"
 
+serviceprojectLocations:
+
+  website:
+    url: "https://www.freepress.net/issues"
+  donate:
+    url: "https://bit.ly/freepressdonate"
+  
 # -------------------------------------------------------------
 # Sessions
 # -------------------------------------------------------------
