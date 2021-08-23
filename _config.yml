@@ -2,14 +2,14 @@
 markdown: kramdown
 permalink: pretty
 exclude: ['README.md', 'README.md.orig', 'LICENSE.txt', 'CNAME']
-url: "https://alaoweb.github.io/2020.alaoweb.org"
+url: "https://2021.alaoweb.org"
 plugins:
 - jekyll-sitemap
 safe: false
 
 #Google-Analytics & API Key
 googleAnalyticsTrackingId: "UA-101881286-2"
-googleAnalyticsSiteUrl: "2020.alaoweb.org"
+googleAnalyticsSiteUrl: "2021.alaoweb.org"
 siteVerification: "2dvmkAUuRuFhMopsqIvEBr1-YCYHb9v2Py9FEsrUg40"
 googleMapsApiKey: "AIzaSyDUQZ2d8zeEcwzJur9Av9KSg2l1W1NNaH8"
 
@@ -51,7 +51,7 @@ aboutBlock:
 # Awards
 # -------------------------------------------------------------
 showAwardWinners: false
-awardAnnouncementTime: "2020-10-29T12:10:00"
+awardAnnouncementTime: #"2020-10-29T12:10:00"
 
 # -------------------------------------------------------------
 # Call For Proposals & Sponsors
@@ -73,7 +73,7 @@ codContactEmail: president@alaoweb.org
 # -------------------------------------------------------------
 # Footer
 # -------------------------------------------------------------
-conferenceYear: 2020
+conferenceYear: 2021
 
 socialLinks:
  - {link: "https://twitter.com/ALAOorg", icon: "twitter", title: "Twitter"}
@@ -125,9 +125,9 @@ eventAddressLocality: "Columbus"
 eventAddressLocalityRegion: "Ohio"
 eventPostalCode: "43035"
 eventAddressCountry: "United States"
-eventStartTime: "2020-10-26T10:00" # 2020-10-26T10:00
+eventStartTime: "2021-10-27T15:00" 
 eventDoorTime: "09:00"
-eventEndTime: "2020-10-28T17:00"
+eventEndTime: "2021-10-29T17:30"
 eventPlaceCoordinates: "40.154830, -83.016290"
 mapCenterCoordinates: "40.154830, -83.016290"
 mapMobileCenterCoordinates: "40.154830, -83.016290"
@@ -239,9 +239,9 @@ preconferenceAddressLocalityRegion: "Ohio"
 preconferencePostalCode: "43035"
 preconferenceAddressCountry: "United States"
 preconferenceTimeTitle: "Preconference through"
-preconferenceStartTime: "2020-01-01T10:00"
-preconferenceDoorTime: "09:00"
-preconferenceEndTime: "2020-10-30T00:00"
+preconferenceStartTime: "2021-10-27T15:30"
+preconferenceDoorTime: "15:20"
+preconferenceEndTime: "2021-10-27T16:30"
 viewOnMap: "View on Google Maps"
 preconferencePlaceCoordinates: "40.154830, -83.016290"
 preconferenceMapCenterCoordinates: "40.154830, -83.016290"
@@ -356,40 +356,6 @@ ticketsOffers:
    disabled: true
    soldOut: false
    soldOutText: "Sold Out"
-
-#  - name: "Renewal Preconference"
-#    price: "50"
-#    priceCurrency: "USD"
-#    ticketsNumber: "30"
-#    ribbon:
-#    featured:
-#    buyButtonLink: "https://www.alaoweb.org/event-3905631"
-#    buyButtonText: "Register Now"
-#    additionalInfo: ""
-#    ticketContentList: ["Preconference"]
-#    altSubtitle: "Separate Ticket Required"
-#    validFrom: ""
-#    validThrough: "2020-10-16"
-#    disabled: true
-#    soldOut: false
-#    soldOutText: "Sold Out"
-
-#  - name: "Anti-racism Preconference"
-#    price: "Free"
-#    priceCurrency: ""
-#    ticketsNumber: "500"
-#    ribbon:
-#    featured:
-#    buyButtonLink: "https://www.alaoweb.org/event-3913408"
-#    buyButtonText: "Register Now"
-#    additionalInfo: ""
-#    ticketContentList: ["Preconference"]
-#    altSubtitle: ""
-#    validFrom: ""
-#    validThrough: "2020-10-16"
-#    disabled: true
-#    soldOut: false
-#    soldOutText: "Sold Out"
 
 # -------------------------------------------------------------
 # Tweets Feed Block
