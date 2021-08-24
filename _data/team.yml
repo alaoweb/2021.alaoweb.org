@@ -1,4 +1,3 @@
-
 - id: 0
   name: 'Kristin'
   surname: 'Cole'
@@ -8,10 +7,12 @@
   organizer: true
   webTeam: false
   ribbon:
-    - { abbr: 'Otterbein University', title: 'Associate Professor, Assessment and Special Projects Librarian' }
+    - {
+        abbr: 'Otterbein University',
+        title: 'Associate Professor, Assessment and Special Projects Librarian',
+      }
   social:
     - { name: 'linkedin', link: 'https://www.linkedin.com/in/kristincole/' }
-
 
 - id: 1
   name: 'Melissa'
@@ -22,9 +23,10 @@
   organizer: true
   webTeam: true
   ribbon:
-    - { abbr: 'Ohio Wesleyan University', title: 'Serials & Electronic Resources Manager' }
-
-
+    - {
+        abbr: 'Ohio Wesleyan University',
+        title: 'Serials & Electronic Resources Manager',
+      }
 
 - id: 2
   name: 'Marsha'
@@ -35,10 +37,12 @@
   organizer: true
   webTeam: false
   ribbon:
-    - { abbr: 'Cleveland State University', title: 'Head, Collections and Digital Initiatives' }
+    - {
+        abbr: 'Cleveland State University',
+        title: 'Head, Collections and Digital Initiatives',
+      }
   social:
     - { name: 'site', link: 'https://works.bepress.com/marsha_miles/' }
-
 
 - id: 3
   name: 'Allen'
@@ -51,7 +55,6 @@
   ribbon:
     - { abbr: 'Otterbein University', title: 'Electronic Access Librarian' }
 
-
 - id: 4
   name: 'Cara'
   surname: 'Calabrese'
@@ -62,9 +65,8 @@
   webTeam: false
   ribbon:
     - { abbr: 'Miami University', title: 'Acquisitions & Access Librarian' }
- social:
+  social:
     - { name: 'twitter', link: 'https://twitter.com/Cara_Calabrese' }
-
 
 - id: 5
   name: 'Jess'
@@ -75,12 +77,14 @@
   organizer: true
   webTeam: false
   ribbon:
-    - { abbr: 'The Ohio State University, Health Sciences Library', title: 'Library Engagement Strategist' } 
+    - {
+        abbr: 'The Ohio State University, Health Sciences Library',
+        title: 'Library Engagement Strategist',
+      }
   social:
     - { name: 'twitter', link: 'https://twitter.com/jesscmcintosh' }
     - { name: 'site', link: 'linkedin.com/in/jesscmcintosh' }
 
- 
 - id: 6
   name: 'Melissa'
   surname: 'Cox Norris'
@@ -90,8 +94,10 @@
   organizer: true
   webTeam: false
   ribbon:
-    - { abbr: 'University of Cincinnati', title: 'Director of Library Communications' } 
-
+    - {
+        abbr: 'University of Cincinnati',
+        title: 'Director of Library Communications',
+      }
 
 - id: 7
   name: 'Mark'
@@ -102,8 +108,10 @@
   organizer: true
   webTeam: false
   ribbon:
-    - { abbr: 'Case Western Reserve University', title: 'Research Services Librarian' } 
-
+    - {
+        abbr: 'Case Western Reserve University',
+        title: 'Research Services Librarian',
+      }
 
 - id: 8
   name: 'Chris'
@@ -114,10 +122,12 @@
   organizer: false
   webTeam: true
   ribbon:
-    - { abbr: 'Ohio Northern University', title: 'Systems and Technology Librarian' } 
+    - {
+        abbr: 'Ohio Northern University',
+        title: 'Systems and Technology Librarian',
+      }
   social:
     - { name: 'github', link: 'https://github.com/c-deems' }
-
 
 - id: 9
   name: 'Katie'
@@ -128,9 +138,7 @@
   organizer: false
   webTeam: true
   ribbon:
-    - { abbr: 'Wittenberg University', title: 'Digital Initiatives Librarian' } 
-
-
+    - { abbr: 'Wittenberg University', title: 'Digital Initiatives Librarian' }
 
 - id: 10
   name: 'Katy'
@@ -141,10 +149,12 @@
   organizer: true
   webTeam: true
   ribbon:
-    - { abbr: 'Xavier University', title: 'Electronic Resources & Acquisitions Librarian' } 
+    - {
+        abbr: 'Xavier University',
+        title: 'Electronic Resources & Acquisitions Librarian',
+      }
 
-
- - id: 11
+- id: 11
   name: 'David'
   surname: 'Green'
   pronouns: 'he/him/his'
@@ -153,10 +163,9 @@
   organizer: false
   webTeam: true
   ribbon:
-    - { abbr: 'State Library of Ohio', title: 'Library Systems Analyst' } 
+    - { abbr: 'State Library of Ohio', title: 'Library Systems Analyst' }
   social:
     - { name: 'github', link: 'https://github.com/StateLibraryofOhio/' }
-
 
 - id: 12
   name: 'Don'
@@ -195,7 +204,8 @@
   ribbon:
     - {
         abbr: 'Stark State College',
-        title: 'Assistant Director of Library Services' }
+        title: 'Assistant Director of Library Services',
+      }
 
 - id: 15
   name: 'Ryan'
@@ -207,4 +217,3 @@
   webTeam: true
   ribbon:
     - { abbr: 'Columbus State Community College', title: 'Reference Librarian' }
-
