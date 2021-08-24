@@ -22,9 +22,13 @@ image: 2021alao-header-image.svg
 
 <div class="container" id="awards">
     <div class="mb-4 text-center">
-        <h2 class="h4">2020 ALAO Awards</h2>
+        <h2 class="h4">{{site.conferenceYear}} ALAO Awards</h2>
         <h3 class="h5">Presented at:
+            {% if site.awardAnnouncementTime.size > 0 %}
             {{site.awardAnnouncementTime | date: "%A, %B %-d, %Y %I:%M%P"}}
+            {% else %}
+            TBA
+            {% endif %}
         </h3>
     </div>
 
