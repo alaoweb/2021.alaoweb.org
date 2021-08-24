@@ -35,7 +35,16 @@
 					</div>
 					{% endif %}
 					<p class="theme-description">{{ session.description }}</p>
-					{% if session.subtype == 'session' and site.sessionFeedbackForm != null %}
+
+					{% if session.keywords %}
+					<p><b>Keywords:</b> {{session.keywords}}</b></p>
+					{% endif %}
+
+					{% if session.audience %}
+					<p><b>Audience/Interest Groups:</b> {% include interest-groups.html content=session.audience %}</p>
+					{% endif %}
+
+					{% if session.subtype == 'session' %}
 					<div class="row survey-row">
 						<div class="col-md-4"></div>
 						<div class="col-md-8">

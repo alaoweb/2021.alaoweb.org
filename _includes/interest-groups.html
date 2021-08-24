@@ -1,0 +1,22 @@
+{% assign acronyms = site.data.acronyms %}
+{% assign igsFake =  'AIG,PROMIG,IIG' | split: ',' %}
+{% assign igs = include.content %}
+
+{% assign arr = "" | split: "" %}
+{% for ig in igs %}
+    {% assign matched = false %}
+    {% for entry in acronyms %}
+        {% if entry.short == ig %}
+            {% assign matched = true %}
+            {% assign string = entry.display  %}
+            {% assign arr = arr | push: string %}
+        {% endif %}
+    {% endfor %}
+    {% if matched != true %}
+        {% assign arr = arr | push: ig %}
+    {% endif %}
+{% endfor %}
+
+{{arr | join: '; '}}
+
+
