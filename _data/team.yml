@@ -19,7 +19,7 @@
   surname: 'Hill'
   pronouns: 'she/her/hers'
   title: 'Serials & Electronic Resources Manager'
-  thumbnailUrl: melissa_hill.png
+  thumbnailUrl: melissa_hill.jpg
   organizer: true
   webTeam: true
   ribbon:
@@ -33,7 +33,7 @@
   surname: 'Miles'
   pronouns: 'she/her/hers'
   title: 'Head, Collections and Digital Initiatives'
-  thumbnailUrl: marsha_miles.png
+  thumbnailUrl: marsha_miles.jpg
   organizer: true
   webTeam: false
   ribbon:
@@ -49,7 +49,7 @@
   surname: 'Reichert'
   pronouns: 'he/him/his'
   title: 'Electronic Access Librarian'
-  thumbnailUrl: allen_reichert
+  thumbnailUrl: allen_reichert.jpg
   organizer: true
   webTeam: false
   ribbon:
@@ -60,7 +60,7 @@
   surname: 'Calabrese'
   pronouns: 'she/her/hers'
   title: 'Acquisitions & Access Librarian'
-  thumbnailUrl: cara_calabrese
+  thumbnailUrl: cara_calabrese.jpg
   organizer: true
   webTeam: false
   ribbon:
@@ -73,7 +73,7 @@
   surname: 'Crossfield McIntosh'
   pronouns: 'she/her/hers'
   title: 'Library Engagement Strategist'
-  thumbnailUrl: jess_mcintosh
+  thumbnailUrl: jess_mcintosh.png
   organizer: true
   webTeam: false
   ribbon:
@@ -90,7 +90,7 @@
   surname: 'Cox Norris'
   pronouns: 'she/her/hers'
   title: 'Director of Library Communications'
-  thumbnailUrl: melissa_coxnorris
+  thumbnailUrl: melissa_cox_norris.jpg
   organizer: true
   webTeam: false
   ribbon:
@@ -104,7 +104,7 @@
   surname: 'Eddy'
   pronouns: 'he/him/his'
   title: 'Research Services Librarian'
-  thumbnailUrl: mark_eddy
+  thumbnailUrl: mark_eddy.jpg
   organizer: true
   webTeam: false
   ribbon:
@@ -118,7 +118,7 @@
   surname: 'Deems'
   pronouns: 'he/him/his'
   title: 'Systems and Technology Librarian'
-  thumbnailUrl: chris_deems
+  thumbnailUrl: christopher_deems.jpg
   organizer: false
   webTeam: true
   ribbon:
@@ -134,7 +134,7 @@
   surname: 'Maxfield'
   pronouns: 'she/her/hers'
   title: 'Digital Initiatives Librarian'
-  thumbnailUrl: katie_maxfield
+  thumbnailUrl: katie_maxfield.png
   organizer: false
   webTeam: true
   ribbon:
@@ -145,7 +145,7 @@
   surname: 'Tucker'
   pronouns: 'she/her/hers'
   title: 'Electronic Resources & Acquisitions Librarian'
-  thumbnailUrl: katy_tucker
+  thumbnailUrl: Katy_Tucker.jpg
   organizer: true
   webTeam: true
   ribbon:
@@ -159,7 +159,7 @@
   surname: 'Green'
   pronouns: 'he/him/his'
   title: 'Library Systems Analyst'
-  thumbnailUrl: david_green
+  thumbnailUrl: david_green.png
   organizer: false
   webTeam: true
   ribbon:
