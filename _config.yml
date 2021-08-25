@@ -8,10 +8,10 @@ plugins:
 safe: false
 
 #Google-Analytics & API Key
-googleAnalyticsTrackingId: "UA-101881286-2"
+googleAnalyticsTrackingId: "G-641019BTWK"
 googleAnalyticsSiteUrl: "2021.alaoweb.org"
-siteVerification: "2dvmkAUuRuFhMopsqIvEBr1-YCYHb9v2Py9FEsrUg40"
-googleMapsApiKey: "AIzaSyDUQZ2d8zeEcwzJur9Av9KSg2l1W1NNaH8"
+# siteVerification: "2dvmkAUuRuFhMopsqIvEBr1-YCYHb9v2Py9FEsrUg40"
+# googleMapsApiKey: "AIzaSyDUQZ2d8zeEcwzJur9Av9KSg2l1W1NNaH8"
 
 #Head
 metaKeywords: "event, alao, academic, libraries, ohio"
