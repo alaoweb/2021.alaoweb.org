@@ -7,6 +7,13 @@
         imageUrl: 'de_gruyter.svg',
         video: 'https://www.youtube.com/watch?v=mnbR8Cl78S4',
       }
+    - {
+        name: 'OhioNET',
+        description: 'Supporting library success through learning opportunities, technology solutions, collaborative purchasing, and strategic connections.',
+        link: 'https://www.ohionet.org',
+        imageUrl: 'ohionet.png',
+        video: 'https://www.youtube.com/watch?v=QklsXsLuQPE',
+      }
 
 - group: 'Sessions'
   elements:
@@ -67,19 +74,7 @@
         link: 'https://www.kanopy.com/',
         imageUrl: 'kanopy.png',
       }
-    - {
-        name: 'OhioNET',
-        description: 'Supporting library success through learning opportunities, technology solutions, collaborative purchasing, and strategic connections.',
-        link: 'https://www.ohionet.org',
-        imageUrl: 'ohionet.png',
-        video: 'https://www.youtube.com/watch?v=QklsXsLuQPE',
-      }
-    - {
-        name: 'Bloomsbury',
-        description: 'Bloomsbury Publishing is a leading independent publishing house, established in 1986, with authors who have won the Nobel, Pulitzer and Booker Prizes',
-        link: 'https://www.bloomsbury.com/dr/digital-resources/',
-        imageUrl: 'bloomsbury.png',
-      }
+
     - {
         name: 'Business Expert Press',
         description: 'Concise, precise, professional business information, published in print and eBook formats, written by experts in their fields, and organized into specific content collections so that consumers can immediately find the information they seek on subjects that matter to them.',
