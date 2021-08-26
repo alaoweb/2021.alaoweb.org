@@ -331,7 +331,7 @@ ticketsOffers:
    ticketsNumber: "500"
    ribbon: "Save $5"
    featured: true
-   buyButtonLink: "https://www.alaoweb.org/event-3712747"
+   buyButtonLink: "https://www.alaoweb.org/event-4300937"
    buyButtonText: "Register Now"
    additionalInfo: ""
    ticketContentList: ["Keynotes", "Pre-recorded Sessions", "Posters"]
@@ -347,7 +347,7 @@ ticketsOffers:
    ticketsNumber: "500"
    ribbon:
    featured:
-   buyButtonLink: "https://www.alaoweb.org/event-3712747"
+   buyButtonLink: "https://www.alaoweb.org/event-4300937"
    buyButtonText: "Register Now"
    additionalInfo: ""
    ticketContentList: ["Keynotes", "Pre-recorded Sessions", "Posters"]
