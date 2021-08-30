@@ -37,8 +37,9 @@
 # Increment session IDs by 1
 # ---------------------------------
 - id: 000
-  title: 'Ask Me Anything Event Pre-conference event'
-  description: 'Additional info coming from task group.'
+  title: 'Ask Me Anything: Working with Art and Cartoons'
+  description: 'This free event will be offered in an AMA (Ask Me Anything) format. Your opportunity to learn what it is like to work with visual collections! Have you wondered what it is like to feature comic strips, or the best way to present art? Curious about the resources available to support art and design research? Learn about two unique Ohio libraries, the Jessica R. Gund Memorial Library and The Billy Ireland Cartoon Library & Museum from two of their librarians! Join us for this fun event and bring your questions. Conference registration not required.'
+  speakers: [78]
   subtype: meeting
   live-stream-type: meeting
   live-stream-time: ''
