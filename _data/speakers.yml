@@ -531,7 +531,7 @@
   bio: Kari Siders serves as the Director of Library Public Services at Cedarville University. She graduated from Kent State with her MLIS.  One of her primary responsibilities is the direction and evaluation of research services and oversight of the liaison librarians.
   thumbnailUrl: kari_siders.jpg
   rockstar: false
-  ribbon: 
+  ribbon:
   social:
 
 - id: 44
@@ -926,6 +926,18 @@
   email: x4wang@bridgew.edu
   bio: Xiaocan (Lucy) Wang is the Library Digital Services Librarian at Maxwell Library, Bridgewater State University. Prior to this, she serviced in the capacity of Emerging Technologies Librarian and Digital Repository Librarian. Ms. Wang has varied experience in library system administration, website development, electronic resource management, library resource access and troubleshooting, and digital initiatives. She holds a Master’s degree in both Library and Information Science and Computer Science. She is active in library organizations and maintains a continuous record of research publications and presentations.
   thumbnailUrl:
+  rockstar: false
+  ribbon:
+  social:
+
+- id: 78
+  name: Caitlin
+  surname: McGurk
+  pronouns: she/her
+  company: Billy Ireland Cartoon Library and Museum at The Ohio State University
+  email:
+  bio:
+  thumbnailUrl: caitlin_mcgurk.jpg
   rockstar: false
   ribbon:
   social:
