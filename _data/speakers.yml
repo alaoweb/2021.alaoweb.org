@@ -85,7 +85,7 @@
   company: The Ohio State University
   email: devito.34@osu.edu
   bio: Allison DeVito is the Office of Distance Education and eLearning Library Services Liaison and Copyright Specialist at The Ohio State University. In her role she consults with instructors and instructional designers building courses for Ohio State’s online degree programs and serves as a point of contact for copyright considerations in online education. Allison earned her MLIS from Kent State University in 2015.
-  thumbnailUrl:
+  thumbnailUrl: allison_devito.png
   rockstar: false
   ribbon:
   social:
@@ -97,7 +97,7 @@
   company: The Ohio State University
   email: larson.581@osu.edu
   bio: "Amanda Larson joined the Teaching and Learning department at University Libraries at The Ohio State University in 2020 as the Affordable Learning Instructional Consultant. She provides professional development opportunities for librarians and instructors on Open Educational Resources and Open Pedagogy; works with instructors to curate affordable educational resources for their courses, and supports Affordable Learning Exchange Grant winners as they transform their courses.  \n\nPrior to joining Ohio State, she was the Open Education Librarian at the Penn State University where she coordinated affordable content initiatives across 24 campuses, provided guidance on OER curation, creative commons licensing, and project management."
-  thumbnailUrl:
+  thumbnailUrl: amanda_larson.jpg
   rockstar: false
   ribbon:
   social:
@@ -201,11 +201,11 @@
 - id: 16
   name: Cori
   surname: Wilhelm
-  pronouns:
+  pronouns: she/her
   company: SUNY Canton
   email: wilhelmc@canton.edu
   bio: "Cori Wilhelm is the Director of Library Services at SUNY Canton's Southworth Library Learning Commons."
-  thumbnailUrl:
+  thumbnailUrl: cori_wilhelm.jpg
   rockstar: false
   ribbon:
   social:
@@ -397,7 +397,7 @@
   company: The Ohio State University
   email: hammons.73@osu.edu
   bio: Jane Hammons is an assistant professor and the Teaching and Learning Engagement Librarian at The Ohio State University. In this role she is responsible for instructor development related to the integration of information literacy into the curriculum. Jane has an MLIS from the University of Illinois and an MS in instructional design from Western Kentucky University.
-  thumbnailUrl:
+  thumbnailUrl: jane_hammons.jpg
   rockstar: false
   ribbon:
   social:
@@ -925,7 +925,7 @@
   company: Bridgewater State University
   email: x4wang@bridgew.edu
   bio: Xiaocan (Lucy) Wang is the Library Digital Services Librarian at Maxwell Library, Bridgewater State University. Prior to this, she serviced in the capacity of Emerging Technologies Librarian and Digital Repository Librarian. Ms. Wang has varied experience in library system administration, website development, electronic resource management, library resource access and troubleshooting, and digital initiatives. She holds a Master’s degree in both Library and Information Science and Computer Science. She is active in library organizations and maintains a continuous record of research publications and presentations.
-  thumbnailUrl:
+  thumbnailUrl: xiaocan_wang.jpg
   rockstar: false
   ribbon:
   social:
@@ -938,6 +938,19 @@
   email:
   bio:
   thumbnailUrl: caitlin_mcgurk.jpg
+  rockstar: false
+  ribbon:
+  social:
+
+
+- id: 79
+  name: Laura 
+  surname: Ponikvar
+  pronouns: she/her
+  company: Jessica R. Gund Memorial Library at The Cleveland Institute of Art
+  email:
+  bio:
+  thumbnailUrl: laura_ponikvar.jpg
   rockstar: false
   ribbon:
   social:
