@@ -290,7 +290,8 @@
 - id: 214
   subtype: social
   title: ALAO Trivia Happy Hour
-  description:
+  description: '<p>Come joins us for some trivia and fun at the ALAO Annual Conference social, held Wednesday, October 28th, 2021. Trivia will start around <b>6pm.</b> Sign up for the social when you register for the conference. See you there!
+</p><img src="/img/other/trivia-night-2021.png" alt="ALAO Conference Trivia Night. Join us on Zoom: October 28, 6pm. https://2021.alaoweb.org">'
 
 - id: 290
   part_of_session: 210
