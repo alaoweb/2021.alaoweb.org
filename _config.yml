@@ -51,7 +51,7 @@ aboutBlock:
 # Awards
 # -------------------------------------------------------------
 showAwardWinners: false
-awardAnnouncementTime: #"2020-10-29T12:10:00"
+awardAnnouncementTime: "2021-10-28T12:30:00"
 
 # -------------------------------------------------------------
 # Call For Proposals & Sponsors
