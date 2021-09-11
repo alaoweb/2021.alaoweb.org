@@ -106,6 +106,7 @@ heroButtons:
   # - {permalink: "/awards", text: "View Award Winners" }
   - {link: "https://docs.google.com/forms/d/e/1FAIpQLSejIIzc7GS4sbQS2NnpH6txxzZzaOcV7IhWvAvhDb96Io05cg/viewform?usp=sf_link", text: "Apply for Scholarship"}
   # - {link: "https://docs.google.com/forms/d/e/1FAIpQLSdfGZEuGcn_KmpEqd9-GgU-xPWhViP1bivXOvJKcEvJ1DtLFw/viewform", text: "Become a speaker"}
+  - {permalink: "/#serviceproject", text: "Service Project"}
 
 # -------------------------------------------------------------
 # Latest News Block
