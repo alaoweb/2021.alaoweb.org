@@ -273,11 +273,11 @@
 - id: 22
   name: Gene R.
   surname: Springs
-  pronouns:
+  pronouns: he/him
   company: The Ohio State University
   email: springs.14@osu.edu
   bio: "Gene R. Springs (he/him) is collections strategist and associate professor at The Ohio State University Libraries. In this role, Gene leads the dynamic collections program area across University Libraries, including all collection development and collection management activities. Gene's research interests include evolving models in collections building and transforming scholarly publishing. "
-  thumbnailUrl:
+  thumbnailUrl: gene_springs.png
   rockstar: false
   ribbon:
   social:
@@ -373,7 +373,7 @@
   company: Miami University
   email: spraetj@miamioh.edu
   bio: Jaclyn Spraetz is an Information Literacy Librarian at Miami University in Oxford, OH with master’s degrees in education and library science. Before serving as a librarian, she was a high school English teacher. She promotes information literacy on campus and helps faculty and students through research support and instruction. Her goals include engaging with faculty and students through information literacy outreach programs, promoting effective teaching strategies, and embedding media effects in her instruction.
-  thumbnailUrl:
+  thumbnailUrl: jaclyn_spraetz.jpg
   rockstar: false
   ribbon:
   social:
@@ -649,7 +649,7 @@
   company: The Ohio State University
   email: hendricks.3@osu.edu
   bio: Leta Hendricks (she/her) is an assistant professor and the African American and African Studies Librarian, the Comparative Studies Librarian, and the Interim Anthropology Librarian at The Ohio State University. She serves as Affiliated Faculty in African American and African Studies and Affiliated Faculty in French and Francophone Studies. She provides general and specialized research services; library and meta-literacy instruction and; develops and manages subject collections. Leta’s research interests include French Rap music, the use of gaming in education, and music analysis. She holds an M.S. in Library and Information Science from the University of Illinois, an M.A. in Afro-American Studies from Atlanta University and a B.A. in Afro-American Studies from Western Illinois University.
-  thumbnailUrl:
+  thumbnailUrl: leta_hendricks.png
   rockstar: false
   ribbon:
   social:
@@ -721,7 +721,7 @@
   company: Miami University
   email: stepanm@miamioh.edu
   bio: "Masha Stepanova is the Coordinator of Cataloging at Miami University and has been cataloging a wide variety of material formats for the last 15 years. Her areas of special interest include cataloging of non-book formats, such as graphics and realia, as well as accessibility in cataloging.\n"
-  thumbnailUrl:
+  thumbnailUrl: masha_Stepanova.jpeg
   rockstar: false
   ribbon:
   social:
