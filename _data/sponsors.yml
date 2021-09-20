@@ -105,8 +105,8 @@
         rep-title: 'Regional Sales Manager',
         rep-email: 'pmurray@ebsco.com',
         rep-phone: '(978) 414-0512',
-        # content:
-        #   - { url: 'https://www.ebsco.com/sites/g/files/nabnos191/files/acquiadam-assets/Academic-Library-Solutions-EBSCO-eBrochure.pdf', text: 'Brochure' },
+        content: 
+          { url: 'https://www.ebsco.com/sites/g/files/nabnos191/files/acquiadam-assets/Academic-Library-Solutions-EBSCO-eBrochure.pdf', text: 'Brochure' },
         active: true
       }
     - {
@@ -127,8 +127,7 @@
         name: 'State Library of Ohio',
         description: 'The State Library of Ohio is a state agency that serves state government, all types of libraries and residents.   The vision of the State Library of Ohio is a Smarter Ohio where every Ohioan can access the necessary resources to be engaged citizens, excel at their jobs, participate in the workforce, and pursue their passions and interests.',
         link: 'https://library.ohio.gov',
-        imageUrl: '',
-        video: '',
+        imageUrl: 'state-library.jpg',
         rep-name: 'Marsha McDevitt-Stredney',
         rep-title: 'Director, Marketing & Communications',
         rep-email: 'marshams@library.ohio.gov',

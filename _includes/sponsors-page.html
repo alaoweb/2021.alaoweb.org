@@ -39,9 +39,12 @@
                     <div class="col-md-5 col-md-offset-1">
                         <img src="/img/sponsors/{{sponsor.imageUrl}}" alt="{{sponsor.name}}" style="width: 80%">
                         <div class="custom-content">
-                            {% for item in sponsor.content %}
-                            <a href="{{item.url}}" class="btn btn-primary">{{item.text}}</a>
-                            {% endfor %}
+                            {% if sponsor.content %}
+                            <a href="{{sponsor.content.url}}" class="btn btn-primary">{{sponsor.content.text}}</a>
+                            {% else if sponsor.link %}
+                            <a href="{{sponsor.link}}" class="btn btn-primary">Home</a>
+                            {% endif %}
+
                         </div>
         
                     </div>
