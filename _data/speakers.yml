@@ -588,7 +588,7 @@
   pronouns: he/him
   company: Miami University
   email: irwinkr@miamioh.edu
-  bio: 'Ken Irwin is a Web Services Librarian at Miami University. He is interested in developing open-source solutions to solve challenging library issues and to make the most of our resources. His projects have included tools for managing and analyzing the use of library collections, a mechanism for "checking out" software licenses, and a game to improve students skills at understanding book and journal citations. When not at the library, he''s interested in mushroom hunting, contra dancing, and board games.'
+  bio: "Ken Irwin is a Web Services Librarian at Miami University. He is interested in developing open-source solutions to solve challenging library issues and to make the most of our resources. His projects have included tools for managing and analyzing the use of library collections, a mechanism for 'checking out' software licenses, and a game to improve students skills' at understanding book and journal citations. When not at the library, he''s interested in mushroom hunting, contra dancing, and board games."
   thumbnailUrl: ken_irwin.jpg
   rockstar: false
   ribbon:
