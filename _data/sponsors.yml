@@ -2,10 +2,17 @@
   elements:
     - {
         name: 'De Gruyter',
-        description: 'An international, independent publisher of first-class scholarship headquartered in Berlin.',
+        description: 'De Gruyter is an international academic publishing house covering over two centuries of thought, with original works from authors including the Brothers Grimm, Friedrich Nietzsche, and Noam Chomsky. From studies on the natural world to languages and social topics of our time, our authors’ works advance research and society. For more than 270 years, it has been De Gruyter’s mission to create new opportunities to promote, disseminate, and protect knowledge as a partner and promoter of discovery – because we want to know. We want to know, now more than ever, about your research, authors, and your library!',
         link: 'https://www.degruyter.com/',
         imageUrl: 'de_gruyter.svg',
         video: 'https://www.youtube.com/watch?v=mnbR8Cl78S4',
+        rep-name: 'Caitlyn Nardozzi',
+        rep-title: 'Marketing Manager',
+        rep-email: 'caitlyn.nardozzi@degruyter.com',
+        rep-phone: '203-482-4963',
+        # content:
+        #   - { url: '', text: '' },
+        active: true
       }
     - {
         name: 'OhioNET',
@@ -13,6 +20,14 @@
         link: 'https://www.ohionet.org',
         imageUrl: 'ohionet.png',
         video: 'https://www.youtube.com/watch?v=QklsXsLuQPE',
+        description: 'OhioNet was formed in 1977 around the novel idea that libraries of all types and sizes share one important similarity: they all want to strengthen their communities and give their patrons their very best. With this thought at the center of our mission, the consortium began a period of expansion welcoming libraries of all types: public, academic, corporate, and otherwise, to pool resources, share skills, build partnerships, and discover commonalities that would strengthen and lift up the communities we serve.',
+        rep-name: 'Nancy Kirkpatrick',
+        rep-title: '',
+        rep-email: 'ohionet@ohionet.org',
+        rep-phone: '800-686-8975',
+        # content:
+        # - { url: '', text: '' },
+        active: true
       }
 
 - group: 'Sessions'
@@ -22,6 +37,14 @@
         description: "OhioLINK creates a competitive advantage for Ohio's higher education community by cooperatively and cost-effectively acquiring, providing access to, and preserving an expanding array of print and digital scholarly resources in order to advance teaching, learning, research, and the growth of Ohio's knowledge-based economy",
         link: 'https://www.ohiolink.edu/',
         imageUrl: 'ohiolink.png',
+        description: 'The Ohio Library and Information Network (OhioLINK) is Ohio’s statewide academic library consortium, serving 88 institutions, plus the State Library of Ohio.',
+        rep-name: 'Ann Rogers',
+        rep-title: 'Marketing & Outreach Manager',
+        rep-email: 'Info@ohiolink.edu',
+        rep-phone: '614-485-6722',
+        # content:
+        # - { url: '', text: '' },
+        active: true
       }
 
 - group: 'Keynote'
@@ -31,6 +54,13 @@
         description: "Our mission is to unlock people's potential with the best learning and research solutions.",
         link: 'https://www.cambridge.org/',
         imageUrl: 'cambridge.png',
+        description: '',
+        rep-name: '',
+        rep-title: '',
+        rep-email: '',
+        # content:
+        # - { url: '', text: '' },
+        active: true
       }
 
 - group: 'Posters'
@@ -40,28 +70,71 @@
         description: 'The nicest people in the book business',
         link: 'https://emery-pratt.com/',
         imageUrl: 'emery_pratt.png',
+        description: 'Emery-Pratt is a full service distributor of books and other materials to libraries and hospitals. ',
+        rep-name: 'Byron E. Shattuck',
+        rep-title: '',
+        rep-email: 'byron.shattuck@emery-pratt.com',
+        rep-phone: '800 248-3887',
+        # content:
+        # - { url: '', text: '' },
+        active: true
       }
     - {
         name: 'Bloomsbury',
         description: 'Bloomsbury Publishing is a leading independent publishing house, established in 1986, with authors who have won the Nobel, Pulitzer and Booker Prizes',
         link: 'https://www.bloomsbury.com/dr/digital-resources/',
         imageUrl: 'bloomsbury.png',
+        description: 'Bloomsbury Digital Resources is committed to serving a global community of students, scholars, instructors, and librarians by providing creative online research and learning environments that deliver excellence and originality.  Whether it be primary documents, critical texts, historical archives, or the latest in video and audio resources, we are committed to enhancing the research experience with innovative, engaging, and dynamic digital resources of the highest quality.  Our team is here to support all users whether you are a librarian looking for a free trial, a researcher interested in recommending products to your library, or a student looking for more information.  Visit our Products section to discover more information about each resource. Already a subscriber? Visit the Library Resources section to find easy access to a wealth of resources designed to help your library. Looking for more information or just want to say hello? Visit, the Contact section for information on getting a free trial, submitting feedback on a product, or need support for any issue.',
+        rep-name: 'Melissa Mazza',
+        rep-title: 'Senior Account Manager',
+        rep-email: 'Melissa.Mazza@bloomsbury.com',
+        rep-phone: '(646) 689-2416',
+        # content:
+        # - { url: '', text: '' },
+        active: true
       }
 
 - group: 'Schedule'
   elements:
     - {
         name: 'EBSCO',
-        description: 'EBSCO is the leading provider of research databases, e-journals, magazine subscriptions, ebooks and discovery service for academic libraries, public libraries, corporations, schools, government and medical institutions',
         link: 'https://www.ebsco.com/',
         imageUrl: 'ebsco.png',
+        description: 'EBSCO Information Services (EBSCO) is the preeminent provider of online research content and search technologies serving academic, school and public libraries including research, acquisition management, subscription services, discovery and analytics. EBSCO provides access to content and resources to serve the information and workflow needs of library users and organizations. ',
+        rep-name: 'Pat Murray',
+        rep-title: 'Regional Sales Manager',
+        rep-email: 'pmurray@ebsco.com',
+        rep-phone: '(978) 414-0512',
+        content: 
+          { url: 'https://www.ebsco.com/sites/g/files/nabnos191/files/acquiadam-assets/Academic-Library-Solutions-EBSCO-eBrochure.pdf', text: 'Brochure' },
+        active: true
       }
     - {
         name: 'Springer Nature',
-        description: 'We help authors to share their discoveries; enable researchers to find, access and understand the work of others and support librarians and institutions with innovations in technology and data.',
         link: 'https://www.springernature.com/',
         imageUrl: 'springer_nature.png',
         video: 'https://www.youtube.com/watch?v=ke44YCKig_w',
+        description: "Springer Nature is a leading global scientific, scholarly, professional and educational publisher, home to an array of respected and trusted brands providing quality content through a range of innovative products and services. Springer Nature is the world's largest academic book publisher, publisher of the world's highest impact journals and a pioneer in the field of open research. The company numbers almost 13,000 staff in over 50 countries.",
+        rep-name: 'Paulo Aneiros',
+        rep-title: 'Licensing Manager',
+        rep-email: 'paulo.aneiros@springernature.com',
+        rep-phone: '(212) 460-1500',
+        # content:
+        #   - { url: 'https://www.ebsco.com/sites/g/files/nabnos191/files/acquiadam-assets/Academic-Library-Solutions-EBSCO-eBrochure.pdf', text: 'Brochure' },
+        active: true
+      }
+    - {
+        name: 'State Library of Ohio',
+        description: 'The State Library of Ohio is a state agency that serves state government, all types of libraries and residents.   The vision of the State Library of Ohio is a Smarter Ohio where every Ohioan can access the necessary resources to be engaged citizens, excel at their jobs, participate in the workforce, and pursue their passions and interests.',
+        link: 'https://library.ohio.gov',
+        imageUrl: 'state-library.jpg',
+        rep-name: 'Marsha McDevitt-Stredney',
+        rep-title: 'Director, Marketing & Communications',
+        rep-email: 'marshams@library.ohio.gov',
+        rep-phone: '614-644-7061',
+        # content:
+        # - { url: '', text: '' },
+        active: true
       }
 
 - group: 'Additional Support'
@@ -71,12 +144,26 @@
         description: 'By providing continuing education opportunities for library support staff, OLSSI aspires to revitalize their enthusiasm for library work to make our libraries and ourselves better than ever!',
         link: 'https://olssi.org/',
         imageUrl: 'olssi.png',
+        description: '',
+        rep-name: '',
+        rep-title: '',
+        rep-email: '',
+        # content:
+        # - { url: '', text: '' },
+        active: true
       }
     - {
         name: 'ALAO Research & Publication Committee',
         description: 'The Research and Publications Committee supports ALAO members by providing opportunities to fund research projects, helping members discover available resources, and by facilitating inter-institutional research projects.',
         link: 'https://www.alaoweb.org/committees/researchpub/index.html',
         imageUrl: 'research-pubs-cmte.png',
+        description: '',
+        rep-name: '',
+        rep-title: '',
+        rep-email: '',
+        # content:
+        # - { url: '', text: '' },
+        active: true
       }
 
 - group: 'do-not-include'
