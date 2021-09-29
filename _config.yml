@@ -301,10 +301,12 @@ subscribeInfo: "Stay Informed of ALAO Events!"
 # Surveys
 # -------------------------------------------------------------
 # currently showing 2021 survey links
-sessionFeedbackForm: "https://docs.google.com/forms/d/e/1FAIpQLSdLzPAjyAt3hZQinnf8NWP_7qYGk-ZbCGVyCRKURczte6djvQ/viewform?usp=pp_url"
-sessionFeedbackParameter: "entry.1153076421"
-keynoteFeedbackForm: "https://docs.google.com/forms/d/e/1FAIpQLSedR9Cm9jG7RQ9AxN7v2km_BxgdwCyl_HTVpVCnk86jSvJIug/viewform?usp=pp_url&entry.1153076421="
-preconferenceFeedbackForm: "https://docs.google.com/forms/d/e/1FAIpQLSdzxxqW748MuWXLjc-MYaBZHABpZAzA_XBZ5X5IRhgNnUUq_g/viewform"
+# deactivate until conference time
+# sessionFeedbackForm: "https://docs.google.com/forms/d/e/1FAIpQLSdLzPAjyAt3hZQinnf8NWP_7qYGk-ZbCGVyCRKURczte6djvQ/viewform?usp=pp_url"
+# sessionFeedbackParameter: "entry.1153076421"
+# keynoteFeedbackForm: "https://docs.google.com/forms/d/e/1FAIpQLSedR9Cm9jG7RQ9AxN7v2km_BxgdwCyl_HTVpVCnk86jSvJIug/viewform?usp=pp_url&entry.1153076421="
+# preconferenceFeedbackForm: "https://docs.google.com/forms/d/e/1FAIpQLSdzxxqW748MuWXLjc-MYaBZHABpZAzA_XBZ5X5IRhgNnUUq_g/viewform"
+
 # leftover from 2020 as not needed in 2021:
 # preconferenceWorkshopFeedbackForm: "https://docs.google.com/forms/d/e/1FAIpQLScr9oiR9VEgU77lISo2YV_MkrC3SK-D_7ixZ14UYr9L4AWz0w/viewform"
 
