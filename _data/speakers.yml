@@ -174,17 +174,18 @@
   ribbon:
   social:
 
-- id: 14
-  name: Christine
-  surname: Tobias
-  pronouns: she/her
-  company: Michigan State University Libraries
-  email: tobiasc@msu.edu
-  bio: Christine Tobias is the Coordinator for Public Services at the Michigan State University Libraries in East Lansing, Michigan. She earned her MLIS from Wayne State University in 2007. She is a librarian and middle manager, leading several organizational and technology projects over the past decade and has extensive experience in the areas of public services, reference, user experience, and library assessment. Her hobbies include gardening, antiques (Pyrex!), reclaiming and refurbishing home décor, and embroidery.
-  thumbnailUrl: christine_tobias.jpg
-  rockstar: false
-  ribbon:
-  social:
+# withdrawn
+# - id: 14
+#   name: Christine
+#   surname: Tobias
+#   pronouns: she/her
+#   company: Michigan State University Libraries
+#   email: tobiasc@msu.edu
+#   bio: Christine Tobias is the Coordinator for Public Services at the Michigan State University Libraries in East Lansing, Michigan. She earned her MLIS from Wayne State University in 2007. She is a librarian and middle manager, leading several organizational and technology projects over the past decade and has extensive experience in the areas of public services, reference, user experience, and library assessment. Her hobbies include gardening, antiques (Pyrex!), reclaiming and refurbishing home décor, and embroidery.
+#   thumbnailUrl: christine_tobias.jpg
+#   rockstar: false
+#   ribbon:
+#   social:
 
 - id: 15
   name: Clayton
