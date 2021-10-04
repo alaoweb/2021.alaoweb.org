@@ -59,7 +59,7 @@
 					<div class="row survey-row">
 						<div class="col-md-4"></div>
 						<div class="col-md-8">
-							<a href="{{ site.keynoteFeedbackForm }}"
+							<a href="{{ site.keynoteFeedbackForm }}{{session.title | url_encode }}"
 								class="survey-button btn"
 								target="_blank"
 								aria-label="Complete the survey for {{ session.title }}}">{{session.subtype | capitalize }}
