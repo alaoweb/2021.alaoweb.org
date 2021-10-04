@@ -438,7 +438,29 @@
 
 - id: 308
   subtype: lunch
-  title: Interest Group coffee/lunch hour meetings
+  title: 'Interest Group Lunch Meetups: Special Collections & Archives (SCAIG), Scholarly Communications (SCIG), STEM (STEMIG)'
+  note-presenter-names: >
+    Henry Handley & Joshua Zeller (SCAIG); 
+    Drew Balduff & Cynthia Kristof (SCIG);
+    ?? (STEMIG)
+  description: >
+    Three ALAO Interest Groups will hold lunch meetups at this time. 
+    <p><b>Lunch with ALAO's Special Collections and Archives Interest Group (SCAig)</b>
+    <br>Meet the co-chairs of ALAO’s Special Collections and Archives Interest Group during lunch! 
+    Learn more about the group’s activities and how you can get involved.</p>
+    <p><b>Scholarly Communications Interest Group (SCIG) Coffee/Lunch</b>
+    <br>This is an informal opportunity to share news or discuss concerns with colleagues 
+    on any scholarly communication related topic, including copyright, institutional 
+    repositories, digitization projects, Open Access issues, or anything else on your mind.</p> 
+    <p><b>Bridges to the future: STEMIG Lunch</b><br>
+    Join STEMIG for an open discussion about the lasting impacts of the pandemic, 
+    the future of STEM librarianship, and what’s next for STEMIG!</p>
+  audience: 
+    [
+      'SCAIG',
+      'SCIG',
+      'STEMIG'
+    ]
 
 - id: 309
   subtype: session
