@@ -13,7 +13,7 @@
     - { title: 'Track #2' }
   timeslots:
     - { startTime: '12:00', endTime: '3:00', sessionIds: [100] }
-    - { startTime: '3:00', endTime: '3:30', sessionIds: [101] }
+    - { startTime: '2:30', endTime: '3:00', sessionIds: [101] }
     - { startTime: '3:30', endTime: '4:30', sessionIds: [102] }
     - { startTime: '5:00', endTime: '6:00', sessionIds: [103] }
 
