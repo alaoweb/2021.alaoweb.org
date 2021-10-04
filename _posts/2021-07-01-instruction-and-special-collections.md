@@ -17,6 +17,9 @@ sponsor:
         imageUrl: 'research-pubs-cmte.png',
       }
 session-contents:
+  - type: video
+    url: //www.youtube.com/embed/sbo4teSgcaM
+    title: Intro Video
 supplemental-docs:
 isStaticPost: false
 published: true
