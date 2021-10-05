@@ -12,6 +12,12 @@ session-contents:
     url: //www.youtube.com/embed/n0g3E0HJ9BQ
     title: Intro Video
 supplemental-docs:
+  - type: powerpoint
+    url: /handouts/libraries-value-covid-19-slides.pptx
+    title: Presentation Slides
+  - type: word
+    url: /handouts/libraries-value-covid-19-survey.docx
+    title: Survey
 isStaticPost: false
 published: true
 ---
