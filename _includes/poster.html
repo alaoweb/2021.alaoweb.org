@@ -84,6 +84,8 @@
                   {% assign icon = "fas fa-rocket" %}
                   {% elsif supdoc.type == "github" %}
                   {% assign icon = "fab fa-github" %}
+                  {% elsif supdoc.type == "tableau" %}
+                  {% assign icon = "fas fa-chart-bar" %}
                   {% else %}
                   {% assign icon = "fas fa-circle" %}
                   {% endif %}
