@@ -78,10 +78,14 @@
                   {% assign icon = "fas fa-file-pdf" %}
                   {% elsif supdoc.type == 'word' %}
                   {% assign icon = "fas fa-file-word" %}
+                  {% elsif supdoc.type == 'powerpoint' %}
+                  {% assign icon = "fas fa-file-powerpoint" %}
                   {% elsif supdoc.type == "website" %}
                   {% assign icon = "fas fa-rocket" %}
                   {% elsif supdoc.type == "github" %}
                   {% assign icon = "fab fa-github" %}
+                  {% elsif supdoc.type == "tableau" %}
+                  {% assign icon = "fas fa-chart-bar" %}
                   {% else %}
                   {% assign icon = "fas fa-circle" %}
                   {% endif %}
