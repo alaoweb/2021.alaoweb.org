@@ -23,7 +23,7 @@ supplemental-docs:
   - type: pdf
     url: /handouts/anti-racist-handout.pdf
     title: Resource List
-  - type: link
+  - type: website
     url: https://odi.osu.edu/read
     title: ODI Read
 isStaticPost: false

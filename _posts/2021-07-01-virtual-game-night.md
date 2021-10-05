@@ -12,6 +12,12 @@ session-contents:
     url: //www.youtube.com/embed/OX3eJQXKUrs
     title: Intro Video
 supplemental-docs:
+  - type: website
+    url: https://www.canva.com/design/DAEqjm4fZFo/DsF2g9SHj5ZA83uBDdJ-CQ/view?utm_content=DAEqjm4fZFo&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
+    title: Interactive Poster
+  - type: pdf
+    url: /handouts/virtual-game-night-slides.pdf
+    title: Slides
 isStaticPost: false
 published: true
 ---
