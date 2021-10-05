@@ -12,6 +12,12 @@ session-contents:
     url: //www.youtube.com/embed/I0uo_Ig_cto
     title: Intro Video
 supplemental-docs:
+  - type: pdf
+    url: /handouts/library-streaming-slides.pdf
+    title: Slides
+  - type: pdf
+    url: /handouts/library-streaming-survey.pdf
+    title: Survey
 isStaticPost: false
 published: true
 ---

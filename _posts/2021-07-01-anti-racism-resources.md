@@ -17,6 +17,15 @@ session-contents:
 #    alt: Alt text
 #    text-description: "<ol><li>Thing One</li><li>Thing Two</li></ol>"
 supplemental-docs:
+  - type: pdf
+    url: /handouts/anti-racist-slides.pdf
+    title: Slides
+  - type: pdf
+    url: /handouts/anti-racist-handout.pdf
+    title: Resource List
+  - type: link
+    url: https://odi.osu.edu/read
+    title: ODI Read
 isStaticPost: false
 published: true
 ---

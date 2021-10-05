@@ -12,6 +12,12 @@ session-contents:
     url: //www.youtube.com/embed/Iskh4ZnLagk
     title: Intro Video
 supplemental-docs:
+  - type: powerpoint
+    url: /handouts/creating-a-data-dashboard-slides.pptx
+    title: Slides
+  - type: pdf
+    url: /handouts/creating-a-data-dashboard-handout.pdf
+    title: Handout
 isStaticPost: false
 published: true
 ---
