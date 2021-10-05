@@ -12,6 +12,12 @@ session-contents:
     url: //www.youtube.com/embed/WxpUoAr1wqQ
     title: Intro Video
 supplemental-docs:
+  - type: pdf
+    url: /handouts/new-student-orientations-slides.pdf
+    title: Slides (PDF)
+  - type: website
+    url: https://docs.google.com/presentation/d/1Ia9NYRjxp8I_YOqAYhEkT9t3x996cB3kVnUkG9Feq7E/edit
+    title: Slides (Google Slides)
 isStaticPost: false
 published: true
 ---

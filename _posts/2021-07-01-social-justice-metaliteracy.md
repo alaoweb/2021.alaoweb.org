@@ -12,6 +12,12 @@ session-contents:
     url: //www.youtube.com/embed/-k5sIcJQVV0
     title: Intro Video
 supplemental-docs:
+  - type: pdf
+    url: /handouts/social-justice-metaliteracy-poster.pdf
+    title: Slides (PDF)
+  - type: powerpoint
+    url: /handouts/social-justice-metaliteracy-poster.pptx
+    title: Slides (PowerPoint)
 isStaticPost: false
 published: true
 ---

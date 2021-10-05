@@ -12,6 +12,9 @@ session-contents:
     url: //www.youtube.com/embed/kFeyph-S0h0
     title: Intro Video
 supplemental-docs:
+  - type: website
+    url: https://public.tableau.com/views/ILLjournaldata/DashboardTemplate3?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
+    title: Tableau Visualization
 isStaticPost: false
 published: true
 ---

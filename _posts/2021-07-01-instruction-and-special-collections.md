@@ -21,6 +21,9 @@ session-contents:
     url: //www.youtube.com/embed/sbo4teSgcaM
     title: Intro Video
 supplemental-docs:
+  - type: website
+    url: https://docs.google.com/presentation/d/1_5x3C6eAUxpPiNBpvjZ2JgUdfvQz3tLm2kOaT5eSnEM/edit?usp=sharing
+    title: Updated Slides (Google Sheets)
 isStaticPost: false
 published: true
 ---

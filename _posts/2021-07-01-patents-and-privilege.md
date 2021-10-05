@@ -12,6 +12,9 @@ session-contents:
     url: //www.youtube.com/embed/Jfnv8a8Vr2w
     title: Intro Video
 supplemental-docs:
+  - type: website
+    url: https://view.genial.ly/612ec5c0c8d4500d1a4aaa08/presentation-patents-and-privilege
+    title: Interactive Poster
 isStaticPost: false
 published: true
 ---

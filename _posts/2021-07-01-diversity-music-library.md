@@ -12,6 +12,9 @@ session-contents:
     url: //www.youtube.com/embed/PGuWoJhxKmg
     title: Intro Video
 supplemental-docs:
+  - type: pdf
+    url: /handouts/diversity-music-library-slides.pdf
+    title: Slides
 isStaticPost: false
 published: true
 ---
