@@ -12,6 +12,9 @@ session-contents:
     url: //www.youtube.com/embed/sGcSkg6FCCs
     title: Intro Video
 supplemental-docs:
+  - type: pdf
+    url: /handouts/beyond-land-acknowledgment-slides.pdf
+    title: Slides
 isStaticPost: false
 published: true
 ---
