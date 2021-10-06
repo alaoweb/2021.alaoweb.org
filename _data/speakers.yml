@@ -682,11 +682,11 @@
 - id: 57
   name: Marc
   surname: Stoeckle
-  pronouns:
+  pronouns: he/him
   company: University of Calgary
   email: mstoeckle@ucalgary.ca
   bio: Marc Stoeckle is a Research and Learning Librarian for the School of Creative & Performing Arts and the School of Languages, Linguistics, Literatures & Cultures at the University of Calgary. Marc holds a Bachelor’s degree in Musicology and Ethnomusicology and an MLIS.
-  thumbnailUrl:
+  thumbnailUrl: marc_stoeckle.png
   rockstar: false
   ribbon:
   social:
