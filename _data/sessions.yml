@@ -147,7 +147,7 @@
   live-stream-type: session
   live-stream-time: '2021-10-28 10:00:00'
   live-stream-link: https://zoom.us/j/95703747340?pwd=NEJEOWJQQS8zZGxVVGNiNlE1SUREQT09
-  question-time: 
+  question-time: '2021-10-28 10:36:00'
 
 - id: 203
   subtype: session
@@ -166,7 +166,7 @@
   live-stream-type: session
   live-stream-time: '2021-10-28 10:00:00'
   live-stream-link: https://zoom.us/j/98439765954?pwd=Q09tQWJtelJJWXlOakptSGxWM1NSQT09
-  question-time: 
+  question-time: '2021-10-28 10:39:00'
 
 - id: 204
   subtype: session
@@ -187,7 +187,7 @@
   live-stream-type: session
   live-stream-time: '2021-10-28 11:10:00'
   live-stream-link: https://zoom.us/j/95666103481?pwd=K0ZyL0o5Q2pIQWk0aHptVjNXY0Z1UT09
-  question-time: 
+  question-time: '2021-10-28 11:27:00'
 
 - id: 205
   subtype: session
@@ -201,7 +201,7 @@
   live-stream-type: session
   live-stream-time: '2021-10-28 11:10:00'
   live-stream-link: https://zoom.us/j/96389805151?pwd=dXJGQUx2NWt6Q0FsZUFvWTNBTUdUdz09
-  question-time: 
+  question-time: '2021-10-28 11:28:00'
 
 - id: 206
   subtype: lunch
@@ -235,7 +235,7 @@
   live-stream-type: session
   live-stream-time: '2021-10-28 13:10:00'
   live-stream-link: https://zoom.us/j/96592116747?pwd=K2w0clc4UjZqTjJLNnE5NVdONDZ2QT09
-  question-time: 
+  question-time: '2021-10-28 13:29:00'
 
 - id: 209
   subtype: session
@@ -254,7 +254,7 @@
   live-stream-type: session
   live-stream-time: '2021-10-28 13:10:00'
   live-stream-link: https://zoom.us/j/98834666699?pwd=dmZsSDVSczU0WVBoS2xFRE41S1p5QT09
-  question-time: 
+  question-time: '2021-10-28 13:43:00'
   sponsor:
     group: Individual Session Sponsor
     elements:
@@ -301,7 +301,7 @@
   live-stream-type: session
   live-stream-time: '2021-10-28 14:20:00'
   live-stream-link: https://zoom.us/j/99045132457?pwd=NTI3aWV0VC9VVVdMOUNjcDBLQUZ3UT09
-  question-time: 
+  question-time: '2021-10-28 14:50:00'
 
 - id: 212
   subtype: session
@@ -320,7 +320,7 @@
   live-stream-type: session
   live-stream-time: '2021-10-28 15:30:00'
   live-stream-link: https://zoom.us/j/96561611969?pwd=dVhBQTB2UjJ1c2huQUpKSHhwRVkvUT09
-  question-time: 
+  question-time: '2021-10-28 15:54:00'
 
 - id: 213
   subtype: session
@@ -339,7 +339,7 @@
   live-stream-type: session
   live-stream-time: '2021-10-28 15:30:00'
   live-stream-link: https://zoom.us/j/96276116281?pwd=ZU50N2tqRlkxWFZ6TUltdU5yZXFYUT09
-  question-time: 
+  question-time: '2021-10-28 16:00:00'
 
 - id: 214
   subtype: social
@@ -433,7 +433,7 @@
   live-stream-type: session
   live-stream-time: '2021-10-29 09:00:00'
   live-stream-link: https://zoom.us/j/91600194898?pwd=WmhEbThwd3NkMHpKenVybnVWaFMzdz09
-  question-time: 
+  question-time: '2021-10-29 09:26:00'
 
 - id: 302
   subtype: session
@@ -451,7 +451,7 @@
   live-stream-type: session
   live-stream-time: '2021-10-29 09:00:00'
   live-stream-link: https://zoom.us/j/97892747149?pwd=dHJZUzczTldaTjc4RWdyUysvZXJuUT09
-  question-time: 
+  question-time: '2021-10-29 09:27:00'
 
 - id: 303
   subtype: session
@@ -470,7 +470,7 @@
   live-stream-type: session
   live-stream-time: '2021-10-29 10:10:00'
   live-stream-link: https://zoom.us/j/98783213093?pwd=RjFHd2NXN0lYYzY5aDZLQlljTTlkUT09
-  question-time: 
+  question-time: '2021-10-29 10:37:00'
 
 - id: 304
   subtype: session
@@ -484,7 +484,7 @@
   live-stream-type: session
   live-stream-time: '2021-10-29 10:10:00'
   live-stream-link: https://zoom.us/j/95129117625?pwd=ZWlSSktudHo2V2NsM2xPbVdEcjQ3UT09
-  question-time: 
+  question-time: '2021-10-29 10:45:00'
 
 - id: 305
   subtype: session
@@ -502,7 +502,7 @@
   live-stream-type: session
   live-stream-time: '2021-10-29 11:20:00'
   live-stream-link: https://zoom.us/j/94879192504?pwd=bzNVazRiYzd0VVp6dTBKYW1IMGJVZz09
-  question-time: 
+  question-time: '2021-10-29 11:45:00'
 
 - id: 306
   subtype: session
@@ -516,7 +516,7 @@
   live-stream-type: session
   live-stream-time: '2021-10-29 11:20:00'
   live-stream-link: https://zoom.us/j/91082335179?pwd=Smg4aVJtMzIwSXF4TE40Q3ZxeS9Mdz09
-  question-time: 
+  question-time: '2021-10-29 11:43:00'
 
 - id: 307
   subtype: lunch
@@ -592,7 +592,7 @@
   live-stream-type: session
   live-stream-time: '2021-10-29 13:10:00'
   live-stream-link: https://zoom.us/j/97534944854?pwd=RFJTWWlNdHVNeDI3dzA0d2VYZTFJUT09
-  question-time: 
+  question-time: '2021-10-29 13:33:00'
 
 - id: 311
   subtype: session
@@ -606,7 +606,7 @@
   live-stream-type: session
   live-stream-time: '2021-10-29 14:30:00'
   live-stream-link: https://zoom.us/j/96662773969?pwd=eXY3cFl4K2kxMHQ5VkM1YjU3TTl6dz09
-  question-time: 
+  question-time: '2021-10-29 14:58:00'
 
 - id: 312
   subtype: session
@@ -624,7 +624,7 @@
   live-stream-type: session
   live-stream-time: '2021-10-29 14:30:00'
   live-stream-link: https://zoom.us/j/99875484309?pwd=d2xWcnlZRUZkcndMc2FiSFlhNkpDdz09
-  question-time: 
+  question-time: '2021-10-29 14:54:00'
   
 - id: 313
   title: 'Closing Keynote: Re-Envisioning LIS: Activating Social Justice'
