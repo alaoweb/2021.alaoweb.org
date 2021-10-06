@@ -5,7 +5,9 @@ permalink: /audit/
 ---
 {% assign speakers = site.data.speakers %}
 {% assign sessions = site.data.sessions %}
+{% assign posters  = site.posts %}
 <div class="container">
+<h1>Missing Content Audit</h1>
 <h2>Speakers</h2>
 <h3>Missing Photos</h3>
 {% for s in speakers %}
@@ -14,8 +16,17 @@ permalink: /audit/
     {% endif %}
 {% endfor %}
 <hr>
+<h2>Posters</h2>
+<h3>Missing main content</h3>
+{% for p in posters %}
+{% assign len = p.session-contents| size %}
+{% if len == 0 %}
+<li><a href="{{ site.baseurl | append: p.url }}">{{p.title}}</a></li>
+{% endif %}
+{% endfor %}
+<hr>
 <h2>Sessions</h2>
-<h3>Sessions without Video Links</h3>
+<h3>Sessions without Video/Zoom Links</h3>
 <table class="table">
     <thead>
         <tr>
@@ -52,5 +63,6 @@ permalink: /audit/
 {% endif %}
 {% endfor %}
 </table>
+
 </div>
 
