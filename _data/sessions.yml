@@ -143,6 +143,11 @@
   audience: ['DLIG', 'IIG', 'PROMIG']
   keywords: resource repository; information literacy; outreach; affordability; student support
   note-presenter-names: "Jane Hammons,Allison DeVito,Hanna Primeau,Amanda Larson\n"
+  video: https://youtube.com/embed/jLx-UHGQ-FY
+  live-stream-type: session
+  live-stream-time: 
+  live-stream-link:
+  question-time: 
 
 - id: 203
   subtype: session
@@ -157,6 +162,11 @@
     ]
   keywords: Disasters; disaster planning, response, and recovery; archives and special collections; COVID-19
   note-presenter-names: Victor Fleischer,
+  video: https://youtube.com/embed/wc2LkV7sQF8
+  live-stream-type: session
+  live-stream-time: 
+  live-stream-link:
+  question-time: 
 
 - id: 204
   subtype: session
@@ -173,6 +183,11 @@
     ]
   keywords: anti-racism, book club, dialogue and systemic racism.
   note-presenter-names: Dr. Sterling Joseph Coleman, Jr.,
+  video: https://youtube.com/embed/rNyPD-uhCXE
+  live-stream-type: session
+  live-stream-time: 
+  live-stream-link:
+  question-time: 
 
 - id: 205
   subtype: session
@@ -182,6 +197,11 @@
   audience: ['IIG', 'TEDSIG']
   keywords: personalized services, LibGuides, web services
   note-presenter-names: Ken Irwin,
+  video: https://youtube.com/embed/v_pLm6n4Rb0
+  live-stream-type: session
+  live-stream-time: 
+  live-stream-link:
+  question-time: 
 
 - id: 206
   subtype: lunch
@@ -206,11 +226,17 @@
     ]
   keywords: Cataloging, accessibility, subject headings, cataloging workflows, inclusive cataloging, access points
   note-presenter-names: Masha Stepanova,
+  video: https://youtube.com/embed/NISm24lhHOE
+  live-stream-type: session
+  live-stream-time: 
+  live-stream-link:
+  question-time: 
 
 - id: 209
   subtype: session
   speakers: [8, 61]
-  title: 'Practicing organizational care: Using human-centered approaches to facilitate change in your library'
+  title: 'Thriving Through Human Centered Approaches to Change'
+  orig-title: 'Practicing organizational care: Using human-centered approaches to facilitate change in your library'
   description: "Can you think of a time when you have thrived through change? What made that possible? How did the change effort center on organizational values and engage those impacted? \n\nMost traditional change management practices focus on process and implementation over listening, compassion, and healing. By using human-centered change leadership approaches, we will explore ways to align change efforts with organizational values. We will identify factors that can lead to a change that harness the strengths of the team, while also make space for voices to be heard.\n\nTogether, participants will consider how the Bridges’ Transition Model enables effective and compassionate communication through change and how the Appreciative Inquiry approach can lead to empowering colleagues in order to build engagement and a shared vision for outcomes. Whether leading change, collaborating towards it, or affected by it, these tools will create space to name concerns while shifting to a solutions-oriented frame in order to gain momentum towards sustainable change.\n\nSession participants will:\nUnderstand the basic components of human-centered change \nGain awareness of tools to facilitate engaged change leadership\nDeepen their understanding of how to communicate effectively and compassionately during change efforts"
   audience:
     [
@@ -219,6 +245,11 @@
     ]
   keywords: Change Management, Change Readiness, Team work, Human-Centered, Leadership, Facilitation
   note-presenter-names: Annie Bélanger,Meghan Musolff,
+  video: https://youtube.com/embed/FGsG8B1Rh4Q
+  live-stream-type: session
+  live-stream-time: 
+  live-stream-link:
+  question-time: 
   sponsor:
     group: Individual Session Sponsor
     elements:
@@ -249,6 +280,9 @@
     ]
   keywords: geolocation, map-based interfaces, user interfaces, digital collections, community service, problem solving, archives, collection development, leaflet.js, python, PDF, geoJSON, informal learning, outreach, maker culture, Information literacy instruction, embedded librarianship, instructor-librarian collaborations, inquiry-based learning, text-analysis, Crisis Management Training, Professional Development, Mental Health, Staff Development, Staff Burnout
   note-presenter-names: Bart Lenart,James Murphy,Marc Stoeckle , Joshua Neds-Fox,Clayton Hayes,Meris Longmeier,Judith Wiener,
+  live-stream-type: session
+  live-stream-time: 
+  live-stream-link:
 
 - id: 211
   subtype: session
@@ -258,6 +292,11 @@
   audience: ['AIG', 'C2YCLIG', 'DLIG']
   keywords: Chat Reference, Chat Transcript Review,  Professional Development
   note-presenter-names: Linda Rich,Vera Lux,Jennifer Nyiri,
+  video: https://youtube.com/embed/8a0wHJq4TKw
+  live-stream-type: session
+  live-stream-time: 
+  live-stream-link:
+  question-time: 
 
 - id: 212
   subtype: session
@@ -272,6 +311,11 @@
     ]
   keywords: Connection, Empathy, Data-Driven Research, Institutional Priorities, Consensus Building
   note-presenter-names: Tom Sens,Kyle Moll,
+  video: https://youtube.com/embed/lFN4Vw8Ewlo
+  live-stream-type: session
+  live-stream-time: 
+  live-stream-link:
+  question-time: 
 
 - id: 213
   subtype: session
@@ -286,6 +330,11 @@
     ]
   keywords: LibGuides,   Anti-Racism,   DEI,   Audit,   Rubric
   note-presenter-names: Madeleine Gaiser,Katie Foran-Mulcahy,
+  video: https://youtube.com/embed/Yhav-F8I7Io
+  live-stream-type: session
+  live-stream-time: 
+  live-stream-link:
+  question-time: 
 
 - id: 214
   subtype: social
@@ -372,6 +421,11 @@
   audience: ['IIG', 'PROMIG']
   keywords: Experiential learning, Project Learning, Library Outreach, Faculty collaboration
   note-presenter-names: Gerald Natal,
+  video:
+  live-stream-type: session
+  live-stream-time: 
+  live-stream-link:
+  question-time: 
 
 - id: 302
   subtype: session
@@ -385,6 +439,11 @@
     ]
   keywords: reflective practice, journaling, instruction
   note-presenter-names: Ruth Szpunar,Eric Bradley,
+  video: https://youtube.com/embed/1iDthi8BGu0
+  live-stream-type: session
+  live-stream-time: 
+  live-stream-link:
+  question-time: 
 
 - id: 303
   subtype: session
@@ -399,6 +458,11 @@
     ]
   keywords: Job descriptions, blended positions, evolving libraries, budget constraints
   note-presenter-names: Jenny Donley,Kathleen Baril,
+  video: https://youtube.com/embed/VowLd95Qflo
+  live-stream-type: session
+  live-stream-time: 
+  live-stream-link:
+  question-time: 
 
 - id: 304
   subtype: session
@@ -408,6 +472,11 @@
   audience: ['AIG', 'C2YCLIG', 'SUSIG']
   keywords: e-Books, students, collection use
   note-presenter-names: Jessie Long,John Burke,Krista McDonald,Mark Shores
+  video: https://youtube.com/embed/8bfqEmDK6Kg
+  live-stream-type: session
+  live-stream-time: 
+  live-stream-link:
+  question-time: 
 
 - id: 305
   subtype: session
@@ -421,6 +490,11 @@
     ]
   keywords: Diversity, Equity, Inclusion, Accessibility, Program Planning, Staff Development
   note-presenter-names: Cara Calabrese,Kathleen Baril,Ione Damasco (she/her),Kim Hoffman
+  video: https://youtube.com/embed/WdjdYhg5RNM
+  live-stream-type: session
+  live-stream-time: 
+  live-stream-link:
+  question-time: 
 
 - id: 306
   subtype: session
@@ -430,6 +504,11 @@
   audience: ['AIG', 'IIG']
   keywords: Research consultations, liaison librarians, faculty collaboration, reference, outreach
   note-presenter-names: Kari Siders,Kirsten Setzkorn,Nathanael Davis,
+  video: https://youtube.com/embed/dDABmt8OcoQ
+  live-stream-type: session
+  live-stream-time: 
+  live-stream-link:
+  question-time: 
 
 - id: 307
   subtype: lunch
@@ -480,6 +559,11 @@
     ]
   keywords: Media Effects, Misinformation, Information Literacy, Student Organizations, Funding, Students, Assessment, Feedback, COVID-19, Discussion, Instruction, Anti-racism, DEI, Community
   note-presenter-names: Jaclyn Spraetz,Nate Floyd, Giovanna Colosi, Cori Wilhelm,Hanna Schmillen,Madeleine Gaiser,Josie Evans-Phillips,Carissa Thatcher,
+  video:
+  live-stream-type: session
+  live-stream-time: 
+  live-stream-link:
+  question-time: 
 
 - id: 310
   subtype: session
@@ -494,6 +578,11 @@
     ]
   keywords: Process Automation, Acquisitions, Workflows, Emerging Technologies
   note-presenter-names: Carissa Thatcher,
+  video: https://youtube.com/embed/R-4JsH3oifg
+  live-stream-type: session
+  live-stream-time: 
+  live-stream-link:
+  question-time: 
 
 - id: 311
   subtype: session
@@ -503,6 +592,11 @@
   audience: ['DLIG', 'IIG', 'SCAIG']
   keywords: Primary sources, instruction, archives, asynchronous, online learning, active-learning, faculty/librarian collaboration
   note-presenter-names: Paul C. Campbell ,Miriam Intrator ,
+  video: https://youtube.com/embed/JhDfnvrrB_s
+  live-stream-type: session
+  live-stream-time: 
+  live-stream-link:
+  question-time: 
 
 - id: 312
   subtype: session
@@ -516,7 +610,12 @@
     ]
   keywords: Makerspaces; maker literacy; experiential learning; information literacy; ACRL Framework
   note-presenter-names: Sarah Nagle,
-
+  video: https://youtube.com/embed/RVJc38V2-Tg
+  live-stream-type: session
+  live-stream-time: 
+  live-stream-link:
+  question-time: 
+  
 - id: 313
   title: 'Closing Keynote: Re-Envisioning LIS: Activating Social Justice'
   description: 'Social justice, equity, diversity, and inclusion are significant topics within the profession,
