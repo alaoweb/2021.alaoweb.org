@@ -204,12 +204,12 @@ sponsorsTitle: "Conference Sponsors"
 postersTitle: "POSTER SESSIONS"
 postersBackground: 2021alao-header-image.svg
 showPosters: true
-showPosterContent: false
+showPosterContent: false #true
 noPostersText: "Posters Forthcoming"
 postersCommentsEnabled: true
 discusShortName: "alaoweb"
-showPosterVoting: true
-posterVotingLink: "https://docs.google.com/forms/d/e/1FAIpQLSfas6Fj3iaA20Ma6GwHoRjKubYWRQS14ZQ6pL_58RSEmXcnUw/viewform"
+showPosterVoting: false
+posterVotingLink: "https://docs.google.com/forms/d/e/1FAIpQLSeSYObOdyLkVay5jtIA362TWCPdf-vkVTywNndd4Zzw0xA1Cg/viewform"
 
 # -------------------------------------------------------------
 # Preconference
