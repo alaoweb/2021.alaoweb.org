@@ -43,7 +43,7 @@
   subtype: meeting
   live-stream-type: meeting
   live-stream-time: ''
-  live-stream-link:
+  live-stream-link: https://us02web.zoom.us/j/88492141492?pwd=UUVRZ1RSLzc4RDg4MlJmNjFScVd1UT09
 
 - id: 001
   title: 'Virtual Help Desk'
@@ -72,7 +72,7 @@
   subtype: meeting
   live-stream-type: meeting
   live-stream-time: ''
-  live-stream-link:
+  live-stream-link: https://us02web.zoom.us/j/83286993589?pwd=Q2NSRzlIQ2dsUEVXdzZNNTMza3p0dz09
 
 # - id:
 #   title: 'ALAO Membership Meeting'
@@ -99,7 +99,7 @@
   video:
   live-stream-type: preconference
   live-stream-time: '2021-10-27 15:30:00'
-  live-stream-link:
+  live-stream-link: https://us02web.zoom.us/j/87122491585?pwd=ME83czIrWkdKejJSZnl3cEliOHM0dz09
 
 - id: 103
   title: 'ALAO New Member Orientation Session'
@@ -107,7 +107,7 @@
   subtype: meeting
   live-stream-type: meeting
   live-stream-time: '2021-10-27 17:00:00'
-  live-stream-link:
+  live-stream-link: https://zoom.us/j/97009451889?pwd=c0xIWXdDTmF2dUpVQ1U5RlA0azh6UT09
 
 # ---------------------------------
 # CONFERENCE DAY[2], prefix ID 20x
@@ -132,8 +132,8 @@
   handouts:
   video:
   live-stream-type: keynote
-  live-stream-time: '2020-10-28 09:00:00'
-  live-stream-link:
+  live-stream-time: '2021-10-28 09:00:00'
+  live-stream-link: https://us02web.zoom.us/j/86577957761?pwd=aFpYUlJUb3RNbU5aazZBYUNPblEydz09
 
 - id: 202
   subtype: session
@@ -143,6 +143,11 @@
   audience: ['DLIG', 'IIG', 'PROMIG']
   keywords: resource repository; information literacy; outreach; affordability; student support
   note-presenter-names: "Jane Hammons,Allison DeVito,Hanna Primeau,Amanda Larson\n"
+  video: https://youtube.com/embed/jLx-UHGQ-FY
+  live-stream-type: session
+  live-stream-time: '2021-10-28 10:00:00'
+  live-stream-link: https://zoom.us/j/95703747340?pwd=NEJEOWJQQS8zZGxVVGNiNlE1SUREQT09
+  question-time: '2021-10-28 10:36:00'
 
 - id: 203
   subtype: session
@@ -157,6 +162,11 @@
     ]
   keywords: Disasters; disaster planning, response, and recovery; archives and special collections; COVID-19
   note-presenter-names: Victor Fleischer,
+  video: https://youtube.com/embed/wc2LkV7sQF8
+  live-stream-type: session
+  live-stream-time: '2021-10-28 10:00:00'
+  live-stream-link: https://zoom.us/j/98439765954?pwd=Q09tQWJtelJJWXlOakptSGxWM1NSQT09
+  question-time: '2021-10-28 10:39:00'
 
 - id: 204
   subtype: session
@@ -173,6 +183,11 @@
     ]
   keywords: anti-racism, book club, dialogue and systemic racism.
   note-presenter-names: Dr. Sterling Joseph Coleman, Jr.,
+  video: https://youtube.com/embed/rNyPD-uhCXE
+  live-stream-type: session
+  live-stream-time: '2021-10-28 11:10:00'
+  live-stream-link: https://zoom.us/j/95666103481?pwd=K0ZyL0o5Q2pIQWk0aHptVjNXY0Z1UT09
+  question-time: '2021-10-28 11:27:00'
 
 - id: 205
   subtype: session
@@ -183,6 +198,10 @@
   keywords: personalized services, LibGuides, web services
   note-presenter-names: Ken Irwin,
   video: https://youtube.com/embed/v_pLm6n4Rb0
+  live-stream-type: session
+  live-stream-time: '2021-10-28 11:10:00'
+  live-stream-link: https://zoom.us/j/96389805151?pwd=dXJGQUx2NWt6Q0FsZUFvWTNBTUdUdz09
+  question-time: '2021-10-28 11:28:00'
 
 - id: 206
   subtype: lunch
@@ -192,6 +211,11 @@
 - id: 207
   subtype: lunch
   title: "ALAO Awards Presentation at 12:30pm"
+  live-stream-type: meeting
+  live-stream-time: '2021-10-28 12:30:00'
+  live-stream-link: https://us02web.zoom.us/j/89286344258?pwd=ZWtQdXlxWDdjdS9KVlJ3aW8za0I4dz09
+
+  
 
 - id: 208
   subtype: session
@@ -207,11 +231,17 @@
     ]
   keywords: Cataloging, accessibility, subject headings, cataloging workflows, inclusive cataloging, access points
   note-presenter-names: Masha Stepanova,
+  video: https://youtube.com/embed/NISm24lhHOE
+  live-stream-type: session
+  live-stream-time: '2021-10-28 13:10:00'
+  live-stream-link: https://zoom.us/j/96592116747?pwd=K2w0clc4UjZqTjJLNnE5NVdONDZ2QT09
+  question-time: '2021-10-28 13:29:00'
 
 - id: 209
   subtype: session
   speakers: [8, 61]
-  title: 'Practicing organizational care: Using human-centered approaches to facilitate change in your library'
+  title: 'Thriving Through Human Centered Approaches to Change'
+  orig-title: 'Practicing organizational care: Using human-centered approaches to facilitate change in your library'
   description: "Can you think of a time when you have thrived through change? What made that possible? How did the change effort center on organizational values and engage those impacted? \n\nMost traditional change management practices focus on process and implementation over listening, compassion, and healing. By using human-centered change leadership approaches, we will explore ways to align change efforts with organizational values. We will identify factors that can lead to a change that harness the strengths of the team, while also make space for voices to be heard.\n\nTogether, participants will consider how the Bridges’ Transition Model enables effective and compassionate communication through change and how the Appreciative Inquiry approach can lead to empowering colleagues in order to build engagement and a shared vision for outcomes. Whether leading change, collaborating towards it, or affected by it, these tools will create space to name concerns while shifting to a solutions-oriented frame in order to gain momentum towards sustainable change.\n\nSession participants will:\nUnderstand the basic components of human-centered change \nGain awareness of tools to facilitate engaged change leadership\nDeepen their understanding of how to communicate effectively and compassionately during change efforts"
   audience:
     [
@@ -220,6 +250,11 @@
     ]
   keywords: Change Management, Change Readiness, Team work, Human-Centered, Leadership, Facilitation
   note-presenter-names: Annie Bélanger,Meghan Musolff,
+  video: https://youtube.com/embed/FGsG8B1Rh4Q
+  live-stream-type: session
+  live-stream-time: '2021-10-28 13:10:00'
+  live-stream-link: https://zoom.us/j/98834666699?pwd=dmZsSDVSczU0WVBoS2xFRE41S1p5QT09
+  question-time: '2021-10-28 13:43:00'
   sponsor:
     group: Individual Session Sponsor
     elements:
@@ -250,6 +285,9 @@
     ]
   keywords: geolocation, map-based interfaces, user interfaces, digital collections, community service, problem solving, archives, collection development, leaflet.js, python, PDF, geoJSON, informal learning, outreach, maker culture, Information literacy instruction, embedded librarianship, instructor-librarian collaborations, inquiry-based learning, text-analysis, Crisis Management Training, Professional Development, Mental Health, Staff Development, Staff Burnout
   note-presenter-names: Bart Lenart,James Murphy,Marc Stoeckle , Joshua Neds-Fox,Clayton Hayes,Meris Longmeier,Judith Wiener,
+  live-stream-type: session
+  live-stream-time: '2021-10-28 14:20:00'
+  live-stream-link: https://zoom.us/j/99735980546?pwd=OWpPN01WMGZ5c2xpOHF4eEZhN1I2QT09
 
 - id: 211
   subtype: session
@@ -259,6 +297,11 @@
   audience: ['AIG', 'C2YCLIG', 'DLIG']
   keywords: Chat Reference, Chat Transcript Review,  Professional Development
   note-presenter-names: Linda Rich,Vera Lux,Jennifer Nyiri,
+  video: https://youtube.com/embed/8a0wHJq4TKw
+  live-stream-type: session
+  live-stream-time: '2021-10-28 14:20:00'
+  live-stream-link: https://zoom.us/j/99045132457?pwd=NTI3aWV0VC9VVVdMOUNjcDBLQUZ3UT09
+  question-time: '2021-10-28 14:50:00'
 
 - id: 212
   subtype: session
@@ -273,6 +316,11 @@
     ]
   keywords: Connection, Empathy, Data-Driven Research, Institutional Priorities, Consensus Building
   note-presenter-names: Tom Sens,Kyle Moll,
+  video: https://youtube.com/embed/lFN4Vw8Ewlo
+  live-stream-type: session
+  live-stream-time: '2021-10-28 15:30:00'
+  live-stream-link: https://zoom.us/j/96561611969?pwd=dVhBQTB2UjJ1c2huQUpKSHhwRVkvUT09
+  question-time: '2021-10-28 15:54:00'
 
 - id: 213
   subtype: session
@@ -287,12 +335,20 @@
     ]
   keywords: LibGuides,   Anti-Racism,   DEI,   Audit,   Rubric
   note-presenter-names: Madeleine Gaiser,Katie Foran-Mulcahy,
+  video: https://youtube.com/embed/Yhav-F8I7Io
+  live-stream-type: session
+  live-stream-time: '2021-10-28 15:30:00'
+  live-stream-link: https://zoom.us/j/96276116281?pwd=ZU50N2tqRlkxWFZ6TUltdU5yZXFYUT09
+  question-time: '2021-10-28 16:00:00'
 
 - id: 214
   subtype: social
   title: ALAO Trivia Happy Hour
   description: '<p>Drop in for some trivia and fun at the ALAO Annual Conference Social, held Wednesday, October 28th, 2021 over Zoom. Trivia will start around <b>6pm.</b> See you there!
 </p><img src="/img/other/trivia-night-2021.png" alt="ALAO Conference Trivia Night. Join us on Zoom: October 28, 6pm. https://2021.alaoweb.org">'
+  live-stream-type: session
+  live-stream-time: '2021-10-28 18:00:00'
+  live-stream-link: https://zoom.us/j/95544252481?pwd=RmFXNWJHeUZuVjduWDJsTlpjODBMUT09
 
 - id: 290
   part_of_session: 210
@@ -373,6 +429,11 @@
   audience: ['IIG', 'PROMIG']
   keywords: Experiential learning, Project Learning, Library Outreach, Faculty collaboration
   note-presenter-names: Gerald Natal,
+  video:
+  live-stream-type: session
+  live-stream-time: '2021-10-29 09:00:00'
+  live-stream-link: https://zoom.us/j/91600194898?pwd=WmhEbThwd3NkMHpKenVybnVWaFMzdz09
+  question-time: '2021-10-29 09:26:00'
 
 - id: 302
   subtype: session
@@ -386,6 +447,11 @@
     ]
   keywords: reflective practice, journaling, instruction
   note-presenter-names: Ruth Szpunar,Eric Bradley,
+  video: https://youtube.com/embed/1iDthi8BGu0
+  live-stream-type: session
+  live-stream-time: '2021-10-29 09:00:00'
+  live-stream-link: https://zoom.us/j/97892747149?pwd=dHJZUzczTldaTjc4RWdyUysvZXJuUT09
+  question-time: '2021-10-29 09:27:00'
 
 - id: 303
   subtype: session
@@ -400,6 +466,11 @@
     ]
   keywords: Job descriptions, blended positions, evolving libraries, budget constraints
   note-presenter-names: Jenny Donley,Kathleen Baril,
+  video: https://youtube.com/embed/VowLd95Qflo
+  live-stream-type: session
+  live-stream-time: '2021-10-29 10:10:00'
+  live-stream-link: https://zoom.us/j/98783213093?pwd=RjFHd2NXN0lYYzY5aDZLQlljTTlkUT09
+  question-time: '2021-10-29 10:37:00'
 
 - id: 304
   subtype: session
@@ -409,6 +480,11 @@
   audience: ['AIG', 'C2YCLIG', 'SUSIG']
   keywords: e-Books, students, collection use
   note-presenter-names: Jessie Long,John Burke,Krista McDonald,Mark Shores
+  video: https://youtube.com/embed/8bfqEmDK6Kg
+  live-stream-type: session
+  live-stream-time: '2021-10-29 10:10:00'
+  live-stream-link: https://zoom.us/j/95129117625?pwd=ZWlSSktudHo2V2NsM2xPbVdEcjQ3UT09
+  question-time: '2021-10-29 10:45:00'
 
 - id: 305
   subtype: session
@@ -422,6 +498,11 @@
     ]
   keywords: Diversity, Equity, Inclusion, Accessibility, Program Planning, Staff Development
   note-presenter-names: Cara Calabrese,Kathleen Baril,Ione Damasco (she/her),Kim Hoffman
+  video: https://youtube.com/embed/WdjdYhg5RNM
+  live-stream-type: session
+  live-stream-time: '2021-10-29 11:20:00'
+  live-stream-link: https://zoom.us/j/94879192504?pwd=bzNVazRiYzd0VVp6dTBKYW1IMGJVZz09
+  question-time: '2021-10-29 11:45:00'
 
 - id: 306
   subtype: session
@@ -431,6 +512,11 @@
   audience: ['AIG', 'IIG']
   keywords: Research consultations, liaison librarians, faculty collaboration, reference, outreach
   note-presenter-names: Kari Siders,Kirsten Setzkorn,Nathanael Davis,
+  video: https://youtube.com/embed/dDABmt8OcoQ
+  live-stream-type: session
+  live-stream-time: '2021-10-29 11:20:00'
+  live-stream-link: https://zoom.us/j/91082335179?pwd=Smg4aVJtMzIwSXF4TE40Q3ZxeS9Mdz09
+  question-time: '2021-10-29 11:43:00'
 
 - id: 307
   subtype: lunch
@@ -448,14 +534,17 @@
     Three ALAO Interest Groups will hold lunch meetups at this time. 
     <p><b>Lunch with ALAO's Special Collections and Archives Interest Group (SCAig)</b>
     <br>Meet the co-chairs of ALAO’s Special Collections and Archives Interest Group during lunch! 
-    Learn more about the group’s activities and how you can get involved.</p>
+    Learn more about the group’s activities and how you can get involved.
+    <br><a class="btn btn-primary" href="https://udayton.zoom.us/j/82580154568?pwd=a3hjSW5aREhraUFwd2licURvS0pUdz09">SCAIG Lunch Link</a></p>
     <p><b>Scholarly Communications Interest Group (SCIG) Coffee/Lunch</b>
     <br>This is an informal opportunity to share news or discuss concerns with colleagues 
     on any scholarly communication related topic, including copyright, institutional 
-    repositories, digitization projects, Open Access issues, or anything else on your mind.</p> 
+    repositories, digitization projects, Open Access issues, or anything else on your mind.
+    <br><a class="btn btn-primary" href="https://zoom.us/j/92560380845?pwd=cVBxTG9PYzlyNTNNQnNZcXZ1dUM3dz09">SCIG Lunch Link</a></p> 
     <p><b>Bridges to the future: STEMIG Lunch</b><br>
     Join STEMIG for an open discussion about the lasting impacts of the pandemic, 
-    the future of STEM librarianship, and what’s next for STEMIG!</p>
+    the future of STEM librarianship, and what’s next for STEMIG!
+    <br><a class="btn btn-primary" href="https://us02web.zoom.us/j/84692755055?pwd=TFo4Ty9JNUtXd0FDeE1tY2ZyYWRMdz09">STEMIG Lunch Link</a></p>
   audience: 
     [
       'SCAIG',
@@ -481,6 +570,10 @@
     ]
   keywords: Media Effects, Misinformation, Information Literacy, Student Organizations, Funding, Students, Assessment, Feedback, COVID-19, Discussion, Instruction, Anti-racism, DEI, Community
   note-presenter-names: Jaclyn Spraetz,Nate Floyd, Giovanna Colosi, Cori Wilhelm,Hanna Schmillen,Madeleine Gaiser,Josie Evans-Phillips,Carissa Thatcher,
+  video:
+  live-stream-type: session
+  live-stream-time: '2021-10-29 13:10:00'
+  live-stream-link: https://zoom.us/j/95344113087?pwd=L1B1L3ZCdmp5emJNeGRjN24zT09QQT09
 
 - id: 310
   subtype: session
@@ -495,6 +588,11 @@
     ]
   keywords: Process Automation, Acquisitions, Workflows, Emerging Technologies
   note-presenter-names: Carissa Thatcher,
+  video: https://youtube.com/embed/R-4JsH3oifg
+  live-stream-type: session
+  live-stream-time: '2021-10-29 13:10:00'
+  live-stream-link: https://zoom.us/j/97534944854?pwd=RFJTWWlNdHVNeDI3dzA0d2VYZTFJUT09
+  question-time: '2021-10-29 13:33:00'
 
 - id: 311
   subtype: session
@@ -504,6 +602,11 @@
   audience: ['DLIG', 'IIG', 'SCAIG']
   keywords: Primary sources, instruction, archives, asynchronous, online learning, active-learning, faculty/librarian collaboration
   note-presenter-names: Paul C. Campbell ,Miriam Intrator ,
+  video: https://youtube.com/embed/JhDfnvrrB_s
+  live-stream-type: session
+  live-stream-time: '2021-10-29 14:30:00'
+  live-stream-link: https://zoom.us/j/96662773969?pwd=eXY3cFl4K2kxMHQ5VkM1YjU3TTl6dz09
+  question-time: '2021-10-29 14:58:00'
 
 - id: 312
   subtype: session
@@ -517,7 +620,12 @@
     ]
   keywords: Makerspaces; maker literacy; experiential learning; information literacy; ACRL Framework
   note-presenter-names: Sarah Nagle,
-
+  video: https://youtube.com/embed/RVJc38V2-Tg
+  live-stream-type: session
+  live-stream-time: '2021-10-29 14:30:00'
+  live-stream-link: https://zoom.us/j/99875484309?pwd=d2xWcnlZRUZkcndMc2FiSFlhNkpDdz09
+  question-time: '2021-10-29 14:54:00'
+  
 - id: 313
   title: 'Closing Keynote: Re-Envisioning LIS: Activating Social Justice'
   description: 'Social justice, equity, diversity, and inclusion are significant topics within the profession,
@@ -534,8 +642,8 @@ perspectives to build a foundation for what a more equitable profession looks li
   handouts:
   video:
   live-stream-type: keynote
-  live-stream-time: '2020-10-28 09:00:00'
-  live-stream-link:
+  live-stream-time: '2021-10-29 15:40:00'
+  live-stream-link: https://us02web.zoom.us/j/85704037864?pwd=dzNNVzVKcDJYNDh0OWhac20zVjV5Zz09
 
 - id: 390
   part_of_session: 309
