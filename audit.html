@@ -48,7 +48,7 @@ permalink: /audit/
 If no video, note this as a problem if it's of a subtype that expects a video
 {% endcomment %}
 {% if s.video == nil or s.video == "" %}
-    {% if s.subtype == "meeting" or s.subtype == "keynote" or s.subtype == "preconference" or s.subtype == "lunch" or s.subtype=="social" %}
+    {% if s.subtype == "meeting" or s.subtype == "keynote" or s.subtype == "preconference" or s.subtype == "lunch" or s.subtype=="social"  or s.subtype == "lightning" %}
         {% assign videoClass = "secondary" %}
         {% assign videoText = '<i class="fa fa-minus-circle"></i>' %}
     {% else %}
@@ -62,7 +62,7 @@ If no video, note this as a problem if it's of a subtype that expects a video
 If no video, note this as a problem if it's of a subtype that expects a zoom
 {% endcomment %}
 {% if s.live-stream-link == nil or s.live-stream-link == "" %}
-    {% if s.subtype == "lunch" %}
+    {% if s.subtype == "lunch" or s.subtype == "lightning"%}
         {% assign zoomClass = "secondary" %}
         {% assign zoomText = '<i class="fa fa-minus-circle"></i>' %}
     {% else %}
