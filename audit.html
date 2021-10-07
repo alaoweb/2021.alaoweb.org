@@ -31,6 +31,7 @@ permalink: /audit/
     <thead>
         <tr>
             <th scope="col">Title</th>
+            <th scope="col">Sess. Subtype</th>
             <th scope="col">Video</th>
             <th scope="col">Zoom</th>
         </tr>
@@ -74,6 +75,7 @@ If no video, note this as a problem if it's of a subtype that expects a zoom
 {% if zoomOk == false or videoOk == false %}
     <tr scope="row">
         <td>{{s.title | truncate: 50}}</td>
+        <td>{{s.subtype}}</td>
         <td class="text-white text-center bg-{{videoClass}}">{{videoText}}</td>
         <td class="text-white text-center bg-{{zoomClass}}">{{zoomText}}</td>
     </tr>
