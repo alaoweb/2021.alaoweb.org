@@ -44,15 +44,32 @@ permalink: /audit/
 {% assign zoomClass = "success" %}
 {% assign zoomText = '<i class="fa fa-check"></i>' %}
 
+{% comment %}
+If no video, note this as a problem if it's of a subtype that expects a video
+{% endcomment %}
 {% if s.video == nil or s.video == "" %}
-    {% assign videoOk = false %}
-    {% assign videoClass = "danger" %}
-    {% assign videoText = '<i class="fa fa-times-circle"></i>' %}
+    {% if s.subtype == "meeting" or s.subtype == "keynote" or s.subtype == "preconference" or s.subtype == "lunch" or s.subtype=="social" %}
+        {% assign videoClass = "secondary" %}
+        {% assign videoText = '<i class="fa fa-minus-circle"></i>' %}
+    {% else %}
+        {% assign videoOk = false %}
+        {% assign videoClass = "danger" %}
+        {% assign videoText = '<i class="fa fa-times-circle"></i>' %}
+    {% endif %}
 {% endif %}
+
+{% comment %}
+If no video, note this as a problem if it's of a subtype that expects a zoom
+{% endcomment %}
 {% if s.live-stream-link == nil or s.live-stream-link == "" %}
-    {% assign zoomOk = false %}
-    {% assign zoomClass = "danger" %}
-    {% assign zoomText = '<i class="fa fa-times-circle"></i>' %}
+    {% if s.subtype == "lunch" %}
+        {% assign zoomClass = "secondary" %}
+        {% assign zoomText = '<i class="fa fa-minus-circle"></i>' %}
+    {% else %}
+        {% assign zoomOk = false %}
+        {% assign zoomClass = "danger" %}
+        {% assign zoomText = '<i class="fa fa-times-circle"></i>' %}
+    {% endif %}
 {% endif %}
 {% if zoomOk == false or videoOk == false %}
     <tr scope="row">
