@@ -209,7 +209,7 @@
   description: Lunch on your own
 
 - id: 207
-  subtype: lunch
+  subtype: meeting
   title: "ALAO Awards Presentation at 12:30pm"
   live-stream-type: meeting
   live-stream-time: '2021-10-28 12:30:00'

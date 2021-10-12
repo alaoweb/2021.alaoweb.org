@@ -6,7 +6,7 @@ permalink: /audit/
 {% assign speakers = site.data.speakers %}
 {% assign sessions = site.data.sessions %}
 {% assign posters  = site.posts %}
-<div class="container">
+<div class="container mb-5">
 <h1>Missing Content Audit</h1>
 <h2>Speakers</h2>
 <h3>Missing Photos</h3>
@@ -31,6 +31,7 @@ permalink: /audit/
     <thead>
         <tr>
             <th scope="col">Title</th>
+            <th scope="col">Sess. Subtype</th>
             <th scope="col">Video</th>
             <th scope="col">Zoom</th>
         </tr>
@@ -44,19 +45,37 @@ permalink: /audit/
 {% assign zoomClass = "success" %}
 {% assign zoomText = '<i class="fa fa-check"></i>' %}
 
+{% comment %}
+If no video, note this as a problem if it's of a subtype that expects a video
+{% endcomment %}
 {% if s.video == nil or s.video == "" %}
-    {% assign videoOk = false %}
-    {% assign videoClass = "danger" %}
-    {% assign videoText = '<i class="fa fa-times-circle"></i>' %}
+    {% if s.subtype == "meeting" or s.subtype == "keynote" or s.subtype == "preconference" or s.subtype == "lunch" or s.subtype=="social"  or s.subtype == "lightning" %}
+        {% assign videoClass = "secondary" %}
+        {% assign videoText = '<i class="fa fa-minus-circle"></i>' %}
+    {% else %}
+        {% assign videoOk = false %}
+        {% assign videoClass = "danger" %}
+        {% assign videoText = '<i class="fa fa-times-circle"></i>' %}
+    {% endif %}
 {% endif %}
+
+{% comment %}
+If no video, note this as a problem if it's of a subtype that expects a zoom
+{% endcomment %}
 {% if s.live-stream-link == nil or s.live-stream-link == "" %}
-    {% assign zoomOk = false %}
-    {% assign zoomClass = "danger" %}
-    {% assign zoomText = '<i class="fa fa-times-circle"></i>' %}
+    {% if s.subtype == "lunch" or s.subtype == "lightning"%}
+        {% assign zoomClass = "secondary" %}
+        {% assign zoomText = '<i class="fa fa-minus-circle"></i>' %}
+    {% else %}
+        {% assign zoomOk = false %}
+        {% assign zoomClass = "danger" %}
+        {% assign zoomText = '<i class="fa fa-times-circle"></i>' %}
+    {% endif %}
 {% endif %}
 {% if zoomOk == false or videoOk == false %}
     <tr scope="row">
         <td>{{s.title | truncate: 50}}</td>
+        <td>{{s.subtype}}</td>
         <td class="text-white text-center bg-{{videoClass}}">{{videoText}}</td>
         <td class="text-white text-center bg-{{zoomClass}}">{{zoomText}}</td>
     </tr>
@@ -65,4 +84,3 @@ permalink: /audit/
 </table>
 
 </div>
-
