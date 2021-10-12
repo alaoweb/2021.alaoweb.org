@@ -45,26 +45,15 @@
   live-stream-time: ''
   live-stream-link: https://us02web.zoom.us/j/88492141492?pwd=UUVRZ1RSLzc4RDg4MlJmNjFScVd1UT09
 
-- id: 001
-  title: 'Virtual Help Desk'
-  description: '<strong>Staffed: 12:00pm - 5:00pm</strong><br/>Conference Planning Committee members are available to answer your questions.'
-  subtype: meeting
-  live-stream-type: help desk
-  live-stream-time: ''
-  live-stream-link:
-
 # ---------------------------------
 # CONFERENCE DAY[1], prefix ID 10x
 # Increment session IDs by 1
 # ---------------------------------
 
 - id: 100
-  title: 'Technical Setup'
-  description: ''
+  title: 'Virtual Help Desk'
+  description: '<strong>Staffed: 12:00pm - 5:00pm</strong><br/>Conference Planning Committee members are available to answer your questions.<p><a class="btn btn-primary" href="mailto:program@alaoweb.org">Email Help Desk</a></p>'
   subtype: meeting
-  live-stream-type: meeting
-  live-stream-time: ''
-  live-stream-link:
 
 - id: 101
   title: 'Business Meeting'
@@ -115,7 +104,7 @@
 # ---------------------------------
 - id: 200
   title: 'Virtual Help Desk'
-  description: '<strong>Staffed: 8:00am - 5:00pm</strong><br/>Conference Planning Committee members are available to answer your questions.'
+  description: '<strong>Staffed: 8:00am - 5:00pm</strong><br/>Conference Planning Committee members are available to answer your questions.<p><a class="btn btn-primary" href="mailto:program@alaoweb.org">Email Help Desk</a></p>'
   subtype: meeting
   live-stream-type: help desk
   live-stream-time: ''
@@ -415,7 +404,7 @@
 # ---------------------------------
 - id: 300
   title: 'Virtual Help Desk'
-  description: '<strong>Staffed: 8:00am - 5:00pm</strong><br/>Conference Planning Committee members are available to answer your questions.'
+  description: '<strong>Staffed: 8:00am - 5:00pm</strong><br/>Conference Planning Committee members are available to answer your questions. <p><a class="btn btn-primary" href="mailto:program@alaoweb.org">Email Help Desk</a></p>'
   subtype: meeting
   live-stream-type: help desk
   live-stream-time: ''

@@ -12,7 +12,7 @@
     - { title: 'Track #1' }
     - { title: 'Track #2' }
   timeslots:
-    - { startTime: '12:00', endTime: '3:00', sessionIds: [100] }
+    - { startTime: '12:00', endTime: '5:00', sessionIds: [100] }
     - { startTime: '2:30', endTime: '3:00', sessionIds: [101] }
     - { startTime: '3:30', endTime: '4:30', sessionIds: [102] }
     - { startTime: '5:00', endTime: '6:00', sessionIds: [103] }
@@ -23,6 +23,7 @@
     - { title: 'Track #1' }
     - { title: 'Track #2' }
   timeslots:
+    - { startTime: '8:00', endTime: '5:00', sessionIds: [200] }
     - { startTime: '9:00', endTime: '9:50', sessionIds: [201] }
     - { startTime: '10:00', endTime: '11:00', sessionIds: [202, 203] }
     - { startTime: '11:10', endTime: '12:10', sessionIds: [204, 205] }
@@ -38,6 +39,7 @@
     - { title: 'Track #1' }
     - { title: 'Track #2' }
   timeslots:
+    - { startTime: '8:00', endTime: '5:00', sessionIds: [300] }
     - { startTime: '9:00', endTime: '9:50', sessionIds: [301, 302] }
     - { startTime: '10:10', endTime: '11:10', sessionIds: [303, 304] }
     - { startTime: '11:20', endTime: '12:20', sessionIds: [305, 306] }
