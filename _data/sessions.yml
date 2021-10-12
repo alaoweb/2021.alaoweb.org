@@ -38,7 +38,7 @@
 # ---------------------------------
 - id: 000
   title: 'Ask Me Anything: Working with Art and Cartoons'
-  description: 'This free event will be offered in an AMA (Ask Me Anything) format. Your opportunity to learn what it is like to work with visual collections! Have you wondered what it is like to feature comic strips, or the best way to present art? Curious about the resources available to support art and design research? Learn about two unique Ohio libraries, the Jessica R. Gund Memorial Library and The Billy Ireland Cartoon Library & Museum from two of their librarians!  Join us for this fun event and bring your questions. Conference registration not required. <!--p><a class="btn btn-primary" href="https://www.alaoweb.org/event-4499209">Register for AMA Event</a></p-->'
+  description: 'This free event will be offered in an AMA (Ask Me Anything) format. Your opportunity to learn what it is like to work with visual collections! Have you wondered what it is like to feature comic strips, or the best way to present art? Curious about the resources available to support art and design research? Learn about two unique Ohio libraries, the Jessica R. Gund Memorial Library and The Billy Ireland Cartoon Library & Museum from two of their librarians!  Join us for this fun event and bring your questions. Conference registration not required. <p><a class="btn btn-primary" href="https://www.alaoweb.org/event-4499209">Register for AMA Event</a></p>'
   speakers: [78, 79]
   subtype: meeting
   live-stream-type: meeting
@@ -85,7 +85,7 @@
   language:
   complexity:
   handouts:
-  video:
+  video: https://www.youtube.com/embed/KT5VLrMAl6U
   live-stream-type: preconference
   live-stream-time: '2021-10-27 15:30:00'
   live-stream-link: https://us02web.zoom.us/j/87122491585?pwd=ME83czIrWkdKejJSZnl3cEliOHM0dz09
@@ -154,7 +154,7 @@
   language:
   complexity:
   handouts:
-  video:
+  video: https://youtube.com/embed/WpK6newHH1E
   live-stream-type: keynote
   live-stream-time: '2021-10-28 09:00:00'
   live-stream-link: https://us02web.zoom.us/j/86577957761?pwd=aFpYUlJUb3RNbU5aazZBYUNPblEydz09
@@ -697,7 +697,7 @@ perspectives to build a foundation for what a more equitable profession looks li
   language:
   complexity:
   handouts:
-  video:
+  video: https://youtube.com/embed/PBv_239lhWw
   live-stream-type: keynote
   live-stream-time: '2021-10-29 15:40:00'
   live-stream-link: https://us02web.zoom.us/j/85704037864?pwd=dzNNVzVKcDJYNDh0OWhac20zVjV5Zz09
