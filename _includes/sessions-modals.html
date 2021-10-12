@@ -31,11 +31,20 @@
 						class="theme-video embed-responsive embed-responsive-16by9">
 						<iframe loading="lazy" class="lazyload embed-responsive-item"
 							{% include allow-fullscreen.html %}
-							data-src="{{ session.video }}"></iframe>
+							data-src="{{ session.video }}?cc_load_policy=1&&cc_lang_pref=en"></iframe>
 					</div>
 					{% endif %}
 					<p class="theme-description">{{ session.description }}</p>
-					{% if session.subtype == 'session' and site.sessionFeedbackForm != null %}
+
+					{% if session.keywords %}
+					<p><b>Keywords:</b> {{session.keywords}}</b></p>
+					{% endif %}
+
+					{% if session.audience %}
+					<p><b>Audience/Interest Groups:</b> {% include interest-groups.html content=session.audience %}</p>
+					{% endif %}
+
+					{% if session.subtype == 'session' and site.sessionFeedbackForm != nil and site.sessionFeedbackForm != "" and site.sessionFeedbackParameter != nil and site.sessionFeedbackParameter != "" %}
 					<div class="row survey-row">
 						<div class="col-md-4"></div>
 						<div class="col-md-8">
@@ -50,7 +59,7 @@
 					<div class="row survey-row">
 						<div class="col-md-4"></div>
 						<div class="col-md-8">
-							<a href="{{ site.keynoteFeedbackForm }}"
+							<a href="{{ site.keynoteFeedbackForm }}{{session.title | url_encode }}"
 								class="survey-button btn"
 								target="_blank"
 								aria-label="Complete the survey for {{ session.title }}}">{{session.subtype | capitalize }}

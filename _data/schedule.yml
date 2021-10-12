@@ -1,5 +1,5 @@
 - date: '2021-10-21'
-  dateReadable: 'October 21'
+  dateReadable: 'Thursday, October 21'
   tracks:
     - { title: 'Track #1' }
     - { title: 'Track #2' }
@@ -7,18 +7,18 @@
     - { startTime: '3:30', endTime: '4:30', sessionIds: [000] }
 
 - date: '2021-10-27'
-  dateReadable: 'October 27'
+  dateReadable: 'Wednesday, October 27'
   tracks:
     - { title: 'Track #1' }
     - { title: 'Track #2' }
   timeslots:
     - { startTime: '12:00', endTime: '3:00', sessionIds: [100] }
-    - { startTime: '3:00', endTime: '3:30', sessionIds: [101] }
+    - { startTime: '2:30', endTime: '3:00', sessionIds: [101] }
     - { startTime: '3:30', endTime: '4:30', sessionIds: [102] }
     - { startTime: '5:00', endTime: '6:00', sessionIds: [103] }
 
 - date: '2021-10-28'
-  dateReadable: 'October 28'
+  dateReadable: 'Thursday, October 28'
   tracks:
     - { title: 'Track #1' }
     - { title: 'Track #2' }
@@ -33,7 +33,7 @@
     - { startTime: '6:00', endTime: '7:00', sessionIds: [214] }
 
 - date: '2021-10-29'
-  dateReadable: 'October 29'
+  dateReadable: 'Friday, October 29'
   tracks:
     - { title: 'Track #1' }
     - { title: 'Track #2' }

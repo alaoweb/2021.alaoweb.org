@@ -9,7 +9,7 @@
         {% if site.showOrganizers == true %}
         <div class="col-lg-10 col-lg-offset-1 text-center">
             <h3 class=" h4text-left animated hiding appear-animation-trigger"
-                data-animation="fadeInUp" data-delay="0">Organizers</h3>
+                data-animation="fadeInUp" data-delay="0">Conference Planning Committee</h3>
             {% assign team = site.data.team | sort: "surname" %}
             {% for teamMember in team %} {% if teamMember.organizer == true %}
             <div
@@ -32,9 +32,11 @@
                                     class="position">{{ teamMember.title }}</span>
 
                                 <div class="clearfix"></div>
+                                {% if teamMember.pronouns.size > 0 %}
                                 <span
                                     class="pronouns">{{ teamMember.pronouns }}</span>
-                            </div>
+                                </div>
+                                {% endif %}
                             {% for social in teamMember.social %}
                             <a href="{{ social["link"] }}" target="_blank">
                                 <svg class="icon icon-{{ social["name"] }}"
@@ -52,12 +54,12 @@
             {% endif %} {% endfor %}
         </div>
         {% endif %}
-        {% if site.showProgramCommittee == true %}
+        {% if site.showWebTeam == true %}
         <div class="col-lg-10 col-lg-offset-1 text-center">
             <h4 class="text-left animated hiding appear-animation-trigger"
-                data-animation="fadeInUp" data-delay="0">Program committee</h4>
+                data-animation="fadeInUp" data-delay="0">Conference Website Team</h4>
             {% for teamMember in site.data.team %}
-            {% if teamMember.programCommittee == true %}
+            {% if teamMember.webTeam == true %}
             <div
                 class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation">
                 <div class="zoe-effect" data-toggle="modal"
@@ -72,6 +74,12 @@
                                 <div class="clearfix"></div>
                                 <span
                                     class="position">{{ teamMember.title }}</span>
+                                    {% if teamMember.pronouns.size > 0 %}
+                                    
+                                    <span
+                                        class="pronouns">{{ teamMember.pronouns }}</span>
+                                    
+                                    {% endif %}
                             </div>
                             {% for social in teamMember.social %}
                             <a href="{{ social["link"] }}" target="_blank">

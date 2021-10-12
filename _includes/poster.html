@@ -47,7 +47,7 @@
                     class="theme-video embed-responsive embed-responsive-16by9">
                     <iframe title="{{doc.title}}" class="embed-responsive-item"
                       {% include allow-fullscreen.html %}
-                      src="{{ doc.url }}?rel=0"></iframe>
+                      src="{{ doc.url }}?rel=0&cc_load_policy=1&cc_lang_pref=en"></iframe>
                   </div>
                 </div>
                 {% elsif doc.type == 'image' %}
@@ -69,7 +69,7 @@
               </div>
               {% endfor %}
               {% endif %}
-              {% if page.supplemental-docs %}
+              {% if page.supplemental-docs and site.showPosterContent %}
               <div class="supplemental-docs">
                 <h4 class="h5">Supplemental Documents</h4>
                 <ul class="fa-ul">
@@ -78,10 +78,14 @@
                   {% assign icon = "fas fa-file-pdf" %}
                   {% elsif supdoc.type == 'word' %}
                   {% assign icon = "fas fa-file-word" %}
+                  {% elsif supdoc.type == 'powerpoint' %}
+                  {% assign icon = "fas fa-file-powerpoint" %}
                   {% elsif supdoc.type == "website" %}
                   {% assign icon = "fas fa-rocket" %}
                   {% elsif supdoc.type == "github" %}
                   {% assign icon = "fab fa-github" %}
+                  {% elsif supdoc.type == "tableau" %}
+                  {% assign icon = "fas fa-chart-bar" %}
                   {% else %}
                   {% assign icon = "fas fa-circle" %}
                   {% endif %}

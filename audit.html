@@ -1,0 +1,68 @@
+---
+layout: bootstrap
+title: Website Completeness Audit
+permalink: /audit/
+---
+{% assign speakers = site.data.speakers %}
+{% assign sessions = site.data.sessions %}
+{% assign posters  = site.posts %}
+<div class="container">
+<h1>Missing Content Audit</h1>
+<h2>Speakers</h2>
+<h3>Missing Photos</h3>
+{% for s in speakers %}
+    {% if s.thumbnailUrl == nil or s.thumbnailUrl == "" %}
+    <li>{{s.name}} {{s.surname}}</li>
+    {% endif %}
+{% endfor %}
+<hr>
+<h2>Posters</h2>
+<h3>Missing main content</h3>
+{% for p in posters %}
+{% assign len = p.session-contents| size %}
+{% if len == 0 %}
+<li><a href="{{ site.baseurl | append: p.url }}">{{p.title}}</a></li>
+{% endif %}
+{% endfor %}
+<hr>
+<h2>Sessions</h2>
+<h3>Sessions without Video/Zoom Links</h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Title</th>
+            <th scope="col">Video</th>
+            <th scope="col">Zoom</th>
+        </tr>
+    </thead>
+
+{% for s in sessions %}
+{% assign videoOk = true %}
+{% assign videoClass = "success" %}
+{% assign videoText = '<i class="fa fa-check"></i>' %}
+{% assign zoomOk = true %}
+{% assign zoomClass = "success" %}
+{% assign zoomText = '<i class="fa fa-check"></i>' %}
+
+{% if s.video == nil or s.video == "" %}
+    {% assign videoOk = false %}
+    {% assign videoClass = "danger" %}
+    {% assign videoText = '<i class="fa fa-times-circle"></i>' %}
+{% endif %}
+{% if s.live-stream-link == nil or s.live-stream-link == "" %}
+    {% assign zoomOk = false %}
+    {% assign zoomClass = "danger" %}
+    {% assign zoomText = '<i class="fa fa-times-circle"></i>' %}
+{% endif %}
+{% if zoomOk == false or videoOk == false %}
+    <tr scope="row">
+        <td>{{s.title | truncate: 50}}</td>
+        <td class="text-white text-center bg-{{videoClass}}">{{videoText}}</td>
+        <td class="text-white text-center bg-{{zoomClass}}">{{zoomText}}</td>
+    </tr>
+{% endif %}
+{% endfor %}
+</table>
+
+</div>
+

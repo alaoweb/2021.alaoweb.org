@@ -1,0 +1,57 @@
+
+{% assign sponsorGroups = site.data.sponsors%}
+
+{% for group in sponsorGroups %}
+    {% if group.group != 'do-not-include' %}
+    {% if group.elements.size > 1 %}
+        {% assign label = 'Sponsors' %}
+    {% else %}
+        {% assign label = 'Sponsor' %}
+    {% endif %}
+
+    <h2>{{group.group}} {{label}}</h2>
+
+    <div class="container">
+        {% for sponsor in group.elements %}
+            {% if sponsor.active == true %}
+            <div class="vendor vendor-infobox">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2 class="h4">
+                            {{sponsor.name}}
+                        </h2> 
+                        <div class="vendor-description">{{sponsor.description}}</div>
+                        <div class="vendor-rep">
+                            <h3 class="vendor-contact">
+                                {% if sponsor.rep-email != '' || sponsor.rep-name != '' %}
+                                Contact: 
+                                <span class="rep-name">{{sponsor.rep-name}}</span>
+                                {% if sponsor.rep-email != '' %}
+                                <span class="rep-email"><a href="mailto:{{sponsor.rep-email}}">Email</a></span>
+                                {% endif %}
+                                {% endif %}
+                            </h3>
+                            <div class="rep-title">{{sponsor.rep-title}} </div>
+                            
+                        </div>
+                    </div>
+        
+                    <div class="col-md-5 col-md-offset-1">
+                        <img src="/img/sponsors/{{sponsor.imageUrl}}" alt="{{sponsor.name}}" style="width: 80%">
+                        <div class="custom-content">
+                            {% if sponsor.content %}
+                            <a href="{{sponsor.content.url}}" class="btn btn-primary">{{sponsor.content.text}}</a>
+                            {% else if sponsor.link %}
+                            <a href="{{sponsor.link}}" class="btn btn-primary">Home</a>
+                            {% endif %}
+
+                        </div>
+        
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+    {% endif %}
+{% endfor %}

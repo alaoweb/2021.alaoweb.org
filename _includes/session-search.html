@@ -57,7 +57,8 @@
             <td class="type">{{session.subtype}}</td>
             <td class="presenters schedule">{{speakers}}</td>
             <td class="description" style="display: none;">
-              {{session.description}}
+              {{session.description}} {{session.keywords}} {{session.audience}}
+              {% include interest-groups.html content=session.audience %}
             </td>
             <td class="speaker-org" style="display:none">
               {{ speaker.company }}
@@ -109,8 +110,12 @@
             <td class="type">poster</td>
             <td class="presenters schedule">{{speakers}}</td>
             <td class="description" style="display: none;">
-              {{session.description}}
+              {{session.description}} {{session.keywords}} {{session.audience}}
             </td>
+            <td class="audience" style="display:none">
+              {{session.audience}}
+            </td>
+
             <span class="speaker-org" style="display: none;">
               {{person.institution}}
             </span>
