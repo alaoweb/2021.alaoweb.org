@@ -135,7 +135,9 @@ $modal-highlight-color: #212121;
     float: right;
     padding-left: 10px;
     padding-right: 10px;
-    transform: translateY(50%);
+    &.one-line {
+      transform: translateY(50%);
+    }
   }
 }
 .survey-row {
