@@ -8,9 +8,9 @@ keywords: Diversity, subject headings, LCSH, metadata, RDA, inclusion
 presenter-names: Justina Kaiser,
 speaker-data: [42]
 session-contents:
-#  - type: video
-#    url: //www.youtube.com/embed/trW4vvIyXmQ
-#    title: Intro Video
+  - type: video
+    url: //www.youtube.com/embed/oXLssffrVjY
+    title: Intro Video
 #  - type: image
 #    url: /img/posters/filename.png
 #    title: Image Title
