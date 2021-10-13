@@ -8,9 +8,9 @@ keywords: course guides, research guides, library guides, collaboration, COVID-1
 presenter-names: Dipti Mehta,Xiaocan (Lucy) Wang,
 speaker-data: [18, 77]
 session-contents:
-#  - type: video
-#    url: //www.youtube.com/embed/trW4vvIyXmQ
-#    title: Intro Video
+  - type: video
+    url: //www.youtube.com/embed/3AyLZ4cvgkA
+    title: Intro Video
 #  - type: image
 #    url: /img/posters/filename.png
 #    title: Image Title
