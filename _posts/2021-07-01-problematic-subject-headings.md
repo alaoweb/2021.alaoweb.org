@@ -17,6 +17,9 @@ session-contents:
 #    alt: Alt text
 #    text-description: "<ol><li>Thing One</li><li>Thing Two</li></ol>"
 supplemental-docs:
+  - type: pdf
+    url: /handouts/problematic-subject-headings-slides.pdf
+    title: Slides
 isStaticPost: false
 published: true
 ---
