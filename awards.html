@@ -36,46 +36,48 @@ image: 2021alao-header-image.svg
     If using a data-source that base64-encodes values for secrecy, set use64 = true.
     For plain-text data-source, set use64 = false.
     {% endcomment %}
-    {% assign use64 = true %}
-    {% for award in site.data.awards-base64 %}
-    <div class="one-award p-3 mb-4">
-        <h4 class="award-title">{{award.title | decode64: use64}}</h4>
-        <div class="award-description">{{award.description | decode64: use64}}
-            {% if award.infoUrl.size > 0 %}
-            [<a href="{{ award.infoUrl | decode64: use64}}">Read more</a>]
-            {% endif %}
-        </div>
-
-        {% if site.showAwardWinners and award.winners.first %}
-
-        {% for winner in award.winners %}
-        {% if winner.name.size > 0 %}
-        <div class="winner-block row">
-            {% if winner.photo.size > 0 %}
-            <div class="winner-photo col-2">
-                <img src="/img/people/{{winner.photo | decode64: use64}}"
-                    class="img-circle" />
-            </div>
-            {% else %}
-            <div class="winner-photo col-2">
-                <img src="/img/people/no_image.png"
-                    class="img-circle" />
-            </div>
-            {% endif %}
-            <div class="col-9">
-                <div class="award-winner">
-                    {{winner.name | decode64: use64 }},
-                    {{winner.institution | decode64: use64 }}
+    {% assign use64 = false %}
+    {% for award in site.data.awards_2021 %}
+        {% if award.display == nil or award.display == true %}
+            <div class="one-award p-3 mb-4">
+                <h4 class="award-title">{{award.title | decode64: use64}}</h4>
+                <div class="award-description">{{award.description | decode64: use64}}
+                    {% if award.infoUrl.size > 0 %}
+                    [<a href="{{ award.infoUrl | decode64: use64}}">Read more</a>]
+                    {% endif %}
                 </div>
-                <div class="award-citation">
-                    {{winner.citation | decode64: use64 }}
-                </div>
-            </div>
-        </div>
-        {% endif %}
-        {% endfor %}
 
+                {% if site.showAwardWinners and award.winners.first %}
+
+                {% for winner in award.winners %}
+                {% if winner.name.size > 0 %}
+                <div class="winner-block row">
+                    {% if winner.photo.size > 0 %}
+                    <div class="winner-photo col-2">
+                        <img src="/img/people/{{winner.photo | decode64: use64}}"
+                            class="img-circle" />
+                    </div>
+                    {% else %}
+                    <div class="winner-photo col-2">
+                        <img src="/img/people/no_image.png"
+                            class="img-circle" />
+                    </div>
+                    {% endif %}
+                    <div class="col-9">
+                        <div class="award-winner">
+                            {{winner.name | decode64: use64 }},
+                            {{winner.institution | decode64: use64 }}
+                        </div>
+                        <div class="award-citation">
+                            {{winner.citation | decode64: use64 }}
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+                {% endfor %}
+
+                {% endif %}
+            </div>
         {% endif %}
-    </div>
     {% endfor %}
 </div>
