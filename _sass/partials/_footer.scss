@@ -5,6 +5,7 @@ $footer-links-color: #757575;
   padding: 40px 52px 13px;
   border-top: 1px solid #e7e7e7;
   background-color: $footer-background-color;
+  font-size: $base-font-size * 1.2;
   @media (max-width: 767px) {
     padding: 26px 20px 13px;
   }
