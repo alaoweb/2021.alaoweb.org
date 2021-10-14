@@ -42,7 +42,7 @@ image: 2021alao-header-image.svg
         <h4 class="award-title">{{award.title | decode64: use64}}</h4>
         <div class="award-description">{{award.description | decode64: use64}}
             {% if award.infoUrl.size > 0 %}
-            [<a href="{{ award.infoUrl | decode64: use64}}" style="color:#0072ed">Read more</a>]
+            [<a href="{{ award.infoUrl | decode64: use64}}">Read more</a>]
             {% endif %}
         </div>
 
