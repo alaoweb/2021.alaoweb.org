@@ -258,7 +258,16 @@
   subtype: session
   speakers: [9, 31, 57, 39, 15, 62, 41]
   title: 'Lightning Talks #1'
-  description: 'This session focuses on sustainability and connection in academic libraries and consists of four short talks followed by a live Q&A: "Essential but unusable: rehabilitating an aging digital collection", "Supporting Campus Innovation Efforts through Library Events", "Bridging the gap between sustainability and impact: The relationship between librarian involvement and the efficacy of information literacy instruction", and "Exploring Mental Health First Aid Training as a Library Staff Crisis Management Tool".'
+  description: >
+    This session focuses on sustainability and connection in academic libraries 
+    and consists of four short talks followed by a live Q&A: 
+    <li>Essential but unusable: rehabilitating an aging digital collection (Neds-Fox & Hayes)</li>
+    <li>Supporting Campus Innovation Efforts through Library Events (Longmeier)</li>
+    <li>Bridging the gap between sustainability and impact: The relationship 
+    between librarian involvement and the efficacy of information literacy 
+    instruction (Lenart, Murphy & Stoeckle)</li>
+    <li>Exploring Mental Health First Aid Training as a Library Staff Crisis Management Tool
+    (Wiener)</li>
   audience:
     [
       'PROMIG',
@@ -543,9 +552,19 @@
 
 - id: 309
   subtype: session
-  speakers: [30, 64, 25, 16, 27, 56, 40, 12]
+  speakers: [30, 64, 25, 16, 27, 56, 40]
   title: 'Lightning Talks #2'
-  description: 'This session focuses on collaboration and meaningful connection in academic libraries and consists of five short talks followed by a live Q&A: "Connecting media studies and information literacy to help students identify misinformation", "Academic Libraries collaborating with Graduate Student Organizations", "Conversations with Students: Using a Student Advisory Board for Dialogue and Assessment, "Conspiracy Theories in the Classroom: COVID-19 Misinformation Edition", and "Library Collaboration with College DEI Leadership Brings Mutual Benefits".'
+  description: >
+    This session focuses on collaboration and meaningful connection in 
+    academic libraries and consists of five short talks followed by a live Q&A: 
+    <li>Connecting media studies and information literacy to help students identify 
+    misinformation (Spraetz & Floyd)</li>
+    <li>Academic Libraries collaborating with Graduate Student Organizations 
+    (Colosi)</li>
+    <li>Conversations with Students: Using a Student Advisory Board for Dialogue 
+    and Assessment (Wilhelm)</li>
+    <li>Conspiracy Theories in the Classroom: COVID-19 Misinformation Edition (Schmillen)</li>
+    <li>Library Collaboration with College DEI Leadership Brings Mutual Benefits (Madeleine Gaiser & Evans-Phillips)</li>
   audience:
     [
       'IIG',
@@ -558,7 +577,7 @@
       'Library administration/supervision, diversity, consortia, emerging technologies, reference',
     ]
   keywords: Media Effects, Misinformation, Information Literacy, Student Organizations, Funding, Students, Assessment, Feedback, COVID-19, Discussion, Instruction, Anti-racism, DEI, Community
-  note-presenter-names: Jaclyn Spraetz,Nate Floyd, Giovanna Colosi, Cori Wilhelm,Hanna Schmillen,Madeleine Gaiser,Josie Evans-Phillips,Carissa Thatcher,
+  note-presenter-names: Jaclyn Spraetz,Nate Floyd, Giovanna Colosi, Cori Wilhelm,Hanna Schmillen,Madeleine Gaiser,Josie Evans-Phillips,
   video:
   live-stream-type: session
   live-stream-time: '2021-10-29 13:10:00'
@@ -591,7 +610,7 @@
   audience: ['DLIG', 'IIG', 'SCAIG']
   keywords: Primary sources, instruction, archives, asynchronous, online learning, active-learning, faculty/librarian collaboration
   note-presenter-names: Paul C. Campbell ,Miriam Intrator ,
-  video: https://youtube.com/embed/JhDfnvrrB_s
+  video: https://youtube.com/embed/fupoKVy6xLI
   live-stream-type: session
   live-stream-time: '2021-10-29 14:30:00'
   live-stream-link: https://zoom.us/j/96662773969?pwd=eXY3cFl4K2kxMHQ5VkM1YjU3TTl6dz09
