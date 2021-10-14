@@ -552,7 +552,7 @@
 
 - id: 309
   subtype: session
-  speakers: [30, 64, 25, 16, 27, 56, 40, 12]
+  speakers: [30, 64, 25, 16, 27, 56, 40]
   title: 'Lightning Talks #2'
   description: >
     This session focuses on collaboration and meaningful connection in 
