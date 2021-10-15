@@ -439,18 +439,6 @@
   ribbon:
   social:
 
-- id: 36
-  name: Jillian
-  surname: Ewalt
-  pronouns: she/her
-  company: University of Dayton
-  email: jewalt1@udayton.edu
-  bio: Jillian Ewalt (she/her) is a librarian for visual resources at the University of Dayton
-  thumbnailUrl:
-  rockstar: false
-  ribbon:
-  social:
-
 - id: 37
   name: John
   surname: Burke
