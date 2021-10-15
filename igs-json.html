@@ -37,8 +37,8 @@ Finally, output the audience groups as a json file
                 {% assign igLabel = ig %}
             {% endif %}
             {
-        "groupId": "{{ig}}",
-        "groupLabel": "{{igLabel}}"
+        "id": "{{ig}}",
+        "label": "{{igLabel}}"
         }
             {% unless forloop.last %},{% endunless %}
         {% endfor %}
