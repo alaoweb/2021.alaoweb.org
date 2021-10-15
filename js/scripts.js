@@ -9,13 +9,22 @@
 
       /* for schedule page, scroll to today if today is a day on the schedule */
       // we want today == date in yyyy_mm_dd format
-      let today = new Date();
-      let dd = String(today.getDate()).padStart(2, '0');
-      let mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
-      let yyyy = today.getFullYear();
-      today = yyyy + '_' + mm + '_' + dd;
+      let now = new Date();
+      let dd = String(now.getDate()).padStart(2, '0');
+      let mm = String(now.getMonth() + 1).padStart(2, '0'); //January is 0!
+      let yyyy = now.getFullYear();
+      let today = yyyy + '_' + mm + '_' + dd;
       // today = '2021_10_29'; //uncomment this line to use this as the test date
       // console.log('today:', today);
+
+      // Display today's schedule sponsor block
+      if (document.getElementById(today)) {
+          // if today is a "scheduled" day, display the block
+          document.getElementById(today).nextElementSibling.style.display = "block";
+      } else if (document.getElementsByClassName('schedule-sponsors')[0]) {
+          // Or if no dates match, show on the first block
+          document.getElementsByClassName('schedule-sponsors')[0].style.display = "block";
+      }
 
       let navHeight = 100;
       let element = $('#' + today);
