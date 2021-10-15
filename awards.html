@@ -65,8 +65,8 @@ image: 2021alao-header-image.svg
                     {% endif %}
                     <div class="col-9">
                         <div class="award-winner">
-                            {{winner.name | decode64: use64 }},
-                            {{winner.institution | decode64: use64 }}
+                            {{winner.name | decode64: use64 }}{% if winner.institution != "" %},
+                            {{winner.institution | decode64: use64 }}{% endif %}
                         </div>
                         <div class="award-citation">
                             {{winner.citation | decode64: use64 }}
