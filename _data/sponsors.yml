@@ -113,7 +113,7 @@
         name: 'Springer Nature',
         link: 'https://www.springernature.com/',
         imageUrl: 'springer_nature.png',
-        video: 'https://www.youtube.com/watch?v=ke44YCKig_w',
+        # video: 'https://www.youtube.com/watch?v=ke44YCKig_w',
         description: "Springer Nature is a leading global scientific, scholarly, professional and educational publisher, home to an array of respected and trusted brands providing quality content through a range of innovative products and services. Springer Nature is the world's largest academic book publisher, publisher of the world's highest impact journals and a pioneer in the field of open research. The company numbers almost 13,000 staff in over 50 countries.",
         rep-name: 'Paulo Aneiros',
         rep-title: 'Licensing Manager',
