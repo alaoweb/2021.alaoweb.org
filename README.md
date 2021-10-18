@@ -9,12 +9,14 @@ GitHub Pages build from `main` branch: [https://2021.alaoweb.org](https://2021.a
 
 #### ACCESSIBILITY DASHBOARD:
 http://pa11y.alaoweb.org/
-<!-->
+<!--
 #### STAGING
 Netlify build from `staging` branch: [https://2020-staging.alaoweb.org](https://2020-staging.alaoweb.org)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3bcb0bf6-d7dc-433c-afff-69ba64964e69/deploy-status)](https://app.netlify.com/sites/alao/deploys)
 -->
+
+Content Completeness Audit: https://2021.alaoweb.org/audit
 
 ## Intro
 
