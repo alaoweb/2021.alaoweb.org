@@ -65,15 +65,9 @@
         "winners": [
             {
                 "citation": "",
-                "institution": "",
-                "name": "",
-                "photo": ""
-            },
-            {
-                "citation": "",
-                "institution": "",
-                "name": "",
-                "photo": ""
+                "institution": "Miami University",
+                "name": "Ken Irwin",
+                "photo": "ken_irwin.jpg"
             }
         ]
     },
@@ -138,7 +132,7 @@
                 "citation": "",
                 "institution": "Case Western Reserve University",
                 "name": "Daniela Solomon",
-                "photo": ""
+                "photo": "daniela_solomon.jpeg"
             },
             {
                 "citation": "",
@@ -150,7 +144,7 @@
                 "citation": "",
                 "institution": "University of Akron",
                 "name": "Mike Monaco",
-                "photo": ""
+                "photo": "mike_monaco.jpeg"
             }
         ]
     },
