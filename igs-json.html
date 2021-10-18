@@ -1,0 +1,45 @@
+---
+permalink: /igs.json
+layout: none
+title: IG Test
+note: outputs a json array of all the audience/interest groups listed in sessions.yml and defined in acronyms.yml
+---
+{% comment %}
+First, get the list of IGs/Audience as an array
+{% endcomment %}
+
+{% assign igs = '' | split: ',' %}
+{% for session in site.data.sessions %}
+    {% if session.audience.first %}
+        {% assign igs = igs | concat: session.audience %}
+    {% endif %}    
+{% endfor %}
+{% assign igs = igs | uniq | sort_natural %}
+
+{% comment %}
+Second, get the list of acronyms from acronyms.yml
+{% endcomment %}
+{% assign acronyms = site.data.acronyms %}
+
+{% comment %}
+Finally, output the audience groups as a json file
+{% endcomment %}
+
+[
+    {% for ig in igs %}
+            {% assign igLabel = "" %}
+            {% for ac in acronyms %}
+                {% if ig == ac.short %}
+                    {% assign igLabel = ig | append: ' (' | append: ac.display | append: ')' %}
+                {% endif %}
+            {% endfor %}
+            {% if igLabel == "" %}
+                {% assign igLabel = ig %}
+            {% endif %}
+            {
+        "id": "{{ig}}",
+        "label": "{{igLabel}}"
+        }
+            {% unless forloop.last %},{% endunless %}
+        {% endfor %}
+]

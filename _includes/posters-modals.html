@@ -23,6 +23,13 @@
             <p class="poster-description">
               {{ page.description }}
             </p>
+            {% if page.keywords %}
+            <p><b>Keywords:</b> {{page.keywords}}</b></p>
+            {% endif %}
+  
+            {% if page.audience %}
+            <p><b>Audience/Interest Groups:</b> {% include interest-groups.html content=page.audience %}</p>
+            {% endif %}
             {% if site.showPosters != false %}
               <a href="/posters/{{page.slug}}.html" class="btn btn-primary">View Poster</a>
             {% endif %}

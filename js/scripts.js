@@ -19,11 +19,13 @@
 
       // Display today's schedule sponsor block
       if (document.getElementById(today)) {
-          // if today is a "scheduled" day, display the block
-          document.getElementById(today).nextElementSibling.style.display = "block";
+        // if today is a "scheduled" day, display the block
+        document.getElementById(today).nextElementSibling.style.display =
+          'block';
       } else if (document.getElementsByClassName('schedule-sponsors')[0]) {
-          // Or if no dates match, show on the first block
-          document.getElementsByClassName('schedule-sponsors')[0].style.display = "block";
+        // Or if no dates match, show on the first block
+        document.getElementsByClassName('schedule-sponsors')[0].style.display =
+          'block';
       }
 
       let navHeight = 100;
@@ -257,6 +259,12 @@
           filterID: 'type',
           filterLabel: 'Session Type',
         },
+        {
+          containerClass: 'audience',
+          filterID: 'description',
+          filterLabel: 'Audience',
+          externalSource: '/igs.json', //don't parse column data, select opts from another file
+        },
       ];
 
       /*
@@ -280,13 +288,28 @@
             f.filterLabel +
             '---</option></select>'
         );
-        arr.forEach(function (element) {
-          $('#' + f.filterID).append('<option>' + element + '</option>');
-        });
+        if (f.externalSource) {
+          $.get(f.externalSource, function (data) {
+            data.forEach(function (element) {
+              $('#' + f.filterID).append(
+                '<option value="' +
+                  element.id +
+                  '">' +
+                  element.label +
+                  '</option>'
+              );
+            });
+            console.log('json get data', data);
+          });
+        } else {
+          arr.forEach(function (element) {
+            $('#' + f.filterID).append('<option>' + element + '</option>');
+          });
+        }
 
         /*
-                now that the filter pulldown is built, bind it to the filter action onChange
-                */
+          now that the filter pulldown is built, bind it to the filter action onChange
+        */
 
         $('#' + f.filterID).change(function (event) {
           let thisFilter = $(this).attr('id');
@@ -298,6 +321,7 @@
           });
           let filterTerm = $(this).val();
           console.log('Selected ' + f.filterID + ':', filterTerm);
+          console.log(listObj);
           listObj.filter(function (item) {
             if (item.values()[f.filterID].includes(filterTerm)) {
               return true;
