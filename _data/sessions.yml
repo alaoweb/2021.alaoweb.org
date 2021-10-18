@@ -57,7 +57,7 @@
 
 - id: 101
   title: 'Business Meeting'
-  description: ''
+  description: "Academic Library Association of Ohio's annual membership meeting. Join us and hear about annual updates and strategic initiatives for ALAO."
   subtype: meeting
   live-stream-type: meeting
   live-stream-time: ''
@@ -92,7 +92,7 @@
 
 - id: 103
   title: 'ALAO New Member Orientation Session'
-  description: ''
+  description: 'Do you have questions about how ALAO works or the benefits of ALAO membership? Then this is the session for you. Join ALAO’s Membership Chair, Maureen Barry, to learn more about the organization and meet other newer members from across the state.'
   subtype: meeting
   live-stream-type: meeting
   live-stream-time: '2021-10-27 17:00:00'
@@ -200,6 +200,7 @@
 - id: 207
   subtype: meeting
   title: "ALAO Awards Presentation at 12:30pm"
+  description: "This session will announce the awardees for ALAO's service awards and grant recipients. See the Awards page for information about the awards. Winners will be posted on the page after they are announced."
   live-stream-type: meeting
   live-stream-time: '2021-10-28 12:30:00'
   live-stream-link: https://us02web.zoom.us/j/89286344258?pwd=ZWtQdXlxWDdjdS9KVlJ3aW8za0I4dz09
