@@ -8,15 +8,18 @@ keywords: student engagement; user experience; video tutorials
 presenter-names: Feng-Ru Sheu,
 speaker-data: [21]
 session-contents:
-#  - type: video
-#    url: //www.youtube.com/embed/trW4vvIyXmQ
-#    title: Intro Video
-#  - type: image
-#    url: /img/posters/filename.png
-#    title: Image Title
-#    alt: Alt text
-#    text-description: "<ol><li>Thing One</li><li>Thing Two</li></ol>"
+  #  - type: video
+  #    url: //www.youtube.com/embed/trW4vvIyXmQ
+  #    title: Intro Video
+  - type: image
+    url: /img/posters/story-based-videos-poster.png
+    title: Poster
+    alt: Alt text
+    # text-description: '<ol><li>Thing One</li><li>Thing Two</li></ol>'
 supplemental-docs:
+  - type: pdf
+    url: /handouts/story-based-videos-poster.pdf
+    title: Poster as PDF
 isStaticPost: false
 published: true
 ---
