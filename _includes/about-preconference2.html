@@ -36,22 +36,15 @@
                     {% endfor %}
                     
                     {% if thisSession %}
-                        <div class="row survey-row">
-                            <div class="col-md-4"></div>
-                            <div class="col-md-8">
-                                <a href="{{ site.preconferenceFeedbackForm }}"
-                                    class="survey-button btn"
-                                    target="_blank"
-                                    aria-label="Complete the survey for {{ thisSession.title }}}">{{thisSession.subtype | capitalize }}
-                                    Feedback</a>
-                            </div>
-                        </div>
-                        
                         {% if thisSession.live-stream-link and thisSession.live-stream-type %}
                             {% if thisSession.live-stream-type %}
-                                <div class="row survey-row">
+                                <div class="row survey-row" style="padding-top:1em">
                                     <div class="col-md-4"></div>
                                     <div class="col-md-8">
+                                        <span class="qa-time oneline">
+                                            {{ thisSession.live-stream-type | capitalize }} starts:
+                                            {{ thisSession.live-stream-time | date: "%b %d %I:%M %p" }}
+                                        </span>
                                         <div class="qa-button" style="float: right; padding-bottom: 1em">
                                             <a href="{{ thisSession.live-stream-link }}"
                                                 target="_blank"
@@ -62,6 +55,16 @@
                                 </div>
                             {% endif %}
                         {% endif %}
+                        <div class="row survey-row">
+                            <div class="col-md-4"></div>
+                            <div class="col-md-8">
+                                <a href="{{ site.preconferenceFeedbackForm }}"
+                                    class="survey-button btn"
+                                    target="_blank"
+                                    aria-label="Complete the survey for {{ thisSession.title }}}">{{thisSession.subtype | capitalize }}
+                                    Feedback</a>
+                            </div>
+                        </div>
                     {% endif %}
                 {% endif %}
             </div>
