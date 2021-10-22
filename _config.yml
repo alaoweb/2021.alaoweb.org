@@ -206,11 +206,11 @@ sponsorsTitle: "Conference Sponsors"
 postersTitle: "POSTER SESSIONS"
 postersBackground: 2021alao-header-image.svg
 showPosters: true
-showPosterContent: false #true
+showPosterContent: true
 noPostersText: "Posters Forthcoming"
 postersCommentsEnabled: true
 discusShortName: "alaoweb"
-showPosterVoting: false
+showPosterVoting: true
 posterVotingLink: "https://docs.google.com/forms/d/e/1FAIpQLSeSYObOdyLkVay5jtIA362TWCPdf-vkVTywNndd4Zzw0xA1Cg/viewform"
 
 # -------------------------------------------------------------
@@ -277,7 +277,7 @@ serviceprojectLocations:
 # -------------------------------------------------------------
 # Sessions
 # -------------------------------------------------------------
-showSessions: false
+showSessions: true
 
 # -------------------------------------------------------------
 # Statistic Block
@@ -304,10 +304,10 @@ subscribeInfo: "Stay Informed of ALAO Events!"
 # -------------------------------------------------------------
 # currently showing 2021 survey links
 # deactivate until conference time
-# sessionFeedbackForm: "https://docs.google.com/forms/d/e/1FAIpQLSdLzPAjyAt3hZQinnf8NWP_7qYGk-ZbCGVyCRKURczte6djvQ/viewform?usp=pp_url"
-# sessionFeedbackParameter: "entry.1153076421"
-# keynoteFeedbackForm: "https://docs.google.com/forms/d/e/1FAIpQLSedR9Cm9jG7RQ9AxN7v2km_BxgdwCyl_HTVpVCnk86jSvJIug/viewform?usp=pp_url&entry.1153076421="
-# preconferenceFeedbackForm: "https://docs.google.com/forms/d/e/1FAIpQLSdzxxqW748MuWXLjc-MYaBZHABpZAzA_XBZ5X5IRhgNnUUq_g/viewform"
+sessionFeedbackForm: "https://docs.google.com/forms/d/e/1FAIpQLSdLzPAjyAt3hZQinnf8NWP_7qYGk-ZbCGVyCRKURczte6djvQ/viewform?usp=pp_url"
+sessionFeedbackParameter: "entry.1153076421"
+keynoteFeedbackForm: "https://docs.google.com/forms/d/e/1FAIpQLSedR9Cm9jG7RQ9AxN7v2km_BxgdwCyl_HTVpVCnk86jSvJIug/viewform?usp=pp_url&entry.1153076421="
+preconferenceFeedbackForm: "https://docs.google.com/forms/d/e/1FAIpQLSdzxxqW748MuWXLjc-MYaBZHABpZAzA_XBZ5X5IRhgNnUUq_g/viewform"
 
 # leftover from 2020 as not needed in 2021:
 # preconferenceWorkshopFeedbackForm: "https://docs.google.com/forms/d/e/1FAIpQLScr9oiR9VEgU77lISo2YV_MkrC3SK-D_7ixZ14UYr9L4AWz0w/viewform"
