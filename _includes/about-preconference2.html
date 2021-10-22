@@ -26,6 +26,46 @@
                     <p>{{ row.details }}</p>
                     <p>{{ row.list }}</p>
                 </div>
+
+
+                {% if row.sessionId %}
+                    {% for session in site.data.sessions %}
+                        {% if session.id == row.sessionId %}
+                            {% assign thisSession = session %}
+                        {% endif %}
+                    {% endfor %}
+                    
+                    {% if thisSession %}
+
+                    {% if thisSession.live-stream-link and thisSession.live-stream-type %}
+                    {% if thisSession.live-stream-type %}
+                    <div class="row survey-row">
+                        <div class="col-md-4"></div>
+						<div class="col-md-8">
+                            <div class="qa-button" style="float: right; padding-bottom: 1em">
+                                <a href="{{ thisSession.live-stream-link }}"
+                                    target="_blank"
+                                    class="btn btn-danger">Launch
+                                    {{ thisSession.live-stream-type | capitalize }}</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    {% endif %}
+                    {% endif %}
+
+					<div class="row survey-row">
+						<div class="col-md-4"></div>
+						<div class="col-md-8">
+							<a href="{{ site.preconferenceFeedbackForm }}"
+								class="survey-button btn"
+								target="_blank"
+								aria-label="Complete the survey for {{ thisSession.title }}}">{{thisSession.subtype | capitalize }}
+								Feedback</a>
+						</div>
+					</div>
+                    {% endif %}
+                {% endif %}
             </div>
             {% endfor %}
         </div>
