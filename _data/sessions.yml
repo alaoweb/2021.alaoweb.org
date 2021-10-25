@@ -261,7 +261,7 @@
 
 - id: 210
   subtype: session
-  speakers: [39, 15, 62, 41, 56, 40]
+  speakers: [39, 15, 62, 56, 40, 41]
   title: 'Lightning Talks #1'
   description: >
     This session focuses on sustainability and connection in academic libraries 
@@ -555,21 +555,24 @@
 
 - id: 309
   subtype: session
-  speakers: [9, 31, 57, 30, 64, 25, 16, 27]
+  speakers: [30 ,64, 9, 31, 57, 27, 16, 25]
   title: 'Lightning Talks #2'
   description: >
     This session focuses on collaboration and meaningful connection in 
     academic libraries and consists of five short talks followed by a live Q&A: 
     <li>Connecting media studies and information literacy to help students identify 
     misinformation (Spraetz & Floyd)</li>
-    <li>Academic Libraries collaborating with Graduate Student Organizations 
-    (Colosi)</li>
-    <li>Conversations with Students: Using a Student Advisory Board for Dialogue 
-    and Assessment (Wilhelm)</li>
     <li>Bridging the gap between sustainability and impact: The relationship 
     between librarian involvement and the efficacy of information literacy 
     instruction (Lenart, Murphy & Stoeckle)</li>
     <li>Conspiracy Theories in the Classroom: COVID-19 Misinformation Edition (Schmillen)</li>
+    <li>Conversations with Students: Using a Student Advisory Board for Dialogue 
+    and Assessment (Wilhelm)</li>
+    <li>Academic Libraries collaborating with Graduate Student Organizations 
+    (Colosi)</li>
+    
+
+    
   audience:
     [
       'IIG',
