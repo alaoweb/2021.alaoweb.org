@@ -9,7 +9,7 @@ presenter-names: Dipti Mehta,Xiaocan (Lucy) Wang,
 speaker-data: [18, 77]
 session-contents:
   - type: video
-    url: //https://www.youtube.com/embed/hDRw9Snbe-o
+    url: //www.youtube.com/embed/hDRw9Snbe-o
     title: Intro Video
 #  - type: image
 #    url: /img/posters/filename.png
