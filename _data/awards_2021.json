@@ -64,7 +64,7 @@
         "type": "award",
         "winners": [
             {
-                "citation": "",
+                "citation": "Ken has demonstrated an imaginative and sustained commitment to the use of new technologies and his programming chops will have a positive impact on academic libraries and our students. For example, the MyGuide research dashboard proactively connects every student and faculty member at Miami University with customized library resources derived from LibGuides APIs catered to the student's majors and the classes they're taking according to the university's authentication system (while preserving their privacy). Students are also saving thousands of dollars from the innovative integration of Springshare's LibCal with Adobe and Apple licensing APIs to circulate short-term software licenses. This allows libraries to maintain an affordable number of software licenses, while legally and efficiently sharing those licenses among students. Best of all, through Ken's presentations and the sharing of his projects via open-source code repositories, this year's TEDDY award winner gives Ohio's TEDSIG community the right to use, study, change, repurpose, and build upon this amazing foundation.",
                 "institution": "Miami University",
                 "name": "Ken Irwin",
                 "photo": "ken_irwin.jpg"
