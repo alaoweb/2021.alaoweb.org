@@ -528,7 +528,7 @@
 
 - id: 308
   subtype: lunch
-  title: 'Interest Group Lunch Meetups: Special Collections & Archives (SCAIG), Scholarly Communications (SCIG), STEM (STEMIG)'
+  title: 'Interest Group Lunch Meetups: Special Collections & Archives (SCAIG), Scholarly Communications (SCIG), STEM (STEMIG), Sustainability (SUSIG)'
   note-presenter-names: >
     Henry Handley & Joshua Zeller (SCAIG); 
     Drew Balduff & Cynthia Kristof (SCIG);
@@ -548,11 +548,15 @@
     Join STEMIG for an open discussion about the lasting impacts of the pandemic, 
     the future of STEM librarianship, and what’s next for STEMIG!
     <br><a class="btn btn-primary" href="https://us02web.zoom.us/j/84692755055?pwd=TFo4Ty9JNUtXd0FDeE1tY2ZyYWRMdz09">STEMIG Lunch Link</a></p>
+    <p><b>Lunch with the Sustainability Interest Group (SUSIG)</b><br>
+    Join the SUSIG co-chairs for the official launch of our crowd-sourced database of recycling programs database, learn about life cycle assessments (LCAs), and share sustainability challenges and success stories at your institutions. 
+    <br><a class="btn btn-primary" href="https://miamioh.zoom.us/j/86334835684?pwd=Nkp5ZVpBYnJjMjNNYU42Z1NVVlVtdz09">SUSIG Lunch Link</a></p>
   audience: 
     [
       'SCAIG',
       'SCIG',
-      'STEMIG'
+      'STEMIG',
+      'SUSIG'
     ]
 
 - id: 309
