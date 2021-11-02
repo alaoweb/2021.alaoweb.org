@@ -146,3 +146,8 @@
     right: 0;
   }
 }
+article {
+  &:nth-child(odd) .poster-panel {
+    background-color: #f4fcfa; //lighten(#a6eada, 18%);
+  }
+}
