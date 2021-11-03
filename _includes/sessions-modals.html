@@ -44,51 +44,54 @@
 					<p><b>Audience/Interest Groups:</b> {% include interest-groups.html content=session.audience %}</p>
 					{% endif %}
 
-					{% if session.subtype == 'session' and site.sessionFeedbackForm != nil and site.sessionFeedbackForm != "" and site.sessionFeedbackParameter != nil and site.sessionFeedbackParameter != "" %}
-					<div class="row survey-row">
-						<div class="col-md-4"></div>
-						<div class="col-md-8">
-							<a href="{{ site.sessionFeedbackForm }}&{{ site.sessionFeedbackParameter }}={{ session.title | url_encode }}"
-								class="survey-button btn"
-								target="_blank"
-								aria-label="Complete the survey for {{ session.title }}}">{{session.subtype | capitalize }}
-								Feedback</a>
+					{% if site.showSessionFeedbackLinks %}
+						{% if session.subtype == 'session' and site.sessionFeedbackForm != nil and site.sessionFeedbackForm != "" and site.sessionFeedbackParameter != nil and site.sessionFeedbackParameter != ""  %}
+						<div class="row survey-row">
+							<div class="col-md-4"></div>
+							<div class="col-md-8">
+								<a href="{{ site.sessionFeedbackForm }}&{{ site.sessionFeedbackParameter }}={{ session.title | url_encode }}"
+									class="survey-button btn"
+									target="_blank"
+									aria-label="Complete the survey for {{ session.title }}}">{{session.subtype | capitalize }}
+									Feedback</a>
+							</div>
 						</div>
-					</div>
-					{% elsif session.subtype == 'keynote' and site.keynoteFeedbackForm != null  %}
-					<div class="row survey-row">
-						<div class="col-md-4"></div>
-						<div class="col-md-8">
-							<a href="{{ site.keynoteFeedbackForm }}{{session.title | url_encode }}"
-								class="survey-button btn"
-								target="_blank"
-								aria-label="Complete the survey for {{ session.title }}}">{{session.subtype | capitalize }}
-								Feedback</a>
+						{% elsif session.subtype == 'keynote' and site.keynoteFeedbackForm != null  %}
+						<div class="row survey-row">
+							<div class="col-md-4"></div>
+							<div class="col-md-8">
+								<a href="{{ site.keynoteFeedbackForm }}{{session.title | url_encode }}"
+									class="survey-button btn"
+									target="_blank"
+									aria-label="Complete the survey for {{ session.title }}}">{{session.subtype | capitalize }}
+									Feedback</a>
+							</div>
 						</div>
-					</div>
-					{% elsif session.subtype == 'preconference' and site.preconferenceFeedbackForm %}
-					<div class="row survey-row">
-						<div class="col-md-4"></div>
-						<div class="col-md-8">
-							<a href="{{ site.preconferenceFeedbackForm }}"
-								class="survey-button btn"
-								target="_blank"
-								aria-label="Complete the survey for {{ session.title }}}">{{session.subtype | capitalize }}
-								Feedback</a>
+						{% elsif session.subtype == 'preconference' and site.preconferenceFeedbackForm %}
+						<div class="row survey-row">
+							<div class="col-md-4"></div>
+							<div class="col-md-8">
+								<a href="{{ site.preconferenceFeedbackForm }}"
+									class="survey-button btn"
+									target="_blank"
+									aria-label="Complete the survey for {{ session.title }}}">{{session.subtype | capitalize }}
+									Feedback</a>
+							</div>
 						</div>
-					</div>
-					{% elsif session.subtype == 'workshop' and site.preconferenceWorkshopFeedbackForm %}
-					<div class="row survey-row">
-						<div class="col-md-4"></div>
-						<div class="col-md-8">
-							<a href="{{ site.preconferenceWorkshopFeedbackForm }}"
-								class="survey-button btn"
-								target="_blank"
-								aria-label="Complete the survey for {{ session.title }}}">{{session.subtype | capitalize }}
-								Feedback</a>
+						{% elsif session.subtype == 'workshop' and site.preconferenceWorkshopFeedbackForm %}
+						<div class="row survey-row">
+							<div class="col-md-4"></div>
+							<div class="col-md-8">
+								<a href="{{ site.preconferenceWorkshopFeedbackForm }}"
+									class="survey-button btn"
+									target="_blank"
+									aria-label="Complete the survey for {{ session.title }}}">{{session.subtype | capitalize }}
+									Feedback</a>
+							</div>
 						</div>
-					</div>
+						{% endif %}
 					{% endif %}
+
 					<div class="row qa-row">
 						<div class="col-md-4">
 							{% if session.handouts and site.showSessions == true %}
@@ -109,34 +112,34 @@
 							{% endif %}
 						</div>
 						<div class="col-md-8 qa-info">
-							{% if session.live-stream-link and session.live-stream-type and site.showSessions %}
-							{% if session.live-stream-type %}
-							<div class="qa-button">
-								<a href="{{ session.live-stream-link }}"
-									target="_blank"
-									class="btn btn-danger">Launch
-									{{ session.live-stream-type | capitalize }}</a>
-							</div>
-							{% if session.question-time %}
-								{% assign extraClass="" %}
-							{% else %}
-								{% assign extraClass = " one-line" %}
-							{% endif %} 
-							<div class="qa-time{{extraClass}}">
-								{{ session.live-stream-type | capitalize }} starts:
-								{{ session.live-stream-time | date: "%b %d %I:%M %p" }}
-								{% if session.question-time %}
-								<br>Q&A starts approx.: {{ session.question-time | date: "%b %d %I:%M %p" }}
+							{% if session.live-stream-link and session.live-stream-type and site.showSessions and site.showLiveStreamLinks %}
+								{% if session.live-stream-type %}
+									<div class="qa-button">
+										<a href="{{ session.live-stream-link }}"
+											target="_blank"
+											class="btn btn-danger">Launch
+											{{ session.live-stream-type | capitalize }}</a>
+									</div>
+										{% if session.question-time %}
+											{% assign extraClass="" %}
+										{% else %}
+											{% assign extraClass = " one-line" %}
+										{% endif %} 
+									<div class="qa-time{{extraClass}}">
+										{{ session.live-stream-type | capitalize }} starts:
+										{{ session.live-stream-time | date: "%b %d %I:%M %p" }}
+										{% if session.question-time %}
+										<br>Q&A starts approx.: {{ session.question-time | date: "%b %d %I:%M %p" }}
+										{% endif %}
+									</div>
+								{% else %}
+									<div class="qa-button">
+										<a href="{{ session.live-stream-link }}"
+											target="_blank"
+											class="btn btn-danger">Launch
+											{{ session.live-stream-type | capitalize }}</a>
+									</div>
 								{% endif %}
-							</div>
-							{% else %}
-							<div class="qa-button">
-								<a href="{{ session.live-stream-link }}"
-									target="_blank"
-									class="btn btn-danger">Launch
-									{{ session.live-stream-type | capitalize }}</a>
-							</div>
-							{% endif %}
 							{% endif %}
 						</div>
 					</div>

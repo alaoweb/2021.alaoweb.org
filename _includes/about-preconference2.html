@@ -37,7 +37,7 @@
                     
                     {% if thisSession %}
                         {% if thisSession.live-stream-link and thisSession.live-stream-type %}
-                            {% if thisSession.live-stream-type %}
+                            {% if thisSession.live-stream-type and site.showPreconfLiveStreamLinks %}
                                 <div class="row survey-row" style="padding-top:1em">
                                     <div class="col-md-4"></div>
                                     <div class="col-md-8">
@@ -55,6 +55,7 @@
                                 </div>
                             {% endif %}
                         {% endif %}
+                        {% if site.showPreconfFeedbackLinks %}
                         <div class="row survey-row">
                             <div class="col-md-4"></div>
                             <div class="col-md-8">
@@ -65,6 +66,7 @@
                                     Feedback</a>
                             </div>
                         </div>
+                        {% endif %}
                     {% endif %}
                 {% endif %}
             </div>
