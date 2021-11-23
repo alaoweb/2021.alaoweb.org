@@ -72,6 +72,33 @@
         ]
     },
     {
+        "display": true,
+        "applicationForm": null,
+        "description": "",
+        "infoUrl": null,
+        "title": "People's Choice Poster Award",
+        "winners": [
+            {
+                "citation": "For the poster: 'Beyond the Land Acknowledgement: Indigenous Language Revitalization, Student Activism, and Library Research'",
+                "institution": "Miami University",
+                "name": "Stefanie Hilles & Ginny Boehme",
+                "photo": ""
+            },
+            {
+                "citation": "For the poster: 'Thinking through Diversity in the University’s Music Library to Connect to the Academic Community and Beyond'",
+                "institution": "Bowling Green State University",
+                "name": "Trinidad Linares",
+                "photo": "trinidad_linares.jpg"
+            },
+            {
+                "citation": "For the poster: 'A Celebration of Us!: A Telling of a Libraries’ Value During COVID-19 Through Stories and Data'",
+                "institution": "University of Cincinnati",
+                "name": "Deborah Tenofsky, Ted Baldwin, Catie Carlson & Katie Foran-Mulcahy",
+                "photo": ""
+            }
+        ]
+    },
+    {
         "description": "ALAO values diversity in its membership, in the profession, and in future library professionals. For that reason, we offer a $1,500 scholarship to a promising student enrolled in an ALA-accredited MLS program who exemplifies the qualities needed to ensure a diverse library workforce. The scholarship funds will be sent to the recipient after institutional enrollment is confirmed by the Diversity Committee chair or designee.",
         "infoUrl": "https://www.alaoweb.org/Diversity-Scholarship-Award",
         "nominationForm": null,
