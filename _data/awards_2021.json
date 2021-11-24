@@ -76,22 +76,22 @@
         "applicationForm": null,
         "description": "",
         "infoUrl": null,
-        "title": "People's Choice Poster Award",
+        "title": "People's Choice Poster Award (three-way tie!)",
         "winners": [
             {
-                "citation": "For the poster: 'Beyond the Land Acknowledgement: Indigenous Language Revitalization, Student Activism, and Library Research'",
+                "citation": "For the poster: <a href=\"/posters/indigenous-language-revitalization\">Beyond the Land Acknowledgement: Indigenous Language Revitalization, Student Activism, and Library Research</a>",
                 "institution": "Miami University",
                 "name": "Stefanie Hilles & Ginny Boehme",
                 "photo": ""
             },
             {
-                "citation": "For the poster: 'Thinking through Diversity in the University’s Music Library to Connect to the Academic Community and Beyond'",
+                "citation": "For the poster: <a href=\"/posters/diversity-music-library\">Thinking through Diversity in the University’s Music Library to Connect to the Academic Community and Beyond</a>",
                 "institution": "Bowling Green State University",
                 "name": "Trinidad Linares",
                 "photo": "trinidad_linares.jpg"
             },
             {
-                "citation": "For the poster: 'A Celebration of Us!: A Telling of a Libraries’ Value During COVID-19 Through Stories and Data'",
+                "citation": "For the poster: <a href=\"/posters/libraries-value-covid-19\">A Celebration of Us!: A Telling of a Libraries’ Value During COVID-19 Through Stories and Data</a>",
                 "institution": "University of Cincinnati",
                 "name": "Deborah Tenofsky, Ted Baldwin, Catie Carlson & Katie Foran-Mulcahy",
                 "photo": ""
